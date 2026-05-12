@@ -1,6 +1,6 @@
 # nats-hub-data
 
-Backend pipeline for the [nats-hub](https://github.com/dmgordon25/nats-hub) Google TV app — Washington Nationals concierge for senior fans.
+Backend pipeline for the [nats-hub](https://github.com/dmgordon25-web/nats-hub) Google TV app — Washington Nationals concierge for senior fans.
 
 This repo polls free public sources (MLB stats API, ESPN, Open-Meteo) every few minutes during game windows, normalizes the data into a single JSON payload, and publishes it to GitHub Pages. The TV app reads from one URL and gets everything: schedule, live game state, probable pitchers, injuries, standings, weather, former-Nats tracker, provider routing rules, and tidbits.
 
@@ -11,7 +11,7 @@ This repo polls free public sources (MLB stats API, ESPN, Open-Meteo) every few 
 GitHub Pages serves `docs/` at:
 
 ```
-https://dmgordon25.github.io/nats-hub-data/
+https://dmgordon25-web.github.io/nats-hub-data/
 ├── nationals.json     # The single payload the app reads on every refresh
 ├── former_nats.json   # Former-Nats tracker (also embedded in nationals.json)
 ├── providers.json     # Provider routing rules (app caches, refreshes daily)
@@ -111,4 +111,4 @@ Estimated GitHub Actions usage: ~400 free-tier minutes/month. Free tier gives 2,
 
 ## Companion repo
 
-The TV app lives at [dmgordon25/nats-hub](https://github.com/dmgordon25/nats-hub).
+The TV app lives at [dmgordon25-web/nats-hub](https://github.com/dmgordon25-web/nats-hub).

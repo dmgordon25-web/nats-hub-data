@@ -36,7 +36,7 @@ logging.basicConfig(
 # ---------- constants ----------
 
 NATIONALS_TEAM_ID = 120  # MLB statsapi team id
-USER_AGENT = "nats-hub-data/0.1 (+https://github.com/dmgordon25/nats-hub-data)"
+USER_AGENT = "nats-hub-data/0.1 (+https://github.com/dmgordon25-web/nats-hub-data)"
 
 # Static map: MLB statsapi team id -> abbreviation. The /people hydrate doesn't
 # include team abbreviation, and team abbreviations are stable, so a local map
