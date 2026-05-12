@@ -1,0 +1,94 @@
+{
+  "_comment": "Provider routing rules. The app takes the broadcasts list from a game and matches against `match_keywords` (case-insensitive substring on broadcast.name OR broadcast.call_sign). The first matching rule wins. `package` is the Android app package name; `intent_uri` is a deep link template (placeholders: {game_pk}, {game_date}). The app's resolver tries the deep link first, then `fallback_uri`, then `universal_fallback`.",
+  "_resolution_order_hint": "When a game has multiple broadcasts (national + local), the app prefers in this order: national exclusive (Apple TV+, Peacock, Roku, ESPN, FOX, FS1, TBS) > MLB Network > MASN/Nationals > radio. This list is the master fallback chain.",
+  "universal_fallback": {
+    "label": "Open the MLB app",
+    "package": "com.bamnetworks.mobile.android.gameday.atbat",
+    "intent_uri": "mlbatbat://"
+  },
+  "rules": [
+    {
+      "id": "apple_tv_plus",
+      "label": "Apple TV - Friday Night Baseball",
+      "match_keywords": ["apple tv", "appletv", "atv+"],
+      "package": "com.apple.atve.androidtv.appletv",
+      "intent_uri": "https://tv.apple.com/us/show/friday-night-baseball/umc.cmc.6gxv4q5tcyfvfvy81qjkcr20s",
+      "fallback_uri": "https://tv.apple.com",
+      "is_national_exclusive": true
+    },
+    {
+      "id": "peacock",
+      "label": "Peacock",
+      "match_keywords": ["peacock", "nbcsn / peacock"],
+      "package": "com.peacocktv.peacockandroid",
+      "intent_uri": "peacock://livetv",
+      "fallback_uri": "https://www.peacocktv.com/",
+      "is_national_exclusive": true
+    },
+    {
+      "id": "roku_channel",
+      "label": "The Roku Channel - MLB Sunday Leadoff",
+      "match_keywords": ["roku", "sunday leadoff"],
+      "package": "com.roku.web.trc",
+      "intent_uri": "https://therokuchannel.roku.com/watch/live-tv",
+      "fallback_uri": "https://therokuchannel.roku.com/",
+      "is_national_exclusive": true
+    },
+    {
+      "id": "espn",
+      "label": "ESPN on YouTube TV",
+      "match_keywords": ["espn", "espn2"],
+      "package": "com.google.android.youtube.tvunplugged",
+      "intent_uri": "https://tv.youtube.com/watch/live/espn",
+      "fallback_uri": "https://tv.youtube.com/",
+      "is_national_exclusive": true,
+      "notes": "User has YouTube TV; deep-link to the ESPN live channel."
+    },
+    {
+      "id": "fox_sports",
+      "label": "FOX/FS1 on YouTube TV",
+      "match_keywords": ["fox", "fs1", "fox sports"],
+      "package": "com.google.android.youtube.tvunplugged",
+      "intent_uri": "https://tv.youtube.com/watch/live/fox",
+      "fallback_uri": "https://tv.youtube.com/",
+      "is_national_exclusive": true
+    },
+    {
+      "id": "tbs",
+      "label": "TBS on YouTube TV",
+      "match_keywords": ["tbs"],
+      "package": "com.google.android.youtube.tvunplugged",
+      "intent_uri": "https://tv.youtube.com/watch/live/tbs",
+      "fallback_uri": "https://tv.youtube.com/",
+      "is_national_exclusive": true
+    },
+    {
+      "id": "mlb_network",
+      "label": "MLB Network on YouTube TV",
+      "match_keywords": ["mlb network", "mlbn"],
+      "package": "com.google.android.youtube.tvunplugged",
+      "intent_uri": "https://tv.youtube.com/watch/live/mlb-network",
+      "fallback_uri": "https://tv.youtube.com/",
+      "is_national_exclusive": false
+    },
+    {
+      "id": "masn_natstv",
+      "label": "MASN+ / Nationals.TV via MLB app",
+      "match_keywords": ["masn", "nationals", "natstv", "monumental"],
+      "package": "com.bamnetworks.mobile.android.gameday.atbat",
+      "intent_uri": "mlbatbat://game/{game_pk}",
+      "fallback_uri": "https://www.mlb.com/nationals/tv",
+      "is_national_exclusive": false,
+      "notes": "Nationals.TV streams via MLB app for in-market subscribers."
+    },
+    {
+      "id": "mlb_radio",
+      "label": "Radio (last-ditch fallback)",
+      "match_keywords": ["wjfk", "106.7", "the fan"],
+      "package": "com.bamnetworks.mobile.android.gameday.atbat",
+      "intent_uri": "mlbatbat://radio/{game_pk}",
+      "fallback_uri": "https://www.mlb.com/nationals/audio",
+      "is_radio": true
+    }
+  ]
+}

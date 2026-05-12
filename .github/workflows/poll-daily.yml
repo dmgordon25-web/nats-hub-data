@@ -1,0 +1,69 @@
+name: Poll (daily — slow-changing data)
+
+# Runs a few times a day to refresh injuries, former-Nats stats, and the daily
+# tidbit pool. Doesn't need to be every 10 minutes - these change at most a few
+# times per day.
+on:
+  schedule:
+    - cron: "15 13 * * *"   # 9:15 AM ET (morning refresh)
+    - cron: "15 18 * * *"   # 2:15 PM ET (mid-day refresh)
+    - cron: "15 23 * * *"   # 7:15 PM ET (pregame final pass)
+    - cron: "15 7 * * *"    # 3:15 AM ET (overnight - tomorrow's data)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: poll
+  cancel-in-progress: false
+
+jobs:
+  poll-daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch injuries
+        run: python scripts/fetch_injuries.py
+        continue-on-error: true
+
+      - name: Fetch former Nats
+        run: python scripts/fetch_former_nats.py
+        continue-on-error: true
+
+      - name: Fetch schedule (refresh probables)
+        run: python scripts/fetch_schedule.py
+        continue-on-error: true
+
+      - name: Fetch standings
+        run: python scripts/fetch_standings.py
+        continue-on-error: true
+
+      - name: Fetch weather
+        run: python scripts/fetch_weather.py
+        continue-on-error: true
+
+      - name: Normalize and publish
+        run: python scripts/normalize.py
+
+      - name: Commit updated docs
+        run: |
+          git config user.name "nats-hub-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/ cache/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore(data): daily refresh @ $(date -u +%FT%TZ)"
+            git push
+          fi

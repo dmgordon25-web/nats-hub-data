@@ -1,0 +1,36 @@
+{
+  "_comment": "Roster of former Nationals to track. Edit this file and push to update the app within one poll cycle. mlb_id is the canonical statsapi player id. nats_years is a free-text label shown on the card. tone is 'enthusiastic' (default) or 'neutral' for players we don't celebrate (e.g., Harper - per parent preference, do not flag with hype copy). exclude_from_flags=true means significant events never trigger a home-screen flag, but the card still appears in the tab.",
+  "_significance_thresholds": {
+    "position_player": {
+      "season_at_bats_min": 100,
+      "include_if_all_star": true,
+      "exclude_below_threshold": true
+    },
+    "pitcher": {
+      "season_innings_min": 20,
+      "include_if_all_star": true,
+      "exclude_below_threshold": true
+    }
+  },
+  "players": [
+    { "mlb_id": 547180, "name": "Bryce Harper",       "nats_years": "2012–2018", "tone": "neutral",     "exclude_from_flags": true,  "type": "position" },
+    { "mlb_id": 665742, "name": "Juan Soto",          "nats_years": "2018–2022", "tone": "enthusiastic","type": "position" },
+    { "mlb_id": 607208, "name": "Trea Turner",        "nats_years": "2015–2021", "tone": "enthusiastic","type": "position" },
+    { "mlb_id": 543685, "name": "Anthony Rendon",     "nats_years": "2013–2019", "tone": "enthusiastic","type": "position" },
+    { "mlb_id": 600869, "name": "Jeimer Candelario",  "nats_years": "2023",          "tone": "enthusiastic","type": "position" },
+    { "mlb_id": 605137, "name": "Josh Bell",          "nats_years": "2021–2022", "tone": "enthusiastic","type": "position" },
+    { "mlb_id": 543510, "name": "Yan Gomes",          "nats_years": "2019–2021", "tone": "enthusiastic","type": "position" },
+    { "mlb_id": 594809, "name": "Adam Eaton",         "nats_years": "2017–2020", "tone": "enthusiastic","type": "position" },
+    { "mlb_id": 645302, "name": "Victor Robles",      "nats_years": "2017–2024", "tone": "enthusiastic","type": "position" },
+    { "mlb_id": 657041, "name": "Lane Thomas",        "nats_years": "2021–2024", "tone": "enthusiastic","type": "position" },
+    { "mlb_id": 605200, "name": "Joey Meneses",       "nats_years": "2022–2024", "tone": "enthusiastic","type": "position" },
+    { "mlb_id": 453286, "name": "Max Scherzer",       "nats_years": "2015–2021", "tone": "enthusiastic","type": "pitcher"  },
+    { "mlb_id": 571578, "name": "Patrick Corbin",     "nats_years": "2019–2024", "tone": "enthusiastic","type": "pitcher"  },
+    { "mlb_id": 543606, "name": "Daniel Hudson",      "nats_years": "2019–2021", "tone": "enthusiastic","type": "pitcher"  },
+    { "mlb_id": 656302, "name": "Tanner Rainey",      "nats_years": "2019–2024", "tone": "enthusiastic","type": "pitcher"  },
+    { "mlb_id": 605452, "name": "Hunter Strickland",  "nats_years": "2022",          "tone": "enthusiastic","type": "pitcher"  },
+    { "mlb_id": 605200, "name": "Carl Edwards Jr.",   "nats_years": "2022–2023", "tone": "enthusiastic","type": "pitcher"  },
+    { "mlb_id": 607200, "name": "Erick Fedde",        "nats_years": "2017–2022", "tone": "enthusiastic","type": "pitcher"  },
+    { "mlb_id": 605204, "name": "Joe Ross",           "nats_years": "2015–2022", "tone": "enthusiastic","type": "pitcher"  }
+  ]
+}

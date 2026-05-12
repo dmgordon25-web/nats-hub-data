@@ -1,0 +1,24 @@
+{
+  "_comment": "Defines what counts as a 'significant' event for Former Nats home-screen flags. The fetch_former_nats.py script reads these thresholds. Tweak freely; the app picks up changes within one poll cycle.",
+  "position_player": {
+    "multi_hr_min": 2,
+    "hits_min": 4,
+    "rbi_min": 5,
+    "celebrate_against_nats_min_hits": 2,
+    "celebrate_against_nats_min_ab": 4
+  },
+  "pitcher": {
+    "high_k_min": 10,
+    "complete_game_min_ip": 9.0,
+    "no_hitter_requires_zero_hits_in_full_ip": true,
+    "celebrate_against_nats_min_ip": 5.0,
+    "celebrate_against_nats_max_er": 1
+  },
+  "milestone_events": {
+    "_comment": "Career milestones that always flag (when detected). Detection is best-effort.",
+    "career_hr_thresholds": [100, 200, 300, 400, 500, 600, 700],
+    "career_hits_thresholds": [1000, 2000, 3000],
+    "career_wins_thresholds": [100, 150, 200, 300],
+    "career_k_thresholds": [1000, 2000, 3000]
+  }
+}
