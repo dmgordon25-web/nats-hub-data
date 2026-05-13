@@ -1,36 +1,36 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-13T01:26:47+00:00",
+  "fetched_at": "2026-05-13T03:23:55+00:00",
   "freshness": {
-    "schedule": "2026-05-13T01:26:46+00:00",
-    "standings": "2026-05-13T01:26:46+00:00",
+    "schedule": "2026-05-13T03:23:54+00:00",
+    "standings": "2026-05-13T03:23:54+00:00",
     "injuries": "2026-05-12T22:45:46+00:00",
     "former_nats": "2026-05-12T22:44:47+00:00",
-    "weather": "2026-05-13T01:26:47+00:00"
+    "weather": "2026-05-13T03:23:55+00:00"
   },
   "stale_sources": [],
   "focus_game": {
-    "game_pk": 824521,
-    "date": "2026-05-12",
-    "start_time_utc": "2026-05-12T22:40:00Z",
-    "status": "Live",
-    "detailed_status": "In Progress",
+    "game_pk": 824519,
+    "date": "2026-05-13",
+    "start_time_utc": "2026-05-13T22:40:00Z",
+    "status": "Preview",
+    "detailed_status": "Scheduled",
     "is_nats_home": false,
     "home": {
       "id": 113,
       "abbrev": "CIN",
       "name": "Cincinnati Reds",
       "short_name": "Reds",
-      "record": "22-19",
-      "score": 2
+      "record": "22-20",
+      "score": null
     },
     "away": {
       "id": 120,
       "abbrev": "WSH",
       "name": "Washington Nationals",
       "short_name": "Nationals",
-      "record": "19-22",
-      "score": 9
+      "record": "20-22",
+      "score": null
     },
     "venue": {
       "id": 2602,
@@ -42,13 +42,13 @@
     },
     "probable_pitchers": {
       "home": {
-        "id": 663903,
-        "name": "Brady Singer",
+        "id": 666157,
+        "name": "Nick Lodolo",
         "hand": null
       },
       "away": {
-        "id": 571945,
-        "name": "Miles Mikolas",
+        "id": 663623,
+        "name": "Jake Irvin",
         "hand": null
       }
     },
@@ -60,7 +60,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_OFF"
       },
       {
         "name": "Nationals.TV",
@@ -69,7 +69,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_OFF"
       },
       {
         "name": "WLW 700",
@@ -78,7 +78,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_OFF"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -87,32 +87,32 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_OFF"
       }
     ],
     "linescore": {
-      "current_inning": 8,
-      "inning_half": "Bottom",
-      "inning_state": "End",
-      "is_top_inning": false,
-      "balls": 2,
-      "strikes": 3,
-      "outs": 3,
-      "home_runs": 2,
-      "away_runs": 9,
-      "home_hits": 7,
-      "away_hits": 12,
-      "home_errors": 0,
-      "away_errors": 2
+      "current_inning": null,
+      "inning_half": null,
+      "inning_state": null,
+      "is_top_inning": null,
+      "balls": null,
+      "strikes": null,
+      "outs": null,
+      "home_runs": null,
+      "away_runs": null,
+      "home_hits": null,
+      "away_hits": null,
+      "home_errors": null,
+      "away_errors": null
     },
     "series": {
-      "game_number": 1,
+      "game_number": 2,
       "games_in_series": 3,
       "description": "Regular Season"
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "live",
+    "classification": "next",
     "provider": {
       "broadcast_name": "Nationals.TV",
       "is_national": false,
@@ -122,18 +122,18 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Live"
+    "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-13T01:26:47+00:00",
+    "fetched_at": "2026-05-13T03:23:55+00:00",
     "source": "open_meteo",
-    "game_pk": 824521,
+    "game_pk": 824519,
     "venue_name": "Great American Ball Park",
-    "forecast_at": "2026-05-13T00:00",
-    "temperature_f": 72.5,
-    "feels_like_f": 70.0,
-    "wind_mph": 4.0,
-    "wind_dir": "SW",
+    "forecast_at": "2026-05-13T23:00",
+    "temperature_f": 60.3,
+    "feels_like_f": 50.9,
+    "wind_mph": 17.2,
+    "wind_dir": "NW",
     "precip_chance": 0,
     "precip_inches": 0.0,
     "summary": "Clear",
@@ -147,121 +147,6 @@
   },
   "next_three": [
     {
-      "game_pk": 824521,
-      "date": "2026-05-12",
-      "start_time_utc": "2026-05-12T22:40:00Z",
-      "status": "Live",
-      "detailed_status": "In Progress",
-      "is_nats_home": false,
-      "home": {
-        "id": 113,
-        "abbrev": "CIN",
-        "name": "Cincinnati Reds",
-        "short_name": "Reds",
-        "record": "22-19",
-        "score": 2
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "19-22",
-        "score": 9
-      },
-      "venue": {
-        "id": 2602,
-        "name": "Great American Ball Park",
-        "city": "Cincinnati",
-        "state": "OH",
-        "lat": 39.097389,
-        "lon": -84.506611
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 663903,
-          "name": "Brady Singer",
-          "hand": null
-        },
-        "away": {
-          "id": 571945,
-          "name": "Miles Mikolas",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Reds.TV",
-          "call_sign": "CINR",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ON"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ON"
-        },
-        {
-          "name": "WLW 700",
-          "call_sign": "WLW",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ON"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ON"
-        }
-      ],
-      "linescore": {
-        "current_inning": 8,
-        "inning_half": "Bottom",
-        "inning_state": "End",
-        "is_top_inning": false,
-        "balls": 2,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 2,
-        "away_runs": 9,
-        "home_hits": 7,
-        "away_hits": 12,
-        "home_errors": 0,
-        "away_errors": 2
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "live",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Watch Live"
-    },
-    {
       "game_pk": 824519,
       "date": "2026-05-13",
       "start_time_utc": "2026-05-13T22:40:00Z",
@@ -273,7 +158,7 @@
         "abbrev": "CIN",
         "name": "Cincinnati Reds",
         "short_name": "Reds",
-        "record": "22-19",
+        "record": "22-20",
         "score": null
       },
       "away": {
@@ -281,7 +166,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "19-22",
+        "record": "20-22",
         "score": null
       },
       "venue": {
@@ -388,7 +273,7 @@
         "abbrev": "CIN",
         "name": "Cincinnati Reds",
         "short_name": "Reds",
-        "record": "22-19",
+        "record": "22-20",
         "score": null
       },
       "away": {
@@ -396,355 +281,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "19-22",
-        "score": null
-      },
-      "venue": {
-        "id": 2602,
-        "name": "Great American Ball Park",
-        "city": "Cincinnati",
-        "state": "OH",
-        "lat": 39.097389,
-        "lon": -84.506611
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 695505,
-          "name": "Chase Burns",
-          "hand": null
-        },
-        "away": {
-          "id": 656492,
-          "name": "Foster Griffin",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Reds.TV",
-          "call_sign": "CINR",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "WLW 700",
-          "call_sign": "WLW",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        }
-      ],
-      "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
-      },
-      "series": {
-        "game_number": 3,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "next",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Next Game"
-    }
-  ],
-  "last_result": null,
-  "all_games": [
-    {
-      "game_pk": 824521,
-      "date": "2026-05-12",
-      "start_time_utc": "2026-05-12T22:40:00Z",
-      "status": "Live",
-      "detailed_status": "In Progress",
-      "is_nats_home": false,
-      "home": {
-        "id": 113,
-        "abbrev": "CIN",
-        "name": "Cincinnati Reds",
-        "short_name": "Reds",
-        "record": "22-19",
-        "score": 2
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "19-22",
-        "score": 9
-      },
-      "venue": {
-        "id": 2602,
-        "name": "Great American Ball Park",
-        "city": "Cincinnati",
-        "state": "OH",
-        "lat": 39.097389,
-        "lon": -84.506611
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 663903,
-          "name": "Brady Singer",
-          "hand": null
-        },
-        "away": {
-          "id": 571945,
-          "name": "Miles Mikolas",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Reds.TV",
-          "call_sign": "CINR",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ON"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ON"
-        },
-        {
-          "name": "WLW 700",
-          "call_sign": "WLW",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ON"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ON"
-        }
-      ],
-      "linescore": {
-        "current_inning": 8,
-        "inning_half": "Bottom",
-        "inning_state": "End",
-        "is_top_inning": false,
-        "balls": 2,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 2,
-        "away_runs": 9,
-        "home_hits": 7,
-        "away_hits": 12,
-        "home_errors": 0,
-        "away_errors": 2
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "live",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Watch Live"
-    },
-    {
-      "game_pk": 824519,
-      "date": "2026-05-13",
-      "start_time_utc": "2026-05-13T22:40:00Z",
-      "status": "Preview",
-      "detailed_status": "Scheduled",
-      "is_nats_home": false,
-      "home": {
-        "id": 113,
-        "abbrev": "CIN",
-        "name": "Cincinnati Reds",
-        "short_name": "Reds",
-        "record": "22-19",
-        "score": null
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "19-22",
-        "score": null
-      },
-      "venue": {
-        "id": 2602,
-        "name": "Great American Ball Park",
-        "city": "Cincinnati",
-        "state": "OH",
-        "lat": 39.097389,
-        "lon": -84.506611
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 666157,
-          "name": "Nick Lodolo",
-          "hand": null
-        },
-        "away": {
-          "id": 663623,
-          "name": "Jake Irvin",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Reds.TV",
-          "call_sign": "CINR",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "WLW 700",
-          "call_sign": "WLW",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        }
-      ],
-      "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
-      },
-      "series": {
-        "game_number": 2,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "next",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Watch Tonight"
-    },
-    {
-      "game_pk": 824517,
-      "date": "2026-05-14",
-      "start_time_utc": "2026-05-14T16:40:00Z",
-      "status": "Preview",
-      "detailed_status": "Scheduled",
-      "is_nats_home": false,
-      "home": {
-        "id": 113,
-        "abbrev": "CIN",
-        "name": "Cincinnati Reds",
-        "short_name": "Reds",
-        "record": "22-19",
-        "score": null
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "19-22",
+        "record": "20-22",
         "score": null
       },
       "venue": {
@@ -851,7 +388,594 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "19-22",
+        "record": "20-22",
+        "score": null
+      },
+      "away": {
+        "id": 110,
+        "abbrev": "BAL",
+        "name": "Baltimore Orioles",
+        "short_name": "Orioles",
+        "record": "19-24",
+        "score": null
+      },
+      "venue": {
+        "id": 3309,
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.872861,
+        "lon": -77.007501
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "MASN",
+          "call_sign": "MASN",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "98 Rock 97.9 FM",
+          "call_sign": "98 Rock",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Fox 5 WTTG",
+          "call_sign": "Fox 5",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Gray Media",
+          "call_sign": "Gray Media",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 1,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "MASN",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
+    }
+  ],
+  "last_result": {
+    "game_pk": 824521,
+    "date": "2026-05-12",
+    "start_time_utc": "2026-05-12T22:40:00Z",
+    "status": "Final",
+    "detailed_status": "Final",
+    "is_nats_home": false,
+    "home": {
+      "id": 113,
+      "abbrev": "CIN",
+      "name": "Cincinnati Reds",
+      "short_name": "Reds",
+      "record": "22-20",
+      "score": 4
+    },
+    "away": {
+      "id": 120,
+      "abbrev": "WSH",
+      "name": "Washington Nationals",
+      "short_name": "Nationals",
+      "record": "20-22",
+      "score": 10
+    },
+    "venue": {
+      "id": 2602,
+      "name": "Great American Ball Park",
+      "city": "Cincinnati",
+      "state": "OH",
+      "lat": 39.097389,
+      "lon": -84.506611
+    },
+    "probable_pitchers": {
+      "home": {
+        "id": 663903,
+        "name": "Brady Singer",
+        "hand": null
+      },
+      "away": {
+        "id": 571945,
+        "name": "Miles Mikolas",
+        "hand": null
+      }
+    },
+    "broadcasts": [
+      {
+        "name": "Reds.TV",
+        "call_sign": "CINR",
+        "type": "TV",
+        "language": "en",
+        "is_national": false,
+        "home_away": "home",
+        "media_state": "MEDIA_ARCHIVE"
+      },
+      {
+        "name": "Nationals.TV",
+        "call_sign": "NATS",
+        "type": "TV",
+        "language": "en",
+        "is_national": false,
+        "home_away": "away",
+        "media_state": "MEDIA_ARCHIVE"
+      },
+      {
+        "name": "WLW 700",
+        "call_sign": "WLW",
+        "type": "AM",
+        "language": "en",
+        "is_national": false,
+        "home_away": "home",
+        "media_state": "MEDIA_ARCHIVE"
+      },
+      {
+        "name": "WJFK 106.7 The Fan",
+        "call_sign": "106.7 FM",
+        "type": "FM",
+        "language": "en",
+        "is_national": false,
+        "home_away": "away",
+        "media_state": "MEDIA_ARCHIVE"
+      }
+    ],
+    "linescore": {
+      "current_inning": 9,
+      "inning_half": "Bottom",
+      "inning_state": "Bottom",
+      "is_top_inning": false,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 3,
+      "home_runs": 4,
+      "away_runs": 10,
+      "home_hits": 10,
+      "away_hits": 13,
+      "home_errors": 0,
+      "away_errors": 2
+    },
+    "series": {
+      "game_number": 1,
+      "games_in_series": 3,
+      "description": "Regular Season"
+    },
+    "double_header": "N",
+    "_source": "mlb_statsapi",
+    "classification": "previous",
+    "provider": {
+      "broadcast_name": "Nationals.TV",
+      "is_national": false,
+      "rule_id": "masn_natstv",
+      "label": "MASN+ / Nationals.TV via MLB app",
+      "package": "com.bamnetworks.mobile.android.gameday.atbat",
+      "intent_uri": "mlbatbat://game/{game_pk}",
+      "fallback_uri": "https://www.mlb.com/nationals/tv"
+    },
+    "watch_label": "Game Final"
+  },
+  "all_games": [
+    {
+      "game_pk": 824521,
+      "date": "2026-05-12",
+      "start_time_utc": "2026-05-12T22:40:00Z",
+      "status": "Final",
+      "detailed_status": "Final",
+      "is_nats_home": false,
+      "home": {
+        "id": 113,
+        "abbrev": "CIN",
+        "name": "Cincinnati Reds",
+        "short_name": "Reds",
+        "record": "22-20",
+        "score": 4
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "20-22",
+        "score": 10
+      },
+      "venue": {
+        "id": 2602,
+        "name": "Great American Ball Park",
+        "city": "Cincinnati",
+        "state": "OH",
+        "lat": 39.097389,
+        "lon": -84.506611
+      },
+      "probable_pitchers": {
+        "home": {
+          "id": 663903,
+          "name": "Brady Singer",
+          "hand": null
+        },
+        "away": {
+          "id": 571945,
+          "name": "Miles Mikolas",
+          "hand": null
+        }
+      },
+      "broadcasts": [
+        {
+          "name": "Reds.TV",
+          "call_sign": "CINR",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_ARCHIVE"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_ARCHIVE"
+        },
+        {
+          "name": "WLW 700",
+          "call_sign": "WLW",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_ARCHIVE"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_ARCHIVE"
+        }
+      ],
+      "linescore": {
+        "current_inning": 9,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 3,
+        "home_runs": 4,
+        "away_runs": 10,
+        "home_hits": 10,
+        "away_hits": 13,
+        "home_errors": 0,
+        "away_errors": 2
+      },
+      "series": {
+        "game_number": 1,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "previous",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Game Final"
+    },
+    {
+      "game_pk": 824519,
+      "date": "2026-05-13",
+      "start_time_utc": "2026-05-13T22:40:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": false,
+      "home": {
+        "id": 113,
+        "abbrev": "CIN",
+        "name": "Cincinnati Reds",
+        "short_name": "Reds",
+        "record": "22-20",
+        "score": null
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "20-22",
+        "score": null
+      },
+      "venue": {
+        "id": 2602,
+        "name": "Great American Ball Park",
+        "city": "Cincinnati",
+        "state": "OH",
+        "lat": 39.097389,
+        "lon": -84.506611
+      },
+      "probable_pitchers": {
+        "home": {
+          "id": 666157,
+          "name": "Nick Lodolo",
+          "hand": null
+        },
+        "away": {
+          "id": 663623,
+          "name": "Jake Irvin",
+          "hand": null
+        }
+      },
+      "broadcasts": [
+        {
+          "name": "Reds.TV",
+          "call_sign": "CINR",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WLW 700",
+          "call_sign": "WLW",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 2,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Watch Tonight"
+    },
+    {
+      "game_pk": 824517,
+      "date": "2026-05-14",
+      "start_time_utc": "2026-05-14T16:40:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": false,
+      "home": {
+        "id": 113,
+        "abbrev": "CIN",
+        "name": "Cincinnati Reds",
+        "short_name": "Reds",
+        "record": "22-20",
+        "score": null
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "20-22",
+        "score": null
+      },
+      "venue": {
+        "id": 2602,
+        "name": "Great American Ball Park",
+        "city": "Cincinnati",
+        "state": "OH",
+        "lat": 39.097389,
+        "lon": -84.506611
+      },
+      "probable_pitchers": {
+        "home": {
+          "id": 695505,
+          "name": "Chase Burns",
+          "hand": null
+        },
+        "away": {
+          "id": 656492,
+          "name": "Foster Griffin",
+          "hand": null
+        }
+      },
+      "broadcasts": [
+        {
+          "name": "Reds.TV",
+          "call_sign": "CINR",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WLW 700",
+          "call_sign": "WLW",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 3,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 822739,
+      "date": "2026-05-15",
+      "start_time_utc": "2026-05-15T22:45:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": true,
+      "home": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "20-22",
         "score": null
       },
       "away": {
@@ -976,7 +1100,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "19-22",
+        "record": "20-22",
         "score": null
       },
       "away": {
@@ -1110,7 +1234,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "19-22",
+        "record": "20-22",
         "score": null
       },
       "away": {
@@ -1226,7 +1350,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "19-22",
+        "record": "20-22",
         "score": null
       },
       "away": {
@@ -1234,7 +1358,7 @@
         "abbrev": "NYM",
         "name": "New York Mets",
         "short_name": "Mets",
-        "record": "15-25",
+        "record": "16-25",
         "score": null
       },
       "venue": {
@@ -1342,7 +1466,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "19-22",
+        "record": "20-22",
         "score": null
       },
       "away": {
@@ -1350,7 +1474,7 @@
         "abbrev": "NYM",
         "name": "New York Mets",
         "short_name": "Mets",
-        "record": "15-25",
+        "record": "16-25",
         "score": null
       },
       "venue": {
@@ -1458,7 +1582,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "19-22",
+        "record": "20-22",
         "score": null
       },
       "away": {
@@ -1466,7 +1590,7 @@
         "abbrev": "NYM",
         "name": "New York Mets",
         "short_name": "Mets",
-        "record": "15-25",
+        "record": "16-25",
         "score": null
       },
       "venue": {
@@ -1574,7 +1698,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "19-22",
+        "record": "20-22",
         "score": null
       },
       "away": {
@@ -1582,7 +1706,7 @@
         "abbrev": "NYM",
         "name": "New York Mets",
         "short_name": "Mets",
-        "record": "15-25",
+        "record": "16-25",
         "score": null
       },
       "venue": {
@@ -1690,7 +1814,7 @@
         "abbrev": "ATL",
         "name": "Atlanta Braves",
         "short_name": "Braves",
-        "record": "28-13",
+        "record": "29-13",
         "score": null
       },
       "away": {
@@ -1698,7 +1822,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "19-22",
+        "record": "20-22",
         "score": null
       },
       "venue": {
@@ -1806,7 +1930,7 @@
         "abbrev": "ATL",
         "name": "Atlanta Braves",
         "short_name": "Braves",
-        "record": "28-13",
+        "record": "29-13",
         "score": null
       },
       "away": {
@@ -1814,7 +1938,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "19-22",
+        "record": "20-22",
         "score": null
       },
       "venue": {
@@ -1922,7 +2046,7 @@
         "abbrev": "ATL",
         "name": "Atlanta Braves",
         "short_name": "Braves",
-        "record": "28-13",
+        "record": "29-13",
         "score": null
       },
       "away": {
@@ -1930,7 +2054,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "19-22",
+        "record": "20-22",
         "score": null
       },
       "venue": {
@@ -2046,7 +2170,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "19-22",
+        "record": "20-22",
         "score": null
       },
       "venue": {
@@ -2180,7 +2304,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "19-22",
+        "record": "20-22",
         "score": null
       },
       "venue": {
@@ -2314,7 +2438,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "19-22",
+        "record": "20-22",
         "score": null
       },
       "venue": {
@@ -2429,19 +2553,19 @@
         "abbrev": "ATL",
         "name": "Atlanta Braves",
         "short_name": "Braves",
-        "wins": 28,
+        "wins": 29,
         "losses": 13,
-        "pct": ".683",
+        "pct": ".690",
         "gb": "-",
         "wc_gb": "-",
-        "streak": "W2",
-        "last_ten": "6-4",
+        "streak": "W3",
+        "last_ten": "7-3",
         "division_rank": 1,
         "league_rank": 1,
         "wc_rank": null,
-        "run_diff": 87,
-        "runs_scored": 228,
-        "runs_allowed": 141,
+        "run_diff": 90,
+        "runs_scored": 233,
+        "runs_allowed": 143,
         "elim_num": "-"
       },
       {
@@ -2452,17 +2576,37 @@
         "wins": 20,
         "losses": 22,
         "pct": ".476",
-        "gb": "8.5",
+        "gb": "9.0",
         "wc_gb": "4.0",
         "streak": "W3",
         "last_ten": "7-3",
         "division_rank": 2,
-        "league_rank": 10,
+        "league_rank": 11,
         "wc_rank": 7,
         "run_diff": -31,
         "runs_scored": 172,
         "runs_allowed": 203,
-        "elim_num": "113"
+        "elim_num": "112"
+      },
+      {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "wins": 20,
+        "losses": 22,
+        "pct": ".476",
+        "gb": "9.0",
+        "wc_gb": "4.0",
+        "streak": "W1",
+        "last_ten": "5-5",
+        "division_rank": 3,
+        "league_rank": 10,
+        "wc_rank": 8,
+        "run_diff": -7,
+        "runs_scored": 227,
+        "runs_allowed": 234,
+        "elim_num": "112"
       },
       {
         "id": 146,
@@ -2470,59 +2614,39 @@
         "name": "Miami Marlins",
         "short_name": "Marlins",
         "wins": 19,
-        "losses": 22,
-        "pct": ".463",
-        "gb": "9.0",
-        "wc_gb": "4.5",
-        "streak": "W2",
+        "losses": 23,
+        "pct": ".452",
+        "gb": "10.0",
+        "wc_gb": "5.0",
+        "streak": "L1",
         "last_ten": "4-6",
-        "division_rank": 3,
-        "league_rank": 11,
-        "wc_rank": 8,
-        "run_diff": -3,
-        "runs_scored": 176,
-        "runs_allowed": 179,
-        "elim_num": "113"
-      },
-      {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "wins": 19,
-        "losses": 22,
-        "pct": ".463",
-        "gb": "9.0",
-        "wc_gb": "4.5",
-        "streak": "L2",
-        "last_ten": "5-5",
         "division_rank": 4,
         "league_rank": 12,
         "wc_rank": 9,
-        "run_diff": -13,
-        "runs_scored": 217,
-        "runs_allowed": 230,
-        "elim_num": "113"
+        "run_diff": -6,
+        "runs_scored": 176,
+        "runs_allowed": 182,
+        "elim_num": "111"
       },
       {
         "id": 121,
         "abbrev": "NYM",
         "name": "New York Mets",
         "short_name": "Mets",
-        "wins": 15,
+        "wins": 16,
         "losses": 25,
-        "pct": ".375",
+        "pct": ".390",
         "gb": "12.5",
-        "wc_gb": "8.0",
-        "streak": "L2",
-        "last_ten": "5-5",
+        "wc_gb": "7.5",
+        "streak": "W1",
+        "last_ten": "6-4",
         "division_rank": 5,
-        "league_rank": 15,
-        "wc_rank": 12,
-        "run_diff": -31,
-        "runs_scored": 139,
-        "runs_allowed": 170,
-        "elim_num": "110"
+        "league_rank": 14,
+        "wc_rank": 11,
+        "run_diff": -23,
+        "runs_scored": 149,
+        "runs_allowed": 172,
+        "elim_num": "109"
       }
     ]
   },
@@ -2531,20 +2655,20 @@
     "abbrev": "WSH",
     "name": "Washington Nationals",
     "short_name": "Nationals",
-    "wins": 19,
+    "wins": 20,
     "losses": 22,
-    "pct": ".463",
+    "pct": ".476",
     "gb": "9.0",
-    "wc_gb": "4.5",
-    "streak": "L2",
+    "wc_gb": "4.0",
+    "streak": "W1",
     "last_ten": "5-5",
-    "division_rank": 4,
-    "league_rank": 12,
-    "wc_rank": 9,
-    "run_diff": -13,
-    "runs_scored": 217,
-    "runs_allowed": 230,
-    "elim_num": "113"
+    "division_rank": 3,
+    "league_rank": 10,
+    "wc_rank": 8,
+    "run_diff": -7,
+    "runs_scored": 227,
+    "runs_allowed": 234,
+    "elim_num": "112"
   },
   "notable_injuries": [
     {
