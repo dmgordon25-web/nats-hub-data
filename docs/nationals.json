@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-13T22:16:26+00:00",
+  "fetched_at": "2026-05-13T23:33:43+00:00",
   "freshness": {
-    "schedule": "2026-05-13T22:16:25+00:00",
-    "standings": "2026-05-13T22:16:25+00:00",
+    "schedule": "2026-05-13T23:33:42+00:00",
+    "standings": "2026-05-13T23:33:43+00:00",
     "injuries": "2026-05-13T09:50:21+00:00",
     "former_nats": "2026-05-13T20:12:19+00:00",
-    "weather": "2026-05-13T22:16:26+00:00"
+    "weather": "2026-05-13T23:33:43+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -15,8 +15,8 @@
     "game_pk": 824519,
     "date": "2026-05-13",
     "start_time_utc": "2026-05-13T22:40:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "In Progress",
     "is_nats_home": false,
     "home": {
       "id": 113,
@@ -24,7 +24,7 @@
       "name": "Cincinnati Reds",
       "short_name": "Reds",
       "record": "22-20",
-      "score": 0
+      "score": 5
     },
     "away": {
       "id": 120,
@@ -32,7 +32,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "20-22",
-      "score": 0
+      "score": 4
     },
     "venue": {
       "id": 2602,
@@ -93,17 +93,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 1,
+      "current_inning": 3,
       "inning_half": "Top",
       "inning_state": "Top",
       "is_top_inning": true,
       "balls": 0,
       "strikes": 0,
-      "outs": 0,
-      "home_runs": 0,
-      "away_runs": 0,
-      "home_hits": 0,
-      "away_hits": 0,
+      "outs": 1,
+      "home_runs": 5,
+      "away_runs": 4,
+      "home_hits": 3,
+      "away_hits": 4,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -114,7 +114,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "Nationals.TV",
       "is_national": false,
@@ -124,21 +124,21 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Starts Soon"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-13T22:16:26+00:00",
+    "fetched_at": "2026-05-13T23:33:43+00:00",
     "source": "open_meteo",
     "game_pk": 824519,
     "venue_name": "Great American Ball Park",
     "forecast_at": "2026-05-13T23:00",
-    "temperature_f": 62.7,
-    "feels_like_f": 54.8,
-    "wind_mph": 14.8,
+    "temperature_f": 63.3,
+    "feels_like_f": 55.4,
+    "wind_mph": 14.3,
     "wind_dir": "NW",
     "precip_chance": 0,
     "precip_inches": 0.0,
-    "summary": "Clear",
+    "summary": "Overcast",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -152,8 +152,8 @@
       "game_pk": 824519,
       "date": "2026-05-13",
       "start_time_utc": "2026-05-13T22:40:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 113,
@@ -161,7 +161,7 @@
         "name": "Cincinnati Reds",
         "short_name": "Reds",
         "record": "22-20",
-        "score": 0
+        "score": 5
       },
       "away": {
         "id": 120,
@@ -169,7 +169,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "20-22",
-        "score": 0
+        "score": 4
       },
       "venue": {
         "id": 2602,
@@ -230,17 +230,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 3,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "outs": 1,
+        "home_runs": 5,
+        "away_runs": 4,
+        "home_hits": 3,
+        "away_hits": 4,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -251,7 +251,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -261,7 +261,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 824517,
@@ -743,8 +743,8 @@
       "game_pk": 824519,
       "date": "2026-05-13",
       "start_time_utc": "2026-05-13T22:40:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 113,
@@ -752,7 +752,7 @@
         "name": "Cincinnati Reds",
         "short_name": "Reds",
         "record": "22-20",
-        "score": 0
+        "score": 5
       },
       "away": {
         "id": 120,
@@ -760,7 +760,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "20-22",
-        "score": 0
+        "score": 4
       },
       "venue": {
         "id": 2602,
@@ -821,17 +821,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 3,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "outs": 1,
+        "home_runs": 5,
+        "away_runs": 4,
+        "home_hits": 3,
+        "away_hits": 4,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -842,7 +842,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -852,7 +852,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 824517,
