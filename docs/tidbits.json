@@ -1,6 +1,6 @@
 {
-  "_comment": "Tidbit content pack. The app rotates through these and falls back to them when live data is unavailable. Each entry: id (unique), category, text (full sentence), and optional season_window (date range YYYY-MM-DD..YYYY-MM-DD), weight (rotation priority 1-10, default 5). Target growth: 150+ entries before parent debut.",
-  "version": "0.1",
+  "_comment": "Tidbit content pack. The app rotates through these and falls back to them when live data is unavailable. Each entry: id (unique), category, text (full sentence), and optional season_window (date range YYYY-MM-DD..YYYY-MM-DD), weight (rotation priority 1-10, default 5), trigger (context-conditional). Target growth: 150+ entries before parent debut. Categories: nostalgia, did_you_know, ballpark, tonight_nugget, player_spotlight, wholesome, stat_nerd, opponent_history.",
+  "version": "0.2",
   "updated": "2026-05-12",
   "entries": [
     {
@@ -22,10 +22,40 @@
       "text": "Gerardo Parra changed his walk-up song to 'Baby Shark' for his daughter in June 2019. The team caught fire and never looked back."
     },
     {
-      "id": "nostalgia_2017_strasburg_strikeout",
+      "id": "nostalgia_2019_cards_sweep",
       "category": "nostalgia",
       "weight": 5,
-      "text": "Stephen Strasburg holds the Nats franchise record for strikeouts. He retired in 2024 as the Game 6 World Series MVP."
+      "text": "In 2019, the Nats swept the Cardinals in the NLCS. Anibal Sanchez carried a no-hitter into the eighth in Game 1."
+    },
+    {
+      "id": "nostalgia_2019_wild_card",
+      "category": "nostalgia",
+      "weight": 6,
+      "text": "Down 3-1 in the eighth, Juan Soto drove in three with a single off Josh Hader. The 2019 Wild Card came back to life right there."
+    },
+    {
+      "id": "nostalgia_2019_wc_dugout",
+      "category": "nostalgia",
+      "weight": 4,
+      "text": "Dave Martinez told them after the 19-31 start: 'Stay in the fight.' That phrase lived in the dugout the rest of the year."
+    },
+    {
+      "id": "nostalgia_2019_strasburg_mvp",
+      "category": "nostalgia",
+      "weight": 5,
+      "text": "Stephen Strasburg was World Series MVP — 2-0, 14 strikeouts in 14.1 IP. He earned every dollar of his next contract that month."
+    },
+    {
+      "id": "nostalgia_2019_corbin_clutch",
+      "category": "nostalgia",
+      "weight": 4,
+      "text": "Patrick Corbin came out of the bullpen to win Game 7. The signed-as-a-starter, throwing-three-innings-of-relief Game 7. That kind of clutch."
+    },
+    {
+      "id": "nostalgia_2017_zim_walk_off",
+      "category": "nostalgia",
+      "weight": 5,
+      "text": "Ryan Zimmerman holds the franchise record for career hits, home runs, and walk-offs. They call him Mr. National for good reason."
     },
     {
       "id": "nostalgia_2017_rendon_grand_slam",
@@ -34,10 +64,52 @@
       "text": "Anthony Rendon hit three home runs and drove in ten runs against the Mets in April 2017. Three. Ten. In one game."
     },
     {
-      "id": "nostalgia_2017_zim_walk_off",
+      "id": "nostalgia_2017_strasburg_strikeout",
       "category": "nostalgia",
       "weight": 5,
-      "text": "Ryan Zimmerman holds the franchise record for career hits, home runs, and walk-offs. They call him Mr. National for good reason."
+      "text": "Stephen Strasburg holds the Nats franchise record for strikeouts. He retired in 2024 as the Game 6 World Series MVP."
+    },
+    {
+      "id": "nostalgia_2018_scherzer_300k",
+      "category": "nostalgia",
+      "weight": 5,
+      "text": "Max Scherzer struck out 300 in 2018. Nobody on the Nats had ever done it. He was 33."
+    },
+    {
+      "id": "nostalgia_2018_soto_debut",
+      "category": "nostalgia",
+      "weight": 6,
+      "text": "Juan Soto made his MLB debut at age 19 in May 2018. He homered in his first start. The youngest Nat to ever go deep."
+    },
+    {
+      "id": "nostalgia_2018_harper_hr_derby",
+      "category": "nostalgia",
+      "weight": 4,
+      "text": "Bryce Harper won the 2018 Home Run Derby at Nationals Park. He hit nineteen in the final round. The crowd did not sit down."
+    },
+    {
+      "id": "nostalgia_2020_short_season",
+      "category": "nostalgia",
+      "weight": 3,
+      "text": "The 2020 season was 60 games. Nationals Park sat empty. Cardboard cutouts watched from the stands. Defense of the title got weird."
+    },
+    {
+      "id": "nostalgia_2021_trade_deadline",
+      "category": "nostalgia",
+      "weight": 4,
+      "text": "The 2021 trade deadline reset the Nats — Scherzer and Trea Turner went to the Dodgers. The rebuild started that day."
+    },
+    {
+      "id": "nostalgia_2022_soto_trade",
+      "category": "nostalgia",
+      "weight": 5,
+      "text": "August 2, 2022: Juan Soto was traded to San Diego. CJ Abrams, MacKenzie Gore, James Wood, and Robert Hassell came back. The future arrived."
+    },
+    {
+      "id": "nostalgia_2024_surprise",
+      "category": "nostalgia",
+      "weight": 6,
+      "text": "The 2024 Nats overachieved. James Wood arrived. CJ Abrams broke out. The kids were ready earlier than anyone expected."
     },
     {
       "id": "did_you_know_zimmerman_first_pick",
@@ -50,6 +122,36 @@
       "category": "did_you_know",
       "weight": 4,
       "text": "The Nationals were the Montreal Expos from 1969 to 2004. The curly W honors the original Senators, not the Expos."
+    },
+    {
+      "id": "did_you_know_curly_w",
+      "category": "did_you_know",
+      "weight": 4,
+      "text": "The curly W on the Nats cap is a callback to the Washington Senators logo from 1911. Some traditions outlast everything."
+    },
+    {
+      "id": "did_you_know_first_game_2005",
+      "category": "did_you_know",
+      "weight": 3,
+      "text": "The first regular-season Nats game was April 4, 2005, in Philadelphia. They lost 8-4. They didn't win their first home game until April 14."
+    },
+    {
+      "id": "did_you_know_first_division",
+      "category": "did_you_know",
+      "weight": 4,
+      "text": "The Nats won their first NL East title in 2012, 24 wins better than the prior season. Bryce Harper was 19. Stephen Strasburg was 23."
+    },
+    {
+      "id": "did_you_know_2014_no_hitter",
+      "category": "did_you_know",
+      "weight": 4,
+      "text": "Jordan Zimmermann threw a no-hitter on the last day of the 2014 regular season — the first in Nationals/Expos history."
+    },
+    {
+      "id": "did_you_know_scherzer_no_hitters",
+      "category": "did_you_know",
+      "weight": 5,
+      "text": "Max Scherzer threw two no-hitters in 2015 — the second one a few outs from a perfect game. He hit a batter on a 1-2 pitch in the ninth. One pitch from immortality."
     },
     {
       "id": "did_you_know_park_anacostia",
@@ -68,6 +170,42 @@
       "category": "ballpark",
       "weight": 3,
       "text": "The Red Porch in right-center field is one of the best places in MLB to watch a game. Home runs land just past the bullpens."
+    },
+    {
+      "id": "did_you_know_park_dimensions",
+      "category": "ballpark",
+      "weight": 2,
+      "text": "Nationals Park is 336 feet down the left field line, 402 to dead center, 335 to right. The right-center alley is where the wind helps."
+    },
+    {
+      "id": "did_you_know_capitol_view",
+      "category": "ballpark",
+      "weight": 4,
+      "text": "From the upper deck along third base, you can see the Capitol dome. The architects designed it that way on purpose."
+    },
+    {
+      "id": "did_you_know_metro",
+      "category": "ballpark",
+      "weight": 3,
+      "text": "Navy Yard-Ballpark Metro station opens onto the Center Field gate. Easiest big-league commute in baseball."
+    },
+    {
+      "id": "did_you_know_presidents_race",
+      "category": "ballpark",
+      "weight": 5,
+      "text": "The Presidents Race happens in the fourth inning. Teddy didn't win once between 2006 and 2012 — 525 races without a victory. Then he finally won."
+    },
+    {
+      "id": "did_you_know_screech_2005",
+      "category": "ballpark",
+      "weight": 3,
+      "text": "Screech the bald eagle has been the Nats mascot since 2005. Kids who first met him at the inaugural season are bringing their own kids now."
+    },
+    {
+      "id": "did_you_know_dugout_food",
+      "category": "ballpark",
+      "weight": 2,
+      "text": "Half-smoke from Ben's Chili Bowl is the official ballpark hot dog. President Obama waited in line for one, like everyone else."
     },
     {
       "id": "tonight_streak_hot",
@@ -98,6 +236,43 @@
       "trigger": "is_away_game"
     },
     {
+      "id": "tonight_april",
+      "category": "tonight_nugget",
+      "weight": 4,
+      "text": "Early April baseball is its own thing. Cold hands, fast wind, the season finding its legs.",
+      "season_window": "0401-0420"
+    },
+    {
+      "id": "tonight_may",
+      "category": "tonight_nugget",
+      "weight": 4,
+      "text": "May baseball. The weather warms up and the standings start to mean something."
+    },
+    {
+      "id": "tonight_june",
+      "category": "tonight_nugget",
+      "weight": 4,
+      "text": "Long June evenings. First pitch and last out both still in daylight. Best month of the schedule."
+    },
+    {
+      "id": "tonight_july",
+      "category": "tonight_nugget",
+      "weight": 4,
+      "text": "July nights. Heat, humidity, fireworks weekends. Trade deadline rumblings on the horizon."
+    },
+    {
+      "id": "tonight_august",
+      "category": "tonight_nugget",
+      "weight": 4,
+      "text": "August grind. The heart of the schedule. Every game starts to feel like it has weight."
+    },
+    {
+      "id": "tonight_september",
+      "category": "tonight_nugget",
+      "weight": 4,
+      "text": "September baseball. Rosters expand, prospects get a look, every game a separate story."
+    },
+    {
       "id": "player_spotlight_wood",
       "category": "player_spotlight",
       "weight": 7,
@@ -122,6 +297,36 @@
       "text": "Dylan Crews was the second overall pick in 2023. He hits, he runs, he throws. The complete package."
     },
     {
+      "id": "player_spotlight_garcia_jr",
+      "category": "player_spotlight",
+      "weight": 5,
+      "text": "Luis García Jr. emerged as the everyday second baseman in 2024. The bat speed plays."
+    },
+    {
+      "id": "player_spotlight_keibert",
+      "category": "player_spotlight",
+      "weight": 5,
+      "text": "Keibert Ruiz is the catcher of the present and future. He's young, he hits, he frames pitches well."
+    },
+    {
+      "id": "player_spotlight_finnegan",
+      "category": "player_spotlight",
+      "weight": 4,
+      "text": "Kyle Finnegan, the All-Star closer. Came up as an undrafted free agent. Now he's the guy in the ninth."
+    },
+    {
+      "id": "player_spotlight_irvin",
+      "category": "player_spotlight",
+      "weight": 3,
+      "text": "Jake Irvin: a workhorse. Eats innings. Doesn't get rattled. The kind of arm you build a rotation around."
+    },
+    {
+      "id": "player_spotlight_parker",
+      "category": "player_spotlight",
+      "weight": 3,
+      "text": "Mitchell Parker came up faster than expected and held his own. Good story, good arm."
+    },
+    {
       "id": "wholesome_parra_baby_shark",
       "category": "wholesome",
       "weight": 5,
@@ -140,6 +345,30 @@
       "text": "Screech the bald eagle has been the Nats mascot since 2005. He turns the same age as the franchise every year."
     },
     {
+      "id": "wholesome_strasburg_retirement",
+      "category": "wholesome",
+      "weight": 5,
+      "text": "Stephen Strasburg's retirement ceremony was perfect. The whole 2019 team came back. There wasn't a dry eye in the upper deck."
+    },
+    {
+      "id": "wholesome_kids_first_game",
+      "category": "wholesome",
+      "weight": 4,
+      "text": "Every kid's first big-league game is the same: the green of the field, the size of the players, the smell of the popcorn. Nationals Park has been that for almost 20 years."
+    },
+    {
+      "id": "wholesome_nats_park_proposals",
+      "category": "wholesome",
+      "weight": 3,
+      "text": "More than a hundred marriage proposals happen at Nationals Park every season. Right between innings, on the kiss cam, no pressure."
+    },
+    {
+      "id": "wholesome_anniversary_cake",
+      "category": "wholesome",
+      "weight": 3,
+      "text": "Mom and Dad. This app exists because watching the Nats together is one of the best things."
+    },
+    {
       "id": "stat_nerd_park_factor",
       "category": "stat_nerd",
       "weight": 4,
@@ -155,7 +384,129 @@
       "id": "stat_nerd_woody_exit_velo",
       "category": "stat_nerd",
       "weight": 5,
-      "text": "James Wood's average exit velocity puts him in elite company - Judge, Stanton, Schwarber tier."
+      "text": "James Wood's average exit velocity puts him in elite company — Judge, Stanton, Schwarber tier."
+    },
+    {
+      "id": "stat_nerd_abrams_baserunning",
+      "category": "stat_nerd",
+      "weight": 4,
+      "text": "CJ Abrams was top-five in steals over the second half of 2024. The threat alone changes a game."
+    },
+    {
+      "id": "stat_nerd_gore_stuff_plus",
+      "category": "stat_nerd",
+      "weight": 4,
+      "text": "MacKenzie Gore's fastball spin rate is in the top 15% of MLB starters. The ball jumps on hitters more than the radar gun says."
+    },
+    {
+      "id": "stat_nerd_finnegan_save_pct",
+      "category": "stat_nerd",
+      "weight": 3,
+      "text": "Kyle Finnegan's save conversion rate the last two seasons is over 90%. Quietly elite."
+    },
+    {
+      "id": "stat_nerd_team_age",
+      "category": "stat_nerd",
+      "weight": 4,
+      "text": "The Nats are one of the youngest position-player groups in MLB. Most of the lineup is still inside their team-control years."
+    },
+    {
+      "id": "stat_nerd_left_handed_lineup",
+      "category": "stat_nerd",
+      "weight": 3,
+      "text": "Wood, García, Abrams — three left-handed bats with 90+ exit velocity. Right-handed pitchers get the long part of the order."
+    },
+    {
+      "id": "opponent_braves",
+      "category": "opponent_history",
+      "weight": 4,
+      "text": "Atlanta. The biggest division test, every series. The 2019 NLDS-winning Game 5 was vintage Nats.",
+      "trigger": "opponent_ATL"
+    },
+    {
+      "id": "opponent_phillies",
+      "category": "opponent_history",
+      "weight": 4,
+      "text": "Philly. Familiar opponent, mixed memories. Tonight's another chapter.",
+      "trigger": "opponent_PHI"
+    },
+    {
+      "id": "opponent_mets",
+      "category": "opponent_history",
+      "weight": 3,
+      "text": "Citi Field has not always been kind. Then again, neither has Nats Park to them.",
+      "trigger": "opponent_NYM"
+    },
+    {
+      "id": "opponent_marlins",
+      "category": "opponent_history",
+      "weight": 3,
+      "text": "Miami. Indoor baseball in the summer is a strange thing. The Nats have generally fared well there.",
+      "trigger": "opponent_MIA"
+    },
+    {
+      "id": "opponent_dodgers",
+      "category": "opponent_history",
+      "weight": 4,
+      "text": "The Dodgers and the Nats have history — the 2016 NLDS, the 2019 NLDS comeback. Different era, same names sometimes.",
+      "trigger": "opponent_LAD"
+    },
+    {
+      "id": "opponent_yankees",
+      "category": "opponent_history",
+      "weight": 3,
+      "text": "Interleague vs the Yankees is rare and loud. Makes you wish baseball did it more often.",
+      "trigger": "opponent_NYY"
+    },
+    {
+      "id": "opponent_orioles",
+      "category": "opponent_history",
+      "weight": 4,
+      "text": "Beltway Series. The drive between the parks is short. The history between the cities is long.",
+      "trigger": "opponent_BAL"
+    },
+    {
+      "id": "opponent_redsox",
+      "category": "opponent_history",
+      "weight": 3,
+      "text": "Red Sox in town. Different league, different vibe, fun for one weekend.",
+      "trigger": "opponent_BOS"
+    },
+    {
+      "id": "did_you_know_max_two_no_hitters",
+      "category": "did_you_know",
+      "weight": 4,
+      "text": "Max Scherzer threw the second no-hitter in franchise history (after Zimmermann's). It came against the Mets, October 3, 2015. He struck out 17."
+    },
+    {
+      "id": "did_you_know_2017_nlds",
+      "category": "nostalgia",
+      "weight": 3,
+      "text": "Game 5 of the 2017 NLDS against the Cubs was a five-hour heartbreak. They came back and won it all two years later. Worth the wait."
+    },
+    {
+      "id": "did_you_know_doolittle_mvp",
+      "category": "did_you_know",
+      "weight": 3,
+      "text": "Sean Doolittle was a key piece of the 2019 bullpen. He retired with eternal goodwill in DC."
+    },
+    {
+      "id": "wholesome_garcia_dad",
+      "category": "wholesome",
+      "weight": 3,
+      "text": "Luis García Jr. — his dad played for the Nats too. They share a name and a uniform number history."
+    },
+    {
+      "id": "wholesome_dave_martinez",
+      "category": "wholesome",
+      "weight": 4,
+      "text": "Dave Martinez took heat after the 2018 dugout incident. He kept showing up. Then 2019 happened. The right manager, the right time."
+    },
+    {
+      "id": "stat_nerd_strasburg_postseason",
+      "category": "stat_nerd",
+      "weight": 3,
+      "text": "Stephen Strasburg's career postseason ERA is 1.46. Sometimes the moment is bigger than the regular season."
     }
   ]
 }
