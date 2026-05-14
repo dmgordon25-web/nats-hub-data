@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-14T15:30:46+00:00",
+  "fetched_at": "2026-05-14T16:28:38+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -214,8 +214,8 @@
       "game_pk": 824517,
       "date": "2026-05-14",
       "start_time_utc": "2026-05-14T16:40:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "Warmup",
       "is_nats_home": false,
       "home": {
         "id": 113,
@@ -346,7 +346,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 641793,
+          "name": "Zack Littell",
+          "hand": null
+        },
         "away": {
           "id": 669358,
           "name": "Shane Baz",
@@ -464,7 +468,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 676917,
+          "name": "Cade Cavalli",
+          "hand": null
+        },
         "away": {
           "id": 605135,
           "name": "Chris Bassitt",
@@ -591,7 +599,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 571945,
+          "name": "Miles Mikolas",
+          "hand": null
+        },
         "away": {
           "id": 687064,
           "name": "Brandon Young",
