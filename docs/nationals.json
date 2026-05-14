@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-14T00:14:28+00:00",
+  "fetched_at": "2026-05-14T01:31:29+00:00",
   "freshness": {
-    "schedule": "2026-05-14T00:14:27+00:00",
-    "standings": "2026-05-14T00:14:27+00:00",
+    "schedule": "2026-05-14T01:31:28+00:00",
+    "standings": "2026-05-14T01:31:28+00:00",
     "injuries": "2026-05-14T00:14:21+00:00",
     "former_nats": "2026-05-14T00:14:26+00:00",
-    "weather": "2026-05-14T00:14:28+00:00"
+    "weather": "2026-05-14T01:31:29+00:00"
   },
   "stale_sources": [],
   "focus_game": {
@@ -30,7 +30,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "20-22",
-      "score": 5
+      "score": 6
     },
     "venue": {
       "id": 2602,
@@ -91,17 +91,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 5,
-      "inning_half": "Top",
-      "inning_state": "Top",
-      "is_top_inning": true,
+      "current_inning": 9,
+      "inning_half": "Bottom",
+      "inning_state": "End",
+      "is_top_inning": false,
       "balls": 0,
       "strikes": 0,
-      "outs": 0,
+      "outs": 3,
       "home_runs": 6,
-      "away_runs": 5,
-      "home_hits": 4,
-      "away_hits": 7,
+      "away_runs": 6,
+      "home_hits": 6,
+      "away_hits": 9,
       "home_errors": 0,
       "away_errors": 1
     },
@@ -125,14 +125,14 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-14T00:14:28+00:00",
+    "fetched_at": "2026-05-14T01:31:29+00:00",
     "source": "open_meteo",
     "game_pk": 824519,
     "venue_name": "Great American Ball Park",
     "forecast_at": "2026-05-14T00:00",
-    "temperature_f": 60.8,
-    "feels_like_f": 52.5,
-    "wind_mph": 13.7,
+    "temperature_f": 60.5,
+    "feels_like_f": 52.3,
+    "wind_mph": 14.0,
     "wind_dir": "NW",
     "precip_chance": 0,
     "precip_inches": 0.0,
@@ -167,7 +167,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "20-22",
-        "score": 5
+        "score": 6
       },
       "venue": {
         "id": 2602,
@@ -228,17 +228,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 5,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 9,
+        "inning_half": "Bottom",
+        "inning_state": "End",
+        "is_top_inning": false,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
+        "outs": 3,
         "home_runs": 6,
-        "away_runs": 5,
-        "home_hits": 4,
-        "away_hits": 7,
+        "away_runs": 6,
+        "home_hits": 6,
+        "away_hits": 9,
         "home_errors": 0,
         "away_errors": 1
       },
@@ -758,7 +758,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "20-22",
-        "score": 5
+        "score": 6
       },
       "venue": {
         "id": 2602,
@@ -819,17 +819,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 5,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 9,
+        "inning_half": "Bottom",
+        "inning_state": "End",
+        "is_top_inning": false,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
+        "outs": 3,
         "home_runs": 6,
-        "away_runs": 5,
-        "home_hits": 4,
-        "away_hits": 7,
+        "away_runs": 6,
+        "home_hits": 6,
+        "away_hits": 9,
         "home_errors": 0,
         "away_errors": 1
       },
@@ -2585,26 +2585,6 @@
         "elim_num": "-"
       },
       {
-        "id": 143,
-        "abbrev": "PHI",
-        "name": "Philadelphia Phillies",
-        "short_name": "Phillies",
-        "wins": 20,
-        "losses": 22,
-        "pct": ".476",
-        "gb": "9.0",
-        "wc_gb": "4.0",
-        "streak": "W3",
-        "last_ten": "7-3",
-        "division_rank": 2,
-        "league_rank": 11,
-        "wc_rank": 7,
-        "run_diff": -31,
-        "runs_scored": 172,
-        "runs_allowed": 203,
-        "elim_num": "112"
-      },
-      {
         "id": 120,
         "abbrev": "WSH",
         "name": "Washington Nationals",
@@ -2616,13 +2596,33 @@
         "wc_gb": "4.0",
         "streak": "W1",
         "last_ten": "5-5",
-        "division_rank": 3,
+        "division_rank": 2,
         "league_rank": 10,
-        "wc_rank": 8,
+        "wc_rank": 7,
         "run_diff": -7,
         "runs_scored": 227,
         "runs_allowed": 234,
         "elim_num": "112"
+      },
+      {
+        "id": 143,
+        "abbrev": "PHI",
+        "name": "Philadelphia Phillies",
+        "short_name": "Phillies",
+        "wins": 20,
+        "losses": 23,
+        "pct": ".465",
+        "gb": "9.5",
+        "wc_gb": "4.5",
+        "streak": "L1",
+        "last_ten": "7-3",
+        "division_rank": 3,
+        "league_rank": 11,
+        "wc_rank": 8,
+        "run_diff": -33,
+        "runs_scored": 173,
+        "runs_allowed": 206,
+        "elim_num": "111"
       },
       {
         "id": 146,
@@ -2678,9 +2678,9 @@
     "wc_gb": "4.0",
     "streak": "W1",
     "last_ten": "5-5",
-    "division_rank": 3,
+    "division_rank": 2,
     "league_rank": 10,
-    "wc_rank": 8,
+    "wc_rank": 7,
     "run_diff": -7,
     "runs_scored": 227,
     "runs_allowed": 234,
