@@ -51,6 +51,7 @@ jobs:
         run: python scripts/normalize.py
 
       - name: Commit updated docs
+        id: commit
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -59,7 +60,19 @@ jobs:
           git add docs/ cache/
           if git diff --cached --quiet; then
             echo "No changes to commit"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "chore(data): poll @ $(date -u +%FT%TZ)"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      # GitHub doesn't trigger downstream workflows from GITHUB_TOKEN-authored
+      # pushes (a security feature against recursive workflow loops). So even
+      # though our poll commits touch docs/, publish-pages.yml never re-runs.
+      # Use workflow_dispatch (which IS allowed from GITHUB_TOKEN) to nudge it.
+      - name: Trigger Pages publish
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run publish-pages.yml --repo ${{ github.repository }} --ref main

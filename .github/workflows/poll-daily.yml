@@ -57,13 +57,25 @@ jobs:
         run: python scripts/normalize.py
 
       - name: Commit updated docs
+        id: commit
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "nats-hub-bot"
           git config user.email "actions@users.noreply.github.com"
           git add docs/ cache/
           if git diff --cached --quiet; then
             echo "No changes to commit"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "chore(data): daily refresh @ $(date -u +%FT%TZ)"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      # See poll-frequent for why this is necessary.
+      - name: Trigger Pages publish
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run publish-pages.yml --repo ${{ github.repository }} --ref main

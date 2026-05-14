@@ -48,7 +48,14 @@ DATA_VERSION = 1  # bump when the schema changes in a breaking way
 
 
 def _classify_game(game: dict[str, Any], now: datetime) -> str:
-    """Return one of: 'live', 'next', 'previous', 'today_pregame', 'today_postgame'."""
+    """Return one of: 'live', 'next', 'previous'.
+
+    Note we *don't* blindly trust status='Live' from the upstream feed —
+    sometimes the schedule API leaves a game flagged Live for hours after it
+    actually ended (or after our publish pipeline goes silent). If a 'Live'
+    game's start_time was more than 8 hours ago, we treat it as previous so
+    the home screen doesn't insist a finished game is still in progress.
+    """
     status = game.get("status")
     detailed = (game.get("detailed_status") or "").lower()
     st = game.get("start_time_utc")
@@ -58,7 +65,10 @@ def _classify_game(game: dict[str, Any], now: datetime) -> str:
         gdt = None
 
     if status == "Live" or "in progress" in detailed:
-        return "live"
+        # Sanity: 8 hr is longer than any real MLB game (extras included).
+        if gdt is None or (now - gdt).total_seconds() < 8 * 3600:
+            return "live"
+        # Stale Live — fall through.
     if status == "Final":
         return "previous"
     if "postpone" in detailed or "delayed" in detailed:
@@ -80,7 +90,20 @@ def _pick_focus_game(games: list[dict[str, Any]], now: datetime) -> dict[str, An
     if not games:
         return None
 
-    live = [g for g in games if g.get("status") == "Live"]
+    # Only consider 'Live' games whose start was within the last 8 hours.
+    # Otherwise the upstream schedule's stale Live flag would lock us onto
+    # yesterday's game.
+    def _is_actually_live(g: dict[str, Any]) -> bool:
+        if g.get("status") != "Live":
+            return False
+        st = g.get("start_time_utc")
+        try:
+            gdt = datetime.fromisoformat((st or "").replace("Z", "+00:00"))
+        except (TypeError, ValueError):
+            return True  # unknown start → trust the upstream flag
+        return (now - gdt).total_seconds() < 8 * 3600
+
+    live = [g for g in games if _is_actually_live(g)]
     if live:
         return live[0]
 
