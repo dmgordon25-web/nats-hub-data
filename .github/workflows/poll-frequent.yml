@@ -15,6 +15,10 @@ on:
 
 permissions:
   contents: write
+  # actions: write is required so the final "Trigger Pages publish" step can
+  # call `gh workflow run` to dispatch publish-pages.yml. Default GITHUB_TOKEN
+  # only has actions: read; with that, the dispatch returns 403.
+  actions: write
 
 concurrency:
   group: poll

@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  actions: write  # required for the final 'gh workflow run' dispatch step
 
 concurrency:
   group: poll
