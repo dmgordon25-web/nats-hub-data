@@ -1,16 +1,14 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-13T23:33:43+00:00",
+  "fetched_at": "2026-05-14T00:14:28+00:00",
   "freshness": {
-    "schedule": "2026-05-13T23:33:42+00:00",
-    "standings": "2026-05-13T23:33:43+00:00",
-    "injuries": "2026-05-13T09:50:21+00:00",
-    "former_nats": "2026-05-13T20:12:19+00:00",
-    "weather": "2026-05-13T23:33:43+00:00"
+    "schedule": "2026-05-14T00:14:27+00:00",
+    "standings": "2026-05-14T00:14:27+00:00",
+    "injuries": "2026-05-14T00:14:21+00:00",
+    "former_nats": "2026-05-14T00:14:26+00:00",
+    "weather": "2026-05-14T00:14:28+00:00"
   },
-  "stale_sources": [
-    "injuries"
-  ],
+  "stale_sources": [],
   "focus_game": {
     "game_pk": 824519,
     "date": "2026-05-13",
@@ -24,7 +22,7 @@
       "name": "Cincinnati Reds",
       "short_name": "Reds",
       "record": "22-20",
-      "score": 5
+      "score": 6
     },
     "away": {
       "id": 120,
@@ -32,7 +30,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "20-22",
-      "score": 4
+      "score": 5
     },
     "venue": {
       "id": 2602,
@@ -93,19 +91,19 @@
       }
     ],
     "linescore": {
-      "current_inning": 3,
+      "current_inning": 5,
       "inning_half": "Top",
       "inning_state": "Top",
       "is_top_inning": true,
       "balls": 0,
       "strikes": 0,
-      "outs": 1,
-      "home_runs": 5,
-      "away_runs": 4,
-      "home_hits": 3,
-      "away_hits": 4,
+      "outs": 0,
+      "home_runs": 6,
+      "away_runs": 5,
+      "home_hits": 4,
+      "away_hits": 7,
       "home_errors": 0,
-      "away_errors": 0
+      "away_errors": 1
     },
     "series": {
       "game_number": 2,
@@ -127,25 +125,25 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-13T23:33:43+00:00",
+    "fetched_at": "2026-05-14T00:14:28+00:00",
     "source": "open_meteo",
     "game_pk": 824519,
     "venue_name": "Great American Ball Park",
-    "forecast_at": "2026-05-13T23:00",
-    "temperature_f": 63.3,
-    "feels_like_f": 55.4,
-    "wind_mph": 14.3,
+    "forecast_at": "2026-05-14T00:00",
+    "temperature_f": 60.8,
+    "feels_like_f": 52.5,
+    "wind_mph": 13.7,
     "wind_dir": "NW",
     "precip_chance": 0,
     "precip_inches": 0.0,
-    "summary": "Overcast",
+    "summary": "Clear",
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "player_spotlight_irvin",
-    "category": "player_spotlight",
-    "weight": 3,
-    "text": "Jake Irvin: a workhorse. Eats innings. Doesn't get rattled. The kind of arm you build a rotation around."
+    "id": "did_you_know_presidents_race",
+    "category": "ballpark",
+    "weight": 5,
+    "text": "The Presidents Race happens in the fourth inning. Teddy didn't win once between 2006 and 2012 — 525 races without a victory. Then he finally won."
   },
   "next_three": [
     {
@@ -161,7 +159,7 @@
         "name": "Cincinnati Reds",
         "short_name": "Reds",
         "record": "22-20",
-        "score": 5
+        "score": 6
       },
       "away": {
         "id": 120,
@@ -169,7 +167,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "20-22",
-        "score": 4
+        "score": 5
       },
       "venue": {
         "id": 2602,
@@ -230,19 +228,19 @@
         }
       ],
       "linescore": {
-        "current_inning": 3,
+        "current_inning": 5,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
         "balls": 0,
         "strikes": 0,
-        "outs": 1,
-        "home_runs": 5,
-        "away_runs": 4,
-        "home_hits": 3,
-        "away_hits": 4,
+        "outs": 0,
+        "home_runs": 6,
+        "away_runs": 5,
+        "home_hits": 4,
+        "away_hits": 7,
         "home_errors": 0,
-        "away_errors": 0
+        "away_errors": 1
       },
       "series": {
         "game_number": 2,
@@ -376,7 +374,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822739,
@@ -752,7 +750,7 @@
         "name": "Cincinnati Reds",
         "short_name": "Reds",
         "record": "22-20",
-        "score": 5
+        "score": 6
       },
       "away": {
         "id": 120,
@@ -760,7 +758,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "20-22",
-        "score": 4
+        "score": 5
       },
       "venue": {
         "id": 2602,
@@ -821,19 +819,19 @@
         }
       ],
       "linescore": {
-        "current_inning": 3,
+        "current_inning": 5,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
         "balls": 0,
         "strikes": 0,
-        "outs": 1,
-        "home_runs": 5,
-        "away_runs": 4,
-        "home_hits": 3,
-        "away_hits": 4,
+        "outs": 0,
+        "home_runs": 6,
+        "away_runs": 5,
+        "home_hits": 4,
+        "away_hits": 7,
         "home_errors": 0,
-        "away_errors": 0
+        "away_errors": 1
       },
       "series": {
         "game_number": 2,
@@ -967,7 +965,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822739,
