@@ -276,7 +276,10 @@ def main() -> int:
             None,
         ),
         "all_games": enriched_games,
+        # NL East only — backwards-compat for v0.1.0 app.
         "standings": standings.get("division"),
+        # All six divisions for the redesigned Standings screen.
+        "all_divisions": standings.get("divisions") or [],
         "nats_record": standings.get("nats"),
         "notable_injuries": notable_injuries,
         "former_nats_flag_candidates": former_nats.get("flag_candidates") or [],
