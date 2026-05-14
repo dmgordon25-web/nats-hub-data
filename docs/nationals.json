@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-14T16:28:39+00:00",
+  "fetched_at": "2026-05-14T16:39:48+00:00",
   "freshness": {
-    "schedule": "2026-05-14T16:28:38+00:00",
-    "standings": "2026-05-14T16:28:38+00:00",
+    "schedule": "2026-05-14T16:39:47+00:00",
+    "standings": "2026-05-14T16:39:47+00:00",
     "injuries": "2026-05-14T09:40:10+00:00",
     "former_nats": "2026-05-14T15:30:45+00:00",
-    "weather": "2026-05-14T16:28:39+00:00"
+    "weather": "2026-05-14T16:39:48+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -127,18 +127,18 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-14T16:28:39+00:00",
+    "fetched_at": "2026-05-14T16:39:48+00:00",
     "source": "open_meteo",
     "game_pk": 824517,
     "venue_name": "Great American Ball Park",
     "forecast_at": "2026-05-14T17:00",
-    "temperature_f": 61.5,
-    "feels_like_f": 57.5,
+    "temperature_f": 60.3,
+    "feels_like_f": 53.7,
     "wind_mph": 10.4,
     "wind_dir": "N",
     "precip_chance": 0,
     "precip_inches": 0.0,
-    "summary": "Mostly clear",
+    "summary": "Overcast",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -1432,7 +1432,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 681035,
+          "name": "Christian Scott",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
