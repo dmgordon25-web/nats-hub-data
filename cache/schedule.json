@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-15T20:44:52+00:00",
+  "fetched_at": "2026-05-15T21:43:41+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -199,7 +199,7 @@
         "away_runs": 1,
         "home_hits": 14,
         "away_hits": 3,
-        "home_errors": 2,
+        "home_errors": 3,
         "away_errors": 0
       },
       "series": {
@@ -223,7 +223,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "21-23",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 110,
@@ -231,7 +231,7 @@
         "name": "Baltimore Orioles",
         "short_name": "Orioles",
         "record": "20-24",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -261,7 +261,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -270,7 +270,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -279,7 +279,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "98 Rock 97.9 FM",
@@ -288,7 +288,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Fox 5 WTTG",
@@ -310,19 +310,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 1,
