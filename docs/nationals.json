@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-14T23:41:45+00:00",
+  "fetched_at": "2026-05-15T00:08:55+00:00",
   "freshness": {
-    "schedule": "2026-05-14T23:41:44+00:00",
-    "standings": "2026-05-14T23:41:44+00:00",
+    "schedule": "2026-05-15T00:08:54+00:00",
+    "standings": "2026-05-15T00:08:54+00:00",
     "injuries": "2026-05-14T09:40:10+00:00",
-    "former_nats": "2026-05-14T20:03:31+00:00",
-    "weather": "2026-05-14T23:41:45+00:00"
+    "former_nats": "2026-05-15T00:08:53+00:00",
+    "weather": "2026-05-15T00:08:55+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -142,10 +142,10 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Next Game"
+    "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-14T23:41:45+00:00",
+    "fetched_at": "2026-05-15T00:08:55+00:00",
     "source": "open_meteo",
     "game_pk": 822739,
     "venue_name": "Nationals Park",
@@ -160,10 +160,10 @@
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "did_you_know_presidents_race",
-    "category": "ballpark",
-    "weight": 5,
-    "text": "The Presidents Race happens in the fourth inning. Teddy didn't win once between 2006 and 2012 — 525 races without a victory. Then he finally won."
+    "id": "wholesome_kids_first_game",
+    "category": "wholesome",
+    "weight": 4,
+    "text": "Every kid's first big-league game is the same: the green of the field, the size of the players, the smell of the popcorn. Nationals Park has been that for almost 20 years."
   },
   "next_three": [
     {
@@ -297,7 +297,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822737,
@@ -683,121 +683,6 @@
   },
   "all_games": [
     {
-      "game_pk": 824521,
-      "date": "2026-05-12",
-      "start_time_utc": "2026-05-12T22:40:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 113,
-        "abbrev": "CIN",
-        "name": "Cincinnati Reds",
-        "short_name": "Reds",
-        "record": "22-20",
-        "score": 4
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "20-22",
-        "score": 10
-      },
-      "venue": {
-        "id": 2602,
-        "name": "Great American Ball Park",
-        "city": "Cincinnati",
-        "state": "OH",
-        "lat": 39.097389,
-        "lon": -84.506611
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 663903,
-          "name": "Brady Singer",
-          "hand": null
-        },
-        "away": {
-          "id": 571945,
-          "name": "Miles Mikolas",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Reds.TV",
-          "call_sign": "CINR",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WLW 700",
-          "call_sign": "WLW",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 3,
-        "home_runs": 4,
-        "away_runs": 10,
-        "home_hits": 10,
-        "away_hits": 13,
-        "home_errors": 0,
-        "away_errors": 1
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
-    {
       "game_pk": 824519,
       "date": "2026-05-13",
       "start_time_utc": "2026-05-13T22:40:00Z",
@@ -1158,7 +1043,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822737,
@@ -2618,6 +2503,140 @@
       },
       "series": {
         "game_number": 3,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 822732,
+      "date": "2026-05-29",
+      "start_time_utc": "2026-05-29T22:45:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": true,
+      "home": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "21-23",
+        "score": null
+      },
+      "away": {
+        "id": 135,
+        "abbrev": "SD",
+        "name": "San Diego Padres",
+        "short_name": "Padres",
+        "record": "25-18",
+        "score": null
+      },
+      "venue": {
+        "id": 3309,
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.872861,
+        "lon": -77.007501
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "Padres.TV Presented by UC San Diego Health",
+          "call_sign": "SDPA",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KWFN 97.3",
+          "call_sign": "KWFN",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "XEMO 860",
+          "call_sign": "XEMO",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Fox 5 WTTG",
+          "call_sign": "Fox 5",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Gray Media",
+          "call_sign": "Gray Media",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 1,
         "games_in_series": 3,
         "description": "Regular Season"
       },
