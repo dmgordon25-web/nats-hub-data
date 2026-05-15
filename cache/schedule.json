@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-15T22:40:44+00:00",
+  "fetched_at": "2026-05-15T23:40:57+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -199,7 +199,7 @@
         "away_runs": 1,
         "home_hits": 14,
         "away_hits": 3,
-        "home_errors": 3,
+        "home_errors": 2,
         "away_errors": 0
       },
       "series": {
@@ -215,7 +215,7 @@
       "date": "2026-05-15",
       "start_time_utc": "2026-05-15T22:45:00Z",
       "status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -310,17 +310,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 4,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "balls": 0,
         "strikes": 0,
         "outs": 0,
         "home_runs": 0,
         "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "home_hits": 2,
+        "away_hits": 1,
         "home_errors": 0,
         "away_errors": 0
       },
