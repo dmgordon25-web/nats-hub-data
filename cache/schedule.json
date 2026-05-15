@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-15T21:43:41+00:00",
+  "fetched_at": "2026-05-15T22:40:44+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -214,8 +214,8 @@
       "game_pk": 822739,
       "date": "2026-05-15",
       "start_time_utc": "2026-05-15T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "Warmup",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -718,7 +718,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 690997,
+          "name": "Nolan McLean",
+          "hand": null
+        }
       },
       "broadcasts": [
         {

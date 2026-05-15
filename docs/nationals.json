@@ -1,20 +1,20 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-15T21:43:42+00:00",
+  "fetched_at": "2026-05-15T22:40:46+00:00",
   "freshness": {
-    "schedule": "2026-05-15T21:43:41+00:00",
-    "standings": "2026-05-15T21:43:41+00:00",
+    "schedule": "2026-05-15T22:40:44+00:00",
+    "standings": "2026-05-15T22:40:45+00:00",
     "injuries": "2026-05-15T19:55:25+00:00",
     "former_nats": "2026-05-15T19:55:29+00:00",
-    "weather": "2026-05-15T21:43:42+00:00"
+    "weather": "2026-05-15T22:40:46+00:00"
   },
   "stale_sources": [],
   "focus_game": {
     "game_pk": 822739,
     "date": "2026-05-15",
     "start_time_utc": "2026-05-15T22:45:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "Warmup",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -130,7 +130,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "MASN",
       "is_national": false,
@@ -140,21 +140,21 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-15T21:43:42+00:00",
+    "fetched_at": "2026-05-15T22:40:46+00:00",
     "source": "open_meteo",
     "game_pk": 822739,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-05-15T23:00",
-    "temperature_f": 71.2,
-    "feels_like_f": 66.4,
-    "wind_mph": 6.6,
+    "temperature_f": 71.5,
+    "feels_like_f": 66.8,
+    "wind_mph": 6.5,
     "wind_dir": "NW",
     "precip_chance": 0,
     "precip_inches": 0.0,
-    "summary": "Overcast",
+    "summary": "Clear",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -168,8 +168,8 @@
       "game_pk": 822739,
       "date": "2026-05-15",
       "start_time_utc": "2026-05-15T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "Warmup",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -285,7 +285,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "MASN",
         "is_national": false,
@@ -295,7 +295,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822737,
@@ -914,8 +914,8 @@
       "game_pk": 822739,
       "date": "2026-05-15",
       "start_time_utc": "2026-05-15T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "Warmup",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -1031,7 +1031,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "MASN",
         "is_national": false,
@@ -1041,7 +1041,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822737,
@@ -1462,7 +1462,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 690997,
+          "name": "Nolan McLean",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
