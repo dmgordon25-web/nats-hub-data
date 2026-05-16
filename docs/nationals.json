@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-16T16:40:07+00:00",
+  "fetched_at": "2026-05-16T17:41:04+00:00",
   "freshness": {
-    "schedule": "2026-05-16T16:40:01+00:00",
-    "standings": "2026-05-16T16:40:02+00:00",
+    "schedule": "2026-05-16T17:41:02+00:00",
+    "standings": "2026-05-16T17:41:03+00:00",
     "injuries": "2026-05-16T00:05:11+00:00",
     "former_nats": "2026-05-16T14:36:11+00:00",
-    "weather": "2026-05-16T16:40:07+00:00"
+    "weather": "2026-05-16T17:41:04+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -16,7 +16,7 @@
     "date": "2026-05-16",
     "start_time_utc": "2026-05-16T20:05:00Z",
     "status": "Preview",
-    "detailed_status": "Scheduled",
+    "detailed_status": "Pre-Game",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "22-23",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 110,
@@ -32,7 +32,7 @@
       "name": "Baltimore Orioles",
       "short_name": "Orioles",
       "record": "20-25",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 3309,
@@ -120,19 +120,19 @@
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
       "game_number": 2,
@@ -154,14 +154,14 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-16T16:40:07+00:00",
+    "fetched_at": "2026-05-16T17:41:04+00:00",
     "source": "open_meteo",
     "game_pk": 822737,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-05-16T20:00",
-    "temperature_f": 85.4,
+    "temperature_f": 85.3,
     "feels_like_f": 82.5,
-    "wind_mph": 10.2,
+    "wind_mph": 10.4,
     "wind_dir": "SSW",
     "precip_chance": 0,
     "precip_inches": 0.0,
@@ -180,7 +180,7 @@
       "date": "2026-05-16",
       "start_time_utc": "2026-05-16T20:05:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -188,7 +188,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "22-23",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 110,
@@ -196,7 +196,7 @@
         "name": "Baltimore Orioles",
         "short_name": "Orioles",
         "record": "20-25",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -284,19 +284,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 2,
@@ -789,7 +789,7 @@
         "away_runs": 1,
         "home_hits": 14,
         "away_hits": 3,
-        "home_errors": 2,
+        "home_errors": 3,
         "away_errors": 0
       },
       "series": {
@@ -949,7 +949,7 @@
       "date": "2026-05-16",
       "start_time_utc": "2026-05-16T20:05:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -957,7 +957,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "22-23",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 110,
@@ -965,7 +965,7 @@
         "name": "Baltimore Orioles",
         "short_name": "Orioles",
         "record": "20-25",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -1053,19 +1053,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 2,
