@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-16T20:53:51+00:00",
+  "fetched_at": "2026-05-16T21:54:02+00:00",
   "freshness": {
-    "schedule": "2026-05-16T20:53:50+00:00",
-    "standings": "2026-05-16T20:53:50+00:00",
+    "schedule": "2026-05-16T21:54:01+00:00",
+    "standings": "2026-05-16T21:54:02+00:00",
     "injuries": "2026-05-16T00:05:11+00:00",
     "former_nats": "2026-05-16T19:34:57+00:00",
-    "weather": "2026-05-16T20:53:51+00:00"
+    "weather": "2026-05-16T21:54:02+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "22-23",
-      "score": 3
+      "score": 4
     },
     "away": {
       "id": 110,
@@ -32,7 +32,7 @@
       "name": "Baltimore Orioles",
       "short_name": "Orioles",
       "record": "20-25",
-      "score": 0
+      "score": 2
     },
     "venue": {
       "id": 3309,
@@ -120,17 +120,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 3,
-      "inning_half": "Bottom",
-      "inning_state": "Bottom",
-      "is_top_inning": false,
+      "current_inning": 7,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
       "balls": 0,
       "strikes": 2,
-      "outs": 1,
-      "home_runs": 3,
-      "away_runs": 0,
-      "home_hits": 3,
-      "away_hits": 4,
+      "outs": 0,
+      "home_runs": 4,
+      "away_runs": 2,
+      "home_hits": 7,
+      "away_hits": 8,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -154,14 +154,14 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-16T20:53:51+00:00",
+    "fetched_at": "2026-05-16T21:54:02+00:00",
     "source": "open_meteo",
     "game_pk": 822737,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-05-16T20:00",
-    "temperature_f": 85.1,
-    "feels_like_f": 82.0,
-    "wind_mph": 10.7,
+    "temperature_f": 84.9,
+    "feels_like_f": 82.1,
+    "wind_mph": 10.6,
     "wind_dir": "SSW",
     "precip_chance": 0,
     "precip_inches": 0.0,
@@ -188,7 +188,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "22-23",
-        "score": 3
+        "score": 4
       },
       "away": {
         "id": 110,
@@ -196,7 +196,7 @@
         "name": "Baltimore Orioles",
         "short_name": "Orioles",
         "record": "20-25",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 3309,
@@ -284,17 +284,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 3,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
+        "current_inning": 7,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
         "balls": 0,
         "strikes": 2,
-        "outs": 1,
-        "home_runs": 3,
-        "away_runs": 0,
-        "home_hits": 3,
-        "away_hits": 4,
+        "outs": 0,
+        "home_runs": 4,
+        "away_runs": 2,
+        "home_hits": 7,
+        "away_hits": 8,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -957,7 +957,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "22-23",
-        "score": 3
+        "score": 4
       },
       "away": {
         "id": 110,
@@ -965,7 +965,7 @@
         "name": "Baltimore Orioles",
         "short_name": "Orioles",
         "record": "20-25",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 3309,
@@ -1053,17 +1053,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 3,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
+        "current_inning": 7,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
         "balls": 0,
         "strikes": 2,
-        "outs": 1,
-        "home_runs": 3,
-        "away_runs": 0,
-        "home_hits": 3,
-        "away_hits": 4,
+        "outs": 0,
+        "home_runs": 4,
+        "away_runs": 2,
+        "home_hits": 7,
+        "away_hits": 8,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -2907,7 +2907,7 @@
           "streak": "W3",
           "last_ten": "5-5",
           "division_rank": 1,
-          "league_rank": 3,
+          "league_rank": 4,
           "wc_rank": null,
           "run_diff": 72,
           "runs_scored": 223,
@@ -3022,6 +3022,26 @@
           "elim_num": "-"
         },
         {
+          "id": 138,
+          "abbrev": "STL",
+          "name": "St. Louis Cardinals",
+          "short_name": "Cardinals",
+          "wins": 27,
+          "losses": 18,
+          "pct": ".600",
+          "gb": "2.0",
+          "wc_gb": "+0.5",
+          "streak": "W3",
+          "last_ten": "6-4",
+          "division_rank": 2,
+          "league_rank": 3,
+          "wc_rank": 1,
+          "run_diff": 5,
+          "runs_scored": 208,
+          "runs_allowed": 203,
+          "elim_num": "116"
+        },
+        {
           "id": 158,
           "abbrev": "MIL",
           "name": "Milwaukee Brewers",
@@ -3033,33 +3053,13 @@
           "wc_gb": "-",
           "streak": "W2",
           "last_ten": "7-3",
-          "division_rank": 2,
-          "league_rank": 4,
-          "wc_rank": 1,
+          "division_rank": 3,
+          "league_rank": 5,
+          "wc_rank": 2,
           "run_diff": 61,
           "runs_scored": 212,
           "runs_allowed": 151,
           "elim_num": "117"
-        },
-        {
-          "id": 138,
-          "abbrev": "STL",
-          "name": "St. Louis Cardinals",
-          "short_name": "Cardinals",
-          "wins": 26,
-          "losses": 18,
-          "pct": ".591",
-          "gb": "2.5",
-          "wc_gb": "-",
-          "streak": "W2",
-          "last_ten": "6-4",
-          "division_rank": 3,
-          "league_rank": 5,
-          "wc_rank": 2,
-          "run_diff": 3,
-          "runs_scored": 204,
-          "runs_allowed": 201,
-          "elim_num": "116"
         },
         {
           "id": 134,
@@ -3301,19 +3301,19 @@
           "name": "Kansas City Royals",
           "short_name": "Royals",
           "wins": 19,
-          "losses": 26,
-          "pct": ".422",
-          "gb": "4.5",
-          "wc_gb": "2.5",
-          "streak": "L5",
-          "last_ten": "3-7",
+          "losses": 27,
+          "pct": ".413",
+          "gb": "5.0",
+          "wc_gb": "3.0",
+          "streak": "L6",
+          "last_ten": "2-8",
           "division_rank": 5,
           "league_rank": 12,
           "wc_rank": 9,
-          "run_diff": -21,
-          "runs_scored": 185,
-          "runs_allowed": 206,
-          "elim_num": "113"
+          "run_diff": -23,
+          "runs_scored": 187,
+          "runs_allowed": 210,
+          "elim_num": "112"
         }
       ]
     },
