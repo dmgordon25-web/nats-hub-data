@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-16T00:05:17+00:00",
+  "fetched_at": "2026-05-16T01:26:16+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -95,7 +95,7 @@
         "away_runs": 1,
         "home_hits": 14,
         "away_hits": 3,
-        "home_errors": 3,
+        "home_errors": 2,
         "away_errors": 0
       },
       "series": {
@@ -110,24 +110,24 @@
       "game_pk": 822739,
       "date": "2026-05-15",
       "start_time_utc": "2026-05-15T22:45:00Z",
-      "status": "Live",
-      "detailed_status": "In Progress",
+      "status": "Final",
+      "detailed_status": "Game Over",
       "is_nats_home": true,
       "home": {
         "id": 120,
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "21-23",
-        "score": 1
+        "record": "22-23",
+        "score": 3
       },
       "away": {
         "id": 110,
         "abbrev": "BAL",
         "name": "Baltimore Orioles",
         "short_name": "Orioles",
-        "record": "20-24",
-        "score": 0
+        "record": "20-25",
+        "score": 2
       },
       "venue": {
         "id": 3309,
@@ -206,17 +206,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 5,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 1,
-        "home_runs": 1,
-        "away_runs": 0,
-        "home_hits": 4,
-        "away_hits": 2,
+        "current_inning": 9,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 1,
+        "strikes": 3,
+        "outs": 3,
+        "home_runs": 3,
+        "away_runs": 2,
+        "home_hits": 6,
+        "away_hits": 6,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -240,7 +240,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "21-23",
+        "record": "22-23",
         "score": null
       },
       "away": {
@@ -248,7 +248,7 @@
         "abbrev": "BAL",
         "name": "Baltimore Orioles",
         "short_name": "Orioles",
-        "record": "20-24",
+        "record": "20-25",
         "score": null
       },
       "venue": {
@@ -371,7 +371,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "21-23",
+        "record": "22-23",
         "score": null
       },
       "away": {
@@ -379,7 +379,7 @@
         "abbrev": "BAL",
         "name": "Baltimore Orioles",
         "short_name": "Orioles",
-        "record": "20-24",
+        "record": "20-25",
         "score": null
       },
       "venue": {
@@ -484,7 +484,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "21-23",
+        "record": "22-23",
         "score": null
       },
       "away": {
@@ -593,7 +593,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "21-23",
+        "record": "22-23",
         "score": null
       },
       "away": {
@@ -702,7 +702,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "21-23",
+        "record": "22-23",
         "score": null
       },
       "away": {
@@ -807,7 +807,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "21-23",
+        "record": "22-23",
         "score": null
       },
       "away": {
@@ -920,7 +920,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "21-23",
+        "record": "22-23",
         "score": null
       },
       "venue": {
@@ -1025,7 +1025,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "21-23",
+        "record": "22-23",
         "score": null
       },
       "venue": {
@@ -1130,7 +1130,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "21-23",
+        "record": "22-23",
         "score": null
       },
       "venue": {
@@ -1235,7 +1235,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "21-23",
+        "record": "22-23",
         "score": null
       },
       "venue": {
@@ -1358,7 +1358,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "21-23",
+        "record": "22-23",
         "score": null
       },
       "venue": {
@@ -1481,7 +1481,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "21-23",
+        "record": "22-23",
         "score": null
       },
       "venue": {
@@ -1587,7 +1587,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "21-23",
+        "record": "22-23",
         "score": null
       },
       "away": {
@@ -1710,7 +1710,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "21-23",
+        "record": "22-23",
         "score": null
       },
       "away": {
