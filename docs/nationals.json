@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-16T19:34:59+00:00",
+  "fetched_at": "2026-05-16T19:52:09+00:00",
   "freshness": {
-    "schedule": "2026-05-16T19:34:58+00:00",
-    "standings": "2026-05-16T19:34:58+00:00",
+    "schedule": "2026-05-16T19:52:08+00:00",
+    "standings": "2026-05-16T19:52:08+00:00",
     "injuries": "2026-05-16T00:05:11+00:00",
     "former_nats": "2026-05-16T19:34:57+00:00",
-    "weather": "2026-05-16T19:34:59+00:00"
+    "weather": "2026-05-16T19:52:09+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -15,8 +15,8 @@
     "game_pk": 822737,
     "date": "2026-05-16",
     "start_time_utc": "2026-05-16T20:05:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "Warmup",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -141,7 +141,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "FS1",
       "is_national": true,
@@ -151,10 +151,10 @@
       "intent_uri": "https://tv.youtube.com/watch/live/fox",
       "fallback_uri": "https://tv.youtube.com/"
     },
-    "watch_label": "Starts Soon"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-16T19:34:59+00:00",
+    "fetched_at": "2026-05-16T19:52:09+00:00",
     "source": "open_meteo",
     "game_pk": 822737,
     "venue_name": "Nationals Park",
@@ -179,8 +179,8 @@
       "game_pk": 822737,
       "date": "2026-05-16",
       "start_time_utc": "2026-05-16T20:05:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "Warmup",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -305,7 +305,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "FS1",
         "is_national": true,
@@ -315,7 +315,7 @@
         "intent_uri": "https://tv.youtube.com/watch/live/fox",
         "fallback_uri": "https://tv.youtube.com/"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822738,
@@ -789,7 +789,7 @@
         "away_runs": 1,
         "home_hits": 14,
         "away_hits": 3,
-        "home_errors": 3,
+        "home_errors": 2,
         "away_errors": 0
       },
       "series": {
@@ -948,8 +948,8 @@
       "game_pk": 822737,
       "date": "2026-05-16",
       "start_time_utc": "2026-05-16T20:05:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "Warmup",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -1074,7 +1074,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "FS1",
         "is_national": true,
@@ -1084,7 +1084,7 @@
         "intent_uri": "https://tv.youtube.com/watch/live/fox",
         "fallback_uri": "https://tv.youtube.com/"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822738,
@@ -3149,6 +3149,26 @@
           "elim_num": "117"
         },
         {
+          "id": 141,
+          "abbrev": "TOR",
+          "name": "Toronto Blue Jays",
+          "short_name": "Blue Jays",
+          "wins": 20,
+          "losses": 25,
+          "pct": ".444",
+          "gb": "10.0",
+          "wc_gb": "1.5",
+          "streak": "W1",
+          "last_ten": "4-6",
+          "division_rank": 3,
+          "league_rank": 8,
+          "wc_rank": 6,
+          "run_diff": -14,
+          "runs_scored": 184,
+          "runs_allowed": 198,
+          "elim_num": "109"
+        },
+        {
           "id": 110,
           "abbrev": "BAL",
           "name": "Baltimore Orioles",
@@ -3160,32 +3180,12 @@
           "wc_gb": "1.5",
           "streak": "L1",
           "last_ten": "5-5",
-          "division_rank": 3,
-          "league_rank": 8,
+          "division_rank": 4,
+          "league_rank": 9,
           "wc_rank": 7,
           "run_diff": -38,
           "runs_scored": 195,
           "runs_allowed": 233,
-          "elim_num": "109"
-        },
-        {
-          "id": 141,
-          "abbrev": "TOR",
-          "name": "Toronto Blue Jays",
-          "short_name": "Blue Jays",
-          "wins": 19,
-          "losses": 25,
-          "pct": ".432",
-          "gb": "10.5",
-          "wc_gb": "2.0",
-          "streak": "L1",
-          "last_ten": "3-7",
-          "division_rank": 4,
-          "league_rank": 11,
-          "wc_rank": 8,
-          "run_diff": -15,
-          "runs_scored": 182,
-          "runs_allowed": 197,
           "elim_num": "109"
         },
         {
@@ -3281,19 +3281,19 @@
           "name": "Detroit Tigers",
           "short_name": "Tigers",
           "wins": 20,
-          "losses": 25,
-          "pct": ".444",
-          "gb": "3.5",
-          "wc_gb": "1.5",
-          "streak": "W1",
+          "losses": 26,
+          "pct": ".435",
+          "gb": "4.0",
+          "wc_gb": "2.0",
+          "streak": "L1",
           "last_ten": "2-8",
           "division_rank": 4,
-          "league_rank": 9,
-          "wc_rank": 6,
-          "run_diff": -9,
-          "runs_scored": 186,
-          "runs_allowed": 195,
-          "elim_num": "114"
+          "league_rank": 11,
+          "wc_rank": 8,
+          "run_diff": -10,
+          "runs_scored": 187,
+          "runs_allowed": 197,
+          "elim_num": "113"
         },
         {
           "id": 118,
