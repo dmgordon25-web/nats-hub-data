@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-16T19:52:08+00:00",
+  "fetched_at": "2026-05-16T20:53:50+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -233,7 +233,7 @@
       "date": "2026-05-16",
       "start_time_utc": "2026-05-16T20:05:00Z",
       "status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -241,7 +241,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "22-23",
-        "score": 0
+        "score": 3
       },
       "away": {
         "id": 110,
@@ -337,17 +337,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 3,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
+        "strikes": 2,
+        "outs": 1,
+        "home_runs": 3,
         "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "home_hits": 3,
+        "away_hits": 4,
         "home_errors": 0,
         "away_errors": 0
       },
