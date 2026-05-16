@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-15T23:40:58+00:00",
+  "fetched_at": "2026-05-16T00:05:18+00:00",
   "freshness": {
-    "schedule": "2026-05-15T23:40:57+00:00",
-    "standings": "2026-05-15T23:40:58+00:00",
-    "injuries": "2026-05-15T19:55:25+00:00",
-    "former_nats": "2026-05-15T19:55:29+00:00",
-    "weather": "2026-05-15T23:40:58+00:00"
+    "schedule": "2026-05-16T00:05:17+00:00",
+    "standings": "2026-05-16T00:05:17+00:00",
+    "injuries": "2026-05-16T00:05:11+00:00",
+    "former_nats": "2026-05-16T00:05:17+00:00",
+    "weather": "2026-05-16T00:05:18+00:00"
   },
   "stale_sources": [],
   "focus_game": {
@@ -22,7 +22,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "21-23",
-      "score": 0
+      "score": 1
     },
     "away": {
       "id": 110,
@@ -109,17 +109,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 4,
+      "current_inning": 5,
       "inning_half": "Bottom",
       "inning_state": "Bottom",
       "is_top_inning": false,
       "balls": 0,
       "strikes": 0,
-      "outs": 0,
-      "home_runs": 0,
+      "outs": 1,
+      "home_runs": 1,
       "away_runs": 0,
-      "home_hits": 2,
-      "away_hits": 1,
+      "home_hits": 4,
+      "away_hits": 2,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -143,25 +143,25 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-15T23:40:58+00:00",
+    "fetched_at": "2026-05-16T00:05:18+00:00",
     "source": "open_meteo",
     "game_pk": 822739,
     "venue_name": "Nationals Park",
-    "forecast_at": "2026-05-15T23:00",
-    "temperature_f": 71.3,
-    "feels_like_f": 66.8,
-    "wind_mph": 5.6,
+    "forecast_at": "2026-05-16T00:00",
+    "temperature_f": 67.8,
+    "feels_like_f": 64.1,
+    "wind_mph": 3.2,
     "wind_dir": "NW",
     "precip_chance": 0,
     "precip_inches": 0.0,
-    "summary": "Overcast",
+    "summary": "Clear",
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "wholesome_kids_first_game",
-    "category": "wholesome",
+    "id": "did_you_know_max_two_no_hitters",
+    "category": "did_you_know",
     "weight": 4,
-    "text": "Every kid's first big-league game is the same: the green of the field, the size of the players, the smell of the popcorn. Nationals Park has been that for almost 20 years."
+    "text": "Max Scherzer threw the second no-hitter in franchise history (after Zimmermann's). It came against the Mets, October 3, 2015. He struck out 17."
   },
   "next_three": [
     {
@@ -177,7 +177,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "21-23",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 110,
@@ -264,17 +264,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 4,
+        "current_inning": 5,
         "inning_half": "Bottom",
         "inning_state": "Bottom",
         "is_top_inning": false,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
+        "outs": 1,
+        "home_runs": 1,
         "away_runs": 0,
-        "home_hits": 2,
-        "away_hits": 1,
+        "home_hits": 4,
+        "away_hits": 2,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -437,7 +437,7 @@
         "intent_uri": "https://tv.youtube.com/watch/live/fox",
         "fallback_uri": "https://tv.youtube.com/"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822738,
@@ -657,7 +657,7 @@
       "away_runs": 1,
       "home_hits": 14,
       "away_hits": 3,
-      "home_errors": 2,
+      "home_errors": 3,
       "away_errors": 0
     },
     "series": {
@@ -680,121 +680,6 @@
     "watch_label": "Game Final"
   },
   "all_games": [
-    {
-      "game_pk": 824519,
-      "date": "2026-05-13",
-      "start_time_utc": "2026-05-13T22:40:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 113,
-        "abbrev": "CIN",
-        "name": "Cincinnati Reds",
-        "short_name": "Reds",
-        "record": "22-21",
-        "score": 7
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "21-22",
-        "score": 8
-      },
-      "venue": {
-        "id": 2602,
-        "name": "Great American Ball Park",
-        "city": "Cincinnati",
-        "state": "OH",
-        "lat": 39.097389,
-        "lon": -84.506611
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 666157,
-          "name": "Nick Lodolo",
-          "hand": null
-        },
-        "away": {
-          "id": 663623,
-          "name": "Jake Irvin",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Reds.TV",
-          "call_sign": "CINR",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WLW 700",
-          "call_sign": "WLW",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 10,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 3,
-        "strikes": 1,
-        "outs": 3,
-        "home_runs": 7,
-        "away_runs": 8,
-        "home_hits": 7,
-        "away_hits": 10,
-        "home_errors": 0,
-        "away_errors": 1
-      },
-      "series": {
-        "game_number": 2,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
     {
       "game_pk": 824517,
       "date": "2026-05-14",
@@ -888,7 +773,7 @@
         "away_runs": 1,
         "home_hits": 14,
         "away_hits": 3,
-        "home_errors": 2,
+        "home_errors": 3,
         "away_errors": 0
       },
       "series": {
@@ -923,7 +808,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "21-23",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 110,
@@ -1010,17 +895,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 4,
+        "current_inning": 5,
         "inning_half": "Bottom",
         "inning_state": "Bottom",
         "is_top_inning": false,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
+        "outs": 1,
+        "home_runs": 1,
         "away_runs": 0,
-        "home_hits": 2,
-        "away_hits": 1,
+        "home_hits": 4,
+        "away_hits": 2,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -1183,7 +1068,7 @@
         "intent_uri": "https://tv.youtube.com/watch/live/fox",
         "fallback_uri": "https://tv.youtube.com/"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822738,
@@ -2655,6 +2540,122 @@
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
       "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 822731,
+      "date": "2026-05-30",
+      "start_time_utc": "2026-05-30T20:05:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": true,
+      "home": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "21-23",
+        "score": null
+      },
+      "away": {
+        "id": 135,
+        "abbrev": "SD",
+        "name": "San Diego Padres",
+        "short_name": "Padres",
+        "record": "25-18",
+        "score": null
+      },
+      "venue": {
+        "id": 3309,
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.872861,
+        "lon": -77.007501
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "Padres.TV Presented by UC San Diego Health",
+          "call_sign": "SDPA",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KWFN 97.3",
+          "call_sign": "KWFN",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "XEMO 860",
+          "call_sign": "XEMO",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 2,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
     }
   ],
   "standings": {
@@ -3430,6 +3431,30 @@
   },
   "notable_injuries": [
     {
+      "athlete_id": 4917686,
+      "athlete_name": "DJ Herz",
+      "short_name": "D. Herz",
+      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/4917686.png",
+      "position": "SP",
+      "status_code": "INJURY_STATUS_60DAYIL",
+      "status_label": "60-day IL",
+      "status_abbrev": "IL60",
+      "date": "May 15",
+      "description": "Herz (elbow) will throw to live hitters Friday at the Nationals' spring training facility in Florida, Mark Zuckerman of NatsJournal.com reports."
+    },
+    {
+      "athlete_id": 4414361,
+      "athlete_name": "Cole Henry",
+      "short_name": "C. Henry",
+      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/4414361.png",
+      "position": "RP",
+      "status_code": "INJURY_STATUS_15DAYIL",
+      "status_label": "15-day IL",
+      "status_abbrev": "IL15",
+      "date": "May 15",
+      "description": "Henry (shoulder) will begin a rehab assignment with Triple-A Rochester this weekend, Mark Zuckerman of NatsJournal.com reports."
+    },
+    {
       "athlete_id": 4313143,
       "athlete_name": "Clayton Beeter",
       "short_name": "C. Beeter",
@@ -3454,18 +3479,6 @@
       "description": "Williams (elbow) began pitching off a mound at the Nationals' spring training complex this weekend, Jessica Camerato of MLB.com reports."
     },
     {
-      "athlete_id": 4917686,
-      "athlete_name": "DJ Herz",
-      "short_name": "D. Herz",
-      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/4917686.png",
-      "position": "SP",
-      "status_code": "INJURY_STATUS_60DAYIL",
-      "status_label": "60-day IL",
-      "status_abbrev": "IL60",
-      "date": "May 8",
-      "description": "Herz (elbow) threw a bullpen session Friday, Jessica Camerato of MLB.com reports."
-    },
-    {
       "athlete_id": 41165,
       "athlete_name": "Josiah Gray",
       "short_name": "J. Gray",
@@ -3488,18 +3501,6 @@
       "status_abbrev": "IL60",
       "date": "May 8",
       "description": "The Nationals transferred Waldichuk (elbow) to the 60-day injured list Thursday."
-    },
-    {
-      "athlete_id": 4414361,
-      "athlete_name": "Cole Henry",
-      "short_name": "C. Henry",
-      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/4414361.png",
-      "position": "RP",
-      "status_code": "INJURY_STATUS_15DAYIL",
-      "status_label": "15-day IL",
-      "status_abbrev": "IL15",
-      "date": "May 8",
-      "description": "Henry (shoulder) played catch Saturday, Mark Zuckerman of NatsJournal.com reports."
     },
     {
       "athlete_id": 4684369,
