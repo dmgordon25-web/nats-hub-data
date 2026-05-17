@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-17T16:40:34+00:00",
+  "fetched_at": "2026-05-17T17:43:47+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -259,8 +259,8 @@
       "game_pk": 822738,
       "date": "2026-05-17",
       "start_time_utc": "2026-05-17T17:35:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -276,7 +276,7 @@
         "name": "Baltimore Orioles",
         "short_name": "Orioles",
         "record": "20-26",
-        "score": 0
+        "score": 1
       },
       "venue": {
         "id": 3309,
@@ -348,15 +348,15 @@
       "linescore": {
         "current_inning": 1,
         "inning_half": "Top",
-        "inning_state": "Top",
+        "inning_state": "Middle",
         "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "balls": 3,
+        "strikes": 3,
+        "outs": 3,
         "home_runs": 0,
-        "away_runs": 0,
+        "away_runs": 1,
         "home_hits": 0,
-        "away_hits": 0,
+        "away_hits": 1,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -400,7 +400,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 663623,
+          "name": "Jake Irvin",
+          "hand": null
+        },
         "away": {
           "id": 681035,
           "name": "Christian Scott",
@@ -509,7 +513,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 656492,
+          "name": "Foster Griffin",
+          "hand": null
+        },
         "away": {
           "id": 690997,
           "name": "Nolan McLean",
@@ -618,7 +626,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 641793,
+          "name": "Zack Littell",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -723,7 +735,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 676917,
+          "name": "Cade Cavalli",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
