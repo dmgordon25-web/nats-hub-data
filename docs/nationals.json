@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-17T23:10:19+00:00",
+  "fetched_at": "2026-05-18T00:09:40+00:00",
   "freshness": {
-    "schedule": "2026-05-17T23:10:18+00:00",
-    "standings": "2026-05-17T23:10:18+00:00",
+    "schedule": "2026-05-18T00:09:39+00:00",
+    "standings": "2026-05-18T00:09:39+00:00",
     "injuries": "2026-05-16T00:05:11+00:00",
-    "former_nats": "2026-05-17T19:37:58+00:00",
-    "weather": "2026-05-17T23:10:19+00:00"
+    "former_nats": "2026-05-18T00:09:39+00:00",
+    "weather": "2026-05-18T00:09:40+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -133,10 +133,10 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Next Game"
+    "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-17T23:10:19+00:00",
+    "fetched_at": "2026-05-18T00:09:40+00:00",
     "source": "open_meteo",
     "game_pk": 822734,
     "venue_name": "Nationals Park",
@@ -151,10 +151,10 @@
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "player_spotlight_gore",
+    "id": "player_spotlight_crews",
     "category": "player_spotlight",
     "weight": 6,
-    "text": "MacKenzie Gore was the third overall pick in 2017. The Nats got him in the Soto trade. The fastball is real."
+    "text": "Dylan Crews was the second overall pick in 2023. He hits, he runs, he throws. The complete package."
   },
   "next_three": [
     {
@@ -279,7 +279,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822736,
@@ -651,139 +651,6 @@
     "watch_label": "Game Final"
   },
   "all_games": [
-    {
-      "game_pk": 822739,
-      "date": "2026-05-15",
-      "start_time_utc": "2026-05-15T22:45:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "22-23",
-        "score": 3
-      },
-      "away": {
-        "id": 110,
-        "abbrev": "BAL",
-        "name": "Baltimore Orioles",
-        "short_name": "Orioles",
-        "record": "20-25",
-        "score": 2
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 641793,
-          "name": "Zack Littell",
-          "hand": null
-        },
-        "away": {
-          "id": 669358,
-          "name": "Shane Baz",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "MASN",
-          "call_sign": "MASN",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "98 Rock 97.9 FM",
-          "call_sign": "98 Rock",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Fox 5 WTTG",
-          "call_sign": "Fox 5",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Gray Media",
-          "call_sign": "Gray Media",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 1,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 3,
-        "away_runs": 2,
-        "home_hits": 6,
-        "away_hits": 6,
-        "home_errors": 0,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "MASN",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
     {
       "game_pk": 822737,
       "date": "2026-05-16",
@@ -1172,7 +1039,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822736,
@@ -2644,6 +2511,122 @@
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
       "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 822730,
+      "date": "2026-06-01",
+      "start_time_utc": "2026-06-01T22:45:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": true,
+      "home": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "23-24",
+        "score": null
+      },
+      "away": {
+        "id": 146,
+        "abbrev": "MIA",
+        "name": "Miami Marlins",
+        "short_name": "Marlins",
+        "record": "21-26",
+        "score": null
+      },
+      "venue": {
+        "id": 3309,
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.872861,
+        "lon": -77.007501
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
+          "call_sign": "MIAM",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WQAM 104.3",
+          "call_sign": "WQAM 104.3",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WAQI 710",
+          "call_sign": "WAQI",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 1,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
     }
   ],
   "standings": {
@@ -2911,19 +2894,19 @@
           "abbrev": "AZ",
           "name": "Arizona Diamondbacks",
           "short_name": "D-backs",
-          "wins": 21,
+          "wins": 22,
           "losses": 23,
-          "pct": ".477",
-          "gb": "6.5",
-          "wc_gb": "5.0",
-          "streak": "L1",
-          "last_ten": "4-6",
+          "pct": ".489",
+          "gb": "6.0",
+          "wc_gb": "4.5",
+          "streak": "W1",
+          "last_ten": "5-5",
           "division_rank": 3,
           "league_rank": 11,
           "wc_rank": 8,
-          "run_diff": -19,
-          "runs_scored": 190,
-          "runs_allowed": 209,
+          "run_diff": -17,
+          "runs_scored": 198,
+          "runs_allowed": 215,
           "elim_num": "111"
         },
         {
@@ -2952,19 +2935,19 @@
           "name": "Colorado Rockies",
           "short_name": "Rockies",
           "wins": 18,
-          "losses": 28,
-          "pct": ".391",
-          "gb": "10.5",
-          "wc_gb": "9.0",
-          "streak": "W1",
+          "losses": 29,
+          "pct": ".383",
+          "gb": "11.0",
+          "wc_gb": "9.5",
+          "streak": "L1",
           "last_ten": "4-6",
           "division_rank": 5,
           "league_rank": 15,
           "wc_rank": 12,
-          "run_diff": -42,
-          "runs_scored": 193,
-          "runs_allowed": 235,
-          "elim_num": "106"
+          "run_diff": -44,
+          "runs_scored": 199,
+          "runs_allowed": 243,
+          "elim_num": "105"
         }
       ]
     },
