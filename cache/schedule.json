@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-18T21:57:58+00:00",
+  "fetched_at": "2026-05-18T23:14:17+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -250,8 +250,8 @@
       "game_pk": 822734,
       "date": "2026-05-18",
       "start_time_utc": "2026-05-18T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -267,7 +267,7 @@
         "name": "New York Mets",
         "short_name": "Mets",
         "record": "20-26",
-        "score": 0
+        "score": 1
       },
       "venue": {
         "id": 3309,
@@ -337,18 +337,18 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 2,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
+        "outs": 1,
         "home_runs": 0,
-        "away_runs": 0,
+        "away_runs": 1,
         "home_hits": 0,
-        "away_hits": 0,
-        "home_errors": 0,
+        "away_hits": 4,
+        "home_errors": 2,
         "away_errors": 0
       },
       "series": {
