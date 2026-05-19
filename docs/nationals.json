@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-19T20:04:56+00:00",
+  "fetched_at": "2026-05-19T21:24:52+00:00",
   "freshness": {
-    "schedule": "2026-05-19T20:04:55+00:00",
-    "standings": "2026-05-19T20:04:55+00:00",
+    "schedule": "2026-05-19T21:24:51+00:00",
+    "standings": "2026-05-19T21:24:51+00:00",
     "injuries": "2026-05-19T00:17:50+00:00",
     "former_nats": "2026-05-19T20:04:55+00:00",
-    "weather": "2026-05-19T20:04:56+00:00"
+    "weather": "2026-05-19T21:24:52+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "23-25",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 121,
@@ -32,7 +32,7 @@
       "name": "New York Mets",
       "short_name": "Mets",
       "record": "21-26",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 3309,
@@ -62,7 +62,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -71,7 +71,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -80,7 +80,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WEPN 1050AM",
@@ -89,7 +89,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Audacy App 92.3 HD2",
@@ -98,23 +98,23 @@
         "language": "es",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
       "game_number": 2,
@@ -136,18 +136,18 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-19T20:04:56+00:00",
+    "fetched_at": "2026-05-19T21:24:52+00:00",
     "source": "open_meteo",
     "game_pk": 822736,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-05-19T23:00",
-    "temperature_f": 77.2,
-    "feels_like_f": 79.3,
-    "wind_mph": 9.5,
-    "wind_dir": "SE",
-    "precip_chance": 8,
-    "precip_inches": 0.028,
-    "summary": "Drizzle",
+    "temperature_f": 94.1,
+    "feels_like_f": 94.5,
+    "wind_mph": 7.0,
+    "wind_dir": "S",
+    "precip_chance": 23,
+    "precip_inches": 0.0,
+    "summary": "Clear",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -170,7 +170,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "23-25",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 121,
@@ -178,7 +178,7 @@
         "name": "New York Mets",
         "short_name": "Mets",
         "record": "21-26",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -208,7 +208,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -217,7 +217,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -226,7 +226,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WEPN 1050AM",
@@ -235,7 +235,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Audacy App 92.3 HD2",
@@ -244,23 +244,23 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 2,
@@ -908,7 +908,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "23-25",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 121,
@@ -916,7 +916,7 @@
         "name": "New York Mets",
         "short_name": "Mets",
         "record": "21-26",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -946,7 +946,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -955,7 +955,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -964,7 +964,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WEPN 1050AM",
@@ -973,7 +973,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Audacy App 92.3 HD2",
@@ -982,23 +982,23 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 2,
