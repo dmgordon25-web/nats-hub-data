@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-19T22:45:24+00:00",
+  "fetched_at": "2026-05-19T23:47:54+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -232,8 +232,8 @@
       "game_pk": 822736,
       "date": "2026-05-19",
       "start_time_utc": "2026-05-19T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Delayed Start",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -249,7 +249,7 @@
         "name": "New York Mets",
         "short_name": "Mets",
         "record": "21-26",
-        "score": 0
+        "score": 3
       },
       "venue": {
         "id": 3309,
@@ -320,16 +320,16 @@
       ],
       "linescore": {
         "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 1,
+        "strikes": 1,
+        "outs": 2,
         "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "away_runs": 3,
+        "home_hits": 1,
+        "away_hits": 4,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -571,7 +571,7 @@
         "abbrev": "ATL",
         "name": "Atlanta Braves",
         "short_name": "Braves",
-        "record": "32-16",
+        "record": "33-16",
         "score": null
       },
       "away": {
@@ -676,7 +676,7 @@
         "abbrev": "ATL",
         "name": "Atlanta Braves",
         "short_name": "Braves",
-        "record": "32-16",
+        "record": "33-16",
         "score": null
       },
       "away": {
@@ -781,7 +781,7 @@
         "abbrev": "ATL",
         "name": "Atlanta Braves",
         "short_name": "Braves",
-        "record": "32-16",
+        "record": "33-16",
         "score": null
       },
       "away": {
@@ -1587,7 +1587,7 @@
         "abbrev": "MIA",
         "name": "Miami Marlins",
         "short_name": "Marlins",
-        "record": "22-26",
+        "record": "22-27",
         "score": null
       },
       "venue": {
@@ -1692,7 +1692,7 @@
         "abbrev": "MIA",
         "name": "Miami Marlins",
         "short_name": "Marlins",
-        "record": "22-26",
+        "record": "22-27",
         "score": null
       },
       "venue": {
