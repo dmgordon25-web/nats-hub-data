@@ -1,14 +1,16 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-19T07:02:24+00:00",
+  "fetched_at": "2026-05-19T10:44:22+00:00",
   "freshness": {
-    "schedule": "2026-05-19T07:02:23+00:00",
-    "standings": "2026-05-19T07:02:23+00:00",
+    "schedule": "2026-05-19T10:44:21+00:00",
+    "standings": "2026-05-19T10:44:21+00:00",
     "injuries": "2026-05-19T00:17:50+00:00",
-    "former_nats": "2026-05-19T00:17:54+00:00",
-    "weather": "2026-05-19T07:02:24+00:00"
+    "former_nats": "2026-05-19T10:44:20+00:00",
+    "weather": "2026-05-19T10:44:22+00:00"
   },
-  "stale_sources": [],
+  "stale_sources": [
+    "injuries"
+  ],
   "focus_game": {
     "game_pk": 822736,
     "date": "2026-05-19",
@@ -134,15 +136,15 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-19T07:02:24+00:00",
+    "fetched_at": "2026-05-19T10:44:22+00:00",
     "source": "open_meteo",
     "game_pk": 822736,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-05-19T23:00",
-    "temperature_f": 97.2,
-    "feels_like_f": 93.0,
-    "wind_mph": 6.1,
-    "wind_dir": "S",
+    "temperature_f": 97.7,
+    "feels_like_f": 94.8,
+    "wind_mph": 5.7,
+    "wind_dir": "WSW",
     "precip_chance": 12,
     "precip_inches": 0.0,
     "summary": "Clear",
@@ -3454,5 +3456,20 @@
       "description": "The Nationals signed Kranick (elbow) to a one-year, $800,000 contract Tuesday and placed him on the 15-day injured list."
     }
   ],
-  "former_nats_flag_candidates": []
+  "former_nats_flag_candidates": [
+    {
+      "mlb_id": 665742,
+      "name": "Juan Soto",
+      "summary": "2-for-5 vs. Nats",
+      "celebrate": true,
+      "against_nats": true
+    },
+    {
+      "mlb_id": 605137,
+      "name": "Josh Bell",
+      "summary": "2-HR game",
+      "celebrate": true,
+      "against_nats": false
+    }
+  ]
 }
