@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-20T01:51:38+00:00",
+  "fetched_at": "2026-05-20T03:32:45+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -47,21 +47,21 @@
       },
       "broadcasts": [
         {
-          "name": "SNY",
-          "call_sign": "SNY",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_ARCHIVE"
+        },
+        {
+          "name": "SNY",
+          "call_sign": "SNY",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_ARCHIVE"
         },
         {
@@ -119,15 +119,15 @@
       "game_pk": 822736,
       "date": "2026-05-19",
       "start_time_utc": "2026-05-19T22:45:00Z",
-      "status": "Live",
-      "detailed_status": "In Progress",
+      "status": "Final",
+      "detailed_status": "Final",
       "is_nats_home": true,
       "home": {
         "id": 120,
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "23-25",
+        "record": "24-25",
         "score": 9
       },
       "away": {
@@ -135,7 +135,7 @@
         "abbrev": "NYM",
         "name": "New York Mets",
         "short_name": "Mets",
-        "record": "21-26",
+        "record": "21-27",
         "score": 6
       },
       "venue": {
@@ -166,7 +166,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "Nationals.TV",
@@ -175,7 +175,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -184,7 +184,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WEPN 1050AM",
@@ -193,7 +193,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "Audacy App 92.3 HD2",
@@ -202,7 +202,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         }
       ],
       "linescore": {
@@ -210,9 +210,9 @@
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "balls": 1,
+        "strikes": 3,
+        "outs": 3,
         "home_runs": 9,
         "away_runs": 6,
         "home_hits": 9,
@@ -240,7 +240,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "23-25",
+        "record": "24-25",
         "score": null
       },
       "away": {
@@ -248,7 +248,7 @@
         "abbrev": "NYM",
         "name": "New York Mets",
         "short_name": "Mets",
-        "record": "21-26",
+        "record": "21-27",
         "score": null
       },
       "venue": {
@@ -265,7 +265,11 @@
           "name": "Zack Littell",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 804267,
+          "name": "Zach Thornton",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -349,7 +353,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "23-25",
+        "record": "24-25",
         "score": null
       },
       "away": {
@@ -357,7 +361,7 @@
         "abbrev": "NYM",
         "name": "New York Mets",
         "short_name": "Mets",
-        "record": "21-26",
+        "record": "21-27",
         "score": null
       },
       "venue": {
@@ -466,7 +470,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "23-25",
+        "record": "24-25",
         "score": null
       },
       "venue": {
@@ -571,7 +575,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "23-25",
+        "record": "24-25",
         "score": null
       },
       "venue": {
@@ -676,7 +680,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "23-25",
+        "record": "24-25",
         "score": null
       },
       "venue": {
@@ -781,7 +785,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "23-25",
+        "record": "24-25",
         "score": null
       },
       "venue": {
@@ -904,7 +908,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "23-25",
+        "record": "24-25",
         "score": null
       },
       "venue": {
@@ -1027,7 +1031,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "23-25",
+        "record": "24-25",
         "score": null
       },
       "venue": {
@@ -1133,7 +1137,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "23-25",
+        "record": "24-25",
         "score": null
       },
       "away": {
@@ -1256,7 +1260,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "23-25",
+        "record": "24-25",
         "score": null
       },
       "away": {
@@ -1361,7 +1365,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "23-25",
+        "record": "24-25",
         "score": null
       },
       "away": {
@@ -1466,7 +1470,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "23-25",
+        "record": "24-25",
         "score": null
       },
       "away": {
@@ -1571,7 +1575,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "23-25",
+        "record": "24-25",
         "score": null
       },
       "away": {
@@ -1676,7 +1680,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "23-25",
+        "record": "24-25",
         "score": null
       },
       "away": {
