@@ -1,20 +1,20 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-20T22:12:10+00:00",
+  "fetched_at": "2026-05-20T23:42:19+00:00",
   "freshness": {
-    "schedule": "2026-05-20T22:12:08+00:00",
-    "standings": "2026-05-20T22:12:09+00:00",
+    "schedule": "2026-05-20T23:42:17+00:00",
+    "standings": "2026-05-20T23:42:18+00:00",
     "injuries": "2026-05-20T20:31:01+00:00",
     "former_nats": "2026-05-20T20:31:05+00:00",
-    "weather": "2026-05-20T22:12:09+00:00"
+    "weather": "2026-05-20T23:42:19+00:00"
   },
   "stale_sources": [],
   "focus_game": {
     "game_pk": 822735,
     "date": "2026-05-20",
     "start_time_utc": "2026-05-20T22:45:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "In Progress",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -22,7 +22,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "24-25",
-      "score": 0
+      "score": 4
     },
     "away": {
       "id": 121,
@@ -30,7 +30,7 @@
       "name": "New York Mets",
       "short_name": "Mets",
       "record": "21-27",
-      "score": 0
+      "score": 2
     },
     "venue": {
       "id": 3309,
@@ -100,19 +100,19 @@
       }
     ],
     "linescore": {
-      "current_inning": 1,
+      "current_inning": 4,
       "inning_half": "Top",
       "inning_state": "Top",
       "is_top_inning": true,
       "balls": 0,
       "strikes": 0,
-      "outs": 0,
-      "home_runs": 0,
-      "away_runs": 0,
-      "home_hits": 0,
-      "away_hits": 0,
+      "outs": 2,
+      "home_runs": 4,
+      "away_runs": 2,
+      "home_hits": 3,
+      "away_hits": 4,
       "home_errors": 0,
-      "away_errors": 0
+      "away_errors": 1
     },
     "series": {
       "game_number": 3,
@@ -121,7 +121,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "Nationals.TV",
       "is_national": false,
@@ -131,21 +131,21 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Starts Soon"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-20T22:12:09+00:00",
+    "fetched_at": "2026-05-20T23:42:19+00:00",
     "source": "open_meteo",
     "game_pk": 822735,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-05-20T23:00",
-    "temperature_f": 75.0,
-    "feels_like_f": 79.8,
-    "wind_mph": 7.2,
-    "wind_dir": "N",
-    "precip_chance": 43,
+    "temperature_f": 79.8,
+    "feels_like_f": 82.5,
+    "wind_mph": 8.5,
+    "wind_dir": "NNW",
+    "precip_chance": 37,
     "precip_inches": 0.0,
-    "summary": "Overcast",
+    "summary": "Partly cloudy",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -159,8 +159,8 @@
       "game_pk": 822735,
       "date": "2026-05-20",
       "start_time_utc": "2026-05-20T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -168,7 +168,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "24-25",
-        "score": 0
+        "score": 4
       },
       "away": {
         "id": 121,
@@ -176,7 +176,7 @@
         "name": "New York Mets",
         "short_name": "Mets",
         "record": "21-27",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 3309,
@@ -246,19 +246,19 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 4,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "outs": 2,
+        "home_runs": 4,
+        "away_runs": 2,
+        "home_hits": 3,
+        "away_hits": 4,
         "home_errors": 0,
-        "away_errors": 0
+        "away_errors": 1
       },
       "series": {
         "game_number": 3,
@@ -267,7 +267,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -277,7 +277,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822733,
@@ -320,21 +320,21 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "SNY",
           "call_sign": "SNY",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -686,21 +686,21 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
           "name": "SNY",
           "call_sign": "SNY",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_ARCHIVE"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_ARCHIVE"
         },
         {
@@ -893,8 +893,8 @@
       "game_pk": 822735,
       "date": "2026-05-20",
       "start_time_utc": "2026-05-20T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -902,7 +902,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "24-25",
-        "score": 0
+        "score": 4
       },
       "away": {
         "id": 121,
@@ -910,7 +910,7 @@
         "name": "New York Mets",
         "short_name": "Mets",
         "record": "21-27",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 3309,
@@ -980,19 +980,19 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 4,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "outs": 2,
+        "home_runs": 4,
+        "away_runs": 2,
+        "home_hits": 3,
+        "away_hits": 4,
         "home_errors": 0,
-        "away_errors": 0
+        "away_errors": 1
       },
       "series": {
         "game_number": 3,
@@ -1001,7 +1001,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -1011,7 +1011,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822733,
@@ -1054,21 +1054,21 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "SNY",
           "call_sign": "SNY",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -3156,19 +3156,19 @@
           "name": "Chicago White Sox",
           "short_name": "White Sox",
           "wins": 25,
-          "losses": 23,
-          "pct": ".521",
-          "gb": "2.0",
-          "wc_gb": "+1.5",
-          "streak": "W1",
-          "last_ten": "8-2",
+          "losses": 24,
+          "pct": ".510",
+          "gb": "2.5",
+          "wc_gb": "+1.0",
+          "streak": "L1",
+          "last_ten": "7-3",
           "division_rank": 2,
           "league_rank": 4,
           "wc_rank": 2,
-          "run_diff": -11,
-          "runs_scored": 214,
-          "runs_allowed": 225,
-          "elim_num": "112"
+          "run_diff": -12,
+          "runs_scored": 218,
+          "runs_allowed": 230,
+          "elim_num": "111"
         },
         {
           "id": 142,
@@ -3203,7 +3203,7 @@
           "streak": "L4",
           "last_ten": "2-8",
           "division_rank": 4,
-          "league_rank": 13,
+          "league_rank": 12,
           "wc_rank": 9,
           "run_diff": -20,
           "runs_scored": 193,
@@ -3223,7 +3223,7 @@
           "streak": "L2",
           "last_ten": "2-8",
           "division_rank": 5,
-          "league_rank": 12,
+          "league_rank": 13,
           "wc_rank": 10,
           "run_diff": -29,
           "runs_scored": 191,
@@ -3282,19 +3282,19 @@
           "abbrev": "SEA",
           "name": "Seattle Mariners",
           "short_name": "Mariners",
-          "wins": 23,
+          "wins": 24,
           "losses": 27,
-          "pct": ".460",
-          "gb": "2.0",
-          "wc_gb": "1.5",
-          "streak": "L1",
-          "last_ten": "4-6",
+          "pct": ".471",
+          "gb": "1.5",
+          "wc_gb": "1.0",
+          "streak": "W1",
+          "last_ten": "5-5",
           "division_rank": 3,
           "league_rank": 7,
           "wc_rank": 4,
-          "run_diff": 10,
-          "runs_scored": 205,
-          "runs_allowed": 195,
+          "run_diff": 11,
+          "runs_scored": 210,
+          "runs_allowed": 199,
           "elim_num": "112"
         },
         {

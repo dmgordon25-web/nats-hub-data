@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-20T22:12:08+00:00",
+  "fetched_at": "2026-05-20T23:42:17+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -47,21 +47,21 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
           "name": "SNY",
           "call_sign": "SNY",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_ARCHIVE"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_ARCHIVE"
         },
         {
@@ -232,8 +232,8 @@
       "game_pk": 822735,
       "date": "2026-05-20",
       "start_time_utc": "2026-05-20T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -241,7 +241,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "24-25",
-        "score": 0
+        "score": 4
       },
       "away": {
         "id": 121,
@@ -249,7 +249,7 @@
         "name": "New York Mets",
         "short_name": "Mets",
         "record": "21-27",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 3309,
@@ -319,19 +319,19 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 4,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "outs": 2,
+        "home_runs": 4,
+        "away_runs": 2,
+        "home_hits": 3,
+        "away_hits": 4,
         "home_errors": 0,
-        "away_errors": 0
+        "away_errors": 1
       },
       "series": {
         "game_number": 3,
@@ -382,21 +382,21 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "SNY",
           "call_sign": "SNY",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
