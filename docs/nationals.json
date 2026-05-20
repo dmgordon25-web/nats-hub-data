@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-20T16:30:51+00:00",
+  "fetched_at": "2026-05-20T18:05:32+00:00",
   "freshness": {
-    "schedule": "2026-05-20T16:30:50+00:00",
-    "standings": "2026-05-20T16:30:50+00:00",
+    "schedule": "2026-05-20T18:05:30+00:00",
+    "standings": "2026-05-20T18:05:31+00:00",
     "injuries": "2026-05-20T00:17:31+00:00",
     "former_nats": "2026-05-20T16:30:49+00:00",
-    "weather": "2026-05-20T16:30:51+00:00"
+    "weather": "2026-05-20T18:05:32+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -136,16 +136,16 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-20T16:30:51+00:00",
+    "fetched_at": "2026-05-20T18:05:32+00:00",
     "source": "open_meteo",
     "game_pk": 822735,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-05-20T23:00",
-    "temperature_f": 83.9,
-    "feels_like_f": 85.0,
-    "wind_mph": 6.8,
-    "wind_dir": "WNW",
-    "precip_chance": 32,
+    "temperature_f": 78.7,
+    "feels_like_f": 76.2,
+    "wind_mph": 15.4,
+    "wind_dir": "NW",
+    "precip_chance": 48,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -688,21 +688,21 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
           "name": "SNY",
           "call_sign": "SNY",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_ARCHIVE"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_ARCHIVE"
         },
         {
@@ -3205,7 +3205,7 @@
           "streak": "L4",
           "last_ten": "2-8",
           "division_rank": 4,
-          "league_rank": 13,
+          "league_rank": 12,
           "wc_rank": 9,
           "run_diff": -20,
           "runs_scored": 193,
@@ -3225,7 +3225,7 @@
           "streak": "L2",
           "last_ten": "2-8",
           "division_rank": 5,
-          "league_rank": 12,
+          "league_rank": 13,
           "wc_rank": 10,
           "run_diff": -29,
           "runs_scored": 191,
