@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-19T20:04:55+00:00",
+  "fetched_at": "2026-05-20T00:17:37+00:00",
   "source": "mlb_statsapi",
   "players": [
     {
@@ -15,19 +15,19 @@
         "name": "Philadelphia Phillies"
       },
       "season_stats": {
-        "ab": 173,
-        "avg": ".277",
+        "ab": 176,
+        "avg": ".273",
         "hr": 12,
         "rbi": 30,
         "r": 29,
         "h": 48,
-        "obp": ".373",
-        "slg": ".549",
-        "ops": ".922",
+        "obp": ".368",
+        "slg": ".540",
+        "ops": ".908",
         "sb": 3
       },
       "last_game": {
-        "date": "2026-05-18",
+        "date": "2026-05-19",
         "opponent": "CIN",
         "line": "0-3"
       },
@@ -47,28 +47,23 @@
         "name": "New York Mets"
       },
       "season_stats": {
-        "ab": 119,
-        "avg": ".286",
+        "ab": 121,
+        "avg": ".289",
         "hr": 6,
         "rbi": 16,
-        "r": 17,
-        "h": 34,
-        "obp": ".386",
-        "slg": ".487",
-        "ops": ".873",
+        "r": 18,
+        "h": 35,
+        "obp": ".387",
+        "slg": ".488",
+        "ops": ".875",
         "sb": 4
       },
       "last_game": {
-        "date": "2026-05-18",
+        "date": "2026-05-19",
         "opponent": "WSH",
-        "line": "2-5, 2 RBI"
+        "line": "1-2"
       },
-      "significant_event": {
-        "kind": "against_nats",
-        "summary": "2-for-5 vs. Nats",
-        "against_nats": true,
-        "celebrate": true
-      },
+      "significant_event": null,
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/665742/headshot/67/current"
     },
     {
@@ -84,21 +79,21 @@
         "name": "Philadelphia Phillies"
       },
       "season_stats": {
-        "ab": 195,
-        "avg": ".236",
-        "hr": 4,
-        "rbi": 15,
-        "r": 30,
-        "h": 46,
+        "ab": 198,
+        "avg": ".237",
+        "hr": 5,
+        "rbi": 16,
+        "r": 31,
+        "h": 47,
         "obp": ".286",
-        "slg": ".344",
-        "ops": ".630",
+        "slg": ".359",
+        "ops": ".645",
         "sb": 7
       },
       "last_game": {
-        "date": "2026-05-18",
+        "date": "2026-05-19",
         "opponent": "CIN",
-        "line": "1-4"
+        "line": "1-3, 1 HR, 1 RBI"
       },
       "significant_event": null,
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/607208/headshot/67/current"
@@ -116,28 +111,23 @@
         "name": "Minnesota Twins"
       },
       "season_stats": {
-        "ab": 166,
-        "avg": ".223",
+        "ab": 167,
+        "avg": ".228",
         "hr": 5,
         "rbi": 28,
         "r": 23,
-        "h": 37,
-        "obp": ".286",
-        "slg": ".361",
-        "ops": ".647",
+        "h": 38,
+        "obp": ".290",
+        "slg": ".365",
+        "ops": ".655",
         "sb": 1
       },
       "last_game": {
-        "date": "2026-05-18",
+        "date": "2026-05-19",
         "opponent": "HOU",
-        "line": "3-4, 2 HR, 4 RBI"
+        "line": "1-1"
       },
-      "significant_event": {
-        "kind": "multi_hr_game",
-        "summary": "2-HR game",
-        "against_nats": false,
-        "celebrate": true
-      },
+      "significant_event": null,
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/605137/headshot/67/current"
     },
     {
@@ -203,20 +193,5 @@
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/607200/headshot/67/current"
     }
   ],
-  "flag_candidates": [
-    {
-      "mlb_id": 665742,
-      "name": "Juan Soto",
-      "summary": "2-for-5 vs. Nats",
-      "celebrate": true,
-      "against_nats": true
-    },
-    {
-      "mlb_id": 605137,
-      "name": "Josh Bell",
-      "summary": "2-HR game",
-      "celebrate": true,
-      "against_nats": false
-    }
-  ]
+  "flag_candidates": []
 }
