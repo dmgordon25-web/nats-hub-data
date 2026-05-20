@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-20T00:17:38+00:00",
+  "fetched_at": "2026-05-20T01:51:40+00:00",
   "freshness": {
-    "schedule": "2026-05-20T00:17:37+00:00",
-    "standings": "2026-05-20T00:17:38+00:00",
+    "schedule": "2026-05-20T01:51:38+00:00",
+    "standings": "2026-05-20T01:51:39+00:00",
     "injuries": "2026-05-20T00:17:31+00:00",
     "former_nats": "2026-05-20T00:17:37+00:00",
-    "weather": "2026-05-20T00:17:38+00:00"
+    "weather": "2026-05-20T01:51:39+00:00"
   },
   "stale_sources": [],
   "focus_game": {
@@ -22,7 +22,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "23-25",
-      "score": 4
+      "score": 9
     },
     "away": {
       "id": 121,
@@ -30,7 +30,7 @@
       "name": "New York Mets",
       "short_name": "Mets",
       "record": "21-26",
-      "score": 5
+      "score": 6
     },
     "venue": {
       "id": 3309,
@@ -100,19 +100,19 @@
       }
     ],
     "linescore": {
-      "current_inning": 3,
+      "current_inning": 9,
       "inning_half": "Top",
       "inning_state": "Top",
       "is_top_inning": true,
       "balls": 0,
-      "strikes": 1,
-      "outs": 2,
-      "home_runs": 4,
-      "away_runs": 5,
-      "home_hits": 4,
-      "away_hits": 7,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 9,
+      "away_runs": 6,
+      "home_hits": 9,
+      "away_hits": 10,
       "home_errors": 0,
-      "away_errors": 0
+      "away_errors": 2
     },
     "series": {
       "game_number": 2,
@@ -134,16 +134,16 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-20T00:17:38+00:00",
+    "fetched_at": "2026-05-20T01:51:39+00:00",
     "source": "open_meteo",
     "game_pk": 822736,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-05-20T00:00",
-    "temperature_f": 85.6,
-    "feels_like_f": 86.8,
-    "wind_mph": 3.9,
-    "wind_dir": "WSW",
-    "precip_chance": 37,
+    "temperature_f": 84.8,
+    "feels_like_f": 86.7,
+    "wind_mph": 4.5,
+    "wind_dir": "SSE",
+    "precip_chance": 36,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -168,7 +168,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "23-25",
-        "score": 4
+        "score": 9
       },
       "away": {
         "id": 121,
@@ -176,7 +176,7 @@
         "name": "New York Mets",
         "short_name": "Mets",
         "record": "21-26",
-        "score": 5
+        "score": 6
       },
       "venue": {
         "id": 3309,
@@ -246,19 +246,19 @@
         }
       ],
       "linescore": {
-        "current_inning": 3,
+        "current_inning": 9,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
         "balls": 0,
-        "strikes": 1,
-        "outs": 2,
-        "home_runs": 4,
-        "away_runs": 5,
-        "home_hits": 4,
-        "away_hits": 7,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 9,
+        "away_runs": 6,
+        "home_hits": 9,
+        "away_hits": 10,
         "home_errors": 0,
-        "away_errors": 0
+        "away_errors": 2
       },
       "series": {
         "game_number": 2,
@@ -565,21 +565,21 @@
     },
     "broadcasts": [
       {
-        "name": "Nationals.TV",
-        "call_sign": "NATS",
-        "type": "TV",
-        "language": "en",
-        "is_national": false,
-        "home_away": "home",
-        "media_state": "MEDIA_ARCHIVE"
-      },
-      {
         "name": "SNY",
         "call_sign": "SNY",
         "type": "TV",
         "language": "en",
         "is_national": false,
         "home_away": "away",
+        "media_state": "MEDIA_ARCHIVE"
+      },
+      {
+        "name": "Nationals.TV",
+        "call_sign": "NATS",
+        "type": "TV",
+        "language": "en",
+        "is_national": false,
+        "home_away": "home",
         "media_state": "MEDIA_ARCHIVE"
       },
       {
@@ -690,21 +690,21 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
           "name": "SNY",
           "call_sign": "SNY",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_ARCHIVE"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_ARCHIVE"
         },
         {
@@ -782,7 +782,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "23-25",
-        "score": 4
+        "score": 9
       },
       "away": {
         "id": 121,
@@ -790,7 +790,7 @@
         "name": "New York Mets",
         "short_name": "Mets",
         "record": "21-26",
-        "score": 5
+        "score": 6
       },
       "venue": {
         "id": 3309,
@@ -860,19 +860,19 @@
         }
       ],
       "linescore": {
-        "current_inning": 3,
+        "current_inning": 9,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
         "balls": 0,
-        "strikes": 1,
-        "outs": 2,
-        "home_runs": 4,
-        "away_runs": 5,
-        "home_hits": 4,
-        "away_hits": 7,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 9,
+        "away_runs": 6,
+        "home_hits": 9,
+        "away_hits": 10,
         "home_errors": 0,
-        "away_errors": 0
+        "away_errors": 2
       },
       "series": {
         "game_number": 2,
@@ -1493,7 +1493,7 @@
         "abbrev": "CLE",
         "name": "Cleveland Guardians",
         "short_name": "Guardians",
-        "record": "27-22",
+        "record": "28-22",
         "score": null
       },
       "away": {
@@ -1627,7 +1627,7 @@
         "abbrev": "CLE",
         "name": "Cleveland Guardians",
         "short_name": "Guardians",
-        "record": "27-22",
+        "record": "28-22",
         "score": null
       },
       "away": {
@@ -1761,7 +1761,7 @@
         "abbrev": "CLE",
         "name": "Cleveland Guardians",
         "short_name": "Guardians",
-        "record": "27-22",
+        "record": "28-22",
         "score": null
       },
       "away": {
@@ -2620,19 +2620,19 @@
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
         "wins": 25,
-        "losses": 23,
-        "pct": ".521",
-        "gb": "7.5",
-        "wc_gb": "3.0",
-        "streak": "W5",
+        "losses": 24,
+        "pct": ".510",
+        "gb": "8.0",
+        "wc_gb": "3.5",
+        "streak": "L1",
         "last_ten": "8-2",
         "division_rank": 2,
-        "league_rank": 7,
-        "wc_rank": 4,
-        "run_diff": -16,
-        "runs_scored": 204,
-        "runs_allowed": 220,
-        "elim_num": "107"
+        "league_rank": 8,
+        "wc_rank": 5,
+        "run_diff": -19,
+        "runs_scored": 205,
+        "runs_allowed": 224,
+        "elim_num": "106"
       },
       {
         "id": 120,
@@ -2728,19 +2728,19 @@
           "name": "Philadelphia Phillies",
           "short_name": "Phillies",
           "wins": 25,
-          "losses": 23,
-          "pct": ".521",
-          "gb": "7.5",
-          "wc_gb": "3.0",
-          "streak": "W5",
+          "losses": 24,
+          "pct": ".510",
+          "gb": "8.0",
+          "wc_gb": "3.5",
+          "streak": "L1",
           "last_ten": "8-2",
           "division_rank": 2,
-          "league_rank": 7,
-          "wc_rank": 4,
-          "run_diff": -16,
-          "runs_scored": 204,
-          "runs_allowed": 220,
-          "elim_num": "107"
+          "league_rank": 8,
+          "wc_rank": 5,
+          "run_diff": -19,
+          "runs_scored": 205,
+          "runs_allowed": 224,
+          "elim_num": "106"
         },
         {
           "id": 120,
@@ -2863,7 +2863,7 @@
           "last_ten": "6-4",
           "division_rank": 3,
           "league_rank": 10,
-          "wc_rank": 6,
+          "wc_rank": 7,
           "run_diff": -7,
           "runs_scored": 210,
           "runs_allowed": 217,
@@ -2989,8 +2989,8 @@
           "streak": "L3",
           "last_ten": "4-6",
           "division_rank": 4,
-          "league_rank": 8,
-          "wc_rank": 5,
+          "league_rank": 7,
+          "wc_rank": 4,
           "run_diff": 18,
           "runs_scored": 229,
           "runs_allowed": 211,
@@ -3001,19 +3001,19 @@
           "abbrev": "CIN",
           "name": "Cincinnati Reds",
           "short_name": "Reds",
-          "wins": 24,
+          "wins": 25,
           "losses": 24,
-          "pct": ".500",
-          "gb": "5.0",
-          "wc_gb": "4.0",
-          "streak": "L3",
-          "last_ten": "4-6",
+          "pct": ".510",
+          "gb": "4.5",
+          "wc_gb": "3.5",
+          "streak": "W1",
+          "last_ten": "5-5",
           "division_rank": 5,
           "league_rank": 9,
-          "wc_rank": 7,
-          "run_diff": -36,
-          "runs_scored": 208,
-          "runs_allowed": 244,
+          "wc_rank": 6,
+          "run_diff": -33,
+          "runs_scored": 212,
+          "runs_allowed": 245,
           "elim_num": "110"
         }
       ]
@@ -3028,19 +3028,19 @@
           "abbrev": "TB",
           "name": "Tampa Bay Rays",
           "short_name": "Rays",
-          "wins": 31,
+          "wins": 32,
           "losses": 15,
-          "pct": ".674",
+          "pct": ".681",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "W2",
+          "streak": "W3",
           "last_ten": "7-3",
           "division_rank": 1,
           "league_rank": 1,
           "wc_rank": null,
-          "run_diff": 35,
-          "runs_scored": 223,
-          "runs_allowed": 188,
+          "run_diff": 38,
+          "runs_scored": 227,
+          "runs_allowed": 189,
           "elim_num": "-"
         },
         {
@@ -3051,7 +3051,7 @@
           "wins": 29,
           "losses": 19,
           "pct": ".604",
-          "gb": "3.0",
+          "gb": "3.5",
           "wc_gb": "+6.5",
           "streak": "W1",
           "last_ten": "3-7",
@@ -3061,7 +3061,7 @@
           "run_diff": 69,
           "runs_scored": 244,
           "runs_allowed": 175,
-          "elim_num": "113"
+          "elim_num": "112"
         },
         {
           "id": 141,
@@ -3071,7 +3071,7 @@
           "wins": 21,
           "losses": 26,
           "pct": ".447",
-          "gb": "10.5",
+          "gb": "11.0",
           "wc_gb": "1.0",
           "streak": "L1",
           "last_ten": "5-5",
@@ -3081,7 +3081,7 @@
           "run_diff": -12,
           "runs_scored": 194,
           "runs_allowed": 206,
-          "elim_num": "106"
+          "elim_num": "105"
         },
         {
           "id": 110,
@@ -3089,19 +3089,19 @@
           "name": "Baltimore Orioles",
           "short_name": "Orioles",
           "wins": 21,
-          "losses": 27,
-          "pct": ".438",
-          "gb": "11.0",
-          "wc_gb": "1.5",
-          "streak": "L1",
+          "losses": 28,
+          "pct": ".429",
+          "gb": "12.0",
+          "wc_gb": "2.0",
+          "streak": "L2",
           "last_ten": "4-6",
           "division_rank": 4,
           "league_rank": 10,
           "wc_rank": 7,
-          "run_diff": -54,
-          "runs_scored": 211,
-          "runs_allowed": 265,
-          "elim_num": "105"
+          "run_diff": -57,
+          "runs_scored": 212,
+          "runs_allowed": 269,
+          "elim_num": "103"
         },
         {
           "id": 111,
@@ -3111,7 +3111,7 @@
           "wins": 20,
           "losses": 27,
           "pct": ".426",
-          "gb": "11.5",
+          "gb": "12.0",
           "wc_gb": "2.0",
           "streak": "W1",
           "last_ten": "4-6",
@@ -3121,7 +3121,7 @@
           "run_diff": -18,
           "runs_scored": 170,
           "runs_allowed": 188,
-          "elim_num": "105"
+          "elim_num": "104"
         }
       ]
     },
@@ -3135,19 +3135,19 @@
           "abbrev": "CLE",
           "name": "Cleveland Guardians",
           "short_name": "Guardians",
-          "wins": 27,
+          "wins": 28,
           "losses": 22,
-          "pct": ".551",
+          "pct": ".560",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "W3",
+          "streak": "W4",
           "last_ten": "7-3",
           "division_rank": 1,
           "league_rank": 3,
           "wc_rank": null,
-          "run_diff": 19,
-          "runs_scored": 218,
-          "runs_allowed": 199,
+          "run_diff": 20,
+          "runs_scored": 222,
+          "runs_allowed": 202,
           "elim_num": "-"
         },
         {
@@ -3158,7 +3158,7 @@
           "wins": 24,
           "losses": 23,
           "pct": ".511",
-          "gb": "2.0",
+          "gb": "2.5",
           "wc_gb": "+2.0",
           "streak": "L1",
           "last_ten": "7-3",
@@ -3168,7 +3168,7 @@
           "run_diff": -12,
           "runs_scored": 212,
           "runs_allowed": 224,
-          "elim_num": "113"
+          "elim_num": "112"
         },
         {
           "id": 142,
@@ -3178,7 +3178,7 @@
           "wins": 22,
           "losses": 26,
           "pct": ".458",
-          "gb": "4.5",
+          "gb": "5.0",
           "wc_gb": "0.5",
           "streak": "W2",
           "last_ten": "6-4",
@@ -3188,27 +3188,7 @@
           "run_diff": -3,
           "runs_scored": 225,
           "runs_allowed": 228,
-          "elim_num": "110"
-        },
-        {
-          "id": 116,
-          "abbrev": "DET",
-          "name": "Detroit Tigers",
-          "short_name": "Tigers",
-          "wins": 20,
-          "losses": 28,
-          "pct": ".417",
-          "gb": "6.5",
-          "wc_gb": "2.5",
-          "streak": "L3",
-          "last_ten": "2-8",
-          "division_rank": 4,
-          "league_rank": 13,
-          "wc_rank": 9,
-          "run_diff": -19,
-          "runs_scored": 190,
-          "runs_allowed": 209,
-          "elim_num": "108"
+          "elim_num": "109"
         },
         {
           "id": 118,
@@ -3218,17 +3198,37 @@
           "wins": 20,
           "losses": 28,
           "pct": ".417",
-          "gb": "6.5",
+          "gb": "7.0",
           "wc_gb": "2.5",
           "streak": "L1",
           "last_ten": "3-7",
-          "division_rank": 5,
+          "division_rank": 4,
           "league_rank": 12,
-          "wc_rank": 10,
+          "wc_rank": 9,
           "run_diff": -23,
           "runs_scored": 190,
           "runs_allowed": 213,
-          "elim_num": "108"
+          "elim_num": "107"
+        },
+        {
+          "id": 116,
+          "abbrev": "DET",
+          "name": "Detroit Tigers",
+          "short_name": "Tigers",
+          "wins": 20,
+          "losses": 29,
+          "pct": ".408",
+          "gb": "7.5",
+          "wc_gb": "3.0",
+          "streak": "L4",
+          "last_ten": "2-8",
+          "division_rank": 5,
+          "league_rank": 13,
+          "wc_rank": 10,
+          "run_diff": -20,
+          "runs_scored": 193,
+          "runs_allowed": 213,
+          "elim_num": "106"
         }
       ]
     },

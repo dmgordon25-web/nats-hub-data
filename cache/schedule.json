@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-20T00:17:37+00:00",
+  "fetched_at": "2026-05-20T01:51:38+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -47,21 +47,21 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
           "name": "SNY",
           "call_sign": "SNY",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_ARCHIVE"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_ARCHIVE"
         },
         {
@@ -128,7 +128,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "23-25",
-        "score": 4
+        "score": 9
       },
       "away": {
         "id": 121,
@@ -136,7 +136,7 @@
         "name": "New York Mets",
         "short_name": "Mets",
         "record": "21-26",
-        "score": 5
+        "score": 6
       },
       "venue": {
         "id": 3309,
@@ -206,19 +206,19 @@
         }
       ],
       "linescore": {
-        "current_inning": 3,
+        "current_inning": 9,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
         "balls": 0,
-        "strikes": 1,
-        "outs": 2,
-        "home_runs": 4,
-        "away_runs": 5,
-        "home_hits": 4,
-        "away_hits": 7,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 9,
+        "away_runs": 6,
+        "home_hits": 9,
+        "away_hits": 10,
         "home_errors": 0,
-        "away_errors": 0
+        "away_errors": 2
       },
       "series": {
         "game_number": 2,
@@ -773,7 +773,7 @@
         "abbrev": "CLE",
         "name": "Cleveland Guardians",
         "short_name": "Guardians",
-        "record": "27-22",
+        "record": "28-22",
         "score": null
       },
       "away": {
@@ -896,7 +896,7 @@
         "abbrev": "CLE",
         "name": "Cleveland Guardians",
         "short_name": "Guardians",
-        "record": "27-22",
+        "record": "28-22",
         "score": null
       },
       "away": {
@@ -1019,7 +1019,7 @@
         "abbrev": "CLE",
         "name": "Cleveland Guardians",
         "short_name": "Guardians",
-        "record": "27-22",
+        "record": "28-22",
         "score": null
       },
       "away": {
