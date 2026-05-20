@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-20T20:31:06+00:00",
+  "fetched_at": "2026-05-20T22:12:10+00:00",
   "freshness": {
-    "schedule": "2026-05-20T20:31:05+00:00",
-    "standings": "2026-05-20T20:31:06+00:00",
+    "schedule": "2026-05-20T22:12:08+00:00",
+    "standings": "2026-05-20T22:12:09+00:00",
     "injuries": "2026-05-20T20:31:01+00:00",
     "former_nats": "2026-05-20T20:31:05+00:00",
-    "weather": "2026-05-20T20:31:06+00:00"
+    "weather": "2026-05-20T22:12:09+00:00"
   },
   "stale_sources": [],
   "focus_game": {
@@ -60,7 +60,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -69,7 +69,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Audacy Mets Radio WHSQ 880AM",
@@ -78,7 +78,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -87,7 +87,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Audacy App 92.3 HD2",
@@ -96,7 +96,7 @@
         "language": "es",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       }
     ],
     "linescore": {
@@ -131,17 +131,17 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Starts Soon"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-20T20:31:06+00:00",
+    "fetched_at": "2026-05-20T22:12:09+00:00",
     "source": "open_meteo",
     "game_pk": 822735,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-05-20T23:00",
-    "temperature_f": 74.4,
-    "feels_like_f": 75.5,
-    "wind_mph": 12.1,
+    "temperature_f": 75.0,
+    "feels_like_f": 79.8,
+    "wind_mph": 7.2,
     "wind_dir": "N",
     "precip_chance": 43,
     "precip_inches": 0.0,
@@ -206,7 +206,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -215,7 +215,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Audacy Mets Radio WHSQ 880AM",
@@ -224,7 +224,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -233,7 +233,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Audacy App 92.3 HD2",
@@ -242,7 +242,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
@@ -277,7 +277,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 822733,
@@ -320,21 +320,21 @@
       },
       "broadcasts": [
         {
-          "name": "SNY",
-          "call_sign": "SNY",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "SNY",
+          "call_sign": "SNY",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -940,7 +940,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -949,7 +949,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Audacy Mets Radio WHSQ 880AM",
@@ -958,7 +958,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -967,7 +967,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Audacy App 92.3 HD2",
@@ -976,7 +976,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
@@ -1011,7 +1011,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 822733,
@@ -1054,21 +1054,21 @@
       },
       "broadcasts": [
         {
-          "name": "SNY",
-          "call_sign": "SNY",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "SNY",
+          "call_sign": "SNY",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -2854,19 +2854,19 @@
           "abbrev": "AZ",
           "name": "Arizona Diamondbacks",
           "short_name": "D-backs",
-          "wins": 24,
+          "wins": 25,
           "losses": 23,
-          "pct": ".511",
-          "gb": "5.0",
-          "wc_gb": "4.0",
-          "streak": "W3",
+          "pct": ".521",
+          "gb": "4.5",
+          "wc_gb": "3.5",
+          "streak": "W4",
           "last_ten": "7-3",
           "division_rank": 3,
-          "league_rank": 8,
-          "wc_rank": 5,
-          "run_diff": -5,
-          "runs_scored": 215,
-          "runs_allowed": 220,
+          "league_rank": 7,
+          "wc_rank": 4,
+          "run_diff": -2,
+          "runs_scored": 221,
+          "runs_allowed": 223,
           "elim_num": "110"
         },
         {
@@ -2875,19 +2875,19 @@
           "name": "San Francisco Giants",
           "short_name": "Giants",
           "wins": 20,
-          "losses": 29,
-          "pct": ".408",
-          "gb": "10.0",
-          "wc_gb": "9.0",
-          "streak": "L2",
-          "last_ten": "5-5",
+          "losses": 30,
+          "pct": ".400",
+          "gb": "10.5",
+          "wc_gb": "9.5",
+          "streak": "L3",
+          "last_ten": "4-6",
           "division_rank": 4,
           "league_rank": 14,
           "wc_rank": 11,
-          "run_diff": -49,
-          "runs_scored": 170,
-          "runs_allowed": 219,
-          "elim_num": "104"
+          "run_diff": -52,
+          "runs_scored": 173,
+          "runs_allowed": 225,
+          "elim_num": "103"
         },
         {
           "id": 115,
@@ -2895,19 +2895,19 @@
           "name": "Colorado Rockies",
           "short_name": "Rockies",
           "wins": 19,
-          "losses": 30,
-          "pct": ".388",
-          "gb": "11.0",
-          "wc_gb": "10.0",
-          "streak": "L1",
+          "losses": 31,
+          "pct": ".380",
+          "gb": "11.5",
+          "wc_gb": "10.5",
+          "streak": "L2",
           "last_ten": "3-7",
           "division_rank": 5,
           "league_rank": 15,
           "wc_rank": 12,
-          "run_diff": -53,
-          "runs_scored": 206,
-          "runs_allowed": 259,
-          "elim_num": "103"
+          "run_diff": -54,
+          "runs_scored": 210,
+          "runs_allowed": 264,
+          "elim_num": "102"
         }
       ]
     },
@@ -2989,8 +2989,8 @@
           "streak": "W2",
           "last_ten": "5-5",
           "division_rank": 4,
-          "league_rank": 7,
-          "wc_rank": 4,
+          "league_rank": 8,
+          "wc_rank": 5,
           "run_diff": -28,
           "runs_scored": 221,
           "runs_allowed": 249,
@@ -3052,7 +3052,7 @@
           "losses": 19,
           "pct": ".612",
           "gb": "3.5",
-          "wc_gb": "+6.5",
+          "wc_gb": "+6.0",
           "streak": "W2",
           "last_ten": "4-6",
           "division_rank": 2,
@@ -3072,7 +3072,7 @@
           "losses": 27,
           "pct": ".438",
           "gb": "12.0",
-          "wc_gb": "2.0",
+          "wc_gb": "2.5",
           "streak": "L2",
           "last_ten": "4-6",
           "division_rank": 3,
@@ -3092,7 +3092,7 @@
           "losses": 27,
           "pct": ".438",
           "gb": "12.0",
-          "wc_gb": "2.0",
+          "wc_gb": "2.5",
           "streak": "W2",
           "last_ten": "5-5",
           "division_rank": 4,
@@ -3112,7 +3112,7 @@
           "losses": 29,
           "pct": ".420",
           "gb": "13.0",
-          "wc_gb": "3.0",
+          "wc_gb": "3.5",
           "streak": "L3",
           "last_ten": "4-6",
           "division_rank": 5,
@@ -3159,7 +3159,7 @@
           "losses": 23,
           "pct": ".521",
           "gb": "2.0",
-          "wc_gb": "+2.0",
+          "wc_gb": "+1.5",
           "streak": "W1",
           "last_ten": "8-2",
           "division_rank": 2,
@@ -3179,7 +3179,7 @@
           "losses": 27,
           "pct": ".460",
           "gb": "5.0",
-          "wc_gb": "1.0",
+          "wc_gb": "1.5",
           "streak": "W1",
           "last_ten": "6-4",
           "division_rank": 3,
@@ -3199,7 +3199,7 @@
           "losses": 29,
           "pct": ".408",
           "gb": "7.5",
-          "wc_gb": "3.5",
+          "wc_gb": "4.0",
           "streak": "L4",
           "last_ten": "2-8",
           "division_rank": 4,
@@ -3219,7 +3219,7 @@
           "losses": 29,
           "pct": ".408",
           "gb": "7.5",
-          "wc_gb": "3.5",
+          "wc_gb": "4.0",
           "streak": "L2",
           "last_ten": "2-8",
           "division_rank": 5,
@@ -3262,19 +3262,19 @@
           "abbrev": "TEX",
           "name": "Texas Rangers",
           "short_name": "Rangers",
-          "wins": 23,
+          "wins": 24,
           "losses": 25,
-          "pct": ".479",
-          "gb": "1.0",
+          "pct": ".490",
+          "gb": "0.5",
           "wc_gb": "-",
-          "streak": "W1",
+          "streak": "W2",
           "last_ten": "6-4",
           "division_rank": 2,
           "league_rank": 6,
           "wc_rank": 3,
-          "run_diff": 12,
-          "runs_scored": 187,
-          "runs_allowed": 175,
+          "run_diff": 13,
+          "runs_scored": 192,
+          "runs_allowed": 179,
           "elim_num": "114"
         },
         {
@@ -3286,7 +3286,7 @@
           "losses": 27,
           "pct": ".460",
           "gb": "2.0",
-          "wc_gb": "1.0",
+          "wc_gb": "1.5",
           "streak": "L1",
           "last_ten": "4-6",
           "division_rank": 3,
@@ -3306,7 +3306,7 @@
           "losses": 31,
           "pct": ".392",
           "gb": "5.5",
-          "wc_gb": "4.5",
+          "wc_gb": "5.0",
           "streak": "L1",
           "last_ten": "4-6",
           "division_rank": 4,
@@ -3326,7 +3326,7 @@
           "losses": 32,
           "pct": ".347",
           "gb": "7.5",
-          "wc_gb": "6.5",
+          "wc_gb": "7.0",
           "streak": "L1",
           "last_ten": "2-8",
           "division_rank": 5,
