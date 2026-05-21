@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-21T00:17:55+00:00",
+  "fetched_at": "2026-05-21T01:49:58+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -119,24 +119,24 @@
       "game_pk": 822735,
       "date": "2026-05-20",
       "start_time_utc": "2026-05-20T22:45:00Z",
-      "status": "Live",
-      "detailed_status": "In Progress",
+      "status": "Final",
+      "detailed_status": "Final",
       "is_nats_home": true,
       "home": {
         "id": 120,
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "24-25",
-        "score": 4
+        "record": "25-25",
+        "score": 8
       },
       "away": {
         "id": 121,
         "abbrev": "NYM",
         "name": "New York Mets",
         "short_name": "Mets",
-        "record": "21-27",
-        "score": 2
+        "record": "21-28",
+        "score": 4
       },
       "venue": {
         "id": 3309,
@@ -206,17 +206,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 6,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 3,
-        "strikes": 2,
-        "outs": 0,
-        "home_runs": 4,
-        "away_runs": 2,
-        "home_hits": 6,
-        "away_hits": 5,
+        "current_inning": 9,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 2,
+        "strikes": 0,
+        "outs": 3,
+        "home_runs": 8,
+        "away_runs": 4,
+        "home_hits": 10,
+        "away_hits": 7,
         "home_errors": 0,
         "away_errors": 1
       },
@@ -240,7 +240,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "24-25",
+        "record": "25-25",
         "score": null
       },
       "away": {
@@ -248,7 +248,7 @@
         "abbrev": "NYM",
         "name": "New York Mets",
         "short_name": "Mets",
-        "record": "21-27",
+        "record": "21-28",
         "score": null
       },
       "venue": {
@@ -265,18 +265,13 @@
           "name": "Cade Cavalli",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 656849,
+          "name": "David Peterson",
+          "hand": null
+        }
       },
       "broadcasts": [
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
         {
           "name": "SNY",
           "call_sign": "SNY",
@@ -284,6 +279,15 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -349,7 +353,7 @@
         "abbrev": "ATL",
         "name": "Atlanta Braves",
         "short_name": "Braves",
-        "record": "33-16",
+        "record": "34-16",
         "score": null
       },
       "away": {
@@ -357,7 +361,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "24-25",
+        "record": "25-25",
         "score": null
       },
       "venue": {
@@ -454,7 +458,7 @@
         "abbrev": "ATL",
         "name": "Atlanta Braves",
         "short_name": "Braves",
-        "record": "33-16",
+        "record": "34-16",
         "score": null
       },
       "away": {
@@ -462,7 +466,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "24-25",
+        "record": "25-25",
         "score": null
       },
       "venue": {
@@ -559,7 +563,7 @@
         "abbrev": "ATL",
         "name": "Atlanta Braves",
         "short_name": "Braves",
-        "record": "33-16",
+        "record": "34-16",
         "score": null
       },
       "away": {
@@ -567,7 +571,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "24-25",
+        "record": "25-25",
         "score": null
       },
       "venue": {
@@ -664,7 +668,7 @@
         "abbrev": "CLE",
         "name": "Cleveland Guardians",
         "short_name": "Guardians",
-        "record": "28-22",
+        "record": "29-22",
         "score": null
       },
       "away": {
@@ -672,7 +676,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "24-25",
+        "record": "25-25",
         "score": null
       },
       "venue": {
@@ -787,7 +791,7 @@
         "abbrev": "CLE",
         "name": "Cleveland Guardians",
         "short_name": "Guardians",
-        "record": "28-22",
+        "record": "29-22",
         "score": null
       },
       "away": {
@@ -795,7 +799,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "24-25",
+        "record": "25-25",
         "score": null
       },
       "venue": {
@@ -910,7 +914,7 @@
         "abbrev": "CLE",
         "name": "Cleveland Guardians",
         "short_name": "Guardians",
-        "record": "28-22",
+        "record": "29-22",
         "score": null
       },
       "away": {
@@ -918,7 +922,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "24-25",
+        "record": "25-25",
         "score": null
       },
       "venue": {
@@ -1024,7 +1028,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "24-25",
+        "record": "25-25",
         "score": null
       },
       "away": {
@@ -1147,7 +1151,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "24-25",
+        "record": "25-25",
         "score": null
       },
       "away": {
@@ -1252,7 +1256,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "24-25",
+        "record": "25-25",
         "score": null
       },
       "away": {
@@ -1357,7 +1361,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "24-25",
+        "record": "25-25",
         "score": null
       },
       "away": {
@@ -1365,7 +1369,7 @@
         "abbrev": "MIA",
         "name": "Miami Marlins",
         "short_name": "Marlins",
-        "record": "22-27",
+        "record": "22-28",
         "score": null
       },
       "venue": {
@@ -1462,7 +1466,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "24-25",
+        "record": "25-25",
         "score": null
       },
       "away": {
@@ -1470,7 +1474,7 @@
         "abbrev": "MIA",
         "name": "Miami Marlins",
         "short_name": "Marlins",
-        "record": "22-27",
+        "record": "22-28",
         "score": null
       },
       "venue": {
@@ -1567,7 +1571,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "24-25",
+        "record": "25-25",
         "score": null
       },
       "away": {
@@ -1575,7 +1579,7 @@
         "abbrev": "MIA",
         "name": "Miami Marlins",
         "short_name": "Marlins",
-        "record": "22-27",
+        "record": "22-28",
         "score": null
       },
       "venue": {
