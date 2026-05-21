@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-21T15:36:15+00:00",
+  "fetched_at": "2026-05-21T16:23:09+00:00",
   "freshness": {
-    "schedule": "2026-05-21T15:36:14+00:00",
-    "standings": "2026-05-21T15:36:15+00:00",
+    "schedule": "2026-05-21T16:23:08+00:00",
+    "standings": "2026-05-21T16:23:08+00:00",
     "injuries": "2026-05-20T20:31:01+00:00",
-    "former_nats": "2026-05-21T10:49:11+00:00",
-    "weather": "2026-05-21T15:36:15+00:00"
+    "former_nats": "2026-05-21T16:23:08+00:00",
+    "weather": "2026-05-21T16:23:09+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -56,21 +56,21 @@
     },
     "broadcasts": [
       {
-        "name": "Nationals.TV",
-        "call_sign": "NATS",
-        "type": "TV",
-        "language": "en",
-        "is_national": false,
-        "home_away": "home",
-        "media_state": "MEDIA_OFF"
-      },
-      {
         "name": "SNY",
         "call_sign": "SNY",
         "type": "TV",
         "language": "en",
         "is_national": false,
         "home_away": "away",
+        "media_state": "MEDIA_OFF"
+      },
+      {
+        "name": "Nationals.TV",
+        "call_sign": "NATS",
+        "type": "TV",
+        "language": "en",
+        "is_national": false,
+        "home_away": "home",
         "media_state": "MEDIA_OFF"
       },
       {
@@ -136,16 +136,16 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-21T15:36:15+00:00",
+    "fetched_at": "2026-05-21T16:23:09+00:00",
     "source": "open_meteo",
     "game_pk": 822733,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-05-21T20:00",
-    "temperature_f": 61.7,
-    "feels_like_f": 59.1,
-    "wind_mph": 11.4,
+    "temperature_f": 67.2,
+    "feels_like_f": 62.9,
+    "wind_mph": 13.4,
     "wind_dir": "NNE",
-    "precip_chance": 20,
+    "precip_chance": 17,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -202,21 +202,21 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "SNY",
           "call_sign": "SNY",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -932,21 +932,21 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "SNY",
           "call_sign": "SNY",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1391,7 +1391,11 @@
         "lon": -81.685255
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 676440,
+          "name": "Tanner Bibee",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
