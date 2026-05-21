@@ -1,120 +1,7 @@
 {
-  "fetched_at": "2026-05-20T23:42:17+00:00",
+  "fetched_at": "2026-05-21T00:17:55+00:00",
   "source": "mlb_statsapi",
   "games": [
-    {
-      "game_pk": 822734,
-      "date": "2026-05-18",
-      "start_time_utc": "2026-05-18T22:45:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "23-25",
-        "score": 7
-      },
-      "away": {
-        "id": 121,
-        "abbrev": "NYM",
-        "name": "New York Mets",
-        "short_name": "Mets",
-        "record": "21-26",
-        "score": 16
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 663623,
-          "name": "Jake Irvin",
-          "hand": null
-        },
-        "away": {
-          "id": 681035,
-          "name": "Christian Scott",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "SNY",
-          "call_sign": "SNY",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Audacy Mets Radio WHSQ 880AM",
-          "call_sign": "WHSQ 880AM",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Audacy App 92.3 HD2",
-          "call_sign": "Audacy",
-          "type": "FM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 12,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 1,
-        "strikes": 2,
-        "outs": 3,
-        "home_runs": 7,
-        "away_runs": 16,
-        "home_hits": 11,
-        "away_hits": 18,
-        "home_errors": 4,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 4,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi"
-    },
     {
       "game_pk": 822736,
       "date": "2026-05-19",
@@ -319,17 +206,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 4,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 2,
+        "current_inning": 6,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 3,
+        "strikes": 2,
+        "outs": 0,
         "home_runs": 4,
         "away_runs": 2,
-        "home_hits": 3,
-        "away_hits": 4,
+        "home_hits": 6,
+        "away_hits": 5,
         "home_errors": 0,
         "away_errors": 1
       },
@@ -382,21 +269,21 @@
       },
       "broadcasts": [
         {
-          "name": "SNY",
-          "call_sign": "SNY",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "SNY",
+          "call_sign": "SNY",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {

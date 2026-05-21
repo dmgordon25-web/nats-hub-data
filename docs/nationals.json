@@ -1,14 +1,16 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-20T23:42:19+00:00",
+  "fetched_at": "2026-05-21T00:17:56+00:00",
   "freshness": {
-    "schedule": "2026-05-20T23:42:17+00:00",
-    "standings": "2026-05-20T23:42:18+00:00",
+    "schedule": "2026-05-21T00:17:55+00:00",
+    "standings": "2026-05-21T00:17:55+00:00",
     "injuries": "2026-05-20T20:31:01+00:00",
-    "former_nats": "2026-05-20T20:31:05+00:00",
-    "weather": "2026-05-20T23:42:19+00:00"
+    "former_nats": "2026-05-21T00:17:55+00:00",
+    "weather": "2026-05-21T00:17:56+00:00"
   },
-  "stale_sources": [],
+  "stale_sources": [
+    "injuries"
+  ],
   "focus_game": {
     "game_pk": 822735,
     "date": "2026-05-20",
@@ -100,17 +102,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 4,
-      "inning_half": "Top",
-      "inning_state": "Top",
-      "is_top_inning": true,
-      "balls": 0,
-      "strikes": 0,
-      "outs": 2,
+      "current_inning": 6,
+      "inning_half": "Bottom",
+      "inning_state": "Bottom",
+      "is_top_inning": false,
+      "balls": 3,
+      "strikes": 2,
+      "outs": 0,
       "home_runs": 4,
       "away_runs": 2,
-      "home_hits": 3,
-      "away_hits": 4,
+      "home_hits": 6,
+      "away_hits": 5,
       "home_errors": 0,
       "away_errors": 1
     },
@@ -134,25 +136,25 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-20T23:42:19+00:00",
+    "fetched_at": "2026-05-21T00:17:56+00:00",
     "source": "open_meteo",
     "game_pk": 822735,
     "venue_name": "Nationals Park",
-    "forecast_at": "2026-05-20T23:00",
-    "temperature_f": 79.8,
-    "feels_like_f": 82.5,
-    "wind_mph": 8.5,
-    "wind_dir": "NNW",
-    "precip_chance": 37,
+    "forecast_at": "2026-05-21T00:00",
+    "temperature_f": 77.3,
+    "feels_like_f": 78.5,
+    "wind_mph": 9.0,
+    "wind_dir": "NNE",
+    "precip_chance": 25,
     "precip_inches": 0.0,
     "summary": "Partly cloudy",
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "nostalgia_2019_parade",
-    "category": "nostalgia",
-    "weight": 6,
-    "text": "The 2019 parade started at the Capitol and ended at Nationals Park. Stephen Strasburg held the trophy. Everyone in DC took a Monday off."
+    "id": "did_you_know_metro",
+    "category": "ballpark",
+    "weight": 3,
+    "text": "Navy Yard-Ballpark Metro station opens onto the Center Field gate. Easiest big-league commute in baseball."
   },
   "next_three": [
     {
@@ -246,17 +248,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 4,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 2,
+        "current_inning": 6,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 3,
+        "strikes": 2,
+        "outs": 0,
         "home_runs": 4,
         "away_runs": 2,
-        "home_hits": 3,
-        "away_hits": 4,
+        "home_hits": 6,
+        "away_hits": 5,
         "home_errors": 0,
         "away_errors": 1
       },
@@ -320,21 +322,21 @@
       },
       "broadcasts": [
         {
-          "name": "SNY",
-          "call_sign": "SNY",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "SNY",
+          "call_sign": "SNY",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -397,7 +399,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 824922,
@@ -642,130 +644,6 @@
   },
   "all_games": [
     {
-      "game_pk": 822734,
-      "date": "2026-05-18",
-      "start_time_utc": "2026-05-18T22:45:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "23-25",
-        "score": 7
-      },
-      "away": {
-        "id": 121,
-        "abbrev": "NYM",
-        "name": "New York Mets",
-        "short_name": "Mets",
-        "record": "21-26",
-        "score": 16
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 663623,
-          "name": "Jake Irvin",
-          "hand": null
-        },
-        "away": {
-          "id": 681035,
-          "name": "Christian Scott",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "SNY",
-          "call_sign": "SNY",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Audacy Mets Radio WHSQ 880AM",
-          "call_sign": "WHSQ 880AM",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Audacy App 92.3 HD2",
-          "call_sign": "Audacy",
-          "type": "FM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 12,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 1,
-        "strikes": 2,
-        "outs": 3,
-        "home_runs": 7,
-        "away_runs": 16,
-        "home_hits": 11,
-        "away_hits": 18,
-        "home_errors": 4,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 4,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
-    {
       "game_pk": 822736,
       "date": "2026-05-19",
       "start_time_utc": "2026-05-19T22:45:00Z",
@@ -980,17 +858,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 4,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 2,
+        "current_inning": 6,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 3,
+        "strikes": 2,
+        "outs": 0,
         "home_runs": 4,
         "away_runs": 2,
-        "home_hits": 3,
-        "away_hits": 4,
+        "home_hits": 6,
+        "away_hits": 5,
         "home_errors": 0,
         "away_errors": 1
       },
@@ -1054,21 +932,21 @@
       },
       "broadcasts": [
         {
-          "name": "SNY",
-          "call_sign": "SNY",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "SNY",
+          "call_sign": "SNY",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1131,7 +1009,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 824922,
@@ -3203,7 +3081,7 @@
           "streak": "L4",
           "last_ten": "2-8",
           "division_rank": 4,
-          "league_rank": 12,
+          "league_rank": 13,
           "wc_rank": 9,
           "run_diff": -20,
           "runs_scored": 193,
@@ -3223,7 +3101,7 @@
           "streak": "L2",
           "last_ten": "2-8",
           "division_rank": 5,
-          "league_rank": 13,
+          "league_rank": 12,
           "wc_rank": 10,
           "run_diff": -29,
           "runs_scored": 191,
@@ -3458,13 +3336,5 @@
       "description": "The Nationals signed Kranick (elbow) to a one-year, $800,000 contract Tuesday and placed him on the 15-day injured list."
     }
   ],
-  "former_nats_flag_candidates": [
-    {
-      "mlb_id": 665742,
-      "name": "Juan Soto",
-      "summary": "2-for-4 vs. Nats",
-      "celebrate": true,
-      "against_nats": true
-    }
-  ]
+  "former_nats_flag_candidates": []
 }

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-20T20:31:05+00:00",
+  "fetched_at": "2026-05-21T00:17:55+00:00",
   "source": "mlb_statsapi",
   "players": [
     {
@@ -47,28 +47,23 @@
         "name": "New York Mets"
       },
       "season_stats": {
-        "ab": 123,
-        "avg": ".293",
-        "hr": 7,
-        "rbi": 17,
-        "r": 19,
-        "h": 36,
-        "obp": ".389",
-        "slg": ".512",
-        "ops": ".901",
+        "ab": 126,
+        "avg": ".294",
+        "hr": 8,
+        "rbi": 18,
+        "r": 20,
+        "h": 37,
+        "obp": ".388",
+        "slg": ".532",
+        "ops": ".920",
         "sb": 4
       },
       "last_game": {
-        "date": "2026-05-19",
+        "date": "2026-05-20",
         "opponent": "WSH",
-        "line": "2-4, 1 HR, 1 RBI"
+        "line": "1-3, 1 HR, 1 RBI"
       },
-      "significant_event": {
-        "kind": "against_nats",
-        "summary": "2-for-4 vs. Nats",
-        "against_nats": true,
-        "celebrate": true
-      },
+      "significant_event": null,
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/665742/headshot/67/current"
     },
     {
@@ -198,13 +193,5 @@
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/607200/headshot/67/current"
     }
   ],
-  "flag_candidates": [
-    {
-      "mlb_id": 665742,
-      "name": "Juan Soto",
-      "summary": "2-for-4 vs. Nats",
-      "celebrate": true,
-      "against_nats": true
-    }
-  ]
+  "flag_candidates": []
 }
