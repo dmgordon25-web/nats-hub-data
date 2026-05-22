@@ -1,22 +1,20 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-22T18:59:41+00:00",
+  "fetched_at": "2026-05-22T20:12:37+00:00",
   "freshness": {
-    "schedule": "2026-05-22T18:59:40+00:00",
-    "standings": "2026-05-22T18:59:40+00:00",
-    "injuries": "2026-05-22T00:14:38+00:00",
-    "former_nats": "2026-05-22T15:52:45+00:00",
-    "weather": "2026-05-22T18:59:41+00:00"
+    "schedule": "2026-05-22T20:12:36+00:00",
+    "standings": "2026-05-22T20:12:36+00:00",
+    "injuries": "2026-05-22T20:12:32+00:00",
+    "former_nats": "2026-05-22T20:12:36+00:00",
+    "weather": "2026-05-22T20:12:37+00:00"
   },
-  "stale_sources": [
-    "injuries"
-  ],
+  "stale_sources": [],
   "focus_game": {
     "game_pk": 824922,
     "date": "2026-05-22",
     "start_time_utc": "2026-05-22T23:15:00Z",
     "status": "Preview",
-    "detailed_status": "Scheduled",
+    "detailed_status": "Pre-Game",
     "is_nats_home": false,
     "home": {
       "id": 144,
@@ -24,7 +22,7 @@
       "name": "Atlanta Braves",
       "short_name": "Braves",
       "record": "35-16",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 120,
@@ -32,7 +30,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "25-26",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 4705,
@@ -43,10 +41,14 @@
       "lon": -84.467641
     },
     "probable_pitchers": {
-      "home": null,
+      "home": {
+        "id": 693821,
+        "name": "Bryce Elder",
+        "hand": null
+      },
       "away": {
-        "id": 571945,
-        "name": "Miles Mikolas",
+        "id": 663992,
+        "name": "Richard Lovelady",
         "hand": null
       }
     },
@@ -98,19 +100,19 @@
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
       "game_number": 1,
@@ -132,18 +134,18 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-22T18:59:41+00:00",
+    "fetched_at": "2026-05-22T20:12:37+00:00",
     "source": "open_meteo",
     "game_pk": 824922,
     "venue_name": "Truist Park",
     "forecast_at": "2026-05-22T23:00",
     "temperature_f": 84.5,
-    "feels_like_f": 84.9,
-    "wind_mph": 8.0,
+    "feels_like_f": 84.6,
+    "wind_mph": 10.5,
     "wind_dir": "SSW",
     "precip_chance": 31,
     "precip_inches": 0.0,
-    "summary": "Overcast",
+    "summary": "Partly cloudy",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -158,7 +160,7 @@
       "date": "2026-05-22",
       "start_time_utc": "2026-05-22T23:15:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": false,
       "home": {
         "id": 144,
@@ -166,7 +168,7 @@
         "name": "Atlanta Braves",
         "short_name": "Braves",
         "record": "35-16",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 120,
@@ -174,7 +176,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "25-26",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 4705,
@@ -185,10 +187,14 @@
         "lon": -84.467641
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 693821,
+          "name": "Bryce Elder",
+          "hand": null
+        },
         "away": {
-          "id": 571945,
-          "name": "Miles Mikolas",
+          "id": 663992,
+          "name": "Richard Lovelady",
           "hand": null
         }
       },
@@ -240,19 +246,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 1,
@@ -305,7 +311,11 @@
         "lon": -84.467641
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 656550,
+          "name": "Grant Holmes",
+          "hand": null
+        },
         "away": {
           "id": 663623,
           "name": "Jake Irvin",
@@ -425,7 +435,11 @@
         "lon": -84.467641
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 527048,
+          "name": "Martín Pérez",
+          "hand": null
+        },
         "away": {
           "id": 656492,
           "name": "Foster Griffin",
@@ -892,7 +906,7 @@
       "date": "2026-05-22",
       "start_time_utc": "2026-05-22T23:15:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": false,
       "home": {
         "id": 144,
@@ -900,7 +914,7 @@
         "name": "Atlanta Braves",
         "short_name": "Braves",
         "record": "35-16",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 120,
@@ -908,7 +922,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "25-26",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 4705,
@@ -919,10 +933,14 @@
         "lon": -84.467641
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 693821,
+          "name": "Bryce Elder",
+          "hand": null
+        },
         "away": {
-          "id": 571945,
-          "name": "Miles Mikolas",
+          "id": 663992,
+          "name": "Richard Lovelady",
           "hand": null
         }
       },
@@ -974,19 +992,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 1,
@@ -1039,7 +1057,11 @@
         "lon": -84.467641
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 656550,
+          "name": "Grant Holmes",
+          "hand": null
+        },
         "away": {
           "id": 663623,
           "name": "Jake Irvin",
@@ -1159,7 +1181,11 @@
         "lon": -84.467641
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 527048,
+          "name": "Martín Pérez",
+          "hand": null
+        },
         "away": {
           "id": 656492,
           "name": "Foster Griffin",
