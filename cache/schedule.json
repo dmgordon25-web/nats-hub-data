@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-23T21:36:22+00:00",
+  "fetched_at": "2026-05-23T22:35:52+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -249,7 +249,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "25-27",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 4705,
@@ -319,17 +319,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 3,
+        "current_inning": 7,
         "inning_half": "Bottom",
-        "inning_state": "End",
+        "inning_state": "Bottom",
         "is_top_inning": false,
-        "balls": 2,
-        "strikes": 3,
-        "outs": 3,
+        "balls": 1,
+        "strikes": 2,
+        "outs": 0,
         "home_runs": 0,
-        "away_runs": 0,
+        "away_runs": 2,
         "home_hits": 0,
-        "away_hits": 3,
+        "away_hits": 7,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -386,21 +386,21 @@
       },
       "broadcasts": [
         {
-          "name": "680 AM/93.7 FM The Fan",
-          "call_sign": "680 AM",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "680 AM/93.7 FM The Fan",
+          "call_sign": "680 AM",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1171,7 +1171,7 @@
         "abbrev": "MIA",
         "name": "Miami Marlins",
         "short_name": "Marlins",
-        "record": "23-29",
+        "record": "24-29",
         "score": null
       },
       "venue": {
@@ -1276,7 +1276,7 @@
         "abbrev": "MIA",
         "name": "Miami Marlins",
         "short_name": "Marlins",
-        "record": "23-29",
+        "record": "24-29",
         "score": null
       },
       "venue": {
@@ -1381,7 +1381,7 @@
         "abbrev": "MIA",
         "name": "Miami Marlins",
         "short_name": "Marlins",
-        "record": "23-29",
+        "record": "24-29",
         "score": null
       },
       "venue": {
