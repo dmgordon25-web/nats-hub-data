@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-23T19:40:40+00:00",
+  "fetched_at": "2026-05-23T20:34:52+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -232,8 +232,8 @@
       "game_pk": 824920,
       "date": "2026-05-23",
       "start_time_utc": "2026-05-23T20:10:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 144,
@@ -319,17 +319,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 2,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "balls": 1,
+        "strikes": 2,
+        "outs": 2,
         "home_runs": 0,
         "away_runs": 0,
         "home_hits": 0,
-        "away_hits": 0,
+        "away_hits": 1,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -386,21 +386,21 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "680 AM/93.7 FM The Fan",
           "call_sign": "680 AM",
           "type": "AM",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
