@@ -1,14 +1,16 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-23T18:13:21+00:00",
+  "fetched_at": "2026-05-23T19:39:15+00:00",
   "freshness": {
-    "schedule": "2026-05-23T18:13:19+00:00",
-    "standings": "2026-05-23T18:13:20+00:00",
+    "schedule": "2026-05-23T19:39:14+00:00",
+    "standings": "2026-05-23T19:39:15+00:00",
     "injuries": "2026-05-23T14:42:55+00:00",
-    "former_nats": "2026-05-23T14:43:01+00:00",
-    "weather": "2026-05-23T18:13:21+00:00"
+    "former_nats": "2026-05-23T19:39:14+00:00",
+    "weather": "2026-05-23T19:39:15+00:00"
   },
-  "stale_sources": [],
+  "stale_sources": [
+    "injuries"
+  ],
   "focus_game": {
     "game_pk": 824920,
     "date": "2026-05-23",
@@ -60,7 +62,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -69,7 +71,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "BravesVision",
@@ -78,7 +80,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -87,7 +89,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "La Mejor 1600/1460/1130 AM",
@@ -96,7 +98,7 @@
         "language": "es",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       }
     ],
     "linescore": {
@@ -131,19 +133,19 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Starts Soon"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-23T18:13:21+00:00",
+    "fetched_at": "2026-05-23T19:39:15+00:00",
     "source": "open_meteo",
     "game_pk": 824920,
     "venue_name": "Truist Park",
     "forecast_at": "2026-05-23T20:00",
-    "temperature_f": 70.6,
-    "feels_like_f": 74.6,
-    "wind_mph": 7.6,
-    "wind_dir": "ENE",
-    "precip_chance": 33,
+    "temperature_f": 72.7,
+    "feels_like_f": 78.6,
+    "wind_mph": 8.1,
+    "wind_dir": "NE",
+    "precip_chance": 23,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -206,7 +208,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -215,7 +217,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "BravesVision",
@@ -224,7 +226,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -233,7 +235,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "La Mejor 1600/1460/1130 AM",
@@ -242,7 +244,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
@@ -277,7 +279,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 824921,
@@ -966,7 +968,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -975,7 +977,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "BravesVision",
@@ -984,7 +986,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -993,7 +995,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "La Mejor 1600/1460/1130 AM",
@@ -1002,7 +1004,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
@@ -1037,7 +1039,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 824921,
