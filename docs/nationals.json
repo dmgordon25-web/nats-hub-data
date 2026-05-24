@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-24T18:14:22+00:00",
+  "fetched_at": "2026-05-24T19:41:55+00:00",
   "freshness": {
-    "schedule": "2026-05-24T18:14:21+00:00",
-    "standings": "2026-05-24T18:14:21+00:00",
-    "injuries": "2026-05-24T14:42:40+00:00",
-    "former_nats": "2026-05-24T14:42:43+00:00",
-    "weather": "2026-05-24T18:14:22+00:00"
+    "schedule": "2026-05-24T19:41:54+00:00",
+    "standings": "2026-05-24T19:41:54+00:00",
+    "injuries": "2026-05-24T19:41:48+00:00",
+    "former_nats": "2026-05-24T19:41:54+00:00",
+    "weather": "2026-05-24T19:41:55+00:00"
   },
   "stale_sources": [],
   "focus_game": {
@@ -60,7 +60,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -69,7 +69,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "BravesVision",
@@ -78,7 +78,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -87,7 +87,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "La Mejor 1600/1460/1130 AM",
@@ -96,7 +96,7 @@
         "language": "es",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       }
     ],
     "linescore": {
@@ -131,21 +131,21 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Starts Soon"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-24T18:14:22+00:00",
+    "fetched_at": "2026-05-24T19:41:55+00:00",
     "source": "open_meteo",
     "game_pk": 824921,
     "venue_name": "Truist Park",
     "forecast_at": "2026-05-24T20:00",
-    "temperature_f": 78.6,
-    "feels_like_f": 82.3,
-    "wind_mph": 8.5,
+    "temperature_f": 78.9,
+    "feels_like_f": 84.1,
+    "wind_mph": 6.8,
     "wind_dir": "SE",
-    "precip_chance": 44,
+    "precip_chance": 36,
     "precip_inches": 0.0,
-    "summary": "Partly cloudy",
+    "summary": "Overcast",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -206,7 +206,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -215,7 +215,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "BravesVision",
@@ -224,7 +224,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -233,7 +233,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "La Mejor 1600/1460/1130 AM",
@@ -242,7 +242,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
@@ -277,7 +277,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 824437,
@@ -988,7 +988,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -997,7 +997,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "BravesVision",
@@ -1006,7 +1006,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -1015,7 +1015,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "La Mejor 1600/1460/1130 AM",
@@ -1024,7 +1024,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
@@ -1059,7 +1059,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 824437,
@@ -2579,8 +2579,8 @@
         "streak": "W1",
         "last_ten": "6-4",
         "division_rank": 2,
-        "league_rank": 9,
-        "wc_rank": 6,
+        "league_rank": 10,
+        "wc_rank": 7,
         "run_diff": -22,
         "runs_scored": 212,
         "runs_allowed": 234,
@@ -2687,8 +2687,8 @@
           "streak": "W1",
           "last_ten": "6-4",
           "division_rank": 2,
-          "league_rank": 9,
-          "wc_rank": 6,
+          "league_rank": 10,
+          "wc_rank": 7,
           "run_diff": -22,
           "runs_scored": 212,
           "runs_allowed": 234,
@@ -2953,19 +2953,19 @@
           "abbrev": "PIT",
           "name": "Pittsburgh Pirates",
           "short_name": "Pirates",
-          "wins": 26,
+          "wins": 27,
           "losses": 26,
-          "pct": ".500",
-          "gb": "5.5",
-          "wc_gb": "3.0",
-          "streak": "L2",
-          "last_ten": "3-7",
+          "pct": ".509",
+          "gb": "5.0",
+          "wc_gb": "2.5",
+          "streak": "W1",
+          "last_ten": "4-6",
           "division_rank": 5,
-          "league_rank": 10,
-          "wc_rank": 7,
-          "run_diff": 19,
-          "runs_scored": 252,
-          "runs_allowed": 233,
+          "league_rank": 9,
+          "wc_rank": 6,
+          "run_diff": 22,
+          "runs_scored": 256,
+          "runs_allowed": 234,
           "elim_num": "107"
         }
       ]
@@ -3021,19 +3021,39 @@
           "name": "Toronto Blue Jays",
           "short_name": "Blue Jays",
           "wins": 25,
-          "losses": 27,
-          "pct": ".481",
-          "gb": "10.5",
-          "wc_gb": "-",
-          "streak": "W4",
-          "last_ten": "7-3",
+          "losses": 28,
+          "pct": ".472",
+          "gb": "11.0",
+          "wc_gb": "0.5",
+          "streak": "L1",
+          "last_ten": "6-4",
           "division_rank": 3,
-          "league_rank": 7,
-          "wc_rank": 4,
-          "run_diff": -3,
-          "runs_scored": 213,
-          "runs_allowed": 216,
-          "elim_num": "102"
+          "league_rank": 8,
+          "wc_rank": 5,
+          "run_diff": -6,
+          "runs_scored": 214,
+          "runs_allowed": 220,
+          "elim_num": "101"
+        },
+        {
+          "id": 110,
+          "abbrev": "BAL",
+          "name": "Baltimore Orioles",
+          "short_name": "Orioles",
+          "wins": 23,
+          "losses": 29,
+          "pct": ".442",
+          "gb": "12.5",
+          "wc_gb": "2.0",
+          "streak": "W2",
+          "last_ten": "4-6",
+          "division_rank": 4,
+          "league_rank": 10,
+          "wc_rank": 7,
+          "run_diff": -54,
+          "runs_scored": 227,
+          "runs_allowed": 281,
+          "elim_num": "100"
         },
         {
           "id": 111,
@@ -3047,32 +3067,12 @@
           "wc_gb": "2.5",
           "streak": "L2",
           "last_ten": "5-5",
-          "division_rank": 4,
-          "league_rank": 10,
-          "wc_rank": 7,
-          "run_diff": -15,
-          "runs_scored": 189,
-          "runs_allowed": 204,
-          "elim_num": "100"
-        },
-        {
-          "id": 110,
-          "abbrev": "BAL",
-          "name": "Baltimore Orioles",
-          "short_name": "Orioles",
-          "wins": 22,
-          "losses": 29,
-          "pct": ".431",
-          "gb": "13.0",
-          "wc_gb": "2.5",
-          "streak": "W1",
-          "last_ten": "4-6",
           "division_rank": 5,
           "league_rank": 11,
           "wc_rank": 8,
-          "run_diff": -56,
-          "runs_scored": 222,
-          "runs_allowed": 278,
+          "run_diff": -15,
+          "runs_scored": 189,
+          "runs_allowed": 204,
           "elim_num": "100"
         }
       ]
@@ -3168,19 +3168,19 @@
           "name": "Detroit Tigers",
           "short_name": "Tigers",
           "wins": 20,
-          "losses": 32,
-          "pct": ".385",
-          "gb": "10.0",
-          "wc_gb": "5.0",
-          "streak": "L7",
+          "losses": 33,
+          "pct": ".377",
+          "gb": "10.5",
+          "wc_gb": "5.5",
+          "streak": "L8",
           "last_ten": "1-9",
           "division_rank": 5,
           "league_rank": 14,
           "wc_rank": 11,
-          "run_diff": -26,
-          "runs_scored": 200,
-          "runs_allowed": 226,
-          "elim_num": "100"
+          "run_diff": -28,
+          "runs_scored": 203,
+          "runs_allowed": 231,
+          "elim_num": "99"
         }
       ]
     },
@@ -3222,8 +3222,8 @@
           "streak": "L1",
           "last_ten": "4-6",
           "division_rank": 2,
-          "league_rank": 8,
-          "wc_rank": 5,
+          "league_rank": 7,
+          "wc_rank": 4,
           "run_diff": 8,
           "runs_scored": 212,
           "runs_allowed": 204,
