@@ -1,16 +1,14 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-24T06:51:10+00:00",
+  "fetched_at": "2026-05-24T09:25:25+00:00",
   "freshness": {
-    "schedule": "2026-05-24T06:51:08+00:00",
-    "standings": "2026-05-24T06:51:09+00:00",
-    "injuries": "2026-05-23T14:42:55+00:00",
-    "former_nats": "2026-05-24T00:11:25+00:00",
-    "weather": "2026-05-24T06:51:09+00:00"
+    "schedule": "2026-05-24T09:25:24+00:00",
+    "standings": "2026-05-24T09:25:24+00:00",
+    "injuries": "2026-05-24T09:25:19+00:00",
+    "former_nats": "2026-05-24T09:25:23+00:00",
+    "weather": "2026-05-24T09:25:24+00:00"
   },
-  "stale_sources": [
-    "injuries"
-  ],
+  "stale_sources": [],
   "focus_game": {
     "game_pk": 824921,
     "date": "2026-05-24",
@@ -56,21 +54,21 @@
     },
     "broadcasts": [
       {
-        "name": "680 AM/93.7 FM The Fan",
-        "call_sign": "680 AM",
-        "type": "AM",
-        "language": "en",
-        "is_national": false,
-        "home_away": "home",
-        "media_state": "MEDIA_OFF"
-      },
-      {
         "name": "Nationals.TV",
         "call_sign": "NATS",
         "type": "TV",
         "language": "en",
         "is_national": false,
         "home_away": "away",
+        "media_state": "MEDIA_OFF"
+      },
+      {
+        "name": "680 AM/93.7 FM The Fan",
+        "call_sign": "680 AM",
+        "type": "AM",
+        "language": "en",
+        "is_national": false,
+        "home_away": "home",
         "media_state": "MEDIA_OFF"
       },
       {
@@ -136,16 +134,16 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-24T06:51:09+00:00",
+    "fetched_at": "2026-05-24T09:25:24+00:00",
     "source": "open_meteo",
     "game_pk": 824921,
     "venue_name": "Truist Park",
     "forecast_at": "2026-05-24T20:00",
-    "temperature_f": 79.5,
-    "feels_like_f": 82.0,
-    "wind_mph": 8.6,
+    "temperature_f": 80.9,
+    "feels_like_f": 82.6,
+    "wind_mph": 10.4,
     "wind_dir": "SE",
-    "precip_chance": 24,
+    "precip_chance": 26,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -202,21 +200,21 @@
       },
       "broadcasts": [
         {
-          "name": "680 AM/93.7 FM The Fan",
-          "call_sign": "680 AM",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "680 AM/93.7 FM The Fan",
+          "call_sign": "680 AM",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -972,21 +970,21 @@
       },
       "broadcasts": [
         {
-          "name": "680 AM/93.7 FM The Fan",
-          "call_sign": "680 AM",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "680 AM/93.7 FM The Fan",
+          "call_sign": "680 AM",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -3283,6 +3281,18 @@
     "elim_num": "100"
   },
   "notable_injuries": [
+    {
+      "athlete_id": 41290,
+      "athlete_name": "Jake Irvin",
+      "short_name": "J. Irvin",
+      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/41290.png",
+      "position": "SP",
+      "status_code": "INJURY_STATUS_DAYTODAY",
+      "status_label": "day-to-day",
+      "status_abbrev": "DD",
+      "date": "May 23",
+      "description": "Irvin (shoulder/lat) will undergo an MRI on Sunday, Mark Zuckerman of NatsJournal.com reports."
+    },
     {
       "athlete_id": 4917686,
       "athlete_name": "DJ Herz",
