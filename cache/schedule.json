@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-25T21:45:51+00:00",
+  "fetched_at": "2026-05-25T22:46:01+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -232,8 +232,8 @@
       "game_pk": 824437,
       "date": "2026-05-25",
       "start_time_utc": "2026-05-25T22:10:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 114,
@@ -241,7 +241,7 @@
         "name": "Cleveland Guardians",
         "short_name": "Guardians",
         "record": "32-23",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 120,
@@ -249,7 +249,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "27-27",
-        "score": 0
+        "score": 6
       },
       "venue": {
         "id": 5,
@@ -337,17 +337,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
+        "current_inning": 2,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 2,
+        "strikes": 1,
         "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "home_runs": 1,
+        "away_runs": 6,
+        "home_hits": 2,
+        "away_hits": 6,
         "home_errors": 0,
         "away_errors": 0
       },
