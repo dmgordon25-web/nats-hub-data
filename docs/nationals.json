@@ -1,16 +1,14 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-27T15:53:46+00:00",
+  "fetched_at": "2026-05-27T16:45:59+00:00",
   "freshness": {
-    "schedule": "2026-05-27T15:53:45+00:00",
-    "standings": "2026-05-27T15:53:45+00:00",
-    "injuries": "2026-05-27T00:17:11+00:00",
-    "former_nats": "2026-05-27T11:00:52+00:00",
-    "weather": "2026-05-27T15:53:46+00:00"
+    "schedule": "2026-05-27T16:45:58+00:00",
+    "standings": "2026-05-27T16:45:59+00:00",
+    "injuries": "2026-05-27T16:45:52+00:00",
+    "former_nats": "2026-05-27T16:45:58+00:00",
+    "weather": "2026-05-27T16:45:59+00:00"
   },
-  "stale_sources": [
-    "injuries"
-  ],
+  "stale_sources": [],
   "focus_game": {
     "game_pk": 824432,
     "date": "2026-05-27",
@@ -142,19 +140,19 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Starts Soon"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-27T15:53:46+00:00",
+    "fetched_at": "2026-05-27T16:45:59+00:00",
     "source": "open_meteo",
     "game_pk": 824432,
     "venue_name": "Progressive Field",
     "forecast_at": "2026-05-27T17:00",
-    "temperature_f": 72.8,
-    "feels_like_f": 79.0,
-    "wind_mph": 5.6,
+    "temperature_f": 72.1,
+    "feels_like_f": 77.6,
+    "wind_mph": 5.4,
     "wind_dir": "NW",
-    "precip_chance": 3,
+    "precip_chance": 1,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -297,7 +295,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 822732,
@@ -1116,7 +1114,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 822732,
