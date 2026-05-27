@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-27T16:45:58+00:00",
+  "fetched_at": "2026-05-27T18:28:46+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -268,8 +268,8 @@
       "game_pk": 824432,
       "date": "2026-05-27",
       "start_time_utc": "2026-05-27T17:10:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 114,
@@ -285,7 +285,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "29-27",
-        "score": 0
+        "score": 1
       },
       "venue": {
         "id": 5,
@@ -364,19 +364,19 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 5,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
+        "outs": 1,
         "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "away_runs": 1,
+        "home_hits": 5,
+        "away_hits": 3,
         "home_errors": 0,
-        "away_errors": 0
+        "away_errors": 1
       },
       "series": {
         "game_number": 3,
@@ -760,7 +760,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 645261,
+          "name": "Sandy Alcantara",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
