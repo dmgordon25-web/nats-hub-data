@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-27T11:00:53+00:00",
+  "fetched_at": "2026-05-27T15:53:45+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -269,7 +269,7 @@
       "date": "2026-05-27",
       "start_time_utc": "2026-05-27T17:10:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": false,
       "home": {
         "id": 114,
@@ -277,7 +277,7 @@
         "name": "Cleveland Guardians",
         "short_name": "Guardians",
         "record": "32-25",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 120,
@@ -285,7 +285,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "29-27",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 5,
@@ -302,8 +302,8 @@
           "hand": null
         },
         "away": {
-          "id": 571945,
-          "name": "Miles Mikolas",
+          "id": 676571,
+          "name": "PJ Poulin",
           "hand": null
         }
       },
@@ -315,7 +315,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Guardians.TV Presented by Progressive",
@@ -324,7 +324,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -333,7 +333,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -342,7 +342,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WARF 1350",
@@ -351,7 +351,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Guardians Radio Network",
@@ -364,19 +364,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 3,

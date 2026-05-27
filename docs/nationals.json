@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-27T11:00:54+00:00",
+  "fetched_at": "2026-05-27T15:53:46+00:00",
   "freshness": {
-    "schedule": "2026-05-27T11:00:53+00:00",
-    "standings": "2026-05-27T11:00:53+00:00",
+    "schedule": "2026-05-27T15:53:45+00:00",
+    "standings": "2026-05-27T15:53:45+00:00",
     "injuries": "2026-05-27T00:17:11+00:00",
     "former_nats": "2026-05-27T11:00:52+00:00",
-    "weather": "2026-05-27T11:00:54+00:00"
+    "weather": "2026-05-27T15:53:46+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -16,7 +16,7 @@
     "date": "2026-05-27",
     "start_time_utc": "2026-05-27T17:10:00Z",
     "status": "Preview",
-    "detailed_status": "Scheduled",
+    "detailed_status": "Pre-Game",
     "is_nats_home": false,
     "home": {
       "id": 114,
@@ -24,7 +24,7 @@
       "name": "Cleveland Guardians",
       "short_name": "Guardians",
       "record": "32-25",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 120,
@@ -32,7 +32,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "29-27",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 5,
@@ -49,8 +49,8 @@
         "hand": null
       },
       "away": {
-        "id": 571945,
-        "name": "Miles Mikolas",
+        "id": 676571,
+        "name": "PJ Poulin",
         "hand": null
       }
     },
@@ -62,7 +62,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Guardians.TV Presented by Progressive",
@@ -71,7 +71,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -80,7 +80,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -89,7 +89,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WARF 1350",
@@ -98,7 +98,7 @@
         "language": "es",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Guardians Radio Network",
@@ -111,19 +111,19 @@
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
       "game_number": 3,
@@ -145,16 +145,16 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-27T11:00:54+00:00",
+    "fetched_at": "2026-05-27T15:53:46+00:00",
     "source": "open_meteo",
     "game_pk": 824432,
     "venue_name": "Progressive Field",
     "forecast_at": "2026-05-27T17:00",
-    "temperature_f": 70.9,
-    "feels_like_f": 71.7,
-    "wind_mph": 8.4,
-    "wind_dir": "WNW",
-    "precip_chance": 2,
+    "temperature_f": 72.8,
+    "feels_like_f": 79.0,
+    "wind_mph": 5.6,
+    "wind_dir": "NW",
+    "precip_chance": 3,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -171,7 +171,7 @@
       "date": "2026-05-27",
       "start_time_utc": "2026-05-27T17:10:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": false,
       "home": {
         "id": 114,
@@ -179,7 +179,7 @@
         "name": "Cleveland Guardians",
         "short_name": "Guardians",
         "record": "32-25",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 120,
@@ -187,7 +187,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "29-27",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 5,
@@ -204,8 +204,8 @@
           "hand": null
         },
         "away": {
-          "id": 571945,
-          "name": "Miles Mikolas",
+          "id": 676571,
+          "name": "PJ Poulin",
           "hand": null
         }
       },
@@ -217,7 +217,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Guardians.TV Presented by Progressive",
@@ -226,7 +226,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -235,7 +235,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -244,7 +244,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WARF 1350",
@@ -253,7 +253,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Guardians Radio Network",
@@ -266,19 +266,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 3,
@@ -990,7 +990,7 @@
       "date": "2026-05-27",
       "start_time_utc": "2026-05-27T17:10:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": false,
       "home": {
         "id": 114,
@@ -998,7 +998,7 @@
         "name": "Cleveland Guardians",
         "short_name": "Guardians",
         "record": "32-25",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 120,
@@ -1006,7 +1006,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "29-27",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 5,
@@ -1023,8 +1023,8 @@
           "hand": null
         },
         "away": {
-          "id": 571945,
-          "name": "Miles Mikolas",
+          "id": 676571,
+          "name": "PJ Poulin",
           "hand": null
         }
       },
@@ -1036,7 +1036,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Guardians.TV Presented by Progressive",
@@ -1045,7 +1045,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -1054,7 +1054,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -1063,7 +1063,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WARF 1350",
@@ -1072,7 +1072,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Guardians Radio Network",
@@ -1085,19 +1085,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 3,
