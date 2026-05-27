@@ -1,16 +1,14 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-26T23:33:20+00:00",
+  "fetched_at": "2026-05-27T00:17:16+00:00",
   "freshness": {
-    "schedule": "2026-05-26T23:33:18+00:00",
-    "standings": "2026-05-26T23:33:19+00:00",
-    "injuries": "2026-05-25T20:00:22+00:00",
-    "former_nats": "2026-05-26T20:27:01+00:00",
-    "weather": "2026-05-26T23:33:20+00:00"
+    "schedule": "2026-05-27T00:17:15+00:00",
+    "standings": "2026-05-27T00:17:16+00:00",
+    "injuries": "2026-05-27T00:17:11+00:00",
+    "former_nats": "2026-05-27T00:17:15+00:00",
+    "weather": "2026-05-27T00:17:16+00:00"
   },
-  "stale_sources": [
-    "injuries"
-  ],
+  "stale_sources": [],
   "focus_game": {
     "game_pk": 824434,
     "date": "2026-05-26",
@@ -24,7 +22,7 @@
       "name": "Cleveland Guardians",
       "short_name": "Guardians",
       "record": "32-24",
-      "score": 0
+      "score": 1
     },
     "away": {
       "id": 120,
@@ -120,17 +118,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 4,
+      "current_inning": 7,
       "inning_half": "Bottom",
-      "inning_state": "End",
+      "inning_state": "Bottom",
       "is_top_inning": false,
-      "balls": 1,
-      "strikes": 3,
-      "outs": 3,
-      "home_runs": 0,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1,
+      "home_runs": 1,
       "away_runs": 4,
-      "home_hits": 2,
-      "away_hits": 4,
+      "home_hits": 5,
+      "away_hits": 7,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -154,14 +152,14 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-26T23:33:20+00:00",
+    "fetched_at": "2026-05-27T00:17:16+00:00",
     "source": "open_meteo",
     "game_pk": 824434,
     "venue_name": "Progressive Field",
-    "forecast_at": "2026-05-26T22:00",
-    "temperature_f": 74.9,
-    "feels_like_f": 73.4,
-    "wind_mph": 5.1,
+    "forecast_at": "2026-05-27T00:00",
+    "temperature_f": 73.1,
+    "feels_like_f": 74.1,
+    "wind_mph": 3.0,
     "wind_dir": "NNW",
     "precip_chance": 0,
     "precip_inches": 0.0,
@@ -169,10 +167,10 @@
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "nostalgia_2019_wild_card",
-    "category": "nostalgia",
-    "weight": 6,
-    "text": "Down 3-1 in the eighth, Juan Soto drove in three with a single off Josh Hader. The 2019 Wild Card came back to life right there."
+    "id": "stat_nerd_woody_exit_velo",
+    "category": "stat_nerd",
+    "weight": 5,
+    "text": "James Wood's average exit velocity puts him in elite company — Judge, Stanton, Schwarber tier."
   },
   "next_three": [
     {
@@ -188,7 +186,7 @@
         "name": "Cleveland Guardians",
         "short_name": "Guardians",
         "record": "32-24",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 120,
@@ -284,17 +282,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 4,
+        "current_inning": 7,
         "inning_half": "Bottom",
-        "inning_state": "End",
+        "inning_state": "Bottom",
         "is_top_inning": false,
-        "balls": 1,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1,
+        "home_runs": 1,
         "away_runs": 4,
-        "home_hits": 2,
-        "away_hits": 4,
+        "home_hits": 5,
+        "away_hits": 7,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -448,7 +446,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822732,
@@ -733,130 +731,6 @@
   },
   "all_games": [
     {
-      "game_pk": 824921,
-      "date": "2026-05-24",
-      "start_time_utc": "2026-05-24T20:10:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 144,
-        "abbrev": "ATL",
-        "name": "Atlanta Braves",
-        "short_name": "Braves",
-        "record": "36-18",
-        "score": 1
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "27-27",
-        "score": 2
-      },
-      "venue": {
-        "id": 4705,
-        "name": "Truist Park",
-        "city": "Atlanta",
-        "state": "GA",
-        "lat": 33.890672,
-        "lon": -84.467641
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 527048,
-          "name": "Martín Pérez",
-          "hand": null
-        },
-        "away": {
-          "id": 656492,
-          "name": "Foster Griffin",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "680 AM/93.7 FM The Fan",
-          "call_sign": "680 AM",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "BravesVision",
-          "call_sign": "BravesVsn",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "La Mejor 1600/1460/1130 AM",
-          "call_sign": "1600 AM",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 2,
-        "strikes": 2,
-        "outs": 3,
-        "home_runs": 1,
-        "away_runs": 2,
-        "home_hits": 6,
-        "away_hits": 6,
-        "home_errors": 0,
-        "away_errors": 1
-      },
-      "series": {
-        "game_number": 3,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
-    {
       "game_pk": 824437,
       "date": "2026-05-25",
       "start_time_utc": "2026-05-25T22:10:00Z",
@@ -1011,7 +885,7 @@
         "name": "Cleveland Guardians",
         "short_name": "Guardians",
         "record": "32-24",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 120,
@@ -1107,17 +981,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 4,
+        "current_inning": 7,
         "inning_half": "Bottom",
-        "inning_state": "End",
+        "inning_state": "Bottom",
         "is_top_inning": false,
-        "balls": 1,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1,
+        "home_runs": 1,
         "away_runs": 4,
-        "home_hits": 2,
-        "away_hits": 4,
+        "home_hits": 5,
+        "away_hits": 7,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -1271,7 +1145,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822732,
@@ -2574,6 +2448,122 @@
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
       "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 823215,
+      "date": "2026-06-10",
+      "start_time_utc": "2026-06-10T19:45:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": false,
+      "home": {
+        "id": 137,
+        "abbrev": "SF",
+        "name": "San Francisco Giants",
+        "short_name": "Giants",
+        "record": "22-32",
+        "score": null
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "28-27",
+        "score": null
+      },
+      "venue": {
+        "id": 2395,
+        "name": "Oracle Park",
+        "city": "San Francisco",
+        "state": "CA",
+        "lat": 37.778383,
+        "lon": -122.389448
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "KNBR 680",
+          "call_sign": "KNBR",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "NBCS BA",
+          "call_sign": "NBCSBA",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "1510 AM - KSFN",
+          "call_sign": "KSFN",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 3,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
     }
   ],
   "standings": {
@@ -3349,6 +3339,18 @@
   },
   "notable_injuries": [
     {
+      "athlete_id": 4684369,
+      "athlete_name": "Max Kranick",
+      "short_name": "M. Kranick",
+      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/4684369.png",
+      "position": "RP",
+      "status_code": "INJURY_STATUS_60DAYIL",
+      "status_label": "60-day IL",
+      "status_abbrev": "IL60",
+      "date": "May 25",
+      "description": "The Nationals transferred Kranick (elbow) to the 60-day injured list Monday."
+    },
+    {
       "athlete_id": 41290,
       "athlete_name": "Jake Irvin",
       "short_name": "J. Irvin",
@@ -3419,18 +3421,6 @@
       "status_abbrev": "IL60",
       "date": "May 8",
       "description": "The Nationals transferred Waldichuk (elbow) to the 60-day injured list Thursday."
-    },
-    {
-      "athlete_id": 4684369,
-      "athlete_name": "Max Kranick",
-      "short_name": "M. Kranick",
-      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/4684369.png",
-      "position": "RP",
-      "status_code": "INJURY_STATUS_15DAYIL",
-      "status_label": "15-day IL",
-      "status_abbrev": "IL15",
-      "date": "May 8",
-      "description": "The Nationals signed Kranick (elbow) to a one-year, $800,000 contract Tuesday and placed him on the 15-day injured list."
     }
   ],
   "former_nats_flag_candidates": []
