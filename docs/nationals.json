@@ -1,14 +1,16 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-27T23:45:19+00:00",
+  "fetched_at": "2026-05-28T00:13:40+00:00",
   "freshness": {
-    "schedule": "2026-05-27T23:45:18+00:00",
-    "standings": "2026-05-27T23:45:18+00:00",
+    "schedule": "2026-05-28T00:13:39+00:00",
+    "standings": "2026-05-28T00:13:39+00:00",
     "injuries": "2026-05-27T20:30:17+00:00",
-    "former_nats": "2026-05-27T20:30:22+00:00",
-    "weather": "2026-05-27T23:45:19+00:00"
+    "former_nats": "2026-05-28T00:13:38+00:00",
+    "weather": "2026-05-28T00:13:40+00:00"
   },
-  "stale_sources": [],
+  "stale_sources": [
+    "injuries"
+  ],
   "focus_game": {
     "game_pk": 822732,
     "date": "2026-05-29",
@@ -152,25 +154,25 @@
     "watch_label": "Next Game"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-27T23:45:19+00:00",
+    "fetched_at": "2026-05-28T00:13:40+00:00",
     "source": "open_meteo",
     "game_pk": 822732,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-05-29T23:00",
     "temperature_f": 75.0,
-    "feels_like_f": 75.0,
-    "wind_mph": 3.2,
-    "wind_dir": "SW",
+    "feels_like_f": 74.6,
+    "wind_mph": 4.2,
+    "wind_dir": "SSW",
     "precip_chance": 0,
     "precip_inches": 0.0,
     "summary": "Clear",
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "stat_nerd_woody_exit_velo",
-    "category": "stat_nerd",
-    "weight": 5,
-    "text": "James Wood's average exit velocity puts him in elite company — Judge, Stanton, Schwarber tier."
+    "id": "did_you_know_screech_2005",
+    "category": "ballpark",
+    "weight": 3,
+    "text": "Screech the bald eagle has been the Nats mascot since 2005. Kids who first met him at the inaugural season are bringing their own kids now."
   },
   "next_three": [
     {
@@ -690,148 +692,6 @@
     "watch_label": "Game Final"
   },
   "all_games": [
-    {
-      "game_pk": 824437,
-      "date": "2026-05-25",
-      "start_time_utc": "2026-05-25T22:10:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 114,
-        "abbrev": "CLE",
-        "name": "Cleveland Guardians",
-        "short_name": "Guardians",
-        "record": "32-24",
-        "score": 2
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "28-27",
-        "score": 10
-      },
-      "venue": {
-        "id": 5,
-        "name": "Progressive Field",
-        "city": "Cleveland",
-        "state": "OH",
-        "lat": 41.495861,
-        "lon": -81.685255
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 676440,
-          "name": "Tanner Bibee",
-          "hand": null
-        },
-        "away": {
-          "id": 676571,
-          "name": "PJ Poulin",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "WTAM 1100",
-          "call_sign": "WTAM",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Guardians.TV Presented by Progressive",
-          "call_sign": "CLEG",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WMMS 100.7",
-          "call_sign": "WMMS",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Guardians Radio Network",
-          "call_sign": "CLE Radio",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "WARF 1350",
-          "call_sign": "WARF1350",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 0,
-        "strikes": 1,
-        "outs": 3,
-        "home_runs": 2,
-        "away_runs": 10,
-        "home_hits": 7,
-        "away_hits": 15,
-        "home_errors": 1,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
     {
       "game_pk": 824434,
       "date": "2026-05-26",
