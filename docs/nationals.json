@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-28T23:57:43+00:00",
+  "fetched_at": "2026-05-29T00:20:13+00:00",
   "freshness": {
-    "schedule": "2026-05-28T23:57:42+00:00",
-    "standings": "2026-05-28T23:57:42+00:00",
+    "schedule": "2026-05-29T00:20:04+00:00",
+    "standings": "2026-05-29T00:20:05+00:00",
     "injuries": "2026-05-28T17:01:46+00:00",
-    "former_nats": "2026-05-28T20:38:15+00:00",
-    "weather": "2026-05-28T23:57:43+00:00"
+    "former_nats": "2026-05-29T00:20:04+00:00",
+    "weather": "2026-05-29T00:20:12+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -151,10 +151,10 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Next Game"
+    "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-28T23:57:43+00:00",
+    "fetched_at": "2026-05-29T00:20:12+00:00",
     "source": "open_meteo",
     "game_pk": 822732,
     "venue_name": "Nationals Park",
@@ -169,10 +169,10 @@
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "did_you_know_screech_2005",
-    "category": "ballpark",
-    "weight": 3,
-    "text": "Screech the bald eagle has been the Nats mascot since 2005. Kids who first met him at the inaugural season are bringing their own kids now."
+    "id": "stat_nerd_abrams_baserunning",
+    "category": "stat_nerd",
+    "weight": 4,
+    "text": "CJ Abrams was top-five in steals over the second half of 2024. The threat alone changes a game."
   },
   "next_three": [
     {
@@ -315,7 +315,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822731,
@@ -693,148 +693,6 @@
   },
   "all_games": [
     {
-      "game_pk": 824434,
-      "date": "2026-05-26",
-      "start_time_utc": "2026-05-26T22:10:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 114,
-        "abbrev": "CLE",
-        "name": "Cleveland Guardians",
-        "short_name": "Guardians",
-        "record": "32-25",
-        "score": 3
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "29-27",
-        "score": 6
-      },
-      "venue": {
-        "id": 5,
-        "name": "Progressive Field",
-        "city": "Cleveland",
-        "state": "OH",
-        "lat": 41.495861,
-        "lon": -81.685255
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 676282,
-          "name": "Joey Cantillo",
-          "hand": null
-        },
-        "away": {
-          "id": 676917,
-          "name": "Cade Cavalli",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "WTAM 1100",
-          "call_sign": "WTAM",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Guardians.TV Presented by Progressive",
-          "call_sign": "CLEG",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WMMS 100.7",
-          "call_sign": "WMMS",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Guardians Radio Network",
-          "call_sign": "CLE Radio",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "WARF 1350",
-          "call_sign": "WARF1350",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 0,
-        "strikes": 2,
-        "outs": 3,
-        "home_runs": 3,
-        "away_runs": 6,
-        "home_hits": 8,
-        "away_hits": 11,
-        "home_errors": 0,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 2,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
-    {
       "game_pk": 824432,
       "date": "2026-05-27",
       "start_time_utc": "2026-05-27T17:10:00Z",
@@ -1107,7 +965,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822731,
@@ -2380,6 +2238,113 @@
       },
       "series": {
         "game_number": 3,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 822726,
+      "date": "2026-06-12",
+      "start_time_utc": "2026-06-12T22:45:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": true,
+      "home": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "29-28",
+        "score": null
+      },
+      "away": {
+        "id": 136,
+        "abbrev": "SEA",
+        "name": "Seattle Mariners",
+        "short_name": "Mariners",
+        "record": "28-29",
+        "score": null
+      },
+      "venue": {
+        "id": 3309,
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.872861,
+        "lon": -77.007501
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "Mariners.TV",
+          "call_sign": "SEAM",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Seattle Sports (710 AM)",
+          "call_sign": "KIRO 710AM",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 1,
         "games_in_series": 3,
         "description": "Regular Season"
       },
