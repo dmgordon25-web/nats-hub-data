@@ -1,20 +1,20 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-29T22:21:34+00:00",
+  "fetched_at": "2026-05-29T23:50:18+00:00",
   "freshness": {
-    "schedule": "2026-05-29T22:21:33+00:00",
-    "standings": "2026-05-29T22:21:33+00:00",
+    "schedule": "2026-05-29T23:50:16+00:00",
+    "standings": "2026-05-29T23:50:17+00:00",
     "injuries": "2026-05-29T20:38:51+00:00",
     "former_nats": "2026-05-29T20:38:55+00:00",
-    "weather": "2026-05-29T22:21:34+00:00"
+    "weather": "2026-05-29T23:50:18+00:00"
   },
   "stale_sources": [],
   "focus_game": {
     "game_pk": 822732,
     "date": "2026-05-29",
     "start_time_utc": "2026-05-29T22:45:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "In Progress",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -22,7 +22,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "29-28",
-      "score": 0
+      "score": 4
     },
     "away": {
       "id": 135,
@@ -30,7 +30,7 @@
       "name": "San Diego Padres",
       "short_name": "Padres",
       "record": "31-24",
-      "score": 0
+      "score": 2
     },
     "venue": {
       "id": 3309,
@@ -118,17 +118,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 1,
-      "inning_half": "Top",
-      "inning_state": "Top",
-      "is_top_inning": true,
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0,
-      "home_runs": 0,
-      "away_runs": 0,
-      "home_hits": 0,
-      "away_hits": 0,
+      "current_inning": 3,
+      "inning_half": "Bottom",
+      "inning_state": "Bottom",
+      "is_top_inning": false,
+      "balls": 3,
+      "strikes": 2,
+      "outs": 2,
+      "home_runs": 4,
+      "away_runs": 2,
+      "home_hits": 4,
+      "away_hits": 4,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -139,7 +139,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "Nationals.TV",
       "is_national": false,
@@ -149,17 +149,17 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Starts Soon"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-29T22:21:34+00:00",
+    "fetched_at": "2026-05-29T23:50:18+00:00",
     "source": "open_meteo",
     "game_pk": 822732,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-05-29T23:00",
-    "temperature_f": 78.2,
-    "feels_like_f": 74.8,
-    "wind_mph": 8.5,
+    "temperature_f": 78.5,
+    "feels_like_f": 74.2,
+    "wind_mph": 8.7,
     "wind_dir": "SW",
     "precip_chance": 0,
     "precip_inches": 0.0,
@@ -177,8 +177,8 @@
       "game_pk": 822732,
       "date": "2026-05-29",
       "start_time_utc": "2026-05-29T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -186,7 +186,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "29-28",
-        "score": 0
+        "score": 4
       },
       "away": {
         "id": 135,
@@ -194,7 +194,7 @@
         "name": "San Diego Padres",
         "short_name": "Padres",
         "record": "31-24",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 3309,
@@ -282,17 +282,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "current_inning": 3,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 3,
+        "strikes": 2,
+        "outs": 2,
+        "home_runs": 4,
+        "away_runs": 2,
+        "home_hits": 4,
+        "away_hits": 4,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -303,7 +303,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -313,7 +313,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822731,
@@ -835,8 +835,8 @@
       "game_pk": 822732,
       "date": "2026-05-29",
       "start_time_utc": "2026-05-29T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -844,7 +844,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "29-28",
-        "score": 0
+        "score": 4
       },
       "away": {
         "id": 135,
@@ -852,7 +852,7 @@
         "name": "San Diego Padres",
         "short_name": "Padres",
         "record": "31-24",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 3309,
@@ -940,17 +940,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "current_inning": 3,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 3,
+        "strikes": 2,
+        "outs": 2,
+        "home_runs": 4,
+        "away_runs": 2,
+        "home_hits": 4,
+        "away_hits": 4,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -961,7 +961,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -971,7 +971,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822731,
