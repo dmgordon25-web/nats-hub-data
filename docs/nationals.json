@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-29T20:43:16+00:00",
+  "fetched_at": "2026-05-29T22:21:34+00:00",
   "freshness": {
-    "schedule": "2026-05-29T20:43:14+00:00",
-    "standings": "2026-05-29T20:43:15+00:00",
+    "schedule": "2026-05-29T22:21:33+00:00",
+    "standings": "2026-05-29T22:21:33+00:00",
     "injuries": "2026-05-29T20:38:51+00:00",
     "former_nats": "2026-05-29T20:38:55+00:00",
-    "weather": "2026-05-29T20:43:15+00:00"
+    "weather": "2026-05-29T22:21:34+00:00"
   },
   "stale_sources": [],
   "focus_game": {
@@ -60,7 +60,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -69,7 +69,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "KWFN 97.3",
@@ -78,7 +78,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -87,7 +87,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "XEMO 860",
@@ -96,7 +96,7 @@
         "language": "es",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Fox 5 WTTG",
@@ -149,18 +149,18 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Starts Soon"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-29T20:43:15+00:00",
+    "fetched_at": "2026-05-29T22:21:34+00:00",
     "source": "open_meteo",
     "game_pk": 822732,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-05-29T23:00",
     "temperature_f": 78.2,
-    "feels_like_f": 74.7,
-    "wind_mph": 8.8,
-    "wind_dir": "WSW",
+    "feels_like_f": 74.8,
+    "wind_mph": 8.5,
+    "wind_dir": "SW",
     "precip_chance": 0,
     "precip_inches": 0.0,
     "summary": "Clear",
@@ -224,7 +224,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -233,7 +233,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "KWFN 97.3",
@@ -242,7 +242,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -251,7 +251,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "XEMO 860",
@@ -260,7 +260,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Fox 5 WTTG",
@@ -313,7 +313,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 822731,
@@ -882,7 +882,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -891,7 +891,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "KWFN 97.3",
@@ -900,7 +900,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -909,7 +909,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "XEMO 860",
@@ -918,7 +918,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Fox 5 WTTG",
@@ -971,7 +971,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 822731,
