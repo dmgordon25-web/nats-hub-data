@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-29T18:24:11+00:00",
+  "fetched_at": "2026-05-29T20:38:55+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -129,7 +129,7 @@
       "date": "2026-05-29",
       "start_time_utc": "2026-05-29T22:45:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -137,7 +137,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "29-28",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 135,
@@ -145,7 +145,7 @@
         "name": "San Diego Padres",
         "short_name": "Padres",
         "record": "31-24",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -187,21 +187,21 @@
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "KWFN 97.3",
-          "call_sign": "KWFN",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "WJFK 106.7 The Fan",
           "call_sign": "106.7 FM",
           "type": "FM",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KWFN 97.3",
+          "call_sign": "KWFN",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -233,19 +233,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 1,
@@ -287,7 +287,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 656492,
+          "name": "Foster Griffin",
+          "hand": null
+        },
         "away": {
           "id": 650633,
           "name": "Michael King",
@@ -396,7 +400,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 641793,
+          "name": "Zack Littell",
+          "hand": null
+        },
         "away": {
           "id": 656288,
           "name": "Griffin Canning",

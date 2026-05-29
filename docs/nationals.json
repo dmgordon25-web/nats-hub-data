@@ -1,22 +1,20 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-29T18:24:12+00:00",
+  "fetched_at": "2026-05-29T20:38:56+00:00",
   "freshness": {
-    "schedule": "2026-05-29T18:24:11+00:00",
-    "standings": "2026-05-29T18:24:11+00:00",
-    "injuries": "2026-05-28T17:01:46+00:00",
-    "former_nats": "2026-05-29T16:53:07+00:00",
-    "weather": "2026-05-29T18:24:12+00:00"
+    "schedule": "2026-05-29T20:38:55+00:00",
+    "standings": "2026-05-29T20:38:55+00:00",
+    "injuries": "2026-05-29T20:38:51+00:00",
+    "former_nats": "2026-05-29T20:38:55+00:00",
+    "weather": "2026-05-29T20:38:56+00:00"
   },
-  "stale_sources": [
-    "injuries"
-  ],
+  "stale_sources": [],
   "focus_game": {
     "game_pk": 822732,
     "date": "2026-05-29",
     "start_time_utc": "2026-05-29T22:45:00Z",
     "status": "Preview",
-    "detailed_status": "Scheduled",
+    "detailed_status": "Pre-Game",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -24,7 +22,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "29-28",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 135,
@@ -32,7 +30,7 @@
       "name": "San Diego Padres",
       "short_name": "Padres",
       "record": "31-24",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 3309,
@@ -74,21 +72,21 @@
         "media_state": "MEDIA_OFF"
       },
       {
-        "name": "KWFN 97.3",
-        "call_sign": "KWFN",
-        "type": "FM",
-        "language": "en",
-        "is_national": false,
-        "home_away": "away",
-        "media_state": "MEDIA_OFF"
-      },
-      {
         "name": "WJFK 106.7 The Fan",
         "call_sign": "106.7 FM",
         "type": "FM",
         "language": "en",
         "is_national": false,
         "home_away": "home",
+        "media_state": "MEDIA_OFF"
+      },
+      {
+        "name": "KWFN 97.3",
+        "call_sign": "KWFN",
+        "type": "FM",
+        "language": "en",
+        "is_national": false,
+        "home_away": "away",
         "media_state": "MEDIA_OFF"
       },
       {
@@ -120,19 +118,19 @@
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
       "game_number": 1,
@@ -154,15 +152,15 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-29T18:24:12+00:00",
+    "fetched_at": "2026-05-29T20:38:56+00:00",
     "source": "open_meteo",
     "game_pk": 822732,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-05-29T23:00",
     "temperature_f": 78.2,
-    "feels_like_f": 73.9,
-    "wind_mph": 9.2,
-    "wind_dir": "SW",
+    "feels_like_f": 74.6,
+    "wind_mph": 9.0,
+    "wind_dir": "WSW",
     "precip_chance": 0,
     "precip_inches": 0.0,
     "summary": "Clear",
@@ -180,7 +178,7 @@
       "date": "2026-05-29",
       "start_time_utc": "2026-05-29T22:45:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -188,7 +186,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "29-28",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 135,
@@ -196,7 +194,7 @@
         "name": "San Diego Padres",
         "short_name": "Padres",
         "record": "31-24",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -238,21 +236,21 @@
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "KWFN 97.3",
-          "call_sign": "KWFN",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "WJFK 106.7 The Fan",
           "call_sign": "106.7 FM",
           "type": "FM",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KWFN 97.3",
+          "call_sign": "KWFN",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -284,19 +282,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 1,
@@ -349,7 +347,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 656492,
+          "name": "Foster Griffin",
+          "hand": null
+        },
         "away": {
           "id": 650633,
           "name": "Michael King",
@@ -469,7 +471,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 641793,
+          "name": "Zack Littell",
+          "hand": null
+        },
         "away": {
           "id": 656288,
           "name": "Griffin Canning",
@@ -830,7 +836,7 @@
       "date": "2026-05-29",
       "start_time_utc": "2026-05-29T22:45:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -838,7 +844,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "29-28",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 135,
@@ -846,7 +852,7 @@
         "name": "San Diego Padres",
         "short_name": "Padres",
         "record": "31-24",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -888,21 +894,21 @@
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "KWFN 97.3",
-          "call_sign": "KWFN",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "WJFK 106.7 The Fan",
           "call_sign": "106.7 FM",
           "type": "FM",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KWFN 97.3",
+          "call_sign": "KWFN",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -934,19 +940,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 1,
@@ -999,7 +1005,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 656492,
+          "name": "Foster Griffin",
+          "hand": null
+        },
         "away": {
           "id": 650633,
           "name": "Michael King",
@@ -1119,7 +1129,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 641793,
+          "name": "Zack Littell",
+          "hand": null
+        },
         "away": {
           "id": 656288,
           "name": "Griffin Canning",
@@ -3170,18 +3184,6 @@
       "status_abbrev": "IL60",
       "date": "May 15",
       "description": "Herz (elbow) will throw to live hitters Friday at the Nationals' spring training facility in Florida, Mark Zuckerman of NatsJournal.com reports."
-    },
-    {
-      "athlete_id": 4414361,
-      "athlete_name": "Cole Henry",
-      "short_name": "C. Henry",
-      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/4414361.png",
-      "position": "RP",
-      "status_code": "INJURY_STATUS_15DAYIL",
-      "status_label": "15-day IL",
-      "status_abbrev": "IL15",
-      "date": "May 15",
-      "description": "Henry (shoulder) will begin a rehab assignment with Triple-A Rochester this weekend, Mark Zuckerman of NatsJournal.com reports."
     },
     {
       "athlete_id": 33305,
