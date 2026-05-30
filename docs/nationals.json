@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-30T21:10:57+00:00",
+  "fetched_at": "2026-05-30T22:16:37+00:00",
   "freshness": {
-    "schedule": "2026-05-30T21:10:56+00:00",
-    "standings": "2026-05-30T21:10:56+00:00",
+    "schedule": "2026-05-30T22:16:36+00:00",
+    "standings": "2026-05-30T22:16:36+00:00",
     "injuries": "2026-05-30T00:17:47+00:00",
     "former_nats": "2026-05-30T19:42:01+00:00",
-    "weather": "2026-05-30T21:10:57+00:00"
+    "weather": "2026-05-30T22:16:37+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "29-29",
-      "score": 1
+      "score": 7
     },
     "away": {
       "id": 135,
@@ -102,16 +102,16 @@
       }
     ],
     "linescore": {
-      "current_inning": 5,
-      "inning_half": "Bottom",
-      "inning_state": "Bottom",
-      "is_top_inning": false,
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0,
-      "home_runs": 1,
+      "current_inning": 8,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 1,
+      "strikes": 2,
+      "outs": 2,
+      "home_runs": 7,
       "away_runs": 3,
-      "home_hits": 2,
+      "home_hits": 6,
       "away_hits": 5,
       "home_errors": 0,
       "away_errors": 0
@@ -136,14 +136,14 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-30T21:10:57+00:00",
+    "fetched_at": "2026-05-30T22:16:37+00:00",
     "source": "open_meteo",
     "game_pk": 822731,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-05-30T20:00",
-    "temperature_f": 72.2,
-    "feels_like_f": 67.1,
-    "wind_mph": 13.8,
+    "temperature_f": 73.4,
+    "feels_like_f": 69.3,
+    "wind_mph": 12.9,
     "wind_dir": "N",
     "precip_chance": 0,
     "precip_inches": 0.0,
@@ -170,7 +170,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "29-29",
-        "score": 1
+        "score": 7
       },
       "away": {
         "id": 135,
@@ -248,16 +248,16 @@
         }
       ],
       "linescore": {
-        "current_inning": 5,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 1,
+        "current_inning": 8,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 1,
+        "strikes": 2,
+        "outs": 2,
+        "home_runs": 7,
         "away_runs": 3,
-        "home_hits": 2,
+        "home_hits": 6,
         "away_hits": 5,
         "home_errors": 0,
         "away_errors": 0
@@ -824,7 +824,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "29-29",
-        "score": 1
+        "score": 7
       },
       "away": {
         "id": 135,
@@ -902,16 +902,16 @@
         }
       ],
       "linescore": {
-        "current_inning": 5,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 1,
+        "current_inning": 8,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 1,
+        "strikes": 2,
+        "outs": 2,
+        "home_runs": 7,
         "away_runs": 3,
-        "home_hits": 2,
+        "home_hits": 6,
         "away_hits": 5,
         "home_errors": 0,
         "away_errors": 0
@@ -1328,7 +1328,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 676974,
+          "name": "Max Meyer",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
