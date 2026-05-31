@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-31T15:19:00+00:00",
+  "fetched_at": "2026-05-31T16:38:32+00:00",
   "freshness": {
-    "schedule": "2026-05-31T15:18:59+00:00",
-    "standings": "2026-05-31T15:18:59+00:00",
+    "schedule": "2026-05-31T16:38:30+00:00",
+    "standings": "2026-05-31T16:38:31+00:00",
     "injuries": "2026-05-31T00:13:43+00:00",
     "former_nats": "2026-05-31T14:54:40+00:00",
-    "weather": "2026-05-31T15:19:00+00:00"
+    "weather": "2026-05-31T16:38:31+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -62,7 +62,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -71,7 +71,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -80,7 +80,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "KWFN 97.3",
@@ -89,7 +89,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "XEMO 860",
@@ -98,23 +98,23 @@
         "language": "es",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
       "game_number": 3,
@@ -133,17 +133,17 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Starts Soon"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-31T15:19:00+00:00",
+    "fetched_at": "2026-05-31T16:38:31+00:00",
     "source": "open_meteo",
     "game_pk": 822729,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-05-31T18:00",
-    "temperature_f": 77.1,
-    "feels_like_f": 78.0,
-    "wind_mph": 2.7,
+    "temperature_f": 77.0,
+    "feels_like_f": 77.2,
+    "wind_mph": 3.9,
     "wind_dir": "W",
     "precip_chance": 0,
     "precip_inches": 0.0,
@@ -208,7 +208,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -217,7 +217,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -226,7 +226,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "KWFN 97.3",
@@ -235,7 +235,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "XEMO 860",
@@ -244,23 +244,23 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 3,
@@ -279,7 +279,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 822730,
@@ -313,7 +313,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 676917,
+          "name": "Cade Cavalli",
+          "hand": null
+        },
         "away": {
           "id": 645261,
           "name": "Sandy Alcantara",
@@ -433,7 +437,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 571945,
+          "name": "Miles Mikolas",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -960,7 +968,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -969,7 +977,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -978,7 +986,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "KWFN 97.3",
@@ -987,7 +995,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "XEMO 860",
@@ -996,23 +1004,23 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 3,
@@ -1031,7 +1039,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 822730,
@@ -1065,7 +1073,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 676917,
+          "name": "Cade Cavalli",
+          "hand": null
+        },
         "away": {
           "id": 645261,
           "name": "Sandy Alcantara",
@@ -1185,7 +1197,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 571945,
+          "name": "Miles Mikolas",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -1301,7 +1317,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 674841,
+          "name": "Andrew Alvarez",
+          "hand": null
+        },
         "away": {
           "id": 676974,
           "name": "Max Meyer",
