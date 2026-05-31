@@ -1,16 +1,14 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-30T23:30:54+00:00",
+  "fetched_at": "2026-05-31T00:13:47+00:00",
   "freshness": {
-    "schedule": "2026-05-30T23:30:53+00:00",
-    "standings": "2026-05-30T23:30:53+00:00",
-    "injuries": "2026-05-30T00:17:47+00:00",
-    "former_nats": "2026-05-30T19:42:01+00:00",
-    "weather": "2026-05-30T23:30:54+00:00"
+    "schedule": "2026-05-31T00:13:46+00:00",
+    "standings": "2026-05-31T00:13:47+00:00",
+    "injuries": "2026-05-31T00:13:43+00:00",
+    "former_nats": "2026-05-31T00:13:46+00:00",
+    "weather": "2026-05-31T00:13:47+00:00"
   },
-  "stale_sources": [
-    "injuries"
-  ],
+  "stale_sources": [],
   "focus_game": {
     "game_pk": 822729,
     "date": "2026-05-31",
@@ -133,10 +131,10 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Next Game"
+    "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-30T23:30:54+00:00",
+    "fetched_at": "2026-05-31T00:13:47+00:00",
     "source": "open_meteo",
     "game_pk": 822729,
     "venue_name": "Nationals Park",
@@ -151,10 +149,10 @@
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "did_you_know_scherzer_no_hitters",
-    "category": "did_you_know",
+    "id": "nostalgia_2022_soto_trade",
+    "category": "nostalgia",
     "weight": 5,
-    "text": "Max Scherzer threw two no-hitters in 2015 — the second one a few outs from a perfect game. He hit a batter on a 1-2 pitch in the ninth. One pitch from immortality."
+    "text": "August 2, 2022: Juan Soto was traded to San Diego. CJ Abrams, MacKenzie Gore, James Wood, and Robert Hassell came back. The future arrived."
   },
   "next_three": [
     {
@@ -279,7 +277,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822730,
@@ -1031,7 +1029,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822730,
@@ -2298,6 +2296,113 @@
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
       "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 822722,
+      "date": "2026-06-14",
+      "start_time_utc": "2026-06-14T17:35:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": true,
+      "home": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "30-29",
+        "score": null
+      },
+      "away": {
+        "id": 136,
+        "abbrev": "SEA",
+        "name": "Seattle Mariners",
+        "short_name": "Mariners",
+        "record": "29-29",
+        "score": null
+      },
+      "venue": {
+        "id": 3309,
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.872861,
+        "lon": -77.007501
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "Mariners.TV",
+          "call_sign": "SEAM",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Seattle Sports (710 AM)",
+          "call_sign": "KIRO 710AM",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 3,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
     }
   ],
   "standings": {
@@ -2740,18 +2845,18 @@
           "name": "Tampa Bay Rays",
           "short_name": "Rays",
           "wins": 35,
-          "losses": 19,
-          "pct": ".648",
+          "losses": 20,
+          "pct": ".636",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "W1",
-          "last_ten": "6-4",
+          "streak": "L1",
+          "last_ten": "5-5",
           "division_rank": 1,
           "league_rank": 1,
           "wc_rank": null,
-          "run_diff": 27,
-          "runs_scored": 254,
-          "runs_allowed": 227,
+          "run_diff": 16,
+          "runs_scored": 257,
+          "runs_allowed": 241,
           "elim_num": "-"
         },
         {
@@ -2762,7 +2867,7 @@
           "wins": 35,
           "losses": 22,
           "pct": ".614",
-          "gb": "1.5",
+          "gb": "1.0",
           "wc_gb": "+7.0",
           "streak": "W5",
           "last_ten": "7-3",
@@ -2782,7 +2887,7 @@
           "wins": 29,
           "losses": 30,
           "pct": ".492",
-          "gb": "8.5",
+          "gb": "8.0",
           "wc_gb": "-",
           "streak": "L1",
           "last_ten": "7-3",
@@ -2802,7 +2907,7 @@
           "wins": 27,
           "losses": 32,
           "pct": ".458",
-          "gb": "10.5",
+          "gb": "10.0",
           "wc_gb": "2.0",
           "streak": "W1",
           "last_ten": "6-4",
@@ -2822,7 +2927,7 @@
           "wins": 24,
           "losses": 33,
           "pct": ".421",
-          "gb": "12.5",
+          "gb": "12.0",
           "wc_gb": "4.0",
           "streak": "W1",
           "last_ten": "4-6",
@@ -2914,8 +3019,8 @@
           "streak": "L5",
           "last_ten": "2-8",
           "division_rank": 4,
-          "league_rank": 13,
-          "wc_rank": 10,
+          "league_rank": 14,
+          "wc_rank": 11,
           "run_diff": -56,
           "runs_scored": 218,
           "runs_allowed": 274,
@@ -3033,19 +3138,19 @@
           "abbrev": "LAA",
           "name": "Los Angeles Angels",
           "short_name": "Angels",
-          "wins": 22,
+          "wins": 23,
           "losses": 36,
-          "pct": ".379",
-          "gb": "7.0",
-          "wc_gb": "6.5",
-          "streak": "L1",
-          "last_ten": "5-5",
+          "pct": ".390",
+          "gb": "6.5",
+          "wc_gb": "6.0",
+          "streak": "W1",
+          "last_ten": "6-4",
           "division_rank": 5,
-          "league_rank": 14,
-          "wc_rank": 11,
-          "run_diff": -59,
-          "runs_scored": 239,
-          "runs_allowed": 298,
+          "league_rank": 13,
+          "wc_rank": 10,
+          "run_diff": -48,
+          "runs_scored": 253,
+          "runs_allowed": 301,
           "elim_num": "98"
         }
       ]
