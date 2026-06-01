@@ -1,14 +1,16 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-05-31T23:43:22+00:00",
+  "fetched_at": "2026-06-01T00:15:08+00:00",
   "freshness": {
-    "schedule": "2026-05-31T23:43:20+00:00",
-    "standings": "2026-05-31T23:43:21+00:00",
+    "schedule": "2026-06-01T00:15:07+00:00",
+    "standings": "2026-06-01T00:15:08+00:00",
     "injuries": "2026-05-31T19:41:56+00:00",
-    "former_nats": "2026-05-31T19:42:01+00:00",
-    "weather": "2026-05-31T23:43:21+00:00"
+    "former_nats": "2026-06-01T00:15:07+00:00",
+    "weather": "2026-06-01T00:15:08+00:00"
   },
-  "stale_sources": [],
+  "stale_sources": [
+    "injuries"
+  ],
   "focus_game": {
     "game_pk": 822730,
     "date": "2026-06-01",
@@ -131,10 +133,10 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Next Game"
+    "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-05-31T23:43:21+00:00",
+    "fetched_at": "2026-06-01T00:15:08+00:00",
     "source": "open_meteo",
     "game_pk": 822730,
     "venue_name": "Nationals Park",
@@ -149,10 +151,10 @@
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "nostalgia_2022_soto_trade",
+    "id": "nostalgia_2019_strasburg_mvp",
     "category": "nostalgia",
     "weight": 5,
-    "text": "August 2, 2022: Juan Soto was traded to San Diego. CJ Abrams, MacKenzie Gore, James Wood, and Robert Hassell came back. The future arrived."
+    "text": "Stephen Strasburg was World Series MVP — 2-0, 14 strikeouts in 14.1 IP. He earned every dollar of his next contract that month."
   },
   "next_three": [
     {
@@ -277,7 +279,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822728,
@@ -650,148 +652,6 @@
   },
   "all_games": [
     {
-      "game_pk": 822732,
-      "date": "2026-05-29",
-      "start_time_utc": "2026-05-29T22:45:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "29-29",
-        "score": 5
-      },
-      "away": {
-        "id": 135,
-        "abbrev": "SD",
-        "name": "San Diego Padres",
-        "short_name": "Padres",
-        "record": "32-24",
-        "score": 7
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 687606,
-          "name": "Paxton Schultz",
-          "hand": null
-        },
-        "away": {
-          "id": 608337,
-          "name": "Lucas Giolito",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Padres.TV Presented by UC San Diego Health",
-          "call_sign": "SDPA",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "KWFN 97.3",
-          "call_sign": "KWFN",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "XEMO 860",
-          "call_sign": "XEMO",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Fox 5 WTTG",
-          "call_sign": "Fox 5",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Gray Media",
-          "call_sign": "Gray Media",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 1,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 5,
-        "away_runs": 7,
-        "home_hits": 9,
-        "away_hits": 10,
-        "home_errors": 2,
-        "away_errors": 1
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
-    {
       "game_pk": 822731,
       "date": "2026-05-30",
       "start_time_utc": "2026-05-30T20:05:00Z",
@@ -1161,7 +1021,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822728,
@@ -2407,6 +2267,122 @@
       },
       "series": {
         "game_number": 3,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 822724,
+      "date": "2026-06-15",
+      "start_time_utc": "2026-06-15T22:45:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": true,
+      "home": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "31-29",
+        "score": null
+      },
+      "away": {
+        "id": 118,
+        "abbrev": "KC",
+        "name": "Kansas City Royals",
+        "short_name": "Royals",
+        "record": "22-37",
+        "score": null
+      },
+      "venue": {
+        "id": 3309,
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.872861,
+        "lon": -77.007501
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Royals.TV",
+          "call_sign": "ROYL",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "96.5 The Fan",
+          "call_sign": "KFNZ 96.5",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Royals Radio Network",
+          "call_sign": "RRN",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 1,
         "games_in_series": 3,
         "description": "Regular Season"
       },
