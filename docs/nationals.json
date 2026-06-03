@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-02T22:26:00+00:00",
+  "fetched_at": "2026-06-03T00:12:37+00:00",
   "freshness": {
-    "schedule": "2026-06-02T22:25:59+00:00",
-    "standings": "2026-06-02T22:25:59+00:00",
+    "schedule": "2026-06-03T00:12:36+00:00",
+    "standings": "2026-06-03T00:12:36+00:00",
     "injuries": "2026-06-01T21:44:02+00:00",
     "former_nats": "2026-06-02T21:25:08+00:00",
-    "weather": "2026-06-02T22:26:00+00:00"
+    "weather": "2026-06-03T00:12:37+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -16,7 +16,7 @@
     "date": "2026-06-02",
     "start_time_utc": "2026-06-02T22:45:00Z",
     "status": "Live",
-    "detailed_status": "Warmup",
+    "detailed_status": "In Progress",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -32,7 +32,7 @@
       "name": "Miami Marlins",
       "short_name": "Marlins",
       "record": "27-34",
-      "score": 0
+      "score": 4
     },
     "venue": {
       "id": 3309,
@@ -102,17 +102,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 1,
+      "current_inning": 5,
       "inning_half": "Top",
-      "inning_state": "Top",
+      "inning_state": "Middle",
       "is_top_inning": true,
       "balls": 0,
       "strikes": 0,
-      "outs": 0,
+      "outs": 3,
       "home_runs": 0,
-      "away_runs": 0,
+      "away_runs": 4,
       "home_hits": 0,
-      "away_hits": 0,
+      "away_hits": 3,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -136,25 +136,25 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-02T22:26:00+00:00",
+    "fetched_at": "2026-06-03T00:12:37+00:00",
     "source": "open_meteo",
     "game_pk": 822728,
     "venue_name": "Nationals Park",
-    "forecast_at": "2026-06-02T23:00",
-    "temperature_f": 74.8,
-    "feels_like_f": 69.5,
-    "wind_mph": 7.2,
-    "wind_dir": "N",
+    "forecast_at": "2026-06-03T00:00",
+    "temperature_f": 71.6,
+    "feels_like_f": 67.6,
+    "wind_mph": 2.9,
+    "wind_dir": "NE",
     "precip_chance": 0,
     "precip_inches": 0.0,
-    "summary": "Clear",
+    "summary": "Mostly clear",
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "wholesome_strasburg_retirement",
-    "category": "wholesome",
-    "weight": 5,
-    "text": "Stephen Strasburg's retirement ceremony was perfect. The whole 2019 team came back. There wasn't a dry eye in the upper deck."
+    "id": "did_you_know_doolittle_mvp",
+    "category": "did_you_know",
+    "weight": 3,
+    "text": "Sean Doolittle was a key piece of the 2019 bullpen. He retired with eternal goodwill in DC."
   },
   "next_three": [
     {
@@ -162,7 +162,7 @@
       "date": "2026-06-02",
       "start_time_utc": "2026-06-02T22:45:00Z",
       "status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -178,7 +178,7 @@
         "name": "Miami Marlins",
         "short_name": "Marlins",
         "record": "27-34",
-        "score": 0
+        "score": 4
       },
       "venue": {
         "id": 3309,
@@ -248,17 +248,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 5,
         "inning_half": "Top",
-        "inning_state": "Top",
+        "inning_state": "Middle",
         "is_top_inning": true,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
+        "outs": 3,
         "home_runs": 0,
-        "away_runs": 0,
+        "away_runs": 4,
         "home_hits": 0,
-        "away_hits": 0,
+        "away_hits": 3,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -403,7 +403,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 825073,
@@ -648,130 +648,6 @@
   },
   "all_games": [
     {
-      "game_pk": 822729,
-      "date": "2026-05-31",
-      "start_time_utc": "2026-05-31T17:35:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "31-29",
-        "score": 4
-      },
-      "away": {
-        "id": 135,
-        "abbrev": "SD",
-        "name": "San Diego Padres",
-        "short_name": "Padres",
-        "record": "32-26",
-        "score": 2
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 641793,
-          "name": "Zack Littell",
-          "hand": null
-        },
-        "away": {
-          "id": 656288,
-          "name": "Griffin Canning",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Padres.TV Presented by UC San Diego Health",
-          "call_sign": "SDPA",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "KWFN 97.3",
-          "call_sign": "KWFN",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "XEMO 860",
-          "call_sign": "XEMO",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 2,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 4,
-        "away_runs": 2,
-        "home_hits": 9,
-        "away_hits": 6,
-        "home_errors": 0,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 3,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
-    {
       "game_pk": 822730,
       "date": "2026-06-01",
       "start_time_utc": "2026-06-01T22:45:00Z",
@@ -900,7 +776,7 @@
       "date": "2026-06-02",
       "start_time_utc": "2026-06-02T22:45:00Z",
       "status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -916,7 +792,7 @@
         "name": "Miami Marlins",
         "short_name": "Marlins",
         "record": "27-34",
-        "score": 0
+        "score": 4
       },
       "venue": {
         "id": 3309,
@@ -986,17 +862,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 5,
         "inning_half": "Top",
-        "inning_state": "Top",
+        "inning_state": "Middle",
         "is_top_inning": true,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
+        "outs": 3,
         "home_runs": 0,
-        "away_runs": 0,
+        "away_runs": 4,
         "home_hits": 0,
-        "away_hits": 0,
+        "away_hits": 3,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -1141,7 +1017,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 825073,
@@ -2375,6 +2251,122 @@
       },
       "series": {
         "game_number": 2,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 822721,
+      "date": "2026-06-17",
+      "start_time_utc": "2026-06-17T17:05:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": true,
+      "home": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "31-30",
+        "score": null
+      },
+      "away": {
+        "id": 118,
+        "abbrev": "KC",
+        "name": "Kansas City Royals",
+        "short_name": "Royals",
+        "record": "23-37",
+        "score": null
+      },
+      "venue": {
+        "id": 3309,
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.872861,
+        "lon": -77.007501
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Royals.TV",
+          "call_sign": "ROYL",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "96.5 The Fan",
+          "call_sign": "KFNZ 96.5",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Royals Radio Network",
+          "call_sign": "RRN",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 3,
         "games_in_series": 3,
         "description": "Regular Season"
       },
