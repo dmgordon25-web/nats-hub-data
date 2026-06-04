@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-03T22:35:13+00:00",
+  "fetched_at": "2026-06-04T00:18:13+00:00",
   "freshness": {
-    "schedule": "2026-06-03T22:35:13+00:00",
-    "standings": "2026-06-03T22:35:13+00:00",
+    "schedule": "2026-06-04T00:18:13+00:00",
+    "standings": "2026-06-04T00:18:13+00:00",
     "injuries": "2026-06-03T18:03:53+00:00",
     "former_nats": "2026-06-03T21:30:51+00:00",
-    "weather": "2026-06-03T22:35:13+00:00"
+    "weather": "2026-06-04T00:18:13+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -132,7 +132,7 @@
     "watch_label": "Next Game"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-03T22:35:13+00:00",
+    "fetched_at": "2026-06-04T00:18:13+00:00",
     "source": "open_meteo",
     "game_pk": 825073,
     "venue_name": "Chase Field",
@@ -141,10 +141,11 @@
     "summary": "Indoor / retractable roof"
   },
   "tonight_tidbit": {
-    "id": "did_you_know_doolittle_mvp",
-    "category": "did_you_know",
-    "weight": 3,
-    "text": "Sean Doolittle was a key piece of the 2019 bullpen. He retired with eternal goodwill in DC."
+    "id": "tonight_april",
+    "category": "tonight_nugget",
+    "weight": 4,
+    "text": "Early April baseball is its own thing. Cold hands, fast wind, the season finding its legs.",
+    "season_window": "0401-0420"
   },
   "next_three": [
     {
@@ -633,130 +634,6 @@
     "watch_label": "Game Final"
   },
   "all_games": [
-    {
-      "game_pk": 822730,
-      "date": "2026-06-01",
-      "start_time_utc": "2026-06-01T22:45:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "31-30",
-        "score": 3
-      },
-      "away": {
-        "id": 146,
-        "abbrev": "MIA",
-        "name": "Miami Marlins",
-        "short_name": "Marlins",
-        "record": "27-34",
-        "score": 7
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 676917,
-          "name": "Cade Cavalli",
-          "hand": null
-        },
-        "away": {
-          "id": 645261,
-          "name": "Sandy Alcantara",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
-          "call_sign": "MIAM",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WQAM 104.3",
-          "call_sign": "WQAM 104.3",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WAQI 710",
-          "call_sign": "WAQI",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 1,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 3,
-        "away_runs": 7,
-        "home_hits": 7,
-        "away_hits": 10,
-        "home_errors": 0,
-        "away_errors": 1
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
     {
       "game_pk": 822728,
       "date": "2026-06-02",
