@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-06-06T03:27:02+00:00",
+  "fetched_at": "2026-06-06T06:42:34+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
       "game_pk": 825073,
       "date": "2026-06-05",
       "start_time_utc": "2026-06-06T01:40:00Z",
-      "status": "Live",
-      "detailed_status": "In Progress",
+      "status": "Final",
+      "detailed_status": "Final",
       "is_nats_home": false,
       "home": {
         "id": 109,
         "abbrev": "AZ",
         "name": "Arizona Diamondbacks",
         "short_name": "D-backs",
-        "record": "33-29",
+        "record": "33-30",
         "score": 1
       },
       "away": {
@@ -22,8 +22,8 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "31-32",
-        "score": 12
+        "record": "32-32",
+        "score": 14
       },
       "venue": {
         "id": 15,
@@ -53,7 +53,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "DBACKS.TV",
@@ -62,7 +62,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "Nationals.TV",
@@ -71,7 +71,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -80,7 +80,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "La Campesina 101.9 FM & 860 AM",
@@ -89,23 +89,23 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         }
       ],
       "linescore": {
-        "current_inning": 7,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 9,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "balls": 1,
-        "strikes": 0,
-        "outs": 0,
+        "strikes": 3,
+        "outs": 3,
         "home_runs": 1,
-        "away_runs": 12,
-        "home_hits": 3,
-        "away_hits": 11,
+        "away_runs": 14,
+        "home_hits": 6,
+        "away_hits": 16,
         "home_errors": 0,
-        "away_errors": 0
+        "away_errors": 1
       },
       "series": {
         "game_number": 1,
@@ -127,7 +127,7 @@
         "abbrev": "AZ",
         "name": "Arizona Diamondbacks",
         "short_name": "D-backs",
-        "record": "33-29",
+        "record": "33-30",
         "score": null
       },
       "away": {
@@ -135,7 +135,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "31-32",
+        "record": "32-32",
         "score": null
       },
       "venue": {
@@ -240,7 +240,7 @@
         "abbrev": "AZ",
         "name": "Arizona Diamondbacks",
         "short_name": "D-backs",
-        "record": "33-29",
+        "record": "33-30",
         "score": null
       },
       "away": {
@@ -248,7 +248,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "31-32",
+        "record": "32-32",
         "score": null
       },
       "venue": {
@@ -361,7 +361,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "31-32",
+        "record": "32-32",
         "score": null
       },
       "venue": {
@@ -466,7 +466,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "31-32",
+        "record": "32-32",
         "score": null
       },
       "venue": {
@@ -571,7 +571,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "31-32",
+        "record": "32-32",
         "score": null
       },
       "venue": {
@@ -668,7 +668,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "31-32",
+        "record": "32-32",
         "score": null
       },
       "away": {
@@ -764,7 +764,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "31-32",
+        "record": "32-32",
         "score": null
       },
       "away": {
@@ -860,7 +860,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "31-32",
+        "record": "32-32",
         "score": null
       },
       "away": {
@@ -956,7 +956,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "31-32",
+        "record": "32-32",
         "score": null
       },
       "away": {
@@ -964,7 +964,7 @@
         "abbrev": "KC",
         "name": "Kansas City Royals",
         "short_name": "Royals",
-        "record": "25-38",
+        "record": "25-39",
         "score": null
       },
       "venue": {
@@ -1061,7 +1061,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "31-32",
+        "record": "32-32",
         "score": null
       },
       "away": {
@@ -1069,7 +1069,7 @@
         "abbrev": "KC",
         "name": "Kansas City Royals",
         "short_name": "Royals",
-        "record": "25-38",
+        "record": "25-39",
         "score": null
       },
       "venue": {
@@ -1166,7 +1166,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "31-32",
+        "record": "32-32",
         "score": null
       },
       "away": {
@@ -1174,7 +1174,7 @@
         "abbrev": "KC",
         "name": "Kansas City Royals",
         "short_name": "Royals",
-        "record": "25-38",
+        "record": "25-39",
         "score": null
       },
       "venue": {
@@ -1279,7 +1279,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "31-32",
+        "record": "32-32",
         "score": null
       },
       "venue": {
@@ -1393,7 +1393,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "31-32",
+        "record": "32-32",
         "score": null
       },
       "venue": {
