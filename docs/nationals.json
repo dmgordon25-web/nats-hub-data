@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-06T19:47:58+00:00",
+  "fetched_at": "2026-06-06T20:17:13+00:00",
   "freshness": {
-    "schedule": "2026-06-06T19:47:57+00:00",
-    "standings": "2026-06-06T19:47:58+00:00",
+    "schedule": "2026-06-06T20:17:12+00:00",
+    "standings": "2026-06-06T20:17:13+00:00",
     "injuries": "2026-06-05T16:08:20+00:00",
     "former_nats": "2026-06-06T19:47:57+00:00",
-    "weather": "2026-06-06T19:47:58+00:00"
+    "weather": "2026-06-06T20:17:13+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -16,7 +16,7 @@
     "date": "2026-06-06",
     "start_time_utc": "2026-06-06T20:10:00Z",
     "status": "Live",
-    "detailed_status": "Warmup",
+    "detailed_status": "In Progress",
     "is_nats_home": false,
     "home": {
       "id": 109,
@@ -32,7 +32,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "32-32",
-      "score": 0
+      "score": 2
     },
     "venue": {
       "id": 15,
@@ -106,13 +106,13 @@
       "inning_half": "Top",
       "inning_state": "Top",
       "is_top_inning": true,
-      "balls": 0,
-      "strikes": 0,
+      "balls": 1,
+      "strikes": 2,
       "outs": 0,
       "home_runs": 0,
-      "away_runs": 0,
+      "away_runs": 2,
       "home_hits": 0,
-      "away_hits": 0,
+      "away_hits": 2,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -136,7 +136,7 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-06T19:47:58+00:00",
+    "fetched_at": "2026-06-06T20:17:13+00:00",
     "source": "open_meteo",
     "game_pk": 825075,
     "venue_name": "Chase Field",
@@ -156,7 +156,7 @@
       "date": "2026-06-06",
       "start_time_utc": "2026-06-06T20:10:00Z",
       "status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 109,
@@ -172,7 +172,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "32-32",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 15,
@@ -246,13 +246,13 @@
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 2,
         "outs": 0,
         "home_runs": 0,
-        "away_runs": 0,
+        "away_runs": 2,
         "home_hits": 0,
-        "away_hits": 0,
+        "away_hits": 2,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -770,7 +770,7 @@
       "date": "2026-06-06",
       "start_time_utc": "2026-06-06T20:10:00Z",
       "status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 109,
@@ -786,7 +786,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "32-32",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 15,
@@ -860,13 +860,13 @@
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 2,
         "outs": 0,
         "home_runs": 0,
-        "away_runs": 0,
+        "away_runs": 2,
         "home_hits": 0,
-        "away_hits": 0,
+        "away_hits": 2,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -1381,7 +1381,7 @@
         "abbrev": "SEA",
         "name": "Seattle Mariners",
         "short_name": "Mariners",
-        "record": "33-31",
+        "record": "34-31",
         "score": null
       },
       "venue": {
@@ -1488,7 +1488,7 @@
         "abbrev": "SEA",
         "name": "Seattle Mariners",
         "short_name": "Mariners",
-        "record": "33-31",
+        "record": "34-31",
         "score": null
       },
       "venue": {
@@ -1595,7 +1595,7 @@
         "abbrev": "SEA",
         "name": "Seattle Mariners",
         "short_name": "Mariners",
-        "record": "33-31",
+        "record": "34-31",
         "score": null
       },
       "venue": {
@@ -2879,19 +2879,19 @@
           "name": "Detroit Tigers",
           "short_name": "Tigers",
           "wins": 26,
-          "losses": 38,
-          "pct": ".406",
-          "gb": "9.5",
-          "wc_gb": "5.5",
-          "streak": "W4",
+          "losses": 39,
+          "pct": ".400",
+          "gb": "10.0",
+          "wc_gb": "6.0",
+          "streak": "L1",
           "last_ten": "5-5",
           "division_rank": 4,
           "league_rank": 13,
           "wc_rank": 10,
-          "run_diff": -21,
+          "run_diff": -25,
           "runs_scored": 255,
-          "runs_allowed": 276,
-          "elim_num": "89"
+          "runs_allowed": 280,
+          "elim_num": "88"
         },
         {
           "id": 118,
@@ -2925,18 +2925,18 @@
           "abbrev": "SEA",
           "name": "Seattle Mariners",
           "short_name": "Mariners",
-          "wins": 33,
+          "wins": 34,
           "losses": 31,
-          "pct": ".516",
+          "pct": ".523",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "L2",
+          "streak": "W1",
           "last_ten": "8-2",
           "division_rank": 1,
           "league_rank": 5,
           "wc_rank": null,
-          "run_diff": 26,
-          "runs_scored": 270,
+          "run_diff": 30,
+          "runs_scored": 274,
           "runs_allowed": 244,
           "elim_num": "-"
         },
@@ -2948,7 +2948,7 @@
           "wins": 31,
           "losses": 32,
           "pct": ".492",
-          "gb": "1.5",
+          "gb": "2.0",
           "wc_gb": "-",
           "streak": "W1",
           "last_ten": "7-3",
@@ -2958,7 +2958,7 @@
           "run_diff": 10,
           "runs_scored": 252,
           "runs_allowed": 242,
-          "elim_num": "98"
+          "elim_num": "97"
         },
         {
           "id": 133,
@@ -2968,7 +2968,7 @@
           "wins": 30,
           "losses": 33,
           "pct": ".476",
-          "gb": "2.5",
+          "gb": "3.0",
           "wc_gb": "1.0",
           "streak": "L2",
           "last_ten": "3-7",
@@ -2978,7 +2978,7 @@
           "run_diff": -37,
           "runs_scored": 266,
           "runs_allowed": 303,
-          "elim_num": "97"
+          "elim_num": "96"
         },
         {
           "id": 117,
@@ -2988,7 +2988,7 @@
           "wins": 29,
           "losses": 36,
           "pct": ".446",
-          "gb": "4.5",
+          "gb": "5.0",
           "wc_gb": "3.0",
           "streak": "W1",
           "last_ten": "5-5",
@@ -2998,7 +2998,7 @@
           "run_diff": -35,
           "runs_scored": 294,
           "runs_allowed": 329,
-          "elim_num": "94"
+          "elim_num": "93"
         },
         {
           "id": 108,
@@ -3008,7 +3008,7 @@
           "wins": 24,
           "losses": 40,
           "pct": ".375",
-          "gb": "9.0",
+          "gb": "9.5",
           "wc_gb": "7.5",
           "streak": "L1",
           "last_ten": "4-6",
@@ -3018,7 +3018,7 @@
           "run_diff": -52,
           "runs_scored": 276,
           "runs_allowed": 328,
-          "elim_num": "90"
+          "elim_num": "89"
         }
       ]
     }
