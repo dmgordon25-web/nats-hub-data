@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-07T18:14:23+00:00",
+  "fetched_at": "2026-06-07T19:47:27+00:00",
   "freshness": {
-    "schedule": "2026-06-07T18:14:22+00:00",
-    "standings": "2026-06-07T18:14:22+00:00",
+    "schedule": "2026-06-07T19:47:26+00:00",
+    "standings": "2026-06-07T19:47:27+00:00",
     "injuries": "2026-06-07T00:16:00+00:00",
-    "former_nats": "2026-06-07T14:59:23+00:00",
-    "weather": "2026-06-07T18:14:22+00:00"
+    "former_nats": "2026-06-07T19:47:26+00:00",
+    "weather": "2026-06-07T19:47:27+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -15,8 +15,8 @@
     "game_pk": 825074,
     "date": "2026-06-07",
     "start_time_utc": "2026-06-07T19:15:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "In Progress",
     "is_nats_home": false,
     "home": {
       "id": 109,
@@ -24,7 +24,7 @@
       "name": "Arizona Diamondbacks",
       "short_name": "D-backs",
       "record": "33-31",
-      "score": 0
+      "score": 1
     },
     "away": {
       "id": 120,
@@ -32,7 +32,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "33-32",
-      "score": 0
+      "score": 1
     },
     "venue": {
       "id": 15,
@@ -102,17 +102,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 1,
-      "inning_half": "Top",
-      "inning_state": "Top",
-      "is_top_inning": true,
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0,
-      "home_runs": 0,
-      "away_runs": 0,
-      "home_hits": 0,
-      "away_hits": 0,
+      "current_inning": 2,
+      "inning_half": "Bottom",
+      "inning_state": "Bottom",
+      "is_top_inning": false,
+      "balls": 1,
+      "strikes": 2,
+      "outs": 2,
+      "home_runs": 1,
+      "away_runs": 1,
+      "home_hits": 3,
+      "away_hits": 1,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -123,7 +123,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "NBCSN / Peacock",
       "is_national": true,
@@ -133,10 +133,10 @@
       "intent_uri": "peacock://livetv",
       "fallback_uri": "https://www.peacocktv.com/"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-07T18:14:22+00:00",
+    "fetched_at": "2026-06-07T19:47:27+00:00",
     "source": "open_meteo",
     "game_pk": 825074,
     "venue_name": "Chase Field",
@@ -155,8 +155,8 @@
       "game_pk": 825074,
       "date": "2026-06-07",
       "start_time_utc": "2026-06-07T19:15:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 109,
@@ -164,7 +164,7 @@
         "name": "Arizona Diamondbacks",
         "short_name": "D-backs",
         "record": "33-31",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 120,
@@ -172,7 +172,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "33-32",
-        "score": 0
+        "score": 1
       },
       "venue": {
         "id": 15,
@@ -242,17 +242,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "current_inning": 2,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 1,
+        "strikes": 2,
+        "outs": 2,
+        "home_runs": 1,
+        "away_runs": 1,
+        "home_hits": 3,
+        "away_hits": 1,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -263,7 +263,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "NBCSN / Peacock",
         "is_national": true,
@@ -273,7 +273,7 @@
         "intent_uri": "peacock://livetv",
         "fallback_uri": "https://www.peacocktv.com/"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 823218,
@@ -308,7 +308,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 571945,
+          "name": "Miles Mikolas",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -424,7 +428,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 674841,
+          "name": "Andrew Alvarez",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -885,8 +893,8 @@
       "game_pk": 825074,
       "date": "2026-06-07",
       "start_time_utc": "2026-06-07T19:15:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 109,
@@ -894,7 +902,7 @@
         "name": "Arizona Diamondbacks",
         "short_name": "D-backs",
         "record": "33-31",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 120,
@@ -902,7 +910,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "33-32",
-        "score": 0
+        "score": 1
       },
       "venue": {
         "id": 15,
@@ -972,17 +980,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "current_inning": 2,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 1,
+        "strikes": 2,
+        "outs": 2,
+        "home_runs": 1,
+        "away_runs": 1,
+        "home_hits": 3,
+        "away_hits": 1,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -993,7 +1001,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "NBCSN / Peacock",
         "is_national": true,
@@ -1003,7 +1011,7 @@
         "intent_uri": "peacock://livetv",
         "fallback_uri": "https://www.peacocktv.com/"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 823218,
@@ -1038,7 +1046,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 571945,
+          "name": "Miles Mikolas",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1154,7 +1166,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 674841,
+          "name": "Andrew Alvarez",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1270,7 +1286,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 656492,
+          "name": "Foster Griffin",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
