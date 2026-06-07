@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-07T20:59:52+00:00",
+  "fetched_at": "2026-06-07T22:14:09+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -232,23 +232,23 @@
       "game_pk": 825074,
       "date": "2026-06-07",
       "start_time_utc": "2026-06-07T19:15:00Z",
-      "status": "Live",
-      "detailed_status": "In Progress",
+      "status": "Final",
+      "detailed_status": "Final",
       "is_nats_home": false,
       "home": {
         "id": 109,
         "abbrev": "AZ",
         "name": "Arizona Diamondbacks",
         "short_name": "D-backs",
-        "record": "33-31",
-        "score": 4
+        "record": "34-31",
+        "score": 5
       },
       "away": {
         "id": 120,
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "33-32",
+        "record": "33-33",
         "score": 1
       },
       "venue": {
@@ -319,17 +319,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 6,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 1,
-        "strikes": 1,
-        "outs": 0,
-        "home_runs": 4,
+        "current_inning": 9,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 3,
+        "outs": 3,
+        "home_runs": 5,
         "away_runs": 1,
-        "home_hits": 8,
-        "away_hits": 2,
+        "home_hits": 9,
+        "away_hits": 3,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -361,7 +361,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "33-32",
+        "record": "33-33",
         "score": null
       },
       "venue": {
@@ -373,7 +373,11 @@
         "lon": -122.389448
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 657277,
+          "name": "Logan Webb",
+          "hand": null
+        },
         "away": {
           "id": 571945,
           "name": "Miles Mikolas",
@@ -470,7 +474,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "33-32",
+        "record": "33-33",
         "score": null
       },
       "venue": {
@@ -482,7 +486,11 @@
         "lon": -122.389448
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 605288,
+          "name": "Adrian Houser",
+          "hand": null
+        },
         "away": {
           "id": 674841,
           "name": "Andrew Alvarez",
@@ -579,7 +587,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "33-32",
+        "record": "33-33",
         "score": null
       },
       "venue": {
@@ -591,7 +599,11 @@
         "lon": -122.389448
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 592662,
+          "name": "Robbie Ray",
+          "hand": null
+        },
         "away": {
           "id": 656492,
           "name": "Foster Griffin",
@@ -680,7 +692,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "33-32",
+        "record": "33-33",
         "score": null
       },
       "away": {
@@ -776,7 +788,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "33-32",
+        "record": "33-33",
         "score": null
       },
       "away": {
@@ -872,7 +884,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "33-32",
+        "record": "33-33",
         "score": null
       },
       "away": {
@@ -968,7 +980,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "33-32",
+        "record": "33-33",
         "score": null
       },
       "away": {
@@ -976,7 +988,7 @@
         "abbrev": "KC",
         "name": "Kansas City Royals",
         "short_name": "Royals",
-        "record": "26-39",
+        "record": "27-39",
         "score": null
       },
       "venue": {
@@ -1073,7 +1085,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "33-32",
+        "record": "33-33",
         "score": null
       },
       "away": {
@@ -1081,7 +1093,7 @@
         "abbrev": "KC",
         "name": "Kansas City Royals",
         "short_name": "Royals",
-        "record": "26-39",
+        "record": "27-39",
         "score": null
       },
       "venue": {
@@ -1178,7 +1190,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "33-32",
+        "record": "33-33",
         "score": null
       },
       "away": {
@@ -1186,7 +1198,7 @@
         "abbrev": "KC",
         "name": "Kansas City Royals",
         "short_name": "Royals",
-        "record": "26-39",
+        "record": "27-39",
         "score": null
       },
       "venue": {
@@ -1291,7 +1303,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "33-32",
+        "record": "33-33",
         "score": null
       },
       "venue": {
@@ -1405,7 +1417,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "33-32",
+        "record": "33-33",
         "score": null
       },
       "venue": {
@@ -1510,7 +1522,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "33-32",
+        "record": "33-33",
         "score": null
       },
       "venue": {
