@@ -1,16 +1,14 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-06T23:48:45+00:00",
+  "fetched_at": "2026-06-07T00:16:08+00:00",
   "freshness": {
-    "schedule": "2026-06-06T23:48:44+00:00",
-    "standings": "2026-06-06T23:48:45+00:00",
-    "injuries": "2026-06-05T16:08:20+00:00",
-    "former_nats": "2026-06-06T19:47:57+00:00",
-    "weather": "2026-06-06T23:48:45+00:00"
+    "schedule": "2026-06-07T00:16:07+00:00",
+    "standings": "2026-06-07T00:16:07+00:00",
+    "injuries": "2026-06-07T00:16:00+00:00",
+    "former_nats": "2026-06-07T00:16:07+00:00",
+    "weather": "2026-06-07T00:16:08+00:00"
   },
-  "stale_sources": [
-    "injuries"
-  ],
+  "stale_sources": [],
   "focus_game": {
     "game_pk": 825074,
     "date": "2026-06-07",
@@ -133,10 +131,10 @@
       "intent_uri": "peacock://livetv",
       "fallback_uri": "https://www.peacocktv.com/"
     },
-    "watch_label": "Next Game"
+    "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-06T23:48:45+00:00",
+    "fetched_at": "2026-06-07T00:16:08+00:00",
     "source": "open_meteo",
     "game_pk": 825074,
     "venue_name": "Chase Field",
@@ -145,10 +143,10 @@
     "summary": "Indoor / retractable roof"
   },
   "tonight_tidbit": {
-    "id": "nostalgia_2018_soto_debut",
-    "category": "nostalgia",
-    "weight": 6,
-    "text": "Juan Soto made his MLB debut at age 19 in May 2018. He homered in his first start. The youngest Nat to ever go deep."
+    "id": "tonight_september",
+    "category": "tonight_nugget",
+    "weight": 4,
+    "text": "September baseball. Rosters expand, prospects get a look, every game a separate story."
   },
   "next_three": [
     {
@@ -273,7 +271,7 @@
         "intent_uri": "peacock://livetv",
         "fallback_uri": "https://www.peacocktv.com/"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 823218,
@@ -559,7 +557,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "DBACKS.TV",
@@ -568,7 +566,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "Nationals.TV",
@@ -577,7 +575,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -586,7 +584,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "La Campesina 101.9 FM & 860 AM",
@@ -595,7 +593,7 @@
         "language": "es",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       }
     ],
     "linescore": {
@@ -808,7 +806,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "DBACKS.TV",
@@ -817,7 +815,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "Nationals.TV",
@@ -826,7 +824,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -835,7 +833,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "La Campesina 101.9 FM & 860 AM",
@@ -844,7 +842,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         }
       ],
       "linescore": {
@@ -1003,7 +1001,7 @@
         "intent_uri": "peacock://livetv",
         "fallback_uri": "https://www.peacocktv.com/"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 823218,
@@ -2262,6 +2260,122 @@
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
       "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 822968,
+      "date": "2026-06-21",
+      "start_time_utc": "2026-06-21T17:40:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": false,
+      "home": {
+        "id": 139,
+        "abbrev": "TB",
+        "name": "Tampa Bay Rays",
+        "short_name": "Rays",
+        "record": "37-24",
+        "score": null
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "33-32",
+        "score": null
+      },
+      "venue": {
+        "id": 12,
+        "name": "Tropicana Field",
+        "city": "St. Petersburg",
+        "state": "FL",
+        "lat": 27.767778,
+        "lon": -82.6525
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Rays.TV",
+          "call_sign": "RAYS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WDAE 95.7 FM",
+          "call_sign": "WDAE",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WQBN/1300AM",
+          "call_sign": "WQBN/1300",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 3,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
     }
   ],
   "standings": {
@@ -3037,6 +3151,18 @@
   },
   "notable_injuries": [
     {
+      "athlete_id": 4917686,
+      "athlete_name": "DJ Herz",
+      "short_name": "D. Herz",
+      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/4917686.png",
+      "position": "SP",
+      "status_code": "INJURY_STATUS_60DAYIL",
+      "status_label": "60-day IL",
+      "status_abbrev": "IL60",
+      "date": "Jun 5",
+      "description": "Herz (elbow) was sent to the FCL Nationals on Friday to begin a rehab assignment."
+    },
+    {
       "athlete_id": 33305,
       "athlete_name": "Trevor Williams",
       "short_name": "T. Williams",
@@ -3047,18 +3173,6 @@
       "status_abbrev": "IL60",
       "date": "Jun 5",
       "description": "Williams (elbow) threw a simulated game at Nationals Park ahead of Tuesday's loss to the Marlins, MLB.com reports."
-    },
-    {
-      "athlete_id": 4228448,
-      "athlete_name": "Drew Millas",
-      "short_name": "D. Millas",
-      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/4228448.png",
-      "position": "C",
-      "status_code": "INJURY_STATUS_DAYTODAY",
-      "status_label": "day-to-day",
-      "status_abbrev": "DD",
-      "date": "Jun 2",
-      "description": "Millas was removed from Tuesday's game against the Marlins with an upper lip laceration, Kyle Williams of TheBanner.com reports."
     },
     {
       "athlete_id": 41290,
@@ -3083,18 +3197,6 @@
       "status_abbrev": "IL60",
       "date": "May 25",
       "description": "The Nationals transferred Kranick (elbow) to the 60-day injured list Monday."
-    },
-    {
-      "athlete_id": 4917686,
-      "athlete_name": "DJ Herz",
-      "short_name": "D. Herz",
-      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/4917686.png",
-      "position": "SP",
-      "status_code": "INJURY_STATUS_60DAYIL",
-      "status_label": "60-day IL",
-      "status_abbrev": "IL60",
-      "date": "May 15",
-      "description": "Herz (elbow) will throw to live hitters Friday at the Nationals' spring training facility in Florida, Mark Zuckerman of NatsJournal.com reports."
     },
     {
       "athlete_id": 41165,

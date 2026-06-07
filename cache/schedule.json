@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-06T23:48:44+00:00",
+  "fetched_at": "2026-06-07T00:16:07+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -166,7 +166,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "DBACKS.TV",
@@ -175,7 +175,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "Nationals.TV",
@@ -184,7 +184,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -193,7 +193,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "La Campesina 101.9 FM & 860 AM",
@@ -202,7 +202,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         }
       ],
       "linescore": {
@@ -1472,6 +1472,111 @@
       },
       "series": {
         "game_number": 2,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi"
+    },
+    {
+      "game_pk": 822968,
+      "date": "2026-06-21",
+      "start_time_utc": "2026-06-21T17:40:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": false,
+      "home": {
+        "id": 139,
+        "abbrev": "TB",
+        "name": "Tampa Bay Rays",
+        "short_name": "Rays",
+        "record": "37-24",
+        "score": null
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "33-32",
+        "score": null
+      },
+      "venue": {
+        "id": 12,
+        "name": "Tropicana Field",
+        "city": "St. Petersburg",
+        "state": "FL",
+        "lat": 27.767778,
+        "lon": -82.6525
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Rays.TV",
+          "call_sign": "RAYS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WDAE 95.7 FM",
+          "call_sign": "WDAE",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WQBN/1300AM",
+          "call_sign": "WQBN/1300",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 3,
         "games_in_series": 3,
         "description": "Regular Season"
       },
