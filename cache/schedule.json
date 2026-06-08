@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-08T21:04:47+00:00",
+  "fetched_at": "2026-06-08T22:47:05+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -233,7 +233,7 @@
       "date": "2026-06-08",
       "start_time_utc": "2026-06-09T01:45:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": false,
       "home": {
         "id": 137,
@@ -266,8 +266,8 @@
           "hand": null
         },
         "away": {
-          "id": 571945,
-          "name": "Miles Mikolas",
+          "id": 663992,
+          "name": "Richard Lovelady",
           "hand": null
         }
       },
@@ -386,6 +386,15 @@
       },
       "broadcasts": [
         {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
           "name": "KNBR 680",
           "call_sign": "KNBR",
           "type": "AM",
@@ -401,15 +410,6 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
