@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-08T22:47:07+00:00",
+  "fetched_at": "2026-06-08T23:54:32+00:00",
   "freshness": {
-    "schedule": "2026-06-08T22:47:05+00:00",
-    "standings": "2026-06-08T22:47:06+00:00",
+    "schedule": "2026-06-08T23:54:31+00:00",
+    "standings": "2026-06-08T23:54:31+00:00",
     "injuries": "2026-06-08T20:35:36+00:00",
     "former_nats": "2026-06-08T20:35:42+00:00",
-    "weather": "2026-06-08T22:47:06+00:00"
+    "weather": "2026-06-08T23:54:32+00:00"
   },
   "stale_sources": [],
   "focus_game": {
@@ -22,7 +22,7 @@
       "name": "San Francisco Giants",
       "short_name": "Giants",
       "record": "27-39",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 120,
@@ -30,7 +30,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "33-33",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 2395,
@@ -100,19 +100,19 @@
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
       "game_number": 1,
@@ -134,16 +134,16 @@
     "watch_label": "Next Game"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-08T22:47:06+00:00",
+    "fetched_at": "2026-06-08T23:54:32+00:00",
     "source": "open_meteo",
     "game_pk": 823218,
     "venue_name": "Oracle Park",
     "forecast_at": "2026-06-09T02:00",
-    "temperature_f": 57.2,
-    "feels_like_f": 53.1,
-    "wind_mph": 13.9,
+    "temperature_f": 57.1,
+    "feels_like_f": 52.4,
+    "wind_mph": 15.0,
     "wind_dir": "WNW",
-    "precip_chance": 5,
+    "precip_chance": 4,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -168,7 +168,7 @@
         "name": "San Francisco Giants",
         "short_name": "Giants",
         "record": "27-39",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 120,
@@ -176,7 +176,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "33-33",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 2395,
@@ -246,19 +246,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 1,
@@ -324,15 +324,6 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "KNBR 680",
           "call_sign": "KNBR",
           "type": "AM",
@@ -348,6 +339,15 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -914,7 +914,7 @@
         "name": "San Francisco Giants",
         "short_name": "Giants",
         "record": "27-39",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 120,
@@ -922,7 +922,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "33-33",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 2395,
@@ -992,19 +992,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 1,
@@ -1070,15 +1070,6 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "KNBR 680",
           "call_sign": "KNBR",
           "type": "AM",
@@ -1094,6 +1085,15 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
