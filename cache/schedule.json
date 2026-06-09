@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-09T00:15:20+00:00",
+  "fetched_at": "2026-06-09T03:28:10+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -119,8 +119,8 @@
       "game_pk": 823218,
       "date": "2026-06-08",
       "start_time_utc": "2026-06-09T01:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 137,
@@ -128,7 +128,7 @@
         "name": "San Francisco Giants",
         "short_name": "Giants",
         "record": "27-39",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 120,
@@ -136,7 +136,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "33-33",
-        "score": 0
+        "score": 1
       },
       "venue": {
         "id": 2395,
@@ -166,7 +166,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "NBCS BA",
@@ -175,7 +175,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -184,7 +184,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -193,7 +193,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "1510 AM - KSFN",
@@ -202,23 +202,23 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 7,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "outs": 2,
+        "home_runs": 1,
+        "away_runs": 1,
+        "home_hits": 10,
+        "away_hits": 5,
         "home_errors": 0,
-        "away_errors": 0
+        "away_errors": 1
       },
       "series": {
         "game_number": 1,
@@ -273,15 +273,6 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "KNBR 680",
           "call_sign": "KNBR",
           "type": "AM",
@@ -297,6 +288,15 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -474,7 +474,7 @@
         "abbrev": "SEA",
         "name": "Seattle Mariners",
         "short_name": "Mariners",
-        "record": "34-32",
+        "record": "35-32",
         "score": null
       },
       "venue": {
@@ -570,7 +570,7 @@
         "abbrev": "SEA",
         "name": "Seattle Mariners",
         "short_name": "Mariners",
-        "record": "34-32",
+        "record": "35-32",
         "score": null
       },
       "venue": {
@@ -666,7 +666,7 @@
         "abbrev": "SEA",
         "name": "Seattle Mariners",
         "short_name": "Mariners",
-        "record": "34-32",
+        "record": "35-32",
         "score": null
       },
       "venue": {
@@ -1069,7 +1069,7 @@
         "abbrev": "TB",
         "name": "Tampa Bay Rays",
         "short_name": "Rays",
-        "record": "37-25",
+        "record": "38-25",
         "score": null
       },
       "away": {
@@ -1183,7 +1183,7 @@
         "abbrev": "TB",
         "name": "Tampa Bay Rays",
         "short_name": "Rays",
-        "record": "37-25",
+        "record": "38-25",
         "score": null
       },
       "away": {
@@ -1288,7 +1288,7 @@
         "abbrev": "TB",
         "name": "Tampa Bay Rays",
         "short_name": "Rays",
-        "record": "37-25",
+        "record": "38-25",
         "score": null
       },
       "away": {
@@ -1401,7 +1401,7 @@
         "abbrev": "PHI",
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
-        "record": "35-30",
+        "record": "36-30",
         "score": null
       },
       "venue": {
@@ -1506,7 +1506,7 @@
         "abbrev": "PHI",
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
-        "record": "35-30",
+        "record": "36-30",
         "score": null
       },
       "venue": {
