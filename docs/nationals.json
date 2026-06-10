@@ -1,20 +1,20 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-10T00:22:09+00:00",
+  "fetched_at": "2026-06-10T01:30:54+00:00",
   "freshness": {
-    "schedule": "2026-06-10T00:22:07+00:00",
-    "standings": "2026-06-10T00:22:08+00:00",
-    "injuries": "2026-06-09T20:21:04+00:00",
-    "former_nats": "2026-06-09T20:21:10+00:00",
-    "weather": "2026-06-10T00:22:08+00:00"
+    "schedule": "2026-06-10T01:30:53+00:00",
+    "standings": "2026-06-10T01:30:53+00:00",
+    "injuries": "2026-06-10T01:30:43+00:00",
+    "former_nats": "2026-06-10T01:30:52+00:00",
+    "weather": "2026-06-10T01:30:54+00:00"
   },
   "stale_sources": [],
   "focus_game": {
     "game_pk": 823214,
     "date": "2026-06-09",
     "start_time_utc": "2026-06-10T01:45:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "Warmup",
     "is_nats_home": false,
     "home": {
       "id": 137,
@@ -121,7 +121,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "Nationals.TV",
       "is_national": false,
@@ -131,17 +131,17 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-10T00:22:08+00:00",
+    "fetched_at": "2026-06-10T01:30:54+00:00",
     "source": "open_meteo",
     "game_pk": 823214,
     "venue_name": "Oracle Park",
     "forecast_at": "2026-06-10T02:00",
-    "temperature_f": 65.3,
-    "feels_like_f": 60.0,
-    "wind_mph": 13.0,
+    "temperature_f": 64.1,
+    "feels_like_f": 59.0,
+    "wind_mph": 13.2,
     "wind_dir": "WNW",
     "precip_chance": 0,
     "precip_inches": 0.0,
@@ -159,8 +159,8 @@
       "game_pk": 823214,
       "date": "2026-06-09",
       "start_time_utc": "2026-06-10T01:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "Warmup",
       "is_nats_home": false,
       "home": {
         "id": 137,
@@ -267,7 +267,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -277,7 +277,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 823215,
@@ -764,8 +764,8 @@
       "game_pk": 823214,
       "date": "2026-06-09",
       "start_time_utc": "2026-06-10T01:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "Warmup",
       "is_nats_home": false,
       "home": {
         "id": 137,
@@ -872,7 +872,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -882,7 +882,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 823215,
@@ -1689,7 +1689,7 @@
         "abbrev": "TB",
         "name": "Tampa Bay Rays",
         "short_name": "Rays",
-        "record": "38-25",
+        "record": "39-25",
         "score": null
       },
       "away": {
@@ -1814,7 +1814,7 @@
         "abbrev": "TB",
         "name": "Tampa Bay Rays",
         "short_name": "Rays",
-        "record": "38-25",
+        "record": "39-25",
         "score": null
       },
       "away": {
@@ -1930,7 +1930,7 @@
         "abbrev": "TB",
         "name": "Tampa Bay Rays",
         "short_name": "Rays",
-        "record": "38-25",
+        "record": "39-25",
         "score": null
       },
       "away": {
@@ -2474,19 +2474,19 @@
         "name": "New York Mets",
         "short_name": "Mets",
         "wins": 29,
-        "losses": 36,
-        "pct": ".446",
-        "gb": "15.5",
-        "wc_gb": "5.0",
-        "streak": "W1",
-        "last_ten": "7-3",
+        "losses": 37,
+        "pct": ".439",
+        "gb": "16.0",
+        "wc_gb": "5.5",
+        "streak": "L1",
+        "last_ten": "6-4",
         "division_rank": 5,
         "league_rank": 13,
         "wc_rank": 10,
-        "run_diff": -5,
+        "run_diff": -12,
         "runs_scored": 265,
-        "runs_allowed": 270,
-        "elim_num": "82"
+        "runs_allowed": 277,
+        "elim_num": "81"
       }
     ]
   },
@@ -2582,19 +2582,19 @@
           "name": "New York Mets",
           "short_name": "Mets",
           "wins": 29,
-          "losses": 36,
-          "pct": ".446",
-          "gb": "15.5",
-          "wc_gb": "5.0",
-          "streak": "W1",
-          "last_ten": "7-3",
+          "losses": 37,
+          "pct": ".439",
+          "gb": "16.0",
+          "wc_gb": "5.5",
+          "streak": "L1",
+          "last_ten": "6-4",
           "division_rank": 5,
           "league_rank": 13,
           "wc_rank": 10,
-          "run_diff": -5,
+          "run_diff": -12,
           "runs_scored": 265,
-          "runs_allowed": 270,
-          "elim_num": "82"
+          "runs_allowed": 277,
+          "elim_num": "81"
         }
       ]
     },
@@ -2735,18 +2735,18 @@
           "abbrev": "STL",
           "name": "St. Louis Cardinals",
           "short_name": "Cardinals",
-          "wins": 35,
+          "wins": 36,
           "losses": 28,
-          "pct": ".556",
-          "gb": "5.5",
-          "wc_gb": "+2.0",
-          "streak": "W4",
-          "last_ten": "6-4",
+          "pct": ".563",
+          "gb": "5.0",
+          "wc_gb": "+2.5",
+          "streak": "W5",
+          "last_ten": "7-3",
           "division_rank": 2,
           "league_rank": 4,
           "wc_rank": 1,
-          "run_diff": -2,
-          "runs_scored": 278,
+          "run_diff": 5,
+          "runs_scored": 285,
           "runs_allowed": 280,
           "elim_num": "94"
         },
@@ -2822,19 +2822,19 @@
           "abbrev": "TB",
           "name": "Tampa Bay Rays",
           "short_name": "Rays",
-          "wins": 38,
+          "wins": 39,
           "losses": 25,
-          "pct": ".603",
+          "pct": ".609",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "W1",
+          "streak": "W2",
           "last_ten": "4-6",
           "division_rank": 1,
           "league_rank": 1,
           "wc_rank": null,
-          "run_diff": 9,
-          "runs_scored": 286,
-          "runs_allowed": 277,
+          "run_diff": 10,
+          "runs_scored": 290,
+          "runs_allowed": 280,
           "elim_num": "-"
         },
         {
@@ -2845,7 +2845,7 @@
           "wins": 39,
           "losses": 26,
           "pct": ".600",
-          "gb": "-",
+          "gb": "0.5",
           "wc_gb": "+7.0",
           "streak": "W2",
           "last_ten": "6-4",
@@ -2855,7 +2855,7 @@
           "run_diff": 98,
           "runs_scored": 331,
           "runs_allowed": 233,
-          "elim_num": "99"
+          "elim_num": "98"
         },
         {
           "id": 141,
@@ -2865,7 +2865,7 @@
           "wins": 32,
           "losses": 35,
           "pct": ".478",
-          "gb": "8.0",
+          "gb": "8.5",
           "wc_gb": "1.0",
           "streak": "L1",
           "last_ten": "4-6",
@@ -2875,7 +2875,7 @@
           "run_diff": -16,
           "runs_scored": 274,
           "runs_allowed": 290,
-          "elim_num": "90"
+          "elim_num": "89"
         },
         {
           "id": 110,
@@ -2885,7 +2885,7 @@
           "wins": 31,
           "losses": 36,
           "pct": ".463",
-          "gb": "9.0",
+          "gb": "9.5",
           "wc_gb": "2.0",
           "streak": "L3",
           "last_ten": "5-5",
@@ -2895,7 +2895,7 @@
           "run_diff": -34,
           "runs_scored": 312,
           "runs_allowed": 346,
-          "elim_num": "89"
+          "elim_num": "88"
         },
         {
           "id": 111,
@@ -2903,19 +2903,19 @@
           "name": "Boston Red Sox",
           "short_name": "Red Sox",
           "wins": 27,
-          "losses": 37,
-          "pct": ".422",
-          "gb": "11.5",
-          "wc_gb": "4.5",
-          "streak": "L2",
+          "losses": 38,
+          "pct": ".415",
+          "gb": "12.5",
+          "wc_gb": "5.0",
+          "streak": "L3",
           "last_ten": "4-6",
           "division_rank": 5,
           "league_rank": 12,
           "wc_rank": 9,
-          "run_diff": -11,
-          "runs_scored": 250,
-          "runs_allowed": 261,
-          "elim_num": "88"
+          "run_diff": -12,
+          "runs_scored": 253,
+          "runs_allowed": 265,
+          "elim_num": "86"
         }
       ]
     },
