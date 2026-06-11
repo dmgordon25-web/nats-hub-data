@@ -1,120 +1,7 @@
 {
-  "fetched_at": "2026-06-10T22:56:23+00:00",
+  "fetched_at": "2026-06-11T00:22:33+00:00",
   "source": "mlb_statsapi",
   "games": [
-    {
-      "game_pk": 823218,
-      "date": "2026-06-08",
-      "start_time_utc": "2026-06-09T01:45:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 137,
-        "abbrev": "SF",
-        "name": "San Francisco Giants",
-        "short_name": "Giants",
-        "record": "27-40",
-        "score": 3
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "34-33",
-        "score": 4
-      },
-      "venue": {
-        "id": 2395,
-        "name": "Oracle Park",
-        "city": "San Francisco",
-        "state": "CA",
-        "lat": 37.778383,
-        "lon": -122.389448
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 657277,
-          "name": "Logan Webb",
-          "hand": null
-        },
-        "away": {
-          "id": 663992,
-          "name": "Richard Lovelady",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "KNBR 680",
-          "call_sign": "KNBR",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "NBCS BA",
-          "call_sign": "NBCSBA",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "1510 AM - KSFN",
-          "call_sign": "KSFN",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 0,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 3,
-        "away_runs": 4,
-        "home_hits": 13,
-        "away_hits": 8,
-        "home_errors": 0,
-        "away_errors": 2
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi"
-    },
     {
       "game_pk": 823214,
       "date": "2026-06-09",
@@ -233,7 +120,7 @@
       "date": "2026-06-10",
       "start_time_utc": "2026-06-10T19:45:00Z",
       "status": "Final",
-      "detailed_status": "Game Over",
+      "detailed_status": "Final",
       "is_nats_home": false,
       "home": {
         "id": 137,
@@ -279,7 +166,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "NBCS BA",
@@ -288,7 +175,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "Nationals.TV",
@@ -297,7 +184,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -306,7 +193,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "1510 AM - KSFN",
@@ -315,7 +202,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         }
       ],
       "linescore": {
@@ -1601,6 +1488,111 @@
       },
       "series": {
         "game_number": 3,
+        "games_in_series": 4,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi"
+    },
+    {
+      "game_pk": 822717,
+      "date": "2026-06-25",
+      "start_time_utc": "2026-06-25T22:45:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": true,
+      "home": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "35-34",
+        "score": null
+      },
+      "away": {
+        "id": 143,
+        "abbrev": "PHI",
+        "name": "Philadelphia Phillies",
+        "short_name": "Phillies",
+        "record": "36-31",
+        "score": null
+      },
+      "venue": {
+        "id": 3309,
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.872861,
+        "lon": -77.007501
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "NBCSP",
+          "call_sign": "NBCSP",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "94 WIP",
+          "call_sign": "WIP",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "iHeart App",
+          "call_sign": "iHeart App",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 4,
         "games_in_series": 4,
         "description": "Regular Season"
       },
