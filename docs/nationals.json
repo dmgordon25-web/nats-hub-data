@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-12T20:27:28+00:00",
+  "fetched_at": "2026-06-12T22:02:14+00:00",
   "freshness": {
-    "schedule": "2026-06-12T20:27:26+00:00",
-    "standings": "2026-06-12T20:27:27+00:00",
+    "schedule": "2026-06-12T22:02:13+00:00",
+    "standings": "2026-06-12T22:02:14+00:00",
     "injuries": "2026-06-12T20:27:22+00:00",
     "former_nats": "2026-06-12T20:27:26+00:00",
-    "weather": "2026-06-12T20:27:28+00:00"
+    "weather": "2026-06-12T22:02:14+00:00"
   },
   "stale_sources": [],
   "focus_game": {
@@ -60,7 +60,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -69,7 +69,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Seattle Sports (710 AM)",
@@ -78,7 +78,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -87,7 +87,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       }
     ],
     "linescore": {
@@ -122,18 +122,18 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Starts Soon"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-12T20:27:28+00:00",
+    "fetched_at": "2026-06-12T22:02:14+00:00",
     "source": "open_meteo",
     "game_pk": 822726,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-06-12T23:00",
-    "temperature_f": 88.8,
-    "feels_like_f": 95.0,
-    "wind_mph": 8.4,
-    "wind_dir": "SSW",
+    "temperature_f": 88.3,
+    "feels_like_f": 95.5,
+    "wind_mph": 6.1,
+    "wind_dir": "S",
     "precip_chance": 22,
     "precip_inches": 0.0,
     "summary": "Overcast",
@@ -197,7 +197,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -206,7 +206,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Seattle Sports (710 AM)",
@@ -215,7 +215,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -224,7 +224,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
@@ -259,7 +259,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 822725,
@@ -792,7 +792,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -801,7 +801,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Seattle Sports (710 AM)",
@@ -810,7 +810,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -819,7 +819,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
@@ -854,7 +854,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 822725,
