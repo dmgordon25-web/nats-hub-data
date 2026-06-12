@@ -1,20 +1,20 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-12T22:02:14+00:00",
+  "fetched_at": "2026-06-12T23:46:24+00:00",
   "freshness": {
-    "schedule": "2026-06-12T22:02:13+00:00",
-    "standings": "2026-06-12T22:02:14+00:00",
+    "schedule": "2026-06-12T23:46:23+00:00",
+    "standings": "2026-06-12T23:46:23+00:00",
     "injuries": "2026-06-12T20:27:22+00:00",
     "former_nats": "2026-06-12T20:27:26+00:00",
-    "weather": "2026-06-12T22:02:14+00:00"
+    "weather": "2026-06-12T23:46:24+00:00"
   },
   "stale_sources": [],
   "focus_game": {
-    "game_pk": 822726,
-    "date": "2026-06-12",
-    "start_time_utc": "2026-06-12T22:45:00Z",
+    "game_pk": 822725,
+    "date": "2026-06-13",
+    "start_time_utc": "2026-06-13T20:05:00Z",
     "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "detailed_status": "Scheduled",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -22,7 +22,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "35-34",
-      "score": 0
+      "score": null
     },
     "away": {
       "id": 136,
@@ -30,7 +30,7 @@
       "name": "Seattle Mariners",
       "short_name": "Mariners",
       "record": "36-34",
-      "score": 0
+      "score": null
     },
     "venue": {
       "id": 3309,
@@ -42,13 +42,13 @@
     },
     "probable_pitchers": {
       "home": {
-        "id": 641793,
-        "name": "Zack Littell",
+        "id": 676917,
+        "name": "Cade Cavalli",
         "hand": null
       },
       "away": {
-        "id": 682243,
-        "name": "Bryce Miller",
+        "id": 622491,
+        "name": "Luis Castillo",
         "hand": null
       }
     },
@@ -60,7 +60,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_OFF"
       },
       {
         "name": "Nationals.TV",
@@ -69,7 +69,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_OFF"
       },
       {
         "name": "Seattle Sports (710 AM)",
@@ -78,7 +78,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_OFF"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -87,26 +87,26 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_OFF"
       }
     ],
     "linescore": {
-      "current_inning": 1,
-      "inning_half": "Top",
-      "inning_state": "Top",
-      "is_top_inning": true,
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0,
-      "home_runs": 0,
-      "away_runs": 0,
-      "home_hits": 0,
-      "away_hits": 0,
-      "home_errors": 0,
-      "away_errors": 0
+      "current_inning": null,
+      "inning_half": null,
+      "inning_state": null,
+      "is_top_inning": null,
+      "balls": null,
+      "strikes": null,
+      "outs": null,
+      "home_runs": null,
+      "away_runs": null,
+      "home_hits": null,
+      "away_hits": null,
+      "home_errors": null,
+      "away_errors": null
     },
     "series": {
-      "game_number": 1,
+      "game_number": 2,
       "games_in_series": 3,
       "description": "Regular Season"
     },
@@ -122,21 +122,21 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Starts Soon"
+    "watch_label": "Next Game"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-12T22:02:14+00:00",
+    "fetched_at": "2026-06-12T23:46:24+00:00",
     "source": "open_meteo",
-    "game_pk": 822726,
+    "game_pk": 822725,
     "venue_name": "Nationals Park",
-    "forecast_at": "2026-06-12T23:00",
-    "temperature_f": 88.3,
-    "feels_like_f": 95.5,
-    "wind_mph": 6.1,
-    "wind_dir": "S",
-    "precip_chance": 22,
+    "forecast_at": "2026-06-13T20:00",
+    "temperature_f": 92.0,
+    "feels_like_f": 91.9,
+    "wind_mph": 7.6,
+    "wind_dir": "W",
+    "precip_chance": 0,
     "precip_inches": 0.0,
-    "summary": "Overcast",
+    "summary": "Clear",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -151,7 +151,7 @@
       "date": "2026-06-12",
       "start_time_utc": "2026-06-12T22:45:00Z",
       "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "detailed_status": "Delayed Start",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -259,7 +259,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Delayed"
     },
     {
       "game_pk": 822725,
@@ -746,7 +746,7 @@
       "date": "2026-06-12",
       "start_time_utc": "2026-06-12T22:45:00Z",
       "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "detailed_status": "Delayed Start",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -854,7 +854,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Delayed"
     },
     {
       "game_pk": 822725,
