@@ -1,14 +1,16 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-13T18:44:18+00:00",
+  "fetched_at": "2026-06-13T19:55:21+00:00",
   "freshness": {
-    "schedule": "2026-06-13T18:44:17+00:00",
-    "standings": "2026-06-13T18:44:17+00:00",
+    "schedule": "2026-06-13T19:55:20+00:00",
+    "standings": "2026-06-13T19:55:20+00:00",
     "injuries": "2026-06-13T15:07:19+00:00",
-    "former_nats": "2026-06-13T15:07:25+00:00",
-    "weather": "2026-06-13T18:44:18+00:00"
+    "former_nats": "2026-06-13T19:55:19+00:00",
+    "weather": "2026-06-13T19:55:21+00:00"
   },
-  "stale_sources": [],
+  "stale_sources": [
+    "injuries"
+  ],
   "focus_game": {
     "game_pk": 822725,
     "date": "2026-06-13",
@@ -122,18 +124,18 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Starts Soon"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-13T18:44:18+00:00",
+    "fetched_at": "2026-06-13T19:55:21+00:00",
     "source": "open_meteo",
     "game_pk": 822725,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-06-13T20:00",
-    "temperature_f": 89.6,
-    "feels_like_f": 89.8,
-    "wind_mph": 8.2,
-    "wind_dir": "W",
+    "temperature_f": 89.2,
+    "feels_like_f": 90.2,
+    "wind_mph": 6.6,
+    "wind_dir": "WSW",
     "precip_chance": 0,
     "precip_inches": 0.0,
     "summary": "Clear",
@@ -259,7 +261,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 822722,
@@ -837,7 +839,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 822722,
