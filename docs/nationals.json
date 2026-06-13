@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-13T17:09:36+00:00",
+  "fetched_at": "2026-06-13T18:44:18+00:00",
   "freshness": {
-    "schedule": "2026-06-13T17:09:35+00:00",
-    "standings": "2026-06-13T17:09:35+00:00",
+    "schedule": "2026-06-13T18:44:17+00:00",
+    "standings": "2026-06-13T18:44:17+00:00",
     "injuries": "2026-06-13T15:07:19+00:00",
     "former_nats": "2026-06-13T15:07:25+00:00",
-    "weather": "2026-06-13T17:09:36+00:00"
+    "weather": "2026-06-13T18:44:18+00:00"
   },
   "stale_sources": [],
   "focus_game": {
@@ -14,7 +14,7 @@
     "date": "2026-06-13",
     "start_time_utc": "2026-06-13T20:05:00Z",
     "status": "Preview",
-    "detailed_status": "Scheduled",
+    "detailed_status": "Pre-Game",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -22,7 +22,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "35-35",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 136,
@@ -30,7 +30,7 @@
       "name": "Seattle Mariners",
       "short_name": "Mariners",
       "record": "37-34",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 3309,
@@ -60,7 +60,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -69,7 +69,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Seattle Sports (710 AM)",
@@ -78,7 +78,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -87,23 +87,23 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
       "game_number": 2,
@@ -125,15 +125,15 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-13T17:09:36+00:00",
+    "fetched_at": "2026-06-13T18:44:18+00:00",
     "source": "open_meteo",
     "game_pk": 822725,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-06-13T20:00",
-    "temperature_f": 90.1,
-    "feels_like_f": 91.4,
-    "wind_mph": 8.0,
-    "wind_dir": "WSW",
+    "temperature_f": 89.6,
+    "feels_like_f": 89.8,
+    "wind_mph": 8.2,
+    "wind_dir": "W",
     "precip_chance": 0,
     "precip_inches": 0.0,
     "summary": "Clear",
@@ -151,7 +151,7 @@
       "date": "2026-06-13",
       "start_time_utc": "2026-06-13T20:05:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -159,7 +159,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "35-35",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 136,
@@ -167,7 +167,7 @@
         "name": "Seattle Mariners",
         "short_name": "Mariners",
         "record": "37-34",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -197,7 +197,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -206,7 +206,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Seattle Sports (710 AM)",
@@ -215,7 +215,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -224,23 +224,23 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 2,
@@ -729,7 +729,7 @@
       "date": "2026-06-13",
       "start_time_utc": "2026-06-13T20:05:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -737,7 +737,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "35-35",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 136,
@@ -745,7 +745,7 @@
         "name": "Seattle Mariners",
         "short_name": "Mariners",
         "record": "37-34",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -775,7 +775,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -784,7 +784,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Seattle Sports (710 AM)",
@@ -793,7 +793,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -802,23 +802,23 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 2,
