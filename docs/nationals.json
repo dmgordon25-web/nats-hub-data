@@ -1,16 +1,14 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-13T23:52:12+00:00",
+  "fetched_at": "2026-06-14T00:20:05+00:00",
   "freshness": {
-    "schedule": "2026-06-13T23:52:11+00:00",
-    "standings": "2026-06-13T23:52:11+00:00",
-    "injuries": "2026-06-13T15:07:19+00:00",
-    "former_nats": "2026-06-13T19:55:19+00:00",
-    "weather": "2026-06-13T23:52:12+00:00"
+    "schedule": "2026-06-14T00:20:01+00:00",
+    "standings": "2026-06-14T00:20:01+00:00",
+    "injuries": "2026-06-14T00:19:55+00:00",
+    "former_nats": "2026-06-14T00:20:01+00:00",
+    "weather": "2026-06-14T00:20:05+00:00"
   },
-  "stale_sources": [
-    "injuries"
-  ],
+  "stale_sources": [],
   "focus_game": {
     "game_pk": 822722,
     "date": "2026-06-14",
@@ -124,10 +122,10 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Next Game"
+    "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-13T23:52:12+00:00",
+    "fetched_at": "2026-06-14T00:20:05+00:00",
     "source": "open_meteo",
     "game_pk": 822722,
     "venue_name": "Nationals Park",
@@ -142,10 +140,10 @@
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "stat_nerd_team_age",
+    "id": "stat_nerd_abrams_baserunning",
     "category": "stat_nerd",
     "weight": 4,
-    "text": "The Nats are one of the youngest position-player groups in MLB. Most of the lineup is still inside their team-control years."
+    "text": "CJ Abrams was top-five in steals over the second half of 2024. The threat alone changes a game."
   },
   "next_three": [
     {
@@ -261,7 +259,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822724,
@@ -955,7 +953,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822724,
@@ -2341,6 +2339,122 @@
       },
       "series": {
         "game_number": 2,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "MASN",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 824821,
+      "date": "2026-06-28",
+      "start_time_utc": "2026-06-28T17:35:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": false,
+      "home": {
+        "id": 110,
+        "abbrev": "BAL",
+        "name": "Baltimore Orioles",
+        "short_name": "Orioles",
+        "record": "34-38",
+        "score": null
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "36-35",
+        "score": null
+      },
+      "venue": {
+        "id": 2,
+        "name": "Oriole Park at Camden Yards",
+        "city": "Baltimore",
+        "state": "MD",
+        "lat": 39.283787,
+        "lon": -76.621689
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "MASN",
+          "call_sign": "MASN",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "98 Rock 97.9 FM",
+          "call_sign": "98 Rock",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WBAL 1090 AM",
+          "call_sign": "WBAL 1090",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 3,
         "games_in_series": 3,
         "description": "Regular Season"
       },
