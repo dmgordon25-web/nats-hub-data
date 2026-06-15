@@ -1,111 +1,7 @@
 {
-  "fetched_at": "2026-06-14T23:11:50+00:00",
+  "fetched_at": "2026-06-15T01:40:28+00:00",
   "source": "mlb_statsapi",
   "games": [
-    {
-      "game_pk": 822726,
-      "date": "2026-06-12",
-      "start_time_utc": "2026-06-12T22:45:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "35-35",
-        "score": 2
-      },
-      "away": {
-        "id": 136,
-        "abbrev": "SEA",
-        "name": "Seattle Mariners",
-        "short_name": "Mariners",
-        "record": "37-34",
-        "score": 10
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 641793,
-          "name": "Zack Littell",
-          "hand": null
-        },
-        "away": {
-          "id": 682243,
-          "name": "Bryce Miller",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Mariners.TV",
-          "call_sign": "SEAM",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Seattle Sports (710 AM)",
-          "call_sign": "KIRO 710AM",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 0,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 2,
-        "away_runs": 10,
-        "home_hits": 4,
-        "away_hits": 11,
-        "home_errors": 0,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi"
-    },
     {
       "game_pk": 822725,
       "date": "2026-06-13",
@@ -1706,6 +1602,120 @@
       },
       "series": {
         "game_number": 3,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi"
+    },
+    {
+      "game_pk": 824741,
+      "date": "2026-06-29",
+      "start_time_utc": "2026-06-29T23:10:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": false,
+      "home": {
+        "id": 111,
+        "abbrev": "BOS",
+        "name": "Boston Red Sox",
+        "short_name": "Red Sox",
+        "record": "29-39",
+        "score": null
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "37-35",
+        "score": null
+      },
+      "venue": {
+        "id": 3,
+        "name": "Fenway Park",
+        "city": "Boston",
+        "state": "MA",
+        "lat": 42.346456,
+        "lon": -71.097441
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "NESN",
+          "call_sign": "NESN",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WEEI 93.7",
+          "call_sign": "WEEI",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WCCM 1490 AM (SP)",
+          "call_sign": "WCCM",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WESX 1230 AM (SP)",
+          "call_sign": "WESX",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 1,
         "games_in_series": 3,
         "description": "Regular Season"
       },
