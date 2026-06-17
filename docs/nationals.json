@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-17T11:56:41+00:00",
+  "fetched_at": "2026-06-17T15:41:59+00:00",
   "freshness": {
-    "schedule": "2026-06-17T11:56:40+00:00",
-    "standings": "2026-06-17T11:56:40+00:00",
+    "schedule": "2026-06-17T15:41:58+00:00",
+    "standings": "2026-06-17T15:41:58+00:00",
     "injuries": "2026-06-17T01:40:32+00:00",
     "former_nats": "2026-06-17T11:56:39+00:00",
-    "weather": "2026-06-17T11:56:41+00:00"
+    "weather": "2026-06-17T15:41:59+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -16,7 +16,7 @@
     "date": "2026-06-17",
     "start_time_utc": "2026-06-17T17:05:00Z",
     "status": "Preview",
-    "detailed_status": "Scheduled",
+    "detailed_status": "Pre-Game",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "39-35",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 118,
@@ -32,7 +32,7 @@
       "name": "Kansas City Royals",
       "short_name": "Royals",
       "record": "29-45",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 3309,
@@ -62,7 +62,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Royals.TV",
@@ -71,7 +71,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -80,7 +80,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "96.5 The Fan",
@@ -89,7 +89,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Royals Radio Network",
@@ -102,19 +102,19 @@
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
       "game_number": 3,
@@ -136,18 +136,18 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-17T11:56:41+00:00",
+    "fetched_at": "2026-06-17T15:41:59+00:00",
     "source": "open_meteo",
     "game_pk": 822721,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-06-17T17:00",
-    "temperature_f": 86.8,
-    "feels_like_f": 89.0,
-    "wind_mph": 7.8,
+    "temperature_f": 86.9,
+    "feels_like_f": 87.8,
+    "wind_mph": 8.6,
     "wind_dir": "SSW",
     "precip_chance": 1,
     "precip_inches": 0.0,
-    "summary": "Overcast",
+    "summary": "Clear",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -162,7 +162,7 @@
       "date": "2026-06-17",
       "start_time_utc": "2026-06-17T17:05:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -170,7 +170,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "39-35",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 118,
@@ -178,7 +178,7 @@
         "name": "Kansas City Royals",
         "short_name": "Royals",
         "record": "29-45",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -208,7 +208,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Royals.TV",
@@ -217,7 +217,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -226,7 +226,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "96.5 The Fan",
@@ -235,7 +235,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Royals Radio Network",
@@ -248,19 +248,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 3,
@@ -314,7 +314,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 676917,
+          "name": "Cade Cavalli",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -439,7 +443,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 571945,
+          "name": "Miles Mikolas",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -901,7 +909,7 @@
       "date": "2026-06-17",
       "start_time_utc": "2026-06-17T17:05:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -909,7 +917,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "39-35",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 118,
@@ -917,7 +925,7 @@
         "name": "Kansas City Royals",
         "short_name": "Royals",
         "record": "29-45",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -947,7 +955,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Royals.TV",
@@ -956,7 +964,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -965,7 +973,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "96.5 The Fan",
@@ -974,7 +982,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Royals Radio Network",
@@ -987,19 +995,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 3,
@@ -1053,7 +1061,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 676917,
+          "name": "Cade Cavalli",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1178,7 +1190,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 571945,
+          "name": "Miles Mikolas",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1294,7 +1310,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 674841,
+          "name": "Andrew Alvarez",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
