@@ -1,14 +1,16 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-17T23:57:33+00:00",
+  "fetched_at": "2026-06-18T01:40:05+00:00",
   "freshness": {
-    "schedule": "2026-06-17T23:57:32+00:00",
-    "standings": "2026-06-17T23:57:33+00:00",
+    "schedule": "2026-06-18T01:40:05+00:00",
+    "standings": "2026-06-18T01:40:05+00:00",
     "injuries": "2026-06-17T20:30:44+00:00",
-    "former_nats": "2026-06-17T20:30:48+00:00",
-    "weather": "2026-06-17T23:57:33+00:00"
+    "former_nats": "2026-06-18T01:40:04+00:00",
+    "weather": "2026-06-18T01:40:05+00:00"
   },
-  "stale_sources": [],
+  "stale_sources": [
+    "injuries"
+  ],
   "focus_game": {
     "game_pk": 822966,
     "date": "2026-06-19",
@@ -143,7 +145,7 @@
     "watch_label": "Next Game"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-17T23:57:33+00:00",
+    "fetched_at": "2026-06-18T01:40:05+00:00",
     "source": "open_meteo",
     "game_pk": 822966,
     "venue_name": "Tropicana Field",
@@ -152,10 +154,10 @@
     "summary": "Indoor / retractable roof"
   },
   "tonight_tidbit": {
-    "id": "stat_nerd_woody_exit_velo",
-    "category": "stat_nerd",
-    "weight": 5,
-    "text": "James Wood's average exit velocity puts him in elite company — Judge, Stanton, Schwarber tier."
+    "id": "did_you_know_park_anacostia",
+    "category": "ballpark",
+    "weight": 3,
+    "text": "Nationals Park sits where the Anacostia River meets the Potomac watershed. The cherry blossoms in section 137 bloom every April."
   },
   "next_three": [
     {
@@ -661,130 +663,6 @@
     "watch_label": "Game Final"
   },
   "all_games": [
-    {
-      "game_pk": 822724,
-      "date": "2026-06-15",
-      "start_time_utc": "2026-06-15T22:45:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "38-35",
-        "score": 7
-      },
-      "away": {
-        "id": 118,
-        "abbrev": "KC",
-        "name": "Kansas City Royals",
-        "short_name": "Royals",
-        "record": "29-44",
-        "score": 3
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 674841,
-          "name": "Andrew Alvarez",
-          "hand": null
-        },
-        "away": {
-          "id": 687765,
-          "name": "Mitch Spence",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Royals.TV",
-          "call_sign": "ROYL",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "96.5 The Fan",
-          "call_sign": "KFNZ 96.5",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Royals Radio Network",
-          "call_sign": "RRN",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 3,
-        "strikes": 2,
-        "outs": 3,
-        "home_runs": 7,
-        "away_runs": 3,
-        "home_hits": 8,
-        "away_hits": 8,
-        "home_errors": 0,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
     {
       "game_pk": 822723,
       "date": "2026-06-16",
