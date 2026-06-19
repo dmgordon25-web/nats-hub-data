@@ -1,20 +1,20 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-19T21:56:25+00:00",
+  "fetched_at": "2026-06-19T23:05:16+00:00",
   "freshness": {
-    "schedule": "2026-06-19T21:56:24+00:00",
-    "standings": "2026-06-19T21:56:25+00:00",
+    "schedule": "2026-06-19T23:05:16+00:00",
+    "standings": "2026-06-19T23:05:16+00:00",
     "injuries": "2026-06-19T20:04:16+00:00",
     "former_nats": "2026-06-19T20:04:23+00:00",
-    "weather": "2026-06-19T21:56:25+00:00"
+    "weather": "2026-06-19T23:05:16+00:00"
   },
   "stale_sources": [],
   "focus_game": {
     "game_pk": 822966,
     "date": "2026-06-19",
     "start_time_utc": "2026-06-19T23:10:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "Warmup",
     "is_nats_home": false,
     "home": {
       "id": 139,
@@ -130,7 +130,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "Nationals.TV",
       "is_national": false,
@@ -140,10 +140,10 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-19T21:56:25+00:00",
+    "fetched_at": "2026-06-19T23:05:16+00:00",
     "source": "open_meteo",
     "game_pk": 822966,
     "venue_name": "Tropicana Field",
@@ -162,8 +162,8 @@
       "game_pk": 822966,
       "date": "2026-06-19",
       "start_time_utc": "2026-06-19T23:10:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "Warmup",
       "is_nats_home": false,
       "home": {
         "id": 139,
@@ -279,7 +279,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -289,7 +289,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822967,
@@ -789,8 +789,8 @@
       "game_pk": 822966,
       "date": "2026-06-19",
       "start_time_utc": "2026-06-19T23:10:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "Warmup",
       "is_nats_home": false,
       "home": {
         "id": 139,
@@ -906,7 +906,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -916,7 +916,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822967,
