@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-18T20:39:21+00:00",
+  "fetched_at": "2026-06-19T02:04:40+00:00",
   "source": "mlb_statsapi",
   "players": [
     {
@@ -15,21 +15,21 @@
         "name": "Philadelphia Phillies"
       },
       "season_stats": {
-        "ab": 255,
-        "avg": ".251",
+        "ab": 258,
+        "avg": ".248",
         "hr": 15,
         "rbi": 40,
         "r": 48,
         "h": 64,
-        "obp": ".362",
-        "slg": ".482",
-        "ops": ".844",
+        "obp": ".360",
+        "slg": ".477",
+        "ops": ".837",
         "sb": 5
       },
       "last_game": {
-        "date": "2026-06-17",
-        "opponent": "MIA",
-        "line": "1-3"
+        "date": "2026-06-18",
+        "opponent": "NYM",
+        "line": "0-3"
       },
       "significant_event": null,
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/547180/headshot/67/current"
@@ -47,23 +47,28 @@
         "name": "New York Mets"
       },
       "season_stats": {
-        "ab": 209,
-        "avg": ".297",
-        "hr": 15,
-        "rbi": 36,
-        "r": 34,
-        "h": 62,
-        "obp": ".393",
-        "slg": ".555",
-        "ops": ".948",
+        "ab": 213,
+        "avg": ".300",
+        "hr": 17,
+        "rbi": 38,
+        "r": 36,
+        "h": 64,
+        "obp": ".398",
+        "slg": ".582",
+        "ops": ".980",
         "sb": 6
       },
       "last_game": {
-        "date": "2026-06-17",
-        "opponent": "CIN",
-        "line": "3-5, 2 RBI"
+        "date": "2026-06-18",
+        "opponent": "PHI",
+        "line": "2-4, 2 HR, 2 RBI"
       },
-      "significant_event": null,
+      "significant_event": {
+        "kind": "multi_hr_game",
+        "summary": "2-HR game",
+        "against_nats": false,
+        "celebrate": true
+      },
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/665742/headshot/67/current"
     },
     {
@@ -83,17 +88,17 @@
         "avg": ".223",
         "hr": 7,
         "rbi": 21,
-        "r": 42,
+        "r": 43,
         "h": 66,
-        "obp": ".274",
+        "obp": ".276",
         "slg": ".334",
-        "ops": ".608",
+        "ops": ".610",
         "sb": 15
       },
       "last_game": {
-        "date": "2026-06-17",
-        "opponent": "MIA",
-        "line": "3-5"
+        "date": "2026-06-18",
+        "opponent": "NYM",
+        "line": "0-0"
       },
       "significant_event": null,
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/607208/headshot/67/current"
@@ -111,21 +116,21 @@
         "name": "Minnesota Twins"
       },
       "season_stats": {
-        "ab": 264,
-        "avg": ".242",
+        "ab": 266,
+        "avg": ".244",
         "hr": 8,
         "rbi": 46,
         "r": 36,
-        "h": 64,
-        "obp": ".299",
-        "slg": ".386",
-        "ops": ".685",
+        "h": 65,
+        "obp": ".300",
+        "slg": ".387",
+        "ops": ".687",
         "sb": 1
       },
       "last_game": {
         "date": "2026-06-18",
         "opponent": "TEX",
-        "line": "1-2, 1 RBI"
+        "line": "2-4, 1 RBI"
       },
       "significant_event": null,
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/605137/headshot/67/current"
@@ -143,21 +148,21 @@
         "name": "Kansas City Royals"
       },
       "season_stats": {
-        "ab": 146,
-        "avg": ".226",
+        "ab": 150,
+        "avg": ".227",
         "hr": 5,
-        "rbi": 18,
-        "r": 17,
-        "h": 33,
-        "obp": ".358",
-        "slg": ".356",
-        "ops": ".714",
+        "rbi": 19,
+        "r": 18,
+        "h": 34,
+        "obp": ".355",
+        "slg": ".360",
+        "ops": ".715",
         "sb": 3
       },
       "last_game": {
-        "date": "2026-06-17",
-        "opponent": "WSH",
-        "line": "1-4, 1 HR, 1 RBI"
+        "date": "2026-06-18",
+        "opponent": "STL",
+        "line": "1-4, 1 RBI"
       },
       "significant_event": null,
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/657041/headshot/67/current"
@@ -256,5 +261,13 @@
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/607200/headshot/67/current"
     }
   ],
-  "flag_candidates": []
+  "flag_candidates": [
+    {
+      "mlb_id": 665742,
+      "name": "Juan Soto",
+      "summary": "2-HR game",
+      "celebrate": true,
+      "against_nats": false
+    }
+  ]
 }
