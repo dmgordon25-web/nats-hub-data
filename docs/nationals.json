@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-19T23:05:16+00:00",
+  "fetched_at": "2026-06-20T00:19:00+00:00",
   "freshness": {
-    "schedule": "2026-06-19T23:05:16+00:00",
-    "standings": "2026-06-19T23:05:16+00:00",
-    "injuries": "2026-06-19T20:04:16+00:00",
-    "former_nats": "2026-06-19T20:04:23+00:00",
-    "weather": "2026-06-19T23:05:16+00:00"
+    "schedule": "2026-06-20T00:18:59+00:00",
+    "standings": "2026-06-20T00:18:59+00:00",
+    "injuries": "2026-06-20T00:18:53+00:00",
+    "former_nats": "2026-06-20T00:18:58+00:00",
+    "weather": "2026-06-20T00:18:59+00:00"
   },
   "stale_sources": [],
   "focus_game": {
@@ -14,7 +14,7 @@
     "date": "2026-06-19",
     "start_time_utc": "2026-06-19T23:10:00Z",
     "status": "Live",
-    "detailed_status": "Warmup",
+    "detailed_status": "In Progress",
     "is_nats_home": false,
     "home": {
       "id": 139,
@@ -22,7 +22,7 @@
       "name": "Tampa Bay Rays",
       "short_name": "Rays",
       "record": "41-30",
-      "score": 0
+      "score": 4
     },
     "away": {
       "id": 120,
@@ -30,7 +30,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "39-36",
-      "score": 0
+      "score": 2
     },
     "venue": {
       "id": 12,
@@ -109,17 +109,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 1,
+      "current_inning": 5,
       "inning_half": "Top",
       "inning_state": "Top",
       "is_top_inning": true,
       "balls": 0,
-      "strikes": 0,
-      "outs": 0,
-      "home_runs": 0,
-      "away_runs": 0,
-      "home_hits": 0,
-      "away_hits": 0,
+      "strikes": 2,
+      "outs": 2,
+      "home_runs": 4,
+      "away_runs": 2,
+      "home_hits": 6,
+      "away_hits": 4,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -143,7 +143,7 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-19T23:05:16+00:00",
+    "fetched_at": "2026-06-20T00:18:59+00:00",
     "source": "open_meteo",
     "game_pk": 822966,
     "venue_name": "Tropicana Field",
@@ -152,10 +152,10 @@
     "summary": "Indoor / retractable roof"
   },
   "tonight_tidbit": {
-    "id": "player_spotlight_abrams",
-    "category": "player_spotlight",
-    "weight": 7,
-    "text": "CJ Abrams' sprint speed is in the 95th percentile of all of MLB. Watch his first step out of the box."
+    "id": "tonight_september",
+    "category": "tonight_nugget",
+    "weight": 4,
+    "text": "September baseball. Rosters expand, prospects get a look, every game a separate story."
   },
   "next_three": [
     {
@@ -163,7 +163,7 @@
       "date": "2026-06-19",
       "start_time_utc": "2026-06-19T23:10:00Z",
       "status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 139,
@@ -171,7 +171,7 @@
         "name": "Tampa Bay Rays",
         "short_name": "Rays",
         "record": "41-30",
-        "score": 0
+        "score": 4
       },
       "away": {
         "id": 120,
@@ -179,7 +179,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "39-36",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 12,
@@ -258,17 +258,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 5,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
         "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "strikes": 2,
+        "outs": 2,
+        "home_runs": 4,
+        "away_runs": 2,
+        "home_hits": 6,
+        "away_hits": 4,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -325,8 +325,8 @@
       "probable_pitchers": {
         "home": null,
         "away": {
-          "id": 571945,
-          "name": "Miles Mikolas",
+          "id": 676917,
+          "name": "Cade Cavalli",
           "hand": null
         }
       },
@@ -409,7 +409,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822968,
@@ -536,261 +536,14 @@
       "watch_label": "Next Game"
     }
   ],
-  "last_result": {
-    "game_pk": 822721,
-    "date": "2026-06-17",
-    "start_time_utc": "2026-06-17T17:05:00Z",
-    "status": "Final",
-    "detailed_status": "Final",
-    "is_nats_home": true,
-    "home": {
-      "id": 120,
-      "abbrev": "WSH",
-      "name": "Washington Nationals",
-      "short_name": "Nationals",
-      "record": "39-36",
-      "score": 2
-    },
-    "away": {
-      "id": 118,
-      "abbrev": "KC",
-      "name": "Kansas City Royals",
-      "short_name": "Royals",
-      "record": "30-45",
-      "score": 6
-    },
-    "venue": {
-      "id": 3309,
-      "name": "Nationals Park",
-      "city": "Washington",
-      "state": "DC",
-      "lat": 38.872861,
-      "lon": -77.007501
-    },
-    "probable_pitchers": {
-      "home": {
-        "id": 641793,
-        "name": "Zack Littell",
-        "hand": null
-      },
-      "away": {
-        "id": 679883,
-        "name": "Luinder Avila",
-        "hand": null
-      }
-    },
-    "broadcasts": [
-      {
-        "name": "Nationals.TV",
-        "call_sign": "NATS",
-        "type": "TV",
-        "language": "en",
-        "is_national": false,
-        "home_away": "home",
-        "media_state": "MEDIA_ARCHIVE"
-      },
-      {
-        "name": "Royals.TV",
-        "call_sign": "ROYL",
-        "type": "TV",
-        "language": "en",
-        "is_national": false,
-        "home_away": "away",
-        "media_state": "MEDIA_ARCHIVE"
-      },
-      {
-        "name": "WJFK 106.7 The Fan",
-        "call_sign": "106.7 FM",
-        "type": "FM",
-        "language": "en",
-        "is_national": false,
-        "home_away": "home",
-        "media_state": "MEDIA_ARCHIVE"
-      },
-      {
-        "name": "96.5 The Fan",
-        "call_sign": "KFNZ 96.5",
-        "type": "FM",
-        "language": "en",
-        "is_national": false,
-        "home_away": "away",
-        "media_state": "MEDIA_ARCHIVE"
-      },
-      {
-        "name": "Royals Radio Network",
-        "call_sign": "RRN",
-        "type": "AM",
-        "language": "en",
-        "is_national": false,
-        "home_away": "away",
-        "media_state": "MEDIA_OFF"
-      }
-    ],
-    "linescore": {
-      "current_inning": 9,
-      "inning_half": "Bottom",
-      "inning_state": "Bottom",
-      "is_top_inning": false,
-      "balls": 2,
-      "strikes": 2,
-      "outs": 3,
-      "home_runs": 2,
-      "away_runs": 6,
-      "home_hits": 6,
-      "away_hits": 12,
-      "home_errors": 0,
-      "away_errors": 0
-    },
-    "series": {
-      "game_number": 3,
-      "games_in_series": 3,
-      "description": "Regular Season"
-    },
-    "double_header": "N",
-    "_source": "mlb_statsapi",
-    "classification": "previous",
-    "provider": {
-      "broadcast_name": "Nationals.TV",
-      "is_national": false,
-      "rule_id": "masn_natstv",
-      "label": "MASN+ / Nationals.TV via MLB app",
-      "package": "com.bamnetworks.mobile.android.gameday.atbat",
-      "intent_uri": "mlbatbat://game/{game_pk}",
-      "fallback_uri": "https://www.mlb.com/nationals/tv"
-    },
-    "watch_label": "Game Final"
-  },
+  "last_result": null,
   "all_games": [
-    {
-      "game_pk": 822721,
-      "date": "2026-06-17",
-      "start_time_utc": "2026-06-17T17:05:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "39-36",
-        "score": 2
-      },
-      "away": {
-        "id": 118,
-        "abbrev": "KC",
-        "name": "Kansas City Royals",
-        "short_name": "Royals",
-        "record": "30-45",
-        "score": 6
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 641793,
-          "name": "Zack Littell",
-          "hand": null
-        },
-        "away": {
-          "id": 679883,
-          "name": "Luinder Avila",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Royals.TV",
-          "call_sign": "ROYL",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "96.5 The Fan",
-          "call_sign": "KFNZ 96.5",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Royals Radio Network",
-          "call_sign": "RRN",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 2,
-        "strikes": 2,
-        "outs": 3,
-        "home_runs": 2,
-        "away_runs": 6,
-        "home_hits": 6,
-        "away_hits": 12,
-        "home_errors": 0,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 3,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
     {
       "game_pk": 822966,
       "date": "2026-06-19",
       "start_time_utc": "2026-06-19T23:10:00Z",
       "status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 139,
@@ -798,7 +551,7 @@
         "name": "Tampa Bay Rays",
         "short_name": "Rays",
         "record": "41-30",
-        "score": 0
+        "score": 4
       },
       "away": {
         "id": 120,
@@ -806,7 +559,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "39-36",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 12,
@@ -885,17 +638,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 5,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
         "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "strikes": 2,
+        "outs": 2,
+        "home_runs": 4,
+        "away_runs": 2,
+        "home_hits": 6,
+        "away_hits": 4,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -952,8 +705,8 @@
       "probable_pitchers": {
         "home": null,
         "away": {
-          "id": 571945,
-          "name": "Miles Mikolas",
+          "id": 676917,
+          "name": "Cade Cavalli",
           "hand": null
         }
       },
@@ -1036,7 +789,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822968,
@@ -2455,6 +2208,113 @@
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
       "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 822716,
+      "date": "2026-07-04",
+      "start_time_utc": "2026-07-04T15:05:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": true,
+      "home": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "39-36",
+        "score": null
+      },
+      "away": {
+        "id": 134,
+        "abbrev": "PIT",
+        "name": "Pittsburgh Pirates",
+        "short_name": "Pirates",
+        "record": "38-37",
+        "score": null
+      },
+      "venue": {
+        "id": 3309,
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.872861,
+        "lon": -77.007501
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "SportsNet Pittsburgh",
+          "call_sign": "SNP",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Sports Radio 93.7 KDKA The Fan",
+          "call_sign": "KDKA",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 2,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
     }
   ],
   "standings": {
@@ -3229,6 +3089,18 @@
     "elim_num": "81"
   },
   "notable_injuries": [
+    {
+      "athlete_id": 4308037,
+      "athlete_name": "Cade Cavalli",
+      "short_name": "C. Cavalli",
+      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/4308037.png",
+      "position": "SP",
+      "status_code": "INJURY_STATUS_DAYTODAY",
+      "status_label": "day-to-day",
+      "status_abbrev": "DD",
+      "date": "Jun 19",
+      "description": "Cavalli was scratched from his scheduled start against the Rays on Friday due to an illness."
+    },
     {
       "athlete_id": 4917686,
       "athlete_name": "DJ Herz",
