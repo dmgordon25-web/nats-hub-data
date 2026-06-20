@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-20T20:22:51+00:00",
+  "fetched_at": "2026-06-20T21:48:07+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -129,7 +129,7 @@
       "date": "2026-06-20",
       "start_time_utc": "2026-06-20T20:10:00Z",
       "status": "Live",
-      "detailed_status": "Manager challenge",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 139,
@@ -137,7 +137,7 @@
         "name": "Tampa Bay Rays",
         "short_name": "Rays",
         "record": "42-30",
-        "score": 0
+        "score": 2
       },
       "away": {
         "id": 120,
@@ -145,7 +145,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "39-37",
-        "score": 0
+        "score": 3
       },
       "venue": {
         "id": 12,
@@ -215,17 +215,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 2,
-        "strikes": 1,
-        "outs": 1,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 2,
-        "away_hits": 0,
+        "current_inning": 5,
+        "inning_half": "Top",
+        "inning_state": "Middle",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 3,
+        "home_runs": 2,
+        "away_runs": 3,
+        "home_hits": 6,
+        "away_hits": 7,
         "home_errors": 0,
         "away_errors": 0
       },
