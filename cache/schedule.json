@@ -1,28 +1,28 @@
 {
-  "fetched_at": "2026-06-20T00:21:47+00:00",
+  "fetched_at": "2026-06-20T03:37:33+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
       "game_pk": 822966,
       "date": "2026-06-19",
       "start_time_utc": "2026-06-19T23:10:00Z",
-      "status": "Live",
-      "detailed_status": "In Progress",
+      "status": "Final",
+      "detailed_status": "Final",
       "is_nats_home": false,
       "home": {
         "id": 139,
         "abbrev": "TB",
         "name": "Tampa Bay Rays",
         "short_name": "Rays",
-        "record": "41-30",
-        "score": 4
+        "record": "42-30",
+        "score": 5
       },
       "away": {
         "id": 120,
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-36",
+        "record": "39-37",
         "score": 2
       },
       "venue": {
@@ -53,7 +53,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "Rays.TV",
@@ -62,7 +62,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WDAE 95.7 FM",
@@ -71,7 +71,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WMOR",
@@ -89,7 +89,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WQBN/1300AM",
@@ -98,22 +98,22 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         }
       ],
       "linescore": {
-        "current_inning": 5,
+        "current_inning": 9,
         "inning_half": "Top",
-        "inning_state": "Middle",
+        "inning_state": "Top",
         "is_top_inning": true,
         "balls": 0,
         "strikes": 1,
         "outs": 3,
-        "home_runs": 4,
+        "home_runs": 5,
         "away_runs": 2,
-        "home_hits": 6,
-        "away_hits": 4,
-        "home_errors": 0,
+        "home_hits": 10,
+        "away_hits": 6,
+        "home_errors": 1,
         "away_errors": 0
       },
       "series": {
@@ -136,7 +136,7 @@
         "abbrev": "TB",
         "name": "Tampa Bay Rays",
         "short_name": "Rays",
-        "record": "41-30",
+        "record": "42-30",
         "score": null
       },
       "away": {
@@ -144,7 +144,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-36",
+        "record": "39-37",
         "score": null
       },
       "venue": {
@@ -156,7 +156,11 @@
         "lon": -82.6525
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 693855,
+          "name": "Ian Seymour",
+          "hand": null
+        },
         "away": {
           "id": 676917,
           "name": "Cade Cavalli",
@@ -245,7 +249,7 @@
         "abbrev": "TB",
         "name": "Tampa Bay Rays",
         "short_name": "Rays",
-        "record": "41-30",
+        "record": "42-30",
         "score": null
       },
       "away": {
@@ -253,7 +257,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-36",
+        "record": "39-37",
         "score": null
       },
       "venue": {
@@ -358,7 +362,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-36",
+        "record": "39-37",
         "score": null
       },
       "away": {
@@ -463,7 +467,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-36",
+        "record": "39-37",
         "score": null
       },
       "away": {
@@ -568,7 +572,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-36",
+        "record": "39-37",
         "score": null
       },
       "away": {
@@ -673,7 +677,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-36",
+        "record": "39-37",
         "score": null
       },
       "away": {
@@ -786,7 +790,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-36",
+        "record": "39-37",
         "score": null
       },
       "venue": {
@@ -891,7 +895,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-36",
+        "record": "39-37",
         "score": null
       },
       "venue": {
@@ -996,7 +1000,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-36",
+        "record": "39-37",
         "score": null
       },
       "venue": {
@@ -1101,7 +1105,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-36",
+        "record": "39-37",
         "score": null
       },
       "venue": {
@@ -1215,7 +1219,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-36",
+        "record": "39-37",
         "score": null
       },
       "venue": {
@@ -1329,7 +1333,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-36",
+        "record": "39-37",
         "score": null
       },
       "venue": {
@@ -1435,7 +1439,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-36",
+        "record": "39-37",
         "score": null
       },
       "away": {
@@ -1443,7 +1447,7 @@
         "abbrev": "PIT",
         "name": "Pittsburgh Pirates",
         "short_name": "Pirates",
-        "record": "38-37",
+        "record": "38-38",
         "score": null
       },
       "venue": {
@@ -1531,7 +1535,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-36",
+        "record": "39-37",
         "score": null
       },
       "away": {
@@ -1539,7 +1543,7 @@
         "abbrev": "PIT",
         "name": "Pittsburgh Pirates",
         "short_name": "Pirates",
-        "record": "38-37",
+        "record": "38-38",
         "score": null
       },
       "venue": {
