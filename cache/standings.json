@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-20T18:59:41+00:00",
+  "fetched_at": "2026-06-20T19:58:17+00:00",
   "source": "mlb_statsapi",
   "divisions": [
     {
@@ -436,26 +436,6 @@
       "league": "AL",
       "teams": [
         {
-          "id": 145,
-          "abbrev": "CWS",
-          "name": "Chicago White Sox",
-          "short_name": "White Sox",
-          "wins": 39,
-          "losses": 35,
-          "pct": ".527",
-          "gb": "-",
-          "wc_gb": "-",
-          "streak": "L1",
-          "last_ten": "5-5",
-          "division_rank": 1,
-          "league_rank": 3,
-          "wc_rank": null,
-          "run_diff": 0,
-          "runs_scored": 348,
-          "runs_allowed": 348,
-          "elim_num": "-"
-        },
-        {
           "id": 114,
           "abbrev": "CLE",
           "name": "Cleveland Guardians",
@@ -464,16 +444,36 @@
           "losses": 36,
           "pct": ".526",
           "gb": "-",
-          "wc_gb": "+2.0",
+          "wc_gb": "-",
           "streak": "L1",
           "last_ten": "3-7",
-          "division_rank": 2,
-          "league_rank": 4,
-          "wc_rank": 2,
+          "division_rank": 1,
+          "league_rank": 3,
+          "wc_rank": null,
           "run_diff": -13,
           "runs_scored": 301,
           "runs_allowed": 314,
-          "elim_num": "88"
+          "elim_num": "-"
+        },
+        {
+          "id": 145,
+          "abbrev": "CWS",
+          "name": "Chicago White Sox",
+          "short_name": "White Sox",
+          "wins": 39,
+          "losses": 36,
+          "pct": ".520",
+          "gb": "0.5",
+          "wc_gb": "+1.5",
+          "streak": "L2",
+          "last_ten": "5-5",
+          "division_rank": 2,
+          "league_rank": 4,
+          "wc_rank": 2,
+          "run_diff": -3,
+          "runs_scored": 349,
+          "runs_allowed": 352,
+          "elim_num": "87"
         },
         {
           "id": 142,
@@ -493,7 +493,27 @@
           "run_diff": -28,
           "runs_scored": 368,
           "runs_allowed": 396,
-          "elim_num": "83"
+          "elim_num": "82"
+        },
+        {
+          "id": 116,
+          "abbrev": "DET",
+          "name": "Detroit Tigers",
+          "short_name": "Tigers",
+          "wins": 32,
+          "losses": 44,
+          "pct": ".421",
+          "gb": "8.0",
+          "wc_gb": "6.0",
+          "streak": "W2",
+          "last_ten": "5-5",
+          "division_rank": 4,
+          "league_rank": 12,
+          "wc_rank": 9,
+          "run_diff": -6,
+          "runs_scored": 309,
+          "runs_allowed": 315,
+          "elim_num": "79"
         },
         {
           "id": 118,
@@ -507,33 +527,13 @@
           "wc_gb": "6.5",
           "streak": "W3",
           "last_ten": "4-6",
-          "division_rank": 4,
-          "league_rank": 12,
-          "wc_rank": 9,
-          "run_diff": -42,
-          "runs_scored": 321,
-          "runs_allowed": 363,
-          "elim_num": "79"
-        },
-        {
-          "id": 116,
-          "abbrev": "DET",
-          "name": "Detroit Tigers",
-          "short_name": "Tigers",
-          "wins": 31,
-          "losses": 44,
-          "pct": ".413",
-          "gb": "8.5",
-          "wc_gb": "6.5",
-          "streak": "W1",
-          "last_ten": "5-5",
           "division_rank": 5,
           "league_rank": 13,
           "wc_rank": 10,
-          "run_diff": -9,
-          "runs_scored": 305,
-          "runs_allowed": 314,
-          "elim_num": "80"
+          "run_diff": -42,
+          "runs_scored": 321,
+          "runs_allowed": 363,
+          "elim_num": "78"
         }
       ]
     },
