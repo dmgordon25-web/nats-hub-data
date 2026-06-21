@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-20T22:54:21+00:00",
+  "fetched_at": "2026-06-21T00:11:15+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -128,23 +128,23 @@
       "game_pk": 822967,
       "date": "2026-06-20",
       "start_time_utc": "2026-06-20T20:10:00Z",
-      "status": "Live",
-      "detailed_status": "In Progress",
+      "status": "Final",
+      "detailed_status": "Final",
       "is_nats_home": false,
       "home": {
         "id": 139,
         "abbrev": "TB",
         "name": "Tampa Bay Rays",
         "short_name": "Rays",
-        "record": "42-30",
-        "score": 2
+        "record": "42-31",
+        "score": 3
       },
       "away": {
         "id": 120,
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-37",
+        "record": "40-37",
         "score": 4
       },
       "venue": {
@@ -216,15 +216,15 @@
       ],
       "linescore": {
         "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 2,
-        "strikes": 1,
-        "outs": 1,
-        "home_runs": 2,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 0,
+        "strikes": 3,
+        "outs": 3,
+        "home_runs": 3,
         "away_runs": 4,
-        "home_hits": 9,
+        "home_hits": 10,
         "away_hits": 10,
         "home_errors": 0,
         "away_errors": 0
@@ -249,7 +249,7 @@
         "abbrev": "TB",
         "name": "Tampa Bay Rays",
         "short_name": "Rays",
-        "record": "42-30",
+        "record": "42-31",
         "score": null
       },
       "away": {
@@ -257,7 +257,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-37",
+        "record": "40-37",
         "score": null
       },
       "venue": {
@@ -362,7 +362,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-37",
+        "record": "40-37",
         "score": null
       },
       "away": {
@@ -467,7 +467,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-37",
+        "record": "40-37",
         "score": null
       },
       "away": {
@@ -572,7 +572,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-37",
+        "record": "40-37",
         "score": null
       },
       "away": {
@@ -677,7 +677,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-37",
+        "record": "40-37",
         "score": null
       },
       "away": {
@@ -790,7 +790,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-37",
+        "record": "40-37",
         "score": null
       },
       "venue": {
@@ -895,7 +895,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-37",
+        "record": "40-37",
         "score": null
       },
       "venue": {
@@ -1000,7 +1000,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-37",
+        "record": "40-37",
         "score": null
       },
       "venue": {
@@ -1105,7 +1105,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-37",
+        "record": "40-37",
         "score": null
       },
       "venue": {
@@ -1219,7 +1219,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-37",
+        "record": "40-37",
         "score": null
       },
       "venue": {
@@ -1333,7 +1333,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-37",
+        "record": "40-37",
         "score": null
       },
       "venue": {
@@ -1439,7 +1439,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-37",
+        "record": "40-37",
         "score": null
       },
       "away": {
@@ -1535,7 +1535,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "39-37",
+        "record": "40-37",
         "score": null
       },
       "away": {
@@ -1613,6 +1613,120 @@
       },
       "series": {
         "game_number": 2,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi"
+    },
+    {
+      "game_pk": 822715,
+      "date": "2026-07-05",
+      "start_time_utc": "2026-07-05T17:00:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": true,
+      "home": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "40-37",
+        "score": null
+      },
+      "away": {
+        "id": 134,
+        "abbrev": "PIT",
+        "name": "Pittsburgh Pirates",
+        "short_name": "Pirates",
+        "record": "38-38",
+        "score": null
+      },
+      "venue": {
+        "id": 3309,
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.872861,
+        "lon": -77.007501
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Sports Radio 93.7 KDKA The Fan",
+          "call_sign": "KDKA",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "NBCSN / Peacock",
+          "call_sign": "Peacock",
+          "type": "TV",
+          "language": "en",
+          "is_national": true,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "NBCSN / Peacock",
+          "call_sign": "Peacock",
+          "type": "TV",
+          "language": "en",
+          "is_national": true,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "NBCSN Extra",
+          "call_sign": "NBCSNEXTRA",
+          "type": "TV",
+          "language": "en",
+          "is_national": true,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "NBCSN Extra",
+          "call_sign": "NBCSNEXTRA",
+          "type": "TV",
+          "language": "en",
+          "is_national": true,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 3,
         "games_in_series": 3,
         "description": "Regular Season"
       },
