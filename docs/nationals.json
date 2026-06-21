@@ -1,16 +1,14 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-21T19:56:01+00:00",
+  "fetched_at": "2026-06-21T20:04:13+00:00",
   "freshness": {
-    "schedule": "2026-06-21T19:56:00+00:00",
-    "standings": "2026-06-21T19:56:00+00:00",
-    "injuries": "2026-06-20T10:12:26+00:00",
-    "former_nats": "2026-06-21T15:15:59+00:00",
-    "weather": "2026-06-21T19:56:01+00:00"
+    "schedule": "2026-06-21T20:04:12+00:00",
+    "standings": "2026-06-21T20:04:12+00:00",
+    "injuries": "2026-06-21T20:04:08+00:00",
+    "former_nats": "2026-06-21T20:04:12+00:00",
+    "weather": "2026-06-21T20:04:12+00:00"
   },
-  "stale_sources": [
-    "injuries"
-  ],
+  "stale_sources": [],
   "focus_game": {
     "game_pk": 822968,
     "date": "2026-06-21",
@@ -102,19 +100,19 @@
       }
     ],
     "linescore": {
-      "current_inning": 8,
-      "inning_half": "Bottom",
-      "inning_state": "Bottom",
-      "is_top_inning": false,
-      "balls": 2,
+      "current_inning": 9,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 1,
       "strikes": 2,
-      "outs": 1,
+      "outs": 0,
       "home_runs": 4,
       "away_runs": 3,
       "home_hits": 9,
-      "away_hits": 5,
+      "away_hits": 6,
       "home_errors": 0,
-      "away_errors": 0
+      "away_errors": 1
     },
     "series": {
       "game_number": 3,
@@ -136,7 +134,7 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-21T19:56:01+00:00",
+    "fetched_at": "2026-06-21T20:04:12+00:00",
     "source": "open_meteo",
     "game_pk": 822968,
     "venue_name": "Tropicana Field",
@@ -243,19 +241,19 @@
         }
       ],
       "linescore": {
-        "current_inning": 8,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 2,
+        "current_inning": 9,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 1,
         "strikes": 2,
-        "outs": 1,
+        "outs": 0,
         "home_runs": 4,
         "away_runs": 3,
         "home_hits": 9,
-        "away_hits": 5,
+        "away_hits": 6,
         "home_errors": 0,
-        "away_errors": 0
+        "away_errors": 1
       },
       "series": {
         "game_number": 3,
@@ -990,19 +988,19 @@
         }
       ],
       "linescore": {
-        "current_inning": 8,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 2,
+        "current_inning": 9,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 1,
         "strikes": 2,
-        "outs": 1,
+        "outs": 0,
         "home_runs": 4,
         "away_runs": 3,
         "home_hits": 9,
-        "away_hits": 5,
+        "away_hits": 6,
         "home_errors": 0,
-        "away_errors": 0
+        "away_errors": 1
       },
       "series": {
         "game_number": 3,
@@ -3339,18 +3337,6 @@
   },
   "notable_injuries": [
     {
-      "athlete_id": 4308037,
-      "athlete_name": "Cade Cavalli",
-      "short_name": "C. Cavalli",
-      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/4308037.png",
-      "position": "SP",
-      "status_code": "INJURY_STATUS_DAYTODAY",
-      "status_label": "day-to-day",
-      "status_abbrev": "DD",
-      "date": "Jun 19",
-      "description": "Cavalli was scratched from his scheduled start against the Rays on Friday due to an illness."
-    },
-    {
       "athlete_id": 4917686,
       "athlete_name": "DJ Herz",
       "short_name": "D. Herz",
@@ -3359,8 +3345,20 @@
       "status_code": "INJURY_STATUS_60DAYIL",
       "status_label": "60-day IL",
       "status_abbrev": "IL60",
-      "date": "Jun 11",
-      "description": "Herz (elbow) struck out four batters over three scoreless innings in his second rehab start Thursday in the rookie-level Florida Complex League."
+      "date": "Jun 21",
+      "description": "Nationals manager Blake Butera said that Herz (elbow) won't make a rehab start Sunday with Single-A Fredericksburg as planned after experiencing forearm tightness following his most recent outing Tuesday, Spencer Nusbaum of The Athletic reports."
+    },
+    {
+      "athlete_id": 4414210,
+      "athlete_name": "Jacob Young",
+      "short_name": "J. Young",
+      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/4414210.png",
+      "position": "CF",
+      "status_code": "INJURY_STATUS_DAYTODAY",
+      "status_label": "day-to-day",
+      "status_abbrev": "DD",
+      "date": "Jun 21",
+      "description": "Young is out of the lineup for Sunday's game against the Rays due to right side discomfort."
     },
     {
       "athlete_id": 4189711,
