@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-20T19:58:17+00:00",
+  "fetched_at": "2026-06-21T00:20:57+00:00",
   "source": "mlb_statsapi",
   "players": [
     {
@@ -15,21 +15,21 @@
         "name": "Philadelphia Phillies"
       },
       "season_stats": {
-        "ab": 258,
-        "avg": ".248",
-        "hr": 15,
-        "rbi": 40,
-        "r": 48,
-        "h": 64,
-        "obp": ".360",
-        "slg": ".477",
-        "ops": ".837",
+        "ab": 260,
+        "avg": ".254",
+        "hr": 16,
+        "rbi": 41,
+        "r": 49,
+        "h": 66,
+        "obp": ".364",
+        "slg": ".496",
+        "ops": ".860",
         "sb": 5
       },
       "last_game": {
-        "date": "2026-06-18",
+        "date": "2026-06-20",
         "opponent": "NYM",
-        "line": "0-3"
+        "line": "1-1, 1 HR, 1 RBI"
       },
       "significant_event": null,
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/547180/headshot/67/current"
@@ -47,28 +47,23 @@
         "name": "New York Mets"
       },
       "season_stats": {
-        "ab": 213,
-        "avg": ".300",
+        "ab": 215,
+        "avg": ".302",
         "hr": 17,
         "rbi": 38,
         "r": 36,
-        "h": 64,
+        "h": 65,
         "obp": ".398",
-        "slg": ".582",
-        "ops": ".980",
+        "slg": ".581",
+        "ops": ".979",
         "sb": 6
       },
       "last_game": {
-        "date": "2026-06-18",
+        "date": "2026-06-20",
         "opponent": "PHI",
-        "line": "2-4, 2 HR, 2 RBI"
+        "line": "1-2"
       },
-      "significant_event": {
-        "kind": "multi_hr_game",
-        "summary": "2-HR game",
-        "against_nats": false,
-        "celebrate": true
-      },
+      "significant_event": null,
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/665742/headshot/67/current"
     },
     {
@@ -84,21 +79,21 @@
         "name": "Philadelphia Phillies"
       },
       "season_stats": {
-        "ab": 296,
-        "avg": ".223",
+        "ab": 298,
+        "avg": ".221",
         "hr": 7,
         "rbi": 21,
         "r": 43,
         "h": 66,
-        "obp": ".276",
-        "slg": ".334",
-        "ops": ".610",
+        "obp": ".274",
+        "slg": ".332",
+        "ops": ".606",
         "sb": 15
       },
       "last_game": {
-        "date": "2026-06-18",
+        "date": "2026-06-20",
         "opponent": "NYM",
-        "line": "0-0"
+        "line": "0-2"
       },
       "significant_event": null,
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/607208/headshot/67/current"
@@ -261,13 +256,5 @@
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/607200/headshot/67/current"
     }
   ],
-  "flag_candidates": [
-    {
-      "mlb_id": 665742,
-      "name": "Juan Soto",
-      "summary": "2-HR game",
-      "celebrate": true,
-      "against_nats": false
-    }
-  ]
+  "flag_candidates": []
 }
