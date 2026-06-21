@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-21T16:13:29+00:00",
+  "fetched_at": "2026-06-21T17:57:11+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -241,8 +241,8 @@
       "game_pk": 822968,
       "date": "2026-06-21",
       "start_time_utc": "2026-06-21T17:40:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 139,
@@ -328,10 +328,10 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 2,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "balls": 0,
         "strikes": 0,
         "outs": 0,
@@ -382,7 +382,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 656492,
+          "name": "Foster Griffin",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -487,7 +491,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 641793,
+          "name": "Zack Littell",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -592,7 +600,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 571945,
+          "name": "Miles Mikolas",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -697,7 +709,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 676917,
+          "name": "Cade Cavalli",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
