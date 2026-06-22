@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-22T21:14:50+00:00",
+  "fetched_at": "2026-06-22T22:17:58+00:00",
   "freshness": {
-    "schedule": "2026-06-22T21:14:49+00:00",
-    "standings": "2026-06-22T21:14:49+00:00",
+    "schedule": "2026-06-22T22:17:57+00:00",
+    "standings": "2026-06-22T22:17:57+00:00",
     "injuries": "2026-06-21T20:04:08+00:00",
     "former_nats": "2026-06-22T21:14:49+00:00",
-    "weather": "2026-06-22T21:14:50+00:00"
+    "weather": "2026-06-22T22:17:58+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -16,7 +16,7 @@
     "date": "2026-06-22",
     "start_time_utc": "2026-06-22T22:45:00Z",
     "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "detailed_status": "Delayed Start",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -62,7 +62,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -71,7 +71,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "94 WIP",
@@ -80,7 +80,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -89,7 +89,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "iHeart App",
@@ -98,7 +98,7 @@
         "language": "es",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       }
     ],
     "linescore": {
@@ -133,19 +133,19 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Delayed"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-22T21:14:50+00:00",
+    "fetched_at": "2026-06-22T22:17:58+00:00",
     "source": "open_meteo",
     "game_pk": 822720,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-06-22T23:00",
-    "temperature_f": 74.7,
-    "feels_like_f": 80.5,
-    "wind_mph": 7.6,
-    "wind_dir": "NE",
-    "precip_chance": 46,
+    "temperature_f": 76.0,
+    "feels_like_f": 80.3,
+    "wind_mph": 11.4,
+    "wind_dir": "E",
+    "precip_chance": 71,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -162,7 +162,7 @@
       "date": "2026-06-22",
       "start_time_utc": "2026-06-22T22:45:00Z",
       "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "detailed_status": "Delayed Start",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -208,7 +208,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -217,7 +217,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "94 WIP",
@@ -226,7 +226,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -235,7 +235,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "iHeart App",
@@ -244,7 +244,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
@@ -279,7 +279,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Delayed"
     },
     {
       "game_pk": 822718,
@@ -908,7 +908,7 @@
       "date": "2026-06-22",
       "start_time_utc": "2026-06-22T22:45:00Z",
       "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "detailed_status": "Delayed Start",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -954,7 +954,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -963,7 +963,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "94 WIP",
@@ -972,7 +972,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -981,7 +981,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "iHeart App",
@@ -990,7 +990,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
@@ -1025,7 +1025,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Delayed"
     },
     {
       "game_pk": 822718,
