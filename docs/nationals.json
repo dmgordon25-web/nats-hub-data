@@ -1,14 +1,16 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-21T23:57:40+00:00",
+  "fetched_at": "2026-06-22T00:21:11+00:00",
   "freshness": {
-    "schedule": "2026-06-21T23:57:39+00:00",
-    "standings": "2026-06-21T23:57:39+00:00",
+    "schedule": "2026-06-22T00:21:10+00:00",
+    "standings": "2026-06-22T00:21:11+00:00",
     "injuries": "2026-06-21T20:04:08+00:00",
-    "former_nats": "2026-06-21T20:04:12+00:00",
-    "weather": "2026-06-21T23:57:40+00:00"
+    "former_nats": "2026-06-22T00:21:10+00:00",
+    "weather": "2026-06-22T00:21:11+00:00"
   },
-  "stale_sources": [],
+  "stale_sources": [
+    "injuries"
+  ],
   "focus_game": {
     "game_pk": 822720,
     "date": "2026-06-22",
@@ -127,10 +129,10 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Next Game"
+    "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-21T23:57:40+00:00",
+    "fetched_at": "2026-06-22T00:21:11+00:00",
     "source": "open_meteo",
     "game_pk": 822720,
     "venue_name": "Nationals Park",
@@ -139,17 +141,16 @@
     "feels_like_f": 88.3,
     "wind_mph": 5.7,
     "wind_dir": "SSW",
-    "precip_chance": 29,
+    "precip_chance": 27,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "tonight_home",
-    "category": "tonight_nugget",
-    "weight": 5,
-    "text": "Home game tonight at Nationals Park. The grounds crew has the diamond dialed in.",
-    "trigger": "is_home_game"
+    "id": "stat_nerd_strasburg_postseason",
+    "category": "stat_nerd",
+    "weight": 3,
+    "text": "Stephen Strasburg's career postseason ERA is 1.46. Sometimes the moment is bigger than the regular season."
   },
   "next_three": [
     {
@@ -270,7 +271,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822718,
@@ -647,139 +648,6 @@
   },
   "all_games": [
     {
-      "game_pk": 822966,
-      "date": "2026-06-19",
-      "start_time_utc": "2026-06-19T23:10:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 139,
-        "abbrev": "TB",
-        "name": "Tampa Bay Rays",
-        "short_name": "Rays",
-        "record": "42-30",
-        "score": 5
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "39-37",
-        "score": 2
-      },
-      "venue": {
-        "id": 12,
-        "name": "Tropicana Field",
-        "city": "St. Petersburg",
-        "state": "FL",
-        "lat": 27.767778,
-        "lon": -82.6525
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 643377,
-          "name": "Griffin Jax",
-          "hand": null
-        },
-        "away": {
-          "id": 676571,
-          "name": "PJ Poulin",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Rays.TV",
-          "call_sign": "RAYS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WDAE 95.7 FM",
-          "call_sign": "WDAE",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WMOR",
-          "call_sign": "WMOR",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WQBN/1300AM",
-          "call_sign": "WQBN/1300",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 1,
-        "outs": 3,
-        "home_runs": 5,
-        "away_runs": 2,
-        "home_hits": 10,
-        "away_hits": 6,
-        "home_errors": 1,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
-    {
       "game_pk": 822967,
       "date": "2026-06-20",
       "start_time_utc": "2026-06-20T20:10:00Z",
@@ -1145,7 +1013,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822718,
@@ -2578,6 +2446,122 @@
         "package": "com.peacocktv.peacockandroid",
         "intent_uri": "peacock://livetv",
         "fallback_uri": "https://www.peacocktv.com/"
+      },
+      "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 822712,
+      "date": "2026-07-06",
+      "start_time_utc": "2026-07-06T22:45:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": true,
+      "home": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "40-38",
+        "score": null
+      },
+      "away": {
+        "id": 117,
+        "abbrev": "HOU",
+        "name": "Houston Astros",
+        "short_name": "Astros",
+        "record": "37-42",
+        "score": null
+      },
+      "venue": {
+        "id": 3309,
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.872861,
+        "lon": -77.007501
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "Space City Home Network",
+          "call_sign": "SCHN",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KBME 790 AM/94.5 FM HD-2",
+          "call_sign": "KBME",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KLTN-TUDN 102.9 FM",
+          "call_sign": "TUDN 102.9",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 1,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
       "watch_label": "Next Game"
     }
