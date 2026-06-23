@@ -1,22 +1,20 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-22T23:46:53+00:00",
+  "fetched_at": "2026-06-23T00:20:11+00:00",
   "freshness": {
-    "schedule": "2026-06-22T23:46:52+00:00",
-    "standings": "2026-06-22T23:46:52+00:00",
-    "injuries": "2026-06-21T20:04:08+00:00",
-    "former_nats": "2026-06-22T21:14:49+00:00",
-    "weather": "2026-06-22T23:46:53+00:00"
+    "schedule": "2026-06-23T00:20:09+00:00",
+    "standings": "2026-06-23T00:20:10+00:00",
+    "injuries": "2026-06-23T00:20:02+00:00",
+    "former_nats": "2026-06-23T00:20:09+00:00",
+    "weather": "2026-06-23T00:20:11+00:00"
   },
-  "stale_sources": [
-    "injuries"
-  ],
+  "stale_sources": [],
   "focus_game": {
-    "game_pk": 822718,
-    "date": "2026-06-23",
-    "start_time_utc": "2026-06-23T22:45:00Z",
-    "status": "Preview",
-    "detailed_status": "Scheduled",
+    "game_pk": 822720,
+    "date": "2026-06-22",
+    "start_time_utc": "2026-06-22T22:45:00Z",
+    "status": "Live",
+    "detailed_status": "In Progress",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -24,7 +22,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "40-38",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 143,
@@ -32,7 +30,7 @@
       "name": "Philadelphia Phillies",
       "short_name": "Phillies",
       "record": "42-35",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 3309,
@@ -44,13 +42,13 @@
     },
     "probable_pitchers": {
       "home": {
-        "id": 641793,
-        "name": "Zack Littell",
+        "id": 656492,
+        "name": "Foster Griffin",
         "hand": null
       },
       "away": {
-        "id": 666200,
-        "name": "Jesús Luzardo",
+        "id": 641835,
+        "name": "Tim Mayza",
         "hand": null
       }
     },
@@ -62,7 +60,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -71,7 +69,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "94 WIP",
@@ -80,7 +78,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -89,7 +87,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "iHeart App",
@@ -98,32 +96,32 @@
         "language": "es",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 1,
+      "strikes": 2,
+      "outs": 1,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
-      "game_number": 2,
+      "game_number": 1,
       "games_in_series": 4,
       "description": "Regular Season"
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "Nationals.TV",
       "is_national": false,
@@ -133,36 +131,36 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Next Game"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-22T23:46:53+00:00",
+    "fetched_at": "2026-06-23T00:20:11+00:00",
     "source": "open_meteo",
-    "game_pk": 822718,
+    "game_pk": 822720,
     "venue_name": "Nationals Park",
-    "forecast_at": "2026-06-23T23:00",
-    "temperature_f": 70.5,
-    "feels_like_f": 71.7,
-    "wind_mph": 11.0,
-    "wind_dir": "NNW",
-    "precip_chance": 7,
-    "precip_inches": 0.0,
-    "summary": "Overcast",
+    "forecast_at": "2026-06-23T00:00",
+    "temperature_f": 73.2,
+    "feels_like_f": 79.6,
+    "wind_mph": 5.5,
+    "wind_dir": "SW",
+    "precip_chance": 92,
+    "precip_inches": 0.283,
+    "summary": "Rain",
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "stat_nerd_strasburg_postseason",
-    "category": "stat_nerd",
-    "weight": 3,
-    "text": "Stephen Strasburg's career postseason ERA is 1.46. Sometimes the moment is bigger than the regular season."
+    "id": "tonight_may",
+    "category": "tonight_nugget",
+    "weight": 4,
+    "text": "May baseball. The weather warms up and the standings start to mean something."
   },
   "next_three": [
     {
       "game_pk": 822720,
       "date": "2026-06-22",
       "start_time_utc": "2026-06-22T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Delayed Start",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -252,9 +250,9 @@
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "balls": 1,
+        "strikes": 2,
+        "outs": 1,
         "home_runs": 0,
         "away_runs": 0,
         "home_hits": 0,
@@ -269,7 +267,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -279,7 +277,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Delayed"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822718,
@@ -403,7 +401,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822719,
@@ -656,130 +654,6 @@
   },
   "all_games": [
     {
-      "game_pk": 822967,
-      "date": "2026-06-20",
-      "start_time_utc": "2026-06-20T20:10:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 139,
-        "abbrev": "TB",
-        "name": "Tampa Bay Rays",
-        "short_name": "Rays",
-        "record": "42-31",
-        "score": 3
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "40-37",
-        "score": 4
-      },
-      "venue": {
-        "id": 12,
-        "name": "Tropicana Field",
-        "city": "St. Petersburg",
-        "state": "FL",
-        "lat": 27.767778,
-        "lon": -82.6525
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 693855,
-          "name": "Ian Seymour",
-          "hand": null
-        },
-        "away": {
-          "id": 676917,
-          "name": "Cade Cavalli",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Rays.TV",
-          "call_sign": "RAYS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WDAE 95.7 FM",
-          "call_sign": "WDAE",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WQBN/1300AM",
-          "call_sign": "WQBN/1300",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 0,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 3,
-        "away_runs": 4,
-        "home_hits": 10,
-        "away_hits": 10,
-        "home_errors": 0,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 2,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
-    {
       "game_pk": 822968,
       "date": "2026-06-21",
       "start_time_utc": "2026-06-21T17:40:00Z",
@@ -907,8 +781,8 @@
       "game_pk": 822720,
       "date": "2026-06-22",
       "start_time_utc": "2026-06-22T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Delayed Start",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -998,9 +872,9 @@
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "balls": 1,
+        "strikes": 2,
+        "outs": 1,
         "home_runs": 0,
         "away_runs": 0,
         "home_hits": 0,
@@ -1015,7 +889,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -1025,7 +899,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Delayed"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822718,
@@ -1149,7 +1023,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822719,
@@ -2576,6 +2450,122 @@
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
       "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 822713,
+      "date": "2026-07-07",
+      "start_time_utc": "2026-07-07T22:45:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": true,
+      "home": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "40-38",
+        "score": null
+      },
+      "away": {
+        "id": 117,
+        "abbrev": "HOU",
+        "name": "Houston Astros",
+        "short_name": "Astros",
+        "record": "37-42",
+        "score": null
+      },
+      "venue": {
+        "id": 3309,
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.872861,
+        "lon": -77.007501
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "Space City Home Network",
+          "call_sign": "SCHN",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KBME 790 AM/94.5 FM HD-2",
+          "call_sign": "KBME",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KLTN-TUDN 102.9 FM",
+          "call_sign": "TUDN 102.9",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 2,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
     }
   ],
   "standings": {
@@ -3351,6 +3341,18 @@
   },
   "notable_injuries": [
     {
+      "athlete_id": 41290,
+      "athlete_name": "Jake Irvin",
+      "short_name": "J. Irvin",
+      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/41290.png",
+      "position": "SP",
+      "status_code": "INJURY_STATUS_15DAYIL",
+      "status_label": "15-day IL",
+      "status_abbrev": "IL15",
+      "date": "Jun 22",
+      "description": "Irvin (shoulder) will throw a bullpen session Tuesday, Kyle Williams of TheBanner.com reports."
+    },
+    {
       "athlete_id": 4917686,
       "athlete_name": "DJ Herz",
       "short_name": "D. Herz",
@@ -3359,20 +3361,20 @@
       "status_code": "INJURY_STATUS_60DAYIL",
       "status_label": "60-day IL",
       "status_abbrev": "IL60",
-      "date": "Jun 21",
-      "description": "Nationals manager Blake Butera said that Herz (elbow) won't make a rehab start Sunday with Single-A Fredericksburg as planned after experiencing forearm tightness following his most recent outing Tuesday, Spencer Nusbaum of The Athletic reports."
+      "date": "Jun 22",
+      "description": "Herz (elbow) was diagnosed Monday with a left flexor strain, Kyle Williams of TheBanner.com reports."
     },
     {
-      "athlete_id": 4414210,
-      "athlete_name": "Jacob Young",
-      "short_name": "J. Young",
-      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/4414210.png",
-      "position": "CF",
-      "status_code": "INJURY_STATUS_DAYTODAY",
-      "status_label": "day-to-day",
-      "status_abbrev": "DD",
-      "date": "Jun 21",
-      "description": "Young is out of the lineup for Sunday's game against the Rays due to right side discomfort."
+      "athlete_id": 4684369,
+      "athlete_name": "Max Kranick",
+      "short_name": "M. Kranick",
+      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/4684369.png",
+      "position": "RP",
+      "status_code": "INJURY_STATUS_60DAYIL",
+      "status_label": "60-day IL",
+      "status_abbrev": "IL60",
+      "date": "Jun 22",
+      "description": "Kranick (elbow) began a rehab assignment with Single-A Fredericksburg on Sunday, striking out two over 1.2 perfect innings."
     },
     {
       "athlete_id": 4189711,
@@ -3397,30 +3399,6 @@
       "status_abbrev": "IL60",
       "date": "Jun 5",
       "description": "Williams (elbow) threw a simulated game at Nationals Park ahead of Tuesday's loss to the Marlins, MLB.com reports."
-    },
-    {
-      "athlete_id": 41290,
-      "athlete_name": "Jake Irvin",
-      "short_name": "J. Irvin",
-      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/41290.png",
-      "position": "SP",
-      "status_code": "INJURY_STATUS_15DAYIL",
-      "status_label": "15-day IL",
-      "status_abbrev": "IL15",
-      "date": "Jun 1",
-      "description": "Nationals manager Blake Butera said Monday that Irvin (shoulder) remains shut down from throwing, Mark Zuckerman of NatsJournal.com reports."
-    },
-    {
-      "athlete_id": 4684369,
-      "athlete_name": "Max Kranick",
-      "short_name": "M. Kranick",
-      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/4684369.png",
-      "position": "RP",
-      "status_code": "INJURY_STATUS_60DAYIL",
-      "status_label": "60-day IL",
-      "status_abbrev": "IL60",
-      "date": "May 25",
-      "description": "The Nationals transferred Kranick (elbow) to the 60-day injured list Monday."
     },
     {
       "athlete_id": 41165,
