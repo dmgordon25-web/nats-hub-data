@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-24T20:49:30+00:00",
+  "fetched_at": "2026-06-24T22:05:38+00:00",
   "freshness": {
-    "schedule": "2026-06-24T20:49:29+00:00",
-    "standings": "2026-06-24T20:49:29+00:00",
+    "schedule": "2026-06-24T22:05:37+00:00",
+    "standings": "2026-06-24T22:05:37+00:00",
     "injuries": "2026-06-24T20:11:17+00:00",
     "former_nats": "2026-06-24T20:11:21+00:00",
-    "weather": "2026-06-24T20:49:30+00:00"
+    "weather": "2026-06-24T22:05:38+00:00"
   },
   "stale_sources": [],
   "focus_game": {
@@ -22,7 +22,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "41-39",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 143,
@@ -30,7 +30,7 @@
       "name": "Philadelphia Phillies",
       "short_name": "Phillies",
       "record": "43-36",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 3309,
@@ -60,7 +60,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -69,7 +69,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "94 WIP",
@@ -78,7 +78,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -87,7 +87,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "iHeart App",
@@ -96,23 +96,23 @@
         "language": "es",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
       "game_number": 3,
@@ -131,18 +131,18 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Starts Soon"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-24T20:49:30+00:00",
+    "fetched_at": "2026-06-24T22:05:38+00:00",
     "source": "open_meteo",
     "game_pk": 822719,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-06-24T23:00",
     "temperature_f": 81.5,
-    "feels_like_f": 80.6,
-    "wind_mph": 3.5,
-    "wind_dir": "NW",
+    "feels_like_f": 80.5,
+    "wind_mph": 3.6,
+    "wind_dir": "WNW",
     "precip_chance": 0,
     "precip_inches": 0.0,
     "summary": "Clear",
@@ -169,7 +169,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "41-39",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 143,
@@ -177,7 +177,7 @@
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
         "record": "43-36",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -207,7 +207,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -216,7 +216,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "94 WIP",
@@ -225,7 +225,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -234,7 +234,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "iHeart App",
@@ -243,23 +243,23 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 3,
@@ -278,7 +278,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 822717,
@@ -911,7 +911,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "41-39",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 143,
@@ -919,7 +919,7 @@
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
         "record": "43-36",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -949,7 +949,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -958,7 +958,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "94 WIP",
@@ -967,7 +967,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -976,7 +976,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "iHeart App",
@@ -985,23 +985,23 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 3,
@@ -1020,7 +1020,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 822717,
@@ -1518,7 +1518,7 @@
         "abbrev": "BOS",
         "name": "Boston Red Sox",
         "short_name": "Red Sox",
-        "record": "32-45",
+        "record": "32-46",
         "score": null
       },
       "away": {
@@ -1643,7 +1643,7 @@
         "abbrev": "BOS",
         "name": "Boston Red Sox",
         "short_name": "Red Sox",
-        "record": "32-45",
+        "record": "32-46",
         "score": null
       },
       "away": {
@@ -1768,7 +1768,7 @@
         "abbrev": "BOS",
         "name": "Boston Red Sox",
         "short_name": "Red Sox",
-        "record": "32-45",
+        "record": "32-46",
         "score": null
       },
       "away": {
@@ -2874,19 +2874,19 @@
           "abbrev": "COL",
           "name": "Colorado Rockies",
           "short_name": "Rockies",
-          "wins": 31,
+          "wins": 32,
           "losses": 49,
-          "pct": ".388",
-          "gb": "20.0",
-          "wc_gb": "11.5",
-          "streak": "L1",
-          "last_ten": "5-5",
+          "pct": ".395",
+          "gb": "19.5",
+          "wc_gb": "11.0",
+          "streak": "W1",
+          "last_ten": "6-4",
           "division_rank": 5,
           "league_rank": 15,
           "wc_rank": 12,
-          "run_diff": -92,
-          "runs_scored": 361,
-          "runs_allowed": 453,
+          "run_diff": -90,
+          "runs_scored": 369,
+          "runs_allowed": 459,
           "elim_num": "63"
         }
       ]
@@ -3089,19 +3089,19 @@
           "name": "Boston Red Sox",
           "short_name": "Red Sox",
           "wins": 32,
-          "losses": 45,
-          "pct": ".416",
-          "gb": "14.5",
-          "wc_gb": "6.0",
-          "streak": "W1",
-          "last_ten": "4-6",
+          "losses": 46,
+          "pct": ".410",
+          "gb": "15.0",
+          "wc_gb": "6.5",
+          "streak": "L1",
+          "last_ten": "3-7",
           "division_rank": 5,
           "league_rank": 14,
           "wc_rank": 11,
-          "run_diff": -5,
-          "runs_scored": 301,
-          "runs_allowed": 306,
-          "elim_num": "71"
+          "run_diff": -7,
+          "runs_scored": 307,
+          "runs_allowed": 314,
+          "elim_num": "70"
         }
       ]
     },
