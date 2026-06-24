@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-24T00:10:04+00:00",
+  "fetched_at": "2026-06-24T10:27:37+00:00",
   "source": "mlb_statsapi",
   "players": [
     {
@@ -15,21 +15,21 @@
         "name": "Philadelphia Phillies"
       },
       "season_stats": {
-        "ab": 274,
-        "avg": ".266",
+        "ab": 276,
+        "avg": ".268",
         "hr": 17,
         "rbi": 44,
-        "r": 51,
-        "h": 73,
-        "obp": ".370",
+        "r": 52,
+        "h": 74,
+        "obp": ".371",
         "slg": ".518",
-        "ops": ".888",
+        "ops": ".889",
         "sb": 5
       },
       "last_game": {
         "date": "2026-06-23",
         "opponent": "WSH",
-        "line": "0-3"
+        "line": "1-5"
       },
       "significant_event": null,
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/547180/headshot/67/current"
@@ -47,21 +47,21 @@
         "name": "New York Mets"
       },
       "season_stats": {
-        "ab": 220,
-        "avg": ".300",
+        "ab": 221,
+        "avg": ".299",
         "hr": 17,
         "rbi": 38,
         "r": 36,
         "h": 66,
-        "obp": ".397",
-        "slg": ".573",
-        "ops": ".970",
+        "obp": ".395",
+        "slg": ".570",
+        "ops": ".965",
         "sb": 6
       },
       "last_game": {
         "date": "2026-06-23",
         "opponent": "CHC",
-        "line": "0-1"
+        "line": "0-2"
       },
       "significant_event": null,
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/665742/headshot/67/current"
@@ -79,23 +79,28 @@
         "name": "Philadelphia Phillies"
       },
       "season_stats": {
-        "ab": 311,
-        "avg": ".222",
+        "ab": 314,
+        "avg": ".226",
         "hr": 7,
-        "rbi": 22,
-        "r": 48,
-        "h": 69,
-        "obp": ".275",
-        "slg": ".328",
-        "ops": ".603",
+        "rbi": 23,
+        "r": 49,
+        "h": 71,
+        "obp": ".278",
+        "slg": ".331",
+        "ops": ".609",
         "sb": 15
       },
       "last_game": {
         "date": "2026-06-23",
         "opponent": "WSH",
-        "line": "0-3"
+        "line": "2-6, 1 RBI"
       },
-      "significant_event": null,
+      "significant_event": {
+        "kind": "against_nats",
+        "summary": "2-for-6 vs. Nats",
+        "against_nats": true,
+        "celebrate": true
+      },
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/607208/headshot/67/current"
     },
     {
@@ -111,21 +116,21 @@
         "name": "Minnesota Twins"
       },
       "season_stats": {
-        "ab": 278,
+        "ab": 282,
         "avg": ".248",
         "hr": 9,
-        "rbi": 48,
+        "rbi": 49,
         "r": 40,
-        "h": 69,
-        "obp": ".308",
-        "slg": ".399",
-        "ops": ".707",
+        "h": 70,
+        "obp": ".307",
+        "slg": ".397",
+        "ops": ".704",
         "sb": 1
       },
       "last_game": {
-        "date": "2026-06-22",
+        "date": "2026-06-23",
         "opponent": "LAD",
-        "line": "0-2"
+        "line": "1-4, 1 RBI"
       },
       "significant_event": null,
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/605137/headshot/67/current"
@@ -143,21 +148,21 @@
         "name": "Kansas City Royals"
       },
       "season_stats": {
-        "ab": 167,
-        "avg": ".228",
+        "ab": 169,
+        "avg": ".225",
         "hr": 5,
         "rbi": 22,
         "r": 19,
         "h": 38,
-        "obp": ".345",
-        "slg": ".359",
-        "ops": ".704",
+        "obp": ".342",
+        "slg": ".355",
+        "ops": ".697",
         "sb": 3
       },
       "last_game": {
         "date": "2026-06-23",
         "opponent": "TB",
-        "line": "0-3"
+        "line": "0-5"
       },
       "significant_event": null,
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/657041/headshot/67/current"
@@ -256,5 +261,13 @@
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/607200/headshot/67/current"
     }
   ],
-  "flag_candidates": []
+  "flag_candidates": [
+    {
+      "mlb_id": 607208,
+      "name": "Trea Turner",
+      "summary": "2-for-6 vs. Nats",
+      "celebrate": true,
+      "against_nats": true
+    }
+  ]
 }

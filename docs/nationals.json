@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-24T07:01:57+00:00",
+  "fetched_at": "2026-06-24T10:27:39+00:00",
   "freshness": {
-    "schedule": "2026-06-24T07:01:55+00:00",
-    "standings": "2026-06-24T07:01:56+00:00",
-    "injuries": "2026-06-24T00:10:00+00:00",
-    "former_nats": "2026-06-24T00:10:04+00:00",
-    "weather": "2026-06-24T07:01:57+00:00"
+    "schedule": "2026-06-24T10:27:38+00:00",
+    "standings": "2026-06-24T10:27:38+00:00",
+    "injuries": "2026-06-24T10:27:31+00:00",
+    "former_nats": "2026-06-24T10:27:37+00:00",
+    "weather": "2026-06-24T10:27:39+00:00"
   },
   "stale_sources": [],
   "focus_game": {
@@ -134,15 +134,15 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-24T07:01:57+00:00",
+    "fetched_at": "2026-06-24T10:27:39+00:00",
     "source": "open_meteo",
     "game_pk": 822719,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-06-24T23:00",
-    "temperature_f": 81.6,
-    "feels_like_f": 79.4,
-    "wind_mph": 3.4,
-    "wind_dir": "W",
+    "temperature_f": 81.9,
+    "feels_like_f": 80.4,
+    "wind_mph": 3.0,
+    "wind_dir": "WNW",
     "precip_chance": 0,
     "precip_inches": 0.0,
     "summary": "Clear",
@@ -3326,6 +3326,18 @@
   },
   "notable_injuries": [
     {
+      "athlete_id": 42402,
+      "athlete_name": "CJ Abrams",
+      "short_name": "C. Abrams",
+      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/42402.png",
+      "position": "SS",
+      "status_code": "INJURY_STATUS_DAYTODAY",
+      "status_label": "day-to-day",
+      "status_abbrev": "DD",
+      "date": "Jun 23",
+      "description": "Abrams was scratched from the lineup for Tuesday's game against the Phillies due to left side tightness."
+    },
+    {
       "athlete_id": 41290,
       "athlete_name": "Jake Irvin",
       "short_name": "J. Irvin",
@@ -3398,5 +3410,13 @@
       "description": "Gray (elbow) has resumed a throwing program, Mark Zuckerman of NatsJournal.com reports."
     }
   ],
-  "former_nats_flag_candidates": []
+  "former_nats_flag_candidates": [
+    {
+      "mlb_id": 607208,
+      "name": "Trea Turner",
+      "summary": "2-for-6 vs. Nats",
+      "celebrate": true,
+      "against_nats": true
+    }
+  ]
 }
