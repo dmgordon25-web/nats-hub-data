@@ -1,16 +1,14 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-23T23:43:15+00:00",
+  "fetched_at": "2026-06-24T00:10:06+00:00",
   "freshness": {
-    "schedule": "2026-06-23T23:43:14+00:00",
-    "standings": "2026-06-23T23:43:14+00:00",
-    "injuries": "2026-06-23T00:20:02+00:00",
-    "former_nats": "2026-06-23T20:24:02+00:00",
-    "weather": "2026-06-23T23:43:15+00:00"
+    "schedule": "2026-06-24T00:10:04+00:00",
+    "standings": "2026-06-24T00:10:04+00:00",
+    "injuries": "2026-06-24T00:10:00+00:00",
+    "former_nats": "2026-06-24T00:10:04+00:00",
+    "weather": "2026-06-24T00:10:06+00:00"
   },
-  "stale_sources": [
-    "injuries"
-  ],
+  "stale_sources": [],
   "focus_game": {
     "game_pk": 822718,
     "date": "2026-06-23",
@@ -32,7 +30,7 @@
       "name": "Philadelphia Phillies",
       "short_name": "Phillies",
       "record": "42-36",
-      "score": 0
+      "score": 2
     },
     "venue": {
       "id": 3309,
@@ -102,17 +100,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 4,
+      "current_inning": 6,
       "inning_half": "Bottom",
       "inning_state": "End",
       "is_top_inning": false,
-      "balls": 0,
+      "balls": 1,
       "strikes": 3,
       "outs": 3,
       "home_runs": 5,
-      "away_runs": 0,
+      "away_runs": 2,
       "home_hits": 6,
-      "away_hits": 2,
+      "away_hits": 5,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -136,25 +134,26 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-23T23:43:15+00:00",
+    "fetched_at": "2026-06-24T00:10:06+00:00",
     "source": "open_meteo",
     "game_pk": 822718,
     "venue_name": "Nationals Park",
-    "forecast_at": "2026-06-23T23:00",
-    "temperature_f": 70.4,
-    "feels_like_f": 72.6,
-    "wind_mph": 6.2,
-    "wind_dir": "NNW",
-    "precip_chance": 1,
+    "forecast_at": "2026-06-24T00:00",
+    "temperature_f": 69.3,
+    "feels_like_f": 73.6,
+    "wind_mph": 2.5,
+    "wind_dir": "N",
+    "precip_chance": 0,
     "precip_inches": 0.0,
-    "summary": "Overcast",
+    "summary": "Clear",
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "tonight_may",
+    "id": "tonight_home",
     "category": "tonight_nugget",
-    "weight": 4,
-    "text": "May baseball. The weather warms up and the standings start to mean something."
+    "weight": 5,
+    "text": "Home game tonight at Nationals Park. The grounds crew has the diamond dialed in.",
+    "trigger": "is_home_game"
   },
   "next_three": [
     {
@@ -178,7 +177,7 @@
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
         "record": "42-36",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 3309,
@@ -248,17 +247,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 4,
+        "current_inning": 6,
         "inning_half": "Bottom",
         "inning_state": "End",
         "is_top_inning": false,
-        "balls": 0,
+        "balls": 1,
         "strikes": 3,
         "outs": 3,
         "home_runs": 5,
-        "away_runs": 0,
+        "away_runs": 2,
         "home_hits": 6,
-        "away_hits": 2,
+        "away_hits": 5,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -403,7 +402,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822717,
@@ -656,130 +655,6 @@
   },
   "all_games": [
     {
-      "game_pk": 822968,
-      "date": "2026-06-21",
-      "start_time_utc": "2026-06-21T17:40:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 139,
-        "abbrev": "TB",
-        "name": "Tampa Bay Rays",
-        "short_name": "Rays",
-        "record": "43-31",
-        "score": 4
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "40-38",
-        "score": 3
-      },
-      "venue": {
-        "id": 12,
-        "name": "Tropicana Field",
-        "city": "St. Petersburg",
-        "state": "FL",
-        "lat": 27.767778,
-        "lon": -82.6525
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 607259,
-          "name": "Nick Martinez",
-          "hand": null
-        },
-        "away": {
-          "id": 674841,
-          "name": "Andrew Alvarez",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Rays.TV",
-          "call_sign": "RAYS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WDAE 95.7 FM",
-          "call_sign": "WDAE",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WQBN/1300AM",
-          "call_sign": "WQBN/1300",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 2,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 4,
-        "away_runs": 3,
-        "home_hits": 9,
-        "away_hits": 6,
-        "home_errors": 0,
-        "away_errors": 1
-      },
-      "series": {
-        "game_number": 3,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
-    {
       "game_pk": 822720,
       "date": "2026-06-22",
       "start_time_utc": "2026-06-22T22:45:00Z",
@@ -924,7 +799,7 @@
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
         "record": "42-36",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 3309,
@@ -994,17 +869,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 4,
+        "current_inning": 6,
         "inning_half": "Bottom",
         "inning_state": "End",
         "is_top_inning": false,
-        "balls": 0,
+        "balls": 1,
         "strikes": 3,
         "outs": 3,
         "home_runs": 5,
-        "away_runs": 0,
+        "away_runs": 2,
         "home_hits": 6,
-        "away_hits": 2,
+        "away_hits": 5,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -1149,7 +1024,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822717,
@@ -2357,7 +2232,7 @@
         "abbrev": "HOU",
         "name": "Houston Astros",
         "short_name": "Astros",
-        "record": "37-43",
+        "record": "38-43",
         "score": null
       },
       "venue": {
@@ -2473,7 +2348,7 @@
         "abbrev": "HOU",
         "name": "Houston Astros",
         "short_name": "Astros",
-        "record": "37-43",
+        "record": "38-43",
         "score": null
       },
       "venue": {
@@ -2552,6 +2427,122 @@
       },
       "series": {
         "game_number": 2,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 822710,
+      "date": "2026-07-08",
+      "start_time_utc": "2026-07-08T22:45:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": true,
+      "home": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "41-38",
+        "score": null
+      },
+      "away": {
+        "id": 117,
+        "abbrev": "HOU",
+        "name": "Houston Astros",
+        "short_name": "Astros",
+        "record": "38-43",
+        "score": null
+      },
+      "venue": {
+        "id": 3309,
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.872861,
+        "lon": -77.007501
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "Space City Home Network",
+          "call_sign": "SCHN",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KBME 790 AM/94.5 FM HD-2",
+          "call_sign": "KBME",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KLTN-TUDN 102.9 FM",
+          "call_sign": "TUDN 102.9",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 3,
         "games_in_series": 3,
         "description": "Regular Season"
       },
@@ -3033,7 +3024,7 @@
           "losses": 32,
           "pct": ".573",
           "gb": "2.0",
-          "wc_gb": "+5.5",
+          "wc_gb": "+6.0",
           "streak": "L1",
           "last_ten": "3-7",
           "division_rank": 2,
@@ -3050,19 +3041,19 @@
           "name": "Toronto Blue Jays",
           "short_name": "Blue Jays",
           "wins": 39,
-          "losses": 39,
-          "pct": ".500",
-          "gb": "7.5",
+          "losses": 40,
+          "pct": ".494",
+          "gb": "8.0",
           "wc_gb": "-",
-          "streak": "W2",
+          "streak": "L1",
           "last_ten": "6-4",
           "division_rank": 3,
           "league_rank": 6,
           "wc_rank": 3,
-          "run_diff": -23,
-          "runs_scored": 320,
-          "runs_allowed": 343,
-          "elim_num": "78"
+          "run_diff": -25,
+          "runs_scored": 327,
+          "runs_allowed": 352,
+          "elim_num": "77"
         },
         {
           "id": 110,
@@ -3073,7 +3064,7 @@
           "losses": 42,
           "pct": ".475",
           "gb": "9.5",
-          "wc_gb": "2.0",
+          "wc_gb": "1.5",
           "streak": "W3",
           "last_ten": "5-5",
           "division_rank": 4,
@@ -3093,7 +3084,7 @@
           "losses": 45,
           "pct": ".408",
           "gb": "14.5",
-          "wc_gb": "7.0",
+          "wc_gb": "6.5",
           "streak": "L2",
           "last_ten": "4-6",
           "division_rank": 5,
@@ -3140,7 +3131,7 @@
           "losses": 38,
           "pct": ".519",
           "gb": "-",
-          "wc_gb": "+1.5",
+          "wc_gb": "+2.0",
           "streak": "L2",
           "last_ten": "4-6",
           "division_rank": 2,
@@ -3160,7 +3151,7 @@
           "losses": 42,
           "pct": ".475",
           "gb": "3.5",
-          "wc_gb": "2.0",
+          "wc_gb": "1.5",
           "streak": "L1",
           "last_ten": "7-3",
           "division_rank": 3,
@@ -3180,7 +3171,7 @@
           "losses": 44,
           "pct": ".436",
           "gb": "6.5",
-          "wc_gb": "5.0",
+          "wc_gb": "4.5",
           "streak": "W4",
           "last_ten": "6-4",
           "division_rank": 4,
@@ -3200,7 +3191,7 @@
           "losses": 46,
           "pct": ".418",
           "gb": "8.0",
-          "wc_gb": "6.5",
+          "wc_gb": "6.0",
           "streak": "W1",
           "last_ten": "5-5",
           "division_rank": 5,
@@ -3247,7 +3238,7 @@
           "losses": 40,
           "pct": ".487",
           "gb": "1.5",
-          "wc_gb": "1.0",
+          "wc_gb": "0.5",
           "streak": "L2",
           "last_ten": "5-5",
           "division_rank": 2,
@@ -3267,7 +3258,7 @@
           "losses": 40,
           "pct": ".487",
           "gb": "1.5",
-          "wc_gb": "1.0",
+          "wc_gb": "0.5",
           "streak": "W2",
           "last_ten": "4-6",
           "division_rank": 3,
@@ -3283,19 +3274,19 @@
           "abbrev": "HOU",
           "name": "Houston Astros",
           "short_name": "Astros",
-          "wins": 37,
+          "wins": 38,
           "losses": 43,
-          "pct": ".463",
-          "gb": "3.5",
-          "wc_gb": "3.0",
-          "streak": "L1",
+          "pct": ".469",
+          "gb": "3.0",
+          "wc_gb": "2.0",
+          "streak": "W1",
           "last_ten": "6-4",
           "division_rank": 4,
           "league_rank": 11,
           "wc_rank": 8,
-          "run_diff": -43,
-          "runs_scored": 358,
-          "runs_allowed": 401,
+          "run_diff": -41,
+          "runs_scored": 367,
+          "runs_allowed": 408,
           "elim_num": "80"
         },
         {
@@ -3307,7 +3298,7 @@
           "losses": 48,
           "pct": ".400",
           "gb": "8.5",
-          "wc_gb": "8.0",
+          "wc_gb": "7.5",
           "streak": "L1",
           "last_ten": "4-6",
           "division_rank": 5,
