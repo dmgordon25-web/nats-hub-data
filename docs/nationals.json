@@ -1,20 +1,20 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-24T22:05:38+00:00",
+  "fetched_at": "2026-06-24T23:20:40+00:00",
   "freshness": {
-    "schedule": "2026-06-24T22:05:37+00:00",
-    "standings": "2026-06-24T22:05:37+00:00",
+    "schedule": "2026-06-24T23:20:38+00:00",
+    "standings": "2026-06-24T23:20:39+00:00",
     "injuries": "2026-06-24T20:11:17+00:00",
     "former_nats": "2026-06-24T20:11:21+00:00",
-    "weather": "2026-06-24T22:05:38+00:00"
+    "weather": "2026-06-24T23:20:40+00:00"
   },
   "stale_sources": [],
   "focus_game": {
     "game_pk": 822719,
     "date": "2026-06-24",
     "start_time_utc": "2026-06-24T22:45:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "In Progress",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -22,7 +22,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "41-39",
-      "score": 0
+      "score": 2
     },
     "away": {
       "id": 143,
@@ -100,17 +100,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 1,
-      "inning_half": "Top",
-      "inning_state": "Top",
-      "is_top_inning": true,
+      "current_inning": 2,
+      "inning_half": "Bottom",
+      "inning_state": "End",
+      "is_top_inning": false,
       "balls": 0,
-      "strikes": 0,
-      "outs": 0,
-      "home_runs": 0,
+      "strikes": 3,
+      "outs": 3,
+      "home_runs": 2,
       "away_runs": 0,
-      "home_hits": 0,
-      "away_hits": 0,
+      "home_hits": 2,
+      "away_hits": 1,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -121,7 +121,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "Nationals.TV",
       "is_national": false,
@@ -131,17 +131,17 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Starts Soon"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-24T22:05:38+00:00",
+    "fetched_at": "2026-06-24T23:20:40+00:00",
     "source": "open_meteo",
     "game_pk": 822719,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-06-24T23:00",
-    "temperature_f": 81.5,
-    "feels_like_f": 80.5,
-    "wind_mph": 3.6,
+    "temperature_f": 81.4,
+    "feels_like_f": 79.6,
+    "wind_mph": 4.5,
     "wind_dir": "WNW",
     "precip_chance": 0,
     "precip_inches": 0.0,
@@ -160,8 +160,8 @@
       "game_pk": 822719,
       "date": "2026-06-24",
       "start_time_utc": "2026-06-24T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -169,7 +169,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "41-39",
-        "score": 0
+        "score": 2
       },
       "away": {
         "id": 143,
@@ -247,17 +247,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 2,
+        "inning_half": "Bottom",
+        "inning_state": "End",
+        "is_top_inning": false,
         "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
+        "strikes": 3,
+        "outs": 3,
+        "home_runs": 2,
         "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "home_hits": 2,
+        "away_hits": 1,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -268,7 +268,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -278,7 +278,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822717,
@@ -902,8 +902,8 @@
       "game_pk": 822719,
       "date": "2026-06-24",
       "start_time_utc": "2026-06-24T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -911,7 +911,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "41-39",
-        "score": 0
+        "score": 2
       },
       "away": {
         "id": 143,
@@ -989,17 +989,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 2,
+        "inning_half": "Bottom",
+        "inning_state": "End",
+        "is_top_inning": false,
         "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
+        "strikes": 3,
+        "outs": 3,
+        "home_runs": 2,
         "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "home_hits": 2,
+        "away_hits": 1,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -1010,7 +1010,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -1020,7 +1020,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822717,
