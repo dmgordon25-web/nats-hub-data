@@ -1,14 +1,16 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-25T07:01:57+00:00",
+  "fetched_at": "2026-06-25T10:19:50+00:00",
   "freshness": {
-    "schedule": "2026-06-25T07:01:55+00:00",
-    "standings": "2026-06-25T07:01:56+00:00",
+    "schedule": "2026-06-25T10:19:49+00:00",
+    "standings": "2026-06-25T10:19:49+00:00",
     "injuries": "2026-06-25T00:20:53+00:00",
-    "former_nats": "2026-06-25T00:20:56+00:00",
-    "weather": "2026-06-25T07:01:56+00:00"
+    "former_nats": "2026-06-25T10:19:49+00:00",
+    "weather": "2026-06-25T10:19:50+00:00"
   },
-  "stale_sources": [],
+  "stale_sources": [
+    "injuries"
+  ],
   "focus_game": {
     "game_pk": 822717,
     "date": "2026-06-25",
@@ -134,18 +136,18 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-25T07:01:56+00:00",
+    "fetched_at": "2026-06-25T10:19:50+00:00",
     "source": "open_meteo",
     "game_pk": 822717,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-06-25T23:00",
-    "temperature_f": 85.5,
-    "feels_like_f": 82.4,
-    "wind_mph": 9.7,
+    "temperature_f": 86.3,
+    "feels_like_f": 83.0,
+    "wind_mph": 10.1,
     "wind_dir": "SSE",
-    "precip_chance": 5,
+    "precip_chance": 3,
     "precip_inches": 0.0,
-    "summary": "Clear",
+    "summary": "Overcast",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -3285,5 +3287,13 @@
       "description": "Gray (elbow) has resumed a throwing program, Mark Zuckerman of NatsJournal.com reports."
     }
   ],
-  "former_nats_flag_candidates": []
+  "former_nats_flag_candidates": [
+    {
+      "mlb_id": 607208,
+      "name": "Trea Turner",
+      "summary": "2-for-5 vs. Nats",
+      "celebrate": true,
+      "against_nats": true
+    }
+  ]
 }
