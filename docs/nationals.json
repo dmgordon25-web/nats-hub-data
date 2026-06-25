@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-24T23:20:40+00:00",
+  "fetched_at": "2026-06-25T00:20:57+00:00",
   "freshness": {
-    "schedule": "2026-06-24T23:20:38+00:00",
-    "standings": "2026-06-24T23:20:39+00:00",
-    "injuries": "2026-06-24T20:11:17+00:00",
-    "former_nats": "2026-06-24T20:11:21+00:00",
-    "weather": "2026-06-24T23:20:40+00:00"
+    "schedule": "2026-06-25T00:20:56+00:00",
+    "standings": "2026-06-25T00:20:57+00:00",
+    "injuries": "2026-06-25T00:20:53+00:00",
+    "former_nats": "2026-06-25T00:20:56+00:00",
+    "weather": "2026-06-25T00:20:57+00:00"
   },
   "stale_sources": [],
   "focus_game": {
@@ -30,7 +30,7 @@
       "name": "Philadelphia Phillies",
       "short_name": "Phillies",
       "record": "43-36",
-      "score": 0
+      "score": 3
     },
     "venue": {
       "id": 3309,
@@ -100,18 +100,18 @@
       }
     ],
     "linescore": {
-      "current_inning": 2,
+      "current_inning": 5,
       "inning_half": "Bottom",
-      "inning_state": "End",
+      "inning_state": "Bottom",
       "is_top_inning": false,
       "balls": 0,
-      "strikes": 3,
-      "outs": 3,
+      "strikes": 0,
+      "outs": 2,
       "home_runs": 2,
-      "away_runs": 0,
-      "home_hits": 2,
-      "away_hits": 1,
-      "home_errors": 0,
+      "away_runs": 3,
+      "home_hits": 3,
+      "away_hits": 6,
+      "home_errors": 1,
       "away_errors": 0
     },
     "series": {
@@ -134,26 +134,25 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-24T23:20:40+00:00",
+    "fetched_at": "2026-06-25T00:20:57+00:00",
     "source": "open_meteo",
     "game_pk": 822719,
     "venue_name": "Nationals Park",
-    "forecast_at": "2026-06-24T23:00",
-    "temperature_f": 81.4,
-    "feels_like_f": 79.6,
-    "wind_mph": 4.5,
-    "wind_dir": "WNW",
+    "forecast_at": "2026-06-25T00:00",
+    "temperature_f": 77.9,
+    "feels_like_f": 78.1,
+    "wind_mph": 3.2,
+    "wind_dir": "SW",
     "precip_chance": 0,
     "precip_inches": 0.0,
     "summary": "Clear",
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "tonight_home",
-    "category": "tonight_nugget",
-    "weight": 5,
-    "text": "Home game tonight at Nationals Park. The grounds crew has the diamond dialed in.",
-    "trigger": "is_home_game"
+    "id": "nostalgia_2018_harper_hr_derby",
+    "category": "nostalgia",
+    "weight": 4,
+    "text": "Bryce Harper won the 2018 Home Run Derby at Nationals Park. He hit nineteen in the final round. The crowd did not sit down."
   },
   "next_three": [
     {
@@ -177,7 +176,7 @@
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
         "record": "43-36",
-        "score": 0
+        "score": 3
       },
       "venue": {
         "id": 3309,
@@ -247,18 +246,18 @@
         }
       ],
       "linescore": {
-        "current_inning": 2,
+        "current_inning": 5,
         "inning_half": "Bottom",
-        "inning_state": "End",
+        "inning_state": "Bottom",
         "is_top_inning": false,
         "balls": 0,
-        "strikes": 3,
-        "outs": 3,
+        "strikes": 0,
+        "outs": 2,
         "home_runs": 2,
-        "away_runs": 0,
-        "home_hits": 2,
-        "away_hits": 1,
-        "home_errors": 0,
+        "away_runs": 3,
+        "home_hits": 3,
+        "away_hits": 6,
+        "home_errors": 1,
         "away_errors": 0
       },
       "series": {
@@ -402,7 +401,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 824824,
@@ -416,7 +415,7 @@
         "abbrev": "BAL",
         "name": "Baltimore Orioles",
         "short_name": "Orioles",
-        "record": "38-43",
+        "record": "38-44",
         "score": null
       },
       "away": {
@@ -651,130 +650,6 @@
   },
   "all_games": [
     {
-      "game_pk": 822720,
-      "date": "2026-06-22",
-      "start_time_utc": "2026-06-22T22:45:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "41-38",
-        "score": 4
-      },
-      "away": {
-        "id": 143,
-        "abbrev": "PHI",
-        "name": "Philadelphia Phillies",
-        "short_name": "Phillies",
-        "record": "42-36",
-        "score": 1
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 656492,
-          "name": "Foster Griffin",
-          "hand": null
-        },
-        "away": {
-          "id": 641835,
-          "name": "Tim Mayza",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "NBCSP",
-          "call_sign": "NBCSP",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "94 WIP",
-          "call_sign": "WIP",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "iHeart App",
-          "call_sign": "iHeart App",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 4,
-        "away_runs": 1,
-        "home_hits": 12,
-        "away_hits": 5,
-        "home_errors": 2,
-        "away_errors": 1
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 4,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
-    {
       "game_pk": 822718,
       "date": "2026-06-23",
       "start_time_utc": "2026-06-23T22:45:00Z",
@@ -919,7 +794,7 @@
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
         "record": "43-36",
-        "score": 0
+        "score": 3
       },
       "venue": {
         "id": 3309,
@@ -989,18 +864,18 @@
         }
       ],
       "linescore": {
-        "current_inning": 2,
+        "current_inning": 5,
         "inning_half": "Bottom",
-        "inning_state": "End",
+        "inning_state": "Bottom",
         "is_top_inning": false,
         "balls": 0,
-        "strikes": 3,
-        "outs": 3,
+        "strikes": 0,
+        "outs": 2,
         "home_runs": 2,
-        "away_runs": 0,
-        "home_hits": 2,
-        "away_hits": 1,
-        "home_errors": 0,
+        "away_runs": 3,
+        "home_hits": 3,
+        "away_hits": 6,
+        "home_errors": 1,
         "away_errors": 0
       },
       "series": {
@@ -1144,7 +1019,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 824824,
@@ -1158,7 +1033,7 @@
         "abbrev": "BAL",
         "name": "Baltimore Orioles",
         "short_name": "Orioles",
-        "record": "38-43",
+        "record": "38-44",
         "score": null
       },
       "away": {
@@ -1278,7 +1153,7 @@
         "abbrev": "BAL",
         "name": "Baltimore Orioles",
         "short_name": "Orioles",
-        "record": "38-43",
+        "record": "38-44",
         "score": null
       },
       "away": {
@@ -1398,7 +1273,7 @@
         "abbrev": "BAL",
         "name": "Baltimore Orioles",
         "short_name": "Orioles",
-        "record": "38-43",
+        "record": "38-44",
         "score": null
       },
       "away": {
@@ -3069,19 +2944,19 @@
           "name": "Baltimore Orioles",
           "short_name": "Orioles",
           "wins": 38,
-          "losses": 43,
-          "pct": ".469",
-          "gb": "10.5",
-          "wc_gb": "2.0",
-          "streak": "L1",
+          "losses": 44,
+          "pct": ".463",
+          "gb": "11.0",
+          "wc_gb": "2.5",
+          "streak": "L2",
           "last_ten": "4-6",
           "division_rank": 4,
           "league_rank": 11,
           "wc_rank": 8,
-          "run_diff": -24,
-          "runs_scored": 376,
-          "runs_allowed": 400,
-          "elim_num": "73"
+          "run_diff": -25,
+          "runs_scored": 382,
+          "runs_allowed": 407,
+          "elim_num": "72"
         },
         {
           "id": 111,
@@ -3096,8 +2971,8 @@
           "streak": "L1",
           "last_ten": "3-7",
           "division_rank": 5,
-          "league_rank": 14,
-          "wc_rank": 11,
+          "league_rank": 15,
+          "wc_rank": 12,
           "run_diff": -7,
           "runs_scored": 307,
           "runs_allowed": 314,
@@ -3116,18 +2991,18 @@
           "name": "Chicago White Sox",
           "short_name": "White Sox",
           "wins": 41,
-          "losses": 37,
-          "pct": ".526",
+          "losses": 38,
+          "pct": ".519",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "W2",
+          "streak": "L1",
           "last_ten": "4-6",
           "division_rank": 1,
           "league_rank": 3,
           "wc_rank": null,
-          "run_diff": -2,
-          "runs_scored": 361,
-          "runs_allowed": 363,
+          "run_diff": -3,
+          "runs_scored": 364,
+          "runs_allowed": 367,
           "elim_num": "-"
         },
         {
@@ -3135,19 +3010,19 @@
           "abbrev": "CLE",
           "name": "Cleveland Guardians",
           "short_name": "Guardians",
-          "wins": 41,
+          "wins": 42,
           "losses": 39,
-          "pct": ".513",
-          "gb": "1.0",
-          "wc_gb": "+1.5",
-          "streak": "L3",
+          "pct": ".519",
+          "gb": "-",
+          "wc_gb": "+2.0",
+          "streak": "W1",
           "last_ten": "4-6",
           "division_rank": 2,
           "league_rank": 4,
           "wc_rank": 2,
-          "run_diff": -9,
-          "runs_scored": 316,
-          "runs_allowed": 325,
+          "run_diff": -8,
+          "runs_scored": 320,
+          "runs_allowed": 328,
           "elim_num": "83"
         },
         {
@@ -3158,7 +3033,7 @@
           "wins": 38,
           "losses": 43,
           "pct": ".469",
-          "gb": "4.5",
+          "gb": "4.0",
           "wc_gb": "2.0",
           "streak": "L2",
           "last_ten": "6-4",
@@ -3178,7 +3053,7 @@
           "wins": 34,
           "losses": 45,
           "pct": ".430",
-          "gb": "7.5",
+          "gb": "7.0",
           "wc_gb": "5.0",
           "streak": "L1",
           "last_ten": "5-5",
@@ -3198,7 +3073,7 @@
           "wins": 34,
           "losses": 46,
           "pct": ".425",
-          "gb": "8.0",
+          "gb": "7.5",
           "wc_gb": "5.5",
           "streak": "W2",
           "last_ten": "6-4",
@@ -3302,19 +3177,19 @@
           "abbrev": "LAA",
           "name": "Los Angeles Angels",
           "short_name": "Angels",
-          "wins": 33,
+          "wins": 34,
           "losses": 48,
-          "pct": ".407",
-          "gb": "8.5",
-          "wc_gb": "7.0",
-          "streak": "W1",
-          "last_ten": "4-6",
+          "pct": ".415",
+          "gb": "8.0",
+          "wc_gb": "6.5",
+          "streak": "W2",
+          "last_ten": "5-5",
           "division_rank": 5,
-          "league_rank": 15,
-          "wc_rank": 12,
-          "run_diff": -37,
-          "runs_scored": 367,
-          "runs_allowed": 404,
+          "league_rank": 14,
+          "wc_rank": 11,
+          "run_diff": -36,
+          "runs_scored": 374,
+          "runs_allowed": 410,
           "elim_num": "74"
         }
       ]
@@ -3341,18 +3216,6 @@
     "elim_num": "76"
   },
   "notable_injuries": [
-    {
-      "athlete_id": 42402,
-      "athlete_name": "CJ Abrams",
-      "short_name": "C. Abrams",
-      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/42402.png",
-      "position": "SS",
-      "status_code": "INJURY_STATUS_DAYTODAY",
-      "status_label": "day-to-day",
-      "status_abbrev": "DD",
-      "date": "Jun 23",
-      "description": "Abrams was scratched from the lineup for Tuesday's game against the Phillies due to left side tightness."
-    },
     {
       "athlete_id": 41290,
       "athlete_name": "Jake Irvin",
@@ -3426,13 +3289,5 @@
       "description": "Gray (elbow) has resumed a throwing program, Mark Zuckerman of NatsJournal.com reports."
     }
   ],
-  "former_nats_flag_candidates": [
-    {
-      "mlb_id": 607208,
-      "name": "Trea Turner",
-      "summary": "2-for-6 vs. Nats",
-      "celebrate": true,
-      "against_nats": true
-    }
-  ]
+  "former_nats_flag_candidates": []
 }

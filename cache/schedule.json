@@ -1,120 +1,7 @@
 {
-  "fetched_at": "2026-06-24T23:20:38+00:00",
+  "fetched_at": "2026-06-25T00:20:56+00:00",
   "source": "mlb_statsapi",
   "games": [
-    {
-      "game_pk": 822720,
-      "date": "2026-06-22",
-      "start_time_utc": "2026-06-22T22:45:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "41-38",
-        "score": 4
-      },
-      "away": {
-        "id": 143,
-        "abbrev": "PHI",
-        "name": "Philadelphia Phillies",
-        "short_name": "Phillies",
-        "record": "42-36",
-        "score": 1
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 656492,
-          "name": "Foster Griffin",
-          "hand": null
-        },
-        "away": {
-          "id": 641835,
-          "name": "Tim Mayza",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "NBCSP",
-          "call_sign": "NBCSP",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "94 WIP",
-          "call_sign": "WIP",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "iHeart App",
-          "call_sign": "iHeart App",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 4,
-        "away_runs": 1,
-        "home_hits": 12,
-        "away_hits": 5,
-        "home_errors": 2,
-        "away_errors": 1
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 4,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi"
-    },
     {
       "game_pk": 822718,
       "date": "2026-06-23",
@@ -249,7 +136,7 @@
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
         "record": "43-36",
-        "score": 0
+        "score": 3
       },
       "venue": {
         "id": 3309,
@@ -319,18 +206,18 @@
         }
       ],
       "linescore": {
-        "current_inning": 2,
+        "current_inning": 5,
         "inning_half": "Bottom",
-        "inning_state": "End",
+        "inning_state": "Bottom",
         "is_top_inning": false,
         "balls": 0,
-        "strikes": 3,
-        "outs": 3,
+        "strikes": 0,
+        "outs": 2,
         "home_runs": 2,
-        "away_runs": 0,
-        "home_hits": 2,
-        "away_hits": 1,
-        "home_errors": 0,
+        "away_runs": 3,
+        "home_hits": 3,
+        "away_hits": 6,
+        "home_errors": 1,
         "away_errors": 0
       },
       "series": {
@@ -466,7 +353,7 @@
         "abbrev": "BAL",
         "name": "Baltimore Orioles",
         "short_name": "Orioles",
-        "record": "38-43",
+        "record": "38-44",
         "score": null
       },
       "away": {
@@ -575,7 +462,7 @@
         "abbrev": "BAL",
         "name": "Baltimore Orioles",
         "short_name": "Orioles",
-        "record": "38-43",
+        "record": "38-44",
         "score": null
       },
       "away": {
@@ -684,7 +571,7 @@
         "abbrev": "BAL",
         "name": "Baltimore Orioles",
         "short_name": "Orioles",
-        "record": "38-43",
+        "record": "38-44",
         "score": null
       },
       "away": {
