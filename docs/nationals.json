@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-26T00:00:35+00:00",
+  "fetched_at": "2026-06-26T01:29:00+00:00",
   "freshness": {
-    "schedule": "2026-06-26T00:00:24+00:00",
-    "standings": "2026-06-26T00:00:24+00:00",
+    "schedule": "2026-06-26T01:28:58+00:00",
+    "standings": "2026-06-26T01:28:59+00:00",
     "injuries": "2026-06-25T15:44:27+00:00",
-    "former_nats": "2026-06-25T20:23:15+00:00",
-    "weather": "2026-06-26T00:00:35+00:00"
+    "former_nats": "2026-06-26T01:28:58+00:00",
+    "weather": "2026-06-26T01:29:00+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -32,7 +32,7 @@
       "name": "Philadelphia Phillies",
       "short_name": "Phillies",
       "record": "44-36",
-      "score": 0
+      "score": 5
     },
     "venue": {
       "id": 3309,
@@ -102,17 +102,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 4,
-      "inning_half": "Bottom",
-      "inning_state": "Bottom",
-      "is_top_inning": false,
-      "balls": 2,
+      "current_inning": 9,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
       "strikes": 0,
-      "outs": 2,
+      "outs": 0,
       "home_runs": 5,
-      "away_runs": 0,
-      "home_hits": 6,
-      "away_hits": 2,
+      "away_runs": 5,
+      "home_hits": 8,
+      "away_hits": 8,
       "home_errors": 0,
       "away_errors": 2
     },
@@ -136,15 +136,15 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-26T00:00:35+00:00",
+    "fetched_at": "2026-06-26T01:29:00+00:00",
     "source": "open_meteo",
     "game_pk": 822717,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-06-26T00:00",
-    "temperature_f": 82.9,
-    "feels_like_f": 82.7,
-    "wind_mph": 6.2,
-    "wind_dir": "SSE",
+    "temperature_f": 83.1,
+    "feels_like_f": 83.4,
+    "wind_mph": 6.7,
+    "wind_dir": "S",
     "precip_chance": 1,
     "precip_inches": 0.0,
     "summary": "Clear",
@@ -178,7 +178,7 @@
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
         "record": "44-36",
-        "score": 0
+        "score": 5
       },
       "venue": {
         "id": 3309,
@@ -248,17 +248,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 4,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 2,
+        "current_inning": 9,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
         "strikes": 0,
-        "outs": 2,
+        "outs": 0,
         "home_runs": 5,
-        "away_runs": 0,
-        "home_hits": 6,
-        "away_hits": 2,
+        "away_runs": 5,
+        "home_hits": 8,
+        "away_hits": 8,
         "home_errors": 0,
         "away_errors": 2
       },
@@ -800,7 +800,7 @@
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
         "record": "44-36",
-        "score": 0
+        "score": 5
       },
       "venue": {
         "id": 3309,
@@ -870,17 +870,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 4,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 2,
+        "current_inning": 9,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
         "strikes": 0,
-        "outs": 2,
+        "outs": 0,
         "home_runs": 5,
-        "away_runs": 0,
-        "home_hits": 6,
-        "away_hits": 2,
+        "away_runs": 5,
+        "home_hits": 8,
+        "away_hits": 8,
         "home_errors": 0,
         "away_errors": 2
       },
@@ -2009,7 +2009,7 @@
         "abbrev": "HOU",
         "name": "Houston Astros",
         "short_name": "Astros",
-        "record": "39-43",
+        "record": "40-43",
         "score": null
       },
       "venue": {
@@ -2125,7 +2125,7 @@
         "abbrev": "HOU",
         "name": "Houston Astros",
         "short_name": "Astros",
-        "record": "39-43",
+        "record": "40-43",
         "score": null
       },
       "venue": {
@@ -2241,7 +2241,7 @@
         "abbrev": "HOU",
         "name": "Houston Astros",
         "short_name": "Astros",
-        "record": "39-43",
+        "record": "40-43",
         "score": null
       },
       "venue": {
@@ -3079,19 +3079,19 @@
           "name": "Detroit Tigers",
           "short_name": "Tigers",
           "wins": 34,
-          "losses": 46,
-          "pct": ".425",
-          "gb": "7.5",
-          "wc_gb": "5.0",
-          "streak": "L2",
+          "losses": 47,
+          "pct": ".420",
+          "gb": "8.0",
+          "wc_gb": "5.5",
+          "streak": "L3",
           "last_ten": "5-5",
           "division_rank": 4,
           "league_rank": 12,
           "wc_rank": 9,
-          "run_diff": -6,
-          "runs_scored": 324,
-          "runs_allowed": 330,
-          "elim_num": "76"
+          "run_diff": -7,
+          "runs_scored": 325,
+          "runs_allowed": 332,
+          "elim_num": "75"
         },
         {
           "id": 118,
@@ -3141,6 +3141,26 @@
           "elim_num": "-"
         },
         {
+          "id": 117,
+          "abbrev": "HOU",
+          "name": "Houston Astros",
+          "short_name": "Astros",
+          "wins": 40,
+          "losses": 43,
+          "pct": ".482",
+          "gb": "1.5",
+          "wc_gb": "0.5",
+          "streak": "W3",
+          "last_ten": "7-3",
+          "division_rank": 2,
+          "league_rank": 7,
+          "wc_rank": 4,
+          "run_diff": -38,
+          "runs_scored": 372,
+          "runs_allowed": 410,
+          "elim_num": "79"
+        },
+        {
           "id": 133,
           "abbrev": "ATH",
           "name": "Athletics",
@@ -3152,33 +3172,13 @@
           "wc_gb": "0.5",
           "streak": "W1",
           "last_ten": "4-6",
-          "division_rank": 2,
-          "league_rank": 7,
-          "wc_rank": 4,
+          "division_rank": 3,
+          "league_rank": 8,
+          "wc_rank": 5,
           "run_diff": -54,
           "runs_scored": 375,
           "runs_allowed": 429,
           "elim_num": "80"
-        },
-        {
-          "id": 117,
-          "abbrev": "HOU",
-          "name": "Houston Astros",
-          "short_name": "Astros",
-          "wins": 39,
-          "losses": 43,
-          "pct": ".476",
-          "gb": "2.0",
-          "wc_gb": "1.0",
-          "streak": "W2",
-          "last_ten": "6-4",
-          "division_rank": 3,
-          "league_rank": 8,
-          "wc_rank": 5,
-          "run_diff": -39,
-          "runs_scored": 370,
-          "runs_allowed": 409,
-          "elim_num": "79"
         },
         {
           "id": 140,
