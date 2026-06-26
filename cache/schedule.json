@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-26T01:28:58+00:00",
+  "fetched_at": "2026-06-26T03:38:26+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -119,15 +119,15 @@
       "game_pk": 822717,
       "date": "2026-06-25",
       "start_time_utc": "2026-06-25T22:45:00Z",
-      "status": "Live",
-      "detailed_status": "In Progress",
+      "status": "Final",
+      "detailed_status": "Final",
       "is_nats_home": true,
       "home": {
         "id": 120,
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "41-40",
+        "record": "41-41",
         "score": 5
       },
       "away": {
@@ -135,8 +135,8 @@
         "abbrev": "PHI",
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
-        "record": "44-36",
-        "score": 5
+        "record": "45-36",
+        "score": 10
       },
       "venue": {
         "id": 3309,
@@ -166,7 +166,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "Nationals.TV",
@@ -175,7 +175,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "94 WIP",
@@ -184,7 +184,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -193,7 +193,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "iHeart App",
@@ -202,21 +202,21 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         }
       ],
       "linescore": {
         "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 1,
+        "strikes": 2,
+        "outs": 3,
         "home_runs": 5,
-        "away_runs": 5,
+        "away_runs": 10,
         "home_hits": 8,
-        "away_hits": 8,
+        "away_hits": 13,
         "home_errors": 0,
         "away_errors": 2
       },
@@ -248,7 +248,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "41-40",
+        "record": "41-41",
         "score": null
       },
       "venue": {
@@ -361,7 +361,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "41-40",
+        "record": "41-41",
         "score": null
       },
       "venue": {
@@ -474,7 +474,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "41-40",
+        "record": "41-41",
         "score": null
       },
       "venue": {
@@ -579,7 +579,7 @@
         "abbrev": "BOS",
         "name": "Boston Red Sox",
         "short_name": "Red Sox",
-        "record": "32-46",
+        "record": "33-46",
         "score": null
       },
       "away": {
@@ -587,7 +587,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "41-40",
+        "record": "41-41",
         "score": null
       },
       "venue": {
@@ -693,7 +693,7 @@
         "abbrev": "BOS",
         "name": "Boston Red Sox",
         "short_name": "Red Sox",
-        "record": "32-46",
+        "record": "33-46",
         "score": null
       },
       "away": {
@@ -701,7 +701,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "41-40",
+        "record": "41-41",
         "score": null
       },
       "venue": {
@@ -807,7 +807,7 @@
         "abbrev": "BOS",
         "name": "Boston Red Sox",
         "short_name": "Red Sox",
-        "record": "32-46",
+        "record": "33-46",
         "score": null
       },
       "away": {
@@ -815,7 +815,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "41-40",
+        "record": "41-41",
         "score": null
       },
       "venue": {
@@ -921,7 +921,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "41-40",
+        "record": "41-41",
         "score": null
       },
       "away": {
@@ -1017,7 +1017,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "41-40",
+        "record": "41-41",
         "score": null
       },
       "away": {
@@ -1113,7 +1113,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "41-40",
+        "record": "41-41",
         "score": null
       },
       "away": {
@@ -1227,7 +1227,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "41-40",
+        "record": "41-41",
         "score": null
       },
       "away": {
@@ -1332,7 +1332,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "41-40",
+        "record": "41-41",
         "score": null
       },
       "away": {
@@ -1437,7 +1437,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "41-40",
+        "record": "41-41",
         "score": null
       },
       "away": {
@@ -1542,7 +1542,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "41-40",
+        "record": "41-41",
         "score": null
       },
       "away": {
@@ -1550,7 +1550,7 @@
         "abbrev": "NYY",
         "name": "New York Yankees",
         "short_name": "Yankees",
-        "record": "48-31",
+        "record": "48-32",
         "score": null
       },
       "venue": {
