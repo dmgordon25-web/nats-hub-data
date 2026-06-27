@@ -1,16 +1,14 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-27T06:41:33+00:00",
+  "fetched_at": "2026-06-27T09:34:26+00:00",
   "freshness": {
-    "schedule": "2026-06-27T06:41:32+00:00",
-    "standings": "2026-06-27T06:41:32+00:00",
-    "injuries": "2026-06-26T20:11:38+00:00",
-    "former_nats": "2026-06-27T00:19:08+00:00",
-    "weather": "2026-06-27T06:41:32+00:00"
+    "schedule": "2026-06-27T09:34:25+00:00",
+    "standings": "2026-06-27T09:34:25+00:00",
+    "injuries": "2026-06-27T09:34:20+00:00",
+    "former_nats": "2026-06-27T09:34:25+00:00",
+    "weather": "2026-06-27T09:34:26+00:00"
   },
-  "stale_sources": [
-    "injuries"
-  ],
+  "stale_sources": [],
   "focus_game": {
     "game_pk": 824825,
     "date": "2026-06-27",
@@ -136,16 +134,16 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-27T06:41:32+00:00",
+    "fetched_at": "2026-06-27T09:34:26+00:00",
     "source": "open_meteo",
     "game_pk": 824825,
     "venue_name": "Oriole Park at Camden Yards",
     "forecast_at": "2026-06-27T23:00",
-    "temperature_f": 75.6,
-    "feels_like_f": 83.7,
-    "wind_mph": 2.1,
+    "temperature_f": 78.2,
+    "feels_like_f": 85.5,
+    "wind_mph": 4.6,
     "wind_dir": "ENE",
-    "precip_chance": 20,
+    "precip_chance": 18,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -3238,6 +3236,18 @@
   },
   "notable_injuries": [
     {
+      "athlete_id": 33305,
+      "athlete_name": "Trevor Williams",
+      "short_name": "T. Williams",
+      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/33305.png",
+      "position": "SP",
+      "status_code": "INJURY_STATUS_60DAYIL",
+      "status_label": "60-day IL",
+      "status_abbrev": "IL60",
+      "date": "Jun 26",
+      "description": "Williams (elbow) will begin a rehab assignment with Single-A Fredericksburg on Sunday, Mark Zuckerman of NatsJournal.com reports."
+    },
+    {
       "athlete_id": 41290,
       "athlete_name": "Jake Irvin",
       "short_name": "J. Irvin",
@@ -3284,18 +3294,6 @@
       "status_abbrev": "IL60",
       "date": "Jun 11",
       "description": "Waldichuk (elbow) underwent Tommy John surgery and an internal brace procedure April 21 and is hopeful to return to game action at some point early in the 2027 season, Mark Zuckerman of MASNSports.com reports."
-    },
-    {
-      "athlete_id": 33305,
-      "athlete_name": "Trevor Williams",
-      "short_name": "T. Williams",
-      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/33305.png",
-      "position": "SP",
-      "status_code": "INJURY_STATUS_60DAYIL",
-      "status_label": "60-day IL",
-      "status_abbrev": "IL60",
-      "date": "Jun 5",
-      "description": "Williams (elbow) threw a simulated game at Nationals Park ahead of Tuesday's loss to the Marlins, MLB.com reports."
     },
     {
       "athlete_id": 41165,
