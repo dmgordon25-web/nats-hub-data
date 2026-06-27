@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-27T21:18:10+00:00",
+  "fetched_at": "2026-06-27T22:33:06+00:00",
   "freshness": {
-    "schedule": "2026-06-27T21:18:09+00:00",
-    "standings": "2026-06-27T21:18:09+00:00",
+    "schedule": "2026-06-27T22:33:05+00:00",
+    "standings": "2026-06-27T22:33:05+00:00",
     "injuries": "2026-06-27T09:34:20+00:00",
     "former_nats": "2026-06-27T19:46:14+00:00",
-    "weather": "2026-06-27T21:18:10+00:00"
+    "weather": "2026-06-27T22:33:06+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -62,7 +62,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -71,7 +71,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -80,7 +80,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "98 Rock 97.9 FM",
@@ -89,7 +89,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WBAL 1090 AM",
@@ -133,18 +133,18 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Starts Soon"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-27T21:18:10+00:00",
+    "fetched_at": "2026-06-27T22:33:06+00:00",
     "source": "open_meteo",
     "game_pk": 824825,
     "venue_name": "Oriole Park at Camden Yards",
     "forecast_at": "2026-06-27T23:00",
-    "temperature_f": 75.3,
-    "feels_like_f": 82.8,
-    "wind_mph": 5.6,
-    "wind_dir": "NNW",
+    "temperature_f": 76.1,
+    "feels_like_f": 83.9,
+    "wind_mph": 6.0,
+    "wind_dir": "NE",
     "precip_chance": 54,
     "precip_inches": 0.071,
     "summary": "Rain showers",
@@ -208,7 +208,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -217,7 +217,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -226,7 +226,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "98 Rock 97.9 FM",
@@ -235,7 +235,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WBAL 1090 AM",
@@ -279,7 +279,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 824821,
@@ -955,7 +955,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -964,7 +964,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -973,7 +973,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "98 Rock 97.9 FM",
@@ -982,7 +982,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WBAL 1090 AM",
@@ -1026,7 +1026,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 824821,
@@ -2928,7 +2928,7 @@
           "losses": 33,
           "pct": ".582",
           "gb": "0.5",
-          "wc_gb": "+7.5",
+          "wc_gb": "+7.0",
           "streak": "W3",
           "last_ten": "5-5",
           "division_rank": 2,
@@ -2945,19 +2945,19 @@
           "name": "Toronto Blue Jays",
           "short_name": "Blue Jays",
           "wins": 39,
-          "losses": 43,
-          "pct": ".476",
-          "gb": "9.0",
-          "wc_gb": "1.0",
-          "streak": "L4",
-          "last_ten": "5-5",
+          "losses": 44,
+          "pct": ".470",
+          "gb": "9.5",
+          "wc_gb": "2.0",
+          "streak": "L5",
+          "last_ten": "4-6",
           "division_rank": 3,
-          "league_rank": 9,
-          "wc_rank": 6,
-          "run_diff": -29,
-          "runs_scored": 337,
-          "runs_allowed": 366,
-          "elim_num": "72"
+          "league_rank": 10,
+          "wc_rank": 7,
+          "run_diff": -32,
+          "runs_scored": 341,
+          "runs_allowed": 373,
+          "elim_num": "71"
         },
         {
           "id": 110,
@@ -2968,12 +2968,12 @@
           "losses": 44,
           "pct": ".470",
           "gb": "9.5",
-          "wc_gb": "1.5",
+          "wc_gb": "2.0",
           "streak": "W1",
           "last_ten": "5-5",
           "division_rank": 4,
-          "league_rank": 10,
-          "wc_rank": 7,
+          "league_rank": 11,
+          "wc_rank": 8,
           "run_diff": -23,
           "runs_scored": 385,
           "runs_allowed": 408,
@@ -2988,7 +2988,7 @@
           "losses": 46,
           "pct": ".432",
           "gb": "12.5",
-          "wc_gb": "4.5",
+          "wc_gb": "5.0",
           "streak": "W3",
           "last_ten": "6-4",
           "division_rank": 5,
@@ -3035,7 +3035,7 @@
           "losses": 40,
           "pct": ".512",
           "gb": "1.0",
-          "wc_gb": "+2.0",
+          "wc_gb": "+1.5",
           "streak": "L1",
           "last_ten": "3-7",
           "division_rank": 2,
@@ -3055,12 +3055,12 @@
           "losses": 44,
           "pct": ".470",
           "gb": "4.5",
-          "wc_gb": "1.5",
+          "wc_gb": "2.0",
           "streak": "W1",
           "last_ten": "6-4",
           "division_rank": 3,
-          "league_rank": 11,
-          "wc_rank": 8,
+          "league_rank": 9,
+          "wc_rank": 6,
           "run_diff": -28,
           "runs_scored": 404,
           "runs_allowed": 432,
@@ -3075,7 +3075,7 @@
           "losses": 48,
           "pct": ".422",
           "gb": "8.5",
-          "wc_gb": "5.5",
+          "wc_gb": "6.0",
           "streak": "L1",
           "last_ten": "5-5",
           "division_rank": 4,
@@ -3095,7 +3095,7 @@
           "losses": 49,
           "pct": ".410",
           "gb": "9.5",
-          "wc_gb": "6.5",
+          "wc_gb": "7.0",
           "streak": "L3",
           "last_ten": "5-5",
           "division_rank": 5,
@@ -3134,6 +3134,26 @@
           "elim_num": "-"
         },
         {
+          "id": 140,
+          "abbrev": "TEX",
+          "name": "Texas Rangers",
+          "short_name": "Rangers",
+          "wins": 41,
+          "losses": 42,
+          "pct": ".494",
+          "gb": "1.0",
+          "wc_gb": "-",
+          "streak": "W3",
+          "last_ten": "6-4",
+          "division_rank": 2,
+          "league_rank": 6,
+          "wc_rank": 3,
+          "run_diff": -9,
+          "runs_scored": 337,
+          "runs_allowed": 346,
+          "elim_num": "79"
+        },
+        {
           "id": 133,
           "abbrev": "ATH",
           "name": "Athletics",
@@ -3142,35 +3162,15 @@
           "losses": 42,
           "pct": ".488",
           "gb": "1.5",
-          "wc_gb": "-",
+          "wc_gb": "0.5",
           "streak": "W2",
           "last_ten": "4-6",
-          "division_rank": 2,
-          "league_rank": 6,
-          "wc_rank": 3,
-          "run_diff": -48,
-          "runs_scored": 384,
-          "runs_allowed": 432,
-          "elim_num": "79"
-        },
-        {
-          "id": 140,
-          "abbrev": "TEX",
-          "name": "Texas Rangers",
-          "short_name": "Rangers",
-          "wins": 40,
-          "losses": 42,
-          "pct": ".488",
-          "gb": "1.5",
-          "wc_gb": "-",
-          "streak": "W2",
-          "last_ten": "5-5",
           "division_rank": 3,
           "league_rank": 7,
           "wc_rank": 4,
-          "run_diff": -12,
-          "runs_scored": 330,
-          "runs_allowed": 342,
+          "run_diff": -48,
+          "runs_scored": 384,
+          "runs_allowed": 432,
           "elim_num": "79"
         },
         {
@@ -3182,7 +3182,7 @@
           "losses": 44,
           "pct": ".482",
           "gb": "2.0",
-          "wc_gb": "0.5",
+          "wc_gb": "1.0",
           "streak": "W1",
           "last_ten": "7-3",
           "division_rank": 4,
@@ -3202,7 +3202,7 @@
           "losses": 49,
           "pct": ".410",
           "gb": "8.0",
-          "wc_gb": "6.5",
+          "wc_gb": "7.0",
           "streak": "L1",
           "last_ten": "5-5",
           "division_rank": 5,
