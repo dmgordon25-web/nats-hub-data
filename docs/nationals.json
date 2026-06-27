@@ -1,14 +1,16 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-27T00:11:37+00:00",
+  "fetched_at": "2026-06-27T00:19:09+00:00",
   "freshness": {
-    "schedule": "2026-06-27T00:11:36+00:00",
-    "standings": "2026-06-27T00:11:36+00:00",
+    "schedule": "2026-06-27T00:19:08+00:00",
+    "standings": "2026-06-27T00:19:08+00:00",
     "injuries": "2026-06-26T20:11:38+00:00",
-    "former_nats": "2026-06-26T20:11:46+00:00",
-    "weather": "2026-06-27T00:11:37+00:00"
+    "former_nats": "2026-06-27T00:19:08+00:00",
+    "weather": "2026-06-27T00:19:09+00:00"
   },
-  "stale_sources": [],
+  "stale_sources": [
+    "injuries"
+  ],
   "focus_game": {
     "game_pk": 824824,
     "date": "2026-06-26",
@@ -100,17 +102,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 4,
-      "inning_half": "Bottom",
-      "inning_state": "Bottom",
-      "is_top_inning": false,
+      "current_inning": 5,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
       "balls": 0,
       "strikes": 0,
-      "outs": 2,
+      "outs": 1,
       "home_runs": 2,
       "away_runs": 0,
-      "home_hits": 5,
-      "away_hits": 2,
+      "home_hits": 6,
+      "away_hits": 3,
       "home_errors": 1,
       "away_errors": 0
     },
@@ -134,7 +136,7 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-27T00:11:37+00:00",
+    "fetched_at": "2026-06-27T00:19:09+00:00",
     "source": "open_meteo",
     "game_pk": 824824,
     "venue_name": "Oriole Park at Camden Yards",
@@ -246,17 +248,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 4,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
+        "current_inning": 5,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
         "balls": 0,
         "strikes": 0,
-        "outs": 2,
+        "outs": 1,
         "home_runs": 2,
         "away_runs": 0,
-        "home_hits": 5,
-        "away_hits": 2,
+        "home_hits": 6,
+        "away_hits": 3,
         "home_errors": 1,
         "away_errors": 0
       },
@@ -868,17 +870,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 4,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
+        "current_inning": 5,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
         "balls": 0,
         "strikes": 0,
-        "outs": 2,
+        "outs": 1,
         "home_runs": 2,
         "away_runs": 0,
-        "home_hits": 5,
-        "away_hits": 2,
+        "home_hits": 6,
+        "away_hits": 3,
         "home_errors": 1,
         "away_errors": 0
       },
@@ -3307,13 +3309,5 @@
       "description": "Gray (elbow) has resumed a throwing program, Mark Zuckerman of NatsJournal.com reports."
     }
   ],
-  "former_nats_flag_candidates": [
-    {
-      "mlb_id": 607208,
-      "name": "Trea Turner",
-      "summary": "2-for-5 vs. Nats",
-      "celebrate": true,
-      "against_nats": true
-    }
-  ]
+  "former_nats_flag_candidates": []
 }
