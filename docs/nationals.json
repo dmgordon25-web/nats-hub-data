@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-28T15:20:19+00:00",
+  "fetched_at": "2026-06-28T16:43:02+00:00",
   "freshness": {
-    "schedule": "2026-06-28T15:20:18+00:00",
-    "standings": "2026-06-28T15:20:18+00:00",
+    "schedule": "2026-06-28T16:43:01+00:00",
+    "standings": "2026-06-28T16:43:02+00:00",
     "injuries": "2026-06-27T09:34:20+00:00",
     "former_nats": "2026-06-28T14:56:07+00:00",
-    "weather": "2026-06-28T15:20:19+00:00"
+    "weather": "2026-06-28T16:43:02+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -62,7 +62,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -71,7 +71,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -80,7 +80,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "98 Rock 97.9 FM",
@@ -89,7 +89,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WBAL 1090 AM",
@@ -133,19 +133,19 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Starts Soon"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-28T15:20:19+00:00",
+    "fetched_at": "2026-06-28T16:43:02+00:00",
     "source": "open_meteo",
     "game_pk": 824821,
     "venue_name": "Oriole Park at Camden Yards",
     "forecast_at": "2026-06-28T18:00",
-    "temperature_f": 73.6,
-    "feels_like_f": 80.9,
-    "wind_mph": 1.5,
-    "wind_dir": "ENE",
-    "precip_chance": 18,
+    "temperature_f": 75.4,
+    "feels_like_f": 81.7,
+    "wind_mph": 3.2,
+    "wind_dir": "NE",
+    "precip_chance": 14,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -208,7 +208,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -217,7 +217,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -226,7 +226,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "98 Rock 97.9 FM",
@@ -235,7 +235,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WBAL 1090 AM",
@@ -279,7 +279,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 824741,
@@ -314,7 +314,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 571945,
+          "name": "Miles Mikolas",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -439,7 +443,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 676917,
+          "name": "Cade Cavalli",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -956,7 +964,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -965,7 +973,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -974,7 +982,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "98 Rock 97.9 FM",
@@ -983,7 +991,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WBAL 1090 AM",
@@ -1027,7 +1035,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 824741,
@@ -1062,7 +1070,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 571945,
+          "name": "Miles Mikolas",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1187,7 +1199,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 676917,
+          "name": "Cade Cavalli",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1312,7 +1328,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 674841,
+          "name": "Andrew Alvarez",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
