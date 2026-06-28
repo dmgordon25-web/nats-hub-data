@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-28T19:47:01+00:00",
+  "fetched_at": "2026-06-28T20:42:17+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -232,23 +232,23 @@
       "game_pk": 824821,
       "date": "2026-06-28",
       "start_time_utc": "2026-06-28T17:35:00Z",
-      "status": "Live",
-      "detailed_status": "In Progress",
+      "status": "Final",
+      "detailed_status": "Game Over",
       "is_nats_home": false,
       "home": {
         "id": 110,
         "abbrev": "BAL",
         "name": "Baltimore Orioles",
         "short_name": "Orioles",
-        "record": "39-45",
-        "score": 2
+        "record": "39-46",
+        "score": 4
       },
       "away": {
         "id": 120,
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "42-42",
+        "record": "43-42",
         "score": 6
       },
       "venue": {
@@ -319,17 +319,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 7,
-        "inning_half": "Top",
-        "inning_state": "Middle",
-        "is_top_inning": true,
+        "current_inning": 9,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "balls": 1,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 3,
-        "home_runs": 2,
+        "home_runs": 4,
         "away_runs": 6,
-        "home_hits": 3,
-        "away_hits": 5,
+        "home_hits": 5,
+        "away_hits": 7,
         "home_errors": 1,
         "away_errors": 0
       },
@@ -361,7 +361,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "42-42",
+        "record": "43-42",
         "score": null
       },
       "venue": {
@@ -373,7 +373,11 @@
         "lon": -71.097441
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 624133,
+          "name": "Ranger Suarez",
+          "hand": null
+        },
         "away": {
           "id": 571945,
           "name": "Miles Mikolas",
@@ -479,7 +483,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "42-42",
+        "record": "43-42",
         "score": null
       },
       "venue": {
@@ -491,7 +495,11 @@
         "lon": -71.097441
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 813349,
+          "name": "Connelly Early",
+          "hand": null
+        },
         "away": {
           "id": 676917,
           "name": "Cade Cavalli",
@@ -597,7 +605,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "42-42",
+        "record": "43-42",
         "score": null
       },
       "venue": {
@@ -609,7 +617,11 @@
         "lon": -71.097441
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 801139,
+          "name": "Payton Tolle",
+          "hand": null
+        },
         "away": {
           "id": 674841,
           "name": "Andrew Alvarez",
@@ -707,7 +719,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "42-42",
+        "record": "43-42",
         "score": null
       },
       "away": {
@@ -803,7 +815,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "42-42",
+        "record": "43-42",
         "score": null
       },
       "away": {
@@ -899,7 +911,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "42-42",
+        "record": "43-42",
         "score": null
       },
       "away": {
@@ -1013,7 +1025,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "42-42",
+        "record": "43-42",
         "score": null
       },
       "away": {
@@ -1118,7 +1130,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "42-42",
+        "record": "43-42",
         "score": null
       },
       "away": {
@@ -1223,7 +1235,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "42-42",
+        "record": "43-42",
         "score": null
       },
       "away": {
@@ -1328,7 +1340,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "42-42",
+        "record": "43-42",
         "score": null
       },
       "away": {
@@ -1451,7 +1463,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "42-42",
+        "record": "43-42",
         "score": null
       },
       "away": {
@@ -1556,7 +1568,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "42-42",
+        "record": "43-42",
         "score": null
       },
       "away": {
