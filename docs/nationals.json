@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-28T16:43:02+00:00",
+  "fetched_at": "2026-06-28T17:53:39+00:00",
   "freshness": {
-    "schedule": "2026-06-28T16:43:01+00:00",
-    "standings": "2026-06-28T16:43:02+00:00",
+    "schedule": "2026-06-28T17:53:38+00:00",
+    "standings": "2026-06-28T17:53:38+00:00",
     "injuries": "2026-06-27T09:34:20+00:00",
     "former_nats": "2026-06-28T14:56:07+00:00",
-    "weather": "2026-06-28T16:43:02+00:00"
+    "weather": "2026-06-28T17:53:39+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -15,8 +15,8 @@
     "game_pk": 824821,
     "date": "2026-06-28",
     "start_time_utc": "2026-06-28T17:35:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "In Progress",
     "is_nats_home": false,
     "home": {
       "id": 110,
@@ -24,7 +24,7 @@
       "name": "Baltimore Orioles",
       "short_name": "Orioles",
       "record": "39-45",
-      "score": 0
+      "score": 2
     },
     "away": {
       "id": 120,
@@ -103,15 +103,15 @@
     ],
     "linescore": {
       "current_inning": 1,
-      "inning_half": "Top",
-      "inning_state": "Top",
-      "is_top_inning": true,
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0,
-      "home_runs": 0,
+      "inning_half": "Bottom",
+      "inning_state": "End",
+      "is_top_inning": false,
+      "balls": 2,
+      "strikes": 2,
+      "outs": 3,
+      "home_runs": 2,
       "away_runs": 0,
-      "home_hits": 0,
+      "home_hits": 2,
       "away_hits": 0,
       "home_errors": 0,
       "away_errors": 0
@@ -123,7 +123,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "MASN",
       "is_national": false,
@@ -133,19 +133,19 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Starts Soon"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-28T16:43:02+00:00",
+    "fetched_at": "2026-06-28T17:53:39+00:00",
     "source": "open_meteo",
     "game_pk": 824821,
     "venue_name": "Oriole Park at Camden Yards",
     "forecast_at": "2026-06-28T18:00",
-    "temperature_f": 75.4,
-    "feels_like_f": 81.7,
-    "wind_mph": 3.2,
-    "wind_dir": "NE",
-    "precip_chance": 14,
+    "temperature_f": 72.9,
+    "feels_like_f": 79.9,
+    "wind_mph": 1.8,
+    "wind_dir": "N",
+    "precip_chance": 11,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -161,8 +161,8 @@
       "game_pk": 824821,
       "date": "2026-06-28",
       "start_time_utc": "2026-06-28T17:35:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 110,
@@ -170,7 +170,7 @@
         "name": "Baltimore Orioles",
         "short_name": "Orioles",
         "record": "39-45",
-        "score": 0
+        "score": 2
       },
       "away": {
         "id": 120,
@@ -249,15 +249,15 @@
       ],
       "linescore": {
         "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
+        "inning_half": "Bottom",
+        "inning_state": "End",
+        "is_top_inning": false,
+        "balls": 2,
+        "strikes": 2,
+        "outs": 3,
+        "home_runs": 2,
         "away_runs": 0,
-        "home_hits": 0,
+        "home_hits": 2,
         "away_hits": 0,
         "home_errors": 0,
         "away_errors": 0
@@ -269,7 +269,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "MASN",
         "is_national": false,
@@ -279,7 +279,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 824741,
@@ -917,8 +917,8 @@
       "game_pk": 824821,
       "date": "2026-06-28",
       "start_time_utc": "2026-06-28T17:35:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 110,
@@ -926,7 +926,7 @@
         "name": "Baltimore Orioles",
         "short_name": "Orioles",
         "record": "39-45",
-        "score": 0
+        "score": 2
       },
       "away": {
         "id": 120,
@@ -1005,15 +1005,15 @@
       ],
       "linescore": {
         "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
+        "inning_half": "Bottom",
+        "inning_state": "End",
+        "is_top_inning": false,
+        "balls": 2,
+        "strikes": 2,
+        "outs": 3,
+        "home_runs": 2,
         "away_runs": 0,
-        "home_hits": 0,
+        "home_hits": 2,
         "away_hits": 0,
         "home_errors": 0,
         "away_errors": 0
@@ -1025,7 +1025,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "MASN",
         "is_national": false,
@@ -1035,7 +1035,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 824741,

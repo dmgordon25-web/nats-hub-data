@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-28T16:43:01+00:00",
+  "fetched_at": "2026-06-28T17:53:38+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -232,8 +232,8 @@
       "game_pk": 824821,
       "date": "2026-06-28",
       "start_time_utc": "2026-06-28T17:35:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 110,
@@ -241,7 +241,7 @@
         "name": "Baltimore Orioles",
         "short_name": "Orioles",
         "record": "39-45",
-        "score": 0
+        "score": 2
       },
       "away": {
         "id": 120,
@@ -320,15 +320,15 @@
       ],
       "linescore": {
         "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
+        "inning_half": "Bottom",
+        "inning_state": "End",
+        "is_top_inning": false,
+        "balls": 2,
+        "strikes": 2,
+        "outs": 3,
+        "home_runs": 2,
         "away_runs": 0,
-        "home_hits": 0,
+        "home_hits": 2,
         "away_hits": 0,
         "home_errors": 0,
         "away_errors": 0
