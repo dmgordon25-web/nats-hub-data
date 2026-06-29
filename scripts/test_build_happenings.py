@@ -230,11 +230,15 @@ class PayloadTests(unittest.TestCase):
     def setUp(self):
         self._orig_http = bh.http_get_text
         self._orig_enrich = bh.falkor_enrich
+        self._orig_og = bh.og_image
         bh.http_get_text = _fake_http_get_text
+        # og:image hits the network per story — stub it (one test overrides this).
+        bh.og_image = lambda url: None
 
     def tearDown(self):
         bh.http_get_text = self._orig_http
         bh.falkor_enrich = self._orig_enrich
+        bh.og_image = self._orig_og
 
     def test_rss_fallback_schema_and_honesty(self):
         bh.falkor_enrich = lambda *a, **k: None
@@ -271,11 +275,13 @@ class PayloadTests(unittest.TestCase):
         self.assertTrue(wim)
         for s in wim:
             self.assertTrue(s["why_it_matters"]["ai_generated"])
-        # Trending clusters trace to cited source_urls (no fabrication).
+        # Trending clusters trace to cited source_urls (no fabrication) and carry
+        # a real headline as context (not a bare tag).
         self.assertTrue(p["trending"])
         for t in p["trending"]:
             self.assertTrue(t["source_urls"], "trending item must cite sources")
             self.assertNotIn(t["label"].lower(), bh.GENERIC_TAG_KEYS)  # generic dropped
+            self.assertIn(t["context"], [s["title"] for s in p["top_stories"]])  # cited headline
         # AI disclosures lifted, but fan_vibes (no sentiment primitive) stays disclosed
         # AND is never labeled ai_generated even in falkor_enriched mode.
         disclosed = {d["id"] for d in p["limited_sources"]}
@@ -375,6 +381,25 @@ class PayloadTests(unittest.TestCase):
         p = bh.build_payload(SOURCES, flagged, None, None, "rss_fallback", now=NOW)
         self.assertEqual(p["team_pulse"]["result_banner"]["type"], "none")
         self.assertIn("schedule", {d["id"] for d in p["limited_sources"]})
+
+    def test_story_images_attached(self):
+        # Pics: each fresh story gets a best-effort og:image thumbnail.
+        bh.og_image = lambda url: "https://img.example.com/og.jpg"
+        bh.falkor_enrich = lambda *a, **k: None
+        p = bh.build_payload(SOURCES, NATIONALS_JSON, None, None, "rss_fallback", now=NOW)
+        self.assertTrue(p["top_stories"])
+        for s in p["top_stories"]:
+            self.assertEqual(s["image_url"], "https://img.example.com/og.jpg")
+
+    def test_trending_merges_substring_variants(self):
+        # "Orioles" and "Baltimore Orioles" collapse into one cited cluster.
+        enr = dict(ENRICHED, tags=["Orioles", "Baltimore Orioles", "Nationals"])
+        bh.falkor_enrich = lambda *a, **k: dict(enr)
+        p = bh.build_payload(SOURCES, NATIONALS_JSON, None, None, "falkor_enriched", now=NOW)
+        labels = [t["label"].lower() for t in p["trending"]]
+        self.assertNotIn("nationals", labels)  # generic dropped
+        orioles = [t for t in p["trending"] if "orioles" in t["label"].lower()]
+        self.assertEqual(len(orioles), 1, "Orioles variants should merge to one cluster")
 
 
 if __name__ == "__main__":
