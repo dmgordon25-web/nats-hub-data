@@ -18,8 +18,12 @@ permissions:
   contents: write
   actions: write  # required for the final 'gh workflow run' publish dispatch
 
+# Share the SAME concurrency group as poll-frequent/poll-daily so the poll jobs
+# serialize (one at a time) and never race each other's push to main. A separate
+# group let this job run while poll-frequent was mid-push → non-fast-forward
+# rejection and a lost refresh.
 concurrency:
-  group: poll-happenings
+  group: poll
   cancel-in-progress: false
 
 jobs:
@@ -53,7 +57,14 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "chore(data): happenings refresh @ $(date -u +%FT%TZ)"
-            git push
+            # Belt-and-suspenders even with the shared concurrency group: rebase
+            # onto any advance of main, then push, retrying a few times.
+            pushed=false
+            for i in 1 2 3; do
+              if git pull --rebase origin main && git push; then pushed=true; break; fi
+              echo "push attempt $i failed; retrying…"; sleep 5
+            done
+            if [ "$pushed" != "true" ]; then echo "push failed after retries" >&2; exit 1; fi
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 

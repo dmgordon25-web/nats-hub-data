@@ -49,7 +49,7 @@ import argparse
 import logging
 import os
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from typing import Any
 from xml.etree import ElementTree as ET
@@ -147,13 +147,23 @@ def _localname(tag: str) -> str:
     return tag.rsplit("}", 1)[-1]
 
 
-def parse_news_feed(xml_text: str, source_name: str) -> list[dict[str, Any]]:
-    """Parse an RSS 2.0 or Atom news feed into normalized story dicts."""
+def parse_news_feed(xml_text: str, source_name: str) -> list[dict[str, Any]] | None:
+    """Parse an RSS 2.0 or Atom news feed into normalized story dicts.
+
+    Returns a list (possibly empty for a valid feed with no items) on success,
+    or None when the body is not parseable feed XML (e.g. a 200-OK error page).
+    Callers MUST treat None as a failed fetch — not a valid empty feed — so a
+    bad body never blanks a section that has good last-good content."""
     try:
         root = ET.fromstring(xml_text)
     except ET.ParseError as e:
         log.warning("%s: XML parse error: %s", source_name, e)
-        return []
+        return None
+    # A 200-OK error page can be well-formed XML/XHTML that isn't a feed at all
+    # (root <html>). Treat anything that isn't an RSS/Atom root as a failed fetch.
+    if _localname(root.tag).lower() not in ("rss", "feed"):
+        log.warning("%s: body is not a feed (root=%s)", source_name, _localname(root.tag))
+        return None
 
     items: list[dict[str, Any]] = []
 
@@ -217,13 +227,19 @@ def parse_news_feed(xml_text: str, source_name: str) -> list[dict[str, Any]]:
     return items
 
 
-def parse_video_feed(xml_text: str, source_name: str) -> list[dict[str, Any]]:
-    """Parse a YouTube channel Atom feed into normalized video dicts."""
+def parse_video_feed(xml_text: str, source_name: str) -> list[dict[str, Any]] | None:
+    """Parse a YouTube channel Atom feed into normalized video dicts.
+
+    Returns a list (possibly empty) on success, or None when the body is not
+    parseable XML (treated as a failed fetch, not a valid empty feed)."""
     try:
         root = ET.fromstring(xml_text)
     except ET.ParseError as e:
         log.warning("%s: video XML parse error: %s", source_name, e)
-        return []
+        return None
+    if _localname(root.tag).lower() != "feed":  # YouTube feeds are Atom <feed>
+        log.warning("%s: video body is not an Atom feed (root=%s)", source_name, _localname(root.tag))
+        return None
 
     videos: list[dict[str, Any]] = []
     for entry in root.findall("atom:entry", _NS):
@@ -365,11 +381,14 @@ def gather_news(sources: dict[str, Any]) -> dict[str, Any]:
         for feed in feeds.get(kind) or []:
             fid, name, url = feed.get("id"), feed.get("name"), feed.get("url")
             xml = http_get_text(url, label=f"feed {fid}")
-            if xml is None:
+            parsed = parse_news_feed(xml, name) if xml is not None else None
+            if parsed is None:
+                # No body, or a 200 that wasn't valid feed XML → a failed fetch,
+                # NOT a valid empty feed. Don't mark live, so build_payload can
+                # fall back to last-good instead of blanking the section.
                 source_rows.append({"id": fid, "name": name, "last_updated_at": None, "status": "timed_out"})
                 continue
             any_live = True
-            parsed = parse_news_feed(xml, name)
             # team feeds: keep all; league feeds: keep only Nationals-relevant.
             if kind == "league":
                 parsed = [p for p in parsed if is_nationals(f"{p.get('title','')} {p.get('summary','')}", keywords)]
@@ -396,11 +415,12 @@ def gather_videos(sources: dict[str, Any]) -> dict[str, Any]:
         for feed in feeds.get(kind) or []:
             fid, name, url = feed.get("id"), feed.get("name"), feed.get("url")
             xml = http_get_text(url, label=f"video {fid}")
-            if xml is None:
+            parsed = parse_video_feed(xml, name) if xml is not None else None
+            if parsed is None:
+                # Failed fetch or unparseable body (not a valid empty feed).
                 source_rows.append({"id": fid, "name": name, "last_updated_at": None, "status": "timed_out"})
                 continue
             any_live = True
-            parsed = parse_video_feed(xml, name)
             if kind == "league":
                 parsed = [p for p in parsed if is_nationals(f"{p.get('title','')} {p.get('summary','')}", keywords)]
             source_rows.append({"id": fid, "name": name, "last_updated_at": now_iso(), "status": "live"})
@@ -442,6 +462,29 @@ def _weekday(date_str: str | None) -> str | None:
         return datetime.strptime(date_str[:10], "%Y-%m-%d").strftime("%A")
     except ValueError:
         return None
+
+
+def _parse_iso(value: str | None) -> datetime | None:
+    try:
+        dt = datetime.fromisoformat((value or "").replace("Z", "+00:00"))
+    except (TypeError, ValueError):
+        return None
+    return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+
+
+def schedule_is_current(natl: dict[str, Any], now: datetime, max_age_hours: int = 36) -> bool:
+    """Whether nationals.json's schedule data reflects 'now'.
+
+    Team Pulse / What to Watch are copied from nationals.json. If that payload
+    is being served from last-good cache (normalize flagged it, or it hasn't
+    refreshed recently), those sections would show weeks-old games as the current
+    pulse. Gate + disclose instead of silently presenting stale games as live."""
+    if "schedule" in (natl.get("stale_sources") or []):
+        return False
+    fetched = _parse_iso(natl.get("fetched_at"))
+    if fetched is None:
+        return False
+    return (now - fetched) <= timedelta(hours=max_age_hours)
 
 
 def build_team_pulse(natl: dict[str, Any], storyline: dict[str, Any] | None) -> dict[str, Any]:
@@ -529,13 +572,17 @@ def build_payload(
     history: dict[str, Any] | None,
     prev: dict[str, Any] | None,
     requested_mode: str,
+    now: datetime | None = None,
 ) -> dict[str, Any]:
     """Assemble the full happenings.json payload from already-loaded inputs.
 
     Pulled out of main() so it is unit-testable: gather_news/gather_videos call
     the module-level http_get_text, and enrichment calls falkor_enrich — tests
-    monkeypatch those rather than hitting the network.
+    monkeypatch those rather than hitting the network. `now` is injectable so the
+    schedule-freshness gate is deterministic in tests.
     """
+    if now is None:
+        now = datetime.now(timezone.utc)
     # 1) News + videos (with per-section last-good).
     news = gather_news(sources)
     vids = gather_videos(sources)
@@ -553,7 +600,9 @@ def build_payload(
         # Every news feed failed → fall back to last-good news (never blank).
         top_stories = (prev or {}).get("top_stories", []) if prev else []
         freshness["news"] = (prev or {}).get("freshness", {}).get("news") if prev else None
-        for row in source_rows:
+        # Only the NEWS source rows go not_current — video rows keep their own
+        # (possibly live) status. (news["sources"] are the same dicts in source_rows.)
+        for row in news["sources"]:
             if row.get("status") == "live":
                 row["status"] = "not_current"
         limited.append({"id": "news", "reason": "last_check_too_old"})
@@ -623,8 +672,19 @@ def build_payload(
     freshness["vibes"] = None
 
     # 4) Sections derived from the existing nationals.json + curated content.
-    team_pulse = build_team_pulse(natl, storyline)
-    what_to_watch = build_what_to_watch(natl)
+    #    Team Pulse (the Curly W banner) and What to Watch copy live games from
+    #    nationals.json. If that payload is stale, gate them + disclose rather
+    #    than presenting weeks-old games as the current pulse. The AI storyline
+    #    is grounded in fresh news, so it survives even when the schedule doesn't.
+    if schedule_is_current(natl, now):
+        team_pulse = build_team_pulse(natl, storyline)
+        what_to_watch = build_what_to_watch(natl)
+    else:
+        team_pulse = {"result_banner": {"type": "none", "text": ""}}
+        if storyline and storyline.get("text"):
+            team_pulse["storyline"] = {"text": storyline["text"], "ai_generated": True}
+        what_to_watch = []
+        limited.append({"id": "schedule", "reason": "schedule_not_current"})
     on_this_day = build_on_this_day(history)
     player_spotlight = build_player_spotlight(history)
 
