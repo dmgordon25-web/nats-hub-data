@@ -16,10 +16,38 @@ https://dmgordon25-web.github.io/nats-hub-data/
 ├── former_nats.json   # Former-Nats tracker (also embedded in nationals.json)
 ├── providers.json     # Provider routing rules (app caches, refreshes daily)
 ├── tidbits.json       # Curated content pack
+├── happenings.json    # "Nats Nation" page: news, videos, team pulse, what-to-watch
 └── version.json       # App auto-update check
 ```
 
 The TV app's primary network call is to `nationals.json`. Everything else is lazy-loaded.
+
+## Nats Nation page (`happenings.json`)
+
+`happenings.json` powers the app's **Nats Nation** page (news, highlight videos,
+team pulse, what-to-watch, trending). It is a **fully separate, additive** artifact —
+it never touches `nationals.json`, `normalize.py`, or the existing fetchers. It's built
+by `scripts/build_happenings.py` in one of two honest modes:
+
+| Mode | Where it runs | News/videos | AI enrichment |
+|---|---|---|---|
+| `rss_fallback` *(default)* | GitHub Actions **and** locally | Official public RSS only | None — `why_it_matters` / `trending` / `fan_vibes` omitted and **disclosed** in the provenance footer |
+| `falkor_enriched` | **Locally only** (Dustin's box, where Falkor loopback is reachable) | Same official RSS | Per-article AI via Falkor `POST /api/falkor/ingestors/enrich`: `why_it_matters` + `trending` topic tags, every item **labeled `ai_generated` and cited** |
+
+```bash
+python scripts/build_happenings.py                       # rss_fallback (cloud-safe)
+python scripts/build_happenings.py --mode falkor_enriched # local; uses Falkor enrich
+python scripts/test_build_happenings.py                  # unit tests (offline)
+```
+
+**Honesty rules (enforced by `test_build_happenings.py`):** news/videos come from real,
+cited official feeds only — no scraping, no social-media scraping, no invented
+posts/quotes/counts. Every AI-touched field carries `ai_generated:true`; curated fields
+(`on_this_day`, `player_spotlight`) carry `curated:true`. A bad fetch never blanks the page
+(per-section last-good). `fan_vibes` sentiment is **always disclosed unavailable** — the
+sanctioned Falkor enrich endpoint emits no sentiment polarity, so we never fabricate one.
+Sources, feeds, and curated facts are hand-editable in `content/happenings_sources.json`
+and `content/nats_history.json`.
 
 ## Repo layout
 
@@ -32,18 +60,23 @@ nats-hub-data/
 │   ├── fetch_injuries.py    # ESPN HTML scrape (embedded JSON block)
 │   ├── fetch_former_nats.py # MLB stats API for tracked ex-Nationals
 │   ├── fetch_weather.py     # Open-Meteo for next ballpark
-│   └── normalize.py         # Combine cache/* into docs/nationals.json
+│   ├── normalize.py         # Combine cache/* into docs/nationals.json
+│   ├── build_happenings.py  # Build docs/happenings.json (Nats Nation page)
+│   └── test_build_happenings.py  # Offline unit tests for the generator
 ├── content/                 # Editable, hand-curated
 │   ├── former_nats_roster.json    # Who to track (edit anytime, push, done)
 │   ├── providers.json             # Routing rules: broadcast name → app intent
 │   ├── significant_events.json    # Thresholds for "did something cool" flags
 │   ├── tidbits.json               # Curated nuggets for home-screen rotation
+│   ├── happenings_sources.json    # Curated RSS / YouTube allowlist for Nats Nation
+│   ├── nats_history.json          # Curated "On This Day" + player spotlights
 │   └── injury_overrides.json      # (optional) hand override the scraper
 ├── cache/                   # Last-good payloads from each source
 ├── docs/                    # Published artifacts (GitHub Pages serves this)
 └── .github/workflows/
     ├── poll-frequent.yml    # Every 10 min during game windows
     ├── poll-daily.yml       # 4× daily for slow-changing data
+    ├── poll-happenings.yml  # 3× daily: rebuild happenings.json (rss_fallback)
     └── publish-pages.yml    # Deploy docs/ to Pages on every push
 ```
 
@@ -105,6 +138,7 @@ GitHub Actions cron is best-effort and may delay 5–15 min. That's fine for our
 |---|---|---|
 | `poll-frequent.yml` | Every 10 min, 12:00–05:00 UTC (covers afternoon → late West Coast) | Schedule, standings, weather + normalize |
 | `poll-daily.yml` | 4× per day | Injuries, former Nats, full refresh |
+| `poll-happenings.yml` | 3× per day | Rebuild `happenings.json` (Nats Nation page) in rss_fallback mode |
 | `publish-pages.yml` | On every push to `main` that touches `docs/` | Deploy to Pages |
 
 Estimated GitHub Actions usage: ~400 free-tier minutes/month. Free tier gives 2,000.
