@@ -242,6 +242,10 @@ class PayloadTests(unittest.TestCase):
         self.assertIn("why_it_matters", disclosed)
         self.assertIn("trending", disclosed)
         self.assertNotIn("stale", json.dumps(p).lower())
+        # fan_vibes is deliberately empty (no AI sentiment) → must NOT claim to be
+        # ai_generated, and must carry no themes (so the app self-hides it).
+        self.assertFalse(p["fan_vibes"]["ai_generated"])
+        self.assertEqual(p["fan_vibes"]["themes"], [])
 
     def test_falkor_enriched_labels_and_citations(self):
         bh.falkor_enrich = lambda *a, **k: dict(ENRICHED)
@@ -257,10 +261,12 @@ class PayloadTests(unittest.TestCase):
         for t in p["trending"]:
             self.assertTrue(t["source_urls"], "trending item must cite sources")
             self.assertNotIn(t["label"].lower(), bh.GENERIC_TAG_KEYS)  # generic dropped
-        # AI disclosures lifted, but fan_vibes (no sentiment primitive) stays disclosed.
+        # AI disclosures lifted, but fan_vibes (no sentiment primitive) stays disclosed
+        # AND is never labeled ai_generated even in falkor_enriched mode.
         disclosed = {d["id"] for d in p["limited_sources"]}
         self.assertIn("fan_vibes", disclosed)
         self.assertNotIn("why_it_matters", disclosed)
+        self.assertFalse(p["fan_vibes"]["ai_generated"])
         # storyline labeled ai_generated.
         self.assertTrue(p["team_pulse"].get("storyline", {}).get("ai_generated"))
 

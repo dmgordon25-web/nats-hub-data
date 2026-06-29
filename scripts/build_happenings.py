@@ -638,7 +638,11 @@ def build_payload(
         "top_stories": top_stories,
         "team_pulse": team_pulse,
         "videos": videos,
-        "fan_vibes": {"overall": "", "ai_generated": True, "themes": []},
+        # ai_generated:False — fan_vibes is deliberately empty (the sanctioned
+        # enrich endpoint emits no sentiment), so NOTHING AI-touched it. It is
+        # disclosed as unavailable in limited_sources above. Labeling an empty,
+        # non-AI field as ai_generated:true would itself be dishonest.
+        "fan_vibes": {"overall": "", "ai_generated": False, "themes": []},
         "trending": trending,
         "what_to_watch": what_to_watch,
         "on_this_day": on_this_day,
