@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-28T23:54:59+00:00",
+  "fetched_at": "2026-06-29T00:18:41+00:00",
   "freshness": {
-    "schedule": "2026-06-28T23:54:57+00:00",
-    "standings": "2026-06-28T23:54:58+00:00",
+    "schedule": "2026-06-29T00:18:40+00:00",
+    "standings": "2026-06-29T00:18:40+00:00",
     "injuries": "2026-06-27T09:34:20+00:00",
-    "former_nats": "2026-06-28T19:47:01+00:00",
-    "weather": "2026-06-28T23:54:59+00:00"
+    "former_nats": "2026-06-29T00:18:40+00:00",
+    "weather": "2026-06-29T00:18:41+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -142,10 +142,10 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Next Game"
+    "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-28T23:54:59+00:00",
+    "fetched_at": "2026-06-29T00:18:41+00:00",
     "source": "open_meteo",
     "game_pk": 824741,
     "venue_name": "Fenway Park",
@@ -160,10 +160,10 @@
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "stat_nerd_woody_exit_velo",
-    "category": "stat_nerd",
-    "weight": 5,
-    "text": "James Wood's average exit velocity puts him in elite company — Judge, Stanton, Schwarber tier."
+    "id": "did_you_know_park_capacity",
+    "category": "ballpark",
+    "weight": 3,
+    "text": "Nationals Park seats 41,313 people. The lower bowl gets sun in the afternoon; the upper deck gets the breeze."
   },
   "next_three": [
     {
@@ -297,7 +297,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 824742,
@@ -692,130 +692,6 @@
   },
   "all_games": [
     {
-      "game_pk": 824824,
-      "date": "2026-06-26",
-      "start_time_utc": "2026-06-26T23:05:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 110,
-        "abbrev": "BAL",
-        "name": "Baltimore Orioles",
-        "short_name": "Orioles",
-        "record": "39-44",
-        "score": 3
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "41-42",
-        "score": 1
-      },
-      "venue": {
-        "id": 2,
-        "name": "Oriole Park at Camden Yards",
-        "city": "Baltimore",
-        "state": "MD",
-        "lat": 39.283787,
-        "lon": -76.621689
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 669432,
-          "name": "Trevor Rogers",
-          "hand": null
-        },
-        "away": {
-          "id": 674841,
-          "name": "Andrew Alvarez",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "MASN",
-          "call_sign": "MASN",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "98 Rock 97.9 FM",
-          "call_sign": "98 Rock",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WBAL 1090 AM",
-          "call_sign": "WBAL 1090",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 2,
-        "strikes": 2,
-        "outs": 3,
-        "home_runs": 3,
-        "away_runs": 1,
-        "home_hits": 8,
-        "away_hits": 5,
-        "home_errors": 1,
-        "away_errors": 1
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "MASN",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
-    {
       "game_pk": 824825,
       "date": "2026-06-27",
       "start_time_utc": "2026-06-27T23:05:00Z",
@@ -1194,7 +1070,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 824742,
