@@ -1,0 +1,66 @@
+name: Poll (happenings — Nats Nation page)
+
+# Builds happenings.json (the "Nats Nation" page payload) in rss_fallback mode
+# from official public RSS only — no Falkor, no AI (the cloud runner can't reach
+# Falkor's loopback). The richer falkor_enriched build runs locally on Dustin's
+# box and is pushed separately.
+#
+# This is a NEW, fully additive workflow. It does not touch nationals.json, the
+# existing fetchers, or the existing poll-* / publish-pages workflows.
+on:
+  schedule:
+    - cron: "35 13 * * *"   # 9:35 AM ET (morning)
+    - cron: "35 18 * * *"   # 2:35 PM ET (mid-day)
+    - cron: "35 23 * * *"   # 7:35 PM ET (evening)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: write  # required for the final 'gh workflow run' publish dispatch
+
+concurrency:
+  group: poll-happenings
+  cancel-in-progress: false
+
+jobs:
+  poll-happenings:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build happenings.json (rss_fallback)
+        run: python scripts/build_happenings.py --mode rss_fallback
+
+      - name: Commit happenings artifact
+        id: commit
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "nats-hub-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/happenings.json cache/happenings.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "chore(data): happenings refresh @ $(date -u +%FT%TZ)"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # GITHUB_TOKEN pushes don't trigger other workflows, so dispatch the
+      # Pages publish explicitly (same pattern as poll-daily.yml).
+      - name: Trigger Pages publish
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run publish-pages.yml --repo ${{ github.repository }} --ref main

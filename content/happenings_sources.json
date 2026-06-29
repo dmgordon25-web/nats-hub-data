@@ -1,0 +1,43 @@
+{
+  "_comment": "Curated, hand-editable allowlist for build_happenings.py (the Nats Nation page). Only free / official / public feeds. Every URL here was live-verified 2026-06-28. 'team' feeds are Nationals-dedicated (all items qualify). 'league' feeds are MLB-wide and are filtered to items whose text matches team_keywords. No paid APIs, no scraping, no social-media scraping. Reddit/MASN/mlb.com-team-RSS were evaluated and excluded (rate-limited / dead / 403). To add a source: confirm it's official+public, add it here, and the generator picks it up — no code change needed.",
+
+  "team_keywords": [
+    "Washington Nationals",
+    "Nationals",
+    "Nationals Park",
+    "Nats",
+    "CJ Abrams",
+    "MacKenzie Gore",
+    "Dylan Crews",
+    "James Wood",
+    "Keibert Ruiz",
+    "Josiah Gray",
+    "Luis Garcia",
+    "Davey Martinez"
+  ],
+
+  "news_feeds": {
+    "team": [
+      { "id": "federal_baseball", "name": "Federal Baseball", "url": "https://www.federalbaseball.com/rss/index.xml" },
+      { "id": "talknats", "name": "Talk Nats", "url": "https://www.talknats.com/feed/" },
+      { "id": "mlbtr_nationals", "name": "MLB Trade Rumors", "url": "https://www.mlbtraderumors.com/washington-nationals/feed" }
+    ],
+    "league": [
+      { "id": "espn_mlb", "name": "ESPN MLB", "url": "https://www.espn.com/espn/rss/mlb/news" },
+      { "id": "cbs_mlb", "name": "CBS Sports MLB", "url": "https://www.cbssports.com/rss/headlines/mlb/" },
+      { "id": "yahoo_mlb", "name": "Yahoo Sports MLB", "url": "https://sports.yahoo.com/mlb/rss/" }
+    ]
+  },
+
+  "video_feeds": {
+    "team": [
+      { "id": "yt_nationals", "name": "Nationals on YouTube", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUnB3WNX238eraj5IK3fFEw" }
+    ],
+    "league": [
+      { "id": "yt_mlb", "name": "MLB on YouTube", "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCoLrcjPV5PbUrUyXq5mjc_A" }
+    ]
+  },
+
+  "falkor_ingestor_query_terms": ["Nationals", "Washington Nationals", "MLB", "baseball"],
+  "_falkor_ingestor_note": "Recorded for completeness. Phase-0 live recon (2026-06-28) found the Falkor unified ingestor (FeedIngestor 4335 + Story Scraper 4336) returns ZERO Nationals/MLB items for these terms, so the ingestor is NOT used as a news source. Falkor's contribution is the /api/falkor/ingestors/enrich endpoint applied to the RSS articles above (falkor_enriched mode only)."
+}
