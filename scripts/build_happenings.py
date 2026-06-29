@@ -46,6 +46,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import html
 import logging
 import os
 import re
@@ -84,9 +85,12 @@ MAX_TRENDING = 8
 # Tags too generic to be a useful "trending topic" (they describe the whole feed).
 # Compared on a normalized (lowercase, alphanumeric-only) key.
 GENERIC_TAG_KEYS = {
-    "baseball", "mlb", "sports", "news", "nationals", "nats", "washington",
-    "washingtonnationals", "mlbtraderumors",
+    "baseball", "mlb", "sports", "news", "sportsnews", "nationals", "nats",
+    "washington", "washingtonnationals", "mlbtraderumors", "game", "gamethread",
+    "season", "highlights", "recap", "preview", "majorleaguebaseball",
 }
+
+OG_IMAGE_TIMEOUT_S = 6
 
 # Atom / Media RSS namespaces (YouTube feeds).
 _NS = {
@@ -145,6 +149,37 @@ def _strip_html(text: str | None) -> str:
 
 def _localname(tag: str) -> str:
     return tag.rsplit("}", 1)[-1]
+
+
+def og_image(url: str | None) -> str | None:
+    """Best-effort article thumbnail: fetch the page's og:image (its social
+    preview image). Returns None on any failure — a missing image just means no
+    picture for that story. This is standard link-preview behavior (one GET, read
+    a meta tag), not scraping; identifies itself via User-Agent."""
+    if not url or not url.startswith("http"):
+        return None
+    try:
+        resp = requests.get(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (compatible; nats-hub-data/0.1; link-preview)"},
+            timeout=OG_IMAGE_TIMEOUT_S,
+        )
+    except requests.RequestException:
+        return None
+    if resp.status_code != 200:
+        return None
+    page = resp.text
+    for pat in (
+        r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
+        r'<meta[^>]+name=["\']twitter:image["\'][^>]+content=["\']([^"\']+)["\']',
+    ):
+        m = re.search(pat, page, re.IGNORECASE)
+        if m:
+            img = html.unescape(m.group(1).strip())  # decode &amp; etc. in the URL
+            if img.startswith("http"):
+                return img
+    return None
 
 
 def parse_news_feed(xml_text: str, source_name: str) -> list[dict[str, Any]] | None:
@@ -555,6 +590,7 @@ def build_player_spotlight(history: dict[str, Any] | None) -> dict[str, Any]:
     return {
         "name": pick.get("name", ""),
         "text": pick.get("text", ""),
+        "image_url": pick.get("image_url"),
         "source_urls": pick.get("source_urls", []),
         "ai_generated": False,
         "curated": True,
@@ -644,13 +680,31 @@ def build_payload(
         # Strip the summary helper field (not part of the published schema).
         for story in top_stories:
             story.pop("summary", None)
-        # Build trending topic clusters from aggregated tags (each cited).
-        clusters = sorted(tag_index.values(), key=lambda e: len(set(e["urls"])), reverse=True)
-        for entry in clusters[:MAX_TRENDING]:
+        # Merge substring-variant clusters ("Orioles" within "Baltimore Orioles")
+        # into the one with more sources, then attach the freshest cited headline
+        # as context so each trending chip says something concrete (not a bare tag).
+        merged: list[dict[str, Any]] = []
+        for entry in sorted(tag_index.values(), key=lambda e: len(set(e["urls"])), reverse=True):
+            ekey = _norm_title(entry["label"])
+            host = next(
+                (m for m in merged
+                 if ekey == _norm_title(m["label"])
+                 or ekey in _norm_title(m["label"]) or _norm_title(m["label"]) in ekey),
+                None,
+            )
+            if host:
+                host["urls"].extend(entry["urls"])
+            else:
+                merged.append(entry)
+        for entry in merged[:MAX_TRENDING]:
+            urls = sorted(set(entry["urls"]))
+            url_set = set(urls)
+            context = next((s.get("title") for s in top_stories if s.get("url") in url_set), None)
             trending.append({
                 "label": entry["label"],
                 "sentiment": "",
-                "source_urls": sorted(set(entry["urls"])),
+                "context": context,
+                "source_urls": urls,
             })
         # Storyline: AI commentary grounded in the freshest cited story.
         if ai_applied and top_stories and top_stories[0].get("why_it_matters"):
@@ -658,6 +712,12 @@ def build_payload(
     else:
         for story in top_stories:
             story.pop("summary", None)
+
+    # Thumbnails: best-effort og:image per fresh story (both modes). Last-good
+    # stories keep whatever image they already carried.
+    for story in top_stories:
+        if "image_url" not in story:
+            story["image_url"] = og_image(story.get("url"))
 
     effective_mode = "falkor_enriched" if ai_applied else "rss_fallback"
 
