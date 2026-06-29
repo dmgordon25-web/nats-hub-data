@@ -14,6 +14,7 @@ import json
 import os
 import sys
 import unittest
+from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
@@ -84,7 +85,13 @@ SOURCES = {
     },
 }
 
+# Fixed "now" so the schedule-freshness gate is deterministic regardless of when
+# the suite runs; NATIONALS_JSON.fetched_at is recent relative to it.
+NOW = datetime(2026, 6, 29, 12, 0, tzinfo=timezone.utc)
+
 NATIONALS_JSON = {
+    "fetched_at": "2026-06-29T00:00:00+00:00",
+    "stale_sources": [],
     "last_result": {
         "status": "Final",
         "is_nats_home": True,
@@ -143,8 +150,16 @@ class FeedParsingTests(unittest.TestCase):
         self.assertEqual(vids[0]["thumbnail_url"], "https://i.ytimg.com/vi/abc123/hqdefault.jpg")
         self.assertEqual(vids[0]["duration_s"], 0)
 
-    def test_parse_bad_xml(self):
-        self.assertEqual(bh.parse_news_feed("<not xml", "x"), [])
+    def test_parse_bad_xml_returns_none(self):
+        # Unparseable body → None (a failed fetch), NOT [] (a valid empty feed).
+        self.assertIsNone(bh.parse_news_feed("<not xml", "x"))
+        self.assertIsNone(bh.parse_video_feed("<not xml", "x"))
+
+    def test_parse_valid_empty_feed_returns_list(self):
+        # A valid feed with zero items is [] (live, no current items) — distinct
+        # from a parse failure (None).
+        empty = '<?xml version="1.0"?><rss version="2.0"><channel></channel></rss>'
+        self.assertEqual(bh.parse_news_feed(empty, "x"), [])
 
 
 class FilterTests(unittest.TestCase):
@@ -223,7 +238,7 @@ class PayloadTests(unittest.TestCase):
 
     def test_rss_fallback_schema_and_honesty(self):
         bh.falkor_enrich = lambda *a, **k: None
-        p = bh.build_payload(SOURCES, NATIONALS_JSON, None, None, "rss_fallback")
+        p = bh.build_payload(SOURCES, NATIONALS_JSON, None, None, "rss_fallback", now=NOW)
         self.assertEqual(self.SCHEMA_KEYS, set(p.keys()))
         self.assertEqual(p["mode"], "rss_fallback")
         # Real stories came through; league feed filtered to the Nats item only.
@@ -249,7 +264,7 @@ class PayloadTests(unittest.TestCase):
 
     def test_falkor_enriched_labels_and_citations(self):
         bh.falkor_enrich = lambda *a, **k: dict(ENRICHED)
-        p = bh.build_payload(SOURCES, NATIONALS_JSON, None, None, "falkor_enriched")
+        p = bh.build_payload(SOURCES, NATIONALS_JSON, None, None, "falkor_enriched", now=NOW)
         self.assertEqual(p["mode"], "falkor_enriched")
         # why_it_matters present and labeled ai_generated.
         wim = [s for s in p["top_stories"] if "why_it_matters" in s]
@@ -280,7 +295,7 @@ class PayloadTests(unittest.TestCase):
                         "thumbnail_url": None, "duration_s": 0}],
             "freshness": {"news": "2026-06-27T00:00:00+00:00", "videos": "2026-06-27T00:00:00+00:00"},
         }
-        p = bh.build_payload(SOURCES, NATIONALS_JSON, None, prev, "rss_fallback")
+        p = bh.build_payload(SOURCES, NATIONALS_JSON, None, prev, "rss_fallback", now=NOW)
         self.assertEqual(p["top_stories"][0]["title"], "Yesterday's news")
         self.assertEqual(p["freshness"]["news"], "2026-06-27T00:00:00+00:00")
         disclosed = {d["id"]: d["reason"] for d in p["limited_sources"]}
@@ -294,13 +309,72 @@ class PayloadTests(unittest.TestCase):
         empty_rss = '<?xml version="1.0"?><rss version="2.0"><channel></channel></rss>'
         bh.http_get_text = lambda url, **k: empty_rss
         bh.falkor_enrich = lambda *a, **k: None
-        p = bh.build_payload(SOURCES, {}, None, None, "rss_fallback")
+        p = bh.build_payload(SOURCES, {}, None, None, "rss_fallback", now=NOW)
         self.assertEqual(p["top_stories"], [])
         self.assertEqual(p["videos"], [])
         # team_pulse banner self-hides (none) when there's no nationals.json.
         self.assertEqual(p["team_pulse"]["result_banner"]["type"], "none")
         disclosed = {d["id"] for d in p["limited_sources"]}
         self.assertIn("news", disclosed)
+
+    # --- Reviewer-bug regression tests -----------------------------------
+
+    def test_unparseable_feed_body_preserves_last_good(self):
+        # bug 2: a 200-OK error page (valid HTTP, invalid feed XML) must be a
+        # failed fetch, NOT a valid empty feed — so last-good news is preserved.
+        bh.http_get_text = lambda url, **k: "<html><body>503 oops</body></html>"
+        bh.falkor_enrich = lambda *a, **k: None
+        prev = {"top_stories": [{"title": "Yesterday", "url": "https://x/y", "source": "Federal Baseball"}],
+                "freshness": {"news": "2026-06-28T00:00:00+00:00"}}
+        p = bh.build_payload(SOURCES, NATIONALS_JSON, None, prev, "rss_fallback", now=NOW)
+        self.assertEqual([s["title"] for s in p["top_stories"]], ["Yesterday"])
+        self.assertEqual({d["id"]: d["reason"] for d in p["limited_sources"]}.get("news"), "last_check_too_old")
+
+    def test_valid_empty_feed_does_not_pull_last_good(self):
+        # bug 2 counterpart: a genuinely empty (but valid) feed shows empty +
+        # "no current headlines" — it must NOT resurrect old last-good as current.
+        bh.http_get_text = lambda url, **k: '<?xml version="1.0"?><rss version="2.0"><channel></channel></rss>'
+        bh.falkor_enrich = lambda *a, **k: None
+        prev = {"top_stories": [{"title": "Old", "url": "https://x/y", "source": "Federal Baseball"}]}
+        p = bh.build_payload(SOURCES, NATIONALS_JSON, None, prev, "rss_fallback", now=NOW)
+        self.assertEqual(p["top_stories"], [])
+        self.assertEqual({d["id"]: d["reason"] for d in p["limited_sources"]}.get("news"),
+                         "no_current_nationals_headlines")
+
+    def test_news_failure_keeps_video_status_live(self):
+        # bug 3: news feeds fail but videos succeed → video source rows stay live.
+        def fake(url, **k):
+            return ATOM_YT if url == "team://video" else None  # news feeds fail
+        bh.http_get_text = fake
+        bh.falkor_enrich = lambda *a, **k: None
+        p = bh.build_payload(SOURCES, NATIONALS_JSON, None, None, "rss_fallback", now=NOW)
+        by_id = {r["id"]: r["status"] for r in p["sources"]}
+        self.assertEqual(by_id["yt_nationals"], "live")          # video stays current
+        self.assertIn(by_id["federal_baseball"], ("timed_out",))  # news failed
+        self.assertTrue(p["videos"])                              # fresh videos published
+
+    def test_stale_schedule_gates_team_sections(self):
+        # bug 4: when nationals.json is stale, Team Pulse / What to Watch are
+        # gated + disclosed rather than presenting weeks-old games as current.
+        bh.falkor_enrich = lambda *a, **k: None
+        stale = dict(NATIONALS_JSON, fetched_at="2026-05-14T00:00:00+00:00")  # ~6 weeks old
+        p = bh.build_payload(SOURCES, stale, None, None, "rss_fallback", now=NOW)
+        self.assertEqual(p["team_pulse"]["result_banner"]["type"], "none")
+        self.assertEqual(p["what_to_watch"], [])
+        self.assertIn("schedule", {d["id"]: d["reason"] for d in p["limited_sources"]})
+        # And the fresh path still shows them.
+        fresh = bh.build_payload(SOURCES, NATIONALS_JSON, None, None, "rss_fallback", now=NOW)
+        self.assertEqual(fresh["team_pulse"]["result_banner"]["type"], "win")
+        self.assertTrue(fresh["what_to_watch"])
+        self.assertNotIn("schedule", {d["id"] for d in fresh["limited_sources"]})
+
+    def test_stale_via_stale_sources_flag(self):
+        # bug 4: normalize.py's own stale flag also gates the team sections.
+        bh.falkor_enrich = lambda *a, **k: None
+        flagged = dict(NATIONALS_JSON, stale_sources=["schedule"])
+        p = bh.build_payload(SOURCES, flagged, None, None, "rss_fallback", now=NOW)
+        self.assertEqual(p["team_pulse"]["result_banner"]["type"], "none")
+        self.assertIn("schedule", {d["id"] for d in p["limited_sources"]})
 
 
 if __name__ == "__main__":
