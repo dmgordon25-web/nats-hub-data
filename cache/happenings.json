@@ -1,63 +1,71 @@
 {
   "data_version": 1,
-  "generated_at": "2026-06-29T03:32:43+00:00",
-  "mode": "falkor_enriched",
+  "generated_at": "2026-06-29T16:46:49+00:00",
+  "mode": "rss_fallback",
   "freshness": {
-    "news": "2026-06-29T03:32:27+00:00",
-    "videos": "2026-06-29T03:32:27+00:00",
+    "news": "2026-06-29T16:46:47+00:00",
+    "videos": "2026-06-29T16:46:47+00:00",
     "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-06-29T03:32:23+00:00",
+      "last_updated_at": "2026-06-29T16:46:42+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-06-29T03:32:25+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-06-29T03:32:26+00:00",
+      "last_updated_at": "2026-06-29T16:46:47+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-06-29T03:32:26+00:00",
+      "last_updated_at": "2026-06-29T16:46:47+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-06-29T03:32:26+00:00",
+      "last_updated_at": "2026-06-29T16:46:47+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-06-29T03:32:27+00:00",
+      "last_updated_at": "2026-06-29T16:46:47+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-06-29T03:32:27+00:00",
+      "last_updated_at": "2026-06-29T16:46:47+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-06-29T03:32:27+00:00",
+      "last_updated_at": "2026-06-29T16:46:47+00:00",
       "status": "live"
     }
   ],
   "limited_sources": [
+    {
+      "id": "why_it_matters",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "trending",
+      "reason": "ai_enrichment_unavailable"
+    },
     {
       "id": "fan_vibes",
       "reason": "ai_sentiment_unavailable"
@@ -65,36 +73,31 @@
   ],
   "top_stories": [
     {
+      "title": "Luis Garcia Jr Is Embracing His Strengths For the Washington Nationals",
+      "url": "https://sports.yahoo.com/articles/luis-garcia-jr-embracing-strengths-163000029.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-06-29T16:30:00+00:00",
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/kWmJH68c2DWeKDvmyhpyHA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03OTU7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/f136a5bd8d8cd0c456258ea82d6b8e13"
+    },
+    {
+      "title": "Yoel Tejeda Jr. is emerging as an interesting arm in the Washington Nationals farm system",
+      "url": "https://sports.yahoo.com/articles/yoel-tejeda-jr-emerging-interesting-133000593.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-06-29T13:30:00+00:00",
+      "image_url": "https://s.yimg.com/os/en/sb_nation_articles_115/4b40fe69b0728350239b15c1c5ec6735"
+    },
+    {
       "title": "Going, Going Garcia! The Washington Nationals slugger delivers again in 6-4 win",
       "url": "https://www.federalbaseball.com/washington-nationals-scores/92241/going-garcia-washington-nationals-slugger-delivers-6-4-win",
       "source": "Federal Baseball",
       "published_at": "2026-06-28T21:08:31+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals defeated the Orioles 6-4 after a slump against the Phillies. Luis Garcia Jr. was the hottest hitter in baseball and carried the offense for this road series win.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/06/gettyimages-2283644530.jpg?quality=90&strip=all&crop=0%2C10.476598283745%2C100%2C79.046803432509&w=1200"
-    },
-    {
-      "title": "Orioles drop series with 6-4 loss to Nats",
-      "url": "https://sports.yahoo.com/articles/orioles-drop-series-6-4-205028124.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-06-28T20:50:28+00:00",
-      "why_it_matters": {
-        "text": "The Orioles lost their series to the Nationals with a 6-4 score at Camden Yards, where Kyle Bradish walked five batters and Luis García Jr contributed significantly.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/ny/api/res/1.2/MtjNFCM6r78_AN8qAckaLg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/bc13a88385df7fcddf9e1de779984e81"
     },
     {
       "title": "Washington Nationals vs Baltimore Orioles Game Thread",
       "url": "https://www.federalbaseball.com/washington-nationals-discussions/92233/washington-nationals-vs-baltimore-orioles-game-thread",
       "source": "Federal Baseball",
       "published_at": "2026-06-28T15:31:04+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals secured a recent victory against the Baltimore Orioles and are preparing for their rubber match today, expecting a tough game as both teams need wins.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/06/gettyimages-2283644604.jpg?quality=90&strip=all&crop=0%2C10.47135808625%2C100%2C79.057283827499&w=1200"
     },
     {
@@ -102,32 +105,13 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/92225/foster-griffin-was-stopper-that-washington-nationals-needed",
       "source": "Federal Baseball",
       "published_at": "2026-06-28T14:45:36+00:00",
-      "why_it_matters": {
-        "text": "After four straight losses, Washington Nationals pitcher Foster Griffin delivered a strong performance with 112 pitches over seven innings to stop the team's bleeding.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/06/gettyimages-2283643981.jpg?quality=90&strip=all&crop=0%2C10.475471542634%2C100%2C79.049056914732&w=1200"
-    },
-    {
-      "title": "Game #85 Nats are now going for a series win!",
-      "url": "https://www.talknats.com/2026/06/28/game-85-nats-are-now-going-for-a-series-win/",
-      "source": "Talk Nats",
-      "published_at": "2026-06-28T11:27:24+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals have returned to a .500 record following their four-game losing streak. A victory in today's game would secure the series win and push them above .500.",
-        "ai_generated": true
-      },
-      "image_url": "https://www.talknats.com/wp-content/uploads/2026/04/Zack-Littell-Sol-Tucker-4-17-2026-scaled.jpg"
     },
     {
       "title": "The Washington Nationals survive in an extremely stressful win",
       "url": "https://www.federalbaseball.com/washington-nationals-scores/92217/washington-nationals-survive-in-extremely-stressful-win",
       "source": "Federal Baseball",
       "published_at": "2026-06-28T03:02:09+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals secured an extremely stressful 4-3 extra-innings win against all odds.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/06/gettyimages-2283499446.jpg?quality=90&strip=all&crop=0%2C10.476942003645%2C100%2C79.04611599271&w=1200"
     },
     {
@@ -138,29 +122,25 @@
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/06/gettyimages-2282807027.jpg?quality=90&strip=all&crop=0%2C10.739161265933%2C100%2C78.521677468133&w=1200"
     },
     {
-      "title": "Game #84 Foster Griffin needs to be the stopper",
-      "url": "https://www.talknats.com/2026/06/27/game-84-foster-griffin-needs-to-be-the-stopper/",
-      "source": "Talk Nats",
-      "published_at": "2026-06-27T14:38:03+00:00",
-      "image_url": "https://www.talknats.com/wp-content/uploads/2026/04/Foster-Griffin-Quality-Start-4-21-2026-Sol-Tucker.jpeg"
+      "title": "What bullpen options do the Washington Nationals have on the farm?",
+      "url": "https://www.federalbaseball.com/washington-nationals-analysis/92186/what-bullpen-options-washington-nationals-have-on-farm",
+      "source": "Federal Baseball",
+      "published_at": "2026-06-26T19:10:34+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/06/gettyimages-2282642920.jpg?quality=90&strip=all&crop=0%2C4.2584137616129%2C80.8%2C63.449942026862&w=1200"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "win",
       "text": "Curly W! The Nats beat the Orioles 6-4."
-    },
-    "storyline": {
-      "text": "The Washington Nationals defeated the Orioles 6-4 after a slump against the Phillies. Luis Garcia Jr. was the hottest hitter in baseball and carried the offense for this road series win.",
-      "ai_generated": true
     }
   },
   "videos": [
     {
-      "title": "Nationals vs. Orioles Game Highlights (6/28/26) | MLB Highlights",
-      "url": "https://www.youtube.com/watch?v=0GaMP7Gj4IY",
+      "title": "Blake Butera Press Conference | Nationals at Orioles | June 28, 2026",
+      "url": "https://www.youtube.com/watch?v=wnTAbWW2VU4",
       "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i1.ytimg.com/vi/0GaMP7Gj4IY/hqdefault.jpg",
+      "thumbnail_url": "https://i4.ytimg.com/vi/wnTAbWW2VU4/hqdefault.jpg",
       "duration_s": 0
     },
     {
@@ -204,77 +184,7 @@
     "ai_generated": false,
     "themes": []
   },
-  "trending": [
-    {
-      "label": "Orioles",
-      "sentiment": "",
-      "context": "Going, Going Garcia! The Washington Nationals slugger delivers again in 6-4 win",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/orioles-drop-series-6-4-205028124.html",
-        "https://www.federalbaseball.com/washington-nationals-discussions/92233/washington-nationals-vs-baltimore-orioles-game-thread",
-        "https://www.federalbaseball.com/washington-nationals-scores/92241/going-garcia-washington-nationals-slugger-delivers-6-4-win"
-      ]
-    },
-    {
-      "label": "Foster Griffin",
-      "sentiment": "",
-      "context": "Foster Griffin was the stopper that the Washington Nationals needed",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/92225/foster-griffin-was-stopper-that-washington-nationals-needed",
-        "https://www.federalbaseball.com/washington-nationals-scores/92217/washington-nationals-survive-in-extremely-stressful-win"
-      ]
-    },
-    {
-      "label": "Luis Garcia Jr.",
-      "sentiment": "",
-      "context": "Going, Going Garcia! The Washington Nationals slugger delivers again in 6-4 win",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/orioles-drop-series-6-4-205028124.html",
-        "https://www.federalbaseball.com/washington-nationals-scores/92241/going-garcia-washington-nationals-slugger-delivers-6-4-win"
-      ]
-    },
-    {
-      "label": "Road Series Win",
-      "sentiment": "",
-      "context": "Going, Going Garcia! The Washington Nationals slugger delivers again in 6-4 win",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-scores/92241/going-garcia-washington-nationals-slugger-delivers-6-4-win",
-        "https://www.talknats.com/2026/06/28/game-85-nats-are-now-going-for-a-series-win/"
-      ]
-    },
-    {
-      "label": "Kyle Bradish",
-      "sentiment": "",
-      "context": "Orioles drop series with 6-4 loss to Nats",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/orioles-drop-series-6-4-205028124.html"
-      ]
-    },
-    {
-      "label": "rubber match",
-      "sentiment": "",
-      "context": "Washington Nationals vs Baltimore Orioles Game Thread",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-discussions/92233/washington-nationals-vs-baltimore-orioles-game-thread"
-      ]
-    },
-    {
-      "label": "winning ways",
-      "sentiment": "",
-      "context": "Washington Nationals vs Baltimore Orioles Game Thread",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-discussions/92233/washington-nationals-vs-baltimore-orioles-game-thread"
-      ]
-    },
-    {
-      "label": "Pitching",
-      "sentiment": "",
-      "context": "Foster Griffin was the stopper that the Washington Nationals needed",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/92225/foster-griffin-was-stopper-that-washington-nationals-needed"
-      ]
-    }
-  ],
+  "trending": [],
   "what_to_watch": [
     {
       "text": "The Nats visit the Red Sox on Monday.",
