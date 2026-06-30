@@ -1,14 +1,16 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-29T23:45:30+00:00",
+  "fetched_at": "2026-06-30T00:18:08+00:00",
   "freshness": {
-    "schedule": "2026-06-29T23:45:29+00:00",
-    "standings": "2026-06-29T23:45:30+00:00",
+    "schedule": "2026-06-30T00:18:07+00:00",
+    "standings": "2026-06-30T00:18:07+00:00",
     "injuries": "2026-06-29T20:16:56+00:00",
-    "former_nats": "2026-06-29T20:17:02+00:00",
-    "weather": "2026-06-29T23:45:30+00:00"
+    "former_nats": "2026-06-30T00:18:07+00:00",
+    "weather": "2026-06-30T00:18:08+00:00"
   },
-  "stale_sources": [],
+  "stale_sources": [
+    "injuries"
+  ],
   "focus_game": {
     "game_pk": 824741,
     "date": "2026-06-29",
@@ -22,7 +24,7 @@
       "name": "Boston Red Sox",
       "short_name": "Red Sox",
       "record": "36-46",
-      "score": 4
+      "score": 6
     },
     "away": {
       "id": 120,
@@ -109,16 +111,16 @@
       }
     ],
     "linescore": {
-      "current_inning": 2,
+      "current_inning": 4,
       "inning_half": "Bottom",
       "inning_state": "Bottom",
       "is_top_inning": false,
       "balls": 0,
-      "strikes": 1,
-      "outs": 0,
-      "home_runs": 4,
+      "strikes": 0,
+      "outs": 1,
+      "home_runs": 6,
       "away_runs": 1,
-      "home_hits": 8,
+      "home_hits": 9,
       "away_hits": 1,
       "home_errors": 0,
       "away_errors": 0
@@ -143,14 +145,14 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-29T23:45:30+00:00",
+    "fetched_at": "2026-06-30T00:18:08+00:00",
     "source": "open_meteo",
     "game_pk": 824741,
     "venue_name": "Fenway Park",
-    "forecast_at": "2026-06-29T23:00",
-    "temperature_f": 71.7,
-    "feels_like_f": 72.9,
-    "wind_mph": 7.2,
+    "forecast_at": "2026-06-30T00:00",
+    "temperature_f": 70.8,
+    "feels_like_f": 72.0,
+    "wind_mph": 3.8,
     "wind_dir": "E",
     "precip_chance": 0,
     "precip_inches": 0.0,
@@ -158,10 +160,10 @@
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "did_you_know_park_capacity",
-    "category": "ballpark",
-    "weight": 3,
-    "text": "Nationals Park seats 41,313 people. The lower bowl gets sun in the afternoon; the upper deck gets the breeze."
+    "id": "wholesome_dave_martinez",
+    "category": "wholesome",
+    "weight": 4,
+    "text": "Dave Martinez took heat after the 2018 dugout incident. He kept showing up. Then 2019 happened. The right manager, the right time."
   },
   "next_three": [
     {
@@ -177,7 +179,7 @@
         "name": "Boston Red Sox",
         "short_name": "Red Sox",
         "record": "36-46",
-        "score": 4
+        "score": 6
       },
       "away": {
         "id": 120,
@@ -264,16 +266,16 @@
         }
       ],
       "linescore": {
-        "current_inning": 2,
+        "current_inning": 4,
         "inning_half": "Bottom",
         "inning_state": "Bottom",
         "is_top_inning": false,
         "balls": 0,
-        "strikes": 1,
-        "outs": 0,
-        "home_runs": 4,
+        "strikes": 0,
+        "outs": 1,
+        "home_runs": 6,
         "away_runs": 1,
-        "home_hits": 8,
+        "home_hits": 9,
         "away_hits": 1,
         "home_errors": 0,
         "away_errors": 0
@@ -428,7 +430,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 824740,
@@ -690,130 +692,6 @@
   },
   "all_games": [
     {
-      "game_pk": 824825,
-      "date": "2026-06-27",
-      "start_time_utc": "2026-06-27T23:05:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 110,
-        "abbrev": "BAL",
-        "name": "Baltimore Orioles",
-        "short_name": "Orioles",
-        "record": "39-45",
-        "score": 3
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "42-42",
-        "score": 4
-      },
-      "venue": {
-        "id": 2,
-        "name": "Oriole Park at Camden Yards",
-        "city": "Baltimore",
-        "state": "MD",
-        "lat": 39.283787,
-        "lon": -76.621689
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 687064,
-          "name": "Brandon Young",
-          "hand": null
-        },
-        "away": {
-          "id": 656492,
-          "name": "Foster Griffin",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "MASN",
-          "call_sign": "MASN",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "98 Rock 97.9 FM",
-          "call_sign": "98 Rock",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WBAL 1090 AM",
-          "call_sign": "WBAL 1090",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        }
-      ],
-      "linescore": {
-        "current_inning": 10,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 1,
-        "strikes": 0,
-        "outs": 3,
-        "home_runs": 3,
-        "away_runs": 4,
-        "home_hits": 7,
-        "away_hits": 13,
-        "home_errors": 2,
-        "away_errors": 1
-      },
-      "series": {
-        "game_number": 2,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "MASN",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
-    {
       "game_pk": 824821,
       "date": "2026-06-28",
       "start_time_utc": "2026-06-28T17:35:00Z",
@@ -950,7 +828,7 @@
         "name": "Boston Red Sox",
         "short_name": "Red Sox",
         "record": "36-46",
-        "score": 4
+        "score": 6
       },
       "away": {
         "id": 120,
@@ -1037,16 +915,16 @@
         }
       ],
       "linescore": {
-        "current_inning": 2,
+        "current_inning": 4,
         "inning_half": "Bottom",
         "inning_state": "Bottom",
         "is_top_inning": false,
         "balls": 0,
-        "strikes": 1,
-        "outs": 0,
-        "home_runs": 4,
+        "strikes": 0,
+        "outs": 1,
+        "home_runs": 6,
         "away_runs": 1,
-        "home_hits": 8,
+        "home_hits": 9,
         "away_hits": 1,
         "home_errors": 0,
         "away_errors": 0
@@ -1201,7 +1079,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 824740,
