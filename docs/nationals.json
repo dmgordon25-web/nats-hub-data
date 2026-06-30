@@ -1,16 +1,14 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-06-30T14:29:36+00:00",
+  "fetched_at": "2026-06-30T15:40:30+00:00",
   "freshness": {
-    "schedule": "2026-06-30T14:29:34+00:00",
-    "standings": "2026-06-30T14:29:35+00:00",
-    "injuries": "2026-06-29T20:16:56+00:00",
-    "former_nats": "2026-06-30T10:35:42+00:00",
-    "weather": "2026-06-30T14:29:36+00:00"
+    "schedule": "2026-06-30T15:40:29+00:00",
+    "standings": "2026-06-30T15:40:29+00:00",
+    "injuries": "2026-06-30T15:40:25+00:00",
+    "former_nats": "2026-06-30T15:40:28+00:00",
+    "weather": "2026-06-30T15:40:30+00:00"
   },
-  "stale_sources": [
-    "injuries"
-  ],
+  "stale_sources": [],
   "focus_game": {
     "game_pk": 824742,
     "date": "2026-06-30",
@@ -145,16 +143,16 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-06-30T14:29:36+00:00",
+    "fetched_at": "2026-06-30T15:40:30+00:00",
     "source": "open_meteo",
     "game_pk": 824742,
     "venue_name": "Fenway Park",
     "forecast_at": "2026-06-30T23:00",
-    "temperature_f": 82.6,
-    "feels_like_f": 88.3,
-    "wind_mph": 0.6,
-    "wind_dir": "SE",
-    "precip_chance": 12,
+    "temperature_f": 86.4,
+    "feels_like_f": 86.9,
+    "wind_mph": 7.5,
+    "wind_dir": "SW",
+    "precip_chance": 13,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -3006,16 +3004,28 @@
   },
   "notable_injuries": [
     {
+      "athlete_id": 39856,
+      "athlete_name": "Richard Lovelady",
+      "short_name": "R. Lovelady",
+      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/39856.png",
+      "position": "RP",
+      "status_code": "INJURY_STATUS_15DAYIL",
+      "status_label": "15-day IL",
+      "status_abbrev": "IL15",
+      "date": "Jun 29",
+      "description": "The Nationals placed Lovelady on the 15-day injured list Monday with a left triceps strain."
+    },
+    {
       "athlete_id": 4683356,
       "athlete_name": "Mitchell Parker",
       "short_name": "M. Parker",
       "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/4683356.png",
       "position": "RP",
-      "status_code": "INJURY_STATUS_DAYTODAY",
-      "status_label": "day-to-day",
-      "status_abbrev": "DD",
+      "status_code": "INJURY_STATUS_15DAYIL",
+      "status_label": "15-day IL",
+      "status_abbrev": "IL15",
       "date": "Jun 29",
-      "description": "Parker recorded his seventh hold of the season in Sunday's win over the Orioles, giving up two runs on two hits and a walk over 1.2 innings. He struck out two."
+      "description": "The Nationals placed Parker on the 15-day injured list Monday with left elbow inflammation."
     },
     {
       "athlete_id": 33305,
