@@ -231,14 +231,17 @@ class PayloadTests(unittest.TestCase):
         self._orig_http = bh.http_get_text
         self._orig_enrich = bh.falkor_enrich
         self._orig_og = bh.og_image
+        self._orig_vibes = bh.falkor_fan_vibes
         bh.http_get_text = _fake_http_get_text
-        # og:image hits the network per story — stub it (one test overrides this).
+        # og:image + fan-vibes hit the network/model — stub them (tests override).
         bh.og_image = lambda url: None
+        bh.falkor_fan_vibes = lambda stories: None
 
     def tearDown(self):
         bh.http_get_text = self._orig_http
         bh.falkor_enrich = self._orig_enrich
         bh.og_image = self._orig_og
+        bh.falkor_fan_vibes = self._orig_vibes
 
     def test_rss_fallback_schema_and_honesty(self):
         bh.falkor_enrich = lambda *a, **k: None
@@ -390,6 +393,44 @@ class PayloadTests(unittest.TestCase):
         self.assertTrue(p["top_stories"])
         for s in p["top_stories"]:
             self.assertEqual(s["image_url"], "https://img.example.com/og.jpg")
+
+    def test_fan_vibes_displayed_when_available(self):
+        # When the local model produces a cited sentiment read, it's published
+        # (ai_generated, themes cite sources) and NOT disclosed as unavailable.
+        bh.falkor_enrich = lambda *a, **k: dict(ENRICHED)
+        bh.falkor_fan_vibes = lambda stories: {
+            "overall": "positive", "ai_generated": True,
+            "themes": [{"label": "Garcia hot", "sentiment": "positive",
+                        "source_urls": ["https://example.com/nats-win"]}],
+        }
+        p = bh.build_payload(SOURCES, NATIONALS_JSON, None, None, "falkor_enriched", now=NOW)
+        fv = p["fan_vibes"]
+        self.assertTrue(fv["ai_generated"])
+        self.assertEqual(fv["overall"], "positive")
+        self.assertTrue(fv["themes"] and all(t["source_urls"] for t in fv["themes"]))
+        self.assertNotIn("fan_vibes", {d["id"] for d in p["limited_sources"]})
+
+    def test_falkor_fan_vibes_drops_uncited_themes(self):
+        # Honesty: a theme the model returns with NO cited story is dropped.
+        bh.falkor_fan_vibes = self._orig_vibes  # exercise the real function
+        orig_model, orig_chat = bh._selected_model, bh._ollama_chat
+        try:
+            bh._selected_model = lambda: "qwen3.5:9b"
+            bh._ollama_chat = lambda m, s, u: (
+                '{"overall":"mixed","themes":['
+                '{"label":"offense clicking","sentiment":"positive","stories":[0]},'
+                '{"label":"made up drama","sentiment":"negative","stories":[]}]}'
+            )
+            fv = bh.falkor_fan_vibes([
+                {"title": "Nats win", "url": "https://a/1", "why_it_matters": {"text": "big win"}},
+                {"title": "Bullpen shaky", "url": "https://a/2"},
+            ])
+        finally:
+            bh._selected_model, bh._ollama_chat = orig_model, orig_chat
+        labels = [t["label"] for t in fv["themes"]]
+        self.assertIn("offense clicking", labels)
+        self.assertNotIn("made up drama", labels)  # uncited → dropped
+        self.assertEqual(fv["themes"][0]["source_urls"], ["https://a/1"])
 
     def test_trending_merges_substring_variants(self):
         # "Orioles" and "Baltimore Orioles" collapse into one cited cluster.
