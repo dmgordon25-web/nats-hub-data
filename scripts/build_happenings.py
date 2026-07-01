@@ -47,6 +47,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import json
 import logging
 import os
 import re
@@ -77,6 +78,16 @@ ENRICH_ENDPOINT = "/api/falkor/ingestors/enrich"
 ENRICH_KILL_SWITCH_ENV = "FALKOR_INGESTOR_ENRICHMENT_ENABLED"  # documented; Falkor reads its own
 ENRICH_TIMEOUT_S = 20
 ENRICH_MAX_STORIES = 6  # bound the local model spend per run
+
+# Fan Vibes: an honest AI sentiment read over the CITED corpus, via the operator's
+# local model (Ollama). Only available where the model is reachable (the local
+# falkor_enriched run) — omitted+disclosed otherwise, never fabricated.
+GLOBAL_CHAT_MODEL_ENDPOINT = "/api/falkor/global-chat-model"
+OLLAMA_CHAT_URL = os.environ.get("OLLAMA_CHAT_URL", "http://127.0.0.1:11434/api/chat")
+FAN_VIBES_TIMEOUT_S = 30
+
+# Don't let a cloud rss_fallback run downgrade a fresh locally-enriched publish.
+ENRICHED_PRESERVE_HOURS = 6
 
 MAX_TOP_STORIES = 8
 MAX_VIDEOS = 6
@@ -371,6 +382,118 @@ def falkor_enrich(title: str, summary: str | None, source_name: str | None) -> d
 
 
 # ---------------------------------------------------------------------------
+# Fan Vibes — honest AI sentiment read over the cited corpus (local model)
+# ---------------------------------------------------------------------------
+
+
+def _selected_model() -> str | None:
+    """The operator's currently-selected chat model (no literal, no fallback)."""
+    try:
+        resp = requests.get(f"{FALKOR_BASE_URL}{GLOBAL_CHAT_MODEL_ENDPOINT}", timeout=8)
+    except requests.RequestException:
+        return None
+    if resp.status_code != 200:
+        return None
+    try:
+        state = (resp.json() or {}).get("state") or {}
+    except ValueError:
+        return None
+    model = (state.get("selected_model") or "").strip()
+    return model or None
+
+
+def _ollama_chat(model: str, system: str, user: str) -> str:
+    """One bounded local model call. Raises on failure."""
+    body = {
+        "model": model,
+        "stream": False,
+        "keep_alive": "30m",
+        "think": False,  # qwen3-family emit empty content unless thinking is off
+        "options": {"temperature": 0.2, "num_predict": 400},
+        "messages": [
+            {"role": "system", "content": system},
+            {"role": "user", "content": user},
+        ],
+    }
+    resp = requests.post(OLLAMA_CHAT_URL, json=body, timeout=FAN_VIBES_TIMEOUT_S)
+    if resp.status_code != 200:
+        raise RuntimeError(f"ollama_http_{resp.status_code}")
+    return ((resp.json() or {}).get("message") or {}).get("content") or ""
+
+
+def _parse_json_object(raw: str) -> dict[str, Any] | None:
+    trimmed = raw.strip().replace("```json", "").replace("```", "")
+    start, end = trimmed.find("{"), trimmed.rfind("}")
+    if start < 0 or end <= start:
+        return None
+    try:
+        parsed = json.loads(trimmed[start:end + 1])
+    except ValueError:
+        return None
+    return parsed if isinstance(parsed, dict) else None
+
+
+FAN_VIBES_SYSTEM = "\n".join([
+    "You give an honest read of FAN SENTIMENT from recent Washington Nationals news coverage.",
+    "HARD RULES:",
+    "- Use ONLY the numbered stories provided. Do NOT invent tweets, quotes, usernames,",
+    "  like-counts, or any fact not present in the given text.",
+    "- This is an AI read of published COVERAGE, not a scrape of social media — never fabricate posts.",
+    "- Each theme MUST cite the story indices it is based on. If the coverage is thin or neutral,",
+    "  return 'mixed' with few or no themes rather than inventing sentiment.",
+    "Output STRICT JSON only (no prose, no code fences):",
+    '{"overall": "positive"|"negative"|"mixed",',
+    ' "themes": [{"label": string (<=4 words), "sentiment": "positive"|"negative"|"mixed",',
+    '             "stories": number[] (indices of the stories this theme is based on)}]}',
+    "with at most 4 themes.",
+])
+
+
+def falkor_fan_vibes(stories: list[dict[str, Any]]) -> dict[str, Any] | None:
+    """Honest AI fan-sentiment read over the CITED article corpus (local model).
+
+    Returns {overall, ai_generated:true, themes:[{label, sentiment, source_urls}]}
+    where every theme cites the stories it came from — or None when the model is
+    unreachable (e.g. cloud runs) or the corpus is too thin. Never fabricates.
+    """
+    corpus = [s for s in stories if s.get("title")][:ENRICH_MAX_STORIES]
+    if len(corpus) < 2:
+        return None
+    model = _selected_model()
+    if not model:
+        return None
+    lines = []
+    for i, s in enumerate(corpus):
+        why = (s.get("why_it_matters") or {}).get("text") or ""
+        lines.append(f"[{i}] {s['title']} — {why}".strip(" —"))
+    try:
+        raw = _ollama_chat(model, FAN_VIBES_SYSTEM, "Stories:\n" + "\n".join(lines))
+    except (requests.RequestException, RuntimeError) as e:
+        log.info("fan_vibes model call unavailable (%s)", e)
+        return None
+    parsed = _parse_json_object(raw)
+    if not parsed:
+        return None
+    overall = parsed.get("overall")
+    if overall not in ("positive", "negative", "mixed"):
+        overall = "mixed"
+    themes: list[dict[str, Any]] = []
+    for t in (parsed.get("themes") or [])[:4]:
+        label = (t.get("label") or "").strip()
+        if not label:
+            continue
+        idxs = [j for j in (t.get("stories") or []) if isinstance(j, int) and 0 <= j < len(corpus)]
+        urls = sorted({corpus[j].get("url") for j in idxs if corpus[j].get("url")})
+        if not urls:
+            continue  # a theme with no cited source is dropped (never fabricate)
+        sentiment = t.get("sentiment") if t.get("sentiment") in ("positive", "negative", "mixed") else ""
+        themes.append({"label": label, "sentiment": sentiment, "source_urls": urls})
+    if not themes:
+        return None
+    return {"overall": overall, "ai_generated": True, "themes": themes}
+
+
+# ---------------------------------------------------------------------------
 # News gathering
 # ---------------------------------------------------------------------------
 
@@ -656,6 +779,7 @@ def build_payload(
     ai_applied = False
     storyline: dict[str, Any] | None = None
     trending: list[dict[str, Any]] = []
+    fan_vibes: dict[str, Any] | None = None
     if requested_mode == "falkor_enriched" and top_stories:
         # Group tags by a normalized key so "Luis Garcia Jr." and "Luis Garcia Jr"
         # merge into one cluster; keep the first-seen spelling as the display label.
@@ -709,6 +833,9 @@ def build_payload(
         # Storyline: AI commentary grounded in the freshest cited story.
         if ai_applied and top_stories and top_stories[0].get("why_it_matters"):
             storyline = {"text": top_stories[0]["why_it_matters"]["text"]}
+        # Fan Vibes: honest AI sentiment read over the cited corpus (local model).
+        if ai_applied:
+            fan_vibes = falkor_fan_vibes(top_stories)
     else:
         for story in top_stories:
             story.pop("summary", None)
@@ -725,11 +852,15 @@ def build_payload(
     if not ai_applied:
         limited.append({"id": "why_it_matters", "reason": "ai_enrichment_unavailable"})
         limited.append({"id": "trending", "reason": "ai_enrichment_unavailable"})
-    # Fan Vibes (sentiment) is ALWAYS disclosed unavailable: Phase-0 recon found
-    # the sanctioned enrich endpoint emits no sentiment polarity, so we never
-    # fabricate one. (Re-enable only if a sanctioned sentiment source appears.)
-    limited.append({"id": "fan_vibes", "reason": "ai_sentiment_unavailable"})
-    freshness["vibes"] = None
+    # Fan Vibes: an honest AI read of the CITED coverage when the local model
+    # produced one (ai_generated, every theme cites its stories); otherwise omit
+    # + disclose. Never fabricated. Only the local (enriched) run has the model.
+    if fan_vibes and fan_vibes.get("themes"):
+        freshness["vibes"] = now_iso()
+    else:
+        fan_vibes = {"overall": "", "ai_generated": False, "themes": []}
+        limited.append({"id": "fan_vibes", "reason": "ai_sentiment_unavailable"})
+        freshness["vibes"] = None
 
     # 4) Sections derived from the existing nationals.json + curated content.
     #    Team Pulse (the Curly W banner) and What to Watch copy live games from
@@ -758,11 +889,7 @@ def build_payload(
         "top_stories": top_stories,
         "team_pulse": team_pulse,
         "videos": videos,
-        # ai_generated:False — fan_vibes is deliberately empty (the sanctioned
-        # enrich endpoint emits no sentiment), so NOTHING AI-touched it. It is
-        # disclosed as unavailable in limited_sources above. Labeling an empty,
-        # non-AI field as ai_generated:true would itself be dishonest.
-        "fan_vibes": {"overall": "", "ai_generated": False, "themes": []},
+        "fan_vibes": fan_vibes,
         "trending": trending,
         "what_to_watch": what_to_watch,
         "on_this_day": on_this_day,
@@ -793,6 +920,21 @@ def main() -> int:
     natl = read_json(DOCS_DIR / "nationals.json", default={}) or {}
     history = read_json(CONTENT_DIR / "nats_history.json", default=None)
     prev = read_json(CACHE_DIR / "happenings.json", default=None)
+
+    # Don't let a cloud rss_fallback run downgrade a fresh locally-enriched publish
+    # (the local agent keeps happenings enriched every few hours, with the AI
+    # why_it_matters / trending / fan_vibes the cloud can't produce). If the
+    # published happenings is falkor_enriched and recent, leave it untouched.
+    if requested_mode == "rss_fallback":
+        published = read_json(DOCS_DIR / "happenings.json", default=None)
+        if published and published.get("mode") == "falkor_enriched":
+            gen = _parse_iso(published.get("generated_at"))
+            if gen and (datetime.now(timezone.utc) - gen) < timedelta(hours=ENRICHED_PRESERVE_HOURS):
+                log.info(
+                    "preserving fresh falkor_enriched happenings (age %s); skipping rss_fallback overwrite",
+                    datetime.now(timezone.utc) - gen,
+                )
+                return 0
 
     payload = build_payload(sources, natl, history, prev, requested_mode)
 
