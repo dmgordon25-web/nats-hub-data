@@ -84,7 +84,10 @@ ENRICH_MAX_STORIES = 6  # bound the local model spend per run
 # falkor_enriched run) — omitted+disclosed otherwise, never fabricated.
 GLOBAL_CHAT_MODEL_ENDPOINT = "/api/falkor/global-chat-model"
 OLLAMA_CHAT_URL = os.environ.get("OLLAMA_CHAT_URL", "http://127.0.0.1:11434/api/chat")
-FAN_VIBES_TIMEOUT_S = 30
+FAN_VIBES_TIMEOUT_S = 120  # generous: a cold/contended 9B first-cycle call can
+# exceed 30s (model load + prompt eval + JSON gen). This runs in a windowless
+# background agent with no user waiting, so a long ceiling just prevents the
+# first-cycle timeout that would otherwise disclose vibes as unavailable.
 
 # Don't let a cloud rss_fallback run downgrade a fresh locally-enriched publish.
 ENRICHED_PRESERVE_HOURS = 6
