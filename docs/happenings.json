@@ -1,63 +1,68 @@
 {
   "data_version": 1,
-  "generated_at": "2026-07-01T17:55:11+00:00",
+  "generated_at": "2026-07-01T18:01:14+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-07-01T17:54:35+00:00",
-    "videos": "2026-07-01T17:54:35+00:00",
-    "vibes": "2026-07-01T17:55:11+00:00"
+    "news": "2026-07-01T17:59:53+00:00",
+    "videos": "2026-07-01T17:59:53+00:00",
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-07-01T17:54:30+00:00",
+      "last_updated_at": "2026-07-01T17:59:36+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-07-01T17:54:32+00:00",
+      "last_updated_at": "2026-07-01T17:59:37+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-07-01T17:54:32+00:00",
+      "last_updated_at": "2026-07-01T17:59:39+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-07-01T17:54:33+00:00",
+      "last_updated_at": "2026-07-01T17:59:47+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-07-01T17:54:34+00:00",
+      "last_updated_at": "2026-07-01T17:59:47+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-07-01T17:54:35+00:00",
+      "last_updated_at": "2026-07-01T17:59:52+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-07-01T17:54:35+00:00",
+      "last_updated_at": "2026-07-01T17:59:52+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-07-01T17:54:35+00:00",
+      "last_updated_at": "2026-07-01T17:59:53+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
+    }
+  ],
   "top_stories": [
     {
       "title": "Contreras charges Nats mound; 4 tossed in dustup",
@@ -65,10 +70,10 @@
       "source": "ESPN MLB",
       "published_at": "2026-07-01T18:14:35+00:00",
       "why_it_matters": {
-        "text": "Boston Red Sox's Willson Contreras faces ejection after another altercation involving Washington Nationals pitcher Cade Cavalli.",
+        "text": "Boston Red Sox first baseman Willson Contreras was ejected from the game after a heated argument involving Washington Nationals pitcher Cade Cavalli.",
         "ai_generated": true
       },
-      "image_url": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0701%2Fr1682434_1296x729_16%2D9.jpg"
+      "image_url": null
     },
     {
       "title": "Willits, De Paula, Made among MLB Futures picks",
@@ -87,7 +92,7 @@
       "source": "Talk Nats",
       "published_at": "2026-07-01T17:10:13+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals secured an 8-1 victory with Cade Cavalli pitching a gem, allowing only one hit in seven innings.",
+        "text": "The Washington Nationals secured an 8-1 victory with Cade Cavalli pitching seven innings, allowing one hit and zero earned runs.",
         "ai_generated": true
       },
       "image_url": "https://www.talknats.com/wp-content/uploads/2025/09/Andrew-Alvarez-debut-9-1-2025-Sol-Tucker-B-scaled.jpg"
@@ -98,10 +103,21 @@
       "source": "CBS Sports MLB",
       "published_at": "2026-07-01T16:35:18+00:00",
       "why_it_matters": {
-        "text": "Willson Contreras charged the mound and threw his helmet during a game between the Red Sox and Nationals. This occurred after Cade Cavalli yelled at Contreras following a fourth-inning strikeout.",
+        "text": "Willson Contreras charged the mound and threw his helmet during a game between the Red Sox and Nationals. This occurred after Cade Cavalli yelled at Contreras following a strikeout in the fourth inning.",
         "ai_generated": true
       },
       "image_url": "https://sportshub.cbsistatic.com/i/r/2026/07/01/99f8bfb6-33a4-4401-91a9-96af34f17abe/thumbnail/1200x675/8da870a1eecbe910ab8f524dd69f4fcd/contreras-red-sox-getty.png"
+    },
+    {
+      "title": "Washington Nationals vs Boston Red Sox Game Thread",
+      "url": "https://www.federalbaseball.com/washington-nationals-discussions/92324/washington-nationals-vs-boston-red-sox-game-thread",
+      "source": "Federal Baseball",
+      "published_at": "2026-07-01T15:25:40+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals and Boston Red Sox face off in a heated series following a recent brawl and Cade Cavalli's standout performance.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2283597917.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
       "title": "Payton Tolle pushes for series win in first-half home finale",
@@ -109,7 +125,7 @@
       "source": "Yahoo Sports MLB",
       "published_at": "2026-07-01T15:08:08+00:00",
       "why_it_matters": {
-        "text": "The Red Sox host their final home game before the All-Star break while awaiting potential punishment for Tuesday's scuffle with the Nationals. Willson Contreras returns to Boston's lineup.",
+        "text": "The Red Sox play their final home game before the All-Star break while awaiting potential punishment for Tuesday's scuffle with the Nationals. Willson Contreras is expected to start.",
         "ai_generated": true
       },
       "image_url": "https://s.yimg.com/ny/api/res/1.2/eJ._YwMzYDJWDy7ud1rPPQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/cfc0fc8440a5a018260ad23b12ddc63e"
@@ -119,10 +135,6 @@
       "url": "https://sports.yahoo.com/articles/bostons-willson-contreras-tossed-2nd-145534309.html",
       "source": "Yahoo Sports MLB",
       "published_at": "2026-07-01T14:55:34+00:00",
-      "why_it_matters": {
-        "text": "Red Sox player Willson Contreras received an ejection for tossing his helmet at a Nationals pitcher, sparking bench-clearing altercations.",
-        "ai_generated": true
-      },
       "image_url": "https://s.yimg.com/ny/api/res/1.2/s2lggdAx58IBxorHKJ37lg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://media.zenfs.com/en/nbcsports.com/2c9cfcc00925f0708704c22b7962c40c"
     },
     {
@@ -131,13 +143,6 @@
       "source": "Federal Baseball",
       "published_at": "2026-07-01T13:32:34+00:00",
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2284087112.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "Cade Cavalli dominates in the chaos as the Washington Nationals win a chippy affair",
-      "url": "https://www.federalbaseball.com/washington-nationals-scores/92303/cade-cavalli-dominates-chaos-washington-nationals-win-chippy-affair",
-      "source": "Federal Baseball",
-      "published_at": "2026-07-01T03:03:08+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/06/gettyimages-2284091719.jpg?quality=90&strip=all&crop=0%2C10.741710296684%2C100%2C78.516579406632&w=1200"
     }
   ],
   "team_pulse": {
@@ -146,7 +151,7 @@
       "text": "Curly W! The Nats beat the Red Sox 8-1."
     },
     "storyline": {
-      "text": "Boston Red Sox's Willson Contreras faces ejection after another altercation involving Washington Nationals pitcher Cade Cavalli.",
+      "text": "Boston Red Sox first baseman Willson Contreras was ejected from the game after a heated argument involving Washington Nationals pitcher Cade Cavalli.",
       "ai_generated": true
     }
   },
@@ -195,26 +200,9 @@
     }
   ],
   "fan_vibes": {
-    "overall": "mixed",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "pitcher performance",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.talknats.com/2026/07/01/game-88-nats-have-a-series-to-win-today/"
-        ]
-      },
-      {
-        "label": "on-field altercation",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://sports.yahoo.com/articles/bostons-willson-contreras-tossed-2nd-145534309.html",
-          "https://www.cbssports.com/mlb/news/red-sox-nationals-benches-clear-willson-contreras-cade-cavalli/",
-          "https://www.espn.com/mlb/story/_/id/49231659/nats-red-sox-benches-clear-heated-willson-contreras-cade-cavalli-exchange"
-        ]
-      }
-    ]
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
   },
   "trending": [
     {
@@ -222,23 +210,14 @@
       "sentiment": "",
       "context": "Contreras charges Nats mound; 4 tossed in dustup",
       "source_urls": [
-        "https://sports.yahoo.com/articles/bostons-willson-contreras-tossed-2nd-145534309.html",
         "https://sports.yahoo.com/articles/payton-tolle-pushes-series-win-150808528.html",
         "https://www.cbssports.com/mlb/news/red-sox-nationals-benches-clear-willson-contreras-cade-cavalli/",
-        "https://www.espn.com/mlb/story/_/id/49231659/nats-red-sox-benches-clear-heated-willson-contreras-cade-cavalli-exchange"
+        "https://www.espn.com/mlb/story/_/id/49231659/nats-red-sox-benches-clear-heated-willson-contreras-cade-cavalli-exchange",
+        "https://www.federalbaseball.com/washington-nationals-discussions/92324/washington-nationals-vs-boston-red-sox-game-thread"
       ]
     },
     {
-      "label": "Ejections",
-      "sentiment": "",
-      "context": "Contreras charges Nats mound; 4 tossed in dustup",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/bostons-willson-contreras-tossed-2nd-145534309.html",
-        "https://www.espn.com/mlb/story/_/id/49231659/nats-red-sox-benches-clear-heated-willson-contreras-cade-cavalli-exchange"
-      ]
-    },
-    {
-      "label": "Conflict",
+      "label": "ejection",
       "sentiment": "",
       "context": "Contreras charges Nats mound; 4 tossed in dustup",
       "source_urls": [
@@ -283,6 +262,14 @@
       "context": "Game #88 Nats have a series to win today!",
       "source_urls": [
         "https://www.cbssports.com/mlb/news/red-sox-nationals-benches-clear-willson-contreras-cade-cavalli/",
+        "https://www.talknats.com/2026/07/01/game-88-nats-have-a-series-to-win-today/"
+      ]
+    },
+    {
+      "label": "Game #88",
+      "sentiment": "",
+      "context": "Game #88 Nats have a series to win today!",
+      "source_urls": [
         "https://www.talknats.com/2026/07/01/game-88-nats-have-a-series-to-win-today/"
       ]
     }
