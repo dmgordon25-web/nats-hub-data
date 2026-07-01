@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-01T15:48:45+00:00",
+  "fetched_at": "2026-07-01T17:02:24+00:00",
   "freshness": {
-    "schedule": "2026-07-01T15:48:44+00:00",
-    "standings": "2026-07-01T15:48:45+00:00",
+    "schedule": "2026-07-01T17:02:23+00:00",
+    "standings": "2026-07-01T17:02:23+00:00",
     "injuries": "2026-06-30T20:20:14+00:00",
     "former_nats": "2026-07-01T15:48:44+00:00",
-    "weather": "2026-07-01T15:48:45+00:00"
+    "weather": "2026-07-01T17:02:24+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -62,7 +62,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -71,7 +71,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WEEI 93.7",
@@ -80,7 +80,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WCCM 1490 AM (SP)",
@@ -89,7 +89,7 @@
         "language": "es",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WESX 1230 AM (SP)",
@@ -107,7 +107,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       }
     ],
     "linescore": {
@@ -142,21 +142,21 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Starts Soon"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-01T15:48:45+00:00",
+    "fetched_at": "2026-07-01T17:02:24+00:00",
     "source": "open_meteo",
     "game_pk": 824740,
     "venue_name": "Fenway Park",
     "forecast_at": "2026-07-01T18:00",
-    "temperature_f": 95.3,
-    "feels_like_f": 103.0,
-    "wind_mph": 8.1,
+    "temperature_f": 95.1,
+    "feels_like_f": 102.8,
+    "wind_mph": 7.7,
     "wind_dir": "WSW",
-    "precip_chance": 3,
+    "precip_chance": 2,
     "precip_inches": 0.0,
-    "summary": "Clear",
+    "summary": "Mostly clear",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -217,7 +217,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -226,7 +226,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WEEI 93.7",
@@ -235,7 +235,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WCCM 1490 AM (SP)",
@@ -244,7 +244,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WESX 1230 AM (SP)",
@@ -262,7 +262,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
@@ -297,7 +297,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 822714,
@@ -331,7 +331,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 656492,
+          "name": "Foster Griffin",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -438,7 +442,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 641793,
+          "name": "Zack Littell",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -965,7 +973,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -974,7 +982,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WEEI 93.7",
@@ -983,7 +991,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WCCM 1490 AM (SP)",
@@ -992,7 +1000,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WESX 1230 AM (SP)",
@@ -1010,7 +1018,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
@@ -1045,7 +1053,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 822714,
@@ -1079,7 +1087,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 656492,
+          "name": "Foster Griffin",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -1186,7 +1198,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 641793,
+          "name": "Zack Littell",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -1293,7 +1309,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 571945,
+          "name": "Miles Mikolas",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
