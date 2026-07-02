@@ -1,74 +1,85 @@
 {
   "data_version": 1,
-  "generated_at": "2026-07-02T17:01:40+00:00",
+  "generated_at": "2026-07-02T21:02:37+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-07-02T17:01:17+00:00",
-    "videos": "2026-07-02T17:01:17+00:00",
-    "vibes": "2026-07-02T17:01:40+00:00"
+    "news": "2026-07-02T21:01:59+00:00",
+    "videos": "2026-07-02T21:01:59+00:00",
+    "vibes": "2026-07-02T21:02:37+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-07-02T17:01:09+00:00",
+      "last_updated_at": "2026-07-02T21:01:46+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-07-02T21:01:48+00:00",
+      "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-07-02T17:01:15+00:00",
+      "last_updated_at": "2026-07-02T21:01:49+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-07-02T17:01:15+00:00",
+      "last_updated_at": "2026-07-02T21:01:49+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-07-02T17:01:15+00:00",
+      "last_updated_at": "2026-07-02T21:01:49+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-07-02T17:01:16+00:00",
+      "last_updated_at": "2026-07-02T21:01:58+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-07-02T17:01:16+00:00",
+      "last_updated_at": "2026-07-02T21:01:58+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-07-02T17:01:17+00:00",
+      "last_updated_at": "2026-07-02T21:01:59+00:00",
       "status": "live"
     }
   ],
   "limited_sources": [],
   "top_stories": [
     {
+      "title": "Washington Nationals and Baltimore Orioles link up for their first ever trade",
+      "url": "https://www.federalbaseball.com/washington-nationals-news/92355/washington-nationals-baltimore-orioles-link-up-first-ever-trade",
+      "source": "Federal Baseball",
+      "published_at": "2026-07-02T17:51:17+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals traded Kyle Nicolas to the Baltimore Orioles for Randal Diaz, marking their first-ever transaction between these two teams.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2273079490.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+    },
+    {
       "title": "Andrew Alvarez is proving he is more than a flash in the pan for the Washington Nationals",
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/92343/andrew-alvarez-proving-he-more-than-flash-in-pan-washington-nationals",
       "source": "Federal Baseball",
       "published_at": "2026-07-02T15:25:48+00:00",
       "why_it_matters": {
-        "text": "Andrew Alvarez showed effectiveness with his breaking ball for the Washington Nationals last season despite short outings.",
+        "text": "Andrew Alvarez showed promise with five effective starts for the Washington Nationals last season using his breaking ball. While he did not pitch deep into games, questions remained about a lefty whose 91 mph fastball yielded middling results.",
         "ai_generated": true
       },
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2283541313.jpg?quality=90&strip=all&crop=0%2C10.751307678965%2C100%2C78.497384642071&w=1200"
+      "image_url": null
     },
     {
       "title": "Cavalli: No ill will meant with Contreras remark",
@@ -98,20 +109,27 @@
       "source": "Federal Baseball",
       "published_at": "2026-07-01T21:21:11+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals defeated the Boston Red Sox with a decisive score after an incident in the fourth inning. Nasim Nunez and Andres Chaparro were key contributors to this victory.",
+        "text": "The Washington Nationals defeated the Boston Red Sox with a decisive score after an intense fourth-inning brawl. Nasim Nunez and Andres Chaparro were key contributors as the team outscored their opponents significantly following the on-field altercation.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2284228187.jpg?quality=90&strip=all&crop=0%2C15.098893736992%2C100%2C69.802212526017&w=1200"
+    },
+    {
+      "title": "Game #88 Nats have a series to win today!",
+      "url": "https://www.talknats.com/2026/07/01/game-88-nats-have-a-series-to-win-today/",
+      "source": "Talk Nats",
+      "published_at": "2026-07-01T17:10:13+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals secured an 8-1 victory with Cade Cavalli pitching seven innings, allowing one hit and zero earned runs.",
+        "ai_generated": true
+      },
+      "image_url": "https://www.talknats.com/wp-content/uploads/2025/09/Andrew-Alvarez-debut-9-1-2025-Sol-Tucker-B-scaled.jpg"
     },
     {
       "title": "Benches clear in Red Sox vs. Nationals game as Willson Contreras charges mound, throws helmet at Cade Cavalli",
       "url": "https://www.cbssports.com/mlb/news/red-sox-nationals-benches-clear-willson-contreras-cade-cavalli/",
       "source": "CBS Sports MLB",
       "published_at": "2026-07-01T16:35:18+00:00",
-      "why_it_matters": {
-        "text": "Willson Contreras charged the mound and threw his helmet during a game between the Red Sox and Nationals. This occurred after Cade Cavalli yelled at Contreras following a strikeout in the fourth inning.",
-        "ai_generated": true
-      },
       "image_url": "https://sportshub.cbsistatic.com/i/r/2026/07/01/99f8bfb6-33a4-4401-91a9-96af34f17abe/thumbnail/1200x675/8da870a1eecbe910ab8f524dd69f4fcd/contreras-red-sox-getty.png"
     },
     {
@@ -119,25 +137,7 @@
       "url": "https://www.federalbaseball.com/washington-nationals-discussions/92324/washington-nationals-vs-boston-red-sox-game-thread",
       "source": "Federal Baseball",
       "published_at": "2026-07-01T15:25:40+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals and Boston Red Sox face off in a heated series following a recent brawl. The Nats responded to the Red Sox's first win with a strong performance from Cade Cavalli before their final matchup.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2283597917.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "Breaking down how Cade Cavalli mowed down the Red Sox in career best start",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/92313/breaking-down-cade-cavalli-mowed-down-red-sox-career-best-start",
-      "source": "Federal Baseball",
-      "published_at": "2026-07-01T13:32:34+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2284087112.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "Cade Cavalli dominates in the chaos as the Washington Nationals win a chippy affair",
-      "url": "https://www.federalbaseball.com/washington-nationals-scores/92303/cade-cavalli-dominates-chaos-washington-nationals-win-chippy-affair",
-      "source": "Federal Baseball",
-      "published_at": "2026-07-01T03:03:08+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/06/gettyimages-2284091719.jpg?quality=90&strip=all&crop=0%2C10.741710296684%2C100%2C78.516579406632&w=1200"
     }
   ],
   "team_pulse": {
@@ -146,7 +146,7 @@
       "text": "Curly W! The Nats beat the Red Sox 10-2."
     },
     "storyline": {
-      "text": "Andrew Alvarez showed effectiveness with his breaking ball for the Washington Nationals last season despite short outings.",
+      "text": "The Washington Nationals traded Kyle Nicolas to the Baltimore Orioles for Randal Diaz, marking their first-ever transaction between these two teams.",
       "ai_generated": true
     }
   },
@@ -195,46 +195,68 @@
     }
   ],
   "fan_vibes": {
-    "overall": "mixed",
+    "overall": "positive",
     "ai_generated": true,
     "themes": [
       {
-        "label": "Player Performance",
-        "sentiment": "positive",
+        "label": "Trade activity",
+        "sentiment": "",
         "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/92343/andrew-alvarez-proving-he-more-than-flash-in-pan-washington-nationals",
-          "https://www.federalbaseball.com/washington-nationals-scores/92334/unlikely-duo-nasim-nunez-andres-chaparro-power-nationals-to-10-2-win"
+          "https://www.federalbaseball.com/washington-nationals-news/92355/washington-nationals-baltimore-orioles-link-up-first-ever-trade",
+          "https://www.mlbtraderumors.com/2026/07/orioles-trade-kyle-nicolas-to-nationals.html"
         ]
       },
       {
-        "label": "Team Conflict",
-        "sentiment": "negative",
+        "label": "Player performance",
+        "sentiment": "mixed",
         "source_urls": [
-          "https://www.cbssports.com/mlb/news/red-sox-nationals-benches-clear-willson-contreras-cade-cavalli/",
-          "https://www.espn.com/mlb/story/_/id/49239011/nationals-cade-cavalli-sorry-remark-willson-contreras"
+          "https://www.federalbaseball.com/washington-nationals-analysis/92343/andrew-alvarez-proving-he-more-than-flash-in-pan-washington-nationals",
+          "https://www.federalbaseball.com/washington-nationals-scores/92334/unlikely-duo-nasim-nunez-andres-chaparro-power-nationals-to-10-2-win",
+          "https://www.talknats.com/2026/07/01/game-88-nats-have-a-series-to-win-today/"
+        ]
+      },
+      {
+        "label": "Team resilience",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.espn.com/mlb/story/_/id/49239011/nationals-cade-cavalli-sorry-remark-willson-contreras",
+          "https://www.federalbaseball.com/washington-nationals-scores/92334/unlikely-duo-nasim-nunez-andres-chaparro-power-nationals-to-10-2-win"
         ]
       }
     ]
   },
   "trending": [
     {
-      "label": "Red Sox",
+      "label": "Baltimore Orioles",
       "sentiment": "",
-      "context": "Cavalli: No ill will meant with Contreras remark",
+      "context": "Washington Nationals and Baltimore Orioles link up for their first ever trade",
       "source_urls": [
-        "https://www.cbssports.com/mlb/news/red-sox-nationals-benches-clear-willson-contreras-cade-cavalli/",
-        "https://www.espn.com/mlb/story/_/id/49239011/nationals-cade-cavalli-sorry-remark-willson-contreras",
-        "https://www.federalbaseball.com/washington-nationals-discussions/92324/washington-nationals-vs-boston-red-sox-game-thread",
-        "https://www.federalbaseball.com/washington-nationals-scores/92334/unlikely-duo-nasim-nunez-andres-chaparro-power-nationals-to-10-2-win"
+        "https://www.federalbaseball.com/washington-nationals-news/92355/washington-nationals-baltimore-orioles-link-up-first-ever-trade",
+        "https://www.mlbtraderumors.com/2026/07/orioles-trade-kyle-nicolas-to-nationals.html"
       ]
     },
     {
-      "label": "Brawl",
+      "label": "Baseball Trade",
       "sentiment": "",
-      "context": "The unlikely duo of Nasim Nunez and Andres Chaparro power the Nationals to a 10-2 win",
+      "context": "Washington Nationals and Baltimore Orioles link up for their first ever trade",
       "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-discussions/92324/washington-nationals-vs-boston-red-sox-game-thread",
-        "https://www.federalbaseball.com/washington-nationals-scores/92334/unlikely-duo-nasim-nunez-andres-chaparro-power-nationals-to-10-2-win"
+        "https://www.federalbaseball.com/washington-nationals-news/92355/washington-nationals-baltimore-orioles-link-up-first-ever-trade"
+      ]
+    },
+    {
+      "label": "Kyle Nicolas",
+      "sentiment": "",
+      "context": "Washington Nationals and Baltimore Orioles link up for their first ever trade",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-news/92355/washington-nationals-baltimore-orioles-link-up-first-ever-trade"
+      ]
+    },
+    {
+      "label": "Randal Diaz",
+      "sentiment": "",
+      "context": "Washington Nationals and Baltimore Orioles link up for their first ever trade",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-news/92355/washington-nationals-baltimore-orioles-link-up-first-ever-trade"
       ]
     },
     {
@@ -242,11 +264,20 @@
       "sentiment": "",
       "context": "Andrew Alvarez is proving he is more than a flash in the pan for the Washington Nationals",
       "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/92343/andrew-alvarez-proving-he-more-than-flash-in-pan-washington-nationals",
+        "https://www.talknats.com/2026/07/01/game-88-nats-have-a-series-to-win-today/"
+      ]
+    },
+    {
+      "label": "Andrew Alvarez",
+      "sentiment": "",
+      "context": "Andrew Alvarez is proving he is more than a flash in the pan for the Washington Nationals",
+      "source_urls": [
         "https://www.federalbaseball.com/washington-nationals-analysis/92343/andrew-alvarez-proving-he-more-than-flash-in-pan-washington-nationals"
       ]
     },
     {
-      "label": "Performance",
+      "label": "Season Review",
       "sentiment": "",
       "context": "Andrew Alvarez is proving he is more than a flash in the pan for the Washington Nationals",
       "source_urls": [
@@ -259,30 +290,6 @@
       "context": "Cavalli: No ill will meant with Contreras remark",
       "source_urls": [
         "https://www.espn.com/mlb/story/_/id/49239011/nationals-cade-cavalli-sorry-remark-willson-contreras"
-      ]
-    },
-    {
-      "label": "scrums",
-      "sentiment": "",
-      "context": "Cavalli: No ill will meant with Contreras remark",
-      "source_urls": [
-        "https://www.espn.com/mlb/story/_/id/49239011/nationals-cade-cavalli-sorry-remark-willson-contreras"
-      ]
-    },
-    {
-      "label": "Orioles",
-      "sentiment": "",
-      "context": "Orioles Trade Kyle Nicolas To Nationals",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/07/orioles-trade-kyle-nicolas-to-nationals.html"
-      ]
-    },
-    {
-      "label": "MLB Trade",
-      "sentiment": "",
-      "context": "Orioles Trade Kyle Nicolas To Nationals",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/07/orioles-trade-kyle-nicolas-to-nationals.html"
       ]
     }
   ],
