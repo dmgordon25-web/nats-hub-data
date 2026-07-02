@@ -1,14 +1,16 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-01T23:48:53+00:00",
+  "fetched_at": "2026-07-02T00:20:40+00:00",
   "freshness": {
-    "schedule": "2026-07-01T23:48:52+00:00",
-    "standings": "2026-07-01T23:48:52+00:00",
+    "schedule": "2026-07-02T00:20:39+00:00",
+    "standings": "2026-07-02T00:20:39+00:00",
     "injuries": "2026-07-01T20:16:02+00:00",
-    "former_nats": "2026-07-01T20:16:10+00:00",
-    "weather": "2026-07-01T23:48:53+00:00"
+    "former_nats": "2026-07-02T00:20:38+00:00",
+    "weather": "2026-07-02T00:20:40+00:00"
   },
-  "stale_sources": [],
+  "stale_sources": [
+    "injuries"
+  ],
   "focus_game": {
     "game_pk": 822714,
     "date": "2026-07-03",
@@ -121,25 +123,25 @@
     "watch_label": "Next Game"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-01T23:48:53+00:00",
+    "fetched_at": "2026-07-02T00:20:40+00:00",
     "source": "open_meteo",
     "game_pk": 822714,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-07-03T23:00",
     "temperature_f": 103.8,
-    "feels_like_f": 106.1,
-    "wind_mph": 4.5,
-    "wind_dir": "NNE",
+    "feels_like_f": 105.5,
+    "wind_mph": 5.9,
+    "wind_dir": "E",
     "precip_chance": 5,
     "precip_inches": 0.0,
     "summary": "Clear",
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "stat_nerd_park_factor",
+    "id": "stat_nerd_team_age",
     "category": "stat_nerd",
     "weight": 4,
-    "text": "Nationals Park is roughly league-average for run scoring. The right-center power alley is the friendliest spot."
+    "text": "The Nats are one of the youngest position-player groups in MLB. Most of the lineup is still inside their team-control years."
   },
   "next_three": [
     {
@@ -610,139 +612,6 @@
     "watch_label": "Game Final"
   },
   "all_games": [
-    {
-      "game_pk": 824741,
-      "date": "2026-06-29",
-      "start_time_utc": "2026-06-29T23:10:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 111,
-        "abbrev": "BOS",
-        "name": "Boston Red Sox",
-        "short_name": "Red Sox",
-        "record": "37-46",
-        "score": 6
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "43-43",
-        "score": 3
-      },
-      "venue": {
-        "id": 3,
-        "name": "Fenway Park",
-        "city": "Boston",
-        "state": "MA",
-        "lat": 42.346456,
-        "lon": -71.097441
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 624133,
-          "name": "Ranger Suarez",
-          "hand": null
-        },
-        "away": {
-          "id": 571945,
-          "name": "Miles Mikolas",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "NESN",
-          "call_sign": "NESN",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WEEI 93.7",
-          "call_sign": "WEEI",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WCCM 1490 AM (SP)",
-          "call_sign": "WCCM",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WESX 1230 AM (SP)",
-          "call_sign": "WESX",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 6,
-        "away_runs": 3,
-        "home_hits": 9,
-        "away_hits": 7,
-        "home_errors": 0,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
     {
       "game_pk": 824742,
       "date": "2026-06-30",
