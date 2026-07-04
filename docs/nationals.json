@@ -1,9 +1,9 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-04T01:23:30+00:00",
+  "fetched_at": "2026-07-04T02:51:44+00:00",
   "freshness": {
-    "schedule": "2026-07-04T01:22:39+00:00",
-    "standings": "2026-07-04T01:22:40+00:00",
+    "schedule": "2026-07-04T02:50:53+00:00",
+    "standings": "2026-07-04T02:50:53+00:00",
     "injuries": "2026-07-01T20:16:02+00:00",
     "former_nats": "2026-07-04T00:16:13+00:00",
     "weather": "2026-07-03T22:40:24+00:00"
@@ -13,27 +13,27 @@
     "weather"
   ],
   "focus_game": {
-    "game_pk": 822714,
-    "date": "2026-07-03",
-    "start_time_utc": "2026-07-03T22:45:00Z",
-    "status": "Live",
-    "detailed_status": "In Progress",
+    "game_pk": 822716,
+    "date": "2026-07-04",
+    "start_time_utc": "2026-07-04T15:05:00Z",
+    "status": "Preview",
+    "detailed_status": "Scheduled",
     "is_nats_home": true,
     "home": {
       "id": 120,
       "abbrev": "WSH",
       "name": "Washington Nationals",
       "short_name": "Nationals",
-      "record": "45-43",
-      "score": 9
+      "record": "46-43",
+      "score": null
     },
     "away": {
       "id": 134,
       "abbrev": "PIT",
       "name": "Pittsburgh Pirates",
       "short_name": "Pirates",
-      "record": "44-44",
-      "score": 1
+      "record": "44-45",
+      "score": null
     },
     "venue": {
       "id": 3309,
@@ -45,13 +45,13 @@
     },
     "probable_pitchers": {
       "home": {
-        "id": 656492,
-        "name": "Foster Griffin",
+        "id": 641793,
+        "name": "Zack Littell",
         "hand": null
       },
       "away": {
-        "id": 656605,
-        "name": "Mitch Keller",
+        "id": 677952,
+        "name": "Braxton Ashcraft",
         "hand": null
       }
     },
@@ -63,7 +63,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_OFF"
       },
       {
         "name": "Nationals.TV",
@@ -72,7 +72,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_OFF"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -81,7 +81,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_OFF"
       },
       {
         "name": "Sports Radio 93.7 KDKA The Fan",
@@ -90,32 +90,32 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_OFF"
       }
     ],
     "linescore": {
-      "current_inning": 8,
-      "inning_half": "Bottom",
-      "inning_state": "Bottom",
-      "is_top_inning": false,
-      "balls": 1,
-      "strikes": 1,
-      "outs": 1,
-      "home_runs": 9,
-      "away_runs": 1,
-      "home_hits": 11,
-      "away_hits": 8,
-      "home_errors": 2,
-      "away_errors": 0
+      "current_inning": null,
+      "inning_half": null,
+      "inning_state": null,
+      "is_top_inning": null,
+      "balls": null,
+      "strikes": null,
+      "outs": null,
+      "home_runs": null,
+      "away_runs": null,
+      "home_hits": null,
+      "away_hits": null,
+      "home_errors": null,
+      "away_errors": null
     },
     "series": {
-      "game_number": 1,
+      "game_number": 2,
       "games_in_series": 3,
       "description": "Regular Season"
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "live",
+    "classification": "next",
     "provider": {
       "broadcast_name": "Nationals.TV",
       "is_national": false,
@@ -125,26 +125,9 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Live"
+    "watch_label": "Watch Tonight"
   },
-  "focus_weather": {
-    "fetched_at": "2026-07-03T22:40:24+00:00",
-    "source": "open_meteo",
-    "game_pk": 822714,
-    "venue_name": "Nationals Park",
-    "forecast_at": "2026-07-03T23:00",
-    "temperature_f": 99.0,
-    "feels_like_f": 105.7,
-    "wind_mph": 5.5,
-    "wind_dir": "SW",
-    "precip_chance": 2,
-    "precip_inches": 0.0,
-    "summary": "Clear",
-    "is_dome": false,
-    "_stale": true,
-    "_stale_since": "2026-07-03T23:49:20+00:00",
-    "_last_attempt": "2026-07-04T01:23:30+00:00"
-  },
+  "focus_weather": null,
   "tonight_tidbit": {
     "id": "tonight_april",
     "category": "tonight_nugget",
@@ -154,121 +137,6 @@
   },
   "next_three": [
     {
-      "game_pk": 822714,
-      "date": "2026-07-03",
-      "start_time_utc": "2026-07-03T22:45:00Z",
-      "status": "Live",
-      "detailed_status": "In Progress",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "45-43",
-        "score": 9
-      },
-      "away": {
-        "id": 134,
-        "abbrev": "PIT",
-        "name": "Pittsburgh Pirates",
-        "short_name": "Pirates",
-        "record": "44-44",
-        "score": 1
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 656492,
-          "name": "Foster Griffin",
-          "hand": null
-        },
-        "away": {
-          "id": 656605,
-          "name": "Mitch Keller",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "SportsNet Pittsburgh",
-          "call_sign": "SNP",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ON"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ON"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ON"
-        },
-        {
-          "name": "Sports Radio 93.7 KDKA The Fan",
-          "call_sign": "KDKA",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ON"
-        }
-      ],
-      "linescore": {
-        "current_inning": 8,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 1,
-        "strikes": 1,
-        "outs": 1,
-        "home_runs": 9,
-        "away_runs": 1,
-        "home_hits": 11,
-        "away_hits": 8,
-        "home_errors": 2,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "live",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Watch Live"
-    },
-    {
       "game_pk": 822716,
       "date": "2026-07-04",
       "start_time_utc": "2026-07-04T15:05:00Z",
@@ -280,7 +148,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "45-43",
+        "record": "46-43",
         "score": null
       },
       "away": {
@@ -288,7 +156,7 @@
         "abbrev": "PIT",
         "name": "Pittsburgh Pirates",
         "short_name": "Pirates",
-        "record": "44-44",
+        "record": "44-45",
         "score": null
       },
       "venue": {
@@ -395,7 +263,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "45-43",
+        "record": "46-43",
         "score": null
       },
       "away": {
@@ -403,355 +271,7 @@
         "abbrev": "PIT",
         "name": "Pittsburgh Pirates",
         "short_name": "Pirates",
-        "record": "44-44",
-        "score": null
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 571945,
-          "name": "Miles Mikolas",
-          "hand": null
-        },
-        "away": {
-          "id": 696149,
-          "name": "Bubba Chandler",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Sports Radio 93.7 KDKA The Fan",
-          "call_sign": "KDKA",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Peacock / NBCSN Extra",
-          "call_sign": "Peacock",
-          "type": "TV",
-          "language": "en",
-          "is_national": true,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Peacock / NBCSN Extra",
-          "call_sign": "Peacock",
-          "type": "TV",
-          "language": "en",
-          "is_national": true,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        }
-      ],
-      "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
-      },
-      "series": {
-        "game_number": 3,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "next",
-      "provider": {
-        "broadcast_name": "Peacock / NBCSN Extra",
-        "is_national": true,
-        "rule_id": "peacock",
-        "label": "Peacock",
-        "package": "com.peacocktv.peacockandroid",
-        "intent_uri": "peacock://livetv",
-        "fallback_uri": "https://www.peacocktv.com/"
-      },
-      "watch_label": "Next Game"
-    }
-  ],
-  "last_result": null,
-  "all_games": [
-    {
-      "game_pk": 822714,
-      "date": "2026-07-03",
-      "start_time_utc": "2026-07-03T22:45:00Z",
-      "status": "Live",
-      "detailed_status": "In Progress",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "45-43",
-        "score": 9
-      },
-      "away": {
-        "id": 134,
-        "abbrev": "PIT",
-        "name": "Pittsburgh Pirates",
-        "short_name": "Pirates",
-        "record": "44-44",
-        "score": 1
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 656492,
-          "name": "Foster Griffin",
-          "hand": null
-        },
-        "away": {
-          "id": 656605,
-          "name": "Mitch Keller",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "SportsNet Pittsburgh",
-          "call_sign": "SNP",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ON"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ON"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ON"
-        },
-        {
-          "name": "Sports Radio 93.7 KDKA The Fan",
-          "call_sign": "KDKA",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ON"
-        }
-      ],
-      "linescore": {
-        "current_inning": 8,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 1,
-        "strikes": 1,
-        "outs": 1,
-        "home_runs": 9,
-        "away_runs": 1,
-        "home_hits": 11,
-        "away_hits": 8,
-        "home_errors": 2,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "live",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Watch Live"
-    },
-    {
-      "game_pk": 822716,
-      "date": "2026-07-04",
-      "start_time_utc": "2026-07-04T15:05:00Z",
-      "status": "Preview",
-      "detailed_status": "Scheduled",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "45-43",
-        "score": null
-      },
-      "away": {
-        "id": 134,
-        "abbrev": "PIT",
-        "name": "Pittsburgh Pirates",
-        "short_name": "Pirates",
-        "record": "44-44",
-        "score": null
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 641793,
-          "name": "Zack Littell",
-          "hand": null
-        },
-        "away": {
-          "id": 677952,
-          "name": "Braxton Ashcraft",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "SportsNet Pittsburgh",
-          "call_sign": "SNP",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Sports Radio 93.7 KDKA The Fan",
-          "call_sign": "KDKA",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        }
-      ],
-      "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
-      },
-      "series": {
-        "game_number": 2,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "next",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Watch Tonight"
-    },
-    {
-      "game_pk": 822715,
-      "date": "2026-07-05",
-      "start_time_utc": "2026-07-05T17:00:00Z",
-      "status": "Preview",
-      "detailed_status": "Scheduled",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "45-43",
-        "score": null
-      },
-      "away": {
-        "id": 134,
-        "abbrev": "PIT",
-        "name": "Pittsburgh Pirates",
-        "short_name": "Pirates",
-        "record": "44-44",
+        "record": "44-45",
         "score": null
       },
       "venue": {
@@ -858,7 +378,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "45-43",
+        "record": "46-43",
         "score": null
       },
       "away": {
@@ -866,7 +386,585 @@
         "abbrev": "HOU",
         "name": "Houston Astros",
         "short_name": "Astros",
-        "record": "43-46",
+        "record": "43-47",
+        "score": null
+      },
+      "venue": {
+        "id": 3309,
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.872861,
+        "lon": -77.007501
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "Space City Home Network",
+          "call_sign": "SCHN",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KBME 790 AM/94.5 FM HD-2",
+          "call_sign": "KBME",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KLTN-TUDN 102.9 FM",
+          "call_sign": "TUDN 102.9",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 1,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
+    }
+  ],
+  "last_result": {
+    "game_pk": 822714,
+    "date": "2026-07-03",
+    "start_time_utc": "2026-07-03T22:45:00Z",
+    "status": "Final",
+    "detailed_status": "Final",
+    "is_nats_home": true,
+    "home": {
+      "id": 120,
+      "abbrev": "WSH",
+      "name": "Washington Nationals",
+      "short_name": "Nationals",
+      "record": "46-43",
+      "score": 9
+    },
+    "away": {
+      "id": 134,
+      "abbrev": "PIT",
+      "name": "Pittsburgh Pirates",
+      "short_name": "Pirates",
+      "record": "44-45",
+      "score": 5
+    },
+    "venue": {
+      "id": 3309,
+      "name": "Nationals Park",
+      "city": "Washington",
+      "state": "DC",
+      "lat": 38.872861,
+      "lon": -77.007501
+    },
+    "probable_pitchers": {
+      "home": {
+        "id": 656492,
+        "name": "Foster Griffin",
+        "hand": null
+      },
+      "away": {
+        "id": 656605,
+        "name": "Mitch Keller",
+        "hand": null
+      }
+    },
+    "broadcasts": [
+      {
+        "name": "SportsNet Pittsburgh",
+        "call_sign": "SNP",
+        "type": "TV",
+        "language": "en",
+        "is_national": false,
+        "home_away": "away",
+        "media_state": "MEDIA_ON"
+      },
+      {
+        "name": "Nationals.TV",
+        "call_sign": "NATS",
+        "type": "TV",
+        "language": "en",
+        "is_national": false,
+        "home_away": "home",
+        "media_state": "MEDIA_ON"
+      },
+      {
+        "name": "WJFK 106.7 The Fan",
+        "call_sign": "106.7 FM",
+        "type": "FM",
+        "language": "en",
+        "is_national": false,
+        "home_away": "home",
+        "media_state": "MEDIA_ON"
+      },
+      {
+        "name": "Sports Radio 93.7 KDKA The Fan",
+        "call_sign": "KDKA",
+        "type": "FM",
+        "language": "en",
+        "is_national": false,
+        "home_away": "away",
+        "media_state": "MEDIA_ON"
+      }
+    ],
+    "linescore": {
+      "current_inning": 9,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 2,
+      "outs": 3,
+      "home_runs": 9,
+      "away_runs": 5,
+      "home_hits": 12,
+      "away_hits": 13,
+      "home_errors": 2,
+      "away_errors": 0
+    },
+    "series": {
+      "game_number": 1,
+      "games_in_series": 3,
+      "description": "Regular Season"
+    },
+    "double_header": "N",
+    "_source": "mlb_statsapi",
+    "classification": "previous",
+    "provider": {
+      "broadcast_name": "Nationals.TV",
+      "is_national": false,
+      "rule_id": "masn_natstv",
+      "label": "MASN+ / Nationals.TV via MLB app",
+      "package": "com.bamnetworks.mobile.android.gameday.atbat",
+      "intent_uri": "mlbatbat://game/{game_pk}",
+      "fallback_uri": "https://www.mlb.com/nationals/tv"
+    },
+    "watch_label": "Game Final"
+  },
+  "all_games": [
+    {
+      "game_pk": 822714,
+      "date": "2026-07-03",
+      "start_time_utc": "2026-07-03T22:45:00Z",
+      "status": "Final",
+      "detailed_status": "Final",
+      "is_nats_home": true,
+      "home": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "46-43",
+        "score": 9
+      },
+      "away": {
+        "id": 134,
+        "abbrev": "PIT",
+        "name": "Pittsburgh Pirates",
+        "short_name": "Pirates",
+        "record": "44-45",
+        "score": 5
+      },
+      "venue": {
+        "id": 3309,
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.872861,
+        "lon": -77.007501
+      },
+      "probable_pitchers": {
+        "home": {
+          "id": 656492,
+          "name": "Foster Griffin",
+          "hand": null
+        },
+        "away": {
+          "id": 656605,
+          "name": "Mitch Keller",
+          "hand": null
+        }
+      },
+      "broadcasts": [
+        {
+          "name": "SportsNet Pittsburgh",
+          "call_sign": "SNP",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_ON"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_ON"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_ON"
+        },
+        {
+          "name": "Sports Radio 93.7 KDKA The Fan",
+          "call_sign": "KDKA",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_ON"
+        }
+      ],
+      "linescore": {
+        "current_inning": 9,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 2,
+        "outs": 3,
+        "home_runs": 9,
+        "away_runs": 5,
+        "home_hits": 12,
+        "away_hits": 13,
+        "home_errors": 2,
+        "away_errors": 0
+      },
+      "series": {
+        "game_number": 1,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "previous",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Game Final"
+    },
+    {
+      "game_pk": 822716,
+      "date": "2026-07-04",
+      "start_time_utc": "2026-07-04T15:05:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": true,
+      "home": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "46-43",
+        "score": null
+      },
+      "away": {
+        "id": 134,
+        "abbrev": "PIT",
+        "name": "Pittsburgh Pirates",
+        "short_name": "Pirates",
+        "record": "44-45",
+        "score": null
+      },
+      "venue": {
+        "id": 3309,
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.872861,
+        "lon": -77.007501
+      },
+      "probable_pitchers": {
+        "home": {
+          "id": 641793,
+          "name": "Zack Littell",
+          "hand": null
+        },
+        "away": {
+          "id": 677952,
+          "name": "Braxton Ashcraft",
+          "hand": null
+        }
+      },
+      "broadcasts": [
+        {
+          "name": "SportsNet Pittsburgh",
+          "call_sign": "SNP",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Sports Radio 93.7 KDKA The Fan",
+          "call_sign": "KDKA",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 2,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Watch Tonight"
+    },
+    {
+      "game_pk": 822715,
+      "date": "2026-07-05",
+      "start_time_utc": "2026-07-05T17:00:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": true,
+      "home": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "46-43",
+        "score": null
+      },
+      "away": {
+        "id": 134,
+        "abbrev": "PIT",
+        "name": "Pittsburgh Pirates",
+        "short_name": "Pirates",
+        "record": "44-45",
+        "score": null
+      },
+      "venue": {
+        "id": 3309,
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.872861,
+        "lon": -77.007501
+      },
+      "probable_pitchers": {
+        "home": {
+          "id": 571945,
+          "name": "Miles Mikolas",
+          "hand": null
+        },
+        "away": {
+          "id": 696149,
+          "name": "Bubba Chandler",
+          "hand": null
+        }
+      },
+      "broadcasts": [
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Sports Radio 93.7 KDKA The Fan",
+          "call_sign": "KDKA",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Peacock / NBCSN Extra",
+          "call_sign": "Peacock",
+          "type": "TV",
+          "language": "en",
+          "is_national": true,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Peacock / NBCSN Extra",
+          "call_sign": "Peacock",
+          "type": "TV",
+          "language": "en",
+          "is_national": true,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 3,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Peacock / NBCSN Extra",
+        "is_national": true,
+        "rule_id": "peacock",
+        "label": "Peacock",
+        "package": "com.peacocktv.peacockandroid",
+        "intent_uri": "peacock://livetv",
+        "fallback_uri": "https://www.peacocktv.com/"
+      },
+      "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 822712,
+      "date": "2026-07-06",
+      "start_time_utc": "2026-07-06T22:45:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": true,
+      "home": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "46-43",
+        "score": null
+      },
+      "away": {
+        "id": 117,
+        "abbrev": "HOU",
+        "name": "Houston Astros",
+        "short_name": "Astros",
+        "record": "43-47",
         "score": null
       },
       "venue": {
@@ -974,7 +1072,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "45-43",
+        "record": "46-43",
         "score": null
       },
       "away": {
@@ -982,7 +1080,7 @@
         "abbrev": "HOU",
         "name": "Houston Astros",
         "short_name": "Astros",
-        "record": "43-46",
+        "record": "43-47",
         "score": null
       },
       "venue": {
@@ -1090,7 +1188,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "45-43",
+        "record": "46-43",
         "score": null
       },
       "away": {
@@ -1098,7 +1196,7 @@
         "abbrev": "HOU",
         "name": "Houston Astros",
         "short_name": "Astros",
-        "record": "43-46",
+        "record": "43-47",
         "score": null
       },
       "venue": {
@@ -1206,7 +1304,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "45-43",
+        "record": "46-43",
         "score": null
       },
       "away": {
@@ -1214,7 +1312,7 @@
         "abbrev": "NYY",
         "name": "New York Yankees",
         "short_name": "Yankees",
-        "record": "48-38",
+        "record": "49-38",
         "score": null
       },
       "venue": {
@@ -1340,7 +1438,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "45-43",
+        "record": "46-43",
         "score": null
       },
       "away": {
@@ -1348,7 +1446,7 @@
         "abbrev": "NYY",
         "name": "New York Yankees",
         "short_name": "Yankees",
-        "record": "48-38",
+        "record": "49-38",
         "score": null
       },
       "venue": {
@@ -1456,7 +1554,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "45-43",
+        "record": "46-43",
         "score": null
       },
       "away": {
@@ -1464,7 +1562,7 @@
         "abbrev": "NYY",
         "name": "New York Yankees",
         "short_name": "Yankees",
-        "record": "48-38",
+        "record": "49-38",
         "score": null
       },
       "venue": {
@@ -1580,7 +1678,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "45-43",
+        "record": "46-43",
         "score": null
       },
       "venue": {
@@ -1705,7 +1803,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "45-43",
+        "record": "46-43",
         "score": null
       },
       "venue": {
@@ -1821,19 +1919,19 @@
         "abbrev": "ATL",
         "name": "Atlanta Braves",
         "short_name": "Braves",
-        "wins": 50,
+        "wins": 51,
         "losses": 35,
-        "pct": ".588",
+        "pct": ".593",
         "gb": "-",
         "wc_gb": "-",
-        "streak": "L1",
-        "last_ten": "2-8",
+        "streak": "W1",
+        "last_ten": "3-7",
         "division_rank": 1,
         "league_rank": 3,
         "wc_rank": null,
-        "run_diff": 84,
-        "runs_scored": 403,
-        "runs_allowed": 319,
+        "run_diff": 86,
+        "runs_scored": 408,
+        "runs_allowed": 322,
         "elim_num": "-"
       },
       {
@@ -1844,7 +1942,7 @@
         "wins": 49,
         "losses": 39,
         "pct": ".557",
-        "gb": "2.5",
+        "gb": "3.0",
         "wc_gb": "+1.5",
         "streak": "L1",
         "last_ten": "7-3",
@@ -1854,7 +1952,7 @@
         "run_diff": 5,
         "runs_scored": 394,
         "runs_allowed": 389,
-        "elim_num": "74"
+        "elim_num": "73"
       },
       {
         "id": 146,
@@ -1864,7 +1962,7 @@
         "wins": 46,
         "losses": 42,
         "pct": ".523",
-        "gb": "5.5",
+        "gb": "6.0",
         "wc_gb": "1.5",
         "streak": "L2",
         "last_ten": "6-4",
@@ -1874,27 +1972,27 @@
         "run_diff": 11,
         "runs_scored": 390,
         "runs_allowed": 379,
-        "elim_num": "71"
+        "elim_num": "70"
       },
       {
         "id": 120,
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "wins": 45,
+        "wins": 46,
         "losses": 43,
-        "pct": ".511",
+        "pct": ".517",
         "gb": "6.5",
-        "wc_gb": "2.5",
-        "streak": "W2",
+        "wc_gb": "2.0",
+        "streak": "W3",
         "last_ten": "5-5",
         "division_rank": 4,
         "league_rank": 8,
         "wc_rank": 5,
-        "run_diff": 17,
-        "runs_scored": 470,
-        "runs_allowed": 453,
-        "elim_num": "70"
+        "run_diff": 21,
+        "runs_scored": 479,
+        "runs_allowed": 458,
+        "elim_num": "69"
       },
       {
         "id": 121,
@@ -1902,19 +2000,19 @@
         "name": "New York Mets",
         "short_name": "Mets",
         "wins": 36,
-        "losses": 51,
-        "pct": ".414",
-        "gb": "15.0",
-        "wc_gb": "11.0",
-        "streak": "L1",
+        "losses": 52,
+        "pct": ".409",
+        "gb": "16.0",
+        "wc_gb": "11.5",
+        "streak": "L2",
         "last_ten": "2-8",
         "division_rank": 5,
         "league_rank": 14,
         "wc_rank": 11,
-        "run_diff": -49,
-        "runs_scored": 346,
-        "runs_allowed": 395,
-        "elim_num": "62"
+        "run_diff": -51,
+        "runs_scored": 349,
+        "runs_allowed": 400,
+        "elim_num": "60"
       }
     ]
   },
@@ -1929,19 +2027,19 @@
           "abbrev": "ATL",
           "name": "Atlanta Braves",
           "short_name": "Braves",
-          "wins": 50,
+          "wins": 51,
           "losses": 35,
-          "pct": ".588",
+          "pct": ".593",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "L1",
-          "last_ten": "2-8",
+          "streak": "W1",
+          "last_ten": "3-7",
           "division_rank": 1,
           "league_rank": 3,
           "wc_rank": null,
-          "run_diff": 84,
-          "runs_scored": 403,
-          "runs_allowed": 319,
+          "run_diff": 86,
+          "runs_scored": 408,
+          "runs_allowed": 322,
           "elim_num": "-"
         },
         {
@@ -1952,7 +2050,7 @@
           "wins": 49,
           "losses": 39,
           "pct": ".557",
-          "gb": "2.5",
+          "gb": "3.0",
           "wc_gb": "+1.5",
           "streak": "L1",
           "last_ten": "7-3",
@@ -1962,7 +2060,7 @@
           "run_diff": 5,
           "runs_scored": 394,
           "runs_allowed": 389,
-          "elim_num": "74"
+          "elim_num": "73"
         },
         {
           "id": 146,
@@ -1972,7 +2070,7 @@
           "wins": 46,
           "losses": 42,
           "pct": ".523",
-          "gb": "5.5",
+          "gb": "6.0",
           "wc_gb": "1.5",
           "streak": "L2",
           "last_ten": "6-4",
@@ -1982,27 +2080,27 @@
           "run_diff": 11,
           "runs_scored": 390,
           "runs_allowed": 379,
-          "elim_num": "71"
+          "elim_num": "70"
         },
         {
           "id": 120,
           "abbrev": "WSH",
           "name": "Washington Nationals",
           "short_name": "Nationals",
-          "wins": 45,
+          "wins": 46,
           "losses": 43,
-          "pct": ".511",
+          "pct": ".517",
           "gb": "6.5",
-          "wc_gb": "2.5",
-          "streak": "W2",
+          "wc_gb": "2.0",
+          "streak": "W3",
           "last_ten": "5-5",
           "division_rank": 4,
           "league_rank": 8,
           "wc_rank": 5,
-          "run_diff": 17,
-          "runs_scored": 470,
-          "runs_allowed": 453,
-          "elim_num": "70"
+          "run_diff": 21,
+          "runs_scored": 479,
+          "runs_allowed": 458,
+          "elim_num": "69"
         },
         {
           "id": 121,
@@ -2010,19 +2108,19 @@
           "name": "New York Mets",
           "short_name": "Mets",
           "wins": 36,
-          "losses": 51,
-          "pct": ".414",
-          "gb": "15.0",
-          "wc_gb": "11.0",
-          "streak": "L1",
+          "losses": 52,
+          "pct": ".409",
+          "gb": "16.0",
+          "wc_gb": "11.5",
+          "streak": "L2",
           "last_ten": "2-8",
           "division_rank": 5,
           "league_rank": 14,
           "wc_rank": 11,
-          "run_diff": -49,
-          "runs_scored": 346,
-          "runs_allowed": 395,
-          "elim_num": "62"
+          "run_diff": -51,
+          "runs_scored": 349,
+          "runs_allowed": 400,
+          "elim_num": "60"
         }
       ]
     },
@@ -2204,19 +2302,19 @@
           "name": "Pittsburgh Pirates",
           "short_name": "Pirates",
           "wins": 44,
-          "losses": 44,
-          "pct": ".500",
-          "gb": "10.5",
-          "wc_gb": "3.5",
-          "streak": "W1",
+          "losses": 45,
+          "pct": ".494",
+          "gb": "11.0",
+          "wc_gb": "4.0",
+          "streak": "L1",
           "last_ten": "5-5",
           "division_rank": 4,
           "league_rank": 11,
           "wc_rank": 8,
-          "run_diff": 25,
-          "runs_scored": 452,
-          "runs_allowed": 427,
-          "elim_num": "66"
+          "run_diff": 21,
+          "runs_scored": 457,
+          "runs_allowed": 436,
+          "elim_num": "65"
         },
         {
           "id": 113,
@@ -2224,19 +2322,19 @@
           "name": "Cincinnati Reds",
           "short_name": "Reds",
           "wins": 40,
-          "losses": 46,
-          "pct": ".465",
-          "gb": "13.5",
-          "wc_gb": "6.5",
-          "streak": "W1",
+          "losses": 47,
+          "pct": ".460",
+          "gb": "14.0",
+          "wc_gb": "7.0",
+          "streak": "L1",
           "last_ten": "3-7",
           "division_rank": 5,
           "league_rank": 12,
           "wc_rank": 9,
-          "run_diff": -55,
+          "run_diff": -58,
           "runs_scored": 364,
-          "runs_allowed": 419,
-          "elim_num": "64"
+          "runs_allowed": 422,
+          "elim_num": "63"
         }
       ]
     },
@@ -2250,19 +2348,19 @@
           "abbrev": "TB",
           "name": "Tampa Bay Rays",
           "short_name": "Rays",
-          "wins": 51,
+          "wins": 52,
           "losses": 33,
-          "pct": ".607",
+          "pct": ".612",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "W8",
-          "last_ten": "8-2",
+          "streak": "W9",
+          "last_ten": "9-1",
           "division_rank": 1,
           "league_rank": 1,
           "wc_rank": null,
-          "run_diff": 37,
-          "runs_scored": 385,
-          "runs_allowed": 348,
+          "run_diff": 39,
+          "runs_scored": 388,
+          "runs_allowed": 349,
           "elim_num": "-"
         },
         {
@@ -2270,20 +2368,20 @@
           "abbrev": "NYY",
           "name": "New York Yankees",
           "short_name": "Yankees",
-          "wins": 48,
+          "wins": 49,
           "losses": 38,
-          "pct": ".558",
+          "pct": ".563",
           "gb": "4.0",
-          "wc_gb": "+4.0",
-          "streak": "L7",
-          "last_ten": "2-8",
+          "wc_gb": "+4.5",
+          "streak": "W1",
+          "last_ten": "3-7",
           "division_rank": 2,
           "league_rank": 2,
           "wc_rank": 1,
-          "run_diff": 87,
-          "runs_scored": 417,
-          "runs_allowed": 330,
-          "elim_num": "74"
+          "run_diff": 90,
+          "runs_scored": 422,
+          "runs_allowed": 332,
+          "elim_num": "73"
         },
         {
           "id": 141,
@@ -2293,7 +2391,7 @@
           "wins": 41,
           "losses": 46,
           "pct": ".471",
-          "gb": "11.5",
+          "gb": "12.0",
           "wc_gb": "3.5",
           "streak": "W1",
           "last_ten": "3-7",
@@ -2303,27 +2401,27 @@
           "run_diff": -29,
           "runs_scored": 354,
           "runs_allowed": 383,
-          "elim_num": "66"
+          "elim_num": "65"
         },
         {
           "id": 110,
           "abbrev": "BAL",
           "name": "Baltimore Orioles",
           "short_name": "Orioles",
-          "wins": 40,
+          "wins": 41,
           "losses": 48,
-          "pct": ".455",
+          "pct": ".461",
           "gb": "13.0",
-          "wc_gb": "5.0",
-          "streak": "W1",
+          "wc_gb": "4.5",
+          "streak": "W2",
           "last_ten": "4-6",
           "division_rank": 4,
           "league_rank": 11,
           "wc_rank": 8,
-          "run_diff": -33,
-          "runs_scored": 403,
+          "run_diff": -30,
+          "runs_scored": 406,
           "runs_allowed": 436,
-          "elim_num": "64"
+          "elim_num": "63"
         },
         {
           "id": 111,
@@ -2333,7 +2431,7 @@
           "wins": 37,
           "losses": 48,
           "pct": ".435",
-          "gb": "14.5",
+          "gb": "15.0",
           "wc_gb": "6.5",
           "streak": "L2",
           "last_ten": "6-4",
@@ -2343,7 +2441,7 @@
           "run_diff": -7,
           "runs_scored": 337,
           "runs_allowed": 344,
-          "elim_num": "64"
+          "elim_num": "63"
         }
       ]
     },
@@ -2398,19 +2496,19 @@
           "name": "Minnesota Twins",
           "short_name": "Twins",
           "wins": 42,
-          "losses": 46,
-          "pct": ".477",
-          "gb": "4.0",
-          "wc_gb": "3.0",
-          "streak": "W1",
-          "last_ten": "5-5",
+          "losses": 47,
+          "pct": ".472",
+          "gb": "4.5",
+          "wc_gb": "3.5",
+          "streak": "L1",
+          "last_ten": "4-6",
           "division_rank": 3,
           "league_rank": 8,
           "wc_rank": 5,
-          "run_diff": -26,
-          "runs_scored": 429,
-          "runs_allowed": 455,
-          "elim_num": "72"
+          "run_diff": -29,
+          "runs_scored": 431,
+          "runs_allowed": 460,
+          "elim_num": "71"
         },
         {
           "id": 116,
@@ -2505,19 +2603,19 @@
           "name": "Houston Astros",
           "short_name": "Astros",
           "wins": 43,
-          "losses": 46,
-          "pct": ".483",
-          "gb": "2.5",
-          "wc_gb": "2.5",
-          "streak": "L1",
+          "losses": 47,
+          "pct": ".478",
+          "gb": "3.0",
+          "wc_gb": "3.0",
+          "streak": "L2",
           "last_ten": "6-4",
           "division_rank": 3,
           "league_rank": 7,
           "wc_rank": 4,
-          "run_diff": -46,
-          "runs_scored": 400,
-          "runs_allowed": 446,
-          "elim_num": "72"
+          "run_diff": -48,
+          "runs_scored": 401,
+          "runs_allowed": 449,
+          "elim_num": "71"
         },
         {
           "id": 133,
@@ -2567,20 +2665,20 @@
     "abbrev": "WSH",
     "name": "Washington Nationals",
     "short_name": "Nationals",
-    "wins": 45,
+    "wins": 46,
     "losses": 43,
-    "pct": ".511",
+    "pct": ".517",
     "gb": "6.5",
-    "wc_gb": "2.5",
-    "streak": "W2",
+    "wc_gb": "2.0",
+    "streak": "W3",
     "last_ten": "5-5",
     "division_rank": 4,
     "league_rank": 8,
     "wc_rank": 5,
-    "run_diff": 17,
-    "runs_scored": 470,
-    "runs_allowed": 453,
-    "elim_num": "70"
+    "run_diff": 21,
+    "runs_scored": 479,
+    "runs_allowed": 458,
+    "elim_num": "69"
   },
   "notable_injuries": [
     {
