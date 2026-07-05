@@ -1,14 +1,16 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-05T18:41:50+00:00",
+  "fetched_at": "2026-07-05T19:43:03+00:00",
   "freshness": {
-    "schedule": "2026-07-05T18:41:48+00:00",
-    "standings": "2026-07-05T18:41:49+00:00",
+    "schedule": "2026-07-05T19:43:02+00:00",
+    "standings": "2026-07-05T19:43:02+00:00",
     "injuries": "2026-07-05T14:51:11+00:00",
-    "former_nats": "2026-07-05T14:51:18+00:00",
-    "weather": "2026-07-05T18:41:50+00:00"
+    "former_nats": "2026-07-05T19:43:01+00:00",
+    "weather": "2026-07-05T19:43:03+00:00"
   },
-  "stale_sources": [],
+  "stale_sources": [
+    "injuries"
+  ],
   "focus_game": {
     "game_pk": 822715,
     "date": "2026-07-05",
@@ -22,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "46-44",
-      "score": 3
+      "score": 4
     },
     "away": {
       "id": 134,
@@ -91,17 +93,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 5,
+      "current_inning": 8,
       "inning_half": "Top",
       "inning_state": "Top",
       "is_top_inning": true,
-      "balls": 2,
+      "balls": 0,
       "strikes": 2,
       "outs": 0,
-      "home_runs": 3,
+      "home_runs": 4,
       "away_runs": 4,
-      "home_hits": 5,
-      "away_hits": 6,
+      "home_hits": 8,
+      "away_hits": 7,
       "home_errors": 1,
       "away_errors": 0
     },
@@ -125,15 +127,15 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-05T18:41:50+00:00",
+    "fetched_at": "2026-07-05T19:43:03+00:00",
     "source": "open_meteo",
     "game_pk": 822715,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-07-05T17:00",
     "temperature_f": 93.2,
-    "feels_like_f": 107.8,
-    "wind_mph": 0.7,
-    "wind_dir": "NNE",
+    "feels_like_f": 107.7,
+    "wind_mph": 0.9,
+    "wind_dir": "SSE",
     "precip_chance": 0,
     "precip_inches": 0.0,
     "summary": "Clear",
@@ -160,7 +162,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "46-44",
-        "score": 3
+        "score": 4
       },
       "away": {
         "id": 134,
@@ -229,17 +231,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 5,
+        "current_inning": 8,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 2,
+        "balls": 0,
         "strikes": 2,
         "outs": 0,
-        "home_runs": 3,
+        "home_runs": 4,
         "away_runs": 4,
-        "home_hits": 5,
-        "away_hits": 6,
+        "home_hits": 8,
+        "away_hits": 7,
         "home_errors": 1,
         "away_errors": 0
       },
@@ -325,21 +327,21 @@
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "KBME 790 AM/94.5 FM HD-2",
-          "call_sign": "KBME",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "WJFK 106.7 The Fan",
           "call_sign": "106.7 FM",
           "type": "FM",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KBME 790 AM/94.5 FM HD-2",
+          "call_sign": "KBME",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -870,7 +872,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "46-44",
-        "score": 3
+        "score": 4
       },
       "away": {
         "id": 134,
@@ -939,17 +941,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 5,
+        "current_inning": 8,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 2,
+        "balls": 0,
         "strikes": 2,
         "outs": 0,
-        "home_runs": 3,
+        "home_runs": 4,
         "away_runs": 4,
-        "home_hits": 5,
-        "away_hits": 6,
+        "home_hits": 8,
+        "away_hits": 7,
         "home_errors": 1,
         "away_errors": 0
       },
@@ -1035,21 +1037,21 @@
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "KBME 790 AM/94.5 FM HD-2",
-          "call_sign": "KBME",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "WJFK 106.7 The Fan",
           "call_sign": "106.7 FM",
           "type": "FM",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KBME 790 AM/94.5 FM HD-2",
+          "call_sign": "KBME",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -2967,13 +2969,5 @@
       "description": "Gray (elbow) has resumed a throwing program, Mark Zuckerman of NatsJournal.com reports."
     }
   ],
-  "former_nats_flag_candidates": [
-    {
-      "mlb_id": 605137,
-      "name": "Josh Bell",
-      "summary": "2-HR game",
-      "celebrate": true,
-      "against_nats": false
-    }
-  ]
+  "former_nats_flag_candidates": []
 }
