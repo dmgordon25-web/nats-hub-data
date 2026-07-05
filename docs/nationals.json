@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-05T19:43:03+00:00",
+  "fetched_at": "2026-07-05T20:02:28+00:00",
   "freshness": {
-    "schedule": "2026-07-05T19:43:02+00:00",
-    "standings": "2026-07-05T19:43:02+00:00",
+    "schedule": "2026-07-05T20:02:27+00:00",
+    "standings": "2026-07-05T20:02:27+00:00",
     "injuries": "2026-07-05T14:51:11+00:00",
     "former_nats": "2026-07-05T19:43:01+00:00",
-    "weather": "2026-07-05T19:43:03+00:00"
+    "weather": "2026-07-05T20:02:28+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -32,7 +32,7 @@
       "name": "Pittsburgh Pirates",
       "short_name": "Pirates",
       "record": "45-45",
-      "score": 4
+      "score": 9
     },
     "venue": {
       "id": 3309,
@@ -98,12 +98,12 @@
       "inning_state": "Top",
       "is_top_inning": true,
       "balls": 0,
-      "strikes": 2,
-      "outs": 0,
+      "strikes": 0,
+      "outs": 1,
       "home_runs": 4,
-      "away_runs": 4,
+      "away_runs": 9,
       "home_hits": 8,
-      "away_hits": 7,
+      "away_hits": 11,
       "home_errors": 1,
       "away_errors": 0
     },
@@ -127,7 +127,7 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-05T19:43:03+00:00",
+    "fetched_at": "2026-07-05T20:02:28+00:00",
     "source": "open_meteo",
     "game_pk": 822715,
     "venue_name": "Nationals Park",
@@ -170,7 +170,7 @@
         "name": "Pittsburgh Pirates",
         "short_name": "Pirates",
         "record": "45-45",
-        "score": 4
+        "score": 9
       },
       "venue": {
         "id": 3309,
@@ -236,12 +236,12 @@
         "inning_state": "Top",
         "is_top_inning": true,
         "balls": 0,
-        "strikes": 2,
-        "outs": 0,
+        "strikes": 0,
+        "outs": 1,
         "home_runs": 4,
-        "away_runs": 4,
+        "away_runs": 9,
         "home_hits": 8,
-        "away_hits": 7,
+        "away_hits": 11,
         "home_errors": 1,
         "away_errors": 0
       },
@@ -327,21 +327,21 @@
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "KBME 790 AM/94.5 FM HD-2",
           "call_sign": "KBME",
           "type": "AM",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -880,7 +880,7 @@
         "name": "Pittsburgh Pirates",
         "short_name": "Pirates",
         "record": "45-45",
-        "score": 4
+        "score": 9
       },
       "venue": {
         "id": 3309,
@@ -946,12 +946,12 @@
         "inning_state": "Top",
         "is_top_inning": true,
         "balls": 0,
-        "strikes": 2,
-        "outs": 0,
+        "strikes": 0,
+        "outs": 1,
         "home_runs": 4,
-        "away_runs": 4,
+        "away_runs": 9,
         "home_hits": 8,
-        "away_hits": 7,
+        "away_hits": 11,
         "home_errors": 1,
         "away_errors": 0
       },
@@ -1037,21 +1037,21 @@
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "KBME 790 AM/94.5 FM HD-2",
           "call_sign": "KBME",
           "type": "AM",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -2500,19 +2500,19 @@
           "abbrev": "CIN",
           "name": "Cincinnati Reds",
           "short_name": "Reds",
-          "wins": 40,
+          "wins": 41,
           "losses": 48,
-          "pct": ".455",
-          "gb": "14.5",
-          "wc_gb": "8.0",
-          "streak": "L2",
-          "last_ten": "3-7",
+          "pct": ".461",
+          "gb": "14.0",
+          "wc_gb": "7.5",
+          "streak": "W1",
+          "last_ten": "4-6",
           "division_rank": 5,
           "league_rank": 12,
           "wc_rank": 9,
-          "run_diff": -61,
-          "runs_scored": 369,
-          "runs_allowed": 430,
+          "run_diff": -60,
+          "runs_scored": 372,
+          "runs_allowed": 432,
           "elim_num": "61"
         }
       ]
@@ -2588,19 +2588,19 @@
           "name": "Baltimore Orioles",
           "short_name": "Orioles",
           "wins": 42,
-          "losses": 48,
-          "pct": ".467",
-          "gb": "12.0",
-          "wc_gb": "3.5",
-          "streak": "W3",
+          "losses": 49,
+          "pct": ".462",
+          "gb": "12.5",
+          "wc_gb": "4.0",
+          "streak": "L1",
           "last_ten": "4-6",
           "division_rank": 4,
           "league_rank": 10,
           "wc_rank": 7,
-          "run_diff": -27,
-          "runs_scored": 414,
-          "runs_allowed": 441,
-          "elim_num": "63"
+          "run_diff": -28,
+          "runs_scored": 416,
+          "runs_allowed": 444,
+          "elim_num": "62"
         },
         {
           "id": 111,
