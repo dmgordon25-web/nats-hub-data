@@ -1,20 +1,20 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-05T16:17:18+00:00",
+  "fetched_at": "2026-07-05T17:34:19+00:00",
   "freshness": {
-    "schedule": "2026-07-05T16:17:16+00:00",
-    "standings": "2026-07-05T16:17:17+00:00",
+    "schedule": "2026-07-05T17:34:17+00:00",
+    "standings": "2026-07-05T17:34:18+00:00",
     "injuries": "2026-07-05T14:51:11+00:00",
     "former_nats": "2026-07-05T14:51:18+00:00",
-    "weather": "2026-07-05T16:17:18+00:00"
+    "weather": "2026-07-05T17:34:18+00:00"
   },
   "stale_sources": [],
   "focus_game": {
     "game_pk": 822715,
     "date": "2026-07-05",
     "start_time_utc": "2026-07-05T17:00:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "In Progress",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -22,7 +22,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "46-44",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 134,
@@ -30,7 +30,7 @@
       "name": "Pittsburgh Pirates",
       "short_name": "Pirates",
       "record": "45-45",
-      "score": null
+      "score": 3
     },
     "venue": {
       "id": 3309,
@@ -91,19 +91,19 @@
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 2,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1,
+      "home_runs": 0,
+      "away_runs": 3,
+      "home_hits": 0,
+      "away_hits": 4,
+      "home_errors": 1,
+      "away_errors": 0
     },
     "series": {
       "game_number": 3,
@@ -112,7 +112,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "Peacock / NBCSN Extra",
       "is_national": true,
@@ -122,21 +122,21 @@
       "intent_uri": "peacock://livetv",
       "fallback_uri": "https://www.peacocktv.com/"
     },
-    "watch_label": "Starts Soon"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-05T16:17:18+00:00",
+    "fetched_at": "2026-07-05T17:34:18+00:00",
     "source": "open_meteo",
     "game_pk": 822715,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-07-05T17:00",
-    "temperature_f": 93.8,
-    "feels_like_f": 103.4,
-    "wind_mph": 3.6,
-    "wind_dir": "S",
+    "temperature_f": 94.2,
+    "feels_like_f": 106.3,
+    "wind_mph": 0.2,
+    "wind_dir": "N",
     "precip_chance": 0,
     "precip_inches": 0.0,
-    "summary": "Partly cloudy",
+    "summary": "Clear",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -151,8 +151,8 @@
       "game_pk": 822715,
       "date": "2026-07-05",
       "start_time_utc": "2026-07-05T17:00:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -160,7 +160,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "46-44",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 134,
@@ -168,7 +168,7 @@
         "name": "Pittsburgh Pirates",
         "short_name": "Pirates",
         "record": "45-45",
-        "score": null
+        "score": 3
       },
       "venue": {
         "id": 3309,
@@ -229,19 +229,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 2,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1,
+        "home_runs": 0,
+        "away_runs": 3,
+        "home_hits": 0,
+        "away_hits": 4,
+        "home_errors": 1,
+        "away_errors": 0
       },
       "series": {
         "game_number": 3,
@@ -250,7 +250,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Peacock / NBCSN Extra",
         "is_national": true,
@@ -260,7 +260,7 @@
         "intent_uri": "peacock://livetv",
         "fallback_uri": "https://www.peacocktv.com/"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822712,
@@ -294,8 +294,16 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
-        "away": null
+        "home": {
+          "id": 571945,
+          "name": "Miles Mikolas",
+          "hand": null
+        },
+        "away": {
+          "id": 681347,
+          "name": "Mike Burrows",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -410,8 +418,16 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
-        "away": null
+        "home": {
+          "id": 674841,
+          "name": "Andrew Alvarez",
+          "hand": null
+        },
+        "away": {
+          "id": 837227,
+          "name": "Tatsuya Imai",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -845,8 +861,8 @@
       "game_pk": 822715,
       "date": "2026-07-05",
       "start_time_utc": "2026-07-05T17:00:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -854,7 +870,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "46-44",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 134,
@@ -862,7 +878,7 @@
         "name": "Pittsburgh Pirates",
         "short_name": "Pirates",
         "record": "45-45",
-        "score": null
+        "score": 3
       },
       "venue": {
         "id": 3309,
@@ -923,19 +939,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 2,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1,
+        "home_runs": 0,
+        "away_runs": 3,
+        "home_hits": 0,
+        "away_hits": 4,
+        "home_errors": 1,
+        "away_errors": 0
       },
       "series": {
         "game_number": 3,
@@ -944,7 +960,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Peacock / NBCSN Extra",
         "is_national": true,
@@ -954,7 +970,7 @@
         "intent_uri": "peacock://livetv",
         "fallback_uri": "https://www.peacocktv.com/"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822712,
@@ -988,8 +1004,16 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
-        "away": null
+        "home": {
+          "id": 571945,
+          "name": "Miles Mikolas",
+          "hand": null
+        },
+        "away": {
+          "id": 681347,
+          "name": "Mike Burrows",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1104,8 +1128,16 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
-        "away": null
+        "home": {
+          "id": 674841,
+          "name": "Andrew Alvarez",
+          "hand": null
+        },
+        "away": {
+          "id": 837227,
+          "name": "Tatsuya Imai",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1220,8 +1252,16 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
-        "away": null
+        "home": {
+          "id": 656492,
+          "name": "Foster Griffin",
+          "hand": null
+        },
+        "away": {
+          "id": 681293,
+          "name": "Spencer Arrighetti",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
