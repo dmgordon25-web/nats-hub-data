@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-04T19:39:06+00:00",
+  "fetched_at": "2026-07-05T00:11:56+00:00",
   "source": "mlb_statsapi",
   "players": [
     {
@@ -79,15 +79,15 @@
         "name": "Philadelphia Phillies"
       },
       "season_stats": {
-        "ab": 355,
+        "ab": 356,
         "avg": ".239",
         "hr": 10,
         "rbi": 31,
         "r": 59,
         "h": 85,
-        "obp": ".287",
-        "slg": ".366",
-        "ops": ".653",
+        "obp": ".286",
+        "slg": ".365",
+        "ops": ".651",
         "sb": 16
       },
       "last_game": {
@@ -111,23 +111,28 @@
         "name": "Minnesota Twins"
       },
       "season_stats": {
-        "ab": 314,
-        "avg": ".242",
-        "hr": 11,
-        "rbi": 56,
-        "r": 43,
-        "h": 76,
-        "obp": ".300",
-        "slg": ".411",
-        "ops": ".711",
+        "ab": 316,
+        "avg": ".247",
+        "hr": 13,
+        "rbi": 59,
+        "r": 45,
+        "h": 78,
+        "obp": ".304",
+        "slg": ".434",
+        "ops": ".738",
         "sb": 1
       },
       "last_game": {
         "date": "2026-07-04",
         "opponent": "NYY",
-        "line": "1-3"
+        "line": "3-5, 2 HR, 3 RBI"
       },
-      "significant_event": null,
+      "significant_event": {
+        "kind": "multi_hr_game",
+        "summary": "2-HR game",
+        "against_nats": false,
+        "celebrate": true
+      },
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/605137/headshot/67/current"
     },
     {
@@ -256,5 +261,13 @@
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/607200/headshot/67/current"
     }
   ],
-  "flag_candidates": []
+  "flag_candidates": [
+    {
+      "mlb_id": 605137,
+      "name": "Josh Bell",
+      "summary": "2-HR game",
+      "celebrate": true,
+      "against_nats": false
+    }
+  ]
 }

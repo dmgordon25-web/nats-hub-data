@@ -1,16 +1,14 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-04T23:46:42+00:00",
+  "fetched_at": "2026-07-05T00:11:58+00:00",
   "freshness": {
-    "schedule": "2026-07-04T23:46:40+00:00",
-    "standings": "2026-07-04T23:46:41+00:00",
-    "injuries": "2026-07-01T20:16:02+00:00",
-    "former_nats": "2026-07-04T19:39:06+00:00",
-    "weather": "2026-07-04T23:46:42+00:00"
+    "schedule": "2026-07-05T00:11:56+00:00",
+    "standings": "2026-07-05T00:11:57+00:00",
+    "injuries": "2026-07-05T00:11:49+00:00",
+    "former_nats": "2026-07-05T00:11:56+00:00",
+    "weather": "2026-07-05T00:11:58+00:00"
   },
-  "stale_sources": [
-    "injuries"
-  ],
+  "stale_sources": [],
   "focus_game": {
     "game_pk": 822715,
     "date": "2026-07-05",
@@ -124,10 +122,10 @@
       "intent_uri": "peacock://livetv",
       "fallback_uri": "https://www.peacocktv.com/"
     },
-    "watch_label": "Next Game"
+    "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-04T23:46:42+00:00",
+    "fetched_at": "2026-07-05T00:11:58+00:00",
     "source": "open_meteo",
     "game_pk": 822715,
     "venue_name": "Nationals Park",
@@ -136,7 +134,7 @@
     "feels_like_f": 105.4,
     "wind_mph": 4.8,
     "wind_dir": "SW",
-    "precip_chance": 4,
+    "precip_chance": 2,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -262,7 +260,7 @@
         "intent_uri": "peacock://livetv",
         "fallback_uri": "https://www.peacocktv.com/"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822712,
@@ -956,7 +954,7 @@
         "intent_uri": "peacock://livetv",
         "fallback_uri": "https://www.peacocktv.com/"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822712,
@@ -1921,6 +1919,131 @@
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
       "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 824978,
+      "date": "2026-07-19",
+      "start_time_utc": "2026-07-19T20:05:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": false,
+      "home": {
+        "id": 133,
+        "abbrev": "ATH",
+        "name": "Athletics",
+        "short_name": "Athletics",
+        "record": "41-47",
+        "score": null
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "46-44",
+        "score": null
+      },
+      "venue": {
+        "id": 2529,
+        "name": "Sutter Health Park",
+        "city": "Sacramento",
+        "state": "CA",
+        "lat": 38.57994,
+        "lon": -121.51246
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "NBCSCA",
+          "call_sign": "NBCSCA",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Talk 650 KSTE",
+          "call_sign": "650 KSTE",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KVMX 92.1/105.5",
+          "call_sign": "KVMX 92.1",
+          "type": "FM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "A's Cast",
+          "call_sign": "A's Cast",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 3,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
     }
   ],
   "standings": {
@@ -2696,16 +2819,28 @@
   },
   "notable_injuries": [
     {
+      "athlete_id": 4414210,
+      "athlete_name": "Jacob Young",
+      "short_name": "J. Young",
+      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/4414210.png",
+      "position": "CF",
+      "status_code": "INJURY_STATUS_DAYTODAY",
+      "status_label": "day-to-day",
+      "status_abbrev": "DD",
+      "date": "Jul 4",
+      "description": "Young has been removed from Saturday's lineup against the Pirates due to left hand soreness."
+    },
+    {
       "athlete_id": 4683356,
       "athlete_name": "Mitchell Parker",
       "short_name": "M. Parker",
       "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/4683356.png",
       "position": "RP",
-      "status_code": "INJURY_STATUS_15DAYIL",
-      "status_label": "15-day IL",
-      "status_abbrev": "IL15",
-      "date": "Jun 30",
-      "description": "Parker has been diagnosed with a Grade 3 UCL sprain in his left elbow and is likely to undergo Tommy John surgery, Mark Zuckerman of NatsJournal.com reports."
+      "status_code": "INJURY_STATUS_60DAYIL",
+      "status_label": "60-day IL",
+      "status_abbrev": "IL60",
+      "date": "Jul 1",
+      "description": "The Nationals transferred Parker (elbow) to the 60-day injured list Wednesday."
     },
     {
       "athlete_id": 39856,
@@ -2792,5 +2927,13 @@
       "description": "Gray (elbow) has resumed a throwing program, Mark Zuckerman of NatsJournal.com reports."
     }
   ],
-  "former_nats_flag_candidates": []
+  "former_nats_flag_candidates": [
+    {
+      "mlb_id": 605137,
+      "name": "Josh Bell",
+      "summary": "2-HR game",
+      "celebrate": true,
+      "against_nats": false
+    }
+  ]
 }

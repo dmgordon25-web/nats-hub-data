@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-04T23:46:40+00:00",
+  "fetched_at": "2026-07-05T00:11:56+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -1184,6 +1184,120 @@
       },
       "series": {
         "game_number": 2,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi"
+    },
+    {
+      "game_pk": 824978,
+      "date": "2026-07-19",
+      "start_time_utc": "2026-07-19T20:05:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": false,
+      "home": {
+        "id": 133,
+        "abbrev": "ATH",
+        "name": "Athletics",
+        "short_name": "Athletics",
+        "record": "41-47",
+        "score": null
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "46-44",
+        "score": null
+      },
+      "venue": {
+        "id": 2529,
+        "name": "Sutter Health Park",
+        "city": "Sacramento",
+        "state": "CA",
+        "lat": 38.57994,
+        "lon": -121.51246
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "NBCSCA",
+          "call_sign": "NBCSCA",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Talk 650 KSTE",
+          "call_sign": "650 KSTE",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KVMX 92.1/105.5",
+          "call_sign": "KVMX 92.1",
+          "type": "FM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "A's Cast",
+          "call_sign": "A's Cast",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 3,
         "games_in_series": 3,
         "description": "Regular Season"
       },
