@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-06T21:47:19+00:00",
+  "fetched_at": "2026-07-06T22:52:01+00:00",
   "freshness": {
-    "schedule": "2026-07-06T21:47:17+00:00",
-    "standings": "2026-07-06T21:47:18+00:00",
+    "schedule": "2026-07-06T22:52:00+00:00",
+    "standings": "2026-07-06T22:52:00+00:00",
     "injuries": "2026-07-06T11:42:47+00:00",
     "former_nats": "2026-07-06T20:15:11+00:00",
-    "weather": "2026-07-06T21:47:18+00:00"
+    "weather": "2026-07-06T22:52:00+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -15,8 +15,8 @@
     "game_pk": 822712,
     "date": "2026-07-06",
     "start_time_utc": "2026-07-06T22:45:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "Player challenge",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -106,9 +106,9 @@
       "inning_half": "Top",
       "inning_state": "Top",
       "is_top_inning": true,
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0,
+      "balls": 2,
+      "strikes": 2,
+      "outs": 2,
       "home_runs": 0,
       "away_runs": 0,
       "home_hits": 0,
@@ -123,7 +123,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "Nationals.TV",
       "is_national": false,
@@ -133,19 +133,19 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Starts Soon"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-06T21:47:18+00:00",
+    "fetched_at": "2026-07-06T22:52:00+00:00",
     "source": "open_meteo",
     "game_pk": 822712,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-07-06T23:00",
-    "temperature_f": 86.1,
-    "feels_like_f": 93.9,
-    "wind_mph": 6.9,
-    "wind_dir": "NE",
-    "precip_chance": 26,
+    "temperature_f": 85.8,
+    "feels_like_f": 93.3,
+    "wind_mph": 6.4,
+    "wind_dir": "ENE",
+    "precip_chance": 21,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -161,8 +161,8 @@
       "game_pk": 822712,
       "date": "2026-07-06",
       "start_time_utc": "2026-07-06T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "Player challenge",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -252,9 +252,9 @@
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "balls": 2,
+        "strikes": 2,
+        "outs": 2,
         "home_runs": 0,
         "away_runs": 0,
         "home_hits": 0,
@@ -269,7 +269,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -279,7 +279,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822713,
@@ -880,8 +880,8 @@
       "game_pk": 822712,
       "date": "2026-07-06",
       "start_time_utc": "2026-07-06T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "Player challenge",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -971,9 +971,9 @@
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "balls": 2,
+        "strikes": 2,
+        "outs": 2,
         "home_runs": 0,
         "away_runs": 0,
         "home_hits": 0,
@@ -988,7 +988,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -998,7 +998,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822713,
