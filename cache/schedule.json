@@ -1,111 +1,7 @@
 {
-  "fetched_at": "2026-07-06T22:52:00+00:00",
+  "fetched_at": "2026-07-07T00:11:16+00:00",
   "source": "mlb_statsapi",
   "games": [
-    {
-      "game_pk": 822716,
-      "date": "2026-07-04",
-      "start_time_utc": "2026-07-04T15:05:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "46-44",
-        "score": 1
-      },
-      "away": {
-        "id": 134,
-        "abbrev": "PIT",
-        "name": "Pittsburgh Pirates",
-        "short_name": "Pirates",
-        "record": "45-45",
-        "score": 7
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 687223,
-          "name": "Carson Palmquist",
-          "hand": null
-        },
-        "away": {
-          "id": 677952,
-          "name": "Braxton Ashcraft",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "SportsNet Pittsburgh",
-          "call_sign": "SNP",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Sports Radio 93.7 KDKA The Fan",
-          "call_sign": "KDKA",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 3,
-        "strikes": 2,
-        "outs": 3,
-        "home_runs": 1,
-        "away_runs": 7,
-        "home_hits": 6,
-        "away_hits": 11,
-        "home_errors": 0,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 2,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi"
-    },
     {
       "game_pk": 822715,
       "date": "2026-07-05",
@@ -215,7 +111,7 @@
       "date": "2026-07-06",
       "start_time_utc": "2026-07-06T22:45:00Z",
       "status": "Live",
-      "detailed_status": "Player challenge",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -223,7 +119,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "46-45",
-        "score": 0
+        "score": 7
       },
       "away": {
         "id": 117,
@@ -231,7 +127,7 @@
         "name": "Houston Astros",
         "short_name": "Astros",
         "record": "45-47",
-        "score": 0
+        "score": 6
       },
       "venue": {
         "id": 3309,
@@ -301,19 +197,19 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 2,
-        "strikes": 2,
-        "outs": 2,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "current_inning": 5,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 7,
+        "away_runs": 6,
+        "home_hits": 7,
+        "away_hits": 7,
         "home_errors": 0,
-        "away_errors": 0
+        "away_errors": 1
       },
       "series": {
         "game_number": 1,
@@ -1323,6 +1219,111 @@
       },
       "series": {
         "game_number": 1,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi"
+    },
+    {
+      "game_pk": 824329,
+      "date": "2026-07-21",
+      "start_time_utc": "2026-07-22T00:40:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": false,
+      "home": {
+        "id": 115,
+        "abbrev": "COL",
+        "name": "Colorado Rockies",
+        "short_name": "Rockies",
+        "record": "37-54",
+        "score": null
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "46-45",
+        "score": null
+      },
+      "venue": {
+        "id": 19,
+        "name": "Coors Field",
+        "city": "Denver",
+        "state": "CO",
+        "lat": 39.756042,
+        "lon": -104.994136
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "Rockies.TV",
+          "call_sign": "COLR",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KOA 850 AM/94.1 FM ",
+          "call_sign": "KOA",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KNRV 1150",
+          "call_sign": "KNRV",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 2,
         "games_in_series": 3,
         "description": "Regular Season"
       },
