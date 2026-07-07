@@ -1,16 +1,14 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-07T06:58:31+00:00",
+  "fetched_at": "2026-07-07T10:31:35+00:00",
   "freshness": {
-    "schedule": "2026-07-07T06:58:30+00:00",
-    "standings": "2026-07-07T06:58:30+00:00",
-    "injuries": "2026-07-06T11:42:47+00:00",
-    "former_nats": "2026-07-07T00:19:32+00:00",
-    "weather": "2026-07-07T06:58:31+00:00"
+    "schedule": "2026-07-07T10:31:34+00:00",
+    "standings": "2026-07-07T10:31:34+00:00",
+    "injuries": "2026-07-07T10:31:27+00:00",
+    "former_nats": "2026-07-07T10:31:34+00:00",
+    "weather": "2026-07-07T10:31:35+00:00"
   },
-  "stale_sources": [
-    "injuries"
-  ],
+  "stale_sources": [],
   "focus_game": {
     "game_pk": 822713,
     "date": "2026-07-07",
@@ -136,18 +134,18 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-07T06:58:31+00:00",
+    "fetched_at": "2026-07-07T10:31:35+00:00",
     "source": "open_meteo",
     "game_pk": 822713,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-07-07T23:00",
-    "temperature_f": 77.2,
-    "feels_like_f": 85.0,
-    "wind_mph": 3.6,
-    "wind_dir": "E",
-    "precip_chance": 35,
+    "temperature_f": 78.2,
+    "feels_like_f": 84.8,
+    "wind_mph": 5.8,
+    "wind_dir": "ENE",
+    "precip_chance": 23,
     "precip_inches": 0.0,
-    "summary": "Mostly clear",
+    "summary": "Overcast",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -2900,28 +2898,28 @@
   },
   "notable_injuries": [
     {
-      "athlete_id": 4308037,
-      "athlete_name": "Cade Cavalli",
-      "short_name": "C. Cavalli",
-      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/4308037.png",
+      "athlete_id": 33305,
+      "athlete_name": "Trevor Williams",
+      "short_name": "T. Williams",
+      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/33305.png",
       "position": "SP",
-      "status_code": "INJURY_STATUS_DAYTODAY",
-      "status_label": "day-to-day",
-      "status_abbrev": "DD",
-      "date": "Jul 5",
-      "description": "Cavalli will start Sunday against the Pirates in Washington, Kyle Williams of TheBanner.com reports."
+      "status_code": "INJURY_STATUS_60DAYIL",
+      "status_label": "60-day IL",
+      "status_abbrev": "IL60",
+      "date": "Jul 6",
+      "description": "Williams (elbow) is slated to make his third rehab start Wednesday at Triple-A Rochester, Mark Zuckerman of NatsJournal.com reports."
     },
     {
-      "athlete_id": 4414210,
-      "athlete_name": "Jacob Young",
-      "short_name": "J. Young",
-      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/4414210.png",
-      "position": "CF",
-      "status_code": "INJURY_STATUS_DAYTODAY",
-      "status_label": "day-to-day",
-      "status_abbrev": "DD",
-      "date": "Jul 5",
-      "description": "Young (hand) is out of the lineup for Sunday's game against the Pirates."
+      "athlete_id": 41290,
+      "athlete_name": "Jake Irvin",
+      "short_name": "J. Irvin",
+      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/41290.png",
+      "position": "SP",
+      "status_code": "INJURY_STATUS_15DAYIL",
+      "status_label": "15-day IL",
+      "status_abbrev": "IL15",
+      "date": "Jul 6",
+      "description": "Irvin (shoulder) is slated to face live hitters in batting practice Wednesday, Mark Zuckerman of NatsJournal.com reports."
     },
     {
       "athlete_id": 4683356,
@@ -2946,30 +2944,6 @@
       "status_abbrev": "IL15",
       "date": "Jun 29",
       "description": "The Nationals placed Lovelady on the 15-day injured list Monday with a left triceps strain."
-    },
-    {
-      "athlete_id": 33305,
-      "athlete_name": "Trevor Williams",
-      "short_name": "T. Williams",
-      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/33305.png",
-      "position": "SP",
-      "status_code": "INJURY_STATUS_60DAYIL",
-      "status_label": "60-day IL",
-      "status_abbrev": "IL60",
-      "date": "Jun 29",
-      "description": "Williams (elbow) struck out a batter and allowed four runs (two earned) on four hits and no walks while recording two outs in a rehab start Sunday with Single-A Fredericksburg."
-    },
-    {
-      "athlete_id": 41290,
-      "athlete_name": "Jake Irvin",
-      "short_name": "J. Irvin",
-      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/41290.png",
-      "position": "SP",
-      "status_code": "INJURY_STATUS_15DAYIL",
-      "status_label": "15-day IL",
-      "status_abbrev": "IL15",
-      "date": "Jun 22",
-      "description": "Irvin (shoulder) will throw a bullpen session Tuesday, Kyle Williams of TheBanner.com reports."
     },
     {
       "athlete_id": 4917686,
