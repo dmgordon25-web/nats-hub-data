@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-07T22:18:41+00:00",
+  "fetched_at": "2026-07-07T23:26:13+00:00",
   "freshness": {
-    "schedule": "2026-07-07T22:18:39+00:00",
-    "standings": "2026-07-07T22:18:40+00:00",
+    "schedule": "2026-07-07T23:26:12+00:00",
+    "standings": "2026-07-07T23:26:12+00:00",
     "injuries": "2026-07-07T10:31:27+00:00",
     "former_nats": "2026-07-07T20:16:23+00:00",
-    "weather": "2026-07-07T22:18:41+00:00"
+    "weather": "2026-07-07T23:26:13+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -15,8 +15,8 @@
     "game_pk": 822713,
     "date": "2026-07-07",
     "start_time_utc": "2026-07-07T22:45:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "In Progress",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "47-45",
-      "score": 0
+      "score": 1
     },
     "away": {
       "id": 117,
@@ -32,7 +32,7 @@
       "name": "Houston Astros",
       "short_name": "Astros",
       "record": "45-48",
-      "score": 0
+      "score": 1
     },
     "venue": {
       "id": 3309,
@@ -102,17 +102,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 1,
-      "inning_half": "Top",
-      "inning_state": "Top",
-      "is_top_inning": true,
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0,
-      "home_runs": 0,
-      "away_runs": 0,
-      "home_hits": 0,
-      "away_hits": 0,
+      "current_inning": 2,
+      "inning_half": "Bottom",
+      "inning_state": "End",
+      "is_top_inning": false,
+      "balls": 2,
+      "strikes": 2,
+      "outs": 3,
+      "home_runs": 1,
+      "away_runs": 1,
+      "home_hits": 2,
+      "away_hits": 1,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -123,7 +123,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "Nationals.TV",
       "is_national": false,
@@ -133,19 +133,19 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Starts Soon"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-07T22:18:41+00:00",
+    "fetched_at": "2026-07-07T23:26:13+00:00",
     "source": "open_meteo",
     "game_pk": 822713,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-07-07T23:00",
-    "temperature_f": 81.4,
-    "feels_like_f": 88.7,
-    "wind_mph": 5.1,
-    "wind_dir": "NNE",
-    "precip_chance": 15,
+    "temperature_f": 81.8,
+    "feels_like_f": 90.9,
+    "wind_mph": 2.6,
+    "wind_dir": "ENE",
+    "precip_chance": 14,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -162,8 +162,8 @@
       "game_pk": 822713,
       "date": "2026-07-07",
       "start_time_utc": "2026-07-07T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -171,7 +171,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "47-45",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 117,
@@ -179,7 +179,7 @@
         "name": "Houston Astros",
         "short_name": "Astros",
         "record": "45-48",
-        "score": 0
+        "score": 1
       },
       "venue": {
         "id": 3309,
@@ -249,17 +249,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "current_inning": 2,
+        "inning_half": "Bottom",
+        "inning_state": "End",
+        "is_top_inning": false,
+        "balls": 2,
+        "strikes": 2,
+        "outs": 3,
+        "home_runs": 1,
+        "away_runs": 1,
+        "home_hits": 2,
+        "away_hits": 1,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -270,7 +270,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -280,7 +280,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822710,
@@ -909,8 +909,8 @@
       "game_pk": 822713,
       "date": "2026-07-07",
       "start_time_utc": "2026-07-07T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -918,7 +918,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "47-45",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 117,
@@ -926,7 +926,7 @@
         "name": "Houston Astros",
         "short_name": "Astros",
         "record": "45-48",
-        "score": 0
+        "score": 1
       },
       "venue": {
         "id": 3309,
@@ -996,17 +996,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "current_inning": 2,
+        "inning_half": "Bottom",
+        "inning_state": "End",
+        "is_top_inning": false,
+        "balls": 2,
+        "strikes": 2,
+        "outs": 3,
+        "home_runs": 1,
+        "away_runs": 1,
+        "home_hits": 2,
+        "away_hits": 1,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -1017,7 +1017,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -1027,7 +1027,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822710,
