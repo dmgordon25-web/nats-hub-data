@@ -1,68 +1,63 @@
 {
   "data_version": 1,
-  "generated_at": "2026-07-07T04:25:21+00:00",
+  "generated_at": "2026-07-07T08:26:42+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-07-07T04:24:01+00:00",
-    "videos": "2026-07-07T00:22:44+00:00",
-    "vibes": "2026-07-07T04:25:21+00:00"
+    "news": "2026-07-07T08:25:37+00:00",
+    "videos": "2026-07-07T08:25:37+00:00",
+    "vibes": "2026-07-07T08:26:42+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-07-07T04:23:47+00:00",
+      "last_updated_at": "2026-07-07T08:25:33+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-07-07T04:23:49+00:00",
+      "last_updated_at": "2026-07-07T08:25:34+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-07-07T04:23:49+00:00",
+      "last_updated_at": "2026-07-07T08:25:35+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-07-07T04:23:50+00:00",
+      "last_updated_at": "2026-07-07T08:25:35+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-07-07T04:23:50+00:00",
+      "last_updated_at": "2026-07-07T08:25:36+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-07-07T04:23:51+00:00",
+      "last_updated_at": "2026-07-07T08:25:36+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-07-07T08:25:37+00:00",
+      "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-07-07T08:25:37+00:00",
+      "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "videos",
-      "reason": "last_check_too_old"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "MLB Issues Suspensions Related To Nationals-Red Sox Brawl",
@@ -70,7 +65,7 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-07-06T23:08:51+00:00",
       "why_it_matters": {
-        "text": "MLB reduced Cavalli's suspension to five games following the Nationals-Red Sox brawl, starting Monday against the Astros. The team plans to replace him with Zack Littell for Thursday and Friday.",
+        "text": "MLB reduced Cavalli's suspension to five games following a brawl between the Nationals and Red Sox. The ban starts Monday against the Astros, prompting plans to replace him with Zack Littell for later games.",
         "ai_generated": true
       },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/WillsonContreras-1024x683.jpg"
@@ -81,7 +76,7 @@
       "source": "Talk Nats",
       "published_at": "2026-07-06T22:36:56+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals adjusted their pitching strategy, utilizing Cade Cavalli and Miles Mikolas ahead of suspension appeals following an incident in Boston.",
+        "text": "The Washington Nationals adjusted their pitching strategy, using Cade Cavalli and Miles Mikolas ahead of suspension appeals following an incident in Boston.",
         "ai_generated": true
       },
       "image_url": "https://www.talknats.com/wp-content/uploads/2026/07/20260304_175359-edited-scaled.jpg"
@@ -92,21 +87,10 @@
       "source": "Federal Baseball",
       "published_at": "2026-07-06T21:24:23+00:00",
       "why_it_matters": {
-        "text": "The Houston Astros remain dangerous despite past struggles, driven by Yordan Alvarez. The Washington Nationals aim to recover after losing a series to the Pirates and will face the Astros' designated hitter.",
+        "text": "The Houston Astros remain dangerous despite recent struggles, driven largely by Yordan Alvarez. The Washington Nationals aim to bounce back from a series loss against the Pirates in this matchup.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2284912805.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "Astros vs. Nationals Game Discussion: 7/6/2026",
-      "url": "https://sports.yahoo.com/articles/astros-vs-nationals-game-discussion-211529319.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-07-06T21:15:29+00:00",
-      "why_it_matters": {
-        "text": "The Astros begin their second half of the season tonight with a road game against the Nationals in Washington.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/ny/api/res/1.2/o.v1Fo0JZe4a1n7xP.w2VQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/60990dc5a9a5d3b14e62523bd51277ca"
     },
     {
       "title": "Nats host Houston in search of pitching answers",
@@ -114,7 +98,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-07-06T18:07:16+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals face Houston after their staff allowed 23 runs in three games. The Pirates have struggled defensively while other NL teams remain strong, complicating the Wild Card race.",
+        "text": "The Washington Nationals host Houston seeking pitching answers after their staff allowed 23 runs in three games. The Pirates' strong lineup contrasts with the Nats' struggles, while other NL teams remain competitive.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2284223828.jpg?quality=90&strip=all&crop=0%2C10.719148135439%2C100%2C78.561703729121&w=1200"
@@ -125,7 +109,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-07-06T17:31:58+00:00",
       "why_it_matters": {
-        "text": "A year after firing manager Davey Martinez and President Mike Rizzo on July 6th, 2025, the Washington Nationals' trajectory changed drastically following their 2019 World Series title.",
+        "text": "A year after firing manager Davey Martinez and President Mike Rizzo on July 6th, 2025, the Washington Nationals' trajectory has changed drastically following their previous World Series title in 2019.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2025/12/gettyimages-2247168574.jpg?quality=90&strip=all&crop=0%2C32.547993019197%2C100%2C34.904013961606&w=1200"
@@ -135,6 +119,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/92440/eddy-yean-impressed-mlb-debut-hopefully-will-be-back-with-nationals-soon",
       "source": "Federal Baseball",
       "published_at": "2026-07-06T14:44:24+00:00",
+      "why_it_matters": {
+        "text": "Eddy Yean impressed in his MLB debut with the Washington Nationals before being sent down due to pitch count limits.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2284223636.jpg?quality=90&strip=all&crop=0%2C10.741109063669%2C100%2C78.517781872662&w=1200"
     },
     {
@@ -143,6 +131,13 @@
       "source": "Federal Baseball",
       "published_at": "2026-07-05T16:47:17+00:00",
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2239094056.jpg?quality=90&strip=all&crop=0%2C10.471924353832%2C100%2C79.056151292337&w=1200"
+    },
+    {
+      "title": "Washington Nationals vs Pittsburgh Pirates Game Thread",
+      "url": "https://www.federalbaseball.com/washington-nationals-discussions/92425/washington-nationals-vs-pittsburgh-pirates-game-thread",
+      "source": "Federal Baseball",
+      "published_at": "2026-07-05T16:26:54+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2284562291.jpg?quality=90&strip=all&crop=0%2C10.469713979157%2C100%2C79.060572041686&w=1200"
     }
   ],
   "team_pulse": {
@@ -151,16 +146,30 @@
       "text": "Curly W! The Nats beat the Astros 12-11."
     },
     "storyline": {
-      "text": "MLB reduced Cavalli's suspension to five games following the Nationals-Red Sox brawl, starting Monday against the Astros. The team plans to replace him with Zack Littell for Thursday and Friday.",
+      "text": "MLB reduced Cavalli's suspension to five games following a brawl between the Nationals and Red Sox. The ban starts Monday against the Astros, prompting plans to replace him with Zack Littell for later games.",
       "ai_generated": true
     }
   },
   "videos": [
     {
-      "title": "America 250 Fireworks Over Nationals Park Drone Footage | Washington, D.C. | Fourth of July",
-      "url": "https://www.youtube.com/watch?v=aRcTLOkb1gQ",
+      "title": "Astros vs. Nationals Game Highlights (7/6/26) | MLB Highlights",
+      "url": "https://www.youtube.com/watch?v=2cNTP5lSbyk",
       "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i2.ytimg.com/vi/aRcTLOkb1gQ/hqdefault.jpg",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2cNTP5lSbyk/hqdefault.jpg",
+      "duration_s": 0
+    },
+    {
+      "title": "JAMES WOOD 446-FT GRAND SLAM 🤯",
+      "url": "https://www.youtube.com/shorts/v-GRizdm-Lk",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i3.ytimg.com/vi/v-GRizdm-Lk/hqdefault.jpg",
+      "duration_s": 0
+    },
+    {
+      "title": "Curtis Mead Keeps Homering!",
+      "url": "https://www.youtube.com/shorts/1KtQn4UkkEs",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1KtQn4UkkEs/hqdefault.jpg",
       "duration_s": 0
     },
     {
@@ -183,20 +192,6 @@
       "source": "Nationals on YouTube",
       "thumbnail_url": "https://i4.ytimg.com/vi/OU53E5xHEy4/hqdefault.jpg",
       "duration_s": 0
-    },
-    {
-      "title": "MOONSHOT: James Wood Leadoff Third Deck Bomb",
-      "url": "https://www.youtube.com/shorts/N17y7OIlfw0",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i3.ytimg.com/vi/N17y7OIlfw0/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "A Two-Homer Night For Daylen Lile",
-      "url": "https://www.youtube.com/shorts/SzvvxkS8bLQ",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i4.ytimg.com/vi/SzvvxkS8bLQ/hqdefault.jpg",
-      "duration_s": 0
     }
   ],
   "fan_vibes": {
@@ -204,33 +199,31 @@
     "ai_generated": true,
     "themes": [
       {
-        "label": "Suspension Adjustments",
+        "label": "Suspension adjustments",
         "sentiment": "positive",
         "source_urls": [
-          "https://www.mlbtraderumors.com/2026/07/mlb-issues-suspensions-related-to-nationals-red-sox-brawl.html"
+          "https://www.mlbtraderumors.com/2026/07/mlb-issues-suspensions-related-to-nationals-red-sox-brawl.html",
+          "https://www.talknats.com/2026/07/06/game-92-the-final-week-before-the-all-star-break/"
         ]
       },
       {
-        "label": "Pitching Strategy Shifts",
-        "sentiment": "",
+        "label": "Pitching struggles",
+        "sentiment": "negative",
         "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-game-information/92458/nats-host-houston-in-search-of-pitching-answers",
-          "https://www.talknats.com/2026/07/06/game-92-the-final-week-before-the-all-star-break/"
+          "https://www.federalbaseball.com/washington-nationals-discussions/92461/washington-nationals-vs-houston-astros-game-thread",
+          "https://www.federalbaseball.com/washington-nationals-game-information/92458/nats-host-houston-in-search-of-pitching-answers"
+        ]
+      },
+      {
+        "label": "Roster changes impact",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/92450/examining-state-washington-nationals-year-after-davey-martinez-mike-rizzo-firings"
         ]
       }
     ]
   },
   "trending": [
-    {
-      "label": "Astros",
-      "sentiment": "",
-      "context": "Washington Nationals vs Houston Astros Game Thread",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/astros-vs-nationals-game-discussion-211529319.html",
-        "https://www.federalbaseball.com/washington-nationals-discussions/92461/washington-nationals-vs-houston-astros-game-thread",
-        "https://www.federalbaseball.com/washington-nationals-game-information/92458/nats-host-houston-in-search-of-pitching-answers"
-      ]
-    },
     {
       "label": "suspension",
       "sentiment": "",
@@ -241,28 +234,11 @@
       ]
     },
     {
-      "label": "brawl",
+      "label": "red sox",
       "sentiment": "",
       "context": "MLB Issues Suspensions Related To Nationals-Red Sox Brawl",
       "source_urls": [
         "https://www.mlbtraderumors.com/2026/07/mlb-issues-suspensions-related-to-nationals-red-sox-brawl.html"
-      ]
-    },
-    {
-      "label": "roster",
-      "sentiment": "",
-      "context": "MLB Issues Suspensions Related To Nationals-Red Sox Brawl",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/07/mlb-issues-suspensions-related-to-nationals-red-sox-brawl.html"
-      ]
-    },
-    {
-      "label": "Pitching Strategy",
-      "sentiment": "",
-      "context": "Game #92 The final week before the All-Star break",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-game-information/92458/nats-host-houston-in-search-of-pitching-answers",
-        "https://www.talknats.com/2026/07/06/game-92-the-final-week-before-the-all-star-break/"
       ]
     },
     {
@@ -274,7 +250,15 @@
       ]
     },
     {
-      "label": "Yordan Alvarez",
+      "label": "Pitching Strategy",
+      "sentiment": "",
+      "context": "Game #92 The final week before the All-Star break",
+      "source_urls": [
+        "https://www.talknats.com/2026/07/06/game-92-the-final-week-before-the-all-star-break/"
+      ]
+    },
+    {
+      "label": "Astros",
       "sentiment": "",
       "context": "Washington Nationals vs Houston Astros Game Thread",
       "source_urls": [
@@ -282,11 +266,27 @@
       ]
     },
     {
-      "label": "Pirates",
+      "label": "Alvarez",
       "sentiment": "",
       "context": "Washington Nationals vs Houston Astros Game Thread",
       "source_urls": [
         "https://www.federalbaseball.com/washington-nationals-discussions/92461/washington-nationals-vs-houston-astros-game-thread"
+      ]
+    },
+    {
+      "label": "Houston",
+      "sentiment": "",
+      "context": "Nats host Houston in search of pitching answers",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-game-information/92458/nats-host-houston-in-search-of-pitching-answers"
+      ]
+    },
+    {
+      "label": "Pirates",
+      "sentiment": "",
+      "context": "Nats host Houston in search of pitching answers",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-game-information/92458/nats-host-houston-in-search-of-pitching-answers"
       ]
     }
   ],
