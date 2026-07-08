@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-08T19:56:06+00:00",
+  "fetched_at": "2026-07-08T20:46:02+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -241,7 +241,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "47-46",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 117,
@@ -249,7 +249,7 @@
         "name": "Houston Astros",
         "short_name": "Astros",
         "record": "46-48",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -319,19 +319,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 3,
@@ -373,7 +373,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 641793,
+          "name": "Zack Littell",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -496,7 +500,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 571945,
+          "name": "Miles Mikolas",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
