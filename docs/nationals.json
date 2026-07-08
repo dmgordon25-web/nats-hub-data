@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-08T20:46:03+00:00",
+  "fetched_at": "2026-07-08T21:53:13+00:00",
   "freshness": {
-    "schedule": "2026-07-08T20:46:02+00:00",
-    "standings": "2026-07-08T20:46:02+00:00",
+    "schedule": "2026-07-08T21:53:12+00:00",
+    "standings": "2026-07-08T21:53:12+00:00",
     "injuries": "2026-07-07T10:31:27+00:00",
     "former_nats": "2026-07-08T19:56:06+00:00",
-    "weather": "2026-07-08T20:46:03+00:00"
+    "weather": "2026-07-08T21:53:13+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -62,7 +62,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -71,7 +71,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "KBME 790 AM/94.5 FM HD-2",
@@ -80,7 +80,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -89,7 +89,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "KLTN-TUDN 102.9 FM",
@@ -98,7 +98,7 @@
         "language": "es",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       }
     ],
     "linescore": {
@@ -133,21 +133,21 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Starts Soon"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-08T20:46:03+00:00",
+    "fetched_at": "2026-07-08T21:53:13+00:00",
     "source": "open_meteo",
     "game_pk": 822710,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-07-08T23:00",
-    "temperature_f": 82.9,
-    "feels_like_f": 89.5,
-    "wind_mph": 5.0,
+    "temperature_f": 82.4,
+    "feels_like_f": 90.4,
+    "wind_mph": 3.3,
     "wind_dir": "SSW",
     "precip_chance": 0,
     "precip_inches": 0.0,
-    "summary": "Clear",
+    "summary": "Partly cloudy",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -208,7 +208,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -217,7 +217,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "KBME 790 AM/94.5 FM HD-2",
@@ -226,7 +226,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -235,7 +235,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "KLTN-TUDN 102.9 FM",
@@ -244,7 +244,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
@@ -279,7 +279,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 822709,
@@ -964,7 +964,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -973,7 +973,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "KBME 790 AM/94.5 FM HD-2",
@@ -982,7 +982,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -991,7 +991,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "KLTN-TUDN 102.9 FM",
@@ -1000,7 +1000,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
@@ -1035,7 +1035,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 822709,
