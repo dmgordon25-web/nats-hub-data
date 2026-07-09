@@ -1,120 +1,7 @@
 {
-  "fetched_at": "2026-07-08T23:10:56+00:00",
+  "fetched_at": "2026-07-09T00:19:45+00:00",
   "source": "mlb_statsapi",
   "games": [
-    {
-      "game_pk": 822712,
-      "date": "2026-07-06",
-      "start_time_utc": "2026-07-06T22:45:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "47-45",
-        "score": 12
-      },
-      "away": {
-        "id": 117,
-        "abbrev": "HOU",
-        "name": "Houston Astros",
-        "short_name": "Astros",
-        "record": "45-48",
-        "score": 11
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 571945,
-          "name": "Miles Mikolas",
-          "hand": null
-        },
-        "away": {
-          "id": 681347,
-          "name": "Mike Burrows",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Space City Home Network",
-          "call_sign": "SCHN",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "KBME 790 AM/94.5 FM HD-2",
-          "call_sign": "KBME",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "KLTN-TUDN 102.9 FM",
-          "call_sign": "TUDN 102.9",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 3,
-        "home_runs": 12,
-        "away_runs": 11,
-        "home_hits": 13,
-        "away_hits": 12,
-        "home_errors": 0,
-        "away_errors": 2
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi"
-    },
     {
       "game_pk": 822713,
       "date": "2026-07-07",
@@ -241,7 +128,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "47-46",
-        "score": 0
+        "score": 6
       },
       "away": {
         "id": 117,
@@ -249,7 +136,7 @@
         "name": "Houston Astros",
         "short_name": "Astros",
         "record": "46-48",
-        "score": 0
+        "score": 1
       },
       "venue": {
         "id": 3309,
@@ -319,17 +206,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 2,
-        "inning_half": "Top",
-        "inning_state": "Middle",
-        "is_top_inning": true,
-        "balls": 2,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "current_inning": 5,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 6,
+        "away_runs": 1,
+        "home_hits": 7,
+        "away_hits": 4,
         "home_errors": 0,
         "away_errors": 0
       },

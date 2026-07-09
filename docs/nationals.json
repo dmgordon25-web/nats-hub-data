@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-08T23:10:57+00:00",
+  "fetched_at": "2026-07-09T00:19:47+00:00",
   "freshness": {
-    "schedule": "2026-07-08T23:10:56+00:00",
-    "standings": "2026-07-08T23:10:57+00:00",
+    "schedule": "2026-07-09T00:19:45+00:00",
+    "standings": "2026-07-09T00:19:46+00:00",
     "injuries": "2026-07-07T10:31:27+00:00",
-    "former_nats": "2026-07-08T19:56:06+00:00",
-    "weather": "2026-07-08T23:10:57+00:00"
+    "former_nats": "2026-07-09T00:19:45+00:00",
+    "weather": "2026-07-09T00:19:46+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "47-46",
-      "score": 0
+      "score": 6
     },
     "away": {
       "id": 117,
@@ -32,7 +32,7 @@
       "name": "Houston Astros",
       "short_name": "Astros",
       "record": "46-48",
-      "score": 0
+      "score": 1
     },
     "venue": {
       "id": 3309,
@@ -102,17 +102,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 2,
-      "inning_half": "Top",
-      "inning_state": "Middle",
-      "is_top_inning": true,
-      "balls": 2,
-      "strikes": 3,
-      "outs": 3,
-      "home_runs": 0,
-      "away_runs": 0,
-      "home_hits": 0,
-      "away_hits": 0,
+      "current_inning": 5,
+      "inning_half": "Bottom",
+      "inning_state": "Bottom",
+      "is_top_inning": false,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 6,
+      "away_runs": 1,
+      "home_hits": 7,
+      "away_hits": 4,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -136,25 +136,26 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-08T23:10:57+00:00",
+    "fetched_at": "2026-07-09T00:19:46+00:00",
     "source": "open_meteo",
     "game_pk": 822710,
     "venue_name": "Nationals Park",
-    "forecast_at": "2026-07-08T23:00",
-    "temperature_f": 82.2,
-    "feels_like_f": 89.7,
-    "wind_mph": 5.1,
-    "wind_dir": "SW",
+    "forecast_at": "2026-07-09T00:00",
+    "temperature_f": 80.6,
+    "feels_like_f": 88.7,
+    "wind_mph": 2.7,
+    "wind_dir": "S",
     "precip_chance": 0,
     "precip_inches": 0.0,
-    "summary": "Mostly clear",
+    "summary": "Overcast",
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "nostalgia_2024_surprise",
-    "category": "nostalgia",
-    "weight": 6,
-    "text": "The 2024 Nats overachieved. James Wood arrived. CJ Abrams broke out. The kids were ready earlier than anyone expected."
+    "id": "tonight_home",
+    "category": "tonight_nugget",
+    "weight": 5,
+    "text": "Home game tonight at Nationals Park. The grounds crew has the diamond dialed in.",
+    "trigger": "is_home_game"
   },
   "next_three": [
     {
@@ -170,7 +171,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "47-46",
-        "score": 0
+        "score": 6
       },
       "away": {
         "id": 117,
@@ -178,7 +179,7 @@
         "name": "Houston Astros",
         "short_name": "Astros",
         "record": "46-48",
-        "score": 0
+        "score": 1
       },
       "venue": {
         "id": 3309,
@@ -248,17 +249,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 2,
-        "inning_half": "Top",
-        "inning_state": "Middle",
-        "is_top_inning": true,
-        "balls": 2,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "current_inning": 5,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 6,
+        "away_runs": 1,
+        "home_hits": 7,
+        "away_hits": 4,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -666,130 +667,6 @@
   },
   "all_games": [
     {
-      "game_pk": 822712,
-      "date": "2026-07-06",
-      "start_time_utc": "2026-07-06T22:45:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "47-45",
-        "score": 12
-      },
-      "away": {
-        "id": 117,
-        "abbrev": "HOU",
-        "name": "Houston Astros",
-        "short_name": "Astros",
-        "record": "45-48",
-        "score": 11
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 571945,
-          "name": "Miles Mikolas",
-          "hand": null
-        },
-        "away": {
-          "id": 681347,
-          "name": "Mike Burrows",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Space City Home Network",
-          "call_sign": "SCHN",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "KBME 790 AM/94.5 FM HD-2",
-          "call_sign": "KBME",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "KLTN-TUDN 102.9 FM",
-          "call_sign": "TUDN 102.9",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 3,
-        "home_runs": 12,
-        "away_runs": 11,
-        "home_hits": 13,
-        "away_hits": 12,
-        "home_errors": 0,
-        "away_errors": 2
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
-    {
       "game_pk": 822713,
       "date": "2026-07-07",
       "start_time_utc": "2026-07-07T22:45:00Z",
@@ -926,7 +803,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "47-46",
-        "score": 0
+        "score": 6
       },
       "away": {
         "id": 117,
@@ -934,7 +811,7 @@
         "name": "Houston Astros",
         "short_name": "Astros",
         "record": "46-48",
-        "score": 0
+        "score": 1
       },
       "venue": {
         "id": 3309,
@@ -1004,17 +881,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 2,
-        "inning_half": "Top",
-        "inning_state": "Middle",
-        "is_top_inning": true,
-        "balls": 2,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "current_inning": 5,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 6,
+        "away_runs": 1,
+        "home_hits": 7,
+        "away_hits": 4,
         "home_errors": 0,
         "away_errors": 0
       },
