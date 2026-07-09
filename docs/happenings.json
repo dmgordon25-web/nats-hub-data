@@ -1,74 +1,90 @@
 {
   "data_version": 1,
-  "generated_at": "2026-07-09T01:23:46+00:00",
+  "generated_at": "2026-07-09T05:24:41+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-07-09T01:22:09+00:00",
+    "news": "2026-07-09T05:24:16+00:00",
     "videos": "2026-07-09T01:22:09+00:00",
-    "vibes": "2026-07-09T01:23:46+00:00"
+    "vibes": "2026-07-09T05:24:41+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-07-09T01:22:04+00:00",
+      "last_updated_at": "2026-07-09T05:24:00+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-07-09T01:22:07+00:00",
+      "last_updated_at": "2026-07-09T05:24:03+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-07-09T01:22:07+00:00",
+      "last_updated_at": "2026-07-09T05:24:03+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-07-09T01:22:07+00:00",
+      "last_updated_at": "2026-07-09T05:24:04+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-07-09T01:22:08+00:00",
+      "last_updated_at": "2026-07-09T05:24:04+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-07-09T01:22:08+00:00",
+      "last_updated_at": "2026-07-09T05:24:05+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-07-09T01:22:09+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-07-09T01:22:09+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    }
+  ],
   "top_stories": [
     {
-      "title": "Astros at Nationals Game Discussion: 7/8/2026",
-      "url": "https://sports.yahoo.com/articles/astros-nationals-game-discussion-7-221554240.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-07-08T22:15:54+00:00",
+      "title": "CJ Abrams and Luis Garcia Jr. reach 20 home run mark as the Nationals secure a series win",
+      "url": "https://www.federalbaseball.com/washington-nationals-scores/92520/cj-abrams-luis-garcia-jr-reach-20-home-run-mark-nationals-secure-series-win",
+      "source": "Federal Baseball",
+      "published_at": "2026-07-09T02:21:39+00:00",
       "why_it_matters": {
-        "text": "The Houston Astros and Washington Nationals conclude their three-game series tonight in Washington D.C., featuring RHP Spencer Arrighetti.",
+        "text": "CJ Abrams and Luis Garcia Jr. hit their 20th home runs as the Nationals defeated opponents comfortably with strong offense from Foster Griffin and a pitching staff that issued no walks.",
         "ai_generated": true
       },
-      "image_url": "https://s.yimg.com/ny/api/res/1.2/.r5.g6fblMb4KDwFe4QYpA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/efb3e023befaebb8a50d4368e47d3180"
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2285277550.jpg?quality=90&strip=all&crop=0%2C10.729814274972%2C100%2C78.540371450055&w=1200"
+    },
+    {
+      "title": "Washington Nationals vs Houston Astros Game Thread",
+      "url": "https://www.federalbaseball.com/washington-nationals-discussions/92513/washington-nationals-vs-houston-astros-game-thread",
+      "source": "Federal Baseball",
+      "published_at": "2026-07-08T21:05:00+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals aim to win the series against Houston after dropping Game 2, relying on pitcher Foster Griffin and avoiding past losses.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2284586348.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
       "title": "Game #94 Foster Griffin’s final All-Star audition",
@@ -82,12 +98,34 @@
       "image_url": "https://www.talknats.com/wp-content/uploads/2026/04/Foster-Griffin-Quality-Start-4-21-2026-Sol-Tucker.jpeg"
     },
     {
+      "title": "Three college pitchers the Washington Nationals could target in the second round",
+      "url": "https://www.federalbaseball.com/mlb-draft/92505/three-college-pitchers-washington-nationals-could-target-second-round",
+      "source": "Federal Baseball",
+      "published_at": "2026-07-08T17:44:07+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals are considering three college pitchers for their second and third-round draft picks as the event approaches.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2201095119.jpg?quality=90&strip=all&crop=0%2C31.368201730954%2C100%2C37.263596538092&w=1200"
+    },
+    {
+      "title": "Blake Butera and the Washington Nationals coaching staff are more hands on and accountable",
+      "url": "https://www.federalbaseball.com/washington-nationals-analysis/92496/blake-butera-washington-nationals-coaching-staff-more-hands-on-accountable",
+      "source": "Federal Baseball",
+      "published_at": "2026-07-08T14:52:44+00:00",
+      "why_it_matters": {
+        "text": "Blake Butera and Washington Nationals staff are accountable regarding Cole Henry's usage and player planning meetings.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2277589772.jpg?quality=90&strip=all&crop=0%2C10.741380063069%2C100%2C78.517239873862&w=1200"
+    },
+    {
       "title": "MLB Issues Suspensions Related To Nationals-Red Sox Brawl",
       "url": "https://www.mlbtraderumors.com/2026/07/mlb-issues-suspensions-related-to-nationals-red-sox-brawl.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-07-07T22:15:51+00:00",
       "why_it_matters": {
-        "text": "MLB reduced suspensions for Eaton and Cavalli following a Nationals-Red Sox brawl, with service starting on Monday.",
+        "text": "MLB adjusted suspensions for Nationals-Red Sox brawl incidents, reducing Eaton's to two games and Cavalli's to five games.",
         "ai_generated": true
       },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/WillsonContreras-1024x683.jpg"
@@ -97,56 +135,23 @@
       "url": "https://www.talknats.com/2026/07/07/game-93-nats-go-with-the-lefty-alvarez/",
       "source": "Talk Nats",
       "published_at": "2026-07-07T22:08:42+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals used a short start from Cade Cavalli and relied heavily on their bullpen, including Brad Lord in relief of Alvarez.",
-        "ai_generated": true
-      },
       "image_url": "https://www.talknats.com/wp-content/uploads/2025/09/Andrew-Alvarez-debut-9-1-2025-Sol-Tucker-B-scaled.jpg"
     },
     {
-      "title": "Breaking Down the Nationals’ Playoff Push: Key Series and Players to Watch",
-      "url": "https://www.talknats.com/2026/07/07/breaking-down-the-nationals-playoff-push-key-series-and-players-to-watch/",
-      "source": "Talk Nats",
-      "published_at": "2026-07-07T10:26:00+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals are an intriguing late-season story with meaningful games remaining as the National League playoff race tightens.",
-        "ai_generated": true
-      },
-      "image_url": "https://www.talknats.com/wp-content/uploads/2026/07/37c44f68-0c37-4a54-9f0c-943012c340bd.jpg"
-    },
-    {
-      "title": "Game #92 The final week before the All-Star break",
-      "url": "https://www.talknats.com/2026/07/06/game-92-the-final-week-before-the-all-star-break/",
-      "source": "Talk Nats",
-      "published_at": "2026-07-06T22:36:56+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals adjusted their pitching strategy, utilizing Cade Cavalli and Miles Mikolas ahead of suspension appeals following an incident in Boston.",
-        "ai_generated": true
-      },
-      "image_url": "https://www.talknats.com/wp-content/uploads/2026/07/20260304_175359-edited-scaled.jpg"
-    },
-    {
-      "title": "Washington Nationals vs Houston Astros Game Thread",
-      "url": "https://www.federalbaseball.com/washington-nationals-discussions/92461/washington-nationals-vs-houston-astros-game-thread",
+      "title": "Join The Federal Baseball Washington Nationals MLB Draft Prediction Game!",
+      "url": "https://www.federalbaseball.com/mlb-draft/92478/join-federal-baseball-washington-nationals-mlb-draft-prediction-game",
       "source": "Federal Baseball",
-      "published_at": "2026-07-06T21:24:23+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2284912805.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "Nats host Houston in search of pitching answers",
-      "url": "https://www.federalbaseball.com/washington-nationals-game-information/92458/nats-host-houston-in-search-of-pitching-answers",
-      "source": "Federal Baseball",
-      "published_at": "2026-07-06T18:07:16+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2284223828.jpg?quality=90&strip=all&crop=0%2C10.719148135439%2C100%2C78.561703729121&w=1200"
+      "published_at": "2026-07-07T14:56:54+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/2021-mlb-draft-111421-ftr-gettyjpg_kj3cre2zxfzm1nxtcn9uezv9s-1.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200"
     }
   ],
   "team_pulse": {
     "result_banner": {
-      "type": "loss",
-      "text": "Tough one — the Nats fell to the Astros 6-3."
+      "type": "win",
+      "text": "Curly W! The Nats beat the Astros 8-2."
     },
     "storyline": {
-      "text": "The Houston Astros and Washington Nationals conclude their three-game series tonight in Washington D.C., featuring RHP Spencer Arrighetti.",
+      "text": "CJ Abrams and Luis Garcia Jr. hit their 20th home runs as the Nationals defeated opponents comfortably with strong offense from Foster Griffin and a pitching staff that issued no walks.",
       "ai_generated": true
     }
   },
@@ -199,71 +204,93 @@
     "ai_generated": true,
     "themes": [
       {
-        "label": "Playoff Potential",
+        "label": "Strong Offense & Pitching",
         "sentiment": "positive",
         "source_urls": [
-          "https://www.talknats.com/2026/07/07/breaking-down-the-nationals-playoff-push-key-series-and-players-to-watch/"
+          "https://www.federalbaseball.com/washington-nationals-scores/92520/cj-abrams-luis-garcia-jr-reach-20-home-run-mark-nationals-secure-series-win"
         ]
       },
       {
-        "label": "Pitching Strategy",
+        "label": "Series Win Momentum",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-discussions/92513/washington-nationals-vs-houston-astros-game-thread",
+          "https://www.talknats.com/2026/07/08/game-94-foster-griffins-final-all-star-audition/"
+        ]
+      },
+      {
+        "label": "Draft Preparation",
         "sentiment": "",
         "source_urls": [
-          "https://www.talknats.com/2026/07/06/game-92-the-final-week-before-the-all-star-break/",
-          "https://www.talknats.com/2026/07/07/game-93-nats-go-with-the-lefty-alvarez/"
+          "https://www.federalbaseball.com/mlb-draft/92505/three-college-pitchers-washington-nationals-could-target-second-round"
+        ]
+      },
+      {
+        "label": "Staff Accountability",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/92496/blake-butera-washington-nationals-coaching-staff-more-hands-on-accountable"
         ]
       }
     ]
   },
   "trending": [
     {
+      "label": "FosterGriffin",
+      "sentiment": "",
+      "context": "CJ Abrams and Luis Garcia Jr. reach 20 home run mark as the Nationals secure a series win",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-discussions/92513/washington-nationals-vs-houston-astros-game-thread",
+        "https://www.federalbaseball.com/washington-nationals-scores/92520/cj-abrams-luis-garcia-jr-reach-20-home-run-mark-nationals-secure-series-win",
+        "https://www.talknats.com/2026/07/08/game-94-foster-griffins-final-all-star-audition/"
+      ]
+    },
+    {
+      "label": "homeruns",
+      "sentiment": "",
+      "context": "CJ Abrams and Luis Garcia Jr. reach 20 home run mark as the Nationals secure a series win",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-scores/92520/cj-abrams-luis-garcia-jr-reach-20-home-run-mark-nationals-secure-series-win"
+      ]
+    },
+    {
+      "label": "pitching",
+      "sentiment": "",
+      "context": "CJ Abrams and Luis Garcia Jr. reach 20 home run mark as the Nationals secure a series win",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-scores/92520/cj-abrams-luis-garcia-jr-reach-20-home-run-mark-nationals-secure-series-win",
+        "https://www.talknats.com/2026/07/08/game-94-foster-griffins-final-all-star-audition/"
+      ]
+    },
+    {
+      "label": "Houston Astros",
+      "sentiment": "",
+      "context": "Washington Nationals vs Houston Astros Game Thread",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-discussions/92513/washington-nationals-vs-houston-astros-game-thread"
+      ]
+    },
+    {
+      "label": "Series Win",
+      "sentiment": "",
+      "context": "Washington Nationals vs Houston Astros Game Thread",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-discussions/92513/washington-nationals-vs-houston-astros-game-thread"
+      ]
+    },
+    {
+      "label": ".500 Record",
+      "sentiment": "",
+      "context": "Washington Nationals vs Houston Astros Game Thread",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-discussions/92513/washington-nationals-vs-houston-astros-game-thread"
+      ]
+    },
+    {
       "label": "All-Star Break",
       "sentiment": "",
       "context": "Game #94 Foster Griffin’s final All-Star audition",
       "source_urls": [
-        "https://www.talknats.com/2026/07/06/game-92-the-final-week-before-the-all-star-break/",
-        "https://www.talknats.com/2026/07/08/game-94-foster-griffins-final-all-star-audition/"
-      ]
-    },
-    {
-      "label": "Astros",
-      "sentiment": "",
-      "context": "Astros at Nationals Game Discussion: 7/8/2026",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/astros-nationals-game-discussion-7-221554240.html",
-        "https://www.talknats.com/2026/07/08/game-94-foster-griffins-final-all-star-audition/"
-      ]
-    },
-    {
-      "label": "West Palm Beach",
-      "sentiment": "",
-      "context": "Astros at Nationals Game Discussion: 7/8/2026",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/astros-nationals-game-discussion-7-221554240.html"
-      ]
-    },
-    {
-      "label": "Spencer Arrighetti",
-      "sentiment": "",
-      "context": "Astros at Nationals Game Discussion: 7/8/2026",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/astros-nationals-game-discussion-7-221554240.html"
-      ]
-    },
-    {
-      "label": "Foster Griffin",
-      "sentiment": "",
-      "context": "Game #94 Foster Griffin’s final All-Star audition",
-      "source_urls": [
-        "https://www.talknats.com/2026/07/08/game-94-foster-griffins-final-all-star-audition/"
-      ]
-    },
-    {
-      "label": "Pitching",
-      "sentiment": "",
-      "context": "Game #94 Foster Griffin’s final All-Star audition",
-      "source_urls": [
-        "https://www.talknats.com/2026/07/06/game-92-the-final-week-before-the-all-star-break/",
         "https://www.talknats.com/2026/07/08/game-94-foster-griffins-final-all-star-audition/"
       ]
     },
@@ -273,15 +300,6 @@
       "context": "Game #94 Foster Griffin’s final All-Star audition",
       "source_urls": [
         "https://www.talknats.com/2026/07/08/game-94-foster-griffins-final-all-star-audition/"
-      ]
-    },
-    {
-      "label": "suspension",
-      "sentiment": "",
-      "context": "MLB Issues Suspensions Related To Nationals-Red Sox Brawl",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/07/mlb-issues-suspensions-related-to-nationals-red-sox-brawl.html",
-        "https://www.talknats.com/2026/07/06/game-92-the-final-week-before-the-all-star-break/"
       ]
     }
   ],
@@ -293,6 +311,10 @@
     {
       "text": "The Nats host the Yankees on Saturday.",
       "source_url_or_game_pk": "822711"
+    },
+    {
+      "text": "The Nats host the Yankees on Sunday.",
+      "source_url_or_game_pk": "822708"
     }
   ],
   "on_this_day": {},
