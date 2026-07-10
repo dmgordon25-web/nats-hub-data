@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-10T21:08:24+00:00",
+  "fetched_at": "2026-07-10T22:15:07+00:00",
   "freshness": {
-    "schedule": "2026-07-10T21:08:23+00:00",
-    "standings": "2026-07-10T21:08:23+00:00",
+    "schedule": "2026-07-10T22:15:06+00:00",
+    "standings": "2026-07-10T22:15:06+00:00",
     "injuries": "2026-07-10T10:28:58+00:00",
     "former_nats": "2026-07-10T19:53:28+00:00",
-    "weather": "2026-07-10T21:08:24+00:00"
+    "weather": "2026-07-10T22:15:07+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -16,7 +16,7 @@
     "date": "2026-07-10",
     "start_time_utc": "2026-07-10T22:45:00Z",
     "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "detailed_status": "Delayed Start",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -62,7 +62,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -71,7 +71,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -80,7 +80,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WFAN 660/101.9 FM",
@@ -89,7 +89,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WADO 1280",
@@ -98,7 +98,7 @@
         "language": "es",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Fox 5 WTTG",
@@ -151,19 +151,19 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Delayed"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-10T21:08:24+00:00",
+    "fetched_at": "2026-07-10T22:15:07+00:00",
     "source": "open_meteo",
     "game_pk": 822709,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-07-10T23:00",
-    "temperature_f": 82.2,
-    "feels_like_f": 88.1,
-    "wind_mph": 3.8,
-    "wind_dir": "WNW",
-    "precip_chance": 13,
+    "temperature_f": 81.8,
+    "feels_like_f": 90.1,
+    "wind_mph": 4.6,
+    "wind_dir": "W",
+    "precip_chance": 7,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -180,7 +180,7 @@
       "date": "2026-07-10",
       "start_time_utc": "2026-07-10T22:45:00Z",
       "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "detailed_status": "Delayed Start",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -226,7 +226,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -235,7 +235,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -244,7 +244,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WFAN 660/101.9 FM",
@@ -253,7 +253,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WADO 1280",
@@ -262,7 +262,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Fox 5 WTTG",
@@ -315,7 +315,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Delayed"
     },
     {
       "game_pk": 822711,
@@ -816,7 +816,7 @@
       "date": "2026-07-10",
       "start_time_utc": "2026-07-10T22:45:00Z",
       "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "detailed_status": "Delayed Start",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -862,7 +862,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -871,7 +871,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -880,7 +880,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WFAN 660/101.9 FM",
@@ -889,7 +889,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WADO 1280",
@@ -898,7 +898,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Fox 5 WTTG",
@@ -951,7 +951,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Delayed"
     },
     {
       "game_pk": 822711,
