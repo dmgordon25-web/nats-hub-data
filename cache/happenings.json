@@ -1,79 +1,99 @@
 {
   "data_version": 1,
-  "generated_at": "2026-07-10T05:18:22+00:00",
+  "generated_at": "2026-07-10T13:38:45+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-07-10T05:17:51+00:00",
-    "videos": "2026-07-10T01:16:40+00:00",
-    "vibes": "2026-07-10T05:18:22+00:00"
+    "news": "2026-07-10T13:38:05+00:00",
+    "videos": "2026-07-10T13:38:05+00:00",
+    "vibes": "2026-07-10T13:38:45+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-07-10T05:17:34+00:00",
+      "last_updated_at": "2026-07-10T13:38:00+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-07-10T05:17:36+00:00",
+      "last_updated_at": "2026-07-10T13:38:02+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-07-10T05:17:37+00:00",
+      "last_updated_at": "2026-07-10T13:38:03+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-07-10T05:17:37+00:00",
+      "last_updated_at": "2026-07-10T13:38:03+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-07-10T05:17:38+00:00",
+      "last_updated_at": "2026-07-10T13:38:03+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-07-10T05:17:38+00:00",
+      "last_updated_at": "2026-07-10T13:38:04+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-07-10T13:38:05+00:00",
+      "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-07-10T13:38:05+00:00",
+      "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "videos",
-      "reason": "last_check_too_old"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
-      "title": "MLB reduces Willson Contreras&#39; suspension for scrum with Nationals to 5 games; Red Sox 1B will return after All-Star break",
-      "url": "https://sports.yahoo.com/mlb/article/mlb-reduces-willson-contreras-suspension-for-scrum-with-nationals-to-5-games-red-sox-1b-will-return-after-all-star-break-223030709.html",
+      "title": "Nationals To Select Tom Cosgrove",
+      "url": "https://www.mlbtraderumors.com/2026/07/nationals-to-select-tom-cosgrove.html",
+      "source": "MLB Trade Rumors",
+      "published_at": "2026-07-10T13:32:35+00:00",
+      "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/USATSI_28305248-1024x683.jpg"
+    },
+    {
+      "title": "It is time for the Washington Nationals to give Yohandy Morales a shot",
+      "url": "https://www.federalbaseball.com/washington-nationals-prospects/92548/it-is-time-for-washington-nationals-give-yohandy-morales-shot",
+      "source": "Federal Baseball",
+      "published_at": "2026-07-10T12:55:24+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/03/gettyimages-2107850821.jpg?quality=90&strip=all&crop=0%2C10.729676482924%2C100%2C78.540647034151&w=1200"
+    },
+    {
+      "title": "New York Yankees vs. Washington Nationals: Series Preview",
+      "url": "https://sports.yahoo.com/articles/york-yankees-vs-washington-nationals-123000812.html",
       "source": "Yahoo Sports MLB",
-      "published_at": "2026-07-09T22:30:30+00:00",
+      "published_at": "2026-07-10T12:30:00+00:00",
       "why_it_matters": {
-        "text": "MLB reduced Willson Contreras' suspension for the scrum with Nationals to five games; Red Sox first baseman will return after All-Star break.",
+        "text": "The New York Yankees are traveling to Washington, D.C., to play the Nationals in an upcoming weekend baseball series.",
         "ai_generated": true
       },
-      "image_url": "https://s.yimg.com/ny/api/res/1.2/oD6Ao5MFWiURf4xWJwcEvw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://d29szjachogqwa.cloudfront.net/images/2026-07/106035dd-d1dc-4dbf-af7f-d9ee0395f5fc"
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/y9bqBj_AtnB7UE5dSZ6Djg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/9f1b485be035adf99d7e23ac2017e1f4"
+    },
+    {
+      "title": "Foster Griffin’s intriguing situation with trade deadline looming",
+      "url": "https://www.federalbaseball.com/washington-nationals-analysis/92541/foster-griffins-intriguing-situation-with-trade-deadline-looming",
+      "source": "Federal Baseball",
+      "published_at": "2026-07-09T19:07:56+00:00",
+      "why_it_matters": {
+        "text": "Nationals pitcher Foster Griffin, signed in December 2025 after missing MLB action since September 2022 with an 8.33 ERA, faces a trade deadline decision.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2283891672.jpg?quality=90&strip=all&crop=0%2C10.479290672637%2C100%2C79.041418654726&w=1200"
     },
     {
       "title": "MLB Issues Suspensions Related To Nationals-Red Sox Brawl",
@@ -81,20 +101,27 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-07-09T17:45:51+00:00",
       "why_it_matters": {
-        "text": "MLB adjusted suspensions for the Nationals-Red Sox brawl, reducing Contreras' to five games and Eaton's to two games.",
+        "text": "MLB reduced suspensions for Contreras and Eaton regarding the Nationals-Red Sox brawl, with both players set to begin serving their shortened penalties tonight.",
         "ai_generated": true
       },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/WillsonContreras-1024x683.jpg"
+    },
+    {
+      "title": "James Wood is lapping the field when it comes to scoring runs",
+      "url": "https://www.federalbaseball.com/washington-nationals-analysis/92529/james-wood-lapping-field-when-it-comes-to-scoring-runs",
+      "source": "Federal Baseball",
+      "published_at": "2026-07-09T13:57:41+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals are leading MLB with over 500 runs and top stats in home runs and stolen bases. James Wood is a key contributor to this offensive success.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/05/gettyimages-2276629348.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
       "title": "CJ Abrams and Luis Garcia Jr. reach 20 home run mark as the Nationals secure a series win",
       "url": "https://www.federalbaseball.com/washington-nationals-scores/92520/cj-abrams-luis-garcia-jr-reach-20-home-run-mark-nationals-secure-series-win",
       "source": "Federal Baseball",
       "published_at": "2026-07-09T02:21:39+00:00",
-      "why_it_matters": {
-        "text": "CJ Abrams and Luis Garcia Jr. hit their 20th home runs of the season while the Nationals defeated opponents comfortably, aided by strong pitching from Foster Griffin.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2285277550.jpg?quality=90&strip=all&crop=0%2C10.729814274972%2C100%2C78.540371450055&w=1200"
     },
     {
@@ -102,57 +129,13 @@
       "url": "https://www.federalbaseball.com/washington-nationals-discussions/92513/washington-nationals-vs-houston-astros-game-thread",
       "source": "Federal Baseball",
       "published_at": "2026-07-08T21:05:00+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals seek to avoid repeating losses against the Pirates after dropping Game 2, aiming for a series win and staying above .500 by relying on ace Foster Griffin.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2284586348.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "Game #94 Foster Griffin’s final All-Star audition",
-      "url": "https://www.talknats.com/2026/07/08/game-94-foster-griffins-final-all-star-audition/",
-      "source": "Talk Nats",
-      "published_at": "2026-07-08T20:57:27+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals feature pitcher Foster Griffin in their series finale against Houston. This game marks his last showcase before the All-Star break and serves as a potential final audition for an available spot.",
-        "ai_generated": true
-      },
-      "image_url": "https://www.talknats.com/wp-content/uploads/2026/04/Foster-Griffin-Quality-Start-4-21-2026-Sol-Tucker.jpeg"
-    },
-    {
-      "title": "Three college pitchers the Washington Nationals could target in the second round",
-      "url": "https://www.federalbaseball.com/mlb-draft/92505/three-college-pitchers-washington-nationals-could-target-second-round",
-      "source": "Federal Baseball",
-      "published_at": "2026-07-08T17:44:07+00:00",
-      "why_it_matters": {
-        "text": "With the draft approaching, attention focuses on the Nationals' first pick while discussing potential second and third-round targets for pitchers.",
-        "ai_generated": true
-      },
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2201095119.jpg?quality=90&strip=all&crop=0%2C31.368201730954%2C100%2C37.263596538092&w=1200"
-    },
-    {
-      "title": "Blake Butera and the Washington Nationals coaching staff are more hands on and accountable",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/92496/blake-butera-washington-nationals-coaching-staff-more-hands-on-accountable",
-      "source": "Federal Baseball",
-      "published_at": "2026-07-08T14:52:44+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2277589772.jpg?quality=90&strip=all&crop=0%2C10.741380063069%2C100%2C78.517239873862&w=1200"
-    },
-    {
-      "title": "Game #93 Nats go with the lefty Alvarez",
-      "url": "https://www.talknats.com/2026/07/07/game-93-nats-go-with-the-lefty-alvarez/",
-      "source": "Talk Nats",
-      "published_at": "2026-07-07T22:08:42+00:00",
-      "image_url": "https://www.talknats.com/wp-content/uploads/2025/09/Andrew-Alvarez-debut-9-1-2025-Sol-Tucker-B-scaled.jpg"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "win",
       "text": "Curly W! The Nats beat the Astros 8-2."
-    },
-    "storyline": {
-      "text": "MLB reduced Willson Contreras' suspension for the scrum with Nationals to five games; Red Sox first baseman will return after All-Star break.",
-      "ai_generated": true
     }
   },
   "videos": [
@@ -204,99 +187,92 @@
     "ai_generated": true,
     "themes": [
       {
-        "label": "Suspension reductions",
+        "label": "offensive strength",
         "sentiment": "positive",
         "source_urls": [
-          "https://sports.yahoo.com/mlb/article/mlb-reduces-willson-contreras-suspension-for-scrum-with-nationals-to-5-games-red-sox-1b-will-return-after-all-star-break-223030709.html",
+          "https://www.federalbaseball.com/washington-nationals-analysis/92529/james-wood-lapping-field-when-it-comes-to-scoring-runs",
+          "https://www.federalbaseball.com/washington-nationals-prospects/92548/it-is-time-for-washington-nationals-give-yohandy-morales-shot"
+        ]
+      },
+      {
+        "label": "pitcher trade deadline",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/92541/foster-griffins-intriguing-situation-with-trade-deadline-looming"
+        ]
+      },
+      {
+        "label": "brawl suspension reduction",
+        "sentiment": "mixed",
+        "source_urls": [
           "https://www.mlbtraderumors.com/2026/07/mlb-issues-suspensions-related-to-nationals-red-sox-brawl.html"
-        ]
-      },
-      {
-        "label": "Home run milestones",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-scores/92520/cj-abrams-luis-garcia-jr-reach-20-home-run-mark-nationals-secure-series-win"
-        ]
-      },
-      {
-        "label": "Pitching performance focus",
-        "sentiment": "",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-discussions/92513/washington-nationals-vs-houston-astros-game-thread",
-          "https://www.talknats.com/2026/07/08/game-94-foster-griffins-final-all-star-audition/"
         ]
       }
     ]
   },
   "trending": [
     {
-      "label": "Suspension",
+      "label": "Yankees",
       "sentiment": "",
-      "context": "MLB reduces Willson Contreras&#39; suspension for scrum with Nationals to 5 games; Red Sox 1B will return after All-Star break",
+      "context": "New York Yankees vs. Washington Nationals: Series Preview",
       "source_urls": [
-        "https://sports.yahoo.com/mlb/article/mlb-reduces-willson-contreras-suspension-for-scrum-with-nationals-to-5-games-red-sox-1b-will-return-after-all-star-break-223030709.html",
+        "https://sports.yahoo.com/articles/york-yankees-vs-washington-nationals-123000812.html"
+      ]
+    },
+    {
+      "label": "Series Preview",
+      "sentiment": "",
+      "context": "New York Yankees vs. Washington Nationals: Series Preview",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/york-yankees-vs-washington-nationals-123000812.html"
+      ]
+    },
+    {
+      "label": "Weekend",
+      "sentiment": "",
+      "context": "New York Yankees vs. Washington Nationals: Series Preview",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/york-yankees-vs-washington-nationals-123000812.html"
+      ]
+    },
+    {
+      "label": "trade deadline",
+      "sentiment": "",
+      "context": "Foster Griffin’s intriguing situation with trade deadline looming",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/92541/foster-griffins-intriguing-situation-with-trade-deadline-looming"
+      ]
+    },
+    {
+      "label": "pitcher",
+      "sentiment": "",
+      "context": "Foster Griffin’s intriguing situation with trade deadline looming",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/92541/foster-griffins-intriguing-situation-with-trade-deadline-looming"
+      ]
+    },
+    {
+      "label": "reclamation project",
+      "sentiment": "",
+      "context": "Foster Griffin’s intriguing situation with trade deadline looming",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/92541/foster-griffins-intriguing-situation-with-trade-deadline-looming"
+      ]
+    },
+    {
+      "label": "National",
+      "sentiment": "",
+      "context": "Foster Griffin’s intriguing situation with trade deadline looming",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/92541/foster-griffins-intriguing-situation-with-trade-deadline-looming"
+      ]
+    },
+    {
+      "label": "suspension",
+      "sentiment": "",
+      "context": "MLB Issues Suspensions Related To Nationals-Red Sox Brawl",
+      "source_urls": [
         "https://www.mlbtraderumors.com/2026/07/mlb-issues-suspensions-related-to-nationals-red-sox-brawl.html"
-      ]
-    },
-    {
-      "label": "Red Sox",
-      "sentiment": "",
-      "context": "MLB reduces Willson Contreras&#39; suspension for scrum with Nationals to 5 games; Red Sox 1B will return after All-Star break",
-      "source_urls": [
-        "https://sports.yahoo.com/mlb/article/mlb-reduces-willson-contreras-suspension-for-scrum-with-nationals-to-5-games-red-sox-1b-will-return-after-all-star-break-223030709.html",
-        "https://www.mlbtraderumors.com/2026/07/mlb-issues-suspensions-related-to-nationals-red-sox-brawl.html"
-      ]
-    },
-    {
-      "label": "All-Star Break",
-      "sentiment": "",
-      "context": "MLB reduces Willson Contreras&#39; suspension for scrum with Nationals to 5 games; Red Sox 1B will return after All-Star break",
-      "source_urls": [
-        "https://sports.yahoo.com/mlb/article/mlb-reduces-willson-contreras-suspension-for-scrum-with-nationals-to-5-games-red-sox-1b-will-return-after-all-star-break-223030709.html",
-        "https://www.talknats.com/2026/07/08/game-94-foster-griffins-final-all-star-audition/"
-      ]
-    },
-    {
-      "label": "pitching",
-      "sentiment": "",
-      "context": "CJ Abrams and Luis Garcia Jr. reach 20 home run mark as the Nationals secure a series win",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-scores/92520/cj-abrams-luis-garcia-jr-reach-20-home-run-mark-nationals-secure-series-win",
-        "https://www.talknats.com/2026/07/08/game-94-foster-griffins-final-all-star-audition/"
-      ]
-    },
-    {
-      "label": "series win",
-      "sentiment": "",
-      "context": "CJ Abrams and Luis Garcia Jr. reach 20 home run mark as the Nationals secure a series win",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-discussions/92513/washington-nationals-vs-houston-astros-game-thread",
-        "https://www.federalbaseball.com/washington-nationals-scores/92520/cj-abrams-luis-garcia-jr-reach-20-home-run-mark-nationals-secure-series-win"
-      ]
-    },
-    {
-      "label": "home runs",
-      "sentiment": "",
-      "context": "CJ Abrams and Luis Garcia Jr. reach 20 home run mark as the Nationals secure a series win",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-scores/92520/cj-abrams-luis-garcia-jr-reach-20-home-run-mark-nationals-secure-series-win"
-      ]
-    },
-    {
-      "label": "Houston Astros",
-      "sentiment": "",
-      "context": "Washington Nationals vs Houston Astros Game Thread",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-discussions/92513/washington-nationals-vs-houston-astros-game-thread",
-        "https://www.talknats.com/2026/07/08/game-94-foster-griffins-final-all-star-audition/"
-      ]
-    },
-    {
-      "label": ".500 record",
-      "sentiment": "",
-      "context": "Washington Nationals vs Houston Astros Game Thread",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-discussions/92513/washington-nationals-vs-houston-astros-game-thread"
       ]
     }
   ],
