@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-07-11T00:13:38+00:00",
+  "fetched_at": "2026-07-11T02:34:45+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
       "game_pk": 822709,
       "date": "2026-07-10",
       "start_time_utc": "2026-07-10T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Delayed Start",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -15,7 +15,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "48-46",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 147,
@@ -23,7 +23,7 @@
         "name": "New York Yankees",
         "short_name": "Yankees",
         "record": "51-42",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 3309,
@@ -111,19 +111,19 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 6,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "outs": 1,
+        "home_runs": 1,
+        "away_runs": 2,
+        "home_hits": 6,
+        "away_hits": 7,
         "home_errors": 0,
-        "away_errors": 0
+        "away_errors": 2
       },
       "series": {
         "game_number": 1,
@@ -367,7 +367,7 @@
         "abbrev": "ATH",
         "name": "Athletics",
         "short_name": "Athletics",
-        "record": "41-52",
+        "record": "41-53",
         "score": null
       },
       "away": {
@@ -481,7 +481,7 @@
         "abbrev": "ATH",
         "name": "Athletics",
         "short_name": "Athletics",
-        "record": "41-52",
+        "record": "41-53",
         "score": null
       },
       "away": {
@@ -595,7 +595,7 @@
         "abbrev": "ATH",
         "name": "Athletics",
         "short_name": "Athletics",
-        "record": "41-52",
+        "record": "41-53",
         "score": null
       },
       "away": {
