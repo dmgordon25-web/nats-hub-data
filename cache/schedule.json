@@ -1,29 +1,29 @@
 {
-  "fetched_at": "2026-07-11T02:34:45+00:00",
+  "fetched_at": "2026-07-11T05:27:52+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
       "game_pk": 822709,
       "date": "2026-07-10",
       "start_time_utc": "2026-07-10T22:45:00Z",
-      "status": "Live",
-      "detailed_status": "In Progress",
+      "status": "Final",
+      "detailed_status": "Final",
       "is_nats_home": true,
       "home": {
         "id": 120,
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-46",
-        "score": 1
+        "record": "48-47",
+        "score": 3
       },
       "away": {
         "id": 147,
         "abbrev": "NYY",
         "name": "New York Yankees",
         "short_name": "Yankees",
-        "record": "51-42",
-        "score": 2
+        "record": "52-42",
+        "score": 5
       },
       "venue": {
         "id": 3309,
@@ -53,7 +53,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "Nationals.TV",
@@ -62,7 +62,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -71,7 +71,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WFAN 660/101.9 FM",
@@ -80,7 +80,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WADO 1280",
@@ -89,7 +89,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "Fox 5 WTTG",
@@ -111,19 +111,19 @@
         }
       ],
       "linescore": {
-        "current_inning": 6,
+        "current_inning": 9,
         "inning_half": "Bottom",
         "inning_state": "Bottom",
         "is_top_inning": false,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 1,
-        "home_runs": 1,
-        "away_runs": 2,
-        "home_hits": 6,
-        "away_hits": 7,
+        "balls": 2,
+        "strikes": 1,
+        "outs": 3,
+        "home_runs": 3,
+        "away_runs": 5,
+        "home_hits": 8,
+        "away_hits": 13,
         "home_errors": 0,
-        "away_errors": 2
+        "away_errors": 3
       },
       "series": {
         "game_number": 1,
@@ -145,7 +145,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-46",
+        "record": "48-47",
         "score": null
       },
       "away": {
@@ -153,7 +153,7 @@
         "abbrev": "NYY",
         "name": "New York Yankees",
         "short_name": "Yankees",
-        "record": "51-42",
+        "record": "52-42",
         "score": null
       },
       "venue": {
@@ -258,7 +258,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-46",
+        "record": "48-47",
         "score": null
       },
       "away": {
@@ -266,7 +266,7 @@
         "abbrev": "NYY",
         "name": "New York Yankees",
         "short_name": "Yankees",
-        "record": "51-42",
+        "record": "52-42",
         "score": null
       },
       "venue": {
@@ -375,7 +375,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-46",
+        "record": "48-47",
         "score": null
       },
       "venue": {
@@ -489,7 +489,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-46",
+        "record": "48-47",
         "score": null
       },
       "venue": {
@@ -603,7 +603,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-46",
+        "record": "48-47",
         "score": null
       },
       "venue": {
@@ -717,7 +717,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-46",
+        "record": "48-47",
         "score": null
       },
       "venue": {
@@ -822,7 +822,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-46",
+        "record": "48-47",
         "score": null
       },
       "venue": {
@@ -927,7 +927,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-46",
+        "record": "48-47",
         "score": null
       },
       "venue": {
@@ -1024,7 +1024,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-46",
+        "record": "48-47",
         "score": null
       },
       "away": {
@@ -1032,7 +1032,7 @@
         "abbrev": "AZ",
         "name": "Arizona Diamondbacks",
         "short_name": "D-backs",
-        "record": "46-47",
+        "record": "47-47",
         "score": null
       },
       "venue": {
@@ -1147,7 +1147,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-46",
+        "record": "48-47",
         "score": null
       },
       "away": {
@@ -1155,7 +1155,7 @@
         "abbrev": "AZ",
         "name": "Arizona Diamondbacks",
         "short_name": "D-backs",
-        "record": "46-47",
+        "record": "47-47",
         "score": null
       },
       "venue": {
