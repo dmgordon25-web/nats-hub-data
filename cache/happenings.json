@@ -1,74 +1,107 @@
 {
   "data_version": 1,
-  "generated_at": "2026-07-10T21:40:18+00:00",
+  "generated_at": "2026-07-11T00:10:28+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-07-10T21:39:45+00:00",
-    "videos": "2026-07-10T21:39:45+00:00",
-    "vibes": "2026-07-10T21:40:18+00:00"
+    "news": "2026-07-11T00:10:04+00:00",
+    "videos": "2026-07-11T00:10:04+00:00",
+    "vibes": "2026-07-11T00:10:28+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-07-10T21:39:40+00:00",
+      "last_updated_at": "2026-07-11T00:09:56+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-07-10T21:39:43+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-07-10T21:39:43+00:00",
+      "last_updated_at": "2026-07-11T00:10:02+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-07-10T21:39:44+00:00",
+      "last_updated_at": "2026-07-11T00:10:02+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-07-10T21:39:44+00:00",
+      "last_updated_at": "2026-07-11T00:10:02+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-07-10T21:39:44+00:00",
+      "last_updated_at": "2026-07-11T00:10:03+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-07-10T21:39:45+00:00",
+      "last_updated_at": "2026-07-11T00:10:04+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-07-10T21:39:45+00:00",
+      "last_updated_at": "2026-07-11T00:10:04+00:00",
       "status": "live"
     }
   ],
   "limited_sources": [],
   "top_stories": [
     {
+      "title": "Yankees, Nationals in rain delay on Friday night",
+      "url": "https://sports.yahoo.com/articles/yankees-nationals-rain-delay-friday-225318656.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-07-10T22:53:18+00:00",
+      "why_it_matters": {
+        "text": "A rain delay has postponed the game between the Yankees and Nationals scheduled for Friday night due to uncooperative weather conditions.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/AHsYU6lk4oF6Q0Kvs6GIaw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/7c07d56ae5b3a39caa2810c45b8ec1dd"
+    },
+    {
+      "title": "New York Yankees @ Washington Nationals: Ryan Weathers vs. Carson Palmquist",
+      "url": "https://sports.yahoo.com/articles/york-yankees-washington-nationals-ryan-221500678.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-07-10T22:15:00+00:00",
+      "why_it_matters": {
+        "text": "The young Washington Nationals face off against the New York Yankees for a second half game.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/KBdo6WvQnD9DcNdqbR9tgA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/581e62fdd6ed321f87afa1cebf1f859d"
+    },
+    {
+      "title": "Washington Nationals vs New York Yankees Game Thread",
+      "url": "https://www.federalbaseball.com/washington-nationals-discussions/92570/washington-nationals-vs-new-york-yankees-game-thread",
+      "source": "Federal Baseball",
+      "published_at": "2026-07-10T20:33:04+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals aim for a strong finish after a successful first half, facing the New York Yankees who are struggling but possess a powerful lineup.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2284975582.jpg?quality=90&strip=all&crop=0%2C10.472765501233%2C100%2C79.054468997533&w=1200"
+    },
+    {
       "title": "Nationals Select Tom Cosgrove",
       "url": "https://www.mlbtraderumors.com/2026/07/nationals-to-select-tom-cosgrove.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-07-10T18:35:35+00:00",
       "why_it_matters": {
-        "text": "The Nationals officially selected Tom Cosgrove. Right-hander Jake Irvin was moved to the 60-day injured list retroactive to May 24 due to a shoulder strain, opening a spot on the 40-man roster.",
+        "text": "The Nationals have officially selected Tom Cosgrove. Right-hander Jake Irvin was moved to the 60-day injured list due to a shoulder strain sustained on May 24, creating an open spot.",
         "ai_generated": true
       },
-      "image_url": null
+      "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/USATSI_28305248-1024x683.jpg"
     },
     {
       "title": "The Yankees Come To DC As The Nats Look To End The First Half On A High Note",
@@ -76,7 +109,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-07-10T18:33:36+00:00",
       "why_it_matters": {
-        "text": "The Nationals aim to end their first half strongly with a series win against the Yankees. They performed well Wednesday night against the Astros, highlighted by home runs from Luis Garcia Jr. and CJ Abrams.",
+        "text": "The Nationals aim to end their first half strongly against the Yankees. They previously beat the Astros with home runs from Garcia Jr., Abrams, and strong pitching from Griffin.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2285277610.jpg?quality=90&strip=all&crop=0%2C10.729635865147%2C100%2C78.540728269707&w=1200"
@@ -97,10 +130,6 @@
       "url": "https://www.federalbaseball.com/washington-nationals-prospects/92548/it-is-time-for-washington-nationals-give-yohandy-morales-shot",
       "source": "Federal Baseball",
       "published_at": "2026-07-10T12:55:24+00:00",
-      "why_it_matters": {
-        "text": "Yohandy Morales is having a monster year at AAA for the Washington Nationals with a .303 average and 21 homers. The article suggests it is time for him to get called up.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/03/gettyimages-2107850821.jpg?quality=90&strip=all&crop=0%2C10.729676482924%2C100%2C78.540647034151&w=1200"
     },
     {
@@ -108,45 +137,16 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/92541/foster-griffins-intriguing-situation-with-trade-deadline-looming",
       "source": "Federal Baseball",
       "published_at": "2026-07-09T19:07:56+00:00",
-      "why_it_matters": {
-        "text": "Nationals pitcher Foster Griffin, signed in December 2025 as a low-upside project after not pitching since September 2022 with an 8.33 ERA for Kansas City and Toronto.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2283891672.jpg?quality=90&strip=all&crop=0%2C10.479290672637%2C100%2C79.041418654726&w=1200"
-    },
-    {
-      "title": "MLB Issues Suspensions Related To Nationals-Red Sox Brawl",
-      "url": "https://www.mlbtraderumors.com/2026/07/mlb-issues-suspensions-related-to-nationals-red-sox-brawl.html",
-      "source": "MLB Trade Rumors",
-      "published_at": "2026-07-09T17:45:51+00:00",
-      "why_it_matters": {
-        "text": "MLB reduced suspensions for Contreras and Eaton regarding the Nationals-Red Sox brawl, with both players set to begin serving their shortened penalties tonight.",
-        "ai_generated": true
-      },
-      "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/WillsonContreras-1024x683.jpg"
-    },
-    {
-      "title": "James Wood is lapping the field when it comes to scoring runs",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/92529/james-wood-lapping-field-when-it-comes-to-scoring-runs",
-      "source": "Federal Baseball",
-      "published_at": "2026-07-09T13:57:41+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/05/gettyimages-2276629348.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "CJ Abrams and Luis Garcia Jr. reach 20 home run mark as the Nationals secure a series win",
-      "url": "https://www.federalbaseball.com/washington-nationals-scores/92520/cj-abrams-luis-garcia-jr-reach-20-home-run-mark-nationals-secure-series-win",
-      "source": "Federal Baseball",
-      "published_at": "2026-07-09T02:21:39+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2285277550.jpg?quality=90&strip=all&crop=0%2C10.729814274972%2C100%2C78.540371450055&w=1200"
     }
   ],
   "team_pulse": {
     "result_banner": {
-      "type": "win",
-      "text": "Curly W! The Nats beat the Astros 8-2."
+      "type": "none",
+      "text": ""
     },
     "storyline": {
-      "text": "The Nationals officially selected Tom Cosgrove. Right-hander Jake Irvin was moved to the 60-day injured list retroactive to May 24 due to a shoulder strain, opening a spot on the 40-man roster.",
+      "text": "A rain delay has postponed the game between the Yankees and Nationals scheduled for Friday night due to uncooperative weather conditions.",
       "ai_generated": true
     }
   },
@@ -188,11 +188,11 @@
     }
   ],
   "fan_vibes": {
-    "overall": "positive",
+    "overall": "mixed",
     "ai_generated": true,
     "themes": [
       {
-        "label": "Strong Player Performance",
+        "label": "Player Performance",
         "sentiment": "positive",
         "source_urls": [
           "https://www.federalbaseball.com/washington-nationals-analysis/92559/luis-garcia-jr-gift-that-keeps-on-giving-for-washington-nationals",
@@ -200,23 +200,26 @@
         ]
       },
       {
-        "label": "Roster Moves and Depth",
-        "sentiment": "mixed",
+        "label": "Roster Moves",
+        "sentiment": "",
         "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-prospects/92548/it-is-time-for-washington-nationals-give-yohandy-morales-shot",
           "https://www.mlbtraderumors.com/2026/07/nationals-to-select-tom-cosgrove.html"
-        ]
-      },
-      {
-        "label": "Pitching Project Uncertainty",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/92541/foster-griffins-intriguing-situation-with-trade-deadline-looming"
         ]
       }
     ]
   },
   "trending": [
+    {
+      "label": "Yankees",
+      "sentiment": "",
+      "context": "Yankees, Nationals in rain delay on Friday night",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/yankees-nationals-rain-delay-friday-225318656.html",
+        "https://sports.yahoo.com/articles/york-yankees-washington-nationals-ryan-221500678.html",
+        "https://www.federalbaseball.com/washington-nationals-discussions/92570/washington-nationals-vs-new-york-yankees-game-thread",
+        "https://www.federalbaseball.com/washington-nationals-game-information/92567/the-yankees-come-to-dc-as-the-nats-look-to-end-the-first-half-on-a-high-note"
+      ]
+    },
     {
       "label": "Home Runs",
       "sentiment": "",
@@ -227,59 +230,51 @@
       ]
     },
     {
-      "label": "roster moves",
+      "label": "Rain Delay",
       "sentiment": "",
-      "context": "Nationals Select Tom Cosgrove",
+      "context": "Yankees, Nationals in rain delay on Friday night",
       "source_urls": [
-        "https://www.mlbtraderumors.com/2026/07/nationals-to-select-tom-cosgrove.html"
+        "https://sports.yahoo.com/articles/yankees-nationals-rain-delay-friday-225318656.html"
       ]
     },
     {
-      "label": "injury report",
+      "label": "Weather",
       "sentiment": "",
-      "context": "Nationals Select Tom Cosgrove",
+      "context": "Yankees, Nationals in rain delay on Friday night",
       "source_urls": [
-        "https://www.mlbtraderumors.com/2026/07/nationals-to-select-tom-cosgrove.html"
+        "https://sports.yahoo.com/articles/yankees-nationals-rain-delay-friday-225318656.html"
       ]
     },
     {
-      "label": "transactions",
+      "label": "Youthful Team",
       "sentiment": "",
-      "context": "Nationals Select Tom Cosgrove",
+      "context": "New York Yankees @ Washington Nationals: Ryan Weathers vs. Carson Palmquist",
       "source_urls": [
-        "https://www.mlbtraderumors.com/2026/07/nationals-to-select-tom-cosgrove.html"
+        "https://sports.yahoo.com/articles/york-yankees-washington-nationals-ryan-221500678.html"
       ]
     },
     {
-      "label": "Yankees",
+      "label": "playoffs",
       "sentiment": "",
-      "context": "The Yankees Come To DC As The Nats Look To End The First Half On A High Note",
+      "context": "Washington Nationals vs New York Yankees Game Thread",
       "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-game-information/92567/the-yankees-come-to-dc-as-the-nats-look-to-end-the-first-half-on-a-high-note"
+        "https://www.federalbaseball.com/washington-nationals-discussions/92570/washington-nationals-vs-new-york-yankees-game-thread"
       ]
     },
     {
-      "label": "Series Win",
+      "label": "Rays",
       "sentiment": "",
-      "context": "The Yankees Come To DC As The Nats Look To End The First Half On A High Note",
+      "context": "Washington Nationals vs New York Yankees Game Thread",
       "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-game-information/92567/the-yankees-come-to-dc-as-the-nats-look-to-end-the-first-half-on-a-high-note"
+        "https://www.federalbaseball.com/washington-nationals-discussions/92570/washington-nationals-vs-new-york-yankees-game-thread"
       ]
     },
     {
-      "label": "First Half",
+      "label": "lineup",
       "sentiment": "",
-      "context": "The Yankees Come To DC As The Nats Look To End The First Half On A High Note",
+      "context": "Washington Nationals vs New York Yankees Game Thread",
       "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-game-information/92567/the-yankees-come-to-dc-as-the-nats-look-to-end-the-first-half-on-a-high-note"
-      ]
-    },
-    {
-      "label": "July Performance",
-      "sentiment": "",
-      "context": "Luis Garcia Jr. is the gift that keeps on giving for the Washington Nationals",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/92559/luis-garcia-jr-gift-that-keeps-on-giving-for-washington-nationals"
+        "https://www.federalbaseball.com/washington-nationals-discussions/92570/washington-nationals-vs-new-york-yankees-game-thread"
       ]
     }
   ],
@@ -299,9 +294,9 @@
   ],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "Dylan Crews",
-    "text": "The No. 2 overall pick in the 2023 MLB Draft out of LSU, headlining the next wave of Nationals talent.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/686611/spots/120",
+    "name": "CJ Abrams",
+    "text": "The Nationals' dynamic young shortstop, acquired in the 2022 Juan Soto trade and now a cornerstone of the rebuild.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/682928/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
