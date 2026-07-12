@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-12T14:41:23+00:00",
+  "fetched_at": "2026-07-12T15:43:28+00:00",
   "freshness": {
-    "schedule": "2026-07-12T14:41:22+00:00",
-    "standings": "2026-07-12T14:41:22+00:00",
+    "schedule": "2026-07-12T15:43:26+00:00",
+    "standings": "2026-07-12T15:43:27+00:00",
     "injuries": "2026-07-12T00:09:14+00:00",
     "former_nats": "2026-07-12T14:36:59+00:00",
-    "weather": "2026-07-12T14:41:23+00:00"
+    "weather": "2026-07-12T15:43:28+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -16,7 +16,7 @@
     "date": "2026-07-12",
     "start_time_utc": "2026-07-12T17:35:00Z",
     "status": "Preview",
-    "detailed_status": "Scheduled",
+    "detailed_status": "Pre-Game",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "48-48",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 147,
@@ -32,7 +32,7 @@
       "name": "New York Yankees",
       "short_name": "Yankees",
       "record": "53-42",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 3309,
@@ -102,19 +102,19 @@
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
       "game_number": 3,
@@ -136,16 +136,16 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-12T14:41:23+00:00",
+    "fetched_at": "2026-07-12T15:43:28+00:00",
     "source": "open_meteo",
     "game_pk": 822708,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-07-12T18:00",
-    "temperature_f": 80.3,
-    "feels_like_f": 84.6,
-    "wind_mph": 8.6,
-    "wind_dir": "E",
-    "precip_chance": 9,
+    "temperature_f": 81.5,
+    "feels_like_f": 85.4,
+    "wind_mph": 9.7,
+    "wind_dir": "ENE",
+    "precip_chance": 12,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -162,7 +162,7 @@
       "date": "2026-07-12",
       "start_time_utc": "2026-07-12T17:35:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -170,7 +170,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "48-48",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 147,
@@ -178,7 +178,7 @@
         "name": "New York Yankees",
         "short_name": "Yankees",
         "record": "53-42",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -248,19 +248,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 3,
@@ -928,7 +928,7 @@
       "date": "2026-07-12",
       "start_time_utc": "2026-07-12T17:35:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -936,7 +936,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "48-48",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 147,
@@ -944,7 +944,7 @@
         "name": "New York Yankees",
         "short_name": "Yankees",
         "record": "53-42",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -1014,19 +1014,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 3,
