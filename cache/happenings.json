@@ -1,17 +1,17 @@
 {
   "data_version": 1,
-  "generated_at": "2026-07-14T15:09:55+00:00",
-  "mode": "rss_fallback",
+  "generated_at": "2026-07-14T16:40:56+00:00",
+  "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-07-14T15:09:53+00:00",
-    "videos": "2026-07-14T15:09:53+00:00",
-    "vibes": null
+    "news": "2026-07-14T16:40:22+00:00",
+    "videos": "2026-07-14T16:40:22+00:00",
+    "vibes": "2026-07-14T16:40:56+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-07-14T15:09:46+00:00",
+      "last_updated_at": "2026-07-14T16:40:14+00:00",
       "status": "live"
     },
     {
@@ -23,60 +23,51 @@
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-07-14T15:09:52+00:00",
+      "last_updated_at": "2026-07-14T16:40:20+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-07-14T16:40:21+00:00",
+      "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-07-14T15:09:52+00:00",
+      "last_updated_at": "2026-07-14T16:40:21+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-07-14T15:09:53+00:00",
+      "last_updated_at": "2026-07-14T16:40:22+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-07-14T15:09:53+00:00",
+      "last_updated_at": "2026-07-14T16:40:22+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-07-14T15:09:53+00:00",
+      "last_updated_at": "2026-07-14T16:40:22+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "why_it_matters",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "trending",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "Washington Nationals superstar James Wood has been a baseball god so far in July",
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/92672/washington-nationals-superstar-james-wood-been-baseball-god-in-july",
       "source": "Federal Baseball",
       "published_at": "2026-07-14T13:58:28+00:00",
+      "why_it_matters": {
+        "text": "Washington Nationals player James Wood has achieved exceptional hitting statistics in July, performing at an elite level leading up to the All-Star Break following a slower month of June.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2285261611.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -84,6 +75,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-prospects/92654/washington-nationals-2026-draft-class-summary",
       "source": "Federal Baseball",
       "published_at": "2026-07-13T15:05:59+00:00",
+      "why_it_matters": {
+        "text": "Paul Toboni and the Washington Nationals front office have completed their first draft class, which is noted for its accumulation of both talent and depth.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/e607b40f3f9cd7fb5595f684407b5bb7.webp?quality=90&strip=all&crop=0,10.76363770124,100,78.472724597521"
     },
     {
@@ -91,6 +86,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/92661/washington-nationals-had-good-first-half-could-have-been-much-better",
       "source": "Federal Baseball",
       "published_at": "2026-07-13T15:04:54+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals had a successful first half of the season with several standout performers in the lineup and rotation, despite finishing 48-49 at the All-Star break.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2285690726.jpg?quality=90&strip=all&crop=0%2C10.739720785852%2C100%2C78.520558428295&w=1200"
     },
     {
@@ -98,6 +97,10 @@
       "url": "https://www.mlbtraderumors.com/2026/07/nationals-outright-robert-hassell-iii.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-07-12T18:14:37+00:00",
+      "why_it_matters": {
+        "text": "The Nationals have assigned outfielder Robert Hassell III to Triple-A Rochester after he cleared waivers. Because he has less than a year of big league service time and no prior outright assignments, he must accept the assignment.",
+        "ai_generated": true
+      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/robert-hassell-iii-nationals-2026-1024x683.jpg"
     },
     {
@@ -105,6 +108,10 @@
       "url": "https://www.federalbaseball.com/mlb-draft/92589/washington-nationals-mlb-draft-tracker-and-thread",
       "source": "Federal Baseball",
       "published_at": "2026-07-12T16:56:46+00:00",
+      "why_it_matters": {
+        "text": "The MLB Draft is underway, with the Washington Nationals' new regime and Paul Toboni making their first selections today. The team holds the 11th, 42nd, 78th, and 106th picks today, with remaining picks occurring tomorrow.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-1219234902.jpg?quality=90&strip=all&crop=0%2C10.725626786035%2C100%2C78.54874642793&w=1200"
     },
     {
@@ -112,6 +119,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-discussions/92642/washington-nationals-vs-new-york-yankees-game-thread",
       "source": "Federal Baseball",
       "published_at": "2026-07-12T16:03:29+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals face the New York Yankees in an attempt to avoid being swept after consecutive bullpen meltdowns. The team aims to stay above .500 before the All-Star Break, featuring a pitching matchup that appears favorable for the Nats.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2285678976.jpg?quality=90&strip=all&crop=0%2C10.730540947061%2C100%2C78.538918105879&w=1200"
     },
     {
@@ -133,6 +144,10 @@
     "result_banner": {
       "type": "loss",
       "text": "Tough one — the Nats fell to the Yankees 5-3."
+    },
+    "storyline": {
+      "text": "Washington Nationals player James Wood has achieved exceptional hitting statistics in July, performing at an elite level leading up to the All-Star Break following a slower month of June.",
+      "ai_generated": true
     }
   },
   "videos": [
@@ -180,11 +195,100 @@
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "positive",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "James Wood Performance",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/92672/washington-nationals-superstar-james-wood-been-baseball-god-in-july"
+        ]
+      },
+      {
+        "label": "Draft Class Success",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.federalbaseball.com/mlb-draft/92589/washington-nationals-mlb-draft-tracker-and-thread",
+          "https://www.federalbaseball.com/washington-nationals-prospects/92654/washington-nationals-2026-draft-class-summary"
+        ]
+      },
+      {
+        "label": "First Half Performance",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/92661/washington-nationals-had-good-first-half-could-have-been-much-better"
+        ]
+      },
+      {
+        "label": "Roster Management",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-discussions/92642/washington-nationals-vs-new-york-yankees-game-thread",
+          "https://www.mlbtraderumors.com/2026/07/nationals-outright-robert-hassell-iii.html"
+        ]
+      }
+    ]
   },
-  "trending": [],
+  "trending": [
+    {
+      "label": "James Wood",
+      "sentiment": "",
+      "context": "Washington Nationals superstar James Wood has been a baseball god so far in July",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/92672/washington-nationals-superstar-james-wood-been-baseball-god-in-july"
+      ]
+    },
+    {
+      "label": "Draft Class",
+      "sentiment": "",
+      "context": "Washington Nationals 2026 Draft Class Summary",
+      "source_urls": [
+        "https://www.federalbaseball.com/mlb-draft/92589/washington-nationals-mlb-draft-tracker-and-thread",
+        "https://www.federalbaseball.com/washington-nationals-prospects/92654/washington-nationals-2026-draft-class-summary"
+      ]
+    },
+    {
+      "label": "All-Star break",
+      "sentiment": "",
+      "context": "The Washington Nationals had a good first half but it could have been so much better",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/92661/washington-nationals-had-good-first-half-could-have-been-much-better"
+      ]
+    },
+    {
+      "label": "Robert Hassell III",
+      "sentiment": "",
+      "context": "Nationals Outright Robert Hassell III",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/07/nationals-outright-robert-hassell-iii.html"
+      ]
+    },
+    {
+      "label": "Triple-A",
+      "sentiment": "",
+      "context": "Nationals Outright Robert Hassell III",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/07/nationals-outright-robert-hassell-iii.html"
+      ]
+    },
+    {
+      "label": "Rochester",
+      "sentiment": "",
+      "context": "Nationals Outright Robert Hassell III",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/07/nationals-outright-robert-hassell-iii.html"
+      ]
+    },
+    {
+      "label": "New York Yankees",
+      "sentiment": "",
+      "context": "Washington Nationals vs New York Yankees Game Thread",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-discussions/92642/washington-nationals-vs-new-york-yankees-game-thread"
+      ]
+    }
+  ],
   "what_to_watch": [
     {
       "text": "The Nats visit the Athletics on Friday.",
