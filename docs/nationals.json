@@ -1,16 +1,14 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-13T23:16:06+00:00",
+  "fetched_at": "2026-07-14T00:05:44+00:00",
   "freshness": {
-    "schedule": "2026-07-13T23:16:05+00:00",
-    "standings": "2026-07-13T23:16:05+00:00",
-    "injuries": "2026-07-12T00:09:14+00:00",
-    "former_nats": "2026-07-13T19:51:33+00:00",
-    "weather": "2026-07-13T23:16:05+00:00"
+    "schedule": "2026-07-14T00:05:43+00:00",
+    "standings": "2026-07-14T00:05:44+00:00",
+    "injuries": "2026-07-14T00:05:39+00:00",
+    "former_nats": "2026-07-14T00:05:43+00:00",
+    "weather": "2026-07-14T00:05:44+00:00"
   },
-  "stale_sources": [
-    "injuries"
-  ],
+  "stale_sources": [],
   "focus_game": {
     "game_pk": 824981,
     "date": "2026-07-17",
@@ -137,14 +135,14 @@
     "watch_label": "Next Game"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-13T23:16:05+00:00",
+    "fetched_at": "2026-07-14T00:05:44+00:00",
     "source": "open_meteo",
     "game_pk": 824981,
     "venue_name": "Sutter Health Park",
-    "forecast_at": "2026-07-15T23:00",
-    "temperature_f": 104.9,
-    "feels_like_f": 101.2,
-    "wind_mph": 10.7,
+    "forecast_at": "2026-07-16T23:00",
+    "temperature_f": 98.1,
+    "feels_like_f": 91.6,
+    "wind_mph": 14.5,
     "wind_dir": "SSW",
     "precip_chance": 0,
     "precip_inches": 0.0,
@@ -152,10 +150,10 @@
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "nostalgia_2018_soto_debut",
-    "category": "nostalgia",
-    "weight": 6,
-    "text": "Juan Soto made his MLB debut at age 19 in May 2018. He homered in his first start. The youngest Nat to ever go deep."
+    "id": "did_you_know_doolittle_mvp",
+    "category": "did_you_know",
+    "weight": 3,
+    "text": "Sean Doolittle was a key piece of the 2019 bullpen. He retired with eternal goodwill in DC."
   },
   "next_three": [
     {
@@ -659,130 +657,6 @@
     "watch_label": "Game Final"
   },
   "all_games": [
-    {
-      "game_pk": 822711,
-      "date": "2026-07-11",
-      "start_time_utc": "2026-07-11T20:05:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "48-48",
-        "score": 2
-      },
-      "away": {
-        "id": 147,
-        "abbrev": "NYY",
-        "name": "New York Yankees",
-        "short_name": "Yankees",
-        "record": "53-42",
-        "score": 4
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 676571,
-          "name": "PJ Poulin",
-          "hand": null
-        },
-        "away": {
-          "id": 693645,
-          "name": "Cam Schlittler",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "YES",
-          "call_sign": "YES",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WFAN 660/101.9 FM",
-          "call_sign": "WFAN",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WADO 1280",
-          "call_sign": "WADO",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 1,
-        "strikes": 1,
-        "outs": 3,
-        "home_runs": 2,
-        "away_runs": 4,
-        "home_hits": 7,
-        "away_hits": 9,
-        "home_errors": 1,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 2,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
     {
       "game_pk": 822708,
       "date": "2026-07-12",
@@ -2111,6 +1985,113 @@
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
       "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 822703,
+      "date": "2026-07-28",
+      "start_time_utc": "2026-07-28T22:45:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": true,
+      "home": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "48-49",
+        "score": null
+      },
+      "away": {
+        "id": 141,
+        "abbrev": "TOR",
+        "name": "Toronto Blue Jays",
+        "short_name": "Blue Jays",
+        "record": "45-51",
+        "score": null
+      },
+      "venue": {
+        "id": 3309,
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.872861,
+        "lon": -77.007501
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "Sportsnet",
+          "call_sign": "Sportsnet",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "SN590 THE FAN",
+          "call_sign": "SN590",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 2,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
     }
   ],
   "standings": {
@@ -2886,6 +2867,54 @@
   },
   "notable_injuries": [
     {
+      "athlete_id": 39856,
+      "athlete_name": "Richard Lovelady",
+      "short_name": "R. Lovelady",
+      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/39856.png",
+      "position": "RP",
+      "status_code": "INJURY_STATUS_15DAYIL",
+      "status_label": "15-day IL",
+      "status_abbrev": "IL15",
+      "date": "Jul 13",
+      "description": "Lovelady (triceps) began a throwing program shortly after landing on the injured list June 29 and had thrown off flat ground out to 60 feet as recently as July 3, MLB.com reports."
+    },
+    {
+      "athlete_id": 33305,
+      "athlete_name": "Trevor Williams",
+      "short_name": "T. Williams",
+      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/33305.png",
+      "position": "SP",
+      "status_code": "INJURY_STATUS_60DAYIL",
+      "status_label": "60-day IL",
+      "status_abbrev": "IL60",
+      "date": "Jul 13",
+      "description": "Williams (elbow) struck out two and allowed two hits and no walks over 2.2 scoreless innings Wednesday in a rehab start at Triple-A Rochester."
+    },
+    {
+      "athlete_id": 41290,
+      "athlete_name": "Jake Irvin",
+      "short_name": "J. Irvin",
+      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/41290.png",
+      "position": "SP",
+      "status_code": "INJURY_STATUS_15DAYIL",
+      "status_label": "15-day IL",
+      "status_abbrev": "IL15",
+      "date": "Jul 13",
+      "description": "Irvin (shoulder) struck out three and gave up one hit and no walks over three scoreless innings Monday in a rehab start in the rookie-level Florida Complex League."
+    },
+    {
+      "athlete_id": 4414210,
+      "athlete_name": "Jacob Young",
+      "short_name": "J. Young",
+      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/4414210.png",
+      "position": "CF",
+      "status_code": "INJURY_STATUS_DAYTODAY",
+      "status_label": "day-to-day",
+      "status_abbrev": "DD",
+      "date": "Jul 12",
+      "description": "Manager Blake Butera said Young was unavailable for Sunday's game against the Yankees since his left hand remains sore, Mark Zuckerman of NatsJournal.com reports."
+    },
+    {
       "athlete_id": 4866810,
       "athlete_name": "Brad Lord",
       "short_name": "B. Lord",
@@ -2898,30 +2927,6 @@
       "description": "The Nationals placed Lord on the 15-day injured list Thursday with left side tightness."
     },
     {
-      "athlete_id": 33305,
-      "athlete_name": "Trevor Williams",
-      "short_name": "T. Williams",
-      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/33305.png",
-      "position": "SP",
-      "status_code": "INJURY_STATUS_60DAYIL",
-      "status_label": "60-day IL",
-      "status_abbrev": "IL60",
-      "date": "Jul 6",
-      "description": "Williams (elbow) is slated to make his third rehab start Wednesday at Triple-A Rochester, Mark Zuckerman of NatsJournal.com reports."
-    },
-    {
-      "athlete_id": 41290,
-      "athlete_name": "Jake Irvin",
-      "short_name": "J. Irvin",
-      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/41290.png",
-      "position": "SP",
-      "status_code": "INJURY_STATUS_15DAYIL",
-      "status_label": "15-day IL",
-      "status_abbrev": "IL15",
-      "date": "Jul 6",
-      "description": "Irvin (shoulder) is slated to face live hitters in batting practice Wednesday, Mark Zuckerman of NatsJournal.com reports."
-    },
-    {
       "athlete_id": 4683356,
       "athlete_name": "Mitchell Parker",
       "short_name": "M. Parker",
@@ -2932,18 +2937,6 @@
       "status_abbrev": "IL60",
       "date": "Jul 1",
       "description": "The Nationals transferred Parker (elbow) to the 60-day injured list Wednesday."
-    },
-    {
-      "athlete_id": 39856,
-      "athlete_name": "Richard Lovelady",
-      "short_name": "R. Lovelady",
-      "headshot_url": "https://a.espncdn.com/i/headshots/mlb/players/full/39856.png",
-      "position": "RP",
-      "status_code": "INJURY_STATUS_15DAYIL",
-      "status_label": "15-day IL",
-      "status_abbrev": "IL15",
-      "date": "Jun 29",
-      "description": "The Nationals placed Lovelady on the 15-day injured list Monday with a left triceps strain."
     },
     {
       "athlete_id": 4917686,
