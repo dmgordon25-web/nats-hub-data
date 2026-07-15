@@ -1,86 +1,73 @@
 {
   "data_version": 1,
-  "generated_at": "2026-07-15T04:46:20+00:00",
-  "mode": "rss_fallback",
+  "generated_at": "2026-07-15T08:48:17+00:00",
+  "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-07-15T04:44:29+00:00",
-    "videos": "2026-07-15T00:55:36+00:00",
-    "vibes": null
+    "news": "2026-07-15T08:46:33+00:00",
+    "videos": "2026-07-15T08:46:33+00:00",
+    "vibes": "2026-07-15T08:48:17+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-07-15T04:44:09+00:00",
+      "last_updated_at": "2026-07-15T08:46:28+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-07-15T04:44:11+00:00",
+      "last_updated_at": "2026-07-15T08:46:30+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-07-15T04:44:12+00:00",
+      "last_updated_at": "2026-07-15T08:46:31+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-07-15T04:44:13+00:00",
+      "last_updated_at": "2026-07-15T08:46:31+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-07-15T04:44:13+00:00",
+      "last_updated_at": "2026-07-15T08:46:32+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-07-15T04:44:14+00:00",
+      "last_updated_at": "2026-07-15T08:46:32+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-07-15T08:46:33+00:00",
+      "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-07-15T08:46:33+00:00",
+      "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "videos",
-      "reason": "last_check_too_old"
-    },
-    {
-      "id": "why_it_matters",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "trending",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "Matt Krook Elects Free Agency",
       "url": "https://www.mlbtraderumors.com/2026/07/matt-krook-elects-free-agency.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-07-14T20:55:06+00:00",
+      "why_it_matters": {
+        "text": "Left-hander Matt Krook elected free agency after being sent outright to Triple-A Rochester following his designation for assignment by the Nationals.",
+        "ai_generated": true
+      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/Matt_Krook_Nationals-1024x683.jpg"
     },
     {
@@ -88,6 +75,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/92681/curtis-mead-breakthrough-first-half-for-washington-nationals",
       "source": "Federal Baseball",
       "published_at": "2026-07-14T19:11:35+00:00",
+      "why_it_matters": {
+        "text": "Curtis Mead experienced a breakthrough first half for the Washington Nationals after being acquired from the White Sox in a trade for a 6th round senior sign.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2285224500.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -95,6 +86,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/92672/washington-nationals-superstar-james-wood-been-baseball-god-in-july",
       "source": "Federal Baseball",
       "published_at": "2026-07-14T13:58:28+00:00",
+      "why_it_matters": {
+        "text": "Washington Nationals player James Wood has achieved exceptional hitting statistics in July, performing at an elite level over his last 10 games leading up to the All-Star Break.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2285261611.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -102,6 +97,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-prospects/92654/washington-nationals-2026-draft-class-summary",
       "source": "Federal Baseball",
       "published_at": "2026-07-13T15:05:59+00:00",
+      "why_it_matters": {
+        "text": "Paul Toboni and the front office have completed their first draft class for the Washington Nationals, which is noted for accumulating both talent and depth.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/e607b40f3f9cd7fb5595f684407b5bb7.webp?quality=90&strip=all&crop=0,10.76363770124,100,78.472724597521"
     },
     {
@@ -109,6 +108,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/92661/washington-nationals-had-good-first-half-could-have-been-much-better",
       "source": "Federal Baseball",
       "published_at": "2026-07-13T15:04:54+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals had a successful first half of the season with several standout performers in the lineup and rotation, despite finishing 48-49 at the All-Star break.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2285690726.jpg?quality=90&strip=all&crop=0%2C10.739720785852%2C100%2C78.520558428295&w=1200"
     },
     {
@@ -116,6 +119,10 @@
       "url": "https://www.mlbtraderumors.com/2026/07/nationals-outright-robert-hassell-iii.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-07-12T18:14:37+00:00",
+      "why_it_matters": {
+        "text": "The Nationals have assigned outfielder Robert Hassell III to Triple-A Rochester after he cleared waivers. Because he has less than a year of big league service time and no prior outright assignments, he must accept the assignment.",
+        "ai_generated": true
+      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/robert-hassell-iii-nationals-2026-1024x683.jpg"
     },
     {
@@ -137,9 +144,27 @@
     "result_banner": {
       "type": "none",
       "text": ""
+    },
+    "storyline": {
+      "text": "Left-hander Matt Krook elected free agency after being sent outright to Triple-A Rochester following his designation for assignment by the Nationals.",
+      "ai_generated": true
     }
   },
   "videos": [
+    {
+      "title": "Foster Griffin PERFECT All-Star Game Inning With 2 Ks | Full Inning",
+      "url": "https://www.youtube.com/watch?v=2n1zpomRPpo",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2n1zpomRPpo/hqdefault.jpg",
+      "duration_s": 0
+    },
+    {
+      "title": "Foster Griffin Throws A Perfect All-Star Game Inning With 2 Strikeouts",
+      "url": "https://www.youtube.com/shorts/dEl22s8ObV4",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i1.ytimg.com/vi/dEl22s8ObV4/hqdefault.jpg",
+      "duration_s": 0
+    },
     {
       "title": "CJ Abrams, James Wood, & Foster Griffin Introduced at the 2026 MLB All-Star Game ⭐️",
       "url": "https://www.youtube.com/shorts/amC-qL5qvPU",
@@ -167,28 +192,111 @@
       "source": "Nationals on YouTube",
       "thumbnail_url": "https://i1.ytimg.com/vi/lc0cnb8c56U/hqdefault.jpg",
       "duration_s": 0
-    },
-    {
-      "title": "Curtis Mead 1st-Inning Home Run",
-      "url": "https://www.youtube.com/shorts/afjR0r1G0Yc",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i2.ytimg.com/vi/afjR0r1G0Yc/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "MLB-Leading 9th Leadoff Home Run For James Wood",
-      "url": "https://www.youtube.com/shorts/BFCQMIaiyhg",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i3.ytimg.com/vi/BFCQMIaiyhg/hqdefault.jpg",
-      "duration_s": 0
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "mixed",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "Star Player Performance",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/92672/washington-nationals-superstar-james-wood-been-baseball-god-in-july"
+        ]
+      },
+      {
+        "label": "Roster Management",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.mlbtraderumors.com/2026/07/matt-krook-elects-free-agency.html",
+          "https://www.mlbtraderumors.com/2026/07/nationals-outright-robert-hassell-iii.html"
+        ]
+      },
+      {
+        "label": "Prospect and Draft Success",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/92681/curtis-mead-breakthrough-first-half-for-washington-nationals",
+          "https://www.federalbaseball.com/washington-nationals-prospects/92654/washington-nationals-2026-draft-class-summary"
+        ]
+      },
+      {
+        "label": "First Half Evaluation",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/92661/washington-nationals-had-good-first-half-could-have-been-much-better"
+        ]
+      }
+    ]
   },
-  "trending": [],
+  "trending": [
+    {
+      "label": "Triple-A",
+      "sentiment": "",
+      "context": "Matt Krook Elects Free Agency",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/07/matt-krook-elects-free-agency.html",
+        "https://www.mlbtraderumors.com/2026/07/nationals-outright-robert-hassell-iii.html"
+      ]
+    },
+    {
+      "label": "Matt Krook",
+      "sentiment": "",
+      "context": "Matt Krook Elects Free Agency",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/07/matt-krook-elects-free-agency.html"
+      ]
+    },
+    {
+      "label": "Free Agency",
+      "sentiment": "",
+      "context": "Matt Krook Elects Free Agency",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/07/matt-krook-elects-free-agency.html"
+      ]
+    },
+    {
+      "label": "Curtis Mead",
+      "sentiment": "",
+      "context": "Curtis Mead had a breakthrough first half for the Washington Nationals",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/92681/curtis-mead-breakthrough-first-half-for-washington-nationals"
+      ]
+    },
+    {
+      "label": "trade",
+      "sentiment": "",
+      "context": "Curtis Mead had a breakthrough first half for the Washington Nationals",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/92681/curtis-mead-breakthrough-first-half-for-washington-nationals"
+      ]
+    },
+    {
+      "label": "James Wood",
+      "sentiment": "",
+      "context": "Washington Nationals superstar James Wood has been a baseball god so far in July",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/92672/washington-nationals-superstar-james-wood-been-baseball-god-in-july"
+      ]
+    },
+    {
+      "label": "Draft Class",
+      "sentiment": "",
+      "context": "Washington Nationals 2026 Draft Class Summary",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-prospects/92654/washington-nationals-2026-draft-class-summary"
+      ]
+    },
+    {
+      "label": "All-Star break",
+      "sentiment": "",
+      "context": "The Washington Nationals had a good first half but it could have been so much better",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/92661/washington-nationals-had-good-first-half-could-have-been-much-better"
+      ]
+    }
+  ],
   "what_to_watch": [
     {
       "text": "The Nats visit the Athletics on Friday.",
