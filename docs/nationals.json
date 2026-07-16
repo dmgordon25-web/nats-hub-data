@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-15T23:40:49+00:00",
+  "fetched_at": "2026-07-16T00:08:17+00:00",
   "freshness": {
-    "schedule": "2026-07-15T23:40:48+00:00",
-    "standings": "2026-07-15T23:40:49+00:00",
+    "schedule": "2026-07-16T00:08:16+00:00",
+    "standings": "2026-07-16T00:08:17+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-07-15T19:37:32+00:00",
-    "weather": "2026-07-15T23:40:49+00:00"
+    "former_nats": "2026-07-16T00:08:16+00:00",
+    "weather": "2026-07-16T00:08:17+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -137,14 +137,14 @@
     "watch_label": "Next Game"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-15T23:40:49+00:00",
+    "fetched_at": "2026-07-16T00:08:17+00:00",
     "source": "open_meteo",
     "game_pk": 824981,
     "venue_name": "Sutter Health Park",
-    "forecast_at": "2026-07-17T23:00",
-    "temperature_f": 93.4,
-    "feels_like_f": 86.5,
-    "wind_mph": 13.2,
+    "forecast_at": "2026-07-18T02:00",
+    "temperature_f": 82.8,
+    "feels_like_f": 75.3,
+    "wind_mph": 13.8,
     "wind_dir": "SSW",
     "precip_chance": 0,
     "precip_inches": 0.0,
@@ -152,10 +152,10 @@
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "nostalgia_2021_trade_deadline",
-    "category": "nostalgia",
-    "weight": 4,
-    "text": "The 2021 trade deadline reset the Nats — Scherzer and Trea Turner went to the Dodgers. The rebuild started that day."
+    "id": "stat_nerd_left_handed_lineup",
+    "category": "stat_nerd",
+    "weight": 3,
+    "text": "Wood, García, Abrams — three left-handed bats with 90+ exit velocity. Right-handed pitchers get the long part of the order."
   },
   "next_three": [
     {
@@ -1952,6 +1952,100 @@
         "package": "com.bamnetworks.mobile.android.gameday.atbat",
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 824894,
+      "date": "2026-07-30",
+      "start_time_utc": "2026-07-30T23:15:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": false,
+      "home": {
+        "id": 144,
+        "abbrev": "ATL",
+        "name": "Atlanta Braves",
+        "short_name": "Braves",
+        "record": "55-40",
+        "score": null
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "48-49",
+        "score": null
+      },
+      "venue": {
+        "id": 4705,
+        "name": "Truist Park",
+        "city": "Atlanta",
+        "state": "GA",
+        "lat": 33.890672,
+        "lon": -84.467641
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "680 AM/93.7 FM The Fan",
+          "call_sign": "680 AM",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "La Mejor 1600/1460/1130 AM",
+          "call_sign": "1600 AM",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 1,
+        "games_in_series": 4,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "label": "Open the MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://"
       },
       "watch_label": "Next Game"
     }
