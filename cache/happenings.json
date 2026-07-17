@@ -1,69 +1,74 @@
 {
   "data_version": 1,
-  "generated_at": "2026-07-17T01:47:46+00:00",
+  "generated_at": "2026-07-17T05:49:00+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-07-17T01:47:11+00:00",
+    "news": "2026-07-17T05:48:12+00:00",
     "videos": "2026-07-17T01:47:11+00:00",
-    "vibes": "2026-07-17T01:47:46+00:00"
+    "vibes": "2026-07-17T05:49:00+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-07-17T01:47:03+00:00",
+      "last_updated_at": "2026-07-17T05:47:55+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-07-17T05:47:57+00:00",
+      "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-07-17T01:47:09+00:00",
+      "last_updated_at": "2026-07-17T05:47:58+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-07-17T01:47:09+00:00",
+      "last_updated_at": "2026-07-17T05:47:58+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-07-17T01:47:10+00:00",
+      "last_updated_at": "2026-07-17T05:47:58+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-07-17T01:47:10+00:00",
+      "last_updated_at": "2026-07-17T05:48:00+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-07-17T01:47:11+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-07-17T01:47:11+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    }
+  ],
   "top_stories": [
     {
       "title": "Pirates get former top prospect Hassell from Nats",
       "url": "https://www.espn.com/mlb/story/_/id/49378994/pirates-acquire-robert-hassell-iii-trade-nationals",
       "source": "ESPN MLB",
-      "published_at": "2026-07-16T23:01:06+00:00",
+      "published_at": "2026-07-17T02:50:26+00:00",
       "image_url": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0505%2Fr1653953_1296x729_16%2D9.jpg"
     },
     {
@@ -72,7 +77,7 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-07-16T19:35:04+00:00",
       "why_it_matters": {
-        "text": "The Nationals traded outfielder Robert Hassell III to the Pirates in exchange for cash or a player to be named later after the former first-round pick and top prospect was designated for assignment.",
+        "text": "The Nationals traded outfielder Robert Hassell III to the Pirates for cash or a player to be named later after recently designating him for assignment and moving him to Triple-A.",
         "ai_generated": true
       },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/robert-hassell-iii-nationals-1024x636.jpg"
@@ -94,7 +99,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-07-16T14:01:20+00:00",
       "why_it_matters": {
-        "text": "High school coach Patrick Skellchock recalls observing Chris Hacopian's talent as a young athlete and noted his potential to be a special talent.",
+        "text": "High school coach Patrick Skellchock recalled recognizing Chris Hacopian's potential as a special talent while the athlete was in 8th grade.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2025/12/gettyimages-1240591167.jpg?quality=90&strip=all&crop=0%2C11.015621040649%2C100%2C77.968757918702&w=1200"
@@ -105,7 +110,7 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-07-16T00:42:51+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals have shown signs of improvement during the 2026 campaign following a roster overhaul, a new manager, and a revamped front office after years at the bottom of the National League.",
+        "text": "The Washington Nationals have shown signs of improvement during the 2026 campaign following a period of rebuilding that began after their 2019 World Series win. The turnaround is attributed to a revamped front office, a new manager, and a roster overhaul.",
         "ai_generated": true
       },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/USATSI_29387222-1024x683.jpg"
@@ -191,7 +196,7 @@
     "ai_generated": true,
     "themes": [
       {
-        "label": "Roster turnover & loss",
+        "label": "Roster Management",
         "sentiment": "negative",
         "source_urls": [
           "https://www.espn.com/mlb/story/_/id/49378994/pirates-acquire-robert-hassell-iii-trade-nationals",
@@ -200,25 +205,25 @@
         ]
       },
       {
-        "label": "Front office improvements",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.mlbtraderumors.com/2026/07/trade-deadline-outlook-washington-nationals-2.html"
-        ]
-      },
-      {
-        "label": "New talent acquisition",
+        "label": "Prospect Acquisition",
         "sentiment": "positive",
         "source_urls": [
           "https://www.federalbaseball.com/mlb-draft/92699/washington-nationals-sign-first-rounder-chris-hacopian-under-slot-deal",
           "https://www.federalbaseball.com/washington-nationals-prospects/92697/chris-hacopian-will-rise-to-occasion-ask-high-school-coach"
+        ]
+      },
+      {
+        "label": "Organizational Improvement",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.mlbtraderumors.com/2026/07/trade-deadline-outlook-washington-nationals-2.html"
         ]
       }
     ]
   },
   "trending": [
     {
-      "label": "trade",
+      "label": "Trade",
       "sentiment": "",
       "context": "Nationals Trade Robert Hassell III To Pirates",
       "source_urls": [
@@ -255,14 +260,6 @@
       ]
     },
     {
-      "label": "prospect",
-      "sentiment": "",
-      "context": "Nationals Trade Robert Hassell III To Pirates",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/07/nationals-trade-robert-hassell-iii-pirates.html"
-      ]
-    },
-    {
       "label": "waivers",
       "sentiment": "",
       "context": "Robert Hassell III traded to the Pirates days after clearing waivers",
@@ -284,6 +281,14 @@
       "context": "Chris Hacopian will rise to the occasion, just ask his High School coach",
       "source_urls": [
         "https://www.federalbaseball.com/washington-nationals-prospects/92697/chris-hacopian-will-rise-to-occasion-ask-high-school-coach"
+      ]
+    },
+    {
+      "label": "Draft",
+      "sentiment": "",
+      "context": "Washington Nationals sign first rounder Chris Hacopian to an under slot deal",
+      "source_urls": [
+        "https://www.federalbaseball.com/mlb-draft/92699/washington-nationals-sign-first-rounder-chris-hacopian-under-slot-deal"
       ]
     }
   ],
