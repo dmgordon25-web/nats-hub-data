@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-17T23:05:30+00:00",
+  "fetched_at": "2026-07-18T00:05:50+00:00",
   "freshness": {
-    "schedule": "2026-07-17T23:05:29+00:00",
-    "standings": "2026-07-17T23:05:29+00:00",
+    "schedule": "2026-07-18T00:05:49+00:00",
+    "standings": "2026-07-18T00:05:49+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-07-17T19:34:06+00:00",
-    "weather": "2026-07-17T23:05:30+00:00"
+    "weather": "2026-07-18T00:05:50+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -142,17 +142,17 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Next Game"
+    "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-17T23:05:30+00:00",
+    "fetched_at": "2026-07-18T00:05:50+00:00",
     "source": "open_meteo",
     "game_pk": 824981,
     "venue_name": "Sutter Health Park",
     "forecast_at": "2026-07-18T02:00",
-    "temperature_f": 82.8,
-    "feels_like_f": 77.9,
-    "wind_mph": 10.9,
+    "temperature_f": 82.9,
+    "feels_like_f": 77.8,
+    "wind_mph": 11.6,
     "wind_dir": "SW",
     "precip_chance": 0,
     "precip_inches": 0.0,
@@ -160,10 +160,10 @@
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "did_you_know_zimmerman_first_pick",
+    "id": "did_you_know_curly_w",
     "category": "did_you_know",
-    "weight": 5,
-    "text": "Ryan Zimmerman was the Nationals' very first draft pick in 2005, the same year the franchise moved from Montreal."
+    "weight": 4,
+    "text": "The curly W on the Nats cap is a callback to the Washington Senators logo from 1911. Some traditions outlast everything."
   },
   "next_three": [
     {
@@ -297,7 +297,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 824979,
@@ -699,7 +699,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 824979,
@@ -2222,6 +2222,122 @@
       },
       "series": {
         "game_number": 2,
+        "games_in_series": 4,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 824890,
+      "date": "2026-08-01",
+      "start_time_utc": "2026-08-01T23:15:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": false,
+      "home": {
+        "id": 144,
+        "abbrev": "ATL",
+        "name": "Atlanta Braves",
+        "short_name": "Braves",
+        "record": "55-40",
+        "score": null
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "48-49",
+        "score": null
+      },
+      "venue": {
+        "id": 4705,
+        "name": "Truist Park",
+        "city": "Atlanta",
+        "state": "GA",
+        "lat": 33.890672,
+        "lon": -84.467641
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "680 AM/93.7 FM The Fan",
+          "call_sign": "680 AM",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "BravesVision",
+          "call_sign": "BravesVsn",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Los Bravos",
+          "call_sign": "Los Bravos",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 3,
         "games_in_series": 4,
         "description": "Regular Season"
       },
