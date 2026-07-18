@@ -1,29 +1,29 @@
 {
-  "fetched_at": "2026-07-18T02:25:17+00:00",
+  "fetched_at": "2026-07-18T05:08:26+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
       "game_pk": 824981,
       "date": "2026-07-17",
       "start_time_utc": "2026-07-18T01:40:00Z",
-      "status": "Live",
-      "detailed_status": "In Progress",
+      "status": "Final",
+      "detailed_status": "Game Over",
       "is_nats_home": false,
       "home": {
         "id": 133,
         "abbrev": "ATH",
         "name": "Athletics",
         "short_name": "Athletics",
-        "record": "41-55",
-        "score": 0
+        "record": "41-56",
+        "score": 4
       },
       "away": {
         "id": 120,
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-49",
-        "score": 0
+        "record": "49-49",
+        "score": 23
       },
       "venue": {
         "id": 2529,
@@ -102,19 +102,19 @@
         }
       ],
       "linescore": {
-        "current_inning": 3,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 2,
-        "strikes": 2,
-        "outs": 2,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 2,
-        "away_hits": 1,
-        "home_errors": 0,
-        "away_errors": 0
+        "current_inning": 9,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 1,
+        "strikes": 0,
+        "outs": 3,
+        "home_runs": 4,
+        "away_runs": 23,
+        "home_hits": 9,
+        "away_hits": 21,
+        "home_errors": 1,
+        "away_errors": 1
       },
       "series": {
         "game_number": 1,
@@ -136,7 +136,7 @@
         "abbrev": "ATH",
         "name": "Athletics",
         "short_name": "Athletics",
-        "record": "41-55",
+        "record": "41-56",
         "score": null
       },
       "away": {
@@ -144,7 +144,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-49",
+        "record": "49-49",
         "score": null
       },
       "venue": {
@@ -258,7 +258,7 @@
         "abbrev": "ATH",
         "name": "Athletics",
         "short_name": "Athletics",
-        "record": "41-55",
+        "record": "41-56",
         "score": null
       },
       "away": {
@@ -266,7 +266,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-49",
+        "record": "49-49",
         "score": null
       },
       "venue": {
@@ -380,7 +380,7 @@
         "abbrev": "COL",
         "name": "Colorado Rockies",
         "short_name": "Rockies",
-        "record": "39-59",
+        "record": "39-60",
         "score": null
       },
       "away": {
@@ -388,7 +388,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-49",
+        "record": "49-49",
         "score": null
       },
       "venue": {
@@ -485,7 +485,7 @@
         "abbrev": "COL",
         "name": "Colorado Rockies",
         "short_name": "Rockies",
-        "record": "39-59",
+        "record": "39-60",
         "score": null
       },
       "away": {
@@ -493,7 +493,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-49",
+        "record": "49-49",
         "score": null
       },
       "venue": {
@@ -590,7 +590,7 @@
         "abbrev": "COL",
         "name": "Colorado Rockies",
         "short_name": "Rockies",
-        "record": "39-59",
+        "record": "39-60",
         "score": null
       },
       "away": {
@@ -598,7 +598,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-49",
+        "record": "49-49",
         "score": null
       },
       "venue": {
@@ -695,7 +695,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-49",
+        "record": "49-49",
         "score": null
       },
       "away": {
@@ -703,7 +703,7 @@
         "abbrev": "AZ",
         "name": "Arizona Diamondbacks",
         "short_name": "D-backs",
-        "record": "49-47",
+        "record": "49-48",
         "score": null
       },
       "venue": {
@@ -818,7 +818,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-49",
+        "record": "49-49",
         "score": null
       },
       "away": {
@@ -826,7 +826,7 @@
         "abbrev": "AZ",
         "name": "Arizona Diamondbacks",
         "short_name": "D-backs",
-        "record": "49-47",
+        "record": "49-48",
         "score": null
       },
       "venue": {
@@ -923,7 +923,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-49",
+        "record": "49-49",
         "score": null
       },
       "away": {
@@ -931,7 +931,7 @@
         "abbrev": "AZ",
         "name": "Arizona Diamondbacks",
         "short_name": "D-backs",
-        "record": "49-47",
+        "record": "49-48",
         "score": null
       },
       "venue": {
@@ -1028,7 +1028,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-49",
+        "record": "49-49",
         "score": null
       },
       "away": {
@@ -1036,7 +1036,7 @@
         "abbrev": "TOR",
         "name": "Toronto Blue Jays",
         "short_name": "Blue Jays",
-        "record": "45-51",
+        "record": "45-52",
         "score": null
       },
       "venue": {
@@ -1133,7 +1133,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-49",
+        "record": "49-49",
         "score": null
       },
       "away": {
@@ -1141,7 +1141,7 @@
         "abbrev": "TOR",
         "name": "Toronto Blue Jays",
         "short_name": "Blue Jays",
-        "record": "45-51",
+        "record": "45-52",
         "score": null
       },
       "venue": {
@@ -1229,7 +1229,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-49",
+        "record": "49-49",
         "score": null
       },
       "away": {
@@ -1237,7 +1237,7 @@
         "abbrev": "TOR",
         "name": "Toronto Blue Jays",
         "short_name": "Blue Jays",
-        "record": "45-51",
+        "record": "45-52",
         "score": null
       },
       "venue": {
@@ -1333,7 +1333,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-49",
+        "record": "49-49",
         "score": null
       },
       "venue": {
@@ -1420,7 +1420,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-49",
+        "record": "49-49",
         "score": null
       },
       "venue": {
@@ -1543,7 +1543,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "48-49",
+        "record": "49-49",
         "score": null
       },
       "venue": {
