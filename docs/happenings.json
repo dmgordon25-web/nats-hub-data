@@ -1,101 +1,114 @@
 {
   "data_version": 1,
-  "generated_at": "2026-07-18T13:50:18+00:00",
+  "generated_at": "2026-07-18T17:15:07+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-07-18T13:47:09+00:00",
-    "videos": "2026-07-18T13:47:09+00:00",
-    "vibes": null
+    "news": "2026-07-18T17:14:33+00:00",
+    "videos": "2026-07-18T17:14:33+00:00",
+    "vibes": "2026-07-18T17:15:07+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-07-18T13:46:54+00:00",
+      "last_updated_at": "2026-07-18T17:14:25+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-07-18T13:46:59+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-07-18T13:47:00+00:00",
+      "last_updated_at": "2026-07-18T17:14:31+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-07-18T13:47:01+00:00",
+      "last_updated_at": "2026-07-18T17:14:31+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-07-18T13:47:01+00:00",
+      "last_updated_at": "2026-07-18T17:14:32+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-07-18T13:47:02+00:00",
+      "last_updated_at": "2026-07-18T17:14:32+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-07-18T13:47:02+00:00",
+      "last_updated_at": "2026-07-18T17:14:33+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-07-18T13:47:09+00:00",
+      "last_updated_at": "2026-07-18T17:14:33+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
+    {
+      "title": "MLB rumors: Yankees eyeing All-Star catcher; Braves focused on offense; Nationals slugger available?",
+      "url": "https://www.cbssports.com/mlb/news/mlb-rumors-trade-deadline-yankees-braves-nationals/",
+      "source": "CBS Sports MLB",
+      "published_at": "2026-07-18T16:03:37+00:00",
+      "image_url": "https://sportshub.cbsistatic.com/i/r/2026/07/18/fc0f777f-d418-4662-bace-f962679d9ede/thumbnail/1200x675/9ce78fab4819ed35f9d53b7bbe613dbe/hunter-goodman-getty.png"
+    },
+    {
+      "title": "“Multiple Teams” Asking Nationals About Luis Garcia Jr.",
+      "url": "https://www.mlbtraderumors.com/2026/07/multiple-teams-asking-nationals-about-luis-garcia-jr.html",
+      "source": "MLB Trade Rumors",
+      "published_at": "2026-07-18T14:27:28+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals' first baseman Luis Garcia Jr. is attracting interest from multiple teams. These discussions are currently in the preliminary stages as the team evaluates its plans before the August 3 trade deadline.",
+        "ai_generated": true
+      },
+      "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/LuisGarciaJr-2026Nats-1024x683.jpg"
+    },
+    {
+      "title": "MLB Home Run Predictions Today: Best HR Prop Bets, Picks, Parlay & Odds for July 18",
+      "url": "https://sports.yahoo.com/articles/mlb-home-run-predictions-today-141800931.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-07-18T14:18:00+00:00",
+      "why_it_matters": {
+        "text": "The article provides MLB home run predictions, odds, props, and free picks for July 18, specifically mentioning players like James Wood and Yordan Alvarez.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/os/en/covers_articles_287/1c796d6fd5085e4a0ad55c680300750e"
+    },
+    {
+      "title": "The Washington Nationals put an historic beatdown on the A’s last night",
+      "url": "https://www.federalbaseball.com/washington-nationals-analysis/92749/washington-nationals-put-historic-beatdown-on-as-last-night",
+      "source": "Federal Baseball",
+      "published_at": "2026-07-18T13:51:56+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals defeated the A's with a historic 23-run performance. The score tied for the second most in franchise history after the Nats dominated the A's bullpen.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2286579555.jpg?quality=90&strip=all&crop=0%2C11.217762264883%2C100%2C77.564475470235&w=1200"
+    },
     {
       "title": "Nationals Reinstate Max Kranick From 60-Day IL; Drew Millas Undergoes Finger Surgery",
       "url": "https://www.mlbtraderumors.com/2026/07/nationals-reinstate-max-kranick-from-60-day-injured-list.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-07-18T13:17:14+00:00",
       "why_it_matters": {
-        "text": "The Nationals have reinstated Max Kranick from the 60-day IL, while Drew Millas underwent surgery on his left index finger. Manager Blake Butera indicated that the recovery process for Millas's injury is not expected to threaten his season.",
+        "text": "The Nationals have reinstated Max Kranick from the 60-day IL, while Drew Millas underwent surgery on his left index finger. Manager Blake Butera stated that the recovery process for Millas is not expected to threaten his season.",
         "ai_generated": true
       },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/05/max-kranick-pitcher-1024x637.jpg"
-    },
-    {
-      "title": "A’s get pummeled by Nationals to start the second half, 23-4",
-      "url": "https://sports.yahoo.com/articles/pummeled-nationals-start-second-half-050536946.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-07-18T05:05:36+00:00",
-      "why_it_matters": {
-        "text": "The Nationals defeated the A's 23-4 in a game marking the start of the second half. The team's new additions showed mixed results.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/ny/api/res/1.2/QPQs7lUl0_9N7oy5sGNnHA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/2c2260c098ef19e1dd558576d2f46f4a"
-    },
-    {
-      "title": "Game #98 On the road in Sacramento",
-      "url": "https://www.talknats.com/2026/07/17/game-98-on-the-road-in-sacramento/",
-      "source": "Talk Nats",
-      "published_at": "2026-07-17T23:24:34+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals face a series in Sacramento, which is noted as the weakest part of their schedule this season over the next six days.",
-        "ai_generated": true
-      },
-      "image_url": "https://www.talknats.com/wp-content/uploads/2026/05/IMG_6677-scaled.jpeg"
     },
     {
       "title": "Washington Nationals vs A’s Game Thread",
@@ -113,10 +126,6 @@
       "url": "https://www.cbssports.com/betting/news/free-mlb-home-run-picks-july-17-nationals-red-hot-james-wood-among-experts-best-bets-for-friday/",
       "source": "CBS Sports MLB",
       "published_at": "2026-07-17T21:57:39+00:00",
-      "why_it_matters": {
-        "text": "SportsLine's Matt Severance provides his top MLB home run prop picks for Friday, July 17, highlighting Nationals' James Wood as a notable selection.",
-        "ai_generated": true
-      },
       "image_url": "https://sportshub.cbsistatic.com/i/r/2026/07/04/9e5f9fcd-621a-41b9-9b65-b364d7319413/thumbnail/1200x675/8de1ebca936dbeb76ff1b86fc503df10/james-wood-washington-nationals-imagn-images.jpg"
     },
     {
@@ -124,35 +133,13 @@
       "url": "https://www.mlbtraderumors.com/2026/07/ron-hunt-passes-away.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-07-17T20:44:04+00:00",
-      "why_it_matters": {
-        "text": "Former big leaguer Ron Hunt has passed away at the age of 85. Known as a scrappy player, he played 12 seasons and was noted for his ability to get on base.",
-        "ai_generated": true
-      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/Ron_Hunt_Mets-1024x709.jpg"
-    },
-    {
-      "title": "Three Washington Nationals players who need to have a big second half",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/92731/three-washington-nationals-players-need-have-big-second-half",
-      "source": "Federal Baseball",
-      "published_at": "2026-07-17T17:18:40+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2285285934.jpg?quality=90&strip=all&crop=0%2C10.72671861333%2C100%2C78.54656277334&w=1200"
-    },
-    {
-      "title": "Nationals begin their second-half run on the road against the Athletics",
-      "url": "https://www.federalbaseball.com/washington-nationals-game-information/92733/nationals-begin-second-half-run-on-road-against-athletics",
-      "source": "Federal Baseball",
-      "published_at": "2026-07-17T17:14:03+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2286141727.jpg?quality=90&strip=all&crop=0%2C3.0418960115082%2C100%2C78.552363353718&w=1200"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "win",
       "text": "Curly W! The Nats beat the Athletics 23-4."
-    },
-    "storyline": {
-      "text": "The Nationals have reinstated Max Kranick from the 60-day IL, while Drew Millas underwent surgery on his left index finger. Manager Blake Butera indicated that the recovery process for Millas's injury is not expected to threaten his season.",
-      "ai_generated": true
     }
   },
   "videos": [
@@ -200,75 +187,96 @@
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "positive",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "Historic Offensive Performance",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/92749/washington-nationals-put-historic-beatdown-on-as-last-night"
+        ]
+      },
+      {
+        "label": "Roster Movement & Trade Interest",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.mlbtraderumors.com/2026/07/multiple-teams-asking-nationals-about-luis-garcia-jr.html"
+        ]
+      },
+      {
+        "label": "Injury Updates",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.mlbtraderumors.com/2026/07/nationals-reinstate-max-kranick-from-60-day-injured-list.html"
+        ]
+      }
+    ]
   },
   "trending": [
     {
-      "label": "Sacramento",
+      "label": "Luis Garcia Jr.",
       "sentiment": "",
-      "context": "Game #98 On the road in Sacramento",
+      "context": "“Multiple Teams” Asking Nationals About Luis Garcia Jr.",
       "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-discussions/92743/washington-nationals-vs-as-game-thread",
-        "https://www.talknats.com/2026/07/17/game-98-on-the-road-in-sacramento/"
+        "https://www.mlbtraderumors.com/2026/07/multiple-teams-asking-nationals-about-luis-garcia-jr.html"
       ]
     },
     {
-      "label": "Max Kranick",
+      "label": "Trade Rumors",
       "sentiment": "",
-      "context": "Nationals Reinstate Max Kranick From 60-Day IL; Drew Millas Undergoes Finger Surgery",
+      "context": "“Multiple Teams” Asking Nationals About Luis Garcia Jr.",
       "source_urls": [
+        "https://www.mlbtraderumors.com/2026/07/multiple-teams-asking-nationals-about-luis-garcia-jr.html"
+      ]
+    },
+    {
+      "label": "Trade Deadline",
+      "sentiment": "",
+      "context": "“Multiple Teams” Asking Nationals About Luis Garcia Jr.",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/07/multiple-teams-asking-nationals-about-luis-garcia-jr.html"
+      ]
+    },
+    {
+      "label": "Predictions",
+      "sentiment": "",
+      "context": "MLB Home Run Predictions Today: Best HR Prop Bets, Picks, Parlay & Odds for July 18",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/mlb-home-run-predictions-today-141800931.html"
+      ]
+    },
+    {
+      "label": "Betting",
+      "sentiment": "",
+      "context": "MLB Home Run Predictions Today: Best HR Prop Bets, Picks, Parlay & Odds for July 18",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/mlb-home-run-predictions-today-141800931.html"
+      ]
+    },
+    {
+      "label": "Odds",
+      "sentiment": "",
+      "context": "MLB Home Run Predictions Today: Best HR Prop Bets, Picks, Parlay & Odds for July 18",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/mlb-home-run-predictions-today-141800931.html"
+      ]
+    },
+    {
+      "label": "A's",
+      "sentiment": "",
+      "context": "The Washington Nationals put an historic beatdown on the A’s last night",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/92749/washington-nationals-put-historic-beatdown-on-as-last-night",
         "https://www.mlbtraderumors.com/2026/07/nationals-reinstate-max-kranick-from-60-day-injured-list.html"
       ]
     },
     {
-      "label": "Drew Millas",
+      "label": "scoring",
       "sentiment": "",
-      "context": "Nationals Reinstate Max Kranick From 60-Day IL; Drew Millas Undergoes Finger Surgery",
+      "context": "The Washington Nationals put an historic beatdown on the A’s last night",
       "source_urls": [
-        "https://sports.yahoo.com/articles/pummeled-nationals-start-second-half-050536946.html",
-        "https://www.mlbtraderumors.com/2026/07/nationals-reinstate-max-kranick-from-60-day-injured-list.html"
-      ]
-    },
-    {
-      "label": "Injury Update",
-      "sentiment": "",
-      "context": "Nationals Reinstate Max Kranick From 60-Day IL; Drew Millas Undergoes Finger Surgery",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/07/nationals-reinstate-max-kranick-from-60-day-injured-list.html"
-      ]
-    },
-    {
-      "label": "Game #98",
-      "sentiment": "",
-      "context": "Game #98 On the road in Sacramento",
-      "source_urls": [
-        "https://www.talknats.com/2026/07/17/game-98-on-the-road-in-sacramento/"
-      ]
-    },
-    {
-      "label": "Athletics",
-      "sentiment": "",
-      "context": "Washington Nationals vs A’s Game Thread",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-discussions/92743/washington-nationals-vs-as-game-thread"
-      ]
-    },
-    {
-      "label": "home runs",
-      "sentiment": "",
-      "context": "Free MLB home run picks July 17: Nationals' red-hot James Wood among expert's best bets for Friday",
-      "source_urls": [
-        "https://www.cbssports.com/betting/news/free-mlb-home-run-picks-july-17-nationals-red-hot-james-wood-among-experts-best-bets-for-friday/"
-      ]
-    },
-    {
-      "label": "betting",
-      "sentiment": "",
-      "context": "Free MLB home run picks July 17: Nationals' red-hot James Wood among expert's best bets for Friday",
-      "source_urls": [
-        "https://www.cbssports.com/betting/news/free-mlb-home-run-picks-july-17-nationals-red-hot-james-wood-among-experts-best-bets-for-friday/"
+        "https://www.federalbaseball.com/washington-nationals-analysis/92749/washington-nationals-put-historic-beatdown-on-as-last-night"
       ]
     }
   ],
