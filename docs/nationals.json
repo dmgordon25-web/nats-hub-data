@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-18T23:31:48+00:00",
+  "fetched_at": "2026-07-19T00:08:25+00:00",
   "freshness": {
-    "schedule": "2026-07-18T23:31:47+00:00",
-    "standings": "2026-07-18T23:31:48+00:00",
+    "schedule": "2026-07-19T00:08:24+00:00",
+    "standings": "2026-07-19T00:08:24+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-07-18T19:33:22+00:00",
-    "weather": "2026-07-18T23:31:48+00:00"
+    "former_nats": "2026-07-19T00:08:23+00:00",
+    "weather": "2026-07-19T00:08:25+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -142,17 +142,17 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Next Game"
+    "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-18T23:31:48+00:00",
+    "fetched_at": "2026-07-19T00:08:25+00:00",
     "source": "open_meteo",
     "game_pk": 824979,
     "venue_name": "Sutter Health Park",
     "forecast_at": "2026-07-19T02:00",
-    "temperature_f": 87.2,
-    "feels_like_f": 82.2,
-    "wind_mph": 9.4,
+    "temperature_f": 87.5,
+    "feels_like_f": 82.6,
+    "wind_mph": 9.8,
     "wind_dir": "SW",
     "precip_chance": 0,
     "precip_inches": 0.0,
@@ -160,10 +160,10 @@
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "did_you_know_curly_w",
-    "category": "did_you_know",
-    "weight": 4,
-    "text": "The curly W on the Nats cap is a callback to the Washington Senators logo from 1911. Some traditions outlast everything."
+    "id": "player_spotlight_gore",
+    "category": "player_spotlight",
+    "weight": 6,
+    "text": "MacKenzie Gore was the third overall pick in 2017. The Nats got him in the Soto trade. The fastball is real."
   },
   "next_three": [
     {
@@ -297,7 +297,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 824978,
@@ -430,7 +430,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 824328,
@@ -947,7 +947,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 824978,
@@ -1080,7 +1080,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 824328,
@@ -2469,6 +2469,122 @@
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
       "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 824891,
+      "date": "2026-08-02",
+      "start_time_utc": "2026-08-02T17:35:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": false,
+      "home": {
+        "id": 144,
+        "abbrev": "ATL",
+        "name": "Atlanta Braves",
+        "short_name": "Braves",
+        "record": "56-41",
+        "score": null
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "49-49",
+        "score": null
+      },
+      "venue": {
+        "id": 4705,
+        "name": "Truist Park",
+        "city": "Atlanta",
+        "state": "GA",
+        "lat": 33.890672,
+        "lon": -84.467641
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "680 AM/93.7 FM The Fan",
+          "call_sign": "680 AM",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "BravesVision",
+          "call_sign": "BravesVsn",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "La Mejor 1600/1460/1130 AM",
+          "call_sign": "1600 AM",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 4,
+        "games_in_series": 4,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
     }
   ],
   "standings": {
@@ -2911,18 +3027,18 @@
           "name": "Tampa Bay Rays",
           "short_name": "Rays",
           "wins": 56,
-          "losses": 40,
-          "pct": ".583",
+          "losses": 41,
+          "pct": ".577",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "L3",
+          "streak": "L4",
           "last_ten": "4-6",
           "division_rank": 1,
           "league_rank": 1,
           "wc_rank": null,
-          "run_diff": 20,
-          "runs_scored": 428,
-          "runs_allowed": 408,
+          "run_diff": 19,
+          "runs_scored": 434,
+          "runs_allowed": 415,
           "elim_num": "-"
         },
         {
@@ -2933,8 +3049,8 @@
           "wins": 54,
           "losses": 43,
           "pct": ".557",
-          "gb": "2.5",
-          "wc_gb": "+5.5",
+          "gb": "2.0",
+          "wc_gb": "+5.0",
           "streak": "L1",
           "last_ten": "5-5",
           "division_rank": 2,
@@ -2950,19 +3066,19 @@
           "abbrev": "BOS",
           "name": "Boston Red Sox",
           "short_name": "Red Sox",
-          "wins": 48,
+          "wins": 49,
           "losses": 48,
-          "pct": ".500",
-          "gb": "8.0",
+          "pct": ".505",
+          "gb": "7.0",
           "wc_gb": "-",
-          "streak": "W11",
+          "streak": "W12",
           "last_ten": "10-0",
           "division_rank": 3,
           "league_rank": 6,
           "wc_rank": 3,
-          "run_diff": 39,
-          "runs_scored": 400,
-          "runs_allowed": 361,
+          "run_diff": 40,
+          "runs_scored": 407,
+          "runs_allowed": 367,
           "elim_num": "59"
         },
         {
@@ -2970,19 +3086,19 @@
           "abbrev": "BAL",
           "name": "Baltimore Orioles",
           "short_name": "Orioles",
-          "wins": 47,
+          "wins": 48,
           "losses": 51,
-          "pct": ".480",
-          "gb": "10.0",
+          "pct": ".485",
+          "gb": "9.0",
           "wc_gb": "2.0",
-          "streak": "W5",
+          "streak": "W6",
           "last_ten": "7-3",
           "division_rank": 4,
           "league_rank": 9,
           "wc_rank": 6,
-          "run_diff": -18,
-          "runs_scored": 450,
-          "runs_allowed": 468,
+          "run_diff": -16,
+          "runs_scored": 454,
+          "runs_allowed": 470,
           "elim_num": "56"
         },
         {
@@ -2993,8 +3109,8 @@
           "wins": 46,
           "losses": 52,
           "pct": ".469",
-          "gb": "11.0",
-          "wc_gb": "3.0",
+          "gb": "10.5",
+          "wc_gb": "3.5",
           "streak": "W1",
           "last_ten": "4-6",
           "division_rank": 5,
@@ -3041,7 +3157,7 @@
           "losses": 47,
           "pct": ".520",
           "gb": "0.5",
-          "wc_gb": "+2.0",
+          "wc_gb": "+1.5",
           "streak": "L1",
           "last_ten": "5-5",
           "division_rank": 2,
@@ -3061,7 +3177,7 @@
           "losses": 50,
           "pct": ".495",
           "gb": "3.0",
-          "wc_gb": "0.5",
+          "wc_gb": "1.0",
           "streak": "L1",
           "last_ten": "7-3",
           "division_rank": 3,
@@ -3081,7 +3197,7 @@
           "losses": 52,
           "pct": ".464",
           "gb": "6.0",
-          "wc_gb": "3.5",
+          "wc_gb": "4.0",
           "streak": "W1",
           "last_ten": "7-3",
           "division_rank": 4,
@@ -3101,7 +3217,7 @@
           "losses": 59,
           "pct": ".404",
           "gb": "12.0",
-          "wc_gb": "9.5",
+          "wc_gb": "10.0",
           "streak": "W2",
           "last_ten": "5-5",
           "division_rank": 5,
@@ -3148,7 +3264,7 @@
           "losses": 50,
           "pct": ".490",
           "gb": "2.0",
-          "wc_gb": "1.0",
+          "wc_gb": "1.5",
           "streak": "L1",
           "last_ten": "3-7",
           "division_rank": 2,
@@ -3165,19 +3281,19 @@
           "name": "Houston Astros",
           "short_name": "Astros",
           "wins": 47,
-          "losses": 52,
-          "pct": ".475",
-          "gb": "3.5",
-          "wc_gb": "2.5",
-          "streak": "L2",
+          "losses": 53,
+          "pct": ".470",
+          "gb": "4.0",
+          "wc_gb": "3.5",
+          "streak": "L3",
           "last_ten": "4-6",
           "division_rank": 3,
           "league_rank": 10,
           "wc_rank": 7,
-          "run_diff": -48,
-          "runs_scored": 451,
-          "runs_allowed": 499,
-          "elim_num": "61"
+          "run_diff": -50,
+          "runs_scored": 453,
+          "runs_allowed": 503,
+          "elim_num": "60"
         },
         {
           "id": 133,
@@ -3188,7 +3304,7 @@
           "losses": 56,
           "pct": ".423",
           "gb": "8.5",
-          "wc_gb": "7.5",
+          "wc_gb": "8.0",
           "streak": "L10",
           "last_ten": "0-10",
           "division_rank": 4,
@@ -3208,7 +3324,7 @@
           "losses": 60,
           "pct": ".388",
           "gb": "12.0",
-          "wc_gb": "11.0",
+          "wc_gb": "11.5",
           "streak": "L3",
           "last_ten": "2-8",
           "division_rank": 5,
