@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-19T18:38:41+00:00",
+  "fetched_at": "2026-07-19T19:33:47+00:00",
   "freshness": {
-    "schedule": "2026-07-19T18:38:40+00:00",
-    "standings": "2026-07-19T18:38:41+00:00",
+    "schedule": "2026-07-19T19:33:46+00:00",
+    "standings": "2026-07-19T19:33:47+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-07-19T14:33:33+00:00",
-    "weather": "2026-07-19T18:38:41+00:00"
+    "former_nats": "2026-07-19T19:33:46+00:00",
+    "weather": "2026-07-19T19:33:47+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -24,7 +24,7 @@
       "name": "Athletics",
       "short_name": "Athletics",
       "record": "42-56",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 120,
@@ -32,7 +32,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "49-50",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 2529,
@@ -111,19 +111,19 @@
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
       "game_number": 3,
@@ -142,21 +142,21 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Starts Soon"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-19T18:38:41+00:00",
+    "fetched_at": "2026-07-19T19:33:47+00:00",
     "source": "open_meteo",
     "game_pk": 824978,
     "venue_name": "Sutter Health Park",
     "forecast_at": "2026-07-19T20:00",
-    "temperature_f": 88.4,
-    "feels_like_f": 92.0,
-    "wind_mph": 4.9,
+    "temperature_f": 87.7,
+    "feels_like_f": 89.8,
+    "wind_mph": 6.4,
     "wind_dir": "WNW",
     "precip_chance": 0,
     "precip_inches": 0.0,
-    "summary": "Clear",
+    "summary": "Partly cloudy",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -179,7 +179,7 @@
         "name": "Athletics",
         "short_name": "Athletics",
         "record": "42-56",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 120,
@@ -187,7 +187,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "49-50",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 2529,
@@ -266,19 +266,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 3,
@@ -297,7 +297,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 824328,
@@ -331,7 +331,11 @@
         "lon": -104.994136
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 607536,
+          "name": "Kyle Freeland",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -447,7 +451,11 @@
         "lon": -104.994136
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 547179,
+          "name": "Michael Lorenzen",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -945,7 +953,7 @@
         "name": "Athletics",
         "short_name": "Athletics",
         "record": "42-56",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 120,
@@ -953,7 +961,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "49-50",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 2529,
@@ -1032,19 +1040,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 3,
@@ -1063,7 +1071,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 824328,
@@ -1097,7 +1105,11 @@
         "lon": -104.994136
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 607536,
+          "name": "Kyle Freeland",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -1213,7 +1225,11 @@
         "lon": -104.994136
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 547179,
+          "name": "Michael Lorenzen",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
