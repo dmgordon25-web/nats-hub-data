@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-20T18:16:12+00:00",
+  "fetched_at": "2026-07-20T19:57:40+00:00",
   "freshness": {
-    "schedule": "2026-07-20T18:16:11+00:00",
-    "standings": "2026-07-20T18:16:11+00:00",
+    "schedule": "2026-07-20T19:57:39+00:00",
+    "standings": "2026-07-20T19:57:40+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-07-20T10:19:41+00:00",
-    "weather": "2026-07-20T18:16:12+00:00"
+    "former_nats": "2026-07-20T19:57:39+00:00",
+    "weather": "2026-07-20T19:57:40+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -136,18 +136,18 @@
     "watch_label": "Next Game"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-20T18:16:12+00:00",
+    "fetched_at": "2026-07-20T19:57:40+00:00",
     "source": "open_meteo",
     "game_pk": 824328,
     "venue_name": "Coors Field",
     "forecast_at": "2026-07-21T01:00",
-    "temperature_f": 94.6,
-    "feels_like_f": 88.9,
-    "wind_mph": 10.1,
-    "wind_dir": "N",
+    "temperature_f": 82.5,
+    "feels_like_f": 72.7,
+    "wind_mph": 23.6,
+    "wind_dir": "WNW",
     "precip_chance": 10,
     "precip_inches": 0.0,
-    "summary": "Overcast",
+    "summary": "Partly cloudy",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -437,7 +437,11 @@
         "lon": -104.994136
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 687312,
+          "name": "Gabriel Hughes",
+          "hand": null
+        },
         "away": {
           "id": 676917,
           "name": "Cade Cavalli",
@@ -1206,7 +1210,11 @@
         "lon": -104.994136
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 687312,
+          "name": "Gabriel Hughes",
+          "hand": null
+        },
         "away": {
           "id": 676917,
           "name": "Cade Cavalli",
@@ -2027,6 +2035,24 @@
       },
       "broadcasts": [
         {
+          "name": "ESPN/ESPN App",
+          "call_sign": "ESPN",
+          "type": "TV",
+          "language": "en",
+          "is_national": true,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "ESPN/ESPN App",
+          "call_sign": "ESPN",
+          "type": "TV",
+          "language": "en",
+          "is_national": true,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
           "name": "680 AM/93.7 FM The Fan",
           "call_sign": "680 AM",
           "type": "AM",
@@ -2078,9 +2104,13 @@
       "_source": "mlb_statsapi",
       "classification": "next",
       "provider": {
-        "label": "Open the MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://"
+        "broadcast_name": "ESPN/ESPN App",
+        "is_national": true,
+        "rule_id": "espn",
+        "label": "ESPN on YouTube TV",
+        "package": "com.google.android.youtube.tvunplugged",
+        "intent_uri": "https://tv.youtube.com/watch/live/espn",
+        "fallback_uri": "https://tv.youtube.com/"
       },
       "watch_label": "Next Game"
     },
