@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-20T19:59:49+00:00",
+  "fetched_at": "2026-07-20T21:18:52+00:00",
   "freshness": {
-    "schedule": "2026-07-20T19:59:47+00:00",
-    "standings": "2026-07-20T19:59:48+00:00",
+    "schedule": "2026-07-20T21:18:51+00:00",
+    "standings": "2026-07-20T21:18:51+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-07-20T19:57:39+00:00",
-    "weather": "2026-07-20T19:59:48+00:00"
+    "weather": "2026-07-20T21:18:52+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -16,7 +16,7 @@
     "date": "2026-07-20",
     "start_time_utc": "2026-07-21T00:40:00Z",
     "status": "Preview",
-    "detailed_status": "Scheduled",
+    "detailed_status": "Pre-Game",
     "is_nats_home": false,
     "home": {
       "id": 115,
@@ -24,7 +24,7 @@
       "name": "Colorado Rockies",
       "short_name": "Rockies",
       "record": "40-61",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 120,
@@ -32,7 +32,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "50-50",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 19,
@@ -102,19 +102,19 @@
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
       "game_number": 1,
@@ -136,18 +136,18 @@
     "watch_label": "Next Game"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-20T19:59:48+00:00",
+    "fetched_at": "2026-07-20T21:18:52+00:00",
     "source": "open_meteo",
     "game_pk": 824328,
     "venue_name": "Coors Field",
     "forecast_at": "2026-07-21T01:00",
-    "temperature_f": 82.5,
-    "feels_like_f": 72.7,
-    "wind_mph": 23.6,
-    "wind_dir": "WNW",
-    "precip_chance": 10,
-    "precip_inches": 0.0,
-    "summary": "Partly cloudy",
+    "temperature_f": 78.2,
+    "feels_like_f": 74.3,
+    "wind_mph": 12.5,
+    "wind_dir": "NW",
+    "precip_chance": 19,
+    "precip_inches": 0.028,
+    "summary": "Drizzle",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -162,7 +162,7 @@
       "date": "2026-07-20",
       "start_time_utc": "2026-07-21T00:40:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": false,
       "home": {
         "id": 115,
@@ -170,7 +170,7 @@
         "name": "Colorado Rockies",
         "short_name": "Rockies",
         "record": "40-61",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 120,
@@ -178,7 +178,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "50-50",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 19,
@@ -248,19 +248,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 1,
@@ -935,7 +935,7 @@
       "date": "2026-07-20",
       "start_time_utc": "2026-07-21T00:40:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": false,
       "home": {
         "id": 115,
@@ -943,7 +943,7 @@
         "name": "Colorado Rockies",
         "short_name": "Rockies",
         "record": "40-61",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 120,
@@ -951,7 +951,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "50-50",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 19,
@@ -1021,19 +1021,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 1,
