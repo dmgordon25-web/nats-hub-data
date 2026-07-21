@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-21T05:36:43+00:00",
+  "fetched_at": "2026-07-21T09:37:01+00:00",
   "freshness": {
-    "schedule": "2026-07-21T05:36:41+00:00",
-    "standings": "2026-07-21T05:36:42+00:00",
+    "schedule": "2026-07-21T09:37:00+00:00",
+    "standings": "2026-07-21T09:37:01+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-07-21T00:07:49+00:00",
-    "weather": "2026-07-21T05:36:43+00:00"
+    "former_nats": "2026-07-21T09:37:00+00:00",
+    "weather": "2026-07-21T09:37:01+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -136,18 +136,18 @@
     "watch_label": "Next Game"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-21T05:36:43+00:00",
+    "fetched_at": "2026-07-21T09:37:01+00:00",
     "source": "open_meteo",
     "game_pk": 824329,
     "venue_name": "Coors Field",
     "forecast_at": "2026-07-22T01:00",
-    "temperature_f": 93.4,
-    "feels_like_f": 85.9,
-    "wind_mph": 15.5,
+    "temperature_f": 94.6,
+    "feels_like_f": 86.9,
+    "wind_mph": 14.8,
     "wind_dir": "SSE",
     "precip_chance": 15,
     "precip_inches": 0.0,
-    "summary": "Mostly clear",
+    "summary": "Clear",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -3475,5 +3475,20 @@
       "description": "Gray (elbow) has resumed a throwing program, Mark Zuckerman of NatsJournal.com reports."
     }
   ],
-  "former_nats_flag_candidates": []
+  "former_nats_flag_candidates": [
+    {
+      "mlb_id": 607208,
+      "name": "Trea Turner",
+      "summary": "2-HR game",
+      "celebrate": true,
+      "against_nats": false
+    },
+    {
+      "mlb_id": 645302,
+      "name": "Victor Robles",
+      "summary": "4-hit game",
+      "celebrate": true,
+      "against_nats": false
+    }
+  ]
 }
