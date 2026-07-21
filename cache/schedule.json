@@ -1,129 +1,7 @@
 {
-  "fetched_at": "2026-07-20T23:33:15+00:00",
+  "fetched_at": "2026-07-21T00:07:50+00:00",
   "source": "mlb_statsapi",
   "games": [
-    {
-      "game_pk": 824979,
-      "date": "2026-07-18",
-      "start_time_utc": "2026-07-19T02:05:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 133,
-        "abbrev": "ATH",
-        "name": "Athletics",
-        "short_name": "Athletics",
-        "record": "42-56",
-        "score": 15
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "49-50",
-        "score": 1
-      },
-      "venue": {
-        "id": 2529,
-        "name": "Sutter Health Park",
-        "city": "Sacramento",
-        "state": "CA",
-        "lat": 38.57994,
-        "lon": -121.51246
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 669372,
-          "name": "J.T. Ginn",
-          "hand": null
-        },
-        "away": {
-          "id": 641793,
-          "name": "Zack Littell",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "NBCSCA",
-          "call_sign": "NBCSCA",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Talk 650 KSTE",
-          "call_sign": "650 KSTE",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "KVMX 92.1/105.5",
-          "call_sign": "KVMX 92.1",
-          "type": "FM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "A's Cast",
-          "call_sign": "A's Cast",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 2,
-        "strikes": 0,
-        "outs": 3,
-        "home_runs": 15,
-        "away_runs": 1,
-        "home_hits": 13,
-        "away_hits": 4,
-        "home_errors": 0,
-        "away_errors": 1
-      },
-      "series": {
-        "game_number": 2,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi"
-    },
     {
       "game_pk": 824978,
       "date": "2026-07-19",
@@ -1752,6 +1630,111 @@
       },
       "series": {
         "game_number": 1,
+        "games_in_series": 4,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi"
+    },
+    {
+      "game_pk": 823432,
+      "date": "2026-08-04",
+      "start_time_utc": "2026-08-04T22:40:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": false,
+      "home": {
+        "id": 143,
+        "abbrev": "PHI",
+        "name": "Philadelphia Phillies",
+        "short_name": "Phillies",
+        "record": "55-45",
+        "score": null
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "50-50",
+        "score": null
+      },
+      "venue": {
+        "id": 2681,
+        "name": "Citizens Bank Park",
+        "city": "Philadelphia",
+        "state": "PA",
+        "lat": 39.90539086,
+        "lon": -75.16716957
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "NBCSP",
+          "call_sign": "NBCSP",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "94 WIP",
+          "call_sign": "WIP",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "iHeart App",
+          "call_sign": "iHeart App",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 2,
         "games_in_series": 4,
         "description": "Regular Season"
       },
