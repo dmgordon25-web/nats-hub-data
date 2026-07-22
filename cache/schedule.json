@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-22T02:34:13+00:00",
+  "fetched_at": "2026-07-22T05:35:14+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -119,24 +119,24 @@
       "game_pk": 824329,
       "date": "2026-07-21",
       "start_time_utc": "2026-07-22T00:40:00Z",
-      "status": "Live",
-      "detailed_status": "In Progress",
+      "status": "Final",
+      "detailed_status": "Final",
       "is_nats_home": false,
       "home": {
         "id": 115,
         "abbrev": "COL",
         "name": "Colorado Rockies",
         "short_name": "Rockies",
-        "record": "40-62",
-        "score": 7
+        "record": "41-62",
+        "score": 8
       },
       "away": {
         "id": 120,
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "51-50",
-        "score": 6
+        "record": "51-51",
+        "score": 7
       },
       "venue": {
         "id": 19,
@@ -166,7 +166,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "Nationals.TV",
@@ -175,7 +175,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -184,7 +184,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "KOA 850 AM/94.1 FM ",
@@ -193,7 +193,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "KNRV 1150",
@@ -202,21 +202,21 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         }
       ],
       "linescore": {
-        "current_inning": 6,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
+        "current_inning": 9,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
         "balls": 1,
-        "strikes": 1,
-        "outs": 1,
-        "home_runs": 7,
-        "away_runs": 6,
-        "home_hits": 9,
-        "away_hits": 8,
+        "strikes": 3,
+        "outs": 3,
+        "home_runs": 8,
+        "away_runs": 7,
+        "home_hits": 12,
+        "away_hits": 10,
         "home_errors": 0,
         "away_errors": 1
       },
@@ -240,7 +240,7 @@
         "abbrev": "COL",
         "name": "Colorado Rockies",
         "short_name": "Rockies",
-        "record": "40-62",
+        "record": "41-62",
         "score": null
       },
       "away": {
@@ -248,7 +248,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "51-50",
+        "record": "51-51",
         "score": null
       },
       "venue": {
@@ -353,7 +353,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "51-50",
+        "record": "51-51",
         "score": null
       },
       "away": {
@@ -361,7 +361,7 @@
         "abbrev": "AZ",
         "name": "Arizona Diamondbacks",
         "short_name": "D-backs",
-        "record": "51-49",
+        "record": "52-49",
         "score": null
       },
       "venue": {
@@ -476,7 +476,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "51-50",
+        "record": "51-51",
         "score": null
       },
       "away": {
@@ -484,7 +484,7 @@
         "abbrev": "AZ",
         "name": "Arizona Diamondbacks",
         "short_name": "D-backs",
-        "record": "51-49",
+        "record": "52-49",
         "score": null
       },
       "venue": {
@@ -581,7 +581,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "51-50",
+        "record": "51-51",
         "score": null
       },
       "away": {
@@ -589,7 +589,7 @@
         "abbrev": "AZ",
         "name": "Arizona Diamondbacks",
         "short_name": "D-backs",
-        "record": "51-49",
+        "record": "52-49",
         "score": null
       },
       "venue": {
@@ -686,7 +686,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "51-50",
+        "record": "51-51",
         "score": null
       },
       "away": {
@@ -791,7 +791,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "51-50",
+        "record": "51-51",
         "score": null
       },
       "away": {
@@ -887,7 +887,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "51-50",
+        "record": "51-51",
         "score": null
       },
       "away": {
@@ -991,7 +991,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "51-50",
+        "record": "51-51",
         "score": null
       },
       "venue": {
@@ -1096,7 +1096,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "51-50",
+        "record": "51-51",
         "score": null
       },
       "venue": {
@@ -1219,7 +1219,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "51-50",
+        "record": "51-51",
         "score": null
       },
       "venue": {
@@ -1324,7 +1324,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "51-50",
+        "record": "51-51",
         "score": null
       },
       "venue": {
@@ -1429,7 +1429,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "51-50",
+        "record": "51-51",
         "score": null
       },
       "venue": {
@@ -1534,7 +1534,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "51-50",
+        "record": "51-51",
         "score": null
       },
       "venue": {
@@ -1639,7 +1639,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "51-50",
+        "record": "51-51",
         "score": null
       },
       "venue": {
