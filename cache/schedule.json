@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-22T18:42:09+00:00",
+  "fetched_at": "2026-07-22T19:45:07+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -232,8 +232,8 @@
       "game_pk": 824327,
       "date": "2026-07-22",
       "start_time_utc": "2026-07-22T19:10:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 115,
@@ -319,17 +319,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 2,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
+        "outs": 2,
         "home_runs": 0,
         "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "home_hits": 1,
+        "away_hits": 2,
         "home_errors": 0,
         "away_errors": 0
       },
