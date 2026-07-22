@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-22T17:23:34+00:00",
+  "fetched_at": "2026-07-22T18:42:09+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -241,7 +241,7 @@
         "name": "Colorado Rockies",
         "short_name": "Rockies",
         "record": "41-62",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 120,
@@ -249,7 +249,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "51-51",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 19,
@@ -279,7 +279,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -288,7 +288,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -297,7 +297,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "KOA 850 AM/94.1 FM ",
@@ -306,7 +306,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "KNRV 1150",
@@ -315,23 +315,23 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 3,
@@ -373,7 +373,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 641793,
+          "name": "Zack Littell",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -496,7 +500,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 656492,
+          "name": "Foster Griffin",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -601,7 +609,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 571945,
+          "name": "Miles Mikolas",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
