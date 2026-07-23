@@ -1,87 +1,71 @@
 {
   "data_version": 1,
-  "generated_at": "2026-07-23T04:17:59+00:00",
+  "generated_at": "2026-07-23T08:19:23+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-07-23T04:16:30+00:00",
-    "videos": "2026-07-23T00:14:24+00:00",
-    "vibes": "2026-07-23T04:17:58+00:00"
+    "news": "2026-07-23T08:18:15+00:00",
+    "videos": "2026-07-23T08:18:15+00:00",
+    "vibes": "2026-07-23T08:19:23+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-07-23T04:16:14+00:00",
+      "last_updated_at": "2026-07-23T08:18:09+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-07-23T04:16:16+00:00",
+      "last_updated_at": "2026-07-23T08:18:12+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-07-23T04:16:16+00:00",
+      "last_updated_at": "2026-07-23T08:18:13+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-07-23T04:16:17+00:00",
+      "last_updated_at": "2026-07-23T08:18:13+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-07-23T04:16:17+00:00",
+      "last_updated_at": "2026-07-23T08:18:13+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-07-23T04:16:18+00:00",
+      "last_updated_at": "2026-07-23T08:18:14+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-07-23T08:18:15+00:00",
+      "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-07-23T08:18:15+00:00",
+      "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "videos",
-      "reason": "last_check_too_old"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
-    {
-      "title": "Gabriel Hughes impresses again, but the Rockies suffer an 8-0 shutout by the Nationals",
-      "url": "https://sports.yahoo.com/articles/gabriel-hughes-impresses-again-rockies-223009120.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-07-22T22:30:09+00:00",
-      "why_it_matters": {
-        "text": "Gabriel Hughes performed well despite the Colorado Rockies suffering an 8-0 shutout loss to the Washington Nationals. The score remained 1-0 until a collapse occurred in the seventh inning.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/ny/api/res/1.2/w5yyL01pKG5KQCUzC.TuDA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/4b269ff8e66908f2c7f0dbd7fcd8de52"
-    },
     {
       "title": "Game #103 Nats in rubber game fight for a series win!",
       "url": "https://www.talknats.com/2026/07/22/game-103-nats-in-rubber-game-fight-for-a-series-win/",
       "source": "Talk Nats",
       "published_at": "2026-07-22T18:58:07+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals face the Colorado Rockies in a getaway game where Cade Cavalli takes the mound as they fight for a series win.",
+        "text": "The Washington Nationals face the Colorado Rockies in a getaway game where Cade Cavalli takes the mound as they compete for a series win.",
         "ai_generated": true
       },
       "image_url": "https://www.talknats.com/wp-content/uploads/2017/04/1eaf1e93a01acda57ab41c6ac998fa96c3140faba38a1a91c357aa4d955d18e1.jpg"
@@ -92,7 +76,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-07-22T18:01:59+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals face the Colorado Rockies in a critical series where staying above .500 and winning is pivotal for their playoff chances as the trade deadline approaches.",
+        "text": "The Washington Nationals face the Colorado Rockies in a critical game where staying above .500 and winning series are vital for their playoff chances as the trade deadline approaches.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2286515204.jpg?quality=90&strip=all&crop=0%2C10.739578250491%2C100%2C78.520843499018&w=1200"
@@ -103,7 +87,7 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-07-22T17:31:34+00:00",
       "why_it_matters": {
-        "text": "The Nationals are reportedly still assessing whether to trade left-hander Foster Griffin before the deadline or keep him on the roster.",
+        "text": "The Nationals are reportedly still assessing whether to trade left-hander Foster Griffin before the deadline or keep him for the remainder of the season.",
         "ai_generated": true
       },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/FosterGriffin-1024x683.jpg"
@@ -114,7 +98,7 @@
       "source": "CBS Sports MLB",
       "published_at": "2026-07-22T15:23:59+00:00",
       "why_it_matters": {
-        "text": "The article discusses current MLB trends leading up to the trade deadline, including the Yankees' impact without Aaron Judge, a defensive overhaul by the Twins, and a record involving the Nationals.",
+        "text": "The article discusses current MLB trends leading up to the trade deadline, including the Yankees' impact without Aaron Judge, a defensive overhaul by the Twins, and a dubious Nationals record.",
         "ai_generated": true
       },
       "image_url": "https://sportshub.cbsistatic.com/i/r/2026/07/21/06d31ab5-8b26-47c3-9305-f15cfe27725c/thumbnail/1200x675/1a8c51296d1f762aaf9742967be5beb1/bellinger-getty-1.png"
@@ -125,7 +109,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-07-22T15:17:39+00:00",
       "why_it_matters": {
-        "text": "Paul Toboni traded MacKenzie Gore to the Texas Rangers in January for five prospects. Six months later, the trade's progress is being evaluated for both teams.",
+        "text": "The article evaluates a January trade where the Oakland Athletics sent MacKenzie Gore to the Texas Rangers in exchange for five prospects with unique traits.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2286727970.jpg?quality=90&strip=all&crop=0%2C10.72973074976%2C100%2C78.540538500481&w=1200"
@@ -135,6 +119,10 @@
       "url": "https://www.talknats.com/2026/07/21/game-102-crunch-time-to-keep-climbing-above-500/",
       "source": "Talk Nats",
       "published_at": "2026-07-21T22:22:06+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals' bullpen delivered their best showing in weeks, providing 4⅔ scoreless innings. Riley Cornelio earned his first win, and Matt Krook recorded a hold.",
+        "ai_generated": true
+      },
       "image_url": "https://www.talknats.com/wp-content/uploads/2025/04/Colorado-Coors-Field-by-Grant-Cole.png"
     },
     {
@@ -143,6 +131,13 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-07-21T19:55:31+00:00",
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/Justin_Lawrence_Nationals-1024x683.jpg"
+    },
+    {
+      "title": "Five prospects the Washington Nationals could target in a Luis Garcia Jr. trade",
+      "url": "https://www.federalbaseball.com/nationals-trade-rumors/92829/five-prospects-washington-nationals-could-target-luis-garcia-jr-trade",
+      "source": "Federal Baseball",
+      "published_at": "2026-07-21T17:51:08+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2267130171.jpg?quality=90&strip=all&crop=0%2C10.736718674145%2C100%2C78.526562651709&w=1200"
     }
   ],
   "team_pulse": {
@@ -151,7 +146,7 @@
       "text": "Curly W! The Nats beat the Rockies 8-0."
     },
     "storyline": {
-      "text": "Gabriel Hughes performed well despite the Colorado Rockies suffering an 8-0 shutout loss to the Washington Nationals. The score remained 1-0 until a collapse occurred in the seventh inning.",
+      "text": "The Washington Nationals face the Colorado Rockies in a getaway game where Cade Cavalli takes the mound as they compete for a series win.",
       "ai_generated": true
     }
   },
@@ -204,26 +199,27 @@
     "ai_generated": true,
     "themes": [
       {
-        "label": "Strong Team Performance",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://sports.yahoo.com/articles/gabriel-hughes-impresses-again-rockies-223009120.html"
-        ]
-      },
-      {
-        "label": "High Stakes Competition",
+        "label": "Playoff Push Urgency",
         "sentiment": "positive",
         "source_urls": [
           "https://www.federalbaseball.com/washington-nationals-discussions/92857/washington-nationals-vs-colorado-rockies-game-thread",
-          "https://www.talknats.com/2026/07/22/game-103-nats-in-rubber-game-fight-for-a-series-win/"
+          "https://www.talknats.com/2026/07/21/game-102-crunch-time-to-keep-climbing-above-500/"
         ]
       },
       {
-        "label": "Roster and Trade Uncertainty",
+        "label": "Roster Management Decisions",
         "sentiment": "mixed",
         "source_urls": [
           "https://www.federalbaseball.com/washington-nationals-analysis/92849/checking-in-on-the-mackenzie-gore-trade",
           "https://www.mlbtraderumors.com/2026/07/nationals-reportedly-considering-keeping-foster-griffin.html"
+        ]
+      },
+      {
+        "label": "Performance & Records",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.cbssports.com/mlb/news/mlb-trends-yankees-offense-twins-defense-nationals-blown-saves/",
+          "https://www.talknats.com/2026/07/21/game-102-crunch-time-to-keep-climbing-above-500/"
         ]
       }
     ]
@@ -235,18 +231,8 @@
       "context": "Washington Nationals vs Colorado Rockies Game Thread",
       "source_urls": [
         "https://www.cbssports.com/mlb/news/mlb-trends-yankees-offense-twins-defense-nationals-blown-saves/",
-        "https://www.federalbaseball.com/washington-nationals-analysis/92849/checking-in-on-the-mackenzie-gore-trade",
         "https://www.federalbaseball.com/washington-nationals-discussions/92857/washington-nationals-vs-colorado-rockies-game-thread",
         "https://www.mlbtraderumors.com/2026/07/nationals-reportedly-considering-keeping-foster-griffin.html"
-      ]
-    },
-    {
-      "label": "Rockies",
-      "sentiment": "",
-      "context": "Gabriel Hughes impresses again, but the Rockies suffer an 8-0 shutout by the Nationals",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/gabriel-hughes-impresses-again-rockies-223009120.html",
-        "https://www.federalbaseball.com/washington-nationals-discussions/92857/washington-nationals-vs-colorado-rockies-game-thread"
       ]
     },
     {
@@ -262,6 +248,7 @@
       "sentiment": "",
       "context": "Game #103 Nats in rubber game fight for a series win!",
       "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-discussions/92857/washington-nationals-vs-colorado-rockies-game-thread",
         "https://www.talknats.com/2026/07/22/game-103-nats-in-rubber-game-fight-for-a-series-win/"
       ]
     },
@@ -295,6 +282,14 @@
       "context": "MLB trends: Where the Yankees miss Aaron Judge most, a Twins defensive overhaul and a dubious Nationals record",
       "source_urls": [
         "https://www.cbssports.com/mlb/news/mlb-trends-yankees-offense-twins-defense-nationals-blown-saves/"
+      ]
+    },
+    {
+      "label": "Trade Analysis",
+      "sentiment": "",
+      "context": "Checking In On The MacKenzie Gore Trade",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/92849/checking-in-on-the-mackenzie-gore-trade"
       ]
     }
   ],
