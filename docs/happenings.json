@@ -1,63 +1,68 @@
 {
   "data_version": 1,
-  "generated_at": "2026-07-24T00:25:51+00:00",
+  "generated_at": "2026-07-24T04:27:50+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-07-24T00:25:01+00:00",
+    "news": "2026-07-24T04:26:10+00:00",
     "videos": "2026-07-24T00:25:01+00:00",
-    "vibes": "2026-07-24T00:25:51+00:00"
+    "vibes": "2026-07-24T04:27:50+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-07-24T00:24:53+00:00",
+      "last_updated_at": "2026-07-24T04:25:56+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-07-24T00:24:53+00:00",
+      "last_updated_at": "2026-07-24T04:25:57+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-07-24T00:24:54+00:00",
+      "last_updated_at": "2026-07-24T04:25:57+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-07-24T00:24:54+00:00",
+      "last_updated_at": "2026-07-24T04:25:57+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-07-24T00:24:59+00:00",
+      "last_updated_at": "2026-07-24T04:25:58+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-07-24T00:25:00+00:00",
+      "last_updated_at": "2026-07-24T04:25:59+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-07-24T00:25:00+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-07-24T00:25:01+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    }
+  ],
   "top_stories": [
     {
       "title": "Nationals Outright Justin Lawrence",
@@ -65,7 +70,7 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-07-23T20:51:32+00:00",
       "why_it_matters": {
-        "text": "The Nationals announced that right-handed reliever Justin Lawrence was assigned outright to Triple-A Rochester after clearing waivers unclaimed. Lawrence chose to accept the assignment rather than electing free agency and forfeiting his remaining $1.225MM contract guarantee.",
+        "text": "The Nationals announced that right-handed reliever Justin Lawrence was assigned outright to Triple-A Rochester after clearing waivers. Lawrence chose to accept the assignment rather than electing free agency and forfeiting his remaining $1.225 million contract guarantee.",
         "ai_generated": true
       },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/justin-lawrence-nationals-1024x683.jpg"
@@ -76,7 +81,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-07-23T17:31:58+00:00",
       "why_it_matters": {
-        "text": "Cade Cavalli has served as a stabilizing force for the Washington Nationals rotation despite entering the season with high expectations, uncertainty, and an unproven status due to his injury history.",
+        "text": "Cade Cavalli has served as a stabilizing force for the Washington Nationals rotation despite entering the season with high expectations, uncertainty regarding his unproven status, and a history of injuries.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2286611242.jpg?quality=90&strip=all&crop=0%2C10.743992708026%2C100%2C78.512014583948&w=1200"
@@ -87,7 +92,7 @@
       "source": "Talk Nats",
       "published_at": "2026-07-23T14:16:00+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals have announced the signings of 18 out of 20 players from the 2026 First-Year Player Draft, which included eight un-drafted free agents. The announcements were made by Paul Toboni and Justin Horowitz.",
+        "text": "The Washington Nationals announced the signing of 18 out of 20 players from the 2026 First-Year Player Draft, which included eight undrafted free agents. The announcements were made by Paul Toboni and Justin Horowitz.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/07/Paul-Toboni-Devin-Pearson-Mike-DeBartolo-Desmond-McGowan-Justin-Horowitz.jpg?fit=493%2C256&ssl=1"
@@ -98,7 +103,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-07-23T13:47:35+00:00",
       "why_it_matters": {
-        "text": "CJ Abrams aims to improve his consistency during the second half of the season for the Washington Nationals after experiencing performance drops in previous years following the All-Star Break.",
+        "text": "CJ Abrams aims to improve his performance consistency during the second half of the season for the Washington Nationals after experiencing a decline in production following the All-Star Break in previous years.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2286507420.jpg?quality=90&strip=all&crop=0%2C10.783391245321%2C100%2C78.433217509359&w=1200"
@@ -109,7 +114,7 @@
       "source": "Talk Nats",
       "published_at": "2026-07-23T03:40:03+00:00",
       "why_it_matters": {
-        "text": "The Nationals won their three-game series against the Rockies following a strong performance by Cade Cavalli and a six-run seventh inning.",
+        "text": "The Nationals won their three-game series against the Rockies following a strong performance by Cade Cavalli and a six-run seventh inning, overcoming a previous poor outing.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/06/IMG-20260601-WA0051-1.jpg?fit=1200%2C973&ssl=1"
@@ -120,7 +125,7 @@
       "source": "Talk Nats",
       "published_at": "2026-07-22T18:43:53+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals will face the Colorado Rockies in Game 103 of their series, with Cade Cavalli taking the mound for a chance to secure a series win.",
+        "text": "The Washington Nationals will face the Colorado Rockies in Game 103, with Cade Cavalli taking the mound for a chance to secure a series win.",
         "ai_generated": true
       },
       "image_url": "https://nats.talkdcsports.com/wp-content/uploads/2026/07/1000077249.jpg"
@@ -146,7 +151,7 @@
       "text": "Curly W! The Nats beat the Rockies 8-0."
     },
     "storyline": {
-      "text": "The Nationals announced that right-handed reliever Justin Lawrence was assigned outright to Triple-A Rochester after clearing waivers unclaimed. Lawrence chose to accept the assignment rather than electing free agency and forfeiting his remaining $1.225MM contract guarantee.",
+      "text": "The Nationals announced that right-handed reliever Justin Lawrence was assigned outright to Triple-A Rochester after clearing waivers. Lawrence chose to accept the assignment rather than electing free agency and forfeiting his remaining $1.225 million contract guarantee.",
       "ai_generated": true
     }
   },
@@ -216,7 +221,7 @@
         ]
       },
       {
-        "label": "CJ Abrams consistency",
+        "label": "Player development goals",
         "sentiment": "mixed",
         "source_urls": [
           "https://www.federalbaseball.com/washington-nationals-analysis/92863/cj-abrams-looking-exorcise-second-half-demons-washington-nationals"
@@ -236,7 +241,7 @@
       ]
     },
     {
-      "label": "Justin Lawrence",
+      "label": "roster moves",
       "sentiment": "",
       "context": "Nationals Outright Justin Lawrence",
       "source_urls": [
@@ -244,7 +249,7 @@
       ]
     },
     {
-      "label": "Roster Move",
+      "label": "Justin Lawrence",
       "sentiment": "",
       "context": "Nationals Outright Justin Lawrence",
       "source_urls": [
@@ -260,19 +265,11 @@
       ]
     },
     {
-      "label": "Contract",
+      "label": "contract",
       "sentiment": "",
       "context": "Nationals Outright Justin Lawrence",
       "source_urls": [
         "https://www.mlbtraderumors.com/2026/07/nationals-outright-justin-lawrence.html"
-      ]
-    },
-    {
-      "label": "rotation",
-      "sentiment": "",
-      "context": "Cade Cavalli has been a stabilizing force in the Washington Nationals rotation",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/92871/cade-cavalli-been-stabilizing-force-in-washington-nationals-rotation"
       ]
     },
     {
@@ -289,6 +286,14 @@
       "context": "2026 Draft and UDFA signings announced; Strategies revealed!",
       "source_urls": [
         "https://nats.talkdcsports.com/2026/07/23/2026-draft-and-udfa-signings-announced-strategies-revealed/"
+      ]
+    },
+    {
+      "label": "CJ Abrams",
+      "sentiment": "",
+      "context": "CJ Abrams is looking to exorcise his second half demons for the Washington Nationals",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/92863/cj-abrams-looking-exorcise-second-half-demons-washington-nationals"
       ]
     }
   ],
