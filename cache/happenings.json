@@ -1,82 +1,84 @@
 {
   "data_version": 1,
-  "generated_at": "2026-07-24T19:57:05+00:00",
-  "mode": "rss_fallback",
+  "generated_at": "2026-07-24T20:36:08+00:00",
+  "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-07-24T19:57:03+00:00",
-    "videos": "2026-07-24T19:57:03+00:00",
-    "vibes": null
+    "news": "2026-07-24T20:34:41+00:00",
+    "videos": "2026-07-24T20:34:41+00:00",
+    "vibes": "2026-07-24T20:36:08+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-07-24T19:57:01+00:00",
+      "last_updated_at": "2026-07-24T20:34:36+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-07-24T19:57:01+00:00",
+      "last_updated_at": "2026-07-24T20:34:37+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-07-24T19:57:01+00:00",
+      "last_updated_at": "2026-07-24T20:34:38+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-07-24T20:34:38+00:00",
+      "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-07-24T19:57:01+00:00",
+      "last_updated_at": "2026-07-24T20:34:38+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-07-24T19:57:02+00:00",
+      "last_updated_at": "2026-07-24T20:34:40+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-07-24T19:57:03+00:00",
+      "last_updated_at": "2026-07-24T20:34:40+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-07-24T19:57:03+00:00",
+      "last_updated_at": "2026-07-24T20:34:41+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "why_it_matters",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "trending",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
+    {
+      "title": "Game #104 Nats have a tough matchup tonight!",
+      "url": "https://nats.talkdcsports.com/2026/07/24/game-104-nats-have-a-tough-matchup-tonight/",
+      "source": "Talk Nats",
+      "published_at": "2026-07-24T19:58:24+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals face a tough matchup tonight following a scheduled day off. The day began with a pregame press conference featuring first-round draft pick Chris Hacopian, and the team will host a free concert by Jason Derulo after the game.",
+        "ai_generated": true
+      },
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/07/Curtis-Mead-James-Wood-CJ-Abrams-by-Intrepid.jpg?fit=1200%2C741&ssl=1"
+    },
     {
       "title": "Series Preview #34: Diamondbacks @ Nationals",
       "url": "https://sports.yahoo.com/articles/series-preview-34-diamondbacks-nationals-172350021.html",
       "source": "Yahoo Sports MLB",
       "published_at": "2026-07-24T17:23:50+00:00",
+      "why_it_matters": {
+        "text": "The Diamondbacks face the Nationals, who are noted as having a tough offense and being a difficult opponent.",
+        "ai_generated": true
+      },
       "image_url": "https://s.yimg.com/ny/api/res/1.2/p5b4LmacKVA1Fn_T_jKqMQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/5b3e1f48ae9c058adeb98c9284d9faea"
     },
     {
@@ -84,6 +86,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-game-information/92890/nationals-series-with-d-backs-most-important-years",
       "source": "Federal Baseball",
       "published_at": "2026-07-24T15:40:41+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals face the Arizona Diamondbacks in what is described as their most important series in years. The Nationals are looking to challenge the Diamondbacks, who currently hold the third Wild Card spot and lead the Nationals by two games.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2286601843.jpg?quality=90&strip=all&crop=0%2C10.75332462767%2C100%2C78.49335074466&w=1200"
     },
     {
@@ -91,6 +97,10 @@
       "url": "https://nats.talkdcsports.com/2026/07/24/if-toboni-is-buying-he-has-at-least-2-easy-holes-to-fill/",
       "source": "Talk Nats",
       "published_at": "2026-07-24T14:30:00+00:00",
+      "why_it_matters": {
+        "text": "Fans and players are seeking hope and a legitimate chance to win, questioning if they should purchase tickets for games featuring specific pitchers or for the free Jason Derulo concert following the game.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/07/Blake-Butera-lineup-card-Sol-Tucker-Sacramnento.jpg?fit=891%2C846&ssl=1"
     },
     {
@@ -98,6 +108,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/92880/should-washington-nationals-consider-bringing-back-max-scherzer",
       "source": "Federal Baseball",
       "published_at": "2026-07-24T13:42:11+00:00",
+      "why_it_matters": {
+        "text": "The article discusses whether the Washington Nationals should bring back Max Scherzer after he performed well during a rehab assignment for the Blue Jays against the Nationals' Triple-A affiliate.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2280332125.jpg?quality=90&strip=all&crop=0%2C10.748578818891%2C100%2C78.502842362217&w=1200"
     },
     {
@@ -105,6 +119,10 @@
       "url": "https://www.cbssports.com/mlb/news/mlb-trade-deadline-nationals-foster-griffin/",
       "source": "CBS Sports MLB",
       "published_at": "2026-07-24T12:50:38+00:00",
+      "why_it_matters": {
+        "text": "Nationals pitcher Foster Griffin, who has a 2.68 ERA, is being highlighted as a potential trade deadline gem while the team debates whether to keep him.",
+        "ai_generated": true
+      },
       "image_url": "https://sportshub.cbsistatic.com/i/r/2026/07/23/67598d41-a574-4104-89d7-a94a05f83d03/thumbnail/1200x675/75155529548e7b58f8544493432a2d27/foster-griffin-getty.png"
     },
     {
@@ -120,19 +138,16 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-07-23T20:51:32+00:00",
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/justin-lawrence-nationals-1024x683.jpg"
-    },
-    {
-      "title": "Cade Cavalli has been a stabilizing force in the Washington Nationals rotation",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/92871/cade-cavalli-been-stabilizing-force-in-washington-nationals-rotation",
-      "source": "Federal Baseball",
-      "published_at": "2026-07-23T17:31:58+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2286611242.jpg?quality=90&strip=all&crop=0%2C10.743992708026%2C100%2C78.512014583948&w=1200"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "win",
       "text": "Curly W! The Nats beat the Rockies 8-0."
+    },
+    "storyline": {
+      "text": "The Washington Nationals face a tough matchup tonight following a scheduled day off. The day began with a pregame press conference featuring first-round draft pick Chris Hacopian, and the team will host a free concert by Jason Derulo after the game.",
+      "ai_generated": true
     }
   },
   "videos": [
@@ -180,11 +195,110 @@
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "mixed",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "High-Stakes Matchup",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://sports.yahoo.com/articles/series-preview-34-diamondbacks-nationals-172350021.html",
+          "https://www.federalbaseball.com/washington-nationals-game-information/92890/nationals-series-with-d-backs-most-important-years"
+        ]
+      },
+      {
+        "label": "Roster & Strategy Speculation",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.cbssports.com/mlb/news/mlb-trade-deadline-nationals-foster-griffin/",
+          "https://www.federalbaseball.com/washington-nationals-analysis/92880/should-washington-nationals-consider-bringing-back-max-scherzer"
+        ]
+      },
+      {
+        "label": "Fan Engagement & Events",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/07/24/game-104-nats-have-a-tough-matchup-tonight/",
+          "https://nats.talkdcsports.com/2026/07/24/if-toboni-is-buying-he-has-at-least-2-easy-holes-to-fill/"
+        ]
+      },
+      {
+        "label": "Pitching Uncertainty",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/07/24/if-toboni-is-buying-he-has-at-least-2-easy-holes-to-fill/"
+        ]
+      }
+    ]
   },
-  "trending": [],
+  "trending": [
+    {
+      "label": "Jason Derulo",
+      "sentiment": "",
+      "context": "Game #104 Nats have a tough matchup tonight!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/07/24/game-104-nats-have-a-tough-matchup-tonight/",
+        "https://nats.talkdcsports.com/2026/07/24/if-toboni-is-buying-he-has-at-least-2-easy-holes-to-fill/"
+      ]
+    },
+    {
+      "label": "Diamondbacks",
+      "sentiment": "",
+      "context": "Series Preview #34: Diamondbacks @ Nationals",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/series-preview-34-diamondbacks-nationals-172350021.html",
+        "https://www.federalbaseball.com/washington-nationals-game-information/92890/nationals-series-with-d-backs-most-important-years"
+      ]
+    },
+    {
+      "label": "Chris Hacopian",
+      "sentiment": "",
+      "context": "Game #104 Nats have a tough matchup tonight!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/07/24/game-104-nats-have-a-tough-matchup-tonight/"
+      ]
+    },
+    {
+      "label": "concert",
+      "sentiment": "",
+      "context": "Game #104 Nats have a tough matchup tonight!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/07/24/game-104-nats-have-a-tough-matchup-tonight/"
+      ]
+    },
+    {
+      "label": "press conference",
+      "sentiment": "",
+      "context": "Game #104 Nats have a tough matchup tonight!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/07/24/game-104-nats-have-a-tough-matchup-tonight/"
+      ]
+    },
+    {
+      "label": "Wild Card",
+      "sentiment": "",
+      "context": "The Washington Nationals upcoming series with the D-Backs is their most important in years",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-game-information/92890/nationals-series-with-d-backs-most-important-years"
+      ]
+    },
+    {
+      "label": "Series",
+      "sentiment": "",
+      "context": "The Washington Nationals upcoming series with the D-Backs is their most important in years",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-game-information/92890/nationals-series-with-d-backs-most-important-years"
+      ]
+    },
+    {
+      "label": "Matchup",
+      "sentiment": "",
+      "context": "The Washington Nationals upcoming series with the D-Backs is their most important in years",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-game-information/92890/nationals-series-with-d-backs-most-important-years"
+      ]
+    }
+  ],
   "what_to_watch": [
     {
       "text": "The Nats host the D-backs on Friday.",
