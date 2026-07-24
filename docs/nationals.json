@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-24T22:31:36+00:00",
+  "fetched_at": "2026-07-24T23:40:12+00:00",
   "freshness": {
-    "schedule": "2026-07-24T22:31:35+00:00",
-    "standings": "2026-07-24T22:31:35+00:00",
+    "schedule": "2026-07-24T23:40:11+00:00",
+    "standings": "2026-07-24T23:40:12+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-07-24T19:48:25+00:00",
-    "weather": "2026-07-24T22:31:36+00:00"
+    "weather": "2026-07-24T23:40:12+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -16,7 +16,7 @@
     "date": "2026-07-24",
     "start_time_utc": "2026-07-24T22:45:00Z",
     "status": "Live",
-    "detailed_status": "Warmup",
+    "detailed_status": "In Progress",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -32,7 +32,7 @@
       "name": "Arizona Diamondbacks",
       "short_name": "D-backs",
       "record": "54-49",
-      "score": 0
+      "score": 2
     },
     "venue": {
       "id": 3309,
@@ -120,17 +120,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 1,
+      "current_inning": 3,
       "inning_half": "Top",
-      "inning_state": "Top",
+      "inning_state": "Middle",
       "is_top_inning": true,
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0,
+      "balls": 1,
+      "strikes": 1,
+      "outs": 3,
       "home_runs": 0,
-      "away_runs": 0,
-      "home_hits": 0,
-      "away_hits": 0,
+      "away_runs": 2,
+      "home_hits": 2,
+      "away_hits": 4,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -154,14 +154,14 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-24T22:31:36+00:00",
+    "fetched_at": "2026-07-24T23:40:12+00:00",
     "source": "open_meteo",
     "game_pk": 822707,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-07-24T23:00",
-    "temperature_f": 78.9,
-    "feels_like_f": 78.1,
-    "wind_mph": 6.9,
+    "temperature_f": 78.7,
+    "feels_like_f": 77.6,
+    "wind_mph": 6.7,
     "wind_dir": "E",
     "precip_chance": 0,
     "precip_inches": 0.0,
@@ -180,7 +180,7 @@
       "date": "2026-07-24",
       "start_time_utc": "2026-07-24T22:45:00Z",
       "status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -196,7 +196,7 @@
         "name": "Arizona Diamondbacks",
         "short_name": "D-backs",
         "record": "54-49",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 3309,
@@ -284,17 +284,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 3,
         "inning_half": "Top",
-        "inning_state": "Top",
+        "inning_state": "Middle",
         "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "balls": 1,
+        "strikes": 1,
+        "outs": 3,
         "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "away_runs": 2,
+        "home_hits": 2,
+        "away_hits": 4,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -820,7 +820,7 @@
       "date": "2026-07-24",
       "start_time_utc": "2026-07-24T22:45:00Z",
       "status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -836,7 +836,7 @@
         "name": "Arizona Diamondbacks",
         "short_name": "D-backs",
         "record": "54-49",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 3309,
@@ -924,17 +924,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 3,
         "inning_half": "Top",
-        "inning_state": "Top",
+        "inning_state": "Middle",
         "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "balls": 1,
+        "strikes": 1,
+        "outs": 3,
         "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "away_runs": 2,
+        "home_hits": 2,
+        "away_hits": 4,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -2912,19 +2912,19 @@
           "abbrev": "COL",
           "name": "Colorado Rockies",
           "short_name": "Rockies",
-          "wins": 41,
+          "wins": 42,
           "losses": 63,
-          "pct": ".394",
-          "gb": "24.5",
-          "wc_gb": "13.5",
-          "streak": "L1",
-          "last_ten": "3-7",
+          "pct": ".400",
+          "gb": "24.0",
+          "wc_gb": "13.0",
+          "streak": "W1",
+          "last_ten": "4-6",
           "division_rank": 5,
           "league_rank": 15,
           "wc_rank": 12,
-          "run_diff": -101,
-          "runs_scored": 495,
-          "runs_allowed": 596,
+          "run_diff": -98,
+          "runs_scored": 500,
+          "runs_allowed": 598,
           "elim_num": "35"
         }
       ]
@@ -2940,18 +2940,18 @@
           "name": "Milwaukee Brewers",
           "short_name": "Brewers",
           "wins": 64,
-          "losses": 38,
-          "pct": ".627",
+          "losses": 39,
+          "pct": ".621",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "W1",
-          "last_ten": "6-4",
+          "streak": "L1",
+          "last_ten": "5-5",
           "division_rank": 1,
           "league_rank": 2,
           "wc_rank": null,
-          "run_diff": 133,
-          "runs_scored": 514,
-          "runs_allowed": 381,
+          "run_diff": 130,
+          "runs_scored": 516,
+          "runs_allowed": 386,
           "elim_num": "-"
         },
         {
@@ -2962,7 +2962,7 @@
           "wins": 57,
           "losses": 45,
           "pct": ".559",
-          "gb": "7.0",
+          "gb": "6.5",
           "wc_gb": "+3.5",
           "streak": "L1",
           "last_ten": "5-5",
@@ -2982,7 +2982,7 @@
           "wins": 53,
           "losses": 50,
           "pct": ".515",
-          "gb": "11.5",
+          "gb": "11.0",
           "wc_gb": "1.0",
           "streak": "L1",
           "last_ten": "6-4",
@@ -3002,7 +3002,7 @@
           "wins": 52,
           "losses": 50,
           "pct": ".510",
-          "gb": "12.0",
+          "gb": "11.5",
           "wc_gb": "1.5",
           "streak": "L1",
           "last_ten": "4-6",
@@ -3022,7 +3022,7 @@
           "wins": 47,
           "losses": 54,
           "pct": ".465",
-          "gb": "16.5",
+          "gb": "16.0",
           "wc_gb": "6.0",
           "streak": "W2",
           "last_ten": "5-5",

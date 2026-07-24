@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-24T22:31:35+00:00",
+  "fetched_at": "2026-07-24T23:40:11+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -120,7 +120,7 @@
       "date": "2026-07-24",
       "start_time_utc": "2026-07-24T22:45:00Z",
       "status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -136,7 +136,7 @@
         "name": "Arizona Diamondbacks",
         "short_name": "D-backs",
         "record": "54-49",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 3309,
@@ -224,17 +224,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 3,
         "inning_half": "Top",
-        "inning_state": "Top",
+        "inning_state": "Middle",
         "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "balls": 1,
+        "strikes": 1,
+        "outs": 3,
         "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "away_runs": 2,
+        "home_hits": 2,
+        "away_hits": 4,
         "home_errors": 0,
         "away_errors": 0
       },
