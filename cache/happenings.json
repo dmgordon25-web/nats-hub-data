@@ -1,84 +1,110 @@
 {
   "data_version": 1,
-  "generated_at": "2026-07-24T12:33:00+00:00",
-  "mode": "falkor_enriched",
+  "generated_at": "2026-07-24T16:34:29+00:00",
+  "mode": "rss_fallback",
   "freshness": {
-    "news": "2026-07-24T12:31:10+00:00",
-    "videos": "2026-07-24T12:31:10+00:00",
-    "vibes": "2026-07-24T12:33:00+00:00"
+    "news": "2026-07-24T16:33:12+00:00",
+    "videos": "2026-07-24T16:33:12+00:00",
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-07-24T12:31:07+00:00",
+      "last_updated_at": "2026-07-24T16:33:08+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-07-24T12:31:07+00:00",
+      "last_updated_at": "2026-07-24T16:33:09+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-07-24T12:31:08+00:00",
+      "last_updated_at": "2026-07-24T16:33:10+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-07-24T12:31:08+00:00",
+      "last_updated_at": "2026-07-24T16:33:10+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-07-24T12:31:08+00:00",
+      "last_updated_at": "2026-07-24T16:33:10+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-07-24T12:31:10+00:00",
+      "last_updated_at": "2026-07-24T16:33:12+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-07-24T12:31:10+00:00",
+      "last_updated_at": "2026-07-24T16:33:12+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-07-24T12:31:10+00:00",
+      "last_updated_at": "2026-07-24T16:33:12+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "why_it_matters",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "trending",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
+    }
+  ],
   "top_stories": [
     {
-      "title": "Ted Williams, James Wood, and some PA/P history",
-      "url": "https://sports.yahoo.com/articles/ted-williams-james-wood-pa-120000131.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-07-24T12:00:00+00:00",
-      "why_it_matters": {
-        "text": "A deeper dive into a viral statistic involving Ted Williams, James Wood, and Pennsylvania baseball history.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/ny/api/res/1.2/gQ2ULJnT.CBJW3uCf6dJmQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/10ca494a1e91946b3630c0f2038a1ae2"
+      "title": "The Washington Nationals upcoming series with the D-Backs is their most important in years",
+      "url": "https://www.federalbaseball.com/washington-nationals-game-information/92890/nationals-series-with-d-backs-most-important-years",
+      "source": "Federal Baseball",
+      "published_at": "2026-07-24T15:40:41+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2286601843.jpg?quality=90&strip=all&crop=0%2C10.75332462767%2C100%2C78.49335074466&w=1200"
+    },
+    {
+      "title": "If Toboni is buying, he has at least 2 obvious holes to fill!",
+      "url": "https://nats.talkdcsports.com/2026/07/24/if-toboni-is-buying-he-has-at-least-2-easy-holes-to-fill/",
+      "source": "Talk Nats",
+      "published_at": "2026-07-24T14:30:00+00:00",
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/07/Screenshot_20260724_094643_X.jpg?fit=859%2C810&ssl=1"
+    },
+    {
+      "title": "Should the Washington Nationals consider bringing back Max Scherzer?",
+      "url": "https://www.federalbaseball.com/washington-nationals-analysis/92880/should-washington-nationals-consider-bringing-back-max-scherzer",
+      "source": "Federal Baseball",
+      "published_at": "2026-07-24T13:42:11+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2280332125.jpg?quality=90&strip=all&crop=0%2C10.748578818891%2C100%2C78.502842362217&w=1200"
+    },
+    {
+      "title": "From Japan to potential trade deadline gem: Nationals' Foster Griffin is one of MLB's biggest success stories",
+      "url": "https://www.cbssports.com/mlb/news/mlb-trade-deadline-nationals-foster-griffin/",
+      "source": "CBS Sports MLB",
+      "published_at": "2026-07-24T12:50:38+00:00",
+      "image_url": "https://sportshub.cbsistatic.com/i/r/2026/07/23/67598d41-a574-4104-89d7-a94a05f83d03/thumbnail/1200x675/75155529548e7b58f8544493432a2d27/foster-griffin-getty.png"
     },
     {
       "title": "“Sometimes, the best trades are the ones you don’t make.” — Red Auerbach",
       "url": "https://nats.talkdcsports.com/2026/07/24/sometimes-the-best-trades-are-the-ones-you-dont-make-red-auerbach/",
       "source": "Talk Nats",
       "published_at": "2026-07-24T05:28:00+00:00",
-      "why_it_matters": {
-        "text": "Red Auerbach, who played for the Harrisburg Senators and George Washington University before becoming a legendary Celtics coach and executive with 16 championship rings, is quoted on the value of not making certain trades.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/03/Paul-Toboni-and-Mark-Lerner-by-Intrepid-3-23-2026-scaled-1.jpg?fit=1200%2C804&ssl=1"
     },
     {
@@ -86,10 +112,6 @@
       "url": "https://www.mlbtraderumors.com/2026/07/nationals-outright-justin-lawrence.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-07-23T20:51:32+00:00",
-      "why_it_matters": {
-        "text": "The Nationals announced that right-handed reliever Justin Lawrence was assigned outright to Triple-A Rochester after clearing waivers unclaimed following a DFA. Lawrence chose to accept the assignment rather than electing free agency and forfeiting his remaining $1.225MM contract guarantee.",
-        "ai_generated": true
-      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/justin-lawrence-nationals-1024x683.jpg"
     },
     {
@@ -97,10 +119,6 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/92871/cade-cavalli-been-stabilizing-force-in-washington-nationals-rotation",
       "source": "Federal Baseball",
       "published_at": "2026-07-23T17:31:58+00:00",
-      "why_it_matters": {
-        "text": "Cade Cavalli has served as a stabilizing force for the Washington Nationals rotation despite entering the season with high expectations, uncertainty, and an unproven status due to his injury history.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2286611242.jpg?quality=90&strip=all&crop=0%2C10.743992708026%2C100%2C78.512014583948&w=1200"
     },
     {
@@ -108,46 +126,13 @@
       "url": "https://nats.talkdcsports.com/2026/07/23/2026-draft-and-udfa-signings-announced-strategies-revealed/",
       "source": "Talk Nats",
       "published_at": "2026-07-23T14:16:00+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals announced the signing of 18 players from the 2026 First-Year Player Draft, which included eight undrafted free agents. The announcements were made by Paul Toboni and Justin Horowitz.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/07/Paul-Toboni-Devin-Pearson-Mike-DeBartolo-Desmond-McGowan-Justin-Horowitz.jpg?fit=493%2C256&ssl=1"
-    },
-    {
-      "title": "CJ Abrams is looking to exorcise his second half demons for the Washington Nationals",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/92863/cj-abrams-looking-exorcise-second-half-demons-washington-nationals",
-      "source": "Federal Baseball",
-      "published_at": "2026-07-23T13:47:35+00:00",
-      "why_it_matters": {
-        "text": "CJ Abrams aims to improve his performance consistency during the second half of the season for the Washington Nationals after struggling with declining numbers in previous years following the All-Star Break.",
-        "ai_generated": true
-      },
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2286507420.jpg?quality=90&strip=all&crop=0%2C10.783391245321%2C100%2C78.433217509359&w=1200"
-    },
-    {
-      "title": "Postgamer #103: Nats take the series from Colorado behind Cavalli’s gem and balanced offensive attack: A recap",
-      "url": "https://nats.talkdcsports.com/2026/07/22/postgamer-103-nats-take-the-series-from-colorado-behind-cavallis-gem-and-balanced-offensive-attack-a-recap/",
-      "source": "Talk Nats",
-      "published_at": "2026-07-23T03:40:03+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/06/IMG-20260601-WA0051-1.jpg?fit=1200%2C973&ssl=1"
-    },
-    {
-      "title": "Game #103 Cavalli will try to get the Nats a series win!",
-      "url": "https://nats.talkdcsports.com/2026/07/22/game-103-cavalli-will-try-to-get-the-nats-a-series-win/",
-      "source": "Talk Nats",
-      "published_at": "2026-07-22T18:43:53+00:00",
-      "image_url": "https://nats.talkdcsports.com/wp-content/uploads/2026/07/1000077249.jpg"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "win",
       "text": "Curly W! The Nats beat the Rockies 8-0."
-    },
-    "storyline": {
-      "text": "A deeper dive into a viral statistic involving Ted Williams, James Wood, and Pennsylvania baseball history.",
-      "ai_generated": true
     }
   },
   "videos": [
@@ -195,105 +180,11 @@
     }
   ],
   "fan_vibes": {
-    "overall": "mixed",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "Roster Management",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.mlbtraderumors.com/2026/07/nationals-outright-justin-lawrence.html"
-        ]
-      },
-      {
-        "label": "Pitching Stability",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/92871/cade-cavalli-been-stabilizing-force-in-washington-nationals-rotation"
-        ]
-      },
-      {
-        "label": "Draft and Development",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/07/23/2026-draft-and-udfa-signings-announced-strategies-revealed/"
-        ]
-      },
-      {
-        "label": "Player Performance Goals",
-        "sentiment": "mixed",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/92863/cj-abrams-looking-exorcise-second-half-demons-washington-nationals"
-        ]
-      }
-    ]
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
   },
-  "trending": [
-    {
-      "label": "Ted Williams",
-      "sentiment": "",
-      "context": "Ted Williams, James Wood, and some PA/P history",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/ted-williams-james-wood-pa-120000131.html"
-      ]
-    },
-    {
-      "label": "James Wood",
-      "sentiment": "",
-      "context": "Ted Williams, James Wood, and some PA/P history",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/ted-williams-james-wood-pa-120000131.html"
-      ]
-    },
-    {
-      "label": "PA/P history",
-      "sentiment": "",
-      "context": "Ted Williams, James Wood, and some PA/P history",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/ted-williams-james-wood-pa-120000131.html"
-      ]
-    },
-    {
-      "label": "Red Auerbach",
-      "sentiment": "",
-      "context": "“Sometimes, the best trades are the ones you don’t make.” — Red Auerbach",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/07/24/sometimes-the-best-trades-are-the-ones-you-dont-make-red-auerbach/"
-      ]
-    },
-    {
-      "label": "Celtics",
-      "sentiment": "",
-      "context": "“Sometimes, the best trades are the ones you don’t make.” — Red Auerbach",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/07/24/sometimes-the-best-trades-are-the-ones-you-dont-make-red-auerbach/"
-      ]
-    },
-    {
-      "label": "basketball",
-      "sentiment": "",
-      "context": "“Sometimes, the best trades are the ones you don’t make.” — Red Auerbach",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/07/24/sometimes-the-best-trades-are-the-ones-you-dont-make-red-auerbach/"
-      ]
-    },
-    {
-      "label": "sports history",
-      "sentiment": "",
-      "context": "“Sometimes, the best trades are the ones you don’t make.” — Red Auerbach",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/07/24/sometimes-the-best-trades-are-the-ones-you-dont-make-red-auerbach/"
-      ]
-    },
-    {
-      "label": "Justin Lawrence",
-      "sentiment": "",
-      "context": "Nationals Outright Justin Lawrence",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/07/nationals-outright-justin-lawrence.html"
-      ]
-    }
-  ],
+  "trending": [],
   "what_to_watch": [
     {
       "text": "The Nats host the D-backs on Friday.",
