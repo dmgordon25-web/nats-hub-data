@@ -1,120 +1,7 @@
 {
-  "fetched_at": "2026-07-23T23:36:40+00:00",
+  "fetched_at": "2026-07-24T00:09:46+00:00",
   "source": "mlb_statsapi",
   "games": [
-    {
-      "game_pk": 824329,
-      "date": "2026-07-21",
-      "start_time_utc": "2026-07-22T00:40:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 115,
-        "abbrev": "COL",
-        "name": "Colorado Rockies",
-        "short_name": "Rockies",
-        "record": "41-62",
-        "score": 8
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "51-51",
-        "score": 7
-      },
-      "venue": {
-        "id": 19,
-        "name": "Coors Field",
-        "city": "Denver",
-        "state": "CO",
-        "lat": 39.756042,
-        "lon": -104.994136
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 547179,
-          "name": "Michael Lorenzen",
-          "hand": null
-        },
-        "away": {
-          "id": 687223,
-          "name": "Carson Palmquist",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Rockies.TV",
-          "call_sign": "COLR",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "KOA 850 AM/94.1 FM ",
-          "call_sign": "KOA",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "KNRV 1150",
-          "call_sign": "KNRV",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 1,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 8,
-        "away_runs": 7,
-        "home_hits": 12,
-        "away_hits": 10,
-        "home_errors": 0,
-        "away_errors": 1
-      },
-      "series": {
-        "game_number": 2,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi"
-    },
     {
       "game_pk": 824327,
       "date": "2026-07-22",
@@ -1735,6 +1622,120 @@
       "series": {
         "game_number": 4,
         "games_in_series": 4,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi"
+    },
+    {
+      "game_pk": 822699,
+      "date": "2026-08-07",
+      "start_time_utc": "2026-08-07T22:45:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": true,
+      "home": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "52-51",
+        "score": null
+      },
+      "away": {
+        "id": 113,
+        "abbrev": "CIN",
+        "name": "Cincinnati Reds",
+        "short_name": "Reds",
+        "record": "47-54",
+        "score": null
+      },
+      "venue": {
+        "id": 3309,
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.872861,
+        "lon": -77.007501
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "Reds.TV",
+          "call_sign": "CINR",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WLW 700",
+          "call_sign": "WLW",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Fox 5 WTTG",
+          "call_sign": "Fox 5",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Gray Media",
+          "call_sign": "Gray Media",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 1,
+        "games_in_series": 3,
         "description": "Regular Season"
       },
       "double_header": "N",
