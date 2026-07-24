@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-24T20:04:58+00:00",
+  "fetched_at": "2026-07-24T21:18:32+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -160,13 +160,22 @@
       },
       "broadcasts": [
         {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_ON"
+        },
+        {
           "name": "Arizona Sports 98.7 FM",
           "call_sign": "98.7 FM ",
           "type": "FM",
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "DBACKS.TV",
@@ -175,16 +184,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -193,7 +193,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "La Campesina 101.9 FM & 860 AM",
@@ -202,7 +202,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Fox 5 WTTG",
