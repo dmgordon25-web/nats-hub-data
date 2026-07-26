@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-26T21:37:33+00:00",
+  "fetched_at": "2026-07-26T22:40:21+00:00",
   "freshness": {
-    "schedule": "2026-07-26T21:37:32+00:00",
-    "standings": "2026-07-26T21:37:32+00:00",
+    "schedule": "2026-07-26T22:40:19+00:00",
+    "standings": "2026-07-26T22:40:20+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-07-26T19:35:45+00:00",
-    "weather": "2026-07-26T21:37:33+00:00"
+    "weather": "2026-07-26T22:40:20+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -136,7 +136,7 @@
     "watch_label": "Next Game"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-26T21:37:33+00:00",
+    "fetched_at": "2026-07-26T22:40:20+00:00",
     "source": "open_meteo",
     "game_pk": 822705,
     "venue_name": "Nationals Park",
@@ -145,7 +145,7 @@
     "feels_like_f": 90.9,
     "wind_mph": 5.2,
     "wind_dir": "ESE",
-    "precip_chance": 4,
+    "precip_chance": 7,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -563,7 +563,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "DBACKS.TV",
@@ -572,7 +572,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "Nationals.TV",
@@ -581,7 +581,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -590,7 +590,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "La Campesina 101.9 FM & 860 AM",
@@ -599,7 +599,7 @@
         "language": "es",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       }
     ],
     "linescore": {
@@ -954,7 +954,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "DBACKS.TV",
@@ -963,7 +963,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "Nationals.TV",
@@ -972,7 +972,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -981,7 +981,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "La Campesina 101.9 FM & 860 AM",
@@ -990,7 +990,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         }
       ],
       "linescore": {
@@ -2953,19 +2953,19 @@
           "name": "San Francisco Giants",
           "short_name": "Giants",
           "wins": 44,
-          "losses": 60,
-          "pct": ".423",
-          "gb": "22.0",
-          "wc_gb": "10.0",
-          "streak": "W2",
-          "last_ten": "5-5",
+          "losses": 61,
+          "pct": ".419",
+          "gb": "22.5",
+          "wc_gb": "10.5",
+          "streak": "L1",
+          "last_ten": "4-6",
           "division_rank": 4,
           "league_rank": 13,
           "wc_rank": 10,
-          "run_diff": -56,
-          "runs_scored": 433,
-          "runs_allowed": 489,
-          "elim_num": "36"
+          "run_diff": -57,
+          "runs_scored": 436,
+          "runs_allowed": 493,
+          "elim_num": "35"
         },
         {
           "id": 115,
@@ -3321,19 +3321,39 @@
           "name": "Texas Rangers",
           "short_name": "Rangers",
           "wins": 53,
-          "losses": 51,
-          "pct": ".510",
+          "losses": 52,
+          "pct": ".505",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "W2",
+          "streak": "L1",
           "last_ten": "5-5",
           "division_rank": 1,
           "league_rank": 5,
           "wc_rank": null,
-          "run_diff": -23,
-          "runs_scored": 439,
-          "runs_allowed": 462,
+          "run_diff": -25,
+          "runs_scored": 443,
+          "runs_allowed": 468,
           "elim_num": "-"
+        },
+        {
+          "id": 136,
+          "abbrev": "SEA",
+          "name": "Seattle Mariners",
+          "short_name": "Mariners",
+          "wins": 52,
+          "losses": 54,
+          "pct": ".491",
+          "gb": "1.5",
+          "wc_gb": "1.5",
+          "streak": "W1",
+          "last_ten": "5-5",
+          "division_rank": 2,
+          "league_rank": 8,
+          "wc_rank": 5,
+          "run_diff": 12,
+          "runs_scored": 426,
+          "runs_allowed": 414,
+          "elim_num": "56"
         },
         {
           "id": 117,
@@ -3343,37 +3363,17 @@
           "wins": 52,
           "losses": 55,
           "pct": ".486",
-          "gb": "2.5",
+          "gb": "2.0",
           "wc_gb": "2.0",
           "streak": "L1",
           "last_ten": "5-5",
-          "division_rank": 2,
-          "league_rank": 8,
-          "wc_rank": 5,
+          "division_rank": 3,
+          "league_rank": 9,
+          "wc_rank": 6,
           "run_diff": -47,
           "runs_scored": 489,
           "runs_allowed": 536,
           "elim_num": "55"
-        },
-        {
-          "id": 136,
-          "abbrev": "SEA",
-          "name": "Seattle Mariners",
-          "short_name": "Mariners",
-          "wins": 51,
-          "losses": 54,
-          "pct": ".486",
-          "gb": "2.5",
-          "wc_gb": "2.0",
-          "streak": "L4",
-          "last_ten": "4-6",
-          "division_rank": 3,
-          "league_rank": 9,
-          "wc_rank": 6,
-          "run_diff": 10,
-          "runs_scored": 420,
-          "runs_allowed": 410,
-          "elim_num": "56"
         },
         {
           "id": 133,
@@ -3383,7 +3383,7 @@
           "wins": 44,
           "losses": 61,
           "pct": ".419",
-          "gb": "9.5",
+          "gb": "9.0",
           "wc_gb": "9.0",
           "streak": "L2",
           "last_ten": "3-7",
@@ -3400,19 +3400,19 @@
           "abbrev": "LAA",
           "name": "Los Angeles Angels",
           "short_name": "Angels",
-          "wins": 41,
+          "wins": 42,
           "losses": 64,
-          "pct": ".390",
-          "gb": "12.5",
-          "wc_gb": "12.0",
-          "streak": "L3",
-          "last_ten": "3-7",
+          "pct": ".396",
+          "gb": "11.5",
+          "wc_gb": "11.5",
+          "streak": "W1",
+          "last_ten": "4-6",
           "division_rank": 5,
           "league_rank": 15,
           "wc_rank": 12,
-          "run_diff": -66,
-          "runs_scored": 450,
-          "runs_allowed": 516,
+          "run_diff": -65,
+          "runs_scored": 454,
+          "runs_allowed": 519,
           "elim_num": "46"
         }
       ]
