@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-26T17:13:03+00:00",
+  "fetched_at": "2026-07-26T18:14:54+00:00",
   "freshness": {
-    "schedule": "2026-07-26T17:13:02+00:00",
-    "standings": "2026-07-26T17:13:02+00:00",
+    "schedule": "2026-07-26T18:14:52+00:00",
+    "standings": "2026-07-26T18:14:53+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-07-26T14:43:29+00:00",
-    "weather": "2026-07-26T17:13:03+00:00"
+    "weather": "2026-07-26T18:14:54+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -15,8 +15,8 @@
     "game_pk": 822706,
     "date": "2026-07-26",
     "start_time_utc": "2026-07-26T17:35:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "In Progress",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "53-52",
-      "score": 0
+      "score": 1
     },
     "away": {
       "id": 109,
@@ -32,7 +32,7 @@
       "name": "Arizona Diamondbacks",
       "short_name": "D-backs",
       "record": "55-50",
-      "score": 0
+      "score": 2
     },
     "venue": {
       "id": 3309,
@@ -102,17 +102,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 1,
+      "current_inning": 3,
       "inning_half": "Top",
       "inning_state": "Top",
       "is_top_inning": true,
       "balls": 0,
-      "strikes": 0,
-      "outs": 0,
-      "home_runs": 0,
-      "away_runs": 0,
-      "home_hits": 0,
-      "away_hits": 0,
+      "strikes": 1,
+      "outs": 2,
+      "home_runs": 1,
+      "away_runs": 2,
+      "home_hits": 3,
+      "away_hits": 2,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -123,7 +123,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "Nationals.TV",
       "is_national": false,
@@ -133,19 +133,19 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Starts Soon"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-26T17:13:03+00:00",
+    "fetched_at": "2026-07-26T18:14:54+00:00",
     "source": "open_meteo",
     "game_pk": 822706,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-07-26T18:00",
-    "temperature_f": 85.0,
-    "feels_like_f": 89.0,
-    "wind_mph": 3.3,
-    "wind_dir": "SSW",
-    "precip_chance": 5,
+    "temperature_f": 84.0,
+    "feels_like_f": 89.3,
+    "wind_mph": 3.6,
+    "wind_dir": "SW",
+    "precip_chance": 4,
     "precip_inches": 0.0,
     "summary": "Mostly clear",
     "is_dome": false
@@ -161,8 +161,8 @@
       "game_pk": 822706,
       "date": "2026-07-26",
       "start_time_utc": "2026-07-26T17:35:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -170,7 +170,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "53-52",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 109,
@@ -178,7 +178,7 @@
         "name": "Arizona Diamondbacks",
         "short_name": "D-backs",
         "record": "55-50",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 3309,
@@ -248,17 +248,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 3,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
         "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "strikes": 1,
+        "outs": 2,
+        "home_runs": 1,
+        "away_runs": 2,
+        "home_hits": 3,
+        "away_hits": 2,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -269,7 +269,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -279,7 +279,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822705,
@@ -908,8 +908,8 @@
       "game_pk": 822706,
       "date": "2026-07-26",
       "start_time_utc": "2026-07-26T17:35:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -917,7 +917,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "53-52",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 109,
@@ -925,7 +925,7 @@
         "name": "Arizona Diamondbacks",
         "short_name": "D-backs",
         "record": "55-50",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 3309,
@@ -995,17 +995,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 3,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
         "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "strikes": 1,
+        "outs": 2,
+        "home_runs": 1,
+        "away_runs": 2,
+        "home_hits": 3,
+        "away_hits": 2,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -1016,7 +1016,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -1026,7 +1026,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822705,
@@ -3095,18 +3095,18 @@
           "abbrev": "TB",
           "name": "Tampa Bay Rays",
           "short_name": "Rays",
-          "wins": 61,
+          "wins": 62,
           "losses": 43,
-          "pct": ".587",
+          "pct": ".590",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "W2",
-          "last_ten": "5-5",
+          "streak": "W3",
+          "last_ten": "6-4",
           "division_rank": 1,
           "league_rank": 1,
           "wc_rank": null,
-          "run_diff": 41,
-          "runs_scored": 473,
+          "run_diff": 42,
+          "runs_scored": 474,
           "runs_allowed": 432,
           "elim_num": "-"
         },
@@ -3118,8 +3118,8 @@
           "wins": 59,
           "losses": 45,
           "pct": ".567",
-          "gb": "2.0",
-          "wc_gb": "+6.0",
+          "gb": "2.5",
+          "wc_gb": "+6.5",
           "streak": "W3",
           "last_ten": "7-3",
           "division_rank": 2,
@@ -3128,7 +3128,7 @@
           "run_diff": 91,
           "runs_scored": 484,
           "runs_allowed": 393,
-          "elim_num": "57"
+          "elim_num": "56"
         },
         {
           "id": 111,
@@ -3138,8 +3138,8 @@
           "wins": 53,
           "losses": 50,
           "pct": ".515",
-          "gb": "7.5",
-          "wc_gb": "+0.5",
+          "gb": "8.0",
+          "wc_gb": "+1.0",
           "streak": "L1",
           "last_ten": "8-2",
           "division_rank": 3,
@@ -3148,7 +3148,7 @@
           "run_diff": 41,
           "runs_scored": 432,
           "runs_allowed": 391,
-          "elim_num": "52"
+          "elim_num": "51"
         },
         {
           "id": 110,
@@ -3158,8 +3158,8 @@
           "wins": 51,
           "losses": 54,
           "pct": ".486",
-          "gb": "10.5",
-          "wc_gb": "2.5",
+          "gb": "11.0",
+          "wc_gb": "2.0",
           "streak": "W1",
           "last_ten": "7-3",
           "division_rank": 4,
@@ -3168,7 +3168,7 @@
           "run_diff": -13,
           "runs_scored": 481,
           "runs_allowed": 494,
-          "elim_num": "48"
+          "elim_num": "47"
         },
         {
           "id": 141,
@@ -3178,8 +3178,8 @@
           "wins": 48,
           "losses": 57,
           "pct": ".457",
-          "gb": "13.5",
-          "wc_gb": "5.5",
+          "gb": "14.0",
+          "wc_gb": "5.0",
           "streak": "W1",
           "last_ten": "3-7",
           "division_rank": 5,
@@ -3188,7 +3188,7 @@
           "run_diff": -57,
           "runs_scored": 415,
           "runs_allowed": 472,
-          "elim_num": "45"
+          "elim_num": "44"
         }
       ]
     },
@@ -3223,19 +3223,19 @@
           "name": "Cleveland Guardians",
           "short_name": "Guardians",
           "wins": 54,
-          "losses": 52,
-          "pct": ".509",
-          "gb": "1.5",
+          "losses": 53,
+          "pct": ".505",
+          "gb": "2.0",
           "wc_gb": "-",
-          "streak": "L4",
-          "last_ten": "4-6",
+          "streak": "L5",
+          "last_ten": "3-7",
           "division_rank": 2,
           "league_rank": 6,
           "wc_rank": 3,
-          "run_diff": -17,
+          "run_diff": -18,
           "runs_scored": 420,
-          "runs_allowed": 437,
-          "elim_num": "57"
+          "runs_allowed": 438,
+          "elim_num": "56"
         },
         {
           "id": 142,
@@ -3246,7 +3246,7 @@
           "losses": 54,
           "pct": ".491",
           "gb": "3.5",
-          "wc_gb": "2.0",
+          "wc_gb": "1.5",
           "streak": "W1",
           "last_ten": "5-5",
           "division_rank": 3,
@@ -3266,7 +3266,7 @@
           "losses": 55,
           "pct": ".476",
           "gb": "5.0",
-          "wc_gb": "3.5",
+          "wc_gb": "3.0",
           "streak": "L1",
           "last_ten": "6-4",
           "division_rank": 4,
@@ -3286,7 +3286,7 @@
           "losses": 62,
           "pct": ".415",
           "gb": "11.5",
-          "wc_gb": "10.0",
+          "wc_gb": "9.5",
           "streak": "W1",
           "last_ten": "6-4",
           "division_rank": 5,
@@ -3333,7 +3333,7 @@
           "losses": 54,
           "pct": ".491",
           "gb": "2.0",
-          "wc_gb": "2.0",
+          "wc_gb": "1.5",
           "streak": "W5",
           "last_ten": "6-4",
           "division_rank": 2,
@@ -3353,7 +3353,7 @@
           "losses": 54,
           "pct": ".486",
           "gb": "2.5",
-          "wc_gb": "2.5",
+          "wc_gb": "2.0",
           "streak": "L4",
           "last_ten": "4-6",
           "division_rank": 3,
@@ -3373,7 +3373,7 @@
           "losses": 60,
           "pct": ".423",
           "gb": "9.0",
-          "wc_gb": "9.0",
+          "wc_gb": "8.5",
           "streak": "L1",
           "last_ten": "3-7",
           "division_rank": 4,
@@ -3393,7 +3393,7 @@
           "losses": 64,
           "pct": ".390",
           "gb": "12.5",
-          "wc_gb": "12.5",
+          "wc_gb": "12.0",
           "streak": "L3",
           "last_ten": "3-7",
           "division_rank": 5,
