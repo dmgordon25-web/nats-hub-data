@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-27T22:33:54+00:00",
+  "fetched_at": "2026-07-27T23:41:32+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -233,7 +233,7 @@
       "date": "2026-07-27",
       "start_time_utc": "2026-07-27T22:45:00Z",
       "status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -241,7 +241,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "54-52",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 141,
@@ -249,7 +249,7 @@
         "name": "Toronto Blue Jays",
         "short_name": "Blue Jays",
         "record": "48-58",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 3309,
@@ -319,19 +319,19 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "current_inning": 3,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 2,
+        "strikes": 2,
+        "outs": 1,
+        "home_runs": 1,
+        "away_runs": 2,
+        "home_hits": 4,
+        "away_hits": 3,
         "home_errors": 0,
-        "away_errors": 0
+        "away_errors": 1
       },
       "series": {
         "game_number": 1,
