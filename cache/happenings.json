@@ -1,64 +1,84 @@
 {
   "data_version": 1,
-  "generated_at": "2026-07-27T03:27:14+00:00",
-  "mode": "falkor_enriched",
+  "generated_at": "2026-07-27T07:30:23+00:00",
+  "mode": "rss_fallback",
   "freshness": {
-    "news": "2026-07-27T03:25:07+00:00",
-    "videos": "2026-07-27T03:25:07+00:00",
-    "vibes": "2026-07-27T03:27:14+00:00"
+    "news": "2026-07-27T07:28:10+00:00",
+    "videos": "2026-07-27T07:28:10+00:00",
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-07-27T03:25:00+00:00",
+      "last_updated_at": "2026-07-27T07:28:00+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-07-27T03:25:02+00:00",
+      "last_updated_at": "2026-07-27T07:28:03+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-07-27T03:25:03+00:00",
+      "last_updated_at": "2026-07-27T07:28:04+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-07-27T03:25:04+00:00",
+      "last_updated_at": "2026-07-27T07:28:05+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-07-27T03:25:05+00:00",
+      "last_updated_at": "2026-07-27T07:28:07+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-07-27T03:25:06+00:00",
+      "last_updated_at": "2026-07-27T07:28:08+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-07-27T03:25:06+00:00",
+      "last_updated_at": "2026-07-27T07:28:09+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-07-27T03:25:07+00:00",
+      "last_updated_at": "2026-07-27T07:28:10+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "why_it_matters",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "trending",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
+    }
+  ],
   "top_stories": [
+    {
+      "title": "Scherzer to come off IL, start on b-day Monday",
+      "url": "https://www.espn.com/mlb/story/_/id/49458188/blue-jays-max-scherzer-come-il-start-42nd-b-day-monday",
+      "source": "ESPN MLB",
+      "published_at": "2026-07-27T06:24:14+00:00",
+      "image_url": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0518%2Fr1660165_1296x729_16%2D9.jpg"
+    },
     {
       "title": "Rays, Phillies Monitoring Foster Griffin",
       "url": "https://www.mlbtraderumors.com/2026/07/rays-phillies-monitoring-foster-griffin.html",
@@ -67,47 +87,24 @@
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/USATSI_29387222-1024x683.jpg"
     },
     {
-      "title": "Scherzer to come off IL, start on b-day Monday",
-      "url": "https://www.espn.com/mlb/story/_/id/49458188/blue-jays-max-scherzer-come-il-start-42nd-b-day-monday",
-      "source": "ESPN MLB",
-      "published_at": "2026-07-27T00:42:44+00:00",
-      "why_it_matters": {
-        "text": "Max Scherzer is set to come off the injured list to make a start on his 42nd birthday during Monday's series opener against the Nationals.",
-        "ai_generated": true
-      },
-      "image_url": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0518%2Fr1660165_1296x729_16%2D9.jpg"
-    },
-    {
       "title": "Blue Jays veteran Max Scherzer to return from IL, start at Nationals on Monday on his 42nd birthday",
       "url": "https://sports.yahoo.com/mlb/article/blue-jays-veteran-max-scherzer-to-return-from-il-start-at-nationals-on-monday-on-his-42nd-birthday-000834741.html",
       "source": "Yahoo Sports MLB",
       "published_at": "2026-07-27T00:08:34+00:00",
-      "why_it_matters": {
-        "text": "Blue Jays veteran Max Scherzer is set to return from the injured list and start against the Nationals on Monday, which coincides with his 42nd birthday.",
-        "ai_generated": true
-      },
       "image_url": "https://s.yimg.com/ny/api/res/1.2/aTzj9rvutWqPfmNUEyzMcg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://d29szjachogqwa.cloudfront.net/images/2026-07/db5b116d-31cb-4713-aa92-336cb7b4f9b4"
     },
     {
       "title": "James Wood and CJ Abrams overpower the D-Backs in a shootout win for the Nationals",
-      "url": "https://sports.yahoo.com/articles/james-wood-cj-abrams-overpower-213000808.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-07-26T21:30:00+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals won a high-scoring shootout against the D-Backs, featuring strong performances from James Wood and CJ Abrams despite some late-game concerns regarding the bullpen.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/ny/api/res/1.2/bnNL1LmR2ilBG315PpcjWg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/6acf112ea1b3dc092b2a06053a9bb8b6"
+      "url": "https://www.federalbaseball.com/washington-nationals-scores/92960/james-wood-cj-abrams-overpower-d-backs-in-shootout-win-for-nationals",
+      "source": "Federal Baseball",
+      "published_at": "2026-07-26T21:27:47+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2287122760.jpg?quality=90&strip=all&crop=0%2C10.74243483849%2C100%2C78.51513032302&w=1200"
     },
     {
       "title": "Postgamer #106: Nats put together a huge team effort to win their most important game in over six years: A recap",
       "url": "https://nats.talkdcsports.com/2026/07/26/postgamer-106-nats-put-together-a-huge-team-effort-to-win-their-most-important-game-in-seven-years-a-recap/",
       "source": "Talk Nats",
       "published_at": "2026-07-26T21:11:48+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals secured a significant win in what is described as their most important victory in over six years, overcoming a mediocre start by Miles Mikolas.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/04/178A4162-1.jpg?fit=1200%2C1014&ssl=1"
     },
     {
@@ -115,10 +112,6 @@
       "url": "https://nats.talkdcsports.com/2026/07/26/game-106-youve-heard-it-before-the-nats-have-a-series-to-win-today/",
       "source": "Talk Nats",
       "published_at": "2026-07-26T16:59:00+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals face the Arizona Diamondbacks in Game 106. A victory today would put the team within one game of a Wild Card spot, following news regarding a trade involving Curtis Mead.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/05/James-Wood-Brady-House-Dylan-Crews-Daylen-Lile-Luis-Garcia-Robert-Hassell-CJ-Abrams-by-Andrew-Lang-9-13-2025-A-edited-scaled.jpg?fit=1200%2C927&ssl=1"
     },
     {
@@ -187,101 +180,11 @@
     }
   ],
   "fan_vibes": {
-    "overall": "positive",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "Significant Team Success",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/07/26/game-106-youve-heard-it-before-the-nats-have-a-series-to-win-today/",
-          "https://nats.talkdcsports.com/2026/07/26/postgamer-106-nats-put-together-a-huge-team-effort-to-win-their-most-important-game-in-seven-years-a-recap/"
-        ]
-      },
-      {
-        "label": "Strong Individual Performances",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://sports.yahoo.com/articles/james-wood-cj-abrams-overpower-213000808.html"
-        ]
-      },
-      {
-        "label": "Bullpen Concerns",
-        "sentiment": "mixed",
-        "source_urls": [
-          "https://sports.yahoo.com/articles/james-wood-cj-abrams-overpower-213000808.html"
-        ]
-      }
-    ]
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
   },
-  "trending": [
-    {
-      "label": "Max Scherzer",
-      "sentiment": "",
-      "context": "Scherzer to come off IL, start on b-day Monday",
-      "source_urls": [
-        "https://sports.yahoo.com/mlb/article/blue-jays-veteran-max-scherzer-to-return-from-il-start-at-nationals-on-monday-on-his-42nd-birthday-000834741.html",
-        "https://www.espn.com/mlb/story/_/id/49458188/blue-jays-max-scherzer-come-il-start-42nd-b-day-monday"
-      ]
-    },
-    {
-      "label": "Toronto Blue Jays",
-      "sentiment": "",
-      "context": "Scherzer to come off IL, start on b-day Monday",
-      "source_urls": [
-        "https://sports.yahoo.com/mlb/article/blue-jays-veteran-max-scherzer-to-return-from-il-start-at-nationals-on-monday-on-his-42nd-birthday-000834741.html",
-        "https://www.espn.com/mlb/story/_/id/49458188/blue-jays-max-scherzer-come-il-start-42nd-b-day-monday"
-      ]
-    },
-    {
-      "label": "Injury Update",
-      "sentiment": "",
-      "context": "Blue Jays veteran Max Scherzer to return from IL, start at Nationals on Monday on his 42nd birthday",
-      "source_urls": [
-        "https://sports.yahoo.com/mlb/article/blue-jays-veteran-max-scherzer-to-return-from-il-start-at-nationals-on-monday-on-his-42nd-birthday-000834741.html"
-      ]
-    },
-    {
-      "label": "James Wood",
-      "sentiment": "",
-      "context": "James Wood and CJ Abrams overpower the D-Backs in a shootout win for the Nationals",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/james-wood-cj-abrams-overpower-213000808.html"
-      ]
-    },
-    {
-      "label": "CJ Abrams",
-      "sentiment": "",
-      "context": "James Wood and CJ Abrams overpower the D-Backs in a shootout win for the Nationals",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/james-wood-cj-abrams-overpower-213000808.html"
-      ]
-    },
-    {
-      "label": "D-Backs",
-      "sentiment": "",
-      "context": "James Wood and CJ Abrams overpower the D-Backs in a shootout win for the Nationals",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/james-wood-cj-abrams-overpower-213000808.html"
-      ]
-    },
-    {
-      "label": "Miles Mikolas",
-      "sentiment": "",
-      "context": "Postgamer #106: Nats put together a huge team effort to win their most important game in over six years: A recap",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/07/26/postgamer-106-nats-put-together-a-huge-team-effort-to-win-their-most-important-game-in-seven-years-a-recap/"
-      ]
-    },
-    {
-      "label": "win",
-      "sentiment": "",
-      "context": "Postgamer #106: Nats put together a huge team effort to win their most important game in over six years: A recap",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/07/26/postgamer-106-nats-put-together-a-huge-team-effort-to-win-their-most-important-game-in-seven-years-a-recap/"
-      ]
-    }
-  ],
+  "trending": [],
   "what_to_watch": [
     {
       "text": "The Nats host the Blue Jays on Monday.",
