@@ -1,63 +1,71 @@
 {
   "data_version": 1,
-  "generated_at": "2026-07-27T11:34:02+00:00",
-  "mode": "falkor_enriched",
+  "generated_at": "2026-07-27T15:37:58+00:00",
+  "mode": "rss_fallback",
   "freshness": {
-    "news": "2026-07-27T11:31:49+00:00",
-    "videos": "2026-07-27T11:31:49+00:00",
+    "news": "2026-07-27T15:35:42+00:00",
+    "videos": "2026-07-27T15:35:42+00:00",
     "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-07-27T11:31:40+00:00",
+      "last_updated_at": "2026-07-27T15:35:29+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-07-27T11:31:42+00:00",
+      "last_updated_at": "2026-07-27T15:35:31+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-07-27T11:31:43+00:00",
+      "last_updated_at": "2026-07-27T15:35:32+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-07-27T11:31:44+00:00",
+      "last_updated_at": "2026-07-27T15:35:33+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-07-27T11:31:45+00:00",
+      "last_updated_at": "2026-07-27T15:35:33+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-07-27T11:31:47+00:00",
+      "last_updated_at": "2026-07-27T15:35:34+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-07-27T11:31:48+00:00",
+      "last_updated_at": "2026-07-27T15:35:41+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-07-27T11:31:49+00:00",
+      "last_updated_at": "2026-07-27T15:35:42+00:00",
       "status": "live"
     }
   ],
   "limited_sources": [
+    {
+      "id": "why_it_matters",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "trending",
+      "reason": "ai_enrichment_unavailable"
+    },
     {
       "id": "fan_vibes",
       "reason": "ai_sentiment_unavailable"
@@ -65,11 +73,53 @@
   ],
   "top_stories": [
     {
+      "title": "CJ Abrams has become too good for the Washington Nationals to trade",
+      "url": "https://www.federalbaseball.com/washington-nationals-analysis/92972/cj-abrams-become-too-good-for-washington-nationals-trade",
+      "source": "Federal Baseball",
+      "published_at": "2026-07-27T15:19:53+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2287145059.jpg?quality=90&strip=all&crop=0%2C10.738174223898%2C100%2C78.523651552204&w=1200"
+    },
+    {
       "title": "Scherzer to come off IL, start on b-day Monday",
       "url": "https://www.espn.com/mlb/story/_/id/49458188/blue-jays-max-scherzer-come-il-start-42nd-b-day-monday",
       "source": "ESPN MLB",
-      "published_at": "2026-07-27T06:24:14+00:00",
+      "published_at": "2026-07-27T15:14:22+00:00",
       "image_url": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0518%2Fr1660165_1296x729_16%2D9.jpg"
+    },
+    {
+      "title": "Taking care of business, every day!",
+      "url": "https://nats.talkdcsports.com/2026/07/27/taking-care-of-business-every-day/",
+      "source": "Talk Nats",
+      "published_at": "2026-07-27T15:01:03+00:00",
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/03/Paul-Toboni-and-Mark-Lerner-by-Intrepid-3-23-2026-scaled-1.jpg?fit=1200%2C804&ssl=1"
+    },
+    {
+      "title": "MLB trade grades: Red Sox and Nats make first majo...",
+      "url": "https://www.espn.com/mlb/story/_/id/49454655/2026-mlb-trade-deadline-grades-analysis-report-cards-every-deal",
+      "source": "ESPN MLB",
+      "published_at": "2026-07-27T14:46:06+00:00",
+      "image_url": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0613%2Fr1672551_1296x729_16%2D9.jpg"
+    },
+    {
+      "title": "Arizona Diamondbacks News, 7/27: Snakes driven out of Washington",
+      "url": "https://sports.yahoo.com/articles/arizona-diamondbacks-news-7-27-140000699.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-07-27T14:00:00+00:00",
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/5j2lGLndgmNzon.rI_E1Og--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDI7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/62718fadf996d03a82e425da4cb3eaa0"
+    },
+    {
+      "title": "Blue Jays vs Nationals Prediction, Odds & Home Run Pick for Today&#39;s MLB Game",
+      "url": "https://sports.yahoo.com/articles/blue-jays-vs-nationals-prediction-134600926.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-07-27T13:46:00+00:00",
+      "image_url": "https://s.yimg.com/os/en/covers_articles_287/9b57aabef23f2eb271b80dc188ef91cc"
+    },
+    {
+      "title": "MLB News Outside The Confines: Trade season kicks off",
+      "url": "https://sports.yahoo.com/articles/mlb-news-outside-confines-trade-120000306.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-07-27T12:00:00+00:00",
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/PSW4pB_AC7S3KF6itlWSQw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/836146aa343d391b4804c9b4ce9bc73d"
     },
     {
       "title": "Rays, Phillies Monitoring Foster Griffin",
@@ -77,52 +127,6 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-07-27T03:15:20+00:00",
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/USATSI_29387222-1024x683.jpg"
-    },
-    {
-      "title": "Blue Jays veteran Max Scherzer to return from IL, start at Nationals on Monday on his 42nd birthday",
-      "url": "https://sports.yahoo.com/mlb/article/blue-jays-veteran-max-scherzer-to-return-from-il-start-at-nationals-on-monday-on-his-42nd-birthday-000834741.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-07-27T00:08:34+00:00",
-      "image_url": "https://s.yimg.com/ny/api/res/1.2/aTzj9rvutWqPfmNUEyzMcg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://d29szjachogqwa.cloudfront.net/images/2026-07/db5b116d-31cb-4713-aa92-336cb7b4f9b4"
-    },
-    {
-      "title": "James Wood and CJ Abrams overpower the D-Backs in a shootout win for the Nationals",
-      "url": "https://www.federalbaseball.com/washington-nationals-scores/92960/james-wood-cj-abrams-overpower-d-backs-in-shootout-win-for-nationals",
-      "source": "Federal Baseball",
-      "published_at": "2026-07-26T21:27:47+00:00",
-      "why_it_matters": {
-        "text": "The Nationals defeated the Diamondbacks 10-7 in a shootout win featuring performances from James Wood and CJ Abrams. The victory puts the team within one game of the third Wild Card spot ahead of the trade deadline.",
-        "ai_generated": true
-      },
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2287122760.jpg?quality=90&strip=all&crop=0%2C10.74243483849%2C100%2C78.51513032302&w=1200"
-    },
-    {
-      "title": "Postgamer #106: Nats put together a huge team effort to win their most important game in over six years: A recap",
-      "url": "https://nats.talkdcsports.com/2026/07/26/postgamer-106-nats-put-together-a-huge-team-effort-to-win-their-most-important-game-in-seven-years-a-recap/",
-      "source": "Talk Nats",
-      "published_at": "2026-07-26T21:11:48+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/04/178A4162-1.jpg?fit=1200%2C1014&ssl=1"
-    },
-    {
-      "title": "Game #106 You’ve heard it before, the Nats have a series to win today!",
-      "url": "https://nats.talkdcsports.com/2026/07/26/game-106-youve-heard-it-before-the-nats-have-a-series-to-win-today/",
-      "source": "Talk Nats",
-      "published_at": "2026-07-26T16:59:00+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/05/James-Wood-Brady-House-Dylan-Crews-Daylen-Lile-Luis-Garcia-Robert-Hassell-CJ-Abrams-by-Andrew-Lang-9-13-2025-A-edited-scaled.jpg?fit=1200%2C927&ssl=1"
-    },
-    {
-      "title": "Three biggest Washington Nationals storylines following the Connelly Early trade",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/92931/three-washington-nationals-storylines-following-connelly-early-trade",
-      "source": "Federal Baseball",
-      "published_at": "2026-07-26T16:15:11+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2278871369.jpg?quality=90&strip=all&crop=0%2C12.604815648786%2C100%2C74.790368702427&w=1200"
-    },
-    {
-      "title": "Washington Nationals vs Arizona Diamondbacks Game Thread",
-      "url": "https://www.federalbaseball.com/washington-nationals-discussions/92944/washington-nationals-vs-arizona-diamondbacks-game-thread",
-      "source": "Federal Baseball",
-      "published_at": "2026-07-26T15:43:25+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2286980649.jpg?quality=90&strip=all&crop=0%2C10.736930330346%2C100%2C78.526139339307&w=1200"
     }
   ],
   "team_pulse": {
@@ -180,32 +184,7 @@
     "ai_generated": false,
     "themes": []
   },
-  "trending": [
-    {
-      "label": "Diamondbacks",
-      "sentiment": "",
-      "context": "James Wood and CJ Abrams overpower the D-Backs in a shootout win for the Nationals",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-scores/92960/james-wood-cj-abrams-overpower-d-backs-in-shootout-win-for-nationals"
-      ]
-    },
-    {
-      "label": "Wild Card",
-      "sentiment": "",
-      "context": "James Wood and CJ Abrams overpower the D-Backs in a shootout win for the Nationals",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-scores/92960/james-wood-cj-abrams-overpower-d-backs-in-shootout-win-for-nationals"
-      ]
-    },
-    {
-      "label": "Trade Deadline",
-      "sentiment": "",
-      "context": "James Wood and CJ Abrams overpower the D-Backs in a shootout win for the Nationals",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-scores/92960/james-wood-cj-abrams-overpower-d-backs-in-shootout-win-for-nationals"
-      ]
-    }
-  ],
+  "trending": [],
   "what_to_watch": [
     {
       "text": "The Nats host the Blue Jays on Monday.",
