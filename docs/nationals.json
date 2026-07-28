@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-28T19:54:51+00:00",
+  "fetched_at": "2026-07-28T20:21:18+00:00",
   "freshness": {
-    "schedule": "2026-07-28T19:54:50+00:00",
-    "standings": "2026-07-28T19:54:50+00:00",
+    "schedule": "2026-07-28T20:21:16+00:00",
+    "standings": "2026-07-28T20:21:17+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-07-28T19:54:49+00:00",
-    "weather": "2026-07-28T19:54:51+00:00"
+    "weather": "2026-07-28T20:21:17+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -127,18 +127,18 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-28T19:54:51+00:00",
+    "fetched_at": "2026-07-28T20:21:17+00:00",
     "source": "open_meteo",
     "game_pk": 822703,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-07-28T23:00",
-    "temperature_f": 73.9,
-    "feels_like_f": 77.8,
-    "wind_mph": 10.7,
-    "wind_dir": "SSE",
+    "temperature_f": 72.5,
+    "feels_like_f": 74.8,
+    "wind_mph": 12.4,
+    "wind_dir": "ESE",
     "precip_chance": 57,
-    "precip_inches": 0.043,
-    "summary": "Heavy drizzle",
+    "precip_inches": 0.0,
+    "summary": "Overcast",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -665,6 +665,15 @@
       },
       "broadcasts": [
         {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_ARCHIVE"
+        },
+        {
           "name": "Arizona Sports 98.7 FM",
           "call_sign": "98.7 FM ",
           "type": "FM",
@@ -680,15 +689,6 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
           "media_state": "MEDIA_ARCHIVE"
         },
         {
