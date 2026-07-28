@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-28T20:21:18+00:00",
+  "fetched_at": "2026-07-28T21:39:30+00:00",
   "freshness": {
-    "schedule": "2026-07-28T20:21:16+00:00",
-    "standings": "2026-07-28T20:21:17+00:00",
+    "schedule": "2026-07-28T21:39:29+00:00",
+    "standings": "2026-07-28T21:39:29+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-07-28T19:54:49+00:00",
-    "weather": "2026-07-28T20:21:17+00:00"
+    "weather": "2026-07-28T21:39:30+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -62,7 +62,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -71,7 +71,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "SN590 THE FAN",
@@ -80,7 +80,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -89,7 +89,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       }
     ],
     "linescore": {
@@ -127,18 +127,18 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-28T20:21:17+00:00",
+    "fetched_at": "2026-07-28T21:39:30+00:00",
     "source": "open_meteo",
     "game_pk": 822703,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-07-28T23:00",
-    "temperature_f": 72.5,
-    "feels_like_f": 74.8,
-    "wind_mph": 12.4,
-    "wind_dir": "ESE",
+    "temperature_f": 75.2,
+    "feels_like_f": 79.2,
+    "wind_mph": 9.7,
+    "wind_dir": "WSW",
     "precip_chance": 57,
     "precip_inches": 0.0,
-    "summary": "Overcast",
+    "summary": "Partly cloudy",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -199,7 +199,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -208,7 +208,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "SN590 THE FAN",
@@ -217,7 +217,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -226,7 +226,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
@@ -665,15 +665,6 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
           "name": "Arizona Sports 98.7 FM",
           "call_sign": "98.7 FM ",
           "type": "FM",
@@ -689,6 +680,15 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_ARCHIVE"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_ARCHIVE"
         },
         {
@@ -919,7 +919,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -928,7 +928,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "SN590 THE FAN",
@@ -937,7 +937,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -946,7 +946,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
@@ -2064,7 +2064,7 @@
         "abbrev": "CIN",
         "name": "Cincinnati Reds",
         "short_name": "Reds",
-        "record": "49-55",
+        "record": "49-56",
         "score": null
       },
       "venue": {
@@ -2189,7 +2189,7 @@
         "abbrev": "CIN",
         "name": "Cincinnati Reds",
         "short_name": "Reds",
-        "record": "49-55",
+        "record": "49-56",
         "score": null
       },
       "venue": {
@@ -2296,7 +2296,7 @@
         "abbrev": "CIN",
         "name": "Cincinnati Reds",
         "short_name": "Reds",
-        "record": "49-55",
+        "record": "49-56",
         "score": null
       },
       "venue": {
@@ -2904,19 +2904,19 @@
           "name": "Cincinnati Reds",
           "short_name": "Reds",
           "wins": 49,
-          "losses": 55,
-          "pct": ".471",
-          "gb": "16.0",
-          "wc_gb": "4.5",
-          "streak": "W1",
+          "losses": 56,
+          "pct": ".467",
+          "gb": "16.5",
+          "wc_gb": "5.0",
+          "streak": "L1",
           "last_ten": "6-4",
           "division_rank": 5,
           "league_rank": 12,
           "wc_rank": 9,
-          "run_diff": -66,
-          "runs_scored": 432,
-          "runs_allowed": 498,
-          "elim_num": "42"
+          "run_diff": -67,
+          "runs_scored": 437,
+          "runs_allowed": 504,
+          "elim_num": "41"
         }
       ]
     },
@@ -2954,7 +2954,7 @@
           "losses": 46,
           "pct": ".566",
           "gb": "2.5",
-          "wc_gb": "+6.5",
+          "wc_gb": "+6.0",
           "streak": "W1",
           "last_ten": "6-4",
           "division_rank": 2,
@@ -2974,7 +2974,7 @@
           "losses": 50,
           "pct": ".524",
           "gb": "7.0",
-          "wc_gb": "+2.0",
+          "wc_gb": "+1.5",
           "streak": "W2",
           "last_ten": "8-2",
           "division_rank": 3,
@@ -2994,7 +2994,7 @@
           "losses": 55,
           "pct": ".486",
           "gb": "11.0",
-          "wc_gb": "2.0",
+          "wc_gb": "2.5",
           "streak": "W1",
           "last_ten": "6-4",
           "division_rank": 4,
@@ -3014,7 +3014,7 @@
           "losses": 58,
           "pct": ".458",
           "gb": "14.0",
-          "wc_gb": "5.0",
+          "wc_gb": "5.5",
           "streak": "W1",
           "last_ten": "4-6",
           "division_rank": 5,
@@ -3057,19 +3057,19 @@
           "abbrev": "CLE",
           "name": "Cleveland Guardians",
           "short_name": "Guardians",
-          "wins": 54,
+          "wins": 55,
           "losses": 53,
-          "pct": ".505",
-          "gb": "2.0",
+          "pct": ".509",
+          "gb": "1.5",
           "wc_gb": "-",
-          "streak": "L5",
-          "last_ten": "3-7",
+          "streak": "W1",
+          "last_ten": "4-6",
           "division_rank": 2,
           "league_rank": 6,
           "wc_rank": 3,
-          "run_diff": -18,
-          "runs_scored": 420,
-          "runs_allowed": 438,
+          "run_diff": -17,
+          "runs_scored": 426,
+          "runs_allowed": 443,
           "elim_num": "55"
         },
         {
@@ -3081,7 +3081,7 @@
           "losses": 54,
           "pct": ".495",
           "gb": "3.0",
-          "wc_gb": "1.0",
+          "wc_gb": "1.5",
           "streak": "W2",
           "last_ten": "5-5",
           "division_rank": 3,
@@ -3101,7 +3101,7 @@
           "losses": 57,
           "pct": ".467",
           "gb": "6.0",
-          "wc_gb": "4.0",
+          "wc_gb": "4.5",
           "streak": "L3",
           "last_ten": "5-5",
           "division_rank": 4,
@@ -3121,7 +3121,7 @@
           "losses": 62,
           "pct": ".421",
           "gb": "11.0",
-          "wc_gb": "9.0",
+          "wc_gb": "9.5",
           "streak": "W2",
           "last_ten": "7-3",
           "division_rank": 5,
@@ -3168,7 +3168,7 @@
           "losses": 55,
           "pct": ".491",
           "gb": "2.0",
-          "wc_gb": "1.5",
+          "wc_gb": "2.0",
           "streak": "W1",
           "last_ten": "6-4",
           "division_rank": 2,
@@ -3188,7 +3188,7 @@
           "losses": 55,
           "pct": ".486",
           "gb": "2.5",
-          "wc_gb": "2.0",
+          "wc_gb": "2.5",
           "streak": "L1",
           "last_ten": "4-6",
           "division_rank": 3,
@@ -3208,7 +3208,7 @@
           "losses": 62,
           "pct": ".415",
           "gb": "10.0",
-          "wc_gb": "9.5",
+          "wc_gb": "10.0",
           "streak": "L3",
           "last_ten": "3-7",
           "division_rank": 4,
@@ -3228,7 +3228,7 @@
           "losses": 65,
           "pct": ".393",
           "gb": "12.5",
-          "wc_gb": "12.0",
+          "wc_gb": "12.5",
           "streak": "L1",
           "last_ten": "4-6",
           "division_rank": 5,
