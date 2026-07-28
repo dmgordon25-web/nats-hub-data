@@ -1,92 +1,79 @@
 {
   "data_version": 1,
-  "generated_at": "2026-07-28T09:38:54+00:00",
+  "generated_at": "2026-07-28T13:42:23+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-07-28T09:37:56+00:00",
-    "videos": "2026-07-28T09:37:56+00:00",
-    "vibes": "2026-07-28T09:38:54+00:00"
+    "news": "2026-07-28T13:39:53+00:00",
+    "videos": "2026-07-28T13:39:53+00:00",
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-07-28T09:37:47+00:00",
+      "last_updated_at": "2026-07-28T13:39:47+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-07-28T09:37:48+00:00",
+      "last_updated_at": "2026-07-28T13:39:48+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-07-28T09:37:49+00:00",
+      "last_updated_at": "2026-07-28T13:39:49+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-07-28T09:37:50+00:00",
+      "last_updated_at": "2026-07-28T13:39:50+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-07-28T09:37:50+00:00",
+      "last_updated_at": "2026-07-28T13:39:51+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-07-28T09:37:51+00:00",
+      "last_updated_at": "2026-07-28T13:39:52+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-07-28T09:37:55+00:00",
+      "last_updated_at": "2026-07-28T13:39:52+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-07-28T09:37:56+00:00",
+      "last_updated_at": "2026-07-28T13:39:53+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
+    }
+  ],
   "top_stories": [
     {
       "title": "Mead exits Red Sox debut with contusion after HBP",
       "url": "https://www.espn.com/mlb/story/_/id/49466895/curtis-mead-exits-red-sox-debut-left-wrist-contusion",
       "source": "ESPN MLB",
-      "published_at": "2026-07-28T05:02:57+00:00",
+      "published_at": "2026-07-28T13:46:12+00:00",
+      "why_it_matters": {
+        "text": "Infielder Curtis Mead, recently acquired from the Washington Nationals, left his debut game with the Boston Red Sox after being hit by a pitch on the left wrist in the fourth inning.",
+        "ai_generated": true
+      },
       "image_url": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0728%2Fr1694513_1296x729_16%2D9.jpg"
-    },
-    {
-      "title": "Max Scherzer gets two standing ovations from Nationals fans in injury return",
-      "url": "https://sports.yahoo.com/articles/max-scherzer-gets-two-standing-034749328.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-07-28T03:47:49+00:00",
-      "why_it_matters": {
-        "text": "Max Scherzer received two standing ovations from Nationals fans during his first game back from the injured list.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/6a43462b1177b130acaa638e780aa6533b49a8a5f5d5f5412322c7180c93e28c/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fny_post_sports_articles_389%2Ff1d8f2cf1919cfd311ac19e868214e19"
-    },
-    {
-      "title": "Alejandro Kirk loses grip on bat and sends it flying into the dugout, shattering window in win over Nationals",
-      "url": "https://sports.yahoo.com/mlb/article/alejandro-kirk-loses-grip-on-bat-and-sends-it-flying-into-the-dugout-shattering-window-in-win-over-nationals-031628378.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-07-28T03:16:28+00:00",
-      "why_it_matters": {
-        "text": "Alejandro Kirk's bat flew into the dugout and shattered a window during a win over the Nationals, narrowly missing a camera.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/55ad447e4046bc09dec7fcda24b09c02b3696642507d228ad57c9550f98ede7a/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-07%2F391b618c-34c2-4b3e-9287-b1d1f963c886"
     },
     {
       "title": "Postgamer #107: Nats fall back down to earth, leave nine runners on base in 3-2 loss: A recap",
@@ -100,32 +87,14 @@
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2025/09/Andrew-Alvarez-by-Marlene-Koenig-9-13-2025.jpg?fit=885%2C828&ssl=1"
     },
     {
-      "title": "Okamoto Stole A Base! Oh, And Jays Win",
-      "url": "https://sports.yahoo.com/articles/okamoto-stole-oh-jays-win-015046661.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-07-28T01:50:46+00:00",
-      "why_it_matters": {
-        "text": "The Blue Jays defeated the Nationals 3-2 in a game featuring a surprising stolen base by Kazuma Okamoto. After singling with one out, Okamoto stole second and scored on a Myles Straw single.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/1e6e196f530c42cb120b56f4d4e455b0dac450bee90b5a4689466ab45c292297/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F9789033096b70bf1e8acee61cbeb450d"
-    },
-    {
-      "title": "Max Scherzer gets 2 standing ovations from Nationals fans, allows 1 run in abbreviated return from IL",
-      "url": "https://sports.yahoo.com/mlb/breaking-news/article/max-scherzer-gets-2-standing-ovations-from-nationals-fans-allows-1-run-in-abbreviated-return-from-il-005106428.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-07-28T00:51:06+00:00",
-      "why_it_matters": {
-        "text": "Max Scherzer received two standing ovations from Nationals fans during his abbreviated return from the injured list, where he allowed one run.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/886541cccdaa118d7db2b64064d8138ea6c66263c06842856128aef9ed1645cf/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-07%2F53291afe-5402-4fc1-8f79-d7c810afd3e8"
-    },
-    {
       "title": "Game #107 Nats open a series against Max Scherzer",
       "url": "https://nats.talkdcsports.com/2026/07/27/game-107-nats-open-a-series-against-max-scherzer/",
       "source": "Talk Nats",
       "published_at": "2026-07-27T22:15:00+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals, currently within one game of a Wild Card slot, begin a three-game series against the Toronto Blue Jays featuring Max Scherzer's return to Nationals Park.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/07/Max-Scherzer-expression-Marlene-Koenig-AAA.jpg?fit=1200%2C775&ssl=1"
     },
     {
@@ -133,23 +102,60 @@
       "url": "https://www.federalbaseball.com/washington-nationals-discussions/93000/washington-nationals-vs-toronto-blue-jays-game-thread",
       "source": "Federal Baseball",
       "published_at": "2026-07-27T20:42:40+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals begin a new series against the Toronto Blue Jays following a significant weekend win. While the Blue Jays have struggled this season and may sell at the deadline, they retain offensive power. The Nationals also welcome back their franchise's greatest pitcher.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2287858747.jpg?quality=90&strip=all&crop=0%2C10.738955554706%2C100%2C78.522088890587&w=1200"
+    },
+    {
+      "title": "MLB trade grades: Red Sox and Nats make first majo...",
+      "url": "https://www.espn.com/mlb/story/_/id/49454655/2026-mlb-trade-deadline-grades-analysis-report-cards-every-deal",
+      "source": "ESPN MLB",
+      "published_at": "2026-07-27T19:59:45+00:00",
+      "why_it_matters": {
+        "text": "The MLB trade season has officially begun, with a running scorecard tracking major moves made by teams like the Red Sox and Nationals leading up to the August 3 deadline.",
+        "ai_generated": true
+      },
+      "image_url": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0613%2Fr1672551_1296x729_16%2D9.jpg"
+    },
+    {
+      "title": "Three under the radar relievers the Washington Nationals should explore at the deadline",
+      "url": "https://www.federalbaseball.com/washington-nationals-analysis/92989/three-under-radar-relievers-washington-nationals-should-explore-deadline",
+      "source": "Federal Baseball",
+      "published_at": "2026-07-27T19:45:27+00:00",
+      "why_it_matters": {
+        "text": "With the deadline approaching in one week, the author identifies three under-the-radar relief pitchers that the Washington Nationals could potentially target as hidden gems.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2274224497.jpg?quality=90&strip=all&crop=0%2C10.727133150934%2C100%2C78.545733698133&w=1200"
+    },
+    {
+      "title": "Nationals Designate Matt Krook For Assignment",
+      "url": "https://www.mlbtraderumors.com/2026/07/nationals-designate-matt-krook-for-assignment.html",
+      "source": "MLB Trade Rumors",
+      "published_at": "2026-07-27T18:35:01+00:00",
+      "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/matt-krook-nats-2026-1024x683.jpg"
+    },
+    {
+      "title": "Nats face make-or-break series against Blue Jays before trade deadline",
+      "url": "https://www.federalbaseball.com/washington-nationals-game-information/92986/nats-face-make-or-break-series-against-blue-jays-before-trade-deadline",
+      "source": "Federal Baseball",
+      "published_at": "2026-07-27T16:46:35+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2287145136.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C78.526813875573&w=1200"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "loss",
       "text": "Tough one — the Nats fell to the Blue Jays 3-2."
+    },
+    "storyline": {
+      "text": "Infielder Curtis Mead, recently acquired from the Washington Nationals, left his debut game with the Boston Red Sox after being hit by a pitch on the left wrist in the fourth inning.",
+      "ai_generated": true
     }
   },
   "videos": [
-    {
-      "title": "The Nationals defense played this perfectly to prevent a run 😤",
-      "url": "https://www.youtube.com/shorts/HcfCkG2wPAI",
-      "source": "MLB on YouTube",
-      "thumbnail_url": "https://i1.ytimg.com/vi/HcfCkG2wPAI/hqdefault.jpg",
-      "duration_s": 0
-    },
     {
       "title": "A Bat Absolutely SHATTERS The Glass At Nats Park",
       "url": "https://www.youtube.com/shorts/_z2yqTJRywg",
@@ -184,100 +190,86 @@
       "source": "Nationals on YouTube",
       "thumbnail_url": "https://i2.ytimg.com/vi/ABJGEomkxK4/hqdefault.jpg",
       "duration_s": 0
+    },
+    {
+      "title": "ANOTHER CJ Abrams Home Run",
+      "url": "https://www.youtube.com/shorts/gr4CG5VQ1W4",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i4.ytimg.com/vi/gr4CG5VQ1W4/hqdefault.jpg",
+      "duration_s": 0
     }
   ],
   "fan_vibes": {
-    "overall": "mixed",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "Max Scherzer fan reception",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://sports.yahoo.com/articles/max-scherzer-gets-two-standing-034749328.html",
-          "https://sports.yahoo.com/mlb/breaking-news/article/max-scherzer-gets-2-standing-ovations-from-nationals-fans-allows-1-run-in-abbreviated-return-from-il-005106428.html"
-        ]
-      },
-      {
-        "label": "Poor offensive execution",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/07/27/postgamer-107-nats-fall-back-down-to-earth-leave-nine-runners-on-base-in-3-2-loss-a-recap/"
-        ]
-      },
-      {
-        "label": "Loss to Blue Jays",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://sports.yahoo.com/articles/okamoto-stole-oh-jays-win-015046661.html"
-        ]
-      }
-    ]
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
   },
   "trending": [
     {
+      "label": "Red Sox",
+      "sentiment": "",
+      "context": "Mead exits Red Sox debut with contusion after HBP",
+      "source_urls": [
+        "https://www.espn.com/mlb/story/_/id/49454655/2026-mlb-trade-deadline-grades-analysis-report-cards-every-deal",
+        "https://www.espn.com/mlb/story/_/id/49466895/curtis-mead-exits-red-sox-debut-left-wrist-contusion"
+      ]
+    },
+    {
+      "label": "Toronto Blue Jays",
+      "sentiment": "",
+      "context": "Game #107 Nats open a series against Max Scherzer",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/07/27/game-107-nats-open-a-series-against-max-scherzer/",
+        "https://www.federalbaseball.com/washington-nationals-discussions/93000/washington-nationals-vs-toronto-blue-jays-game-thread"
+      ]
+    },
+    {
+      "label": "Trade Deadline",
+      "sentiment": "",
+      "context": "MLB trade grades: Red Sox and Nats make first majo...",
+      "source_urls": [
+        "https://www.espn.com/mlb/story/_/id/49454655/2026-mlb-trade-deadline-grades-analysis-report-cards-every-deal",
+        "https://www.federalbaseball.com/washington-nationals-analysis/92989/three-under-radar-relievers-washington-nationals-should-explore-deadline"
+      ]
+    },
+    {
+      "label": "Curtis Mead",
+      "sentiment": "",
+      "context": "Mead exits Red Sox debut with contusion after HBP",
+      "source_urls": [
+        "https://www.espn.com/mlb/story/_/id/49466895/curtis-mead-exits-red-sox-debut-left-wrist-contusion"
+      ]
+    },
+    {
+      "label": "injury",
+      "sentiment": "",
+      "context": "Mead exits Red Sox debut with contusion after HBP",
+      "source_urls": [
+        "https://www.espn.com/mlb/story/_/id/49466895/curtis-mead-exits-red-sox-debut-left-wrist-contusion"
+      ]
+    },
+    {
+      "label": "sports recap",
+      "sentiment": "",
+      "context": "Postgamer #107: Nats fall back down to earth, leave nine runners on base in 3-2 loss: A recap",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/07/27/postgamer-107-nats-fall-back-down-to-earth-leave-nine-runners-on-base-in-3-2-loss-a-recap/"
+      ]
+    },
+    {
       "label": "Max Scherzer",
       "sentiment": "",
-      "context": "Max Scherzer gets two standing ovations from Nationals fans in injury return",
+      "context": "Game #107 Nats open a series against Max Scherzer",
       "source_urls": [
-        "https://sports.yahoo.com/articles/max-scherzer-gets-two-standing-034749328.html",
-        "https://sports.yahoo.com/mlb/breaking-news/article/max-scherzer-gets-2-standing-ovations-from-nationals-fans-allows-1-run-in-abbreviated-return-from-il-005106428.html"
+        "https://nats.talkdcsports.com/2026/07/27/game-107-nats-open-a-series-against-max-scherzer/"
       ]
     },
     {
-      "label": "injury return",
+      "label": "Wild Card",
       "sentiment": "",
-      "context": "Max Scherzer gets two standing ovations from Nationals fans in injury return",
+      "context": "Game #107 Nats open a series against Max Scherzer",
       "source_urls": [
-        "https://sports.yahoo.com/articles/max-scherzer-gets-two-standing-034749328.html"
-      ]
-    },
-    {
-      "label": "Alejandro Kirk",
-      "sentiment": "",
-      "context": "Alejandro Kirk loses grip on bat and sends it flying into the dugout, shattering window in win over Nationals",
-      "source_urls": [
-        "https://sports.yahoo.com/mlb/article/alejandro-kirk-loses-grip-on-bat-and-sends-it-flying-into-the-dugout-shattering-window-in-win-over-nationals-031628378.html"
-      ]
-    },
-    {
-      "label": "game recap",
-      "sentiment": "",
-      "context": "Postgamer #107: Nats fall back down to earth, leave nine runners on base in 3-2 loss: A recap",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/07/27/postgamer-107-nats-fall-back-down-to-earth-leave-nine-runners-on-base-in-3-2-loss-a-recap/"
-      ]
-    },
-    {
-      "label": "scoring",
-      "sentiment": "",
-      "context": "Postgamer #107: Nats fall back down to earth, leave nine runners on base in 3-2 loss: A recap",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/07/27/postgamer-107-nats-fall-back-down-to-earth-leave-nine-runners-on-base-in-3-2-loss-a-recap/"
-      ]
-    },
-    {
-      "label": "Blue Jays",
-      "sentiment": "",
-      "context": "Okamoto Stole A Base! Oh, And Jays Win",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/okamoto-stole-oh-jays-win-015046661.html"
-      ]
-    },
-    {
-      "label": "Kazuma Okamoto",
-      "sentiment": "",
-      "context": "Okamoto Stole A Base! Oh, And Jays Win",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/okamoto-stole-oh-jays-win-015046661.html"
-      ]
-    },
-    {
-      "label": "Injured List",
-      "sentiment": "",
-      "context": "Max Scherzer gets 2 standing ovations from Nationals fans, allows 1 run in abbreviated return from IL",
-      "source_urls": [
-        "https://sports.yahoo.com/mlb/breaking-news/article/max-scherzer-gets-2-standing-ovations-from-nationals-fans-allows-1-run-in-abbreviated-return-from-il-005106428.html"
+        "https://nats.talkdcsports.com/2026/07/27/game-107-nats-open-a-series-against-max-scherzer/"
       ]
     }
   ],
