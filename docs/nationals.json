@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-28T00:10:42+00:00",
+  "fetched_at": "2026-07-28T01:09:16+00:00",
   "freshness": {
-    "schedule": "2026-07-28T00:10:41+00:00",
-    "standings": "2026-07-28T00:10:41+00:00",
+    "schedule": "2026-07-28T01:09:14+00:00",
+    "standings": "2026-07-28T01:09:15+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-07-28T00:10:40+00:00",
-    "weather": "2026-07-28T00:10:41+00:00"
+    "weather": "2026-07-28T01:09:15+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "54-52",
-      "score": 1
+      "score": 2
     },
     "away": {
       "id": 141,
@@ -102,17 +102,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 4,
-      "inning_half": "Bottom",
-      "inning_state": "End",
-      "is_top_inning": false,
-      "balls": 2,
-      "strikes": 2,
-      "outs": 3,
-      "home_runs": 1,
+      "current_inning": 8,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 3,
+      "strikes": 1,
+      "outs": 1,
+      "home_runs": 2,
       "away_runs": 3,
-      "home_hits": 4,
-      "away_hits": 5,
+      "home_hits": 6,
+      "away_hits": 7,
       "home_errors": 0,
       "away_errors": 1
     },
@@ -136,18 +136,18 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-28T00:10:41+00:00",
+    "fetched_at": "2026-07-28T01:09:15+00:00",
     "source": "open_meteo",
     "game_pk": 822705,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-07-28T00:00",
-    "temperature_f": 78.4,
-    "feels_like_f": 84.1,
-    "wind_mph": 4.6,
-    "wind_dir": "SE",
+    "temperature_f": 84.6,
+    "feels_like_f": 90.8,
+    "wind_mph": 0.9,
+    "wind_dir": "NNE",
     "precip_chance": 2,
     "precip_inches": 0.0,
-    "summary": "Partly cloudy",
+    "summary": "Mostly clear",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -170,7 +170,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "54-52",
-        "score": 1
+        "score": 2
       },
       "away": {
         "id": 141,
@@ -248,17 +248,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 4,
-        "inning_half": "Bottom",
-        "inning_state": "End",
-        "is_top_inning": false,
-        "balls": 2,
-        "strikes": 2,
-        "outs": 3,
-        "home_runs": 1,
+        "current_inning": 8,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 3,
+        "strikes": 1,
+        "outs": 1,
+        "home_runs": 2,
         "away_runs": 3,
-        "home_hits": 4,
-        "away_hits": 5,
+        "home_hits": 6,
+        "away_hits": 7,
         "home_errors": 0,
         "away_errors": 1
       },
@@ -557,15 +557,6 @@
     },
     "broadcasts": [
       {
-        "name": "Nationals.TV",
-        "call_sign": "NATS",
-        "type": "TV",
-        "language": "en",
-        "is_national": false,
-        "home_away": "home",
-        "media_state": "MEDIA_ARCHIVE"
-      },
-      {
         "name": "Arizona Sports 98.7 FM",
         "call_sign": "98.7 FM ",
         "type": "FM",
@@ -581,6 +572,15 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
+        "media_state": "MEDIA_ARCHIVE"
+      },
+      {
+        "name": "Nationals.TV",
+        "call_sign": "NATS",
+        "type": "TV",
+        "language": "en",
+        "is_national": false,
+        "home_away": "home",
         "media_state": "MEDIA_ARCHIVE"
       },
       {
@@ -682,15 +682,6 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
           "name": "Arizona Sports 98.7 FM",
           "call_sign": "98.7 FM ",
           "type": "FM",
@@ -706,6 +697,15 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_ARCHIVE"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_ARCHIVE"
         },
         {
@@ -774,7 +774,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "54-52",
-        "score": 1
+        "score": 2
       },
       "away": {
         "id": 141,
@@ -852,17 +852,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 4,
-        "inning_half": "Bottom",
-        "inning_state": "End",
-        "is_top_inning": false,
-        "balls": 2,
-        "strikes": 2,
-        "outs": 3,
-        "home_runs": 1,
+        "current_inning": 8,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 3,
+        "strikes": 1,
+        "outs": 1,
+        "home_runs": 2,
         "away_runs": 3,
-        "home_hits": 4,
-        "away_hits": 5,
+        "home_hits": 6,
+        "away_hits": 7,
         "home_errors": 0,
         "away_errors": 1
       },
