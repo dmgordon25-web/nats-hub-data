@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-28T21:39:30+00:00",
+  "fetched_at": "2026-07-28T22:41:57+00:00",
   "freshness": {
-    "schedule": "2026-07-28T21:39:29+00:00",
-    "standings": "2026-07-28T21:39:29+00:00",
+    "schedule": "2026-07-28T22:41:56+00:00",
+    "standings": "2026-07-28T22:41:56+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-07-28T19:54:49+00:00",
-    "weather": "2026-07-28T21:39:30+00:00"
+    "weather": "2026-07-28T22:41:57+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -16,7 +16,7 @@
     "date": "2026-07-28",
     "start_time_utc": "2026-07-28T22:45:00Z",
     "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "detailed_status": "Delayed Start",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -124,21 +124,21 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Delayed"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-28T21:39:30+00:00",
+    "fetched_at": "2026-07-28T22:41:57+00:00",
     "source": "open_meteo",
     "game_pk": 822703,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-07-28T23:00",
-    "temperature_f": 75.2,
-    "feels_like_f": 79.2,
+    "temperature_f": 78.3,
+    "feels_like_f": 81.4,
     "wind_mph": 9.7,
     "wind_dir": "WSW",
-    "precip_chance": 57,
+    "precip_chance": 67,
     "precip_inches": 0.0,
-    "summary": "Partly cloudy",
+    "summary": "Overcast",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -153,7 +153,7 @@
       "date": "2026-07-28",
       "start_time_utc": "2026-07-28T22:45:00Z",
       "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "detailed_status": "Delayed Start",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -261,7 +261,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Delayed"
     },
     {
       "game_pk": 822702,
@@ -873,7 +873,7 @@
       "date": "2026-07-28",
       "start_time_utc": "2026-07-28T22:45:00Z",
       "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "detailed_status": "Delayed Start",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -981,7 +981,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Delayed"
     },
     {
       "game_pk": 822702,
