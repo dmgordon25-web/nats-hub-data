@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-28T01:09:14+00:00",
+  "fetched_at": "2026-07-28T02:28:32+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -47,6 +47,15 @@
       },
       "broadcasts": [
         {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_ARCHIVE"
+        },
+        {
           "name": "Arizona Sports 98.7 FM",
           "call_sign": "98.7 FM ",
           "type": "FM",
@@ -62,15 +71,6 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
           "media_state": "MEDIA_ARCHIVE"
         },
         {
@@ -119,15 +119,15 @@
       "game_pk": 822705,
       "date": "2026-07-27",
       "start_time_utc": "2026-07-27T22:45:00Z",
-      "status": "Live",
-      "detailed_status": "In Progress",
+      "status": "Final",
+      "detailed_status": "Final",
       "is_nats_home": true,
       "home": {
         "id": 120,
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "54-52",
+        "record": "54-53",
         "score": 2
       },
       "away": {
@@ -135,7 +135,7 @@
         "abbrev": "TOR",
         "name": "Toronto Blue Jays",
         "short_name": "Blue Jays",
-        "record": "48-58",
+        "record": "49-58",
         "score": 3
       },
       "venue": {
@@ -206,16 +206,16 @@
         }
       ],
       "linescore": {
-        "current_inning": 8,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 3,
-        "strikes": 1,
-        "outs": 1,
+        "current_inning": 9,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 1,
+        "strikes": 3,
+        "outs": 3,
         "home_runs": 2,
         "away_runs": 3,
-        "home_hits": 6,
+        "home_hits": 8,
         "away_hits": 7,
         "home_errors": 0,
         "away_errors": 1
@@ -240,7 +240,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "54-52",
+        "record": "54-53",
         "score": null
       },
       "away": {
@@ -248,7 +248,7 @@
         "abbrev": "TOR",
         "name": "Toronto Blue Jays",
         "short_name": "Blue Jays",
-        "record": "48-58",
+        "record": "49-58",
         "score": null
       },
       "venue": {
@@ -344,7 +344,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "54-52",
+        "record": "54-53",
         "score": null
       },
       "away": {
@@ -352,7 +352,7 @@
         "abbrev": "TOR",
         "name": "Toronto Blue Jays",
         "short_name": "Blue Jays",
-        "record": "48-58",
+        "record": "49-58",
         "score": null
       },
       "venue": {
@@ -448,7 +448,7 @@
         "abbrev": "ATL",
         "name": "Atlanta Braves",
         "short_name": "Braves",
-        "record": "62-43",
+        "record": "62-44",
         "score": null
       },
       "away": {
@@ -456,7 +456,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "54-52",
+        "record": "54-53",
         "score": null
       },
       "venue": {
@@ -553,7 +553,7 @@
         "abbrev": "ATL",
         "name": "Atlanta Braves",
         "short_name": "Braves",
-        "record": "62-43",
+        "record": "62-44",
         "score": null
       },
       "away": {
@@ -561,7 +561,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "54-52",
+        "record": "54-53",
         "score": null
       },
       "venue": {
@@ -676,7 +676,7 @@
         "abbrev": "ATL",
         "name": "Atlanta Braves",
         "short_name": "Braves",
-        "record": "62-43",
+        "record": "62-44",
         "score": null
       },
       "away": {
@@ -684,7 +684,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "54-52",
+        "record": "54-53",
         "score": null
       },
       "venue": {
@@ -781,7 +781,7 @@
         "abbrev": "ATL",
         "name": "Atlanta Braves",
         "short_name": "Braves",
-        "record": "62-43",
+        "record": "62-44",
         "score": null
       },
       "away": {
@@ -789,7 +789,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "54-52",
+        "record": "54-53",
         "score": null
       },
       "venue": {
@@ -886,7 +886,7 @@
         "abbrev": "PHI",
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
-        "record": "57-49",
+        "record": "57-50",
         "score": null
       },
       "away": {
@@ -894,7 +894,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "54-52",
+        "record": "54-53",
         "score": null
       },
       "venue": {
@@ -991,7 +991,7 @@
         "abbrev": "PHI",
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
-        "record": "57-49",
+        "record": "57-50",
         "score": null
       },
       "away": {
@@ -999,7 +999,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "54-52",
+        "record": "54-53",
         "score": null
       },
       "venue": {
@@ -1096,7 +1096,7 @@
         "abbrev": "PHI",
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
-        "record": "57-49",
+        "record": "57-50",
         "score": null
       },
       "away": {
@@ -1104,7 +1104,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "54-52",
+        "record": "54-53",
         "score": null
       },
       "venue": {
@@ -1201,7 +1201,7 @@
         "abbrev": "PHI",
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
-        "record": "57-49",
+        "record": "57-50",
         "score": null
       },
       "away": {
@@ -1209,7 +1209,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "54-52",
+        "record": "54-53",
         "score": null
       },
       "venue": {
@@ -1306,7 +1306,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "54-52",
+        "record": "54-53",
         "score": null
       },
       "away": {
@@ -1420,7 +1420,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "54-52",
+        "record": "54-53",
         "score": null
       },
       "away": {
@@ -1516,7 +1516,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "54-52",
+        "record": "54-53",
         "score": null
       },
       "away": {
@@ -1612,7 +1612,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "54-52",
+        "record": "54-53",
         "score": null
       },
       "away": {
