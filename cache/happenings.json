@@ -1,76 +1,71 @@
 {
   "data_version": 1,
-  "generated_at": "2026-07-29T05:47:20+00:00",
+  "generated_at": "2026-07-29T09:48:14+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-07-29T05:46:43+00:00",
-    "videos": "2026-07-29T01:45:27+00:00",
-    "vibes": "2026-07-29T05:47:20+00:00"
+    "news": "2026-07-29T09:47:28+00:00",
+    "videos": "2026-07-29T09:47:28+00:00",
+    "vibes": "2026-07-29T09:48:14+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-07-29T05:46:27+00:00",
+      "last_updated_at": "2026-07-29T09:47:25+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-07-29T05:46:27+00:00",
+      "last_updated_at": "2026-07-29T09:47:26+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-07-29T05:46:28+00:00",
+      "last_updated_at": "2026-07-29T09:47:26+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-07-29T05:46:28+00:00",
+      "last_updated_at": "2026-07-29T09:47:26+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-07-29T05:46:28+00:00",
+      "last_updated_at": "2026-07-29T09:47:27+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-07-29T05:46:29+00:00",
+      "last_updated_at": "2026-07-29T09:47:27+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-07-29T09:47:28+00:00",
+      "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-07-29T09:47:28+00:00",
+      "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "videos",
-      "reason": "last_check_too_old"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "Bieber, former Cy Young winner, walks six in 1st",
       "url": "https://www.espn.com/mlb/story/_/id/49475966/blue-jays-shane-bieber-walks-six-two-thirds-inning",
       "source": "ESPN MLB",
-      "published_at": "2026-07-29T06:05:03+00:00",
+      "published_at": "2026-07-29T07:17:31+00:00",
       "why_it_matters": {
-        "text": "Former Cy Young winner Shane Bieber walked six of the nine batters he faced, including three with the bases full, before exiting after two-thirds of an inning in a loss against the Washington Nationals.",
+        "text": "Toronto Blue Jays pitcher Shane Bieber, a former Cy Young winner, walked six batters—including three with the bases full—before exiting after two-thirds of an inning in an 8-6 loss to the Washington Nationals.",
         "ai_generated": true
       },
       "image_url": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0729%2Fr1694971_1296x729_16%2D9.jpg"
@@ -79,7 +74,7 @@
       "title": "Vlad Jr. exits Jays' loss with hamstring tightness",
       "url": "https://www.espn.com/mlb/story/_/id/49475860/blue-jays-vladimir-guerrero-jr-leaves-game-nationals-right-hamstring-tightness",
       "source": "ESPN MLB",
-      "published_at": "2026-07-29T06:05:03+00:00",
+      "published_at": "2026-07-29T07:17:31+00:00",
       "why_it_matters": {
         "text": "Blue Jays first baseman Vladimir Guerrero Jr. left a game against the Nationals due to right hamstring tightness.",
         "ai_generated": true
@@ -103,7 +98,7 @@
       "source": "Talk Nats",
       "published_at": "2026-07-29T02:54:36+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals won a game against Toronto after scoring four runs in the first inning. The victory evened the series following a previous loss.",
+        "text": "The Washington Nationals won a game against Toronto after scoring four runs in the first inning. The victory evened the series following a loss the previous night.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/07/Screenshot_20260729_001153_X.jpg?fit=1080%2C1032&ssl=1"
@@ -120,21 +115,14 @@
       "image_url": "https://s.yimg.com/lo/mysterio/api/76ec177a5fcf50522d97335d2c939294f20035df049d91b11eb5fec9792f5393/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-07%2F81726bd4-0a90-4f8c-942e-d9c4ee21f190"
     },
     {
-      "title": "New Red Sox infielder Curtis Mead to miss time with left wrist injury",
-      "url": "https://sports.yahoo.com/articles/red-sox-infielder-curtis-mead-004933518.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-07-29T00:49:33+00:00",
-      "why_it_matters": {
-        "text": "Red Sox infielder Curtis Mead will miss time due to a left wrist injury sustained after being hit by a pitch during his debut following a trade from the Nationals.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/d373b2ec0166458a493dec0efd916e7fd151863ebc8631baa749fa960d29c5a5/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2F7d398e9f5add5217748e84198d055a7f"
-    },
-    {
       "title": "Red Sox lose newly acquired Curtis Mead to fractured wrist: Will Boston reenter trade market?",
       "url": "https://www.cbssports.com/mlb/news/curtis-mead-injury-timeline-red-sox-mlb-trade-deadline/",
       "source": "CBS Sports MLB",
       "published_at": "2026-07-28T23:44:38+00:00",
+      "why_it_matters": {
+        "text": "The Red Sox lost newly acquired player Curtis Mead to a fractured wrist during his debut with the team after being traded from the Nationals.",
+        "ai_generated": true
+      },
       "image_url": "https://sportshub.cbsistatic.com/i/r/2026/07/28/f71abd6d-d467-4599-a197-6fcb3041e4a4/thumbnail/1200x675/10584fa1cbed75a41da1e0009932442f/mead-getty.png"
     },
     {
@@ -143,6 +131,13 @@
       "source": "Talk Nats",
       "published_at": "2026-07-28T22:42:34+00:00",
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/07/Max-Scherzer-to-Luis-Garcia-Jr-7-27-2026.jpg?fit=1200%2C717&ssl=1"
+    },
+    {
+      "title": "Washington Nationals vs Toronto Blue Jays Game Thread",
+      "url": "https://www.federalbaseball.com/washington-nationals-discussions/93024/washington-nationals-vs-toronto-blue-jays-game-thread",
+      "source": "Federal Baseball",
+      "published_at": "2026-07-28T20:16:58+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2287915363.jpg?quality=90&strip=all&crop=0%2C10.478475858057%2C100%2C79.043048283886&w=1200"
     }
   ],
   "team_pulse": {
@@ -151,23 +146,23 @@
       "text": "Curly W! The Nats beat the Blue Jays 8-6."
     },
     "storyline": {
-      "text": "Former Cy Young winner Shane Bieber walked six of the nine batters he faced, including three with the bases full, before exiting after two-thirds of an inning in a loss against the Washington Nationals.",
+      "text": "Toronto Blue Jays pitcher Shane Bieber, a former Cy Young winner, walked six batters—including three with the bases full—before exiting after two-thirds of an inning in an 8-6 loss to the Washington Nationals.",
       "ai_generated": true
     }
   },
   "videos": [
     {
+      "title": "Blue Jays vs. Nationals Game Highlights (7/28/26) | MLB Highlights",
+      "url": "https://www.youtube.com/watch?v=q4xtZDvCVVM",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i2.ytimg.com/vi/q4xtZDvCVVM/hqdefault.jpg",
+      "duration_s": 0
+    },
+    {
       "title": "A 6-Walk Inning? The Most In Nationals History",
       "url": "https://www.youtube.com/shorts/TWJRpMskNzQ",
       "source": "Nationals on YouTube",
       "thumbnail_url": "https://i1.ytimg.com/vi/TWJRpMskNzQ/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "Inside the Draft Room With the Washington Nationals | 2026 MLB Draft",
-      "url": "https://www.youtube.com/watch?v=d9lk1O2w5cc",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i1.ytimg.com/vi/d9lk1O2w5cc/hqdefault.jpg",
       "duration_s": 0
     },
     {
@@ -204,28 +199,19 @@
     "ai_generated": true,
     "themes": [
       {
-        "label": "Nationals victory",
+        "label": "Victory over Toronto",
         "sentiment": "positive",
         "source_urls": [
-          "https://nats.talkdcsports.com/2026/07/28/postgamer-108-nats-ride-four-run-first-inning-to-a-win-evening-the-series-against-toronto-a-recap/"
-        ]
-      },
-      {
-        "label": "Opponent pitching struggles",
-        "sentiment": "negative",
-        "source_urls": [
+          "https://nats.talkdcsports.com/2026/07/28/postgamer-108-nats-ride-four-run-first-inning-to-a-win-evening-the-series-against-toronto-a-recap/",
           "https://sports.yahoo.com/articles/jays-lose-nationals-8-6-030120038.html",
-          "https://sports.yahoo.com/mlb/breaking-news/article/blue-jays-lose-vladimir-guerrero-jr-to-hamstring-injury-fall-to-nationals-after-shane-bieber-issues-6-first-inning-walks-013138471.html",
           "https://www.espn.com/mlb/story/_/id/49475966/blue-jays-shane-bieber-walks-six-two-thirds-inning"
         ]
       },
       {
-        "label": "Opponent roster injuries",
-        "sentiment": "mixed",
+        "label": "Series Tie",
+        "sentiment": "positive",
         "source_urls": [
-          "https://sports.yahoo.com/articles/red-sox-infielder-curtis-mead-004933518.html",
-          "https://sports.yahoo.com/mlb/breaking-news/article/blue-jays-lose-vladimir-guerrero-jr-to-hamstring-injury-fall-to-nationals-after-shane-bieber-issues-6-first-inning-walks-013138471.html",
-          "https://www.espn.com/mlb/story/_/id/49475860/blue-jays-vladimir-guerrero-jr-leaves-game-nationals-right-hamstring-tightness"
+          "https://nats.talkdcsports.com/2026/07/28/postgamer-108-nats-ride-four-run-first-inning-to-a-win-evening-the-series-against-toronto-a-recap/"
         ]
       }
     ]
@@ -268,25 +254,41 @@
       "sentiment": "",
       "context": "Vlad Jr. exits Jays' loss with hamstring tightness",
       "source_urls": [
-        "https://sports.yahoo.com/articles/red-sox-infielder-curtis-mead-004933518.html",
         "https://sports.yahoo.com/mlb/breaking-news/article/blue-jays-lose-vladimir-guerrero-jr-to-hamstring-injury-fall-to-nationals-after-shane-bieber-issues-6-first-inning-walks-013138471.html",
+        "https://www.cbssports.com/mlb/news/curtis-mead-injury-timeline-red-sox-mlb-trade-deadline/",
         "https://www.espn.com/mlb/story/_/id/49475860/blue-jays-vladimir-guerrero-jr-leaves-game-nationals-right-hamstring-tightness"
+      ]
+    },
+    {
+      "label": "Cy Young",
+      "sentiment": "",
+      "context": "Bieber, former Cy Young winner, walks six in 1st",
+      "source_urls": [
+        "https://www.espn.com/mlb/story/_/id/49475966/blue-jays-shane-bieber-walks-six-two-thirds-inning"
       ]
     },
     {
       "label": "Red Sox",
       "sentiment": "",
-      "context": "New Red Sox infielder Curtis Mead to miss time with left wrist injury",
+      "context": "Red Sox lose newly acquired Curtis Mead to fractured wrist: Will Boston reenter trade market?",
       "source_urls": [
-        "https://sports.yahoo.com/articles/red-sox-infielder-curtis-mead-004933518.html"
+        "https://www.cbssports.com/mlb/news/curtis-mead-injury-timeline-red-sox-mlb-trade-deadline/"
       ]
     },
     {
       "label": "Curtis Mead",
       "sentiment": "",
-      "context": "New Red Sox infielder Curtis Mead to miss time with left wrist injury",
+      "context": "Red Sox lose newly acquired Curtis Mead to fractured wrist: Will Boston reenter trade market?",
       "source_urls": [
-        "https://sports.yahoo.com/articles/red-sox-infielder-curtis-mead-004933518.html"
+        "https://www.cbssports.com/mlb/news/curtis-mead-injury-timeline-red-sox-mlb-trade-deadline/"
+      ]
+    },
+    {
+      "label": "trade market",
+      "sentiment": "",
+      "context": "Red Sox lose newly acquired Curtis Mead to fractured wrist: Will Boston reenter trade market?",
+      "source_urls": [
+        "https://www.cbssports.com/mlb/news/curtis-mead-injury-timeline-red-sox-mlb-trade-deadline/"
       ]
     }
   ],
