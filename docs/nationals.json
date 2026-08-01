@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-07-31T23:04:01+00:00",
+  "fetched_at": "2026-08-01T00:09:57+00:00",
   "freshness": {
-    "schedule": "2026-07-31T23:04:00+00:00",
-    "standings": "2026-07-31T23:04:00+00:00",
+    "schedule": "2026-08-01T00:09:55+00:00",
+    "standings": "2026-08-01T00:09:56+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-07-31T19:53:57+00:00",
-    "weather": "2026-07-31T23:04:01+00:00"
+    "weather": "2026-08-01T00:09:57+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -16,7 +16,7 @@
     "date": "2026-07-31",
     "start_time_utc": "2026-07-31T23:15:00Z",
     "status": "Live",
-    "detailed_status": "Warmup",
+    "detailed_status": "In Progress",
     "is_nats_home": false,
     "home": {
       "id": 144,
@@ -24,7 +24,7 @@
       "name": "Atlanta Braves",
       "short_name": "Braves",
       "record": "64-45",
-      "score": 0
+      "score": 2
     },
     "away": {
       "id": 120,
@@ -32,7 +32,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "55-55",
-      "score": 0
+      "score": 1
     },
     "venue": {
       "id": 4705,
@@ -120,17 +120,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 1,
+      "current_inning": 4,
       "inning_half": "Top",
       "inning_state": "Top",
       "is_top_inning": true,
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0,
-      "home_runs": 0,
-      "away_runs": 0,
-      "home_hits": 0,
-      "away_hits": 0,
+      "balls": 1,
+      "strikes": 1,
+      "outs": 1,
+      "home_runs": 2,
+      "away_runs": 1,
+      "home_hits": 5,
+      "away_hits": 3,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -154,14 +154,14 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-07-31T23:04:01+00:00",
+    "fetched_at": "2026-08-01T00:09:57+00:00",
     "source": "open_meteo",
     "game_pk": 824892,
     "venue_name": "Truist Park",
-    "forecast_at": "2026-07-31T23:00",
-    "temperature_f": 88.5,
-    "feels_like_f": 90.7,
-    "wind_mph": 5.2,
+    "forecast_at": "2026-08-01T00:00",
+    "temperature_f": 85.7,
+    "feels_like_f": 87.2,
+    "wind_mph": 4.5,
     "wind_dir": "WSW",
     "precip_chance": 0,
     "precip_inches": 0.0,
@@ -169,10 +169,10 @@
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "nostalgia_2019_cards_sweep",
+    "id": "nostalgia_2019_corbin_clutch",
     "category": "nostalgia",
-    "weight": 5,
-    "text": "In 2019, the Nats swept the Cardinals in the NLCS. Anibal Sanchez carried a no-hitter into the eighth in Game 1."
+    "weight": 4,
+    "text": "Patrick Corbin came out of the bullpen to win Game 7. The signed-as-a-starter, throwing-three-innings-of-relief Game 7. That kind of clutch."
   },
   "next_three": [
     {
@@ -180,7 +180,7 @@
       "date": "2026-07-31",
       "start_time_utc": "2026-07-31T23:15:00Z",
       "status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 144,
@@ -188,7 +188,7 @@
         "name": "Atlanta Braves",
         "short_name": "Braves",
         "record": "64-45",
-        "score": 0
+        "score": 2
       },
       "away": {
         "id": 120,
@@ -196,7 +196,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "55-55",
-        "score": 0
+        "score": 1
       },
       "venue": {
         "id": 4705,
@@ -284,17 +284,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 4,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "balls": 1,
+        "strikes": 1,
+        "outs": 1,
+        "home_runs": 2,
+        "away_runs": 1,
+        "home_hits": 5,
+        "away_hits": 3,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -439,7 +439,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 824891,
@@ -692,121 +692,6 @@
   },
   "all_games": [
     {
-      "game_pk": 822702,
-      "date": "2026-07-29",
-      "start_time_utc": "2026-07-29T17:05:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "55-54",
-        "score": 2
-      },
-      "away": {
-        "id": 141,
-        "abbrev": "TOR",
-        "name": "Toronto Blue Jays",
-        "short_name": "Blue Jays",
-        "record": "50-59",
-        "score": 5
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 641793,
-          "name": "Zack Littell",
-          "hand": null
-        },
-        "away": {
-          "id": 702056,
-          "name": "Trey Yesavage",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Sportsnet",
-          "call_sign": "Sportsnet",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "SN590 THE FAN",
-          "call_sign": "SN590",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 0,
-        "strikes": 1,
-        "outs": 3,
-        "home_runs": 2,
-        "away_runs": 5,
-        "home_hits": 6,
-        "away_hits": 12,
-        "home_errors": 1,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 3,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
-    {
       "game_pk": 824894,
       "date": "2026-07-30",
       "start_time_utc": "2026-07-30T23:15:00Z",
@@ -935,7 +820,7 @@
       "date": "2026-07-31",
       "start_time_utc": "2026-07-31T23:15:00Z",
       "status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 144,
@@ -943,7 +828,7 @@
         "name": "Atlanta Braves",
         "short_name": "Braves",
         "record": "64-45",
-        "score": 0
+        "score": 2
       },
       "away": {
         "id": 120,
@@ -951,7 +836,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "55-55",
-        "score": 0
+        "score": 1
       },
       "venue": {
         "id": 4705,
@@ -1039,17 +924,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 4,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "balls": 1,
+        "strikes": 1,
+        "outs": 1,
+        "home_runs": 2,
+        "away_runs": 1,
+        "home_hits": 5,
+        "away_hits": 3,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -1194,7 +1079,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 824891,
@@ -2575,6 +2460,140 @@
         "package": "com.bamnetworks.mobile.android.gameday.atbat",
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 823588,
+      "date": "2026-08-15",
+      "start_time_utc": "2026-08-15T20:10:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": false,
+      "home": {
+        "id": 121,
+        "abbrev": "NYM",
+        "name": "New York Mets",
+        "short_name": "Mets",
+        "record": "47-63",
+        "score": null
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "55-55",
+        "score": null
+      },
+      "venue": {
+        "id": 3289,
+        "name": "Citi Field",
+        "city": "Flushing",
+        "state": "NY",
+        "lat": 40.75753012,
+        "lon": -73.84559155
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "FS1",
+          "call_sign": "FS1",
+          "type": "TV",
+          "language": "en",
+          "is_national": true,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "SNY",
+          "call_sign": "SNY",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "FS1",
+          "call_sign": "FS1",
+          "type": "TV",
+          "language": "en",
+          "is_national": true,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Audacy Mets Radio WHSQ 880AM",
+          "call_sign": "WHSQ 880AM",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Audacy App 92.3 HD2",
+          "call_sign": "Audacy",
+          "type": "FM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 2,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "FS1",
+        "is_national": true,
+        "rule_id": "fox_sports",
+        "label": "FOX/FS1 on YouTube TV",
+        "package": "com.google.android.youtube.tvunplugged",
+        "intent_uri": "https://tv.youtube.com/watch/live/fox",
+        "fallback_uri": "https://tv.youtube.com/"
       },
       "watch_label": "Next Game"
     }
