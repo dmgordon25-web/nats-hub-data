@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-01T22:08:32+00:00",
+  "fetched_at": "2026-08-01T23:10:00+00:00",
   "freshness": {
-    "schedule": "2026-08-01T22:08:31+00:00",
-    "standings": "2026-08-01T22:08:31+00:00",
+    "schedule": "2026-08-01T23:09:59+00:00",
+    "standings": "2026-08-01T23:09:59+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-01T19:35:29+00:00",
-    "weather": "2026-08-01T22:08:32+00:00"
+    "weather": "2026-08-01T23:10:00+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -15,8 +15,8 @@
     "game_pk": 824890,
     "date": "2026-08-01",
     "start_time_utc": "2026-08-01T23:15:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "Warmup",
     "is_nats_home": false,
     "home": {
       "id": 144,
@@ -44,8 +44,8 @@
     },
     "probable_pitchers": {
       "home": {
-        "id": 625643,
-        "name": "Reynaldo López",
+        "id": 527048,
+        "name": "Martín Pérez",
         "hand": null
       },
       "away": {
@@ -123,7 +123,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "Nationals.TV",
       "is_national": false,
@@ -133,19 +133,19 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-01T22:08:32+00:00",
+    "fetched_at": "2026-08-01T23:10:00+00:00",
     "source": "open_meteo",
     "game_pk": 824890,
     "venue_name": "Truist Park",
     "forecast_at": "2026-08-01T23:00",
-    "temperature_f": 86.5,
-    "feels_like_f": 90.1,
-    "wind_mph": 8.5,
-    "wind_dir": "S",
-    "precip_chance": 14,
+    "temperature_f": 87.0,
+    "feels_like_f": 90.9,
+    "wind_mph": 8.1,
+    "wind_dir": "SSW",
+    "precip_chance": 12,
     "precip_inches": 0.0,
     "summary": "Clear",
     "is_dome": false
@@ -161,8 +161,8 @@
       "game_pk": 824890,
       "date": "2026-08-01",
       "start_time_utc": "2026-08-01T23:15:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "Warmup",
       "is_nats_home": false,
       "home": {
         "id": 144,
@@ -190,8 +190,8 @@
       },
       "probable_pitchers": {
         "home": {
-          "id": 625643,
-          "name": "Reynaldo López",
+          "id": 527048,
+          "name": "Martín Pérez",
           "hand": null
         },
         "away": {
@@ -269,7 +269,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -279,7 +279,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 824891,
@@ -935,8 +935,8 @@
       "game_pk": 824890,
       "date": "2026-08-01",
       "start_time_utc": "2026-08-01T23:15:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "Warmup",
       "is_nats_home": false,
       "home": {
         "id": 144,
@@ -964,8 +964,8 @@
       },
       "probable_pitchers": {
         "home": {
-          "id": 625643,
-          "name": "Reynaldo López",
+          "id": 527048,
+          "name": "Martín Pérez",
           "hand": null
         },
         "away": {
@@ -1043,7 +1043,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -1053,7 +1053,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 824891,
@@ -3011,18 +3011,18 @@
           "abbrev": "TB",
           "name": "Tampa Bay Rays",
           "short_name": "Rays",
-          "wins": 64,
+          "wins": 65,
           "losses": 45,
-          "pct": ".587",
+          "pct": ".591",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "L1",
+          "streak": "W1",
           "last_ten": "7-3",
           "division_rank": 1,
           "league_rank": 1,
           "wc_rank": null,
-          "run_diff": 38,
-          "runs_scored": 482,
+          "run_diff": 39,
+          "runs_scored": 483,
           "runs_allowed": 444,
           "elim_num": "-"
         },
@@ -3034,7 +3034,7 @@
           "wins": 62,
           "losses": 48,
           "pct": ".564",
-          "gb": "2.5",
+          "gb": "3.0",
           "wc_gb": "+6.5",
           "streak": "W1",
           "last_ten": "6-4",
@@ -3044,7 +3044,7 @@
           "run_diff": 89,
           "runs_scored": 508,
           "runs_allowed": 419,
-          "elim_num": "51"
+          "elim_num": "50"
         },
         {
           "id": 111,
@@ -3054,7 +3054,7 @@
           "wins": 58,
           "losses": 51,
           "pct": ".532",
-          "gb": "6.0",
+          "gb": "6.5",
           "wc_gb": "+3.0",
           "streak": "W3",
           "last_ten": "7-3",
@@ -3064,7 +3064,7 @@
           "run_diff": 55,
           "runs_scored": 463,
           "runs_allowed": 408,
-          "elim_num": "48"
+          "elim_num": "47"
         },
         {
           "id": 110,
@@ -3074,7 +3074,7 @@
           "wins": 54,
           "losses": 56,
           "pct": ".491",
-          "gb": "10.5",
+          "gb": "11.0",
           "wc_gb": "1.5",
           "streak": "W2",
           "last_ten": "5-5",
@@ -3084,7 +3084,7 @@
           "run_diff": -22,
           "runs_scored": 507,
           "runs_allowed": 529,
-          "elim_num": "43"
+          "elim_num": "42"
         },
         {
           "id": 141,
@@ -3094,7 +3094,7 @@
           "wins": 52,
           "losses": 59,
           "pct": ".468",
-          "gb": "13.0",
+          "gb": "13.5",
           "wc_gb": "4.0",
           "streak": "W3",
           "last_ten": "6-4",
@@ -3104,7 +3104,7 @@
           "run_diff": -54,
           "runs_scored": 438,
           "runs_allowed": 492,
-          "elim_num": "40"
+          "elim_num": "39"
         }
       ]
     },
@@ -3119,18 +3119,18 @@
           "name": "Chicago White Sox",
           "short_name": "White Sox",
           "wins": 58,
-          "losses": 51,
-          "pct": ".532",
+          "losses": 52,
+          "pct": ".527",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "W3",
+          "streak": "L1",
           "last_ten": "5-5",
           "division_rank": 1,
           "league_rank": 4,
           "wc_rank": null,
-          "run_diff": 48,
+          "run_diff": 47,
           "runs_scored": 522,
-          "runs_allowed": 474,
+          "runs_allowed": 475,
           "elim_num": "-"
         },
         {
@@ -3141,7 +3141,7 @@
           "wins": 56,
           "losses": 55,
           "pct": ".505",
-          "gb": "3.0",
+          "gb": "2.5",
           "wc_gb": "-",
           "streak": "W2",
           "last_ten": "7-3",
@@ -3161,7 +3161,7 @@
           "wins": 56,
           "losses": 55,
           "pct": ".505",
-          "gb": "3.0",
+          "gb": "2.5",
           "wc_gb": "-",
           "streak": "L1",
           "last_ten": "3-7",
@@ -3181,7 +3181,7 @@
           "wins": 52,
           "losses": 58,
           "pct": ".473",
-          "gb": "6.5",
+          "gb": "6.0",
           "wc_gb": "3.5",
           "streak": "W1",
           "last_ten": "5-5",
@@ -3201,7 +3201,7 @@
           "wins": 46,
           "losses": 65,
           "pct": ".414",
-          "gb": "13.0",
+          "gb": "12.5",
           "wc_gb": "10.0",
           "streak": "L2",
           "last_ten": "5-5",
