@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-02T16:41:01+00:00",
+  "fetched_at": "2026-08-02T17:46:02+00:00",
   "freshness": {
-    "schedule": "2026-08-02T16:41:00+00:00",
-    "standings": "2026-08-02T16:41:00+00:00",
+    "schedule": "2026-08-02T17:46:01+00:00",
+    "standings": "2026-08-02T17:46:01+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-02T14:42:25+00:00",
-    "weather": "2026-08-02T16:41:01+00:00"
+    "weather": "2026-08-02T17:46:01+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -15,8 +15,8 @@
     "game_pk": 824891,
     "date": "2026-08-02",
     "start_time_utc": "2026-08-02T17:35:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "In Progress",
     "is_nats_home": false,
     "home": {
       "id": 144,
@@ -103,16 +103,16 @@
     ],
     "linescore": {
       "current_inning": 1,
-      "inning_half": "Top",
-      "inning_state": "Top",
-      "is_top_inning": true,
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0,
+      "inning_half": "Bottom",
+      "inning_state": "Bottom",
+      "is_top_inning": false,
+      "balls": 1,
+      "strikes": 2,
+      "outs": 1,
       "home_runs": 0,
       "away_runs": 0,
       "home_hits": 0,
-      "away_hits": 0,
+      "away_hits": 1,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -123,7 +123,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "Nationals.TV",
       "is_national": false,
@@ -133,18 +133,18 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Starts Soon"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-02T16:41:01+00:00",
+    "fetched_at": "2026-08-02T17:46:01+00:00",
     "source": "open_meteo",
     "game_pk": 824891,
     "venue_name": "Truist Park",
     "forecast_at": "2026-08-02T18:00",
-    "temperature_f": 85.3,
-    "feels_like_f": 92.0,
-    "wind_mph": 10.7,
-    "wind_dir": "SW",
+    "temperature_f": 87.1,
+    "feels_like_f": 93.3,
+    "wind_mph": 10.6,
+    "wind_dir": "WSW",
     "precip_chance": 14,
     "precip_inches": 0.0,
     "summary": "Mostly clear",
@@ -161,8 +161,8 @@
       "game_pk": 824891,
       "date": "2026-08-02",
       "start_time_utc": "2026-08-02T17:35:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 144,
@@ -249,16 +249,16 @@
       ],
       "linescore": {
         "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 1,
+        "strikes": 2,
+        "outs": 1,
         "home_runs": 0,
         "away_runs": 0,
         "home_hits": 0,
-        "away_hits": 0,
+        "away_hits": 1,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -269,7 +269,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -279,7 +279,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 823431,
@@ -313,7 +313,11 @@
         "lon": -75.16716957
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 605400,
+          "name": "Aaron Nola",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -429,8 +433,16 @@
         "lon": -75.16716957
       },
       "probable_pitchers": {
-        "home": null,
-        "away": null
+        "home": {
+          "id": 666200,
+          "name": "Jesús Luzardo",
+          "hand": null
+        },
+        "away": {
+          "id": 641793,
+          "name": "Zack Littell",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -909,8 +921,8 @@
       "game_pk": 824891,
       "date": "2026-08-02",
       "start_time_utc": "2026-08-02T17:35:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 144,
@@ -997,16 +1009,16 @@
       ],
       "linescore": {
         "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 1,
+        "strikes": 2,
+        "outs": 1,
         "home_runs": 0,
         "away_runs": 0,
         "home_hits": 0,
-        "away_hits": 0,
+        "away_hits": 1,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -1017,7 +1029,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -1027,7 +1039,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 823431,
@@ -1061,7 +1073,11 @@
         "lon": -75.16716957
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 605400,
+          "name": "Aaron Nola",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -1177,8 +1193,16 @@
         "lon": -75.16716957
       },
       "probable_pitchers": {
-        "home": null,
-        "away": null
+        "home": {
+          "id": 666200,
+          "name": "Jesús Luzardo",
+          "hand": null
+        },
+        "away": {
+          "id": 641793,
+          "name": "Zack Littell",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1293,8 +1317,16 @@
         "lon": -75.16716957
       },
       "probable_pitchers": {
-        "home": null,
-        "away": null
+        "home": {
+          "id": 691725,
+          "name": "Andrew Painter",
+          "hand": null
+        },
+        "away": {
+          "id": 663623,
+          "name": "Jake Irvin",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1409,8 +1441,16 @@
         "lon": -75.16716957
       },
       "probable_pitchers": {
-        "home": null,
-        "away": null
+        "home": {
+          "id": 650911,
+          "name": "Cristopher Sánchez",
+          "hand": null
+        },
+        "away": {
+          "id": 656492,
+          "name": "Foster Griffin",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
