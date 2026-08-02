@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-02T09:18:55+00:00",
+  "fetched_at": "2026-08-02T13:27:42+00:00",
   "freshness": {
-    "schedule": "2026-08-02T09:18:54+00:00",
-    "standings": "2026-08-02T09:18:54+00:00",
+    "schedule": "2026-08-02T13:27:41+00:00",
+    "standings": "2026-08-02T13:27:41+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-02T09:18:54+00:00",
-    "weather": "2026-08-02T09:18:55+00:00"
+    "weather": "2026-08-02T13:27:42+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -43,7 +43,11 @@
       "lon": -84.467641
     },
     "probable_pitchers": {
-      "home": null,
+      "home": {
+        "id": 702275,
+        "name": "JR Ritchie",
+        "hand": null
+      },
       "away": {
         "id": 676917,
         "name": "Cade Cavalli",
@@ -132,16 +136,16 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-02T09:18:55+00:00",
+    "fetched_at": "2026-08-02T13:27:42+00:00",
     "source": "open_meteo",
     "game_pk": 824891,
     "venue_name": "Truist Park",
     "forecast_at": "2026-08-02T18:00",
-    "temperature_f": 86.4,
-    "feels_like_f": 95.0,
-    "wind_mph": 10.0,
-    "wind_dir": "SW",
-    "precip_chance": 2,
+    "temperature_f": 82.3,
+    "feels_like_f": 92.8,
+    "wind_mph": 9.0,
+    "wind_dir": "W",
+    "precip_chance": 8,
     "precip_inches": 0.0,
     "summary": "Mostly clear",
     "is_dome": false
@@ -185,7 +189,11 @@
         "lon": -84.467641
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 702275,
+          "name": "JR Ritchie",
+          "hand": null
+        },
         "away": {
           "id": 676917,
           "name": "Cade Cavalli",
@@ -929,7 +937,11 @@
         "lon": -84.467641
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 702275,
+          "name": "JR Ritchie",
+          "hand": null
+        },
         "away": {
           "id": 676917,
           "name": "Cade Cavalli",
