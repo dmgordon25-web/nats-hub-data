@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-02T23:10:21+00:00",
+  "fetched_at": "2026-08-03T00:10:56+00:00",
   "freshness": {
-    "schedule": "2026-08-02T23:10:19+00:00",
-    "standings": "2026-08-02T23:10:20+00:00",
+    "schedule": "2026-08-03T00:10:55+00:00",
+    "standings": "2026-08-03T00:10:55+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-08-02T19:35:52+00:00",
-    "weather": "2026-08-02T23:10:21+00:00"
+    "former_nats": "2026-08-03T00:10:54+00:00",
+    "weather": "2026-08-03T00:10:56+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -129,10 +129,10 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Next Game"
+    "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-02T23:10:21+00:00",
+    "fetched_at": "2026-08-03T00:10:56+00:00",
     "source": "open_meteo",
     "game_pk": 823431,
     "venue_name": "Citizens Bank Park",
@@ -141,16 +141,16 @@
     "feels_like_f": 88.2,
     "wind_mph": 5.0,
     "wind_dir": "SSW",
-    "precip_chance": 17,
+    "precip_chance": 15,
     "precip_inches": 0.0,
     "summary": "Mostly clear",
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "did_you_know_first_game_2005",
-    "category": "did_you_know",
-    "weight": 3,
-    "text": "The first regular-season Nats game was April 4, 2005, in Philadelphia. They lost 8-4. They didn't win their first home game until April 14."
+    "id": "nostalgia_2018_scherzer_300k",
+    "category": "nostalgia",
+    "weight": 5,
+    "text": "Max Scherzer struck out 300 in 2018. Nobody on the Nats had ever done it. He was 33."
   },
   "next_three": [
     {
@@ -271,7 +271,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 823432,
@@ -648,148 +648,6 @@
   },
   "all_games": [
     {
-      "game_pk": 824892,
-      "date": "2026-07-31",
-      "start_time_utc": "2026-07-31T23:15:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 144,
-        "abbrev": "ATL",
-        "name": "Atlanta Braves",
-        "short_name": "Braves",
-        "record": "65-45",
-        "score": 6
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "55-56",
-        "score": 2
-      },
-      "venue": {
-        "id": 4705,
-        "name": "Truist Park",
-        "city": "Atlanta",
-        "state": "GA",
-        "lat": 33.890672,
-        "lon": -84.467641
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 693821,
-          "name": "Bryce Elder",
-          "hand": null
-        },
-        "away": {
-          "id": 656492,
-          "name": "Foster Griffin",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "680 AM/93.7 FM The Fan",
-          "call_sign": "680 AM",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "BravesVision",
-          "call_sign": "BravesVsn",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "La Mejor 1600/1460/1130 AM",
-          "call_sign": "1600 AM",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Fox 5 WTTG",
-          "call_sign": "Fox 5",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Gray Media",
-          "call_sign": "Gray Media",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 2,
-        "strikes": 2,
-        "outs": 3,
-        "home_runs": 6,
-        "away_runs": 2,
-        "home_hits": 12,
-        "away_hits": 9,
-        "home_errors": 0,
-        "away_errors": 1
-      },
-      "series": {
-        "game_number": 2,
-        "games_in_series": 4,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
-    {
       "game_pk": 824890,
       "date": "2026-08-01",
       "start_time_utc": "2026-08-01T23:15:00Z",
@@ -1155,7 +1013,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 823432,
@@ -2839,19 +2697,19 @@
           "abbrev": "SD",
           "name": "San Diego Padres",
           "short_name": "Padres",
-          "wins": 57,
+          "wins": 58,
           "losses": 54,
-          "pct": ".514",
-          "gb": "12.0",
-          "wc_gb": "1.5",
-          "streak": "W2",
-          "last_ten": "7-3",
+          "pct": ".518",
+          "gb": "11.5",
+          "wc_gb": "1.0",
+          "streak": "W3",
+          "last_ten": "8-2",
           "division_rank": 3,
           "league_rank": 7,
           "wc_rank": 4,
-          "run_diff": -13,
-          "runs_scored": 467,
-          "runs_allowed": 480,
+          "run_diff": -12,
+          "runs_scored": 472,
+          "runs_allowed": 484,
           "elim_num": "40"
         },
         {
@@ -2860,19 +2718,19 @@
           "name": "San Francisco Giants",
           "short_name": "Giants",
           "wins": 47,
-          "losses": 64,
-          "pct": ".423",
-          "gb": "22.0",
-          "wc_gb": "11.5",
-          "streak": "L2",
+          "losses": 65,
+          "pct": ".420",
+          "gb": "22.5",
+          "wc_gb": "12.0",
+          "streak": "L3",
           "last_ten": "5-5",
           "division_rank": 4,
           "league_rank": 13,
           "wc_rank": 10,
-          "run_diff": -52,
-          "runs_scored": 466,
-          "runs_allowed": 518,
-          "elim_num": "30"
+          "run_diff": -53,
+          "runs_scored": 470,
+          "runs_allowed": 523,
+          "elim_num": "29"
         },
         {
           "id": 115,
@@ -3180,18 +3038,18 @@
           "abbrev": "DET",
           "name": "Detroit Tigers",
           "short_name": "Tigers",
-          "wins": 53,
+          "wins": 54,
           "losses": 58,
-          "pct": ".477",
-          "gb": "6.0",
-          "wc_gb": "3.0",
-          "streak": "W2",
+          "pct": ".482",
+          "gb": "5.5",
+          "wc_gb": "2.5",
+          "streak": "W3",
           "last_ten": "6-4",
           "division_rank": 4,
           "league_rank": 11,
           "wc_rank": 8,
-          "run_diff": 52,
-          "runs_scored": 494,
+          "run_diff": 63,
+          "runs_scored": 505,
           "runs_allowed": 442,
           "elim_num": "46"
         },
@@ -3288,19 +3146,19 @@
           "name": "Athletics",
           "short_name": "Athletics",
           "wins": 45,
-          "losses": 66,
-          "pct": ".405",
-          "gb": "12.0",
-          "wc_gb": "11.0",
-          "streak": "L4",
+          "losses": 67,
+          "pct": ".402",
+          "gb": "12.5",
+          "wc_gb": "11.5",
+          "streak": "L5",
           "last_ten": "2-8",
           "division_rank": 4,
           "league_rank": 14,
           "wc_rank": 11,
-          "run_diff": -143,
+          "run_diff": -154,
           "runs_scored": 487,
-          "runs_allowed": 630,
-          "elim_num": "39"
+          "runs_allowed": 641,
+          "elim_num": "38"
         },
         {
           "id": 108,
