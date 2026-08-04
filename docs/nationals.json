@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-03T23:53:47+00:00",
+  "fetched_at": "2026-08-04T00:15:18+00:00",
   "freshness": {
-    "schedule": "2026-08-03T23:53:46+00:00",
-    "standings": "2026-08-03T23:53:46+00:00",
+    "schedule": "2026-08-04T00:15:17+00:00",
+    "standings": "2026-08-04T00:15:18+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-08-03T19:59:28+00:00",
-    "weather": "2026-08-03T23:53:47+00:00"
+    "former_nats": "2026-08-04T00:15:17+00:00",
+    "weather": "2026-08-04T00:15:18+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -102,17 +102,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 5,
+      "current_inning": 7,
       "inning_half": "Top",
       "inning_state": "Top",
       "is_top_inning": true,
-      "balls": 2,
-      "strikes": 1,
-      "outs": 2,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
       "home_runs": 0,
       "away_runs": 3,
-      "home_hits": 2,
-      "away_hits": 5,
+      "home_hits": 3,
+      "away_hits": 6,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -136,25 +136,25 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-03T23:53:47+00:00",
+    "fetched_at": "2026-08-04T00:15:18+00:00",
     "source": "open_meteo",
     "game_pk": 823431,
     "venue_name": "Citizens Bank Park",
-    "forecast_at": "2026-08-03T23:00",
-    "temperature_f": 82.5,
-    "feels_like_f": 87.1,
-    "wind_mph": 5.3,
-    "wind_dir": "NNW",
+    "forecast_at": "2026-08-04T00:00",
+    "temperature_f": 80.9,
+    "feels_like_f": 85.7,
+    "wind_mph": 2.5,
+    "wind_dir": "W",
     "precip_chance": 0,
     "precip_inches": 0.0,
     "summary": "Partly cloudy",
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "nostalgia_2018_scherzer_300k",
-    "category": "nostalgia",
-    "weight": 5,
-    "text": "Max Scherzer struck out 300 in 2018. Nobody on the Nats had ever done it. He was 33."
+    "id": "did_you_know_max_two_no_hitters",
+    "category": "did_you_know",
+    "weight": 4,
+    "text": "Max Scherzer threw the second no-hitter in franchise history (after Zimmermann's). It came against the Mets, October 3, 2015. He struck out 17."
   },
   "next_three": [
     {
@@ -248,17 +248,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 5,
+        "current_inning": 7,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 2,
-        "strikes": 1,
-        "outs": 2,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
         "home_runs": 0,
         "away_runs": 3,
-        "home_hits": 2,
-        "away_hits": 5,
+        "home_hits": 3,
+        "away_hits": 6,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -403,7 +403,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 823429,
@@ -656,130 +656,6 @@
   },
   "all_games": [
     {
-      "game_pk": 824890,
-      "date": "2026-08-01",
-      "start_time_utc": "2026-08-01T23:15:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 144,
-        "abbrev": "ATL",
-        "name": "Atlanta Braves",
-        "short_name": "Braves",
-        "record": "66-45",
-        "score": 8
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "55-57",
-        "score": 3
-      },
-      "venue": {
-        "id": 4705,
-        "name": "Truist Park",
-        "city": "Atlanta",
-        "state": "GA",
-        "lat": 33.890672,
-        "lon": -84.467641
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 527048,
-          "name": "Martín Pérez",
-          "hand": null
-        },
-        "away": {
-          "id": 571945,
-          "name": "Miles Mikolas",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "680 AM/93.7 FM The Fan",
-          "call_sign": "680 AM",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "BravesVision",
-          "call_sign": "BravesVsn",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Los Bravos",
-          "call_sign": "Los Bravos",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 3,
-        "home_runs": 8,
-        "away_runs": 3,
-        "home_hits": 10,
-        "away_hits": 4,
-        "home_errors": 3,
-        "away_errors": 1
-      },
-      "series": {
-        "game_number": 3,
-        "games_in_series": 4,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
-    {
       "game_pk": 824891,
       "date": "2026-08-02",
       "start_time_utc": "2026-08-02T17:35:00Z",
@@ -994,17 +870,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 5,
+        "current_inning": 7,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 2,
-        "strikes": 1,
-        "outs": 2,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
         "home_runs": 0,
         "away_runs": 3,
-        "home_hits": 2,
-        "away_hits": 5,
+        "home_hits": 3,
+        "away_hits": 6,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -1149,7 +1025,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 823429,
@@ -2426,6 +2302,122 @@
       },
       "series": {
         "game_number": 3,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 822859,
+      "date": "2026-08-18",
+      "start_time_utc": "2026-08-19T00:05:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": false,
+      "home": {
+        "id": 140,
+        "abbrev": "TEX",
+        "name": "Texas Rangers",
+        "short_name": "Rangers",
+        "record": "55-57",
+        "score": null
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "55-58",
+        "score": null
+      },
+      "venue": {
+        "id": 5325,
+        "name": "Globe Life Field",
+        "city": "Arlington",
+        "state": "TX",
+        "lat": 32.747299,
+        "lon": -97.081818
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "Rangers Sports Network, presented by Progressive",
+          "call_sign": "RSN",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "105.3 The Fan",
+          "call_sign": "105.3 KRLD",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KFLC 1270",
+          "call_sign": "KFLC",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 1,
         "games_in_series": 3,
         "description": "Regular Season"
       },
