@@ -1,74 +1,96 @@
 {
   "data_version": 1,
-  "generated_at": "2026-08-04T05:33:00+00:00",
+  "generated_at": "2026-08-04T09:33:52+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-08-04T05:31:39+00:00",
-    "videos": "2026-08-04T05:31:39+00:00",
-    "vibes": "2026-08-04T05:33:00+00:00"
+    "news": "2026-08-04T09:33:10+00:00",
+    "videos": "2026-08-04T09:33:10+00:00",
+    "vibes": "2026-08-04T09:33:52+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-08-04T05:31:26+00:00",
+      "last_updated_at": "2026-08-04T09:33:05+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-08-04T05:31:26+00:00",
+      "last_updated_at": "2026-08-04T09:33:05+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-08-04T05:31:27+00:00",
+      "last_updated_at": "2026-08-04T09:33:06+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-08-04T05:31:27+00:00",
+      "last_updated_at": "2026-08-04T09:33:06+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-08-04T05:31:28+00:00",
+      "last_updated_at": "2026-08-04T09:33:07+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-08-04T05:31:30+00:00",
+      "last_updated_at": "2026-08-04T09:33:09+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-08-04T09:33:09+00:00",
+      "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-08-04T05:31:39+00:00",
+      "last_updated_at": "2026-08-04T09:33:10+00:00",
       "status": "live"
     }
   ],
   "limited_sources": [],
   "top_stories": [
     {
+      "title": "MLB Injury Report: James Wood departs Monday with oblique issue, Shane McClanahan sidelined with back injury",
+      "url": "https://sports.yahoo.com/articles/mlb-injury-report-james-wood-060353502.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-08-04T06:03:53+00:00",
+      "why_it_matters": {
+        "text": "James Wood has departed due to an oblique issue, and Shane McClanahan is sidelined with a back injury. Jorge Montanez provided a breakdown of recent league-wide injury news.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/lo/mysterio/api/5900d42371a8f60b4e5f7408f85681cd98c1ae334ad8a801e1e8344245aa918f/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2Fe43e22311aea68f8ca90afc5a077894d"
+    },
+    {
       "title": "Harper to outfield amid Phillies' shuffle for Arraez",
       "url": "https://www.espn.com/mlb/story/_/id/49522911/bryce-harper-returns-phillies-outfield-luis-arraez-trade",
       "source": "ESPN MLB",
       "published_at": "2026-08-04T05:53:42+00:00",
       "why_it_matters": {
-        "text": "Bryce Harper will move to right field for the remainder of the season following the Phillies' acquisition of three-time batting champion Luis Arraez from the San Francisco Giants.",
+        "text": "Bryce Harper will move to right field for the rest of the season following the Phillies' acquisition of Luis Arraez from the San Francisco Giants.",
         "ai_generated": true
       },
       "image_url": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0804%2Fr1697381_1296x729_16%2D9.jpg"
+    },
+    {
+      "title": "Luis Garcia Jr. hits home run to cherish in impressive Yankees debut: ‘I’ll keep that in my heart’",
+      "url": "https://sports.yahoo.com/articles/luis-garcia-jr-hits-home-044605278.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-08-04T04:46:05+00:00",
+      "why_it_matters": {
+        "text": "Luis Garcia Jr. hit a home run during his debut with the Yankees, a moment he described as something he will keep in his heart.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/lo/mysterio/api/2cc23f1cb7f3d73a05cec6933602f20db94b7327f505b9328b8ea24ca324a167/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fny_post_sports_articles_389%2F64fed82f2ddb6e2ae6532ae858e6f36d"
     },
     {
       "title": "Guardians Acquire Foster Griffin",
@@ -76,10 +98,21 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-08-04T04:43:14+00:00",
       "why_it_matters": {
-        "text": "The Guardians acquired left-hander Foster Griffin from the Nationals in exchange for four players: Will Dion, Josh Hartle, Kendeglys Virguez, and Nick Mitchell.",
+        "text": "The Guardians acquired left-hander Foster Griffin from the Nationals. In exchange, Washington received four players: Will Dion, Josh Hartle, Kendeglys Virguez, and Nick Mitchell.",
         "ai_generated": true
       },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/USATSI_29387222-1024x683.jpg"
+    },
+    {
+      "title": "Angel Chivilli implodes to spoil Luis Garcia Jr.’s debut heroics in crushing Yankees loss to Cardinals",
+      "url": "https://sports.yahoo.com/articles/angel-chivilli-implodes-spoil-luis-025647575.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-08-04T02:56:47+00:00",
+      "why_it_matters": {
+        "text": "Angel Chivilli's performance in the eighth inning spoiled Luis Garcia Jr.'s debut heroics as the Yankees suffered a crushing loss to the Cardinals after overcoming a six-run deficit.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/lo/mysterio/api/32a1ad1b6a65cceae1aa7df7967b35b6254463206716f7e58aa21ffe254e7978/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fny_post_sports_articles_389%2F1860bfcf7366325ec3047efc7478dfe1"
     },
     {
       "title": "Yankees come back from six runs down, but bullpen falters losing 13-7 slugfest to Cardinals",
@@ -97,47 +130,14 @@
       "url": "https://sports.yahoo.com/mlb/article/luis-garcia-jr-smashes-homer-in-first-game-as-a-yankee-but-cardinals-win-behind-alec-burlesons-3-hr-night-021151645.html",
       "source": "Yahoo Sports MLB",
       "published_at": "2026-08-04T02:11:51+00:00",
-      "why_it_matters": {
-        "text": "Luis García Jr. hit a home run in his first game as a Yankee after being traded from the Nationals, but the Cardinals won 13-7 behind Alec Burleson's three home runs.",
-        "ai_generated": true
-      },
       "image_url": "https://s.yimg.com/lo/mysterio/api/dd0f6a651de0d1d15ec5b5a45d685836b76bcaf2521afb7dd7b40bb694dcce40/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-08%2F0d459eb7-0f52-4f1d-9d4c-0638a492598d"
     },
     {
-      "title": "Over the Fence. Over the Hill: Phillies 6 Nationals 3",
-      "url": "https://sports.yahoo.com/articles/over-fence-over-hill-phillies-012201090.html",
+      "title": "Luis Garcia Jr. crushes clutch homer in dramatic Yankees debut",
+      "url": "https://sports.yahoo.com/articles/luis-garcia-jr-crushes-clutch-020559369.html",
       "source": "Yahoo Sports MLB",
-      "published_at": "2026-08-04T01:22:01+00:00",
-      "why_it_matters": {
-        "text": "The Phillies defeated the Nationals with a score of 6 to 3.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/1617548c84dbbe3c2f5068eb023af03189b44fc28cb14257c2c4b34e4f0a9a00/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Ff6c282bafa6feca90b03ba28d109107e"
-    },
-    {
-      "title": "Orioles Acquire Christian Franklin",
-      "url": "https://www.mlbtraderumors.com/2026/08/orioles-to-acquire-christian-franklin.html",
-      "source": "MLB Trade Rumors",
-      "published_at": "2026-08-03T22:44:11+00:00",
-      "why_it_matters": {
-        "text": "The Orioles have acquired minor league outfielder Christian Franklin from the Nationals in a trade. In exchange, Baltimore sent righty Joe Glassey to Washington.",
-        "ai_generated": true
-      },
-      "image_url": "https://cdn.mlbtraderumors.com/files/2026/08/ChristianFranklin-1024x683.jpg"
-    },
-    {
-      "title": "Washington Nationals vs Philadelphia Phillies Game Thread",
-      "url": "https://www.federalbaseball.com/washington-nationals-discussions/93159/washington-nationals-vs-philadelphia-phillies-game-thread",
-      "source": "Federal Baseball",
-      "published_at": "2026-08-03T22:35:37+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2288780503.jpg?quality=90&strip=all&crop=0%2C11.561634152461%2C100%2C76.876731695079&w=1200"
-    },
-    {
-      "title": "Game #114 The Trade Deadline has Passed",
-      "url": "https://nats.talkdcsports.com/2026/08/03/game-114-the-trade-deadline-has-passed/",
-      "source": "Talk Nats",
-      "published_at": "2026-08-03T22:22:00+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2025/09/Andrew-Alvarez-debut-9-1-2025-Sol-Tucker-B-scaled.jpg?fit=1200%2C807&ssl=1"
+      "published_at": "2026-08-04T02:05:59+00:00",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/9c82ef08091f0de8b35996f0f138a45f3198e8ff93623de3171bf6a45b79bdaf/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fny_post_sports_articles_389%2F9cfe66f2223e029a38bea34c2305e715"
     }
   ],
   "team_pulse": {
@@ -146,16 +146,51 @@
       "text": "Tough one — the Nats fell to the Phillies 6-3."
     },
     "storyline": {
-      "text": "Bryce Harper will move to right field for the remainder of the season following the Phillies' acquisition of three-time batting champion Luis Arraez from the San Francisco Giants.",
+      "text": "James Wood has departed due to an oblique issue, and Shane McClanahan is sidelined with a back injury. Jorge Montanez provided a breakdown of recent league-wide injury news.",
       "ai_generated": true
     }
   },
   "videos": [
     {
-      "title": "NATIONALS vs. PHILLIES: Official Full Game Highlights (August 3) | 2026 MLB Season",
-      "url": "https://www.youtube.com/watch?v=3_H4v7Xh63U",
-      "source": "MLB on YouTube",
-      "thumbnail_url": "https://i4.ytimg.com/vi/3_H4v7Xh63U/hqdefault.jpg",
+      "title": "MLB All-Star Week BTS With CJ Abrams, James Wood and Foster Griffin | Washington Nationals",
+      "url": "https://www.youtube.com/watch?v=XWzxb7MpaV0",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i1.ytimg.com/vi/XWzxb7MpaV0/hqdefault.jpg",
+      "duration_s": 0
+    },
+    {
+      "title": "CJ Abrams Goes Deep Back Home in Atlanta",
+      "url": "https://www.youtube.com/shorts/Mag7LmNVxRw",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Mag7LmNVxRw/hqdefault.jpg",
+      "duration_s": 0
+    },
+    {
+      "title": "A 6-Walk Inning? The Most In Nationals History",
+      "url": "https://www.youtube.com/shorts/TWJRpMskNzQ",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i1.ytimg.com/vi/TWJRpMskNzQ/hqdefault.jpg",
+      "duration_s": 0
+    },
+    {
+      "title": "A Bat Absolutely SHATTERS The Glass At Nats Park",
+      "url": "https://www.youtube.com/shorts/_z2yqTJRywg",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_z2yqTJRywg/hqdefault.jpg",
+      "duration_s": 0
+    },
+    {
+      "title": "Max Scherzer Gets A Standing Ovation At Nationals Park",
+      "url": "https://www.youtube.com/shorts/o3Si_AQwg8c",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i4.ytimg.com/vi/o3Si_AQwg8c/hqdefault.jpg",
+      "duration_s": 0
+    },
+    {
+      "title": "LIT: CJ Abrams Describes The Nationals In One Word",
+      "url": "https://www.youtube.com/shorts/LTMBdINhcqE",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i1.ytimg.com/vi/LTMBdINhcqE/hqdefault.jpg",
       "duration_s": 0
     }
   ],
@@ -167,63 +202,67 @@
         "label": "Roster Depletion",
         "sentiment": "negative",
         "source_urls": [
-          "https://sports.yahoo.com/mlb/article/luis-garcia-jr-smashes-homer-in-first-game-as-a-yankee-but-cardinals-win-behind-alec-burlesons-3-hr-night-021151645.html",
-          "https://www.mlbtraderumors.com/2026/08/guardians-acquire-foster-griffin.html",
-          "https://www.mlbtraderumors.com/2026/08/orioles-to-acquire-christian-franklin.html"
+          "https://sports.yahoo.com/articles/mlb-injury-report-james-wood-060353502.html"
         ]
       },
       {
-        "label": "Loss to Phillies",
-        "sentiment": "negative",
+        "label": "Trade Activity",
+        "sentiment": "mixed",
         "source_urls": [
-          "https://sports.yahoo.com/articles/over-fence-over-hill-phillies-012201090.html"
+          "https://www.mlbtraderumors.com/2026/08/guardians-acquire-foster-griffin.html"
         ]
       }
     ]
   },
   "trending": [
     {
-      "label": "Trade",
-      "sentiment": "",
-      "context": "Guardians Acquire Foster Griffin",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/08/guardians-acquire-foster-griffin.html",
-        "https://www.mlbtraderumors.com/2026/08/orioles-to-acquire-christian-franklin.html"
-      ]
-    },
-    {
       "label": "Yankees",
       "sentiment": "",
-      "context": "Yankees come back from six runs down, but bullpen falters losing 13-7 slugfest to Cardinals",
+      "context": "Luis Garcia Jr. hits home run to cherish in impressive Yankees debut: ‘I’ll keep that in my heart’",
       "source_urls": [
-        "https://sports.yahoo.com/articles/yankees-come-back-six-runs-024000300.html",
-        "https://sports.yahoo.com/mlb/article/luis-garcia-jr-smashes-homer-in-first-game-as-a-yankee-but-cardinals-win-behind-alec-burlesons-3-hr-night-021151645.html"
+        "https://sports.yahoo.com/articles/angel-chivilli-implodes-spoil-luis-025647575.html",
+        "https://sports.yahoo.com/articles/luis-garcia-jr-hits-home-044605278.html",
+        "https://sports.yahoo.com/articles/yankees-come-back-six-runs-024000300.html"
       ]
     },
     {
       "label": "Cardinals",
       "sentiment": "",
-      "context": "Yankees come back from six runs down, but bullpen falters losing 13-7 slugfest to Cardinals",
+      "context": "Angel Chivilli implodes to spoil Luis Garcia Jr.’s debut heroics in crushing Yankees loss to Cardinals",
       "source_urls": [
-        "https://sports.yahoo.com/articles/yankees-come-back-six-runs-024000300.html",
-        "https://sports.yahoo.com/mlb/article/luis-garcia-jr-smashes-homer-in-first-game-as-a-yankee-but-cardinals-win-behind-alec-burlesons-3-hr-night-021151645.html"
+        "https://sports.yahoo.com/articles/angel-chivilli-implodes-spoil-luis-025647575.html",
+        "https://sports.yahoo.com/articles/yankees-come-back-six-runs-024000300.html"
       ]
     },
     {
-      "label": "Home Runs",
+      "label": "Injury Report",
       "sentiment": "",
-      "context": "Yankees come back from six runs down, but bullpen falters losing 13-7 slugfest to Cardinals",
+      "context": "MLB Injury Report: James Wood departs Monday with oblique issue, Shane McClanahan sidelined with back injury",
       "source_urls": [
-        "https://sports.yahoo.com/articles/yankees-come-back-six-runs-024000300.html",
-        "https://sports.yahoo.com/mlb/article/luis-garcia-jr-smashes-homer-in-first-game-as-a-yankee-but-cardinals-win-behind-alec-burlesons-3-hr-night-021151645.html"
+        "https://sports.yahoo.com/articles/mlb-injury-report-james-wood-060353502.html"
       ]
     },
     {
-      "label": "Philadelphia Phillies",
+      "label": "James Wood",
+      "sentiment": "",
+      "context": "MLB Injury Report: James Wood departs Monday with oblique issue, Shane McClanahan sidelined with back injury",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/mlb-injury-report-james-wood-060353502.html"
+      ]
+    },
+    {
+      "label": "Shane McClanahan",
+      "sentiment": "",
+      "context": "MLB Injury Report: James Wood departs Monday with oblique issue, Shane McClanahan sidelined with back injury",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/mlb-injury-report-james-wood-060353502.html"
+      ]
+    },
+    {
+      "label": "Phillies",
       "sentiment": "",
       "context": "Harper to outfield amid Phillies' shuffle for Arraez",
       "source_urls": [
-        "https://sports.yahoo.com/articles/over-fence-over-hill-phillies-012201090.html",
         "https://www.espn.com/mlb/story/_/id/49522911/bryce-harper-returns-phillies-outfield-luis-arraez-trade"
       ]
     },
@@ -237,14 +276,6 @@
     },
     {
       "label": "Luis Arraez",
-      "sentiment": "",
-      "context": "Harper to outfield amid Phillies' shuffle for Arraez",
-      "source_urls": [
-        "https://www.espn.com/mlb/story/_/id/49522911/bryce-harper-returns-phillies-outfield-luis-arraez-trade"
-      ]
-    },
-    {
-      "label": "San Francisco Giants",
       "sentiment": "",
       "context": "Harper to outfield amid Phillies' shuffle for Arraez",
       "source_urls": [
