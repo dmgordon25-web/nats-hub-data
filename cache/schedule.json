@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-05T22:00:58+00:00",
+  "fetched_at": "2026-08-05T23:16:09+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -232,8 +232,8 @@
       "game_pk": 823429,
       "date": "2026-08-05",
       "start_time_utc": "2026-08-05T22:40:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 143,
@@ -249,7 +249,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "55-60",
-        "score": 0
+        "score": 1
       },
       "venue": {
         "id": 2681,
@@ -321,15 +321,15 @@
       "linescore": {
         "current_inning": 1,
         "inning_half": "Top",
-        "inning_state": "Top",
+        "inning_state": "Middle",
         "is_top_inning": true,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
+        "outs": 3,
         "home_runs": 0,
-        "away_runs": 0,
+        "away_runs": 1,
         "home_hits": 0,
-        "away_hits": 0,
+        "away_hits": 2,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -386,15 +386,6 @@
       },
       "broadcasts": [
         {
-          "name": "NBCSP",
-          "call_sign": "NBCSP",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
@@ -404,9 +395,9 @@
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "94 WIP",
-          "call_sign": "WIP",
-          "type": "FM",
+          "name": "NBCSP",
+          "call_sign": "NBCSP",
+          "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "home",
@@ -419,6 +410,15 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "94 WIP",
+          "call_sign": "WIP",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
