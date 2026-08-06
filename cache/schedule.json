@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-06T00:13:37+00:00",
+  "fetched_at": "2026-08-06T02:28:56+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -128,7 +128,7 @@
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
         "record": "61-53",
-        "score": 2
+        "score": 4
       },
       "away": {
         "id": 120,
@@ -136,7 +136,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "55-60",
-        "score": 1
+        "score": 7
       },
       "venue": {
         "id": 2681,
@@ -206,17 +206,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 5,
+        "current_inning": 11,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
         "balls": 0,
-        "strikes": 0,
+        "strikes": 2,
         "outs": 0,
-        "home_runs": 2,
-        "away_runs": 1,
-        "home_hits": 3,
-        "away_hits": 3,
+        "home_runs": 4,
+        "away_runs": 7,
+        "home_hits": 5,
+        "away_hits": 9,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -273,15 +273,6 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "NBCSP",
           "call_sign": "NBCSP",
           "type": "TV",
@@ -291,9 +282,9 @@
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
@@ -306,6 +297,15 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -361,7 +361,7 @@
         "abbrev": "CIN",
         "name": "Cincinnati Reds",
         "short_name": "Reds",
-        "record": "54-58",
+        "record": "55-58",
         "score": null
       },
       "venue": {
@@ -374,11 +374,7 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": {
-          "id": 671096,
-          "name": "Andrew Abbott",
-          "hand": null
-        }
+        "away": null
       },
       "broadcasts": [
         {
@@ -479,7 +475,7 @@
         "abbrev": "CIN",
         "name": "Cincinnati Reds",
         "short_name": "Reds",
-        "record": "54-58",
+        "record": "55-58",
         "score": null
       },
       "venue": {
@@ -579,7 +575,7 @@
         "abbrev": "CIN",
         "name": "Cincinnati Reds",
         "short_name": "Reds",
-        "record": "54-58",
+        "record": "55-58",
         "score": null
       },
       "venue": {
@@ -977,7 +973,7 @@
         "abbrev": "NYM",
         "name": "New York Mets",
         "short_name": "Mets",
-        "record": "48-66",
+        "record": "49-66",
         "score": null
       },
       "away": {
@@ -1082,7 +1078,7 @@
         "abbrev": "NYM",
         "name": "New York Mets",
         "short_name": "Mets",
-        "record": "48-66",
+        "record": "49-66",
         "score": null
       },
       "away": {
@@ -1205,7 +1201,7 @@
         "abbrev": "NYM",
         "name": "New York Mets",
         "short_name": "Mets",
-        "record": "48-66",
+        "record": "49-66",
         "score": null
       },
       "away": {
