@@ -1,71 +1,109 @@
 {
   "data_version": 1,
-  "generated_at": "2026-08-05T21:52:27+00:00",
+  "generated_at": "2026-08-06T01:55:49+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-08-05T21:50:18+00:00",
-    "videos": "2026-08-05T21:50:18+00:00",
-    "vibes": "2026-08-05T21:52:27+00:00"
+    "news": "2026-08-06T01:52:43+00:00",
+    "videos": "2026-08-06T01:52:43+00:00",
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-08-05T21:50:15+00:00",
+      "last_updated_at": "2026-08-06T01:52:40+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-08-05T21:50:16+00:00",
+      "last_updated_at": "2026-08-06T01:52:40+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-08-05T21:50:17+00:00",
+      "last_updated_at": "2026-08-06T01:52:41+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-08-05T21:50:17+00:00",
+      "last_updated_at": "2026-08-06T01:52:41+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-08-05T21:50:17+00:00",
+      "last_updated_at": "2026-08-06T01:52:41+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-08-05T21:50:18+00:00",
+      "last_updated_at": "2026-08-06T01:52:42+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-08-05T21:50:18+00:00",
+      "last_updated_at": "2026-08-06T01:52:43+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-08-05T21:50:18+00:00",
+      "last_updated_at": "2026-08-06T01:52:43+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
+    }
+  ],
   "top_stories": [
+    {
+      "title": "Gamethread 8/5: Nationals at Phillies",
+      "url": "https://sports.yahoo.com/articles/gamethread-8-5-nationals-phillies-225509976.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-08-05T22:55:09+00:00",
+      "why_it_matters": {
+        "text": "Gamethread for the Nationals vs. Phillies game on August 5th.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/lo/mysterio/api/faca77a309545cb3640077a44e19fb916c5792c1185235e42051a9461d8ecc72/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F005567c1bc5a71cce870c14ba9cde454"
+    },
+    {
+      "title": "Game #116 Losing is on a streak",
+      "url": "https://nats.talkdcsports.com/2026/08/05/game-116-losing-is-on-a-streak/",
+      "source": "Talk Nats",
+      "published_at": "2026-08-05T21:57:00+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals are facing a 7-game losing streak with a stalled offense. Key players including James Wood, Curtis Mead, and Luis Garcia Jr. are unavailable, leaving the team in need of an ace performance.",
+        "ai_generated": true
+      },
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2024/09/Jake-Irvin-gem-9-11-2024-Andrew-Lang-scaled-1.jpg?fit=1200%2C947&ssl=1"
+    },
+    {
+      "title": "Washington Nationals vs Philadelphia Phillies Game Thread",
+      "url": "https://www.federalbaseball.com/washington-nationals-discussions/93228/washington-nationals-vs-philadelphia-phillies-game-thread",
+      "source": "Federal Baseball",
+      "published_at": "2026-08-05T21:25:29+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals are on a long losing streak and struggling with runners in scoring position during their road trip, currently at 3 for 46.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2288197653.jpg?quality=90&strip=all&crop=0%2C10.772889796961%2C100%2C78.454220406078&w=1200"
+    },
     {
       "title": "Washington Nationals DFA veteran righty Zack Littell",
       "url": "https://www.federalbaseball.com/washington-nationals-news/93221/washington-nationals-dfa-zack-littell",
       "source": "Federal Baseball",
       "published_at": "2026-08-05T20:39:03+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals have designated veteran right-handed pitcher Zack Littell for release (DFA) following the trade deadline. Despite expectations that he would be a stabilizing mid-rotation presence, his performance made it difficult to maintain him on the roster.",
+        "text": "The Washington Nationals have designated veteran right-handed pitcher Zack Littell for release (DFA). Despite being brought in as a stabilizing mid-rotation presence this offseason, he was deemed too hittable to maintain that role.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2288300499.jpg?quality=90&strip=all&crop=0%2C10.735578744182%2C100%2C78.528842511636&w=1200"
@@ -76,7 +114,7 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-08-05T20:24:39+00:00",
       "why_it_matters": {
-        "text": "The Nationals have designated right-handed pitcher Zack Littell for assignment. His roster spot will be filled by right-hander Brad Lord, who is returning from the 15-day injured list.",
+        "text": "The Nationals have designated right-handed pitcher Zack Littell for assignment. His roster spot will be taken by right-hander Brad Lord, who is returning from the 15-day injured list.",
         "ai_generated": true
       },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/08/zack-littell-nationals-1024x683.jpg"
@@ -87,42 +125,16 @@
       "source": "Federal Baseball",
       "published_at": "2026-08-05T18:48:21+00:00",
       "why_it_matters": {
-        "text": "Washington Nationals fans may find Abimelec Ortiz an exciting addition to the lineup as the team struggles with the loss of Curtis Mead and Luis Garcia Jr. while facing a decline in offensive performance.",
+        "text": "Washington Nationals fans may find Abimelec Ortiz an exciting addition to the lineup as the team struggles with offensive production following the losses of Curtis Mead and Luis Garcia Jr.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2288207395.jpg?quality=90&strip=all&crop=0%2C10.737892056687%2C100%2C78.524215886627&w=1200"
-    },
-    {
-      "title": "MLB Home Run Props & Predictions Today: Best HR Picks & Parlay for August 5",
-      "url": "https://sports.yahoo.com/articles/mlb-home-run-props-predictions-162400034.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-08-05T18:24:00+00:00",
-      "why_it_matters": {
-        "text": "Colby Marchio provides three favorite MLB home run picks and a parlay for August 5, highlighting sluggers like CJ Abrams in favorable matchups.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/b2cb5ffd8c1a49ac903b7505fce782c4338381fda19b191588c952c9ad13d8f8/lightyear_networkapi/resizefill_w800_h465%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcovers_articles_287%2Fb8fd00c62e3478f2ef8d981b195e1acd"
-    },
-    {
-      "title": "Luis Arraez grateful to be in playoff race and thanks new Phillies teammate Bryce Harper for changing positions",
-      "url": "https://sports.yahoo.com/articles/luis-arraez-grateful-playoff-race-172131799.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-08-05T17:21:31+00:00",
-      "why_it_matters": {
-        "text": "Luis Arraez expressed gratitude for being in the playoff race and thanked teammate Bryce Harper for changing positions. Arraez contributed a single, double, and two RBIs in the Phillies' 5-0 victory over the Nationals.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/15ba433782cb11edadf5248c330a66c5bccdeb3e74b44b9aa57751f406902c85/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2Fdabc620c89046f412ddbd5c2b66978cb"
     },
     {
       "title": "Nationals Place Joey Wiemer On Release Waivers",
       "url": "https://www.mlbtraderumors.com/2026/08/nationals-place-joey-wiemer-on-release-waivers.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-08-05T17:01:55+00:00",
-      "why_it_matters": {
-        "text": "The Nationals have placed outfielder Joey Wiemer on unconditional release waivers. If he clears, he will become a free agent in 48 hours, opening a spot on the team's 40-man roster.",
-        "ai_generated": true
-      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/08/joey-wiemer-nationals-1024x683.jpg"
     },
     {
@@ -131,13 +143,6 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-08-05T15:05:59+00:00",
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/08/Tarik_Skubal_Dodgers-1024x683.jpg"
-    },
-    {
-      "title": "Coy James is yet another exciting infield prospect for the Washington Nationals",
-      "url": "https://www.federalbaseball.com/washington-nationals-prospects/93202/coy-james-yet-another-exciting-infield-prospect-for-washington-nationals",
-      "source": "Federal Baseball",
-      "published_at": "2026-08-05T14:10:40+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2266940661.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     }
   ],
   "team_pulse": {
@@ -146,7 +151,7 @@
       "text": "Tough one — the Nats fell to the Phillies 5-0."
     },
     "storyline": {
-      "text": "The Washington Nationals have designated veteran right-handed pitcher Zack Littell for release (DFA) following the trade deadline. Despite expectations that he would be a stabilizing mid-rotation presence, his performance made it difficult to maintain him on the roster.",
+      "text": "Gamethread for the Nationals vs. Phillies game on August 5th.",
       "ai_generated": true
     }
   },
@@ -195,37 +200,18 @@
     }
   ],
   "fan_vibes": {
-    "overall": "mixed",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "Roster Management",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-news/93221/washington-nationals-dfa-zack-littell",
-          "https://www.mlbtraderumors.com/2026/08/nationals-designate-zack-littell-for-assignment.html",
-          "https://www.mlbtraderumors.com/2026/08/nationals-place-joey-wiemer-on-release-waivers.html"
-        ]
-      },
-      {
-        "label": "Offensive Outlook",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://sports.yahoo.com/articles/mlb-home-run-props-predictions-162400034.html",
-          "https://www.federalbaseball.com/washington-nationals-analysis/93211/abimelec-ortiz-exciting-washington-nationals-fans-watch-down-stretch"
-        ]
-      }
-    ]
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
   },
   "trending": [
     {
-      "label": "Roster Move",
+      "label": "losing streak",
       "sentiment": "",
-      "context": "Washington Nationals DFA veteran righty Zack Littell",
+      "context": "Game #116 Losing is on a streak",
       "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-news/93221/washington-nationals-dfa-zack-littell",
-        "https://www.mlbtraderumors.com/2026/08/nationals-designate-zack-littell-for-assignment.html",
-        "https://www.mlbtraderumors.com/2026/08/nationals-place-joey-wiemer-on-release-waivers.html"
+        "https://nats.talkdcsports.com/2026/08/05/game-116-losing-is-on-a-streak/",
+        "https://www.federalbaseball.com/washington-nationals-discussions/93228/washington-nationals-vs-philadelphia-phillies-game-thread"
       ]
     },
     {
@@ -235,6 +221,40 @@
       "source_urls": [
         "https://www.federalbaseball.com/washington-nationals-news/93221/washington-nationals-dfa-zack-littell",
         "https://www.mlbtraderumors.com/2026/08/nationals-designate-zack-littell-for-assignment.html"
+      ]
+    },
+    {
+      "label": "Roster Move",
+      "sentiment": "",
+      "context": "Washington Nationals DFA veteran righty Zack Littell",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-news/93221/washington-nationals-dfa-zack-littell",
+        "https://www.mlbtraderumors.com/2026/08/nationals-designate-zack-littell-for-assignment.html"
+      ]
+    },
+    {
+      "label": "Phillies",
+      "sentiment": "",
+      "context": "Gamethread 8/5: Nationals at Phillies",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/gamethread-8-5-nationals-phillies-225509976.html",
+        "https://www.federalbaseball.com/washington-nationals-discussions/93228/washington-nationals-vs-philadelphia-phillies-game-thread"
+      ]
+    },
+    {
+      "label": "injury report",
+      "sentiment": "",
+      "context": "Game #116 Losing is on a streak",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/08/05/game-116-losing-is-on-a-streak/"
+      ]
+    },
+    {
+      "label": "Pitching",
+      "sentiment": "",
+      "context": "Washington Nationals DFA veteran righty Zack Littell",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-news/93221/washington-nationals-dfa-zack-littell"
       ]
     },
     {
@@ -252,45 +272,9 @@
       "source_urls": [
         "https://www.federalbaseball.com/washington-nationals-analysis/93211/abimelec-ortiz-exciting-washington-nationals-fans-watch-down-stretch"
       ]
-    },
-    {
-      "label": "roster update",
-      "sentiment": "",
-      "context": "Abimelec Ortiz will be exciting for Washington Nationals fans to watch down the stretch",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/93211/abimelec-ortiz-exciting-washington-nationals-fans-watch-down-stretch"
-      ]
-    },
-    {
-      "label": "Home Runs",
-      "sentiment": "",
-      "context": "MLB Home Run Props & Predictions Today: Best HR Picks & Parlay for August 5",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/mlb-home-run-props-predictions-162400034.html"
-      ]
-    },
-    {
-      "label": "Predictions",
-      "sentiment": "",
-      "context": "MLB Home Run Props & Predictions Today: Best HR Picks & Parlay for August 5",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/mlb-home-run-props-predictions-162400034.html"
-      ]
-    },
-    {
-      "label": "Sports Betting",
-      "sentiment": "",
-      "context": "MLB Home Run Props & Predictions Today: Best HR Picks & Parlay for August 5",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/mlb-home-run-props-predictions-162400034.html"
-      ]
     }
   ],
   "what_to_watch": [
-    {
-      "text": "The Nats visit the Phillies on Wednesday.",
-      "source_url_or_game_pk": "823429"
-    },
     {
       "text": "The Nats visit the Phillies on Thursday.",
       "source_url_or_game_pk": "823430"
@@ -302,9 +286,9 @@
   ],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "James Wood",
-    "text": "A towering, high-ceiling outfielder who also came to Washington in the Juan Soto trade.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/695578/spots/120",
+    "name": "MacKenzie Gore",
+    "text": "The hard-throwing left-handed starter and another key piece of the return in the Juan Soto trade.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/669022/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
