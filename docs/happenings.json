@@ -1,79 +1,101 @@
 {
   "data_version": 1,
-  "generated_at": "2026-08-06T01:55:49+00:00",
+  "generated_at": "2026-08-06T05:57:42+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-08-06T01:52:43+00:00",
+    "news": "2026-08-06T05:56:38+00:00",
     "videos": "2026-08-06T01:52:43+00:00",
-    "vibes": null
+    "vibes": "2026-08-06T05:57:42+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-08-06T01:52:40+00:00",
+      "last_updated_at": "2026-08-06T05:56:26+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-08-06T01:52:40+00:00",
+      "last_updated_at": "2026-08-06T05:56:26+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-08-06T01:52:41+00:00",
+      "last_updated_at": "2026-08-06T05:56:27+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-08-06T01:52:41+00:00",
+      "last_updated_at": "2026-08-06T05:56:27+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-08-06T01:52:41+00:00",
+      "last_updated_at": "2026-08-06T05:56:28+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-08-06T01:52:42+00:00",
+      "last_updated_at": "2026-08-06T05:56:28+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-08-06T01:52:43+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-08-06T01:52:43+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
   "limited_sources": [
     {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
+      "id": "videos",
+      "reason": "last_check_too_old"
     }
   ],
   "top_stories": [
     {
-      "title": "Gamethread 8/5: Nationals at Phillies",
-      "url": "https://sports.yahoo.com/articles/gamethread-8-5-nationals-phillies-225509976.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-08-05T22:55:09+00:00",
+      "title": "MLBTR Podcast: Trade Deadline Recap",
+      "url": "https://www.mlbtraderumors.com/2026/08/mlbtr-podcast-trade-deadline-recap-2.html",
+      "source": "MLB Trade Rumors",
+      "published_at": "2026-08-06T04:55:59+00:00",
       "why_it_matters": {
-        "text": "Gamethread for the Nationals vs. Phillies game on August 5th.",
+        "text": "The latest episode of the MLB Trade Rumors Podcast, featuring host Darragh McDonald and Steve Adams, is available on Spotify, Apple Podcasts, and via a direct link. The episode provides a recap of the trade deadline.",
         "ai_generated": true
       },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/faca77a309545cb3640077a44e19fb916c5792c1185235e42051a9461d8ecc72/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F005567c1bc5a71cce870c14ba9cde454"
+      "image_url": "https://cdn.mlbtraderumors.com/files/2026/08/Tarik_Skubal_Dodgers-1024x683.jpg"
+    },
+    {
+      "title": "CJ Abrams carries the Washington Nationals to victory with some help from Miles Mikolas",
+      "url": "https://www.federalbaseball.com/washington-nationals-scores/93234/cj-abrams-carries-washington-nationals-to-victory-help-from-miles-mikolas",
+      "source": "Federal Baseball",
+      "published_at": "2026-08-06T03:40:24+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals ended their losing streak with an 11-inning victory. CJ Abrams provided clutch hitting while a memorable bunt from Miles Mikolas helped secure the win in a hard-fought game.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2288420866.jpg?quality=90&strip=all&crop=0%2C10.735381107923%2C100%2C78.529237784154&w=1200"
+    },
+    {
+      "title": "Extra Unfortunate: Nationals 10, Phillies 4",
+      "url": "https://sports.yahoo.com/articles/extra-unfortunate-nationals-10-phillies-024825548.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-08-06T02:48:25+00:00",
+      "why_it_matters": {
+        "text": "The Nationals defeated the Phillies with a score of 10 to 4 in what was described as a sour ending.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/lo/mysterio/api/affa5bdaf5bab3adb1b02d2f651c8f32225f275a53a9375f05231ed8c9d3ce0d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fca43f1ed7fbaa9f6df6ac0552a3c794c"
     },
     {
       "title": "Game #116 Losing is on a streak",
@@ -81,7 +103,7 @@
       "source": "Talk Nats",
       "published_at": "2026-08-05T21:57:00+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals are facing a 7-game losing streak with a stalled offense. Key players including James Wood, Curtis Mead, and Luis Garcia Jr. are unavailable, leaving the team in need of an ace performance.",
+        "text": "The Washington Nationals are on a 7-game losing streak with a stalled offense. Key players including James Wood, Curtis Mead, and Luis Garcia Jr. are unavailable, leaving the team in need of an ace performance.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2024/09/Jake-Irvin-gem-9-11-2024-Andrew-Lang-scaled-1.jpg?fit=1200%2C947&ssl=1"
@@ -92,7 +114,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-08-05T21:25:29+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals are on a long losing streak and struggling with runners in scoring position during their road trip, currently at 3 for 46.",
+        "text": "The Washington Nationals are facing a long losing streak and struggling with poor run production during their road trip, specifically going 3 for 46 with RISP.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2288197653.jpg?quality=90&strip=all&crop=0%2C10.772889796961%2C100%2C78.454220406078&w=1200"
@@ -103,7 +125,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-08-05T20:39:03+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals have designated veteran right-handed pitcher Zack Littell for release (DFA). Despite being brought in as a stabilizing mid-rotation presence this offseason, he was deemed too hittable to maintain that role.",
+        "text": "The Washington Nationals have designated veteran right-handed pitcher Zack Littell for release. Despite being signed as a stabilizing mid-rotation presence this offseason, Littell was deemed too hittable to maintain that role.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2288300499.jpg?quality=90&strip=all&crop=0%2C10.735578744182%2C100%2C78.528842511636&w=1200"
@@ -113,10 +135,6 @@
       "url": "https://www.mlbtraderumors.com/2026/08/nationals-designate-zack-littell-for-assignment.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-08-05T20:24:39+00:00",
-      "why_it_matters": {
-        "text": "The Nationals have designated right-handed pitcher Zack Littell for assignment. His roster spot will be taken by right-hander Brad Lord, who is returning from the 15-day injured list.",
-        "ai_generated": true
-      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/08/zack-littell-nationals-1024x683.jpg"
     },
     {
@@ -124,34 +142,16 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/93211/abimelec-ortiz-exciting-washington-nationals-fans-watch-down-stretch",
       "source": "Federal Baseball",
       "published_at": "2026-08-05T18:48:21+00:00",
-      "why_it_matters": {
-        "text": "Washington Nationals fans may find Abimelec Ortiz an exciting addition to the lineup as the team struggles with offensive production following the losses of Curtis Mead and Luis Garcia Jr.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2288207395.jpg?quality=90&strip=all&crop=0%2C10.737892056687%2C100%2C78.524215886627&w=1200"
-    },
-    {
-      "title": "Nationals Place Joey Wiemer On Release Waivers",
-      "url": "https://www.mlbtraderumors.com/2026/08/nationals-place-joey-wiemer-on-release-waivers.html",
-      "source": "MLB Trade Rumors",
-      "published_at": "2026-08-05T17:01:55+00:00",
-      "image_url": "https://cdn.mlbtraderumors.com/files/2026/08/joey-wiemer-nationals-1024x683.jpg"
-    },
-    {
-      "title": "MLBTR Podcast: Trade Deadline Recap",
-      "url": "https://www.mlbtraderumors.com/2026/08/mlbtr-podcast-trade-deadline-recap-2.html",
-      "source": "MLB Trade Rumors",
-      "published_at": "2026-08-05T15:05:59+00:00",
-      "image_url": "https://cdn.mlbtraderumors.com/files/2026/08/Tarik_Skubal_Dodgers-1024x683.jpg"
     }
   ],
   "team_pulse": {
     "result_banner": {
-      "type": "loss",
-      "text": "Tough one — the Nats fell to the Phillies 5-0."
+      "type": "win",
+      "text": "Curly W! The Nats beat the Phillies 10-4."
     },
     "storyline": {
-      "text": "Gamethread for the Nationals vs. Phillies game on August 5th.",
+      "text": "The latest episode of the MLB Trade Rumors Podcast, featuring host Darragh McDonald and Steve Adams, is available on Spotify, Apple Podcasts, and via a direct link. The episode provides a recap of the trade deadline.",
       "ai_generated": true
     }
   },
@@ -200,45 +200,90 @@
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "mixed",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "Recent Victories",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://sports.yahoo.com/articles/extra-unfortunate-nationals-10-phillies-024825548.html",
+          "https://www.federalbaseball.com/washington-nationals-scores/93234/cj-abrams-carries-washington-nationals-to-victory-help-from-miles-mikolas"
+        ]
+      },
+      {
+        "label": "Losing Streaks and Offense",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/08/05/game-116-losing-is-on-a-streak/",
+          "https://www.federalbaseball.com/washington-nationals-discussions/93228/washington-nationals-vs-philadelphia-phillies-game-thread"
+        ]
+      },
+      {
+        "label": "Roster Management",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-news/93221/washington-nationals-dfa-zack-littell"
+        ]
+      }
+    ]
   },
   "trending": [
     {
-      "label": "losing streak",
+      "label": "Trade Deadline",
       "sentiment": "",
-      "context": "Game #116 Losing is on a streak",
+      "context": "MLBTR Podcast: Trade Deadline Recap",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/05/game-116-losing-is-on-a-streak/",
-        "https://www.federalbaseball.com/washington-nationals-discussions/93228/washington-nationals-vs-philadelphia-phillies-game-thread"
+        "https://www.mlbtraderumors.com/2026/08/mlbtr-podcast-trade-deadline-recap-2.html"
       ]
     },
     {
-      "label": "Zack Littell",
+      "label": "Podcast",
       "sentiment": "",
-      "context": "Washington Nationals DFA veteran righty Zack Littell",
+      "context": "MLBTR Podcast: Trade Deadline Recap",
       "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-news/93221/washington-nationals-dfa-zack-littell",
-        "https://www.mlbtraderumors.com/2026/08/nationals-designate-zack-littell-for-assignment.html"
+        "https://www.mlbtraderumors.com/2026/08/mlbtr-podcast-trade-deadline-recap-2.html"
       ]
     },
     {
-      "label": "Roster Move",
+      "label": "CJ Abrams",
       "sentiment": "",
-      "context": "Washington Nationals DFA veteran righty Zack Littell",
+      "context": "CJ Abrams carries the Washington Nationals to victory with some help from Miles Mikolas",
       "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-news/93221/washington-nationals-dfa-zack-littell",
-        "https://www.mlbtraderumors.com/2026/08/nationals-designate-zack-littell-for-assignment.html"
+        "https://www.federalbaseball.com/washington-nationals-scores/93234/cj-abrams-carries-washington-nationals-to-victory-help-from-miles-mikolas"
+      ]
+    },
+    {
+      "label": "Miles Mikolas",
+      "sentiment": "",
+      "context": "CJ Abrams carries the Washington Nationals to victory with some help from Miles Mikolas",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-scores/93234/cj-abrams-carries-washington-nationals-to-victory-help-from-miles-mikolas"
+      ]
+    },
+    {
+      "label": "victory",
+      "sentiment": "",
+      "context": "CJ Abrams carries the Washington Nationals to victory with some help from Miles Mikolas",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-scores/93234/cj-abrams-carries-washington-nationals-to-victory-help-from-miles-mikolas"
       ]
     },
     {
       "label": "Phillies",
       "sentiment": "",
-      "context": "Gamethread 8/5: Nationals at Phillies",
+      "context": "Extra Unfortunate: Nationals 10, Phillies 4",
       "source_urls": [
-        "https://sports.yahoo.com/articles/gamethread-8-5-nationals-phillies-225509976.html",
+        "https://sports.yahoo.com/articles/extra-unfortunate-nationals-10-phillies-024825548.html",
         "https://www.federalbaseball.com/washington-nationals-discussions/93228/washington-nationals-vs-philadelphia-phillies-game-thread"
+      ]
+    },
+    {
+      "label": "losing streak",
+      "sentiment": "",
+      "context": "Game #116 Losing is on a streak",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/08/05/game-116-losing-is-on-a-streak/"
       ]
     },
     {
@@ -247,30 +292,6 @@
       "context": "Game #116 Losing is on a streak",
       "source_urls": [
         "https://nats.talkdcsports.com/2026/08/05/game-116-losing-is-on-a-streak/"
-      ]
-    },
-    {
-      "label": "Pitching",
-      "sentiment": "",
-      "context": "Washington Nationals DFA veteran righty Zack Littell",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-news/93221/washington-nationals-dfa-zack-littell"
-      ]
-    },
-    {
-      "label": "Brad Lord",
-      "sentiment": "",
-      "context": "Nationals Designate Zack Littell For Assignment",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/08/nationals-designate-zack-littell-for-assignment.html"
-      ]
-    },
-    {
-      "label": "Abimelec Ortiz",
-      "sentiment": "",
-      "context": "Abimelec Ortiz will be exciting for Washington Nationals fans to watch down the stretch",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/93211/abimelec-ortiz-exciting-washington-nationals-fans-watch-down-stretch"
       ]
     }
   ],
@@ -282,6 +303,10 @@
     {
       "text": "The Nats host the Reds on Friday.",
       "source_url_or_game_pk": "822699"
+    },
+    {
+      "text": "The Nats host the Reds on Saturday.",
+      "source_url_or_game_pk": "822701"
     }
   ],
   "on_this_day": {},
