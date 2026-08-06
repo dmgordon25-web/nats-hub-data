@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-06T00:09:16+00:00",
+  "fetched_at": "2026-08-06T00:13:38+00:00",
   "freshness": {
-    "schedule": "2026-08-06T00:09:15+00:00",
-    "standings": "2026-08-06T00:09:15+00:00",
+    "schedule": "2026-08-06T00:13:37+00:00",
+    "standings": "2026-08-06T00:13:37+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-06T00:09:15+00:00",
-    "weather": "2026-08-06T00:09:16+00:00"
+    "weather": "2026-08-06T00:13:38+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -102,13 +102,13 @@
       }
     ],
     "linescore": {
-      "current_inning": 4,
-      "inning_half": "Bottom",
-      "inning_state": "Bottom",
-      "is_top_inning": false,
+      "current_inning": 5,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
       "balls": 0,
-      "strikes": 2,
-      "outs": 1,
+      "strikes": 0,
+      "outs": 0,
       "home_runs": 2,
       "away_runs": 1,
       "home_hits": 3,
@@ -136,7 +136,7 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-06T00:09:16+00:00",
+    "fetched_at": "2026-08-06T00:13:38+00:00",
     "source": "open_meteo",
     "game_pk": 823429,
     "venue_name": "Citizens Bank Park",
@@ -248,13 +248,13 @@
         }
       ],
       "linescore": {
-        "current_inning": 4,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
+        "current_inning": 5,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
         "balls": 0,
-        "strikes": 2,
-        "outs": 1,
+        "strikes": 0,
+        "outs": 0,
         "home_runs": 2,
         "away_runs": 1,
         "home_hits": 3,
@@ -326,15 +326,6 @@
       },
       "broadcasts": [
         {
-          "name": "NBCSP",
-          "call_sign": "NBCSP",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
@@ -344,9 +335,9 @@
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "94 WIP",
-          "call_sign": "WIP",
-          "type": "FM",
+          "name": "NBCSP",
+          "call_sign": "NBCSP",
+          "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "home",
@@ -359,6 +350,15 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "94 WIP",
+          "call_sign": "WIP",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -875,13 +875,13 @@
         }
       ],
       "linescore": {
-        "current_inning": 4,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
+        "current_inning": 5,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
         "balls": 0,
-        "strikes": 2,
-        "outs": 1,
+        "strikes": 0,
+        "outs": 0,
         "home_runs": 2,
         "away_runs": 1,
         "home_hits": 3,
@@ -953,15 +953,6 @@
       },
       "broadcasts": [
         {
-          "name": "NBCSP",
-          "call_sign": "NBCSP",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
@@ -971,9 +962,9 @@
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "94 WIP",
-          "call_sign": "WIP",
-          "type": "FM",
+          "name": "NBCSP",
+          "call_sign": "NBCSP",
+          "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "home",
@@ -986,6 +977,15 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "94 WIP",
+          "call_sign": "WIP",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
