@@ -1,120 +1,7 @@
 {
-  "fetched_at": "2026-08-05T23:16:09+00:00",
+  "fetched_at": "2026-08-06T00:09:15+00:00",
   "source": "mlb_statsapi",
   "games": [
-    {
-      "game_pk": 823431,
-      "date": "2026-08-03",
-      "start_time_utc": "2026-08-03T22:40:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 143,
-        "abbrev": "PHI",
-        "name": "Philadelphia Phillies",
-        "short_name": "Phillies",
-        "record": "60-53",
-        "score": 6
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "55-59",
-        "score": 3
-      },
-      "venue": {
-        "id": 2681,
-        "name": "Citizens Bank Park",
-        "city": "Philadelphia",
-        "state": "PA",
-        "lat": 39.90539086,
-        "lon": -75.16716957
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 605400,
-          "name": "Aaron Nola",
-          "hand": null
-        },
-        "away": {
-          "id": 674841,
-          "name": "Andrew Alvarez",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "NBCSP",
-          "call_sign": "NBCSP",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "94 WIP",
-          "call_sign": "WIP",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "iHeart App",
-          "call_sign": "iHeart App",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 1,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 6,
-        "away_runs": 3,
-        "home_hits": 5,
-        "away_hits": 6,
-        "home_errors": 1,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 4,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi"
-    },
     {
       "game_pk": 823432,
       "date": "2026-08-04",
@@ -241,7 +128,7 @@
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
         "record": "61-53",
-        "score": 0
+        "score": 2
       },
       "away": {
         "id": 120,
@@ -319,17 +206,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Middle",
-        "is_top_inning": true,
+        "current_inning": 4,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "balls": 0,
-        "strikes": 0,
-        "outs": 3,
-        "home_runs": 0,
+        "strikes": 2,
+        "outs": 1,
+        "home_runs": 2,
         "away_runs": 1,
-        "home_hits": 0,
-        "away_hits": 2,
+        "home_hits": 3,
+        "away_hits": 3,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -386,15 +273,6 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "NBCSP",
           "call_sign": "NBCSP",
           "type": "TV",
@@ -404,9 +282,9 @@
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
@@ -419,6 +297,15 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1615,6 +1502,129 @@
       },
       "series": {
         "game_number": 2,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi"
+    },
+    {
+      "game_pk": 822861,
+      "date": "2026-08-20",
+      "start_time_utc": "2026-08-21T00:05:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": false,
+      "home": {
+        "id": 140,
+        "abbrev": "TEX",
+        "name": "Texas Rangers",
+        "short_name": "Rangers",
+        "record": "57-58",
+        "score": null
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "55-60",
+        "score": null
+      },
+      "venue": {
+        "id": 5325,
+        "name": "Globe Life Field",
+        "city": "Arlington",
+        "state": "TX",
+        "lat": 32.747299,
+        "lon": -97.081818
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Rangers Sports Network, presented by Progressive",
+          "call_sign": "RSN",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "FS1",
+          "call_sign": "FS1",
+          "type": "TV",
+          "language": "en",
+          "is_national": true,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "FS1",
+          "call_sign": "FS1",
+          "type": "TV",
+          "language": "en",
+          "is_national": true,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "105.3 The Fan",
+          "call_sign": "105.3 KRLD",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KFLC 1270",
+          "call_sign": "KFLC",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 3,
         "games_in_series": 3,
         "description": "Regular Season"
       },
