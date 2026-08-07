@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-07T01:43:30+00:00",
+  "fetched_at": "2026-08-07T02:36:41+00:00",
   "freshness": {
-    "schedule": "2026-08-07T01:43:28+00:00",
-    "standings": "2026-08-07T01:43:29+00:00",
+    "schedule": "2026-08-07T02:36:40+00:00",
+    "standings": "2026-08-07T02:36:40+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-07T01:43:28+00:00",
-    "weather": "2026-08-07T01:43:29+00:00"
+    "weather": "2026-08-07T02:36:41+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -141,18 +141,18 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-07T01:43:29+00:00",
+    "fetched_at": "2026-08-07T02:36:41+00:00",
     "source": "open_meteo",
     "game_pk": 822699,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-08-07T23:00",
-    "temperature_f": 75.2,
-    "feels_like_f": 79.7,
-    "wind_mph": 10.7,
+    "temperature_f": 75.4,
+    "feels_like_f": 79.6,
+    "wind_mph": 12.4,
     "wind_dir": "W",
     "precip_chance": 30,
-    "precip_inches": 0.055,
-    "summary": "Light rain",
+    "precip_inches": 0.016,
+    "summary": "Light drizzle",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -569,7 +569,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "Nationals.TV",
@@ -578,7 +578,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "94 WIP",
@@ -587,7 +587,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -596,7 +596,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "iHeart App",
@@ -605,7 +605,7 @@
         "language": "es",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       }
     ],
     "linescore": {
@@ -818,7 +818,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "Nationals.TV",
@@ -827,7 +827,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "94 WIP",
@@ -836,7 +836,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -845,7 +845,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "iHeart App",
@@ -854,7 +854,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         }
       ],
       "linescore": {
@@ -2996,6 +2996,26 @@
           "elim_num": "-"
         },
         {
+          "id": 142,
+          "abbrev": "MIN",
+          "name": "Minnesota Twins",
+          "short_name": "Twins",
+          "wins": 57,
+          "losses": 59,
+          "pct": ".491",
+          "gb": "3.5",
+          "wc_gb": "0.5",
+          "streak": "W1",
+          "last_ten": "5-5",
+          "division_rank": 2,
+          "league_rank": 7,
+          "wc_rank": 4,
+          "run_diff": -35,
+          "runs_scored": 539,
+          "runs_allowed": 574,
+          "elim_num": "45"
+        },
+        {
           "id": 114,
           "abbrev": "CLE",
           "name": "Cleveland Guardians",
@@ -3007,32 +3027,12 @@
           "wc_gb": "0.5",
           "streak": "L3",
           "last_ten": "3-7",
-          "division_rank": 2,
-          "league_rank": 7,
-          "wc_rank": 4,
-          "run_diff": -28,
-          "runs_scored": 459,
-          "runs_allowed": 487,
-          "elim_num": "45"
-        },
-        {
-          "id": 142,
-          "abbrev": "MIN",
-          "name": "Minnesota Twins",
-          "short_name": "Twins",
-          "wins": 56,
-          "losses": 59,
-          "pct": ".487",
-          "gb": "4.0",
-          "wc_gb": "1.0",
-          "streak": "L4",
-          "last_ten": "5-5",
           "division_rank": 3,
           "league_rank": 8,
           "wc_rank": 5,
-          "run_diff": -36,
-          "runs_scored": 535,
-          "runs_allowed": 571,
+          "run_diff": -28,
+          "runs_scored": 459,
+          "runs_allowed": 487,
           "elim_num": "45"
         },
         {
@@ -3061,19 +3061,19 @@
           "name": "Kansas City Royals",
           "short_name": "Royals",
           "wins": 48,
-          "losses": 67,
-          "pct": ".417",
-          "gb": "12.0",
-          "wc_gb": "9.0",
-          "streak": "W2",
-          "last_ten": "5-5",
+          "losses": 68,
+          "pct": ".414",
+          "gb": "12.5",
+          "wc_gb": "9.5",
+          "streak": "L1",
+          "last_ten": "4-6",
           "division_rank": 5,
           "league_rank": 13,
           "wc_rank": 10,
-          "run_diff": -102,
-          "runs_scored": 477,
-          "runs_allowed": 579,
-          "elim_num": "37"
+          "run_diff": -103,
+          "runs_scored": 480,
+          "runs_allowed": 583,
+          "elim_num": "36"
         }
       ]
     },
