@@ -1,70 +1,112 @@
 {
   "data_version": 1,
-  "generated_at": "2026-08-07T13:31:14+00:00",
+  "generated_at": "2026-08-07T17:33:57+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-08-07T13:29:57+00:00",
-    "videos": "2026-08-07T13:29:57+00:00",
-    "vibes": "2026-08-07T13:31:14+00:00"
+    "news": "2026-08-07T17:31:25+00:00",
+    "videos": "2026-08-07T17:31:25+00:00",
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-08-07T13:29:54+00:00",
+      "last_updated_at": "2026-08-07T17:31:21+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-08-07T13:29:54+00:00",
+      "last_updated_at": "2026-08-07T17:31:22+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-08-07T13:29:55+00:00",
+      "last_updated_at": "2026-08-07T17:31:23+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-08-07T13:29:55+00:00",
+      "last_updated_at": "2026-08-07T17:31:23+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-08-07T13:29:55+00:00",
+      "last_updated_at": "2026-08-07T17:31:23+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-08-07T13:29:56+00:00",
+      "last_updated_at": "2026-08-07T17:31:24+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-08-07T13:29:57+00:00",
+      "last_updated_at": "2026-08-07T17:31:25+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-08-07T13:29:57+00:00",
+      "last_updated_at": "2026-08-07T17:31:25+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
+    }
+  ],
   "top_stories": [
     {
-      "title": "How to watch the Cincinnati Reds vs Washington Nationals: Live stream info, schedule, preview",
-      "url": "https://sports.yahoo.com/articles/watch-cincinnati-reds-vs-washington-120000960.html",
+      "title": "Phillies' Sanchez is 1st 15-game winner in MLB",
+      "url": "https://www.espn.com/mlb/story/_/id/49549269/phillies-ace-cristopher-sanchez-earns-5th-straight-victory",
+      "source": "ESPN MLB",
+      "published_at": "2026-08-07T18:13:48+00:00",
+      "why_it_matters": {
+        "text": "Cristopher Sanchez became the first pitcher to reach 15 wins in the majors this season after leading the Phillies to a 7-3 victory over the Nationals.",
+        "ai_generated": true
+      },
+      "image_url": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0807%2Fr1698641_1296x729_16%2D9.jpg"
+    },
+    {
+      "title": "The Reds Come To DC As The Nationals Look To Flush A Rough Road Trip",
+      "url": "https://www.federalbaseball.com/washington-nationals-game-information/93275/reds-come-dc-as-nationals-look-to-flush-rough-road-trip",
+      "source": "Federal Baseball",
+      "published_at": "2026-08-07T16:14:00+00:00",
+      "why_it_matters": {
+        "text": "The Nationals lost 7-3 to the Phillies on Thursday, ending a difficult road trip. The team has dropped eight of their last nine games overall.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2288567502.jpg?quality=90&strip=all&crop=0%2C10.737724968759%2C100%2C78.524550062482&w=1200"
+    },
+    {
+      "title": "Chase Petty to start for Reds tonight against Nationals",
+      "url": "https://sports.yahoo.com/articles/chase-petty-start-reds-tonight-150520579.html",
       "source": "Yahoo Sports MLB",
-      "published_at": "2026-08-07T12:00:00+00:00",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/cfe802832f94c30b63ef0f6b494953541c9a86f3cba6aef77aebc2df489dc016/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2F72b5e325948fda6e0f3a886a51d9cf5e"
+      "published_at": "2026-08-07T15:05:20+00:00",
+      "why_it_matters": {
+        "text": "Chase Petty is set to start for the Reds in tonight's game against the Nationals, which will be a bullpen game due to the absence of Hunter Greene.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/lo/mysterio/api/3afb1a10754449599c308091cd59b7e96945d6a08e358cf881c81ecf5ff8b03f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F8834561f857e63dd0ae0e6686c0ce437"
+    },
+    {
+      "title": "The Washington Nationals still can’t beat divisional opponents",
+      "url": "https://www.federalbaseball.com/washington-nationals-analysis/93267/washington-nationals-cant-beat-divisional-opponents",
+      "source": "Federal Baseball",
+      "published_at": "2026-08-07T13:39:13+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals' playoff hopes were hindered by a 1-7 road trip against the Braves and Phillies. The team struggled against these veteran squads, showing they are not yet ready to win against divisional opponents despite making progress this season.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2288547282.jpg?quality=90&strip=all&crop=0%2C10.723381207914%2C100%2C78.553237584171&w=1200"
     },
     {
       "title": "What will the 2027 Nats look like?",
@@ -72,21 +114,10 @@
       "source": "Talk Nats",
       "published_at": "2026-08-07T06:53:00+00:00",
       "why_it_matters": {
-        "text": "Connelly Early's potential inclusion in the 2027 starting rotation is uncertain due to forearm discomfort. However, James Wood and CJ Abrams are identified as strong core players for building the roster.",
+        "text": "Starter Connelly Early's inclusion in the 2027 starting rotation may be uncertain due to forearm discomfort. However, James Wood and CJ Abrams are identified as key players to build a roster around.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2025/06/James-Wood-and-CJ-Abrams-by-EGV-on-5-18-2025-1.jpeg?fit=680%2C634&ssl=1"
-    },
-    {
-      "title": "Phillies' Sanchez is 1st 15-game winner in MLB",
-      "url": "https://www.espn.com/mlb/story/_/id/49549269/phillies-ace-cristopher-sanchez-earns-5th-straight-victory",
-      "source": "ESPN MLB",
-      "published_at": "2026-08-07T05:32:42+00:00",
-      "why_it_matters": {
-        "text": "Cristopher Sanchez became the first 15-game winner in the majors this season as the Phillies defeated the Nationals 7-3.",
-        "ai_generated": true
-      },
-      "image_url": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0807%2Fr1698641_1296x729_16%2D9.jpg"
     },
     {
       "title": "Game #117 Can the Nats leave Philly with a split?",
@@ -94,7 +125,7 @@
       "source": "Talk Nats",
       "published_at": "2026-08-06T20:49:00+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals won a dramatic 11-inning game in Philadelphia after a strong defensive and pitching performance, highlighted by an ace performance from Jake Irvin.",
+        "text": "The Washington Nationals secured a dramatic 11-inning victory in Philadelphia, bolstered by strong defense, solid pitching from Jake Irvin, and a late offensive surge.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/Harper-Philly-Nats-win-in-11-innings-8-5-2026-Kevin-Barrett.jpg?fit=1015%2C758&ssl=1"
@@ -104,10 +135,6 @@
       "url": "https://www.federalbaseball.com/washington-nationals-discussions/93261/washington-nationals-vs-philadelphia-phillies-game-thread",
       "source": "Federal Baseball",
       "published_at": "2026-08-06T20:01:36+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals snapped a seven-game losing streak with a win and now look to secure a split against the Philadelphia Phillies while attempting to improve their position in the playoff race.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2288444350.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -115,34 +142,27 @@
       "url": "https://www.mlbtraderumors.com/2026/08/nationals-claim-wyatt-mills.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-08-06T19:00:14+00:00",
-      "why_it_matters": {
-        "text": "The Nationals claimed right-hander Wyatt Mills off waivers from the Dodgers and optioned him to Triple-A Rochester. The move follows his designation for assignment by Los Angeles three days ago.",
-        "ai_generated": true
-      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/08/Wyatt_Mills_Dodgers-1024x683.jpg"
-    },
-    {
-      "title": "The Washington Nationals should give Brady House everyday reps down the stretch",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/93253/washington-nationals-should-give-brady-house-everyday-reps-down-stretch",
-      "source": "Federal Baseball",
-      "published_at": "2026-08-06T17:49:07+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2289125590.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "Orlando Ribalta is a rare keeper in the Washington Nationals bullpen",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/93244/orlando-ribalta-rare-keeper-in-washington-nationals-bullpen",
-      "source": "Federal Baseball",
-      "published_at": "2026-08-06T14:33:11+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2289104702.jpg?quality=90&strip=all&crop=0%2C12.396348443556%2C100%2C75.207303112888&w=1200"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "loss",
       "text": "Tough one — the Nats fell to the Phillies 7-3."
+    },
+    "storyline": {
+      "text": "Cristopher Sanchez became the first pitcher to reach 15 wins in the majors this season after leading the Phillies to a 7-3 victory over the Nationals.",
+      "ai_generated": true
     }
   },
   "videos": [
+    {
+      "title": "A special moment for Nationals' Andrew Pinckney and his family",
+      "url": "https://www.youtube.com/shorts/_7yCvoRFCRY",
+      "source": "MLB on YouTube",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_7yCvoRFCRY/hqdefault.jpg",
+      "duration_s": 0
+    },
     {
       "title": "Andrew Pinckney's 1st MLB Hit IS A HOMER",
       "url": "https://www.youtube.com/shorts/pCCvvRLTPUA",
@@ -177,92 +197,21 @@
       "source": "Nationals on YouTube",
       "thumbnail_url": "https://i2.ytimg.com/vi/Mag7LmNVxRw/hqdefault.jpg",
       "duration_s": 0
-    },
-    {
-      "title": "A 6-Walk Inning? The Most In Nationals History",
-      "url": "https://www.youtube.com/shorts/TWJRpMskNzQ",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i1.ytimg.com/vi/TWJRpMskNzQ/hqdefault.jpg",
-      "duration_s": 0
     }
   ],
   "fan_vibes": {
-    "overall": "mixed",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "Recent Performance",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/08/06/game-117-can-the-nats-leave-philly-with-a-split/",
-          "https://www.federalbaseball.com/washington-nationals-discussions/93261/washington-nationals-vs-philadelphia-phillies-game-thread"
-        ]
-      },
-      {
-        "label": "Roster Construction",
-        "sentiment": "mixed",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/08/07/what-will-the-2027-nats-look-like/"
-        ]
-      },
-      {
-        "label": "Roster Moves",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.mlbtraderumors.com/2026/08/nationals-claim-wyatt-mills.html"
-        ]
-      }
-    ]
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
   },
   "trending": [
-    {
-      "label": "roster",
-      "sentiment": "",
-      "context": "What will the 2027 Nats look like?",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/07/what-will-the-2027-nats-look-like/",
-        "https://www.mlbtraderumors.com/2026/08/nationals-claim-wyatt-mills.html"
-      ]
-    },
-    {
-      "label": "starting rotation",
-      "sentiment": "",
-      "context": "What will the 2027 Nats look like?",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/07/what-will-the-2027-nats-look-like/"
-      ]
-    },
-    {
-      "label": "Connelly Early",
-      "sentiment": "",
-      "context": "What will the 2027 Nats look like?",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/07/what-will-the-2027-nats-look-like/"
-      ]
-    },
-    {
-      "label": "James Wood",
-      "sentiment": "",
-      "context": "What will the 2027 Nats look like?",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/07/what-will-the-2027-nats-look-like/"
-      ]
-    },
-    {
-      "label": "CJ Abrams",
-      "sentiment": "",
-      "context": "What will the 2027 Nats look like?",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/07/what-will-the-2027-nats-look-like/"
-      ]
-    },
     {
       "label": "Phillies",
       "sentiment": "",
       "context": "Phillies' Sanchez is 1st 15-game winner in MLB",
       "source_urls": [
         "https://www.espn.com/mlb/story/_/id/49549269/phillies-ace-cristopher-sanchez-earns-5th-straight-victory",
-        "https://www.federalbaseball.com/washington-nationals-discussions/93261/washington-nationals-vs-philadelphia-phillies-game-thread"
+        "https://www.federalbaseball.com/washington-nationals-game-information/93275/reds-come-dc-as-nationals-look-to-flush-rough-road-trip"
       ]
     },
     {
@@ -274,11 +223,51 @@
       ]
     },
     {
-      "label": "Philadelphia",
+      "label": "Reds",
       "sentiment": "",
-      "context": "Game #117 Can the Nats leave Philly with a split?",
+      "context": "Chase Petty to start for Reds tonight against Nationals",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/06/game-117-can-the-nats-leave-philly-with-a-split/"
+        "https://sports.yahoo.com/articles/chase-petty-start-reds-tonight-150520579.html"
+      ]
+    },
+    {
+      "label": "Chase Petty",
+      "sentiment": "",
+      "context": "Chase Petty to start for Reds tonight against Nationals",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/chase-petty-start-reds-tonight-150520579.html"
+      ]
+    },
+    {
+      "label": "Hunter Greene",
+      "sentiment": "",
+      "context": "Chase Petty to start for Reds tonight against Nationals",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/chase-petty-start-reds-tonight-150520579.html"
+      ]
+    },
+    {
+      "label": "playoffs",
+      "sentiment": "",
+      "context": "The Washington Nationals still can’t beat divisional opponents",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/93267/washington-nationals-cant-beat-divisional-opponents"
+      ]
+    },
+    {
+      "label": "divisional rivals",
+      "sentiment": "",
+      "context": "The Washington Nationals still can’t beat divisional opponents",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/93267/washington-nationals-cant-beat-divisional-opponents"
+      ]
+    },
+    {
+      "label": "Connelly Early",
+      "sentiment": "",
+      "context": "What will the 2027 Nats look like?",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/08/07/what-will-the-2027-nats-look-like/"
       ]
     }
   ],
