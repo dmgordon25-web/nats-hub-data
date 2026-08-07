@@ -1,120 +1,7 @@
 {
-  "fetched_at": "2026-08-06T14:19:02+00:00",
+  "fetched_at": "2026-08-07T00:12:36+00:00",
   "source": "mlb_statsapi",
   "games": [
-    {
-      "game_pk": 823432,
-      "date": "2026-08-04",
-      "start_time_utc": "2026-08-04T22:40:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 143,
-        "abbrev": "PHI",
-        "name": "Philadelphia Phillies",
-        "short_name": "Phillies",
-        "record": "61-53",
-        "score": 5
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "55-60",
-        "score": 0
-      },
-      "venue": {
-        "id": 2681,
-        "name": "Citizens Bank Park",
-        "city": "Philadelphia",
-        "state": "PA",
-        "lat": 39.90539086,
-        "lon": -75.16716957
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 666200,
-          "name": "Jesús Luzardo",
-          "hand": null
-        },
-        "away": {
-          "id": 687223,
-          "name": "Carson Palmquist",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "NBCSP",
-          "call_sign": "NBCSP",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "94 WIP",
-          "call_sign": "WIP",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "iHeart App",
-          "call_sign": "iHeart App",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 1,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 5,
-        "away_runs": 0,
-        "home_hits": 11,
-        "away_hits": 5,
-        "home_errors": 0,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 2,
-        "games_in_series": 4,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi"
-    },
     {
       "game_pk": 823429,
       "date": "2026-08-05",
@@ -232,8 +119,8 @@
       "game_pk": 823430,
       "date": "2026-08-06",
       "start_time_utc": "2026-08-06T22:05:00Z",
-      "status": "Preview",
-      "detailed_status": "Scheduled",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 143,
@@ -241,7 +128,7 @@
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
         "record": "61-54",
-        "score": null
+        "score": 7
       },
       "away": {
         "id": 120,
@@ -249,7 +136,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "56-60",
-        "score": null
+        "score": 3
       },
       "venue": {
         "id": 2681,
@@ -279,7 +166,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -288,7 +175,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "94 WIP",
@@ -297,7 +184,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -306,7 +193,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "iHeart App",
@@ -315,23 +202,23 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 6,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 2,
+        "strikes": 1,
+        "outs": 2,
+        "home_runs": 7,
+        "away_runs": 3,
+        "home_hits": 14,
+        "away_hits": 8,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 4,
@@ -361,7 +248,7 @@
         "abbrev": "CIN",
         "name": "Cincinnati Reds",
         "short_name": "Reds",
-        "record": "55-58",
+        "record": "56-58",
         "score": null
       },
       "venue": {
@@ -373,7 +260,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 676917,
+          "name": "Cade Cavalli",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -475,7 +366,7 @@
         "abbrev": "CIN",
         "name": "Cincinnati Reds",
         "short_name": "Reds",
-        "record": "55-58",
+        "record": "56-58",
         "score": null
       },
       "venue": {
@@ -487,7 +378,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 674841,
+          "name": "Andrew Alvarez",
+          "hand": null
+        },
         "away": {
           "id": 695505,
           "name": "Chase Burns",
@@ -575,7 +470,7 @@
         "abbrev": "CIN",
         "name": "Cincinnati Reds",
         "short_name": "Reds",
-        "record": "55-58",
+        "record": "56-58",
         "score": null
       },
       "venue": {
@@ -675,7 +570,7 @@
         "abbrev": "CHC",
         "name": "Chicago Cubs",
         "short_name": "Cubs",
-        "record": "66-49",
+        "record": "67-49",
         "score": null
       },
       "venue": {
@@ -771,7 +666,7 @@
         "abbrev": "CHC",
         "name": "Chicago Cubs",
         "short_name": "Cubs",
-        "record": "66-49",
+        "record": "67-49",
         "score": null
       },
       "venue": {
@@ -885,7 +780,7 @@
         "abbrev": "CHC",
         "name": "Chicago Cubs",
         "short_name": "Cubs",
-        "record": "66-49",
+        "record": "67-49",
         "score": null
       },
       "venue": {
@@ -973,7 +868,7 @@
         "abbrev": "NYM",
         "name": "New York Mets",
         "short_name": "Mets",
-        "record": "49-66",
+        "record": "50-66",
         "score": null
       },
       "away": {
@@ -1078,7 +973,7 @@
         "abbrev": "NYM",
         "name": "New York Mets",
         "short_name": "Mets",
-        "record": "49-66",
+        "record": "50-66",
         "score": null
       },
       "away": {
@@ -1201,7 +1096,7 @@
         "abbrev": "NYM",
         "name": "New York Mets",
         "short_name": "Mets",
-        "record": "49-66",
+        "record": "50-66",
         "score": null
       },
       "away": {
@@ -1621,6 +1516,111 @@
       },
       "series": {
         "game_number": 3,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi"
+    },
+    {
+      "game_pk": 823830,
+      "date": "2026-08-21",
+      "start_time_utc": "2026-08-21T23:10:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": false,
+      "home": {
+        "id": 146,
+        "abbrev": "MIA",
+        "name": "Miami Marlins",
+        "short_name": "Marlins",
+        "record": "58-57",
+        "score": null
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "56-60",
+        "score": null
+      },
+      "venue": {
+        "id": 4169,
+        "name": "loanDepot park",
+        "city": "Miami",
+        "state": "FL",
+        "lat": 25.77796236,
+        "lon": -80.21951795
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
+          "call_sign": "MIAM",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WQAM 104.3",
+          "call_sign": "WQAM 104.3",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WAQI 710",
+          "call_sign": "WAQI",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 1,
         "games_in_series": 3,
         "description": "Regular Season"
       },
