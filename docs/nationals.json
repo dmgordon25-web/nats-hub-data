@@ -1,22 +1,22 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-07T23:07:09+00:00",
+  "fetched_at": "2026-08-07T23:46:47+00:00",
   "freshness": {
-    "schedule": "2026-08-07T23:07:08+00:00",
-    "standings": "2026-08-07T23:07:08+00:00",
+    "schedule": "2026-08-07T23:46:46+00:00",
+    "standings": "2026-08-07T23:46:46+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-07T19:17:02+00:00",
-    "weather": "2026-08-07T23:07:09+00:00"
+    "weather": "2026-08-07T23:46:47+00:00"
   },
   "stale_sources": [
     "injuries"
   ],
   "focus_game": {
-    "game_pk": 822701,
-    "date": "2026-08-08",
-    "start_time_utc": "2026-08-08T22:45:00Z",
-    "status": "Preview",
-    "detailed_status": "Scheduled",
+    "game_pk": 822699,
+    "date": "2026-08-07",
+    "start_time_utc": "2026-08-07T22:45:00Z",
+    "status": "Live",
+    "detailed_status": "In Progress",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "56-61",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 113,
@@ -32,7 +32,7 @@
       "name": "Cincinnati Reds",
       "short_name": "Reds",
       "record": "56-58",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 3309,
@@ -44,13 +44,13 @@
     },
     "probable_pitchers": {
       "home": {
-        "id": 674841,
-        "name": "Andrew Alvarez",
+        "id": 676917,
+        "name": "Cade Cavalli",
         "hand": null
       },
       "away": {
-        "id": 695505,
-        "name": "Chase Burns",
+        "id": 695534,
+        "name": "Chase Petty",
         "hand": null
       }
     },
@@ -62,7 +62,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -71,7 +71,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WLW 700",
@@ -80,7 +80,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -89,32 +89,50 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
+        "media_state": "MEDIA_ON"
+      },
+      {
+        "name": "Fox 5 WTTG",
+        "call_sign": "Fox 5",
+        "type": "TV",
+        "language": "en",
+        "is_national": false,
+        "home_away": "home",
+        "media_state": "MEDIA_OFF"
+      },
+      {
+        "name": "Gray Media",
+        "call_sign": "Gray Media",
+        "type": "TV",
+        "language": "en",
+        "is_national": false,
+        "home_away": "home",
         "media_state": "MEDIA_OFF"
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
-      "game_number": 2,
+      "game_number": 1,
       "games_in_series": 3,
       "description": "Regular Season"
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "Nationals.TV",
       "is_national": false,
@@ -124,19 +142,19 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Next Game"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-07T23:07:09+00:00",
+    "fetched_at": "2026-08-07T23:46:47+00:00",
     "source": "open_meteo",
-    "game_pk": 822701,
+    "game_pk": 822699,
     "venue_name": "Nationals Park",
-    "forecast_at": "2026-08-08T23:00",
-    "temperature_f": 76.0,
-    "feels_like_f": 81.4,
-    "wind_mph": 8.5,
-    "wind_dir": "S",
-    "precip_chance": 22,
+    "forecast_at": "2026-08-07T23:00",
+    "temperature_f": 86.4,
+    "feels_like_f": 89.3,
+    "wind_mph": 11.2,
+    "wind_dir": "WSW",
+    "precip_chance": 35,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -152,8 +170,8 @@
       "game_pk": 822699,
       "date": "2026-08-07",
       "start_time_utc": "2026-08-07T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Delayed Start",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -269,7 +287,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -279,7 +297,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Delayed"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822701,
@@ -885,8 +903,8 @@
       "game_pk": 822699,
       "date": "2026-08-07",
       "start_time_utc": "2026-08-07T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Delayed Start",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -1002,7 +1020,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -1012,7 +1030,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Delayed"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822701,
