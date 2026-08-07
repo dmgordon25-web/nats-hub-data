@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-06T09:48:54+00:00",
+  "fetched_at": "2026-08-07T00:16:32+00:00",
   "source": "mlb_statsapi",
   "players": [
     {
@@ -15,21 +15,21 @@
         "name": "Philadelphia Phillies"
       },
       "season_stats": {
-        "ab": 405,
-        "avg": ".252",
+        "ab": 408,
+        "avg": ".255",
         "hr": 24,
         "rbi": 68,
-        "r": 69,
-        "h": 102,
-        "obp": ".361",
-        "slg": ".496",
-        "ops": ".857",
+        "r": 71,
+        "h": 104,
+        "obp": ".364",
+        "slg": ".500",
+        "ops": ".864",
         "sb": 6
       },
       "last_game": {
-        "date": "2026-08-05",
+        "date": "2026-08-06",
         "opponent": "WSH",
-        "line": "0-3"
+        "line": "2-3"
       },
       "significant_event": null,
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/547180/headshot/67/current"
@@ -79,23 +79,28 @@
         "name": "Philadelphia Phillies"
       },
       "season_stats": {
-        "ab": 460,
-        "avg": ".250",
+        "ab": 464,
+        "avg": ".252",
         "hr": 16,
         "rbi": 45,
-        "r": 77,
-        "h": 115,
-        "obp": ".297",
-        "slg": ".400",
-        "ops": ".697",
+        "r": 78,
+        "h": 117,
+        "obp": ".299",
+        "slg": ".403",
+        "ops": ".702",
         "sb": 17
       },
       "last_game": {
-        "date": "2026-08-05",
+        "date": "2026-08-06",
         "opponent": "WSH",
-        "line": "0-4, 1 RBI"
+        "line": "2-4"
       },
-      "significant_event": null,
+      "significant_event": {
+        "kind": "against_nats",
+        "summary": "2-for-4 vs. Nats",
+        "against_nats": true,
+        "celebrate": true
+      },
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/607208/headshot/67/current"
     },
     {
@@ -117,15 +122,15 @@
         "rbi": 64,
         "r": 55,
         "h": 99,
-        "obp": ".305",
+        "obp": ".307",
         "slg": ".413",
-        "ops": ".718",
+        "ops": ".720",
         "sb": 1
       },
       "last_game": {
-        "date": "2026-08-05",
+        "date": "2026-08-06",
         "opponent": "KC",
-        "line": "0-3"
+        "line": "0-0"
       },
       "significant_event": null,
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/605137/headshot/67/current"
@@ -288,5 +293,13 @@
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/607200/headshot/67/current"
     }
   ],
-  "flag_candidates": []
+  "flag_candidates": [
+    {
+      "mlb_id": 607208,
+      "name": "Trea Turner",
+      "summary": "2-for-4 vs. Nats",
+      "celebrate": true,
+      "against_nats": true
+    }
+  ]
 }
