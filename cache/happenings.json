@@ -1,95 +1,103 @@
 {
   "data_version": 1,
-  "generated_at": "2026-08-09T17:21:12+00:00",
-  "mode": "falkor_enriched",
+  "generated_at": "2026-08-09T21:22:45+00:00",
+  "mode": "rss_fallback",
   "freshness": {
-    "news": "2026-08-09T17:20:21+00:00",
-    "videos": "2026-08-09T17:20:21+00:00",
-    "vibes": "2026-08-09T17:21:12+00:00"
+    "news": "2026-08-09T21:21:24+00:00",
+    "videos": "2026-08-09T21:21:24+00:00",
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-08-09T17:20:17+00:00",
+      "last_updated_at": "2026-08-09T21:21:20+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-08-09T17:20:18+00:00",
+      "last_updated_at": "2026-08-09T21:21:21+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-08-09T17:20:19+00:00",
+      "last_updated_at": "2026-08-09T21:21:22+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-08-09T17:20:19+00:00",
+      "last_updated_at": "2026-08-09T21:21:22+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-08-09T17:20:19+00:00",
+      "last_updated_at": "2026-08-09T21:21:23+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-08-09T17:20:20+00:00",
+      "last_updated_at": "2026-08-09T21:21:23+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-08-09T17:20:20+00:00",
+      "last_updated_at": "2026-08-09T21:21:24+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-08-09T17:20:21+00:00",
+      "last_updated_at": "2026-08-09T21:21:24+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [],
-  "top_stories": [
+  "limited_sources": [
     {
-      "title": "Wyatt Mills to Nationals, Cole Irvin & Chuckie Robinson to Oklahoma City",
-      "url": "https://sports.yahoo.com/articles/wyatt-mills-nationals-cole-irvin-155800037.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-08-09T15:58:00+00:00",
-      "why_it_matters": {
-        "text": "The Dodgers have resolved the status of three players designated for assignment, with Wyatt Mills moving to the Nationals and Cole Irvin and Chuckie Robinson joining Oklahoma City.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/007a695ea38b5813266c973e853399e88e01e5f45eb3a2f056a6dfbbb4dfd754/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F30b2ee404d729c27f17b6df83acf602f"
+      "id": "why_it_matters",
+      "reason": "ai_enrichment_unavailable"
     },
     {
-      "title": "Cincinnati Reds vs. Washington Nationals – Brady Singer vs. Brad Lord",
-      "url": "https://sports.yahoo.com/articles/cincinnati-reds-vs-washington-nationals-153345085.html",
+      "id": "trending",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
+    }
+  ],
+  "top_stories": [
+    {
+      "title": "Nats get their 2nd sweep of the season and got their swagger back!",
+      "url": "https://nats.talkdcsports.com/2026/08/09/nats-get-their-2nd-sweep-of-the-season-and-got-their-swagger-back/",
+      "source": "Talk Nats",
+      "published_at": "2026-08-09T20:14:26+00:00",
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/Lile-Crews-Sol-Tucker-8-9-2026.jpg?fit=1200%2C931&ssl=1"
+    },
+    {
+      "title": "Ortiz hits 2nd career homer, Dion leads strong bullpen outing as Nationals beat Reds 7-1",
+      "url": "https://sports.yahoo.com/articles/ortiz-hits-2nd-career-homer-192153402.html",
       "source": "Yahoo Sports MLB",
-      "published_at": "2026-08-09T15:33:45+00:00",
-      "why_it_matters": {
-        "text": "The Cincinnati Reds face off against the Washington Nationals in a game featuring pitchers Brady Singer and Brad Lord as the Reds look to avoid being swept.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/09ebf2aed838944169021d85df9fb503268ab9b7a6355c32a126b74089c2ed2e/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F6349574e2bd2149d1cc255e36f450964"
+      "published_at": "2026-08-09T19:21:53+00:00",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/1717dbdca7b4c02de02f101b3e35966cc63ee817047a5ff40003f79ed87ab551/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2F2b3e99c91bef48f603299d141add04e6"
+    },
+    {
+      "title": "Andrew Alvarez has secured his spot in the Nationals’ rotation",
+      "url": "https://www.federalbaseball.com/washington-nationals-analysis/93335/andrew-alvarez-has-secured-his-spot-in-the-nationals-rotation",
+      "source": "Federal Baseball",
+      "published_at": "2026-08-09T17:00:36+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2289093950.jpg?quality=90&strip=all&crop=0%2C10.475495665608%2C100%2C79.049008668784&w=1200"
     },
     {
       "title": "Washington Nationals vs Cincinnati Reds Game Thread",
       "url": "https://www.federalbaseball.com/washington-nationals-discussions/93328/washington-nationals-vs-cincinnati-reds-game-thread",
       "source": "Federal Baseball",
       "published_at": "2026-08-09T14:43:34+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals are looking for their second sweep of the season against the Cincinnati Reds following two recent wins after a difficult road trip.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2289655828.jpg?quality=90&strip=all&crop=0%2C10.469831215905%2C100%2C79.060337568191&w=1200"
     },
     {
@@ -97,10 +105,6 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/93320/pitching-staff-helped-washington-nationals-stabilize",
       "source": "Federal Baseball",
       "published_at": "2026-08-09T14:02:20+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals' pitching staff has played a key role in stabilizing the team's season following a period of instability and a difficult road trip.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2289651295.jpg?quality=90&strip=all&crop=0%2C10.471706645496%2C100%2C79.056586709007&w=1200"
     },
     {
@@ -108,10 +112,6 @@
       "url": "https://nats.talkdcsports.com/2026/08/09/game-120-nats-will-try-for-the-sweep/",
       "source": "Talk Nats",
       "published_at": "2026-08-09T13:34:00+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals clinched a series win on Saturday and are positioned for a sweep on Sunday. The team is moving closer to the Wild Card picture, with pitcher Andrew Alvarez delivering a strong performance.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/06/IMG-20260625-WA0046.jpg?fit=1200%2C800&ssl=1"
     },
     {
@@ -119,10 +119,6 @@
       "url": "https://www.federalbaseball.com/washington-nationals-prospects/93301/washington-nationals-assign-first-round-pick-chris-hacopian-high-a",
       "source": "Federal Baseball",
       "published_at": "2026-08-08T16:02:12+00:00",
-      "why_it_matters": {
-        "text": "Washington Nationals first-round pick Chris Hacopian will make his minor league debut tomorrow with the Wilmington Blue Rocks, skipping Low-A ball. This move differs from previous team policy of sending draft picks to Low-A first.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2286853858.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -131,31 +127,20 @@
       "source": "Talk Nats",
       "published_at": "2026-08-08T15:27:06+00:00",
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/05/Lile-Young-Wood-Marlene-Koenig.jpg?fit=1063%2C1200&ssl=1"
-    },
-    {
-      "title": "Do the Washington Nationals finally have a settled back of the bullpen?",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/93294/do-washington-nationals-finally-have-settled-back-of-bullpen",
-      "source": "Federal Baseball",
-      "published_at": "2026-08-08T15:00:11+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2289536085.jpg?quality=90&strip=all&crop=0%2C10.470761885626%2C100%2C79.058476228749&w=1200"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "win",
-      "text": "Curly W! The Nats beat the Reds 8-2."
-    },
-    "storyline": {
-      "text": "The Dodgers have resolved the status of three players designated for assignment, with Wyatt Mills moving to the Nationals and Cole Irvin and Chuckie Robinson joining Oklahoma City.",
-      "ai_generated": true
+      "text": "Curly W! The Nats beat the Reds 7-1."
     }
   },
   "videos": [
     {
-      "title": "Reds vs. Nationals Game Highlights (8/8/26) | MLB Highlights",
-      "url": "https://www.youtube.com/watch?v=fdUrl9oR2s4",
+      "title": "Reds vs. Nationals Game Highlights (8/9/26) | MLB Highlights",
+      "url": "https://www.youtube.com/watch?v=g-RuFTXt3A0",
       "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i3.ytimg.com/vi/fdUrl9oR2s4/hqdefault.jpg",
+      "thumbnail_url": "https://i4.ytimg.com/vi/g-RuFTXt3A0/hqdefault.jpg",
       "duration_s": 0
     },
     {
@@ -195,101 +180,11 @@
     }
   ],
   "fan_vibes": {
-    "overall": "positive",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "Pitching Staff Stability",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/08/09/game-120-nats-will-try-for-the-sweep/",
-          "https://www.federalbaseball.com/washington-nationals-analysis/93320/pitching-staff-helped-washington-nationals-stabilize"
-        ]
-      },
-      {
-        "label": "Wild Card Pursuit",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/08/09/game-120-nats-will-try-for-the-sweep/"
-        ]
-      },
-      {
-        "label": "Roster Management",
-        "sentiment": "mixed",
-        "source_urls": [
-          "https://sports.yahoo.com/articles/wyatt-mills-nationals-cole-irvin-155800037.html",
-          "https://www.federalbaseball.com/washington-nationals-prospects/93301/washington-nationals-assign-first-round-pick-chris-hacopian-high-a"
-        ]
-      }
-    ]
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
   },
-  "trending": [
-    {
-      "label": "Cincinnati Reds",
-      "sentiment": "",
-      "context": "Cincinnati Reds vs. Washington Nationals – Brady Singer vs. Brad Lord",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/cincinnati-reds-vs-washington-nationals-153345085.html",
-        "https://www.federalbaseball.com/washington-nationals-discussions/93328/washington-nationals-vs-cincinnati-reds-game-thread"
-      ]
-    },
-    {
-      "label": "Dodgers",
-      "sentiment": "",
-      "context": "Wyatt Mills to Nationals, Cole Irvin & Chuckie Robinson to Oklahoma City",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/wyatt-mills-nationals-cole-irvin-155800037.html"
-      ]
-    },
-    {
-      "label": "Roster Moves",
-      "sentiment": "",
-      "context": "Wyatt Mills to Nationals, Cole Irvin & Chuckie Robinson to Oklahoma City",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/wyatt-mills-nationals-cole-irvin-155800037.html"
-      ]
-    },
-    {
-      "label": "Wyatt Mills",
-      "sentiment": "",
-      "context": "Wyatt Mills to Nationals, Cole Irvin & Chuckie Robinson to Oklahoma City",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/wyatt-mills-nationals-cole-irvin-155800037.html"
-      ]
-    },
-    {
-      "label": "Cole Irvin",
-      "sentiment": "",
-      "context": "Wyatt Mills to Nationals, Cole Irvin & Chuckie Robinson to Oklahoma City",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/wyatt-mills-nationals-cole-irvin-155800037.html"
-      ]
-    },
-    {
-      "label": "Chuckie Robinson",
-      "sentiment": "",
-      "context": "Wyatt Mills to Nationals, Cole Irvin & Chuckie Robinson to Oklahoma City",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/wyatt-mills-nationals-cole-irvin-155800037.html"
-      ]
-    },
-    {
-      "label": "Brady Singer",
-      "sentiment": "",
-      "context": "Cincinnati Reds vs. Washington Nationals – Brady Singer vs. Brad Lord",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/cincinnati-reds-vs-washington-nationals-153345085.html"
-      ]
-    },
-    {
-      "label": "Brad Lord",
-      "sentiment": "",
-      "context": "Cincinnati Reds vs. Washington Nationals – Brady Singer vs. Brad Lord",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/cincinnati-reds-vs-washington-nationals-153345085.html"
-      ]
-    }
-  ],
+  "trending": [],
   "what_to_watch": [
     {
       "text": "The Nats host the Cubs on Tuesday.",
@@ -298,6 +193,10 @@
     {
       "text": "The Nats host the Cubs on Wednesday.",
       "source_url_or_game_pk": "822698"
+    },
+    {
+      "text": "The Nats host the Cubs on Thursday.",
+      "source_url_or_game_pk": "822696"
     }
   ],
   "on_this_day": {},
