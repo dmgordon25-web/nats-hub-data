@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-09T16:59:08+00:00",
+  "fetched_at": "2026-08-09T17:39:48+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -241,7 +241,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "58-61",
-        "score": 2
+        "score": 3
       },
       "away": {
         "id": 113,
@@ -310,17 +310,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 3,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 5,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "balls": 1,
         "strikes": 2,
-        "outs": 2,
-        "home_runs": 2,
+        "outs": 1,
+        "home_runs": 3,
         "away_runs": 1,
-        "home_hits": 3,
-        "away_hits": 1,
+        "home_hits": 6,
+        "away_hits": 2,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -365,7 +365,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 684007,
+          "name": "Shota Imanaga",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -461,7 +465,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 656849,
+          "name": "David Peterson",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -575,7 +583,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 592332,
+          "name": "Kevin Gausman",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
