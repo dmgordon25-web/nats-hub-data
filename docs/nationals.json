@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-09T15:43:57+00:00",
+  "fetched_at": "2026-08-09T16:15:24+00:00",
   "freshness": {
-    "schedule": "2026-08-09T15:43:56+00:00",
-    "standings": "2026-08-09T15:43:56+00:00",
+    "schedule": "2026-08-09T16:15:22+00:00",
+    "standings": "2026-08-09T16:15:23+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-09T13:56:11+00:00",
-    "weather": "2026-08-09T15:43:57+00:00"
+    "weather": "2026-08-09T16:15:24+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -15,8 +15,8 @@
     "game_pk": 822700,
     "date": "2026-08-09",
     "start_time_utc": "2026-08-09T16:15:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "In Progress",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -114,7 +114,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "Peacock/NBCSN",
       "is_national": true,
@@ -124,10 +124,10 @@
       "intent_uri": "peacock://livetv",
       "fallback_uri": "https://www.peacocktv.com/"
     },
-    "watch_label": "Starts Soon"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-09T15:43:57+00:00",
+    "fetched_at": "2026-08-09T16:15:24+00:00",
     "source": "open_meteo",
     "game_pk": 822700,
     "venue_name": "Nationals Park",
@@ -152,8 +152,8 @@
       "game_pk": 822700,
       "date": "2026-08-09",
       "start_time_utc": "2026-08-09T16:15:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -251,7 +251,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Peacock/NBCSN",
         "is_national": true,
@@ -261,7 +261,7 @@
         "intent_uri": "peacock://livetv",
         "fallback_uri": "https://www.peacocktv.com/"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822697,
@@ -864,8 +864,8 @@
       "game_pk": 822700,
       "date": "2026-08-09",
       "start_time_utc": "2026-08-09T16:15:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -963,7 +963,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Peacock/NBCSN",
         "is_national": true,
@@ -973,7 +973,7 @@
         "intent_uri": "peacock://livetv",
         "fallback_uri": "https://www.peacocktv.com/"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822697,
