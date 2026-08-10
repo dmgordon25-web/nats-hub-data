@@ -1,68 +1,63 @@
 {
   "data_version": 1,
-  "generated_at": "2026-08-10T21:49:41+00:00",
+  "generated_at": "2026-08-10T23:21:46+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-08-10T21:37:32+00:00",
-    "videos": "2026-08-10T21:37:32+00:00",
-    "vibes": null
+    "news": "2026-08-10T23:21:12+00:00",
+    "videos": "2026-08-10T23:21:12+00:00",
+    "vibes": "2026-08-10T23:21:46+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-08-10T21:37:26+00:00",
+      "last_updated_at": "2026-08-10T23:21:09+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-08-10T21:37:28+00:00",
+      "last_updated_at": "2026-08-10T23:21:10+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-08-10T21:37:29+00:00",
+      "last_updated_at": "2026-08-10T23:21:10+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-08-10T21:37:29+00:00",
+      "last_updated_at": "2026-08-10T23:21:11+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-08-10T21:37:30+00:00",
+      "last_updated_at": "2026-08-10T23:21:11+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-08-10T21:37:31+00:00",
+      "last_updated_at": "2026-08-10T23:21:12+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-08-10T21:37:31+00:00",
+      "last_updated_at": "2026-08-10T23:21:12+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-08-10T21:37:32+00:00",
+      "last_updated_at": "2026-08-10T23:21:12+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "Breaking the chain of 90-losses",
@@ -70,7 +65,7 @@
       "source": "Talk Nats",
       "published_at": "2026-08-10T19:52:43+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals currently have a 59-61 record. To break a streak of five consecutive seasons with at least 90 losses, the team must finish the season with no worse than a 14-28 record.",
+        "text": "The Washington Nationals currently have a 59-61 record. To break a streak of five consecutive seasons with at least 90 losses, the team must go no worse than 14-28 for the remainder of the season.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/162A1171.jpg?fit=1200%2C779&ssl=1"
@@ -103,7 +98,7 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-08-10T17:00:51+00:00",
       "why_it_matters": {
-        "text": "The Nationals plan to select left-hander Jackson Kent's contract from Triple-A Rochester this week. While his specific debut date is unclear, it will mark his first call to the major leagues.",
+        "text": "The Nationals plan to select left-hander Jackson Kent's contract from Triple-A Rochester this week. While his specific debut date is unclear, it will mark his first call to the majors.",
         "ai_generated": true
       },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/08/jackson-kent-nationals-prospect-1024x717.jpg"
@@ -125,7 +120,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-08-10T12:28:47+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals are looking for their second sweep of the season against the Cincinnati Reds following a series of wins after a difficult road trip.",
+        "text": "The Washington Nationals are looking for their second sweep of the season against the Cincinnati Reds following two recent wins after a difficult road trip.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2289655829.jpg?quality=90&strip=all&crop=0%2C10.477785627748%2C100%2C79.044428744503&w=1200"
@@ -151,7 +146,7 @@
       "text": "Curly W! The Nats beat the Reds 7-1."
     },
     "storyline": {
-      "text": "The Washington Nationals currently have a 59-61 record. To break a streak of five consecutive seasons with at least 90 losses, the team must finish the season with no worse than a 14-28 record.",
+      "text": "The Washington Nationals currently have a 59-61 record. To break a streak of five consecutive seasons with at least 90 losses, the team must go no worse than 14-28 for the remainder of the season.",
       "ai_generated": true
     }
   },
@@ -200,9 +195,34 @@
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "mixed",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "Prospect Promotion",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://sports.yahoo.com/mlb/article/nationals-reportedly-calling-up-pitching-prospect-jackson-kent-to-fill-out-thin-starting-rotation-193328372.html",
+          "https://www.federalbaseball.com/washington-nationals-news/93349/washington-nationals-calling-up-jackson-kent-here-what-need-know",
+          "https://www.mlbtraderumors.com/2026/08/nationals-to-select-jackson-kent.html"
+        ]
+      },
+      {
+        "label": "Roster Strategy",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/93338/washington-nationals-first-base-platoon-abimelec-ortiz-andres-chaparro-elite"
+        ]
+      },
+      {
+        "label": "Record Recovery",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/08/10/breaking-the-chain-of-90-losses/",
+          "https://www.federalbaseball.com/washington-nationals-discussions/93328/washington-nationals-vs-cincinnati-reds-game-thread"
+        ]
+      }
+    ]
   },
   "trending": [
     {
@@ -212,16 +232,6 @@
       "source_urls": [
         "https://sports.yahoo.com/mlb/article/nationals-reportedly-calling-up-pitching-prospect-jackson-kent-to-fill-out-thin-starting-rotation-193328372.html",
         "https://www.federalbaseball.com/washington-nationals-news/93349/washington-nationals-calling-up-jackson-kent-here-what-need-know",
-        "https://www.mlbtraderumors.com/2026/08/nationals-to-select-jackson-kent.html"
-      ]
-    },
-    {
-      "label": "roster move",
-      "sentiment": "",
-      "context": "Nationals reportedly calling up pitching prospect Jackson Kent to fill out thin starting rotation",
-      "source_urls": [
-        "https://sports.yahoo.com/mlb/article/nationals-reportedly-calling-up-pitching-prospect-jackson-kent-to-fill-out-thin-starting-rotation-193328372.html",
-        "https://www.federalbaseball.com/washington-nationals-analysis/93338/washington-nationals-first-base-platoon-abimelec-ortiz-andres-chaparro-elite",
         "https://www.mlbtraderumors.com/2026/08/nationals-to-select-jackson-kent.html"
       ]
     },
@@ -242,18 +252,19 @@
       ]
     },
     {
-      "label": "Promotion",
-      "sentiment": "",
-      "context": "The Washington Nationals are calling up Jackson Kent, here is what you need to know",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-news/93349/washington-nationals-calling-up-jackson-kent-here-what-need-know"
-      ]
-    },
-    {
       "label": "Triple-A",
       "sentiment": "",
       "context": "Nationals To Select Jackson Kent",
       "source_urls": [
+        "https://www.mlbtraderumors.com/2026/08/nationals-to-select-jackson-kent.html"
+      ]
+    },
+    {
+      "label": "roster move",
+      "sentiment": "",
+      "context": "Nationals To Select Jackson Kent",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/93338/washington-nationals-first-base-platoon-abimelec-ortiz-andres-chaparro-elite",
         "https://www.mlbtraderumors.com/2026/08/nationals-to-select-jackson-kent.html"
       ]
     },
@@ -266,11 +277,19 @@
       ]
     },
     {
-      "label": "first base",
+      "label": "Cincinnati Reds",
       "sentiment": "",
-      "context": "The Washington Nationals first base platoon of Abimelec Ortiz and Andres Chaparro is elite",
+      "context": "Washington Nationals vs Cincinnati Reds Game Thread",
       "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/93338/washington-nationals-first-base-platoon-abimelec-ortiz-andres-chaparro-elite"
+        "https://www.federalbaseball.com/washington-nationals-discussions/93328/washington-nationals-vs-cincinnati-reds-game-thread"
+      ]
+    },
+    {
+      "label": "NL Central",
+      "sentiment": "",
+      "context": "Washington Nationals vs Cincinnati Reds Game Thread",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-discussions/93328/washington-nationals-vs-cincinnati-reds-game-thread"
       ]
     }
   ],
