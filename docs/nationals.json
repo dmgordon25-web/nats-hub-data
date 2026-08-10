@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-10T08:49:06+00:00",
+  "fetched_at": "2026-08-10T13:14:50+00:00",
   "freshness": {
-    "schedule": "2026-08-10T08:49:05+00:00",
-    "standings": "2026-08-10T08:49:05+00:00",
+    "schedule": "2026-08-10T13:14:49+00:00",
+    "standings": "2026-08-10T13:14:49+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-10T08:49:04+00:00",
-    "weather": "2026-08-10T08:49:06+00:00"
+    "weather": "2026-08-10T13:14:50+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -123,7 +123,7 @@
     "watch_label": "Next Game"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-10T08:49:06+00:00",
+    "fetched_at": "2026-08-10T13:14:50+00:00",
     "source": "open_meteo",
     "game_pk": 822697,
     "venue_name": "Nationals Park",
@@ -132,7 +132,7 @@
     "feels_like_f": 89.4,
     "wind_mph": 3.8,
     "wind_dir": "SSW",
-    "precip_chance": 61,
+    "precip_chance": 27,
     "precip_inches": 0.0,
     "summary": "Partly cloudy",
     "is_dome": false
@@ -1980,21 +1980,21 @@
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "WQAM 104.3",
           "call_sign": "WQAM 104.3",
           "type": "FM",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -2083,15 +2083,6 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "FS1",
-          "call_sign": "FS1",
-          "type": "TV",
-          "language": "en",
-          "is_national": true,
           "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
@@ -2114,11 +2105,11 @@
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
+          "name": "FS1",
+          "call_sign": "FS1",
+          "type": "TV",
           "language": "en",
-          "is_national": false,
+          "is_national": true,
           "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
@@ -2129,6 +2120,15 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -2230,21 +2230,21 @@
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "WQAM 104.3",
           "call_sign": "WQAM 104.3",
           "type": "FM",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
