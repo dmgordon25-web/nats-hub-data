@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-10T22:03:22+00:00",
+  "fetched_at": "2026-08-10T22:54:15+00:00",
   "freshness": {
-    "schedule": "2026-08-10T22:03:21+00:00",
-    "standings": "2026-08-10T22:03:21+00:00",
+    "schedule": "2026-08-10T22:54:14+00:00",
+    "standings": "2026-08-10T22:54:14+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-10T19:18:17+00:00",
-    "weather": "2026-08-10T22:03:22+00:00"
+    "weather": "2026-08-10T22:54:15+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -123,7 +123,7 @@
     "watch_label": "Next Game"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-10T22:03:22+00:00",
+    "fetched_at": "2026-08-10T22:54:15+00:00",
     "source": "open_meteo",
     "game_pk": 822697,
     "venue_name": "Nationals Park",
@@ -1341,7 +1341,11 @@
         "lon": -73.84559155
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 640455,
+          "name": "Sean Manaea",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
