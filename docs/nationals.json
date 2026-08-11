@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-11T18:34:23+00:00",
+  "fetched_at": "2026-08-11T19:26:44+00:00",
   "freshness": {
-    "schedule": "2026-08-11T18:34:22+00:00",
-    "standings": "2026-08-11T18:34:22+00:00",
+    "schedule": "2026-08-11T19:26:43+00:00",
+    "standings": "2026-08-11T19:26:44+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-08-11T14:30:13+00:00",
-    "weather": "2026-08-11T18:34:23+00:00"
+    "former_nats": "2026-08-11T19:26:43+00:00",
+    "weather": "2026-08-11T19:26:44+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -16,7 +16,7 @@
     "date": "2026-08-11",
     "start_time_utc": "2026-08-11T22:45:00Z",
     "status": "Preview",
-    "detailed_status": "Scheduled",
+    "detailed_status": "Pre-Game",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "59-61",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 112,
@@ -32,7 +32,7 @@
       "name": "Chicago Cubs",
       "short_name": "Cubs",
       "record": "69-50",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 3309,
@@ -43,7 +43,11 @@
       "lon": -77.007501
     },
     "probable_pitchers": {
-      "home": null,
+      "home": {
+        "id": 663623,
+        "name": "Jake Irvin",
+        "hand": null
+      },
       "away": {
         "id": 684007,
         "name": "Shota Imanaga",
@@ -89,19 +93,19 @@
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
       "game_number": 1,
@@ -123,14 +127,14 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-11T18:34:23+00:00",
+    "fetched_at": "2026-08-11T19:26:44+00:00",
     "source": "open_meteo",
     "game_pk": 822697,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-08-11T23:00",
-    "temperature_f": 81.8,
-    "feels_like_f": 85.2,
-    "wind_mph": 5.1,
+    "temperature_f": 83.4,
+    "feels_like_f": 86.4,
+    "wind_mph": 6.0,
     "wind_dir": "WNW",
     "precip_chance": 14,
     "precip_inches": 0.0,
@@ -149,7 +153,7 @@
       "date": "2026-08-11",
       "start_time_utc": "2026-08-11T22:45:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -157,7 +161,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "59-61",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 112,
@@ -165,7 +169,7 @@
         "name": "Chicago Cubs",
         "short_name": "Cubs",
         "record": "69-50",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -176,7 +180,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 663623,
+          "name": "Jake Irvin",
+          "hand": null
+        },
         "away": {
           "id": 684007,
           "name": "Shota Imanaga",
@@ -222,19 +230,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 1,
@@ -732,7 +740,7 @@
       "date": "2026-08-11",
       "start_time_utc": "2026-08-11T22:45:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -740,7 +748,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "59-61",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 112,
@@ -748,7 +756,7 @@
         "name": "Chicago Cubs",
         "short_name": "Cubs",
         "record": "69-50",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -759,7 +767,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 663623,
+          "name": "Jake Irvin",
+          "hand": null
+        },
         "away": {
           "id": 684007,
           "name": "Shota Imanaga",
@@ -805,19 +817,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 1,
