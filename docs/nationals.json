@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-11T15:34:59+00:00",
+  "fetched_at": "2026-08-11T16:31:53+00:00",
   "freshness": {
-    "schedule": "2026-08-11T15:34:58+00:00",
-    "standings": "2026-08-11T15:34:58+00:00",
+    "schedule": "2026-08-11T16:31:52+00:00",
+    "standings": "2026-08-11T16:31:53+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-11T14:30:13+00:00",
-    "weather": "2026-08-11T15:34:59+00:00"
+    "weather": "2026-08-11T16:31:53+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -123,15 +123,15 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-11T15:34:59+00:00",
+    "fetched_at": "2026-08-11T16:31:53+00:00",
     "source": "open_meteo",
     "game_pk": 822697,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-08-11T23:00",
-    "temperature_f": 81.2,
-    "feels_like_f": 89.8,
-    "wind_mph": 4.9,
-    "wind_dir": "NE",
+    "temperature_f": 83.8,
+    "feels_like_f": 91.7,
+    "wind_mph": 3.4,
+    "wind_dir": "N",
     "precip_chance": 13,
     "precip_inches": 0.0,
     "summary": "Overcast",
@@ -1485,21 +1485,21 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Rangers Sports Network, presented by Progressive",
           "call_sign": "RSN",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1749,7 +1749,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "away",
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1758,7 +1758,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "home",
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
