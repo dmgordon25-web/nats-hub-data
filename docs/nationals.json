@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-11T23:07:09+00:00",
+  "fetched_at": "2026-08-11T23:57:45+00:00",
   "freshness": {
-    "schedule": "2026-08-11T23:07:08+00:00",
-    "standings": "2026-08-11T23:07:09+00:00",
+    "schedule": "2026-08-11T23:57:43+00:00",
+    "standings": "2026-08-11T23:57:44+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-08-11T19:26:43+00:00",
-    "weather": "2026-08-11T23:07:09+00:00"
+    "former_nats": "2026-08-11T23:57:43+00:00",
+    "weather": "2026-08-11T23:57:44+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "59-61",
-      "score": 2
+      "score": 3
     },
     "away": {
       "id": 112,
@@ -32,7 +32,7 @@
       "name": "Chicago Cubs",
       "short_name": "Cubs",
       "record": "69-50",
-      "score": 0
+      "score": 4
     },
     "venue": {
       "id": 3309,
@@ -93,17 +93,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 2,
+      "current_inning": 4,
       "inning_half": "Top",
       "inning_state": "Top",
       "is_top_inning": true,
-      "balls": 2,
+      "balls": 0,
       "strikes": 2,
-      "outs": 0,
-      "home_runs": 2,
-      "away_runs": 0,
-      "home_hits": 2,
-      "away_hits": 0,
+      "outs": 1,
+      "home_runs": 3,
+      "away_runs": 4,
+      "home_hits": 4,
+      "away_hits": 4,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -127,16 +127,16 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-11T23:07:09+00:00",
+    "fetched_at": "2026-08-11T23:57:44+00:00",
     "source": "open_meteo",
     "game_pk": 822697,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-08-11T23:00",
-    "temperature_f": 81.1,
-    "feels_like_f": 83.7,
+    "temperature_f": 82.8,
+    "feels_like_f": 86.6,
     "wind_mph": 6.8,
     "wind_dir": "WNW",
-    "precip_chance": 8,
+    "precip_chance": 6,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -161,7 +161,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "59-61",
-        "score": 2
+        "score": 3
       },
       "away": {
         "id": 112,
@@ -169,7 +169,7 @@
         "name": "Chicago Cubs",
         "short_name": "Cubs",
         "record": "69-50",
-        "score": 0
+        "score": 4
       },
       "venue": {
         "id": 3309,
@@ -230,17 +230,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 2,
+        "current_inning": 4,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 2,
+        "balls": 0,
         "strikes": 2,
-        "outs": 0,
-        "home_runs": 2,
-        "away_runs": 0,
-        "home_hits": 2,
-        "away_hits": 0,
+        "outs": 1,
+        "home_runs": 3,
+        "away_runs": 4,
+        "home_hits": 4,
+        "away_hits": 4,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -752,7 +752,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "59-61",
-        "score": 2
+        "score": 3
       },
       "away": {
         "id": 112,
@@ -760,7 +760,7 @@
         "name": "Chicago Cubs",
         "short_name": "Cubs",
         "record": "69-50",
-        "score": 0
+        "score": 4
       },
       "venue": {
         "id": 3309,
@@ -821,17 +821,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 2,
+        "current_inning": 4,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 2,
+        "balls": 0,
         "strikes": 2,
-        "outs": 0,
-        "home_runs": 2,
-        "away_runs": 0,
-        "home_hits": 2,
-        "away_hits": 0,
+        "outs": 1,
+        "home_runs": 3,
+        "away_runs": 4,
+        "home_hits": 4,
+        "away_hits": 4,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -1130,7 +1130,11 @@
         "lon": -73.84559155
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 476594,
+          "name": "Robert Stock",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -1384,7 +1388,11 @@
         "lon": -73.84559155
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 681035,
+          "name": "Christian Scott",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
