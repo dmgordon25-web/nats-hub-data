@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-12T23:05:12+00:00",
+  "fetched_at": "2026-08-12T23:55:51+00:00",
   "freshness": {
-    "schedule": "2026-08-12T23:05:11+00:00",
-    "standings": "2026-08-12T23:05:11+00:00",
+    "schedule": "2026-08-12T23:55:50+00:00",
+    "standings": "2026-08-12T23:55:51+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-12T19:28:06+00:00",
-    "weather": "2026-08-12T23:05:12+00:00"
+    "weather": "2026-08-12T23:55:51+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "59-62",
-      "score": 0
+      "score": 1
     },
     "away": {
       "id": 112,
@@ -32,7 +32,7 @@
       "name": "Chicago Cubs",
       "short_name": "Cubs",
       "record": "70-50",
-      "score": 0
+      "score": 1
     },
     "venue": {
       "id": 3309,
@@ -111,19 +111,19 @@
       }
     ],
     "linescore": {
-      "current_inning": 2,
+      "current_inning": 5,
       "inning_half": "Top",
       "inning_state": "Top",
       "is_top_inning": true,
-      "balls": 1,
+      "balls": 0,
       "strikes": 0,
-      "outs": 1,
-      "home_runs": 0,
-      "away_runs": 0,
-      "home_hits": 1,
-      "away_hits": 0,
+      "outs": 0,
+      "home_runs": 1,
+      "away_runs": 1,
+      "home_hits": 6,
+      "away_hits": 3,
       "home_errors": 0,
-      "away_errors": 0
+      "away_errors": 1
     },
     "series": {
       "game_number": 2,
@@ -145,14 +145,14 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-12T23:05:12+00:00",
+    "fetched_at": "2026-08-12T23:55:51+00:00",
     "source": "open_meteo",
     "game_pk": 822698,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-08-12T23:00",
-    "temperature_f": 83.8,
-    "feels_like_f": 88.8,
-    "wind_mph": 5.0,
+    "temperature_f": 82.0,
+    "feels_like_f": 87.0,
+    "wind_mph": 5.9,
     "wind_dir": "WSW",
     "precip_chance": 0,
     "precip_inches": 0.0,
@@ -179,7 +179,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "59-62",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 112,
@@ -187,7 +187,7 @@
         "name": "Chicago Cubs",
         "short_name": "Cubs",
         "record": "70-50",
-        "score": 0
+        "score": 1
       },
       "venue": {
         "id": 3309,
@@ -266,19 +266,19 @@
         }
       ],
       "linescore": {
-        "current_inning": 2,
+        "current_inning": 5,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 1,
+        "balls": 0,
         "strikes": 0,
-        "outs": 1,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 1,
-        "away_hits": 0,
+        "outs": 0,
+        "home_runs": 1,
+        "away_runs": 1,
+        "home_hits": 6,
+        "away_hits": 3,
         "home_errors": 0,
-        "away_errors": 0
+        "away_errors": 1
       },
       "series": {
         "game_number": 2,
@@ -779,7 +779,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "59-62",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 112,
@@ -787,7 +787,7 @@
         "name": "Chicago Cubs",
         "short_name": "Cubs",
         "record": "70-50",
-        "score": 0
+        "score": 1
       },
       "venue": {
         "id": 3309,
@@ -866,19 +866,19 @@
         }
       ],
       "linescore": {
-        "current_inning": 2,
+        "current_inning": 5,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 1,
+        "balls": 0,
         "strikes": 0,
-        "outs": 1,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 1,
-        "away_hits": 0,
+        "outs": 0,
+        "home_runs": 1,
+        "away_runs": 1,
+        "home_hits": 6,
+        "away_hits": 3,
         "home_errors": 0,
-        "away_errors": 0
+        "away_errors": 1
       },
       "series": {
         "game_number": 2,
@@ -1429,21 +1429,21 @@
       },
       "broadcasts": [
         {
-          "name": "Rangers Sports Network, presented by Progressive",
-          "call_sign": "RSN",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Rangers Sports Network, presented by Progressive",
+          "call_sign": "RSN",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1693,7 +1693,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "home",
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1702,7 +1702,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "away",
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
