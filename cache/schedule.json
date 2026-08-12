@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-12T01:51:04+00:00",
+  "fetched_at": "2026-08-12T04:07:01+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -7,7 +7,7 @@
       "date": "2026-08-11",
       "start_time_utc": "2026-08-11T22:45:00Z",
       "status": "Final",
-      "detailed_status": "Game Over",
+      "detailed_status": "Final",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -53,7 +53,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "Marquee Sports Network",
@@ -62,7 +62,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "Nationals.TV",
@@ -71,7 +71,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -80,7 +80,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         }
       ],
       "linescore": {
@@ -138,7 +138,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 800600,
+          "name": "Jackson Kent",
+          "hand": null
+        },
         "away": {
           "id": 656849,
           "name": "David Peterson",
@@ -685,7 +689,7 @@
         "abbrev": "TEX",
         "name": "Texas Rangers",
         "short_name": "Rangers",
-        "record": "60-59",
+        "record": "60-60",
         "score": null
       },
       "away": {
@@ -710,21 +714,21 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Rangers Sports Network, presented by Progressive",
           "call_sign": "RSN",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -790,7 +794,7 @@
         "abbrev": "TEX",
         "name": "Texas Rangers",
         "short_name": "Rangers",
-        "record": "60-59",
+        "record": "60-60",
         "score": null
       },
       "away": {
@@ -895,7 +899,7 @@
         "abbrev": "TEX",
         "name": "Texas Rangers",
         "short_name": "Rangers",
-        "record": "60-59",
+        "record": "60-60",
         "score": null
       },
       "away": {
@@ -952,7 +956,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "away",
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -961,7 +965,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "home",
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
