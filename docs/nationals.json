@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-12T20:25:59+00:00",
+  "fetched_at": "2026-08-12T21:21:42+00:00",
   "freshness": {
-    "schedule": "2026-08-12T20:25:58+00:00",
-    "standings": "2026-08-12T20:25:58+00:00",
+    "schedule": "2026-08-12T21:21:41+00:00",
+    "standings": "2026-08-12T21:21:41+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-12T19:28:06+00:00",
-    "weather": "2026-08-12T20:25:59+00:00"
+    "weather": "2026-08-12T21:21:42+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "59-62",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 112,
@@ -32,7 +32,7 @@
       "name": "Chicago Cubs",
       "short_name": "Cubs",
       "record": "70-50",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 3309,
@@ -62,7 +62,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Marquee Sports Network",
@@ -71,7 +71,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -80,7 +80,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -89,7 +89,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Fox 5 WTTG",
@@ -111,19 +111,19 @@
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
       "game_number": 2,
@@ -145,14 +145,14 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-12T20:25:59+00:00",
+    "fetched_at": "2026-08-12T21:21:42+00:00",
     "source": "open_meteo",
     "game_pk": 822698,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-08-12T23:00",
-    "temperature_f": 88.0,
-    "feels_like_f": 90.2,
-    "wind_mph": 6.9,
+    "temperature_f": 86.4,
+    "feels_like_f": 89.8,
+    "wind_mph": 6.3,
     "wind_dir": "SSW",
     "precip_chance": 1,
     "precip_inches": 0.0,
@@ -179,7 +179,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "59-62",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 112,
@@ -187,7 +187,7 @@
         "name": "Chicago Cubs",
         "short_name": "Cubs",
         "record": "70-50",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -217,7 +217,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Marquee Sports Network",
@@ -226,7 +226,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -235,7 +235,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -244,7 +244,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Fox 5 WTTG",
@@ -266,19 +266,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 2,
@@ -779,7 +779,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "59-62",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 112,
@@ -787,7 +787,7 @@
         "name": "Chicago Cubs",
         "short_name": "Cubs",
         "record": "70-50",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -817,7 +817,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Marquee Sports Network",
@@ -826,7 +826,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -835,7 +835,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -844,7 +844,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Fox 5 WTTG",
@@ -866,19 +866,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 2,
@@ -2477,19 +2477,19 @@
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
         "wins": 64,
-        "losses": 57,
-        "pct": ".529",
-        "gb": "8.5",
-        "wc_gb": "-",
-        "streak": "L1",
-        "last_ten": "6-4",
+        "losses": 58,
+        "pct": ".525",
+        "gb": "9.0",
+        "wc_gb": "0.5",
+        "streak": "L2",
+        "last_ten": "5-5",
         "division_rank": 2,
         "league_rank": 7,
         "wc_rank": 4,
-        "run_diff": -1,
-        "runs_scored": 534,
-        "runs_allowed": 535,
-        "elim_num": "34"
+        "run_diff": -7,
+        "runs_scored": 535,
+        "runs_allowed": 542,
+        "elim_num": "33"
       },
       {
         "id": 146,
@@ -2585,19 +2585,19 @@
           "name": "Philadelphia Phillies",
           "short_name": "Phillies",
           "wins": 64,
-          "losses": 57,
-          "pct": ".529",
-          "gb": "8.5",
-          "wc_gb": "-",
-          "streak": "L1",
-          "last_ten": "6-4",
+          "losses": 58,
+          "pct": ".525",
+          "gb": "9.0",
+          "wc_gb": "0.5",
+          "streak": "L2",
+          "last_ten": "5-5",
           "division_rank": 2,
           "league_rank": 7,
           "wc_rank": 4,
-          "run_diff": -1,
-          "runs_scored": 534,
-          "runs_allowed": 535,
-          "elim_num": "34"
+          "run_diff": -7,
+          "runs_scored": 535,
+          "runs_allowed": 542,
+          "elim_num": "33"
         },
         {
           "id": 146,
@@ -2818,19 +2818,19 @@
           "abbrev": "STL",
           "name": "St. Louis Cardinals",
           "short_name": "Cardinals",
-          "wins": 60,
+          "wins": 61,
           "losses": 60,
-          "pct": ".500",
-          "gb": "14.0",
-          "wc_gb": "3.5",
-          "streak": "W1",
-          "last_ten": "6-4",
+          "pct": ".504",
+          "gb": "13.5",
+          "wc_gb": "3.0",
+          "streak": "W2",
+          "last_ten": "7-3",
           "division_rank": 3,
           "league_rank": 9,
           "wc_rank": 6,
-          "run_diff": -7,
-          "runs_scored": 522,
-          "runs_allowed": 529,
+          "run_diff": -1,
+          "runs_scored": 529,
+          "runs_allowed": 530,
           "elim_num": "29"
         },
         {
