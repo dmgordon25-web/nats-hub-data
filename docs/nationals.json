@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-13T04:10:55+00:00",
+  "fetched_at": "2026-08-13T05:51:12+00:00",
   "freshness": {
-    "schedule": "2026-08-13T04:10:54+00:00",
-    "standings": "2026-08-13T04:10:54+00:00",
+    "schedule": "2026-08-13T05:51:11+00:00",
+    "standings": "2026-08-13T05:51:11+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-12T23:56:21+00:00",
-    "weather": "2026-08-13T04:10:55+00:00"
+    "weather": "2026-08-13T05:51:12+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -127,14 +127,14 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-13T04:10:55+00:00",
+    "fetched_at": "2026-08-13T05:51:12+00:00",
     "source": "open_meteo",
     "game_pk": 822696,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-08-13T20:00",
-    "temperature_f": 92.3,
-    "feels_like_f": 94.8,
-    "wind_mph": 7.3,
+    "temperature_f": 92.5,
+    "feels_like_f": 94.6,
+    "wind_mph": 9.9,
     "wind_dir": "W",
     "precip_chance": 0,
     "precip_inches": 0.0,
@@ -1409,7 +1409,7 @@
         "abbrev": "TEX",
         "name": "Texas Rangers",
         "short_name": "Rangers",
-        "record": "60-60",
+        "record": "60-61",
         "score": null
       },
       "away": {
@@ -1434,21 +1434,21 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Rangers Sports Network, presented by Progressive",
           "call_sign": "RSN",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1525,7 +1525,7 @@
         "abbrev": "TEX",
         "name": "Texas Rangers",
         "short_name": "Rangers",
-        "record": "60-60",
+        "record": "60-61",
         "score": null
       },
       "away": {
@@ -1641,7 +1641,7 @@
         "abbrev": "TEX",
         "name": "Texas Rangers",
         "short_name": "Rangers",
-        "record": "60-60",
+        "record": "60-61",
         "score": null
       },
       "away": {
@@ -1698,7 +1698,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "away",
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1707,7 +1707,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "home",
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -2783,19 +2783,19 @@
           "abbrev": "LAD",
           "name": "Los Angeles Dodgers",
           "short_name": "Dodgers",
-          "wins": 72,
+          "wins": 73,
           "losses": 48,
-          "pct": ".600",
+          "pct": ".603",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "W2",
-          "last_ten": "3-7",
+          "streak": "W3",
+          "last_ten": "4-6",
           "division_rank": 1,
           "league_rank": 3,
           "wc_rank": null,
-          "run_diff": 140,
-          "runs_scored": 602,
-          "runs_allowed": 462,
+          "run_diff": 142,
+          "runs_scored": 606,
+          "runs_allowed": 464,
           "elim_num": "-"
         },
         {
@@ -2806,7 +2806,7 @@
           "wins": 65,
           "losses": 57,
           "pct": ".533",
-          "gb": "8.0",
+          "gb": "8.5",
           "wc_gb": "+1.0",
           "streak": "W5",
           "last_ten": "7-3",
@@ -2816,7 +2816,7 @@
           "run_diff": 1,
           "runs_scored": 522,
           "runs_allowed": 521,
-          "elim_num": "34"
+          "elim_num": "33"
         },
         {
           "id": 109,
@@ -2826,7 +2826,7 @@
           "wins": 64,
           "losses": 58,
           "pct": ".525",
-          "gb": "9.0",
+          "gb": "9.5",
           "wc_gb": "-",
           "streak": "L2",
           "last_ten": "5-5",
@@ -2836,7 +2836,7 @@
           "run_diff": 11,
           "runs_scored": 552,
           "runs_allowed": 541,
-          "elim_num": "33"
+          "elim_num": "32"
         },
         {
           "id": 137,
@@ -2846,7 +2846,7 @@
           "wins": 50,
           "losses": 71,
           "pct": ".413",
-          "gb": "22.5",
+          "gb": "23.0",
           "wc_gb": "13.5",
           "streak": "L1",
           "last_ten": "3-7",
@@ -2856,7 +2856,7 @@
           "run_diff": -64,
           "runs_scored": 493,
           "runs_allowed": 557,
-          "elim_num": "20"
+          "elim_num": "19"
         },
         {
           "id": 115,
@@ -2866,7 +2866,7 @@
           "wins": 48,
           "losses": 73,
           "pct": ".397",
-          "gb": "24.5",
+          "gb": "25.0",
           "wc_gb": "15.5",
           "streak": "W2",
           "last_ten": "4-6",
@@ -2876,7 +2876,7 @@
           "run_diff": -116,
           "runs_scored": 577,
           "runs_allowed": 693,
-          "elim_num": "18"
+          "elim_num": "17"
         }
       ]
     },
@@ -3021,7 +3021,7 @@
           "losses": 52,
           "pct": ".567",
           "gb": "6.0",
-          "wc_gb": "+8.0",
+          "wc_gb": "+8.5",
           "streak": "W2",
           "last_ten": "6-4",
           "division_rank": 2,
@@ -3041,7 +3041,7 @@
           "losses": 56,
           "pct": ".533",
           "gb": "10.0",
-          "wc_gb": "+4.0",
+          "wc_gb": "+4.5",
           "streak": "L5",
           "last_ten": "5-5",
           "division_rank": 3,
@@ -3061,7 +3061,7 @@
           "losses": 63,
           "pct": ".484",
           "gb": "16.0",
-          "wc_gb": "2.0",
+          "wc_gb": "1.5",
           "streak": "W3",
           "last_ten": "7-3",
           "division_rank": 4,
@@ -3081,7 +3081,7 @@
           "losses": 63,
           "pct": ".479",
           "gb": "16.5",
-          "wc_gb": "2.5",
+          "wc_gb": "2.0",
           "streak": "L1",
           "last_ten": "4-6",
           "division_rank": 5,
@@ -3128,7 +3128,7 @@
           "losses": 62,
           "pct": ".492",
           "gb": "3.5",
-          "wc_gb": "1.0",
+          "wc_gb": "0.5",
           "streak": "W1",
           "last_ten": "4-6",
           "division_rank": 2,
@@ -3148,7 +3148,7 @@
           "losses": 61,
           "pct": ".492",
           "gb": "3.5",
-          "wc_gb": "1.0",
+          "wc_gb": "0.5",
           "streak": "L1",
           "last_ten": "7-3",
           "division_rank": 3,
@@ -3168,7 +3168,7 @@
           "losses": 62,
           "pct": ".488",
           "gb": "4.0",
-          "wc_gb": "1.5",
+          "wc_gb": "1.0",
           "streak": "W1",
           "last_ten": "3-7",
           "division_rank": 4,
@@ -3185,19 +3185,19 @@
           "name": "Kansas City Royals",
           "short_name": "Royals",
           "wins": 49,
-          "losses": 72,
-          "pct": ".405",
-          "gb": "14.0",
+          "losses": 73,
+          "pct": ".402",
+          "gb": "14.5",
           "wc_gb": "11.5",
-          "streak": "L3",
+          "streak": "L4",
           "last_ten": "3-7",
           "division_rank": 5,
           "league_rank": 13,
           "wc_rank": 10,
-          "run_diff": -112,
-          "runs_scored": 501,
-          "runs_allowed": 613,
-          "elim_num": "29"
+          "run_diff": -114,
+          "runs_scored": 503,
+          "runs_allowed": 617,
+          "elim_num": "28"
         }
       ]
     },
@@ -3232,19 +3232,19 @@
           "name": "Texas Rangers",
           "short_name": "Rangers",
           "wins": 60,
-          "losses": 60,
-          "pct": ".500",
-          "gb": "1.0",
+          "losses": 61,
+          "pct": ".496",
+          "gb": "1.5",
           "wc_gb": "-",
-          "streak": "L1",
+          "streak": "L2",
           "last_ten": "5-5",
           "division_rank": 2,
           "league_rank": 6,
           "wc_rank": 3,
-          "run_diff": -31,
-          "runs_scored": 495,
-          "runs_allowed": 526,
-          "elim_num": "41"
+          "run_diff": -34,
+          "runs_scored": 497,
+          "runs_allowed": 531,
+          "elim_num": "40"
         },
         {
           "id": 136,
@@ -3255,7 +3255,7 @@
           "losses": 65,
           "pct": ".463",
           "gb": "5.5",
-          "wc_gb": "4.5",
+          "wc_gb": "4.0",
           "streak": "L6",
           "last_ten": "3-7",
           "division_rank": 3,
@@ -3275,7 +3275,7 @@
           "losses": 74,
           "pct": ".388",
           "gb": "14.5",
-          "wc_gb": "13.5",
+          "wc_gb": "13.0",
           "streak": "L3",
           "last_ten": "2-8",
           "division_rank": 4,
@@ -3291,19 +3291,19 @@
           "abbrev": "LAA",
           "name": "Los Angeles Angels",
           "short_name": "Angels",
-          "wins": 46,
+          "wins": 47,
           "losses": 74,
-          "pct": ".383",
-          "gb": "15.0",
-          "wc_gb": "14.0",
-          "streak": "W1",
-          "last_ten": "4-6",
+          "pct": ".388",
+          "gb": "14.5",
+          "wc_gb": "13.0",
+          "streak": "W2",
+          "last_ten": "5-5",
           "division_rank": 5,
           "league_rank": 15,
           "wc_rank": 12,
-          "run_diff": -93,
-          "runs_scored": 488,
-          "runs_allowed": 581,
+          "run_diff": -90,
+          "runs_scored": 493,
+          "runs_allowed": 583,
           "elim_num": "27"
         }
       ]
