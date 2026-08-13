@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-13T20:23:53+00:00",
+  "fetched_at": "2026-08-13T21:22:01+00:00",
   "freshness": {
-    "schedule": "2026-08-13T20:23:51+00:00",
-    "standings": "2026-08-13T20:23:52+00:00",
+    "schedule": "2026-08-13T21:22:00+00:00",
+    "standings": "2026-08-13T21:22:01+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-13T19:26:55+00:00",
-    "weather": "2026-08-13T20:23:52+00:00"
+    "weather": "2026-08-13T21:22:01+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "59-63",
-      "score": 0
+      "score": 5
     },
     "away": {
       "id": 112,
@@ -93,16 +93,16 @@
       }
     ],
     "linescore": {
-      "current_inning": 2,
+      "current_inning": 5,
       "inning_half": "Bottom",
       "inning_state": "Bottom",
       "is_top_inning": false,
-      "balls": 2,
-      "strikes": 2,
-      "outs": 0,
-      "home_runs": 0,
+      "balls": 0,
+      "strikes": 1,
+      "outs": 2,
+      "home_runs": 5,
       "away_runs": 0,
-      "home_hits": 0,
+      "home_hits": 5,
       "away_hits": 0,
       "home_errors": 0,
       "away_errors": 0
@@ -127,15 +127,15 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-13T20:23:52+00:00",
+    "fetched_at": "2026-08-13T21:22:01+00:00",
     "source": "open_meteo",
     "game_pk": 822696,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-08-13T20:00",
-    "temperature_f": 91.4,
-    "feels_like_f": 94.8,
-    "wind_mph": 7.8,
-    "wind_dir": "NW",
+    "temperature_f": 91.0,
+    "feels_like_f": 96.7,
+    "wind_mph": 5.9,
+    "wind_dir": "WNW",
     "precip_chance": 0,
     "precip_inches": 0.0,
     "summary": "Overcast",
@@ -161,7 +161,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "59-63",
-        "score": 0
+        "score": 5
       },
       "away": {
         "id": 112,
@@ -230,16 +230,16 @@
         }
       ],
       "linescore": {
-        "current_inning": 2,
+        "current_inning": 5,
         "inning_half": "Bottom",
         "inning_state": "Bottom",
         "is_top_inning": false,
-        "balls": 2,
-        "strikes": 2,
-        "outs": 0,
-        "home_runs": 0,
+        "balls": 0,
+        "strikes": 1,
+        "outs": 2,
+        "home_runs": 5,
         "away_runs": 0,
-        "home_hits": 0,
+        "home_hits": 5,
         "away_hits": 0,
         "home_errors": 0,
         "away_errors": 0
@@ -921,7 +921,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "59-63",
-        "score": 0
+        "score": 5
       },
       "away": {
         "id": 112,
@@ -990,16 +990,16 @@
         }
       ],
       "linescore": {
-        "current_inning": 2,
+        "current_inning": 5,
         "inning_half": "Bottom",
         "inning_state": "Bottom",
         "is_top_inning": false,
-        "balls": 2,
-        "strikes": 2,
-        "outs": 0,
-        "home_runs": 0,
+        "balls": 0,
+        "strikes": 1,
+        "outs": 2,
+        "home_runs": 5,
         "away_runs": 0,
-        "home_hits": 0,
+        "home_hits": 5,
         "away_hits": 0,
         "home_errors": 0,
         "away_errors": 0
@@ -1446,21 +1446,21 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Rangers Sports Network, presented by Progressive",
           "call_sign": "RSN",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1710,7 +1710,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "away",
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1719,7 +1719,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "home",
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -3030,19 +3030,19 @@
           "name": "New York Yankees",
           "short_name": "Yankees",
           "wins": 68,
-          "losses": 52,
-          "pct": ".567",
-          "gb": "6.0",
-          "wc_gb": "+8.5",
-          "streak": "W2",
+          "losses": 53,
+          "pct": ".562",
+          "gb": "6.5",
+          "wc_gb": "+8.0",
+          "streak": "L1",
           "last_ten": "6-4",
           "division_rank": 2,
           "league_rank": 2,
           "wc_rank": 1,
-          "run_diff": 90,
+          "run_diff": 89,
           "runs_scored": 545,
-          "runs_allowed": 455,
-          "elim_num": "37"
+          "runs_allowed": 456,
+          "elim_num": "36"
         },
         {
           "id": 111,
@@ -3263,18 +3263,18 @@
           "abbrev": "SEA",
           "name": "Seattle Mariners",
           "short_name": "Mariners",
-          "wins": 56,
+          "wins": 57,
           "losses": 65,
-          "pct": ".463",
-          "gb": "5.5",
-          "wc_gb": "4.0",
-          "streak": "L6",
+          "pct": ".467",
+          "gb": "5.0",
+          "wc_gb": "3.5",
+          "streak": "W1",
           "last_ten": "3-7",
           "division_rank": 3,
           "league_rank": 12,
           "wc_rank": 9,
-          "run_diff": -27,
-          "runs_scored": 468,
+          "run_diff": -26,
+          "runs_scored": 469,
           "runs_allowed": 495,
           "elim_num": "36"
         },
