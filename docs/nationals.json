@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-13T18:36:48+00:00",
+  "fetched_at": "2026-08-13T19:26:57+00:00",
   "freshness": {
-    "schedule": "2026-08-13T18:36:46+00:00",
-    "standings": "2026-08-13T18:36:47+00:00",
+    "schedule": "2026-08-13T19:26:55+00:00",
+    "standings": "2026-08-13T19:26:56+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-08-13T14:32:35+00:00",
-    "weather": "2026-08-13T18:36:47+00:00"
+    "former_nats": "2026-08-13T19:26:55+00:00",
+    "weather": "2026-08-13T19:26:56+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "59-63",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 112,
@@ -32,7 +32,7 @@
       "name": "Chicago Cubs",
       "short_name": "Cubs",
       "record": "71-50",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 3309,
@@ -93,19 +93,19 @@
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
       "game_number": 3,
@@ -124,18 +124,18 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Starts Soon"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-13T18:36:47+00:00",
+    "fetched_at": "2026-08-13T19:26:56+00:00",
     "source": "open_meteo",
     "game_pk": 822696,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-08-13T20:00",
-    "temperature_f": 91.7,
-    "feels_like_f": 95.5,
-    "wind_mph": 6.7,
-    "wind_dir": "WNW",
+    "temperature_f": 91.4,
+    "feels_like_f": 94.8,
+    "wind_mph": 7.8,
+    "wind_dir": "NW",
     "precip_chance": 0,
     "precip_inches": 0.0,
     "summary": "Overcast",
@@ -161,7 +161,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "59-63",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 112,
@@ -169,7 +169,7 @@
         "name": "Chicago Cubs",
         "short_name": "Cubs",
         "record": "71-50",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -230,19 +230,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 3,
@@ -261,7 +261,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 823591,
@@ -300,7 +300,11 @@
           "name": "Robert Stock",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 674841,
+          "name": "Andrew Alvarez",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -917,7 +921,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "59-63",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 112,
@@ -925,7 +929,7 @@
         "name": "Chicago Cubs",
         "short_name": "Cubs",
         "record": "71-50",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -986,19 +990,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 3,
@@ -1017,7 +1021,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 823591,
@@ -1056,7 +1060,11 @@
           "name": "Robert Stock",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 674841,
+          "name": "Andrew Alvarez",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1314,7 +1322,11 @@
           "name": "Christian Scott",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 663623,
+          "name": "Jake Irvin",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1434,21 +1446,21 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Rangers Sports Network, presented by Progressive",
           "call_sign": "RSN",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1698,7 +1710,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "away",
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1707,7 +1719,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "home",
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
