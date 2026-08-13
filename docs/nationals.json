@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-13T19:42:52+00:00",
+  "fetched_at": "2026-08-13T20:23:53+00:00",
   "freshness": {
-    "schedule": "2026-08-13T19:42:51+00:00",
-    "standings": "2026-08-13T19:42:51+00:00",
+    "schedule": "2026-08-13T20:23:51+00:00",
+    "standings": "2026-08-13T20:23:52+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-13T19:26:55+00:00",
-    "weather": "2026-08-13T19:42:52+00:00"
+    "weather": "2026-08-13T20:23:52+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -15,8 +15,8 @@
     "game_pk": 822696,
     "date": "2026-08-13",
     "start_time_utc": "2026-08-13T20:05:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "In Progress",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -93,12 +93,12 @@
       }
     ],
     "linescore": {
-      "current_inning": 1,
-      "inning_half": "Top",
-      "inning_state": "Top",
-      "is_top_inning": true,
-      "balls": 0,
-      "strikes": 0,
+      "current_inning": 2,
+      "inning_half": "Bottom",
+      "inning_state": "Bottom",
+      "is_top_inning": false,
+      "balls": 2,
+      "strikes": 2,
       "outs": 0,
       "home_runs": 0,
       "away_runs": 0,
@@ -114,7 +114,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "Nationals.TV",
       "is_national": false,
@@ -124,10 +124,10 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Starts Soon"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-13T19:42:52+00:00",
+    "fetched_at": "2026-08-13T20:23:52+00:00",
     "source": "open_meteo",
     "game_pk": 822696,
     "venue_name": "Nationals Park",
@@ -152,8 +152,8 @@
       "game_pk": 822696,
       "date": "2026-08-13",
       "start_time_utc": "2026-08-13T20:05:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -230,12 +230,12 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
+        "current_inning": 2,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 2,
+        "strikes": 2,
         "outs": 0,
         "home_runs": 0,
         "away_runs": 0,
@@ -251,7 +251,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -261,7 +261,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 823591,
@@ -912,8 +912,8 @@
       "game_pk": 822696,
       "date": "2026-08-13",
       "start_time_utc": "2026-08-13T20:05:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -990,12 +990,12 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
+        "current_inning": 2,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 2,
+        "strikes": 2,
         "outs": 0,
         "home_runs": 0,
         "away_runs": 0,
@@ -1011,7 +1011,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -1021,7 +1021,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 823591,
@@ -2958,6 +2958,26 @@
           "elim_num": "29"
         },
         {
+          "id": 113,
+          "abbrev": "CIN",
+          "name": "Cincinnati Reds",
+          "short_name": "Reds",
+          "wins": 58,
+          "losses": 62,
+          "pct": ".483",
+          "gb": "15.5",
+          "wc_gb": "5.0",
+          "streak": "W1",
+          "last_ten": "6-4",
+          "division_rank": 4,
+          "league_rank": 11,
+          "wc_rank": 8,
+          "run_diff": -77,
+          "runs_scored": 496,
+          "runs_allowed": 573,
+          "elim_num": "27"
+        },
+        {
           "id": 134,
           "abbrev": "PIT",
           "name": "Pittsburgh Pirates",
@@ -2969,33 +2989,13 @@
           "wc_gb": "5.5",
           "streak": "W1",
           "last_ten": "3-7",
-          "division_rank": 4,
-          "league_rank": 11,
-          "wc_rank": 8,
+          "division_rank": 5,
+          "league_rank": 12,
+          "wc_rank": 9,
           "run_diff": 25,
           "runs_scored": 617,
           "runs_allowed": 592,
           "elim_num": "25"
-        },
-        {
-          "id": 113,
-          "abbrev": "CIN",
-          "name": "Cincinnati Reds",
-          "short_name": "Reds",
-          "wins": 57,
-          "losses": 62,
-          "pct": ".479",
-          "gb": "16.0",
-          "wc_gb": "5.5",
-          "streak": "L1",
-          "last_ten": "5-5",
-          "division_rank": 5,
-          "league_rank": 12,
-          "wc_rank": 9,
-          "run_diff": -78,
-          "runs_scored": 487,
-          "runs_allowed": 565,
-          "elim_num": "27"
         }
       ]
     },
@@ -3117,18 +3117,18 @@
           "name": "Chicago White Sox",
           "short_name": "White Sox",
           "wins": 62,
-          "losses": 57,
-          "pct": ".521",
+          "losses": 58,
+          "pct": ".517",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "W1",
+          "streak": "L1",
           "last_ten": "4-6",
           "division_rank": 1,
           "league_rank": 4,
           "wc_rank": null,
-          "run_diff": 41,
-          "runs_scored": 566,
-          "runs_allowed": 525,
+          "run_diff": 40,
+          "runs_scored": 574,
+          "runs_allowed": 534,
           "elim_num": "-"
         },
         {
@@ -3139,7 +3139,7 @@
           "wins": 60,
           "losses": 61,
           "pct": ".496",
-          "gb": "3.0",
+          "gb": "2.5",
           "wc_gb": "-",
           "streak": "W1",
           "last_ten": "7-3",
@@ -3159,7 +3159,7 @@
           "wins": 60,
           "losses": 62,
           "pct": ".492",
-          "gb": "3.5",
+          "gb": "3.0",
           "wc_gb": "0.5",
           "streak": "W1",
           "last_ten": "4-6",
@@ -3179,7 +3179,7 @@
           "wins": 59,
           "losses": 63,
           "pct": ".484",
-          "gb": "4.5",
+          "gb": "4.0",
           "wc_gb": "1.5",
           "streak": "L1",
           "last_ten": "3-7",
@@ -3199,7 +3199,7 @@
           "wins": 49,
           "losses": 73,
           "pct": ".402",
-          "gb": "14.5",
+          "gb": "14.0",
           "wc_gb": "11.5",
           "streak": "L4",
           "last_ten": "3-7",
