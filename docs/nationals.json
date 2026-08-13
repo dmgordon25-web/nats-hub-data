@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-13T21:22:01+00:00",
+  "fetched_at": "2026-08-13T22:11:38+00:00",
   "freshness": {
-    "schedule": "2026-08-13T21:22:00+00:00",
-    "standings": "2026-08-13T21:22:01+00:00",
+    "schedule": "2026-08-13T22:11:37+00:00",
+    "standings": "2026-08-13T22:11:37+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-13T19:26:55+00:00",
-    "weather": "2026-08-13T21:22:01+00:00"
+    "weather": "2026-08-13T22:11:38+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "59-63",
-      "score": 5
+      "score": 6
     },
     "away": {
       "id": 112,
@@ -93,17 +93,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 5,
-      "inning_half": "Bottom",
-      "inning_state": "Bottom",
-      "is_top_inning": false,
-      "balls": 0,
-      "strikes": 1,
+      "current_inning": 8,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 2,
+      "strikes": 2,
       "outs": 2,
-      "home_runs": 5,
+      "home_runs": 6,
       "away_runs": 0,
-      "home_hits": 5,
-      "away_hits": 0,
+      "home_hits": 7,
+      "away_hits": 1,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -127,18 +127,18 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-13T21:22:01+00:00",
+    "fetched_at": "2026-08-13T22:11:38+00:00",
     "source": "open_meteo",
     "game_pk": 822696,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-08-13T20:00",
-    "temperature_f": 91.0,
+    "temperature_f": 89.7,
     "feels_like_f": 96.7,
-    "wind_mph": 5.9,
-    "wind_dir": "WNW",
+    "wind_mph": 5.2,
+    "wind_dir": "NW",
     "precip_chance": 0,
     "precip_inches": 0.0,
-    "summary": "Overcast",
+    "summary": "Mostly clear",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -161,7 +161,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "59-63",
-        "score": 5
+        "score": 6
       },
       "away": {
         "id": 112,
@@ -230,17 +230,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 5,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 0,
-        "strikes": 1,
+        "current_inning": 8,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 2,
+        "strikes": 2,
         "outs": 2,
-        "home_runs": 5,
+        "home_runs": 6,
         "away_runs": 0,
-        "home_hits": 5,
-        "away_hits": 0,
+        "home_hits": 7,
+        "away_hits": 1,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -921,7 +921,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "59-63",
-        "score": 5
+        "score": 6
       },
       "away": {
         "id": 112,
@@ -990,17 +990,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 5,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 0,
-        "strikes": 1,
+        "current_inning": 8,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 2,
+        "strikes": 2,
         "outs": 2,
-        "home_runs": 5,
+        "home_runs": 6,
         "away_runs": 0,
-        "home_hits": 5,
-        "away_hits": 0,
+        "home_hits": 7,
+        "away_hits": 1,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -1446,21 +1446,21 @@
       },
       "broadcasts": [
         {
-          "name": "Rangers Sports Network, presented by Progressive",
-          "call_sign": "RSN",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Rangers Sports Network, presented by Progressive",
+          "call_sign": "RSN",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1710,7 +1710,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "home",
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1719,7 +1719,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "away",
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -3049,18 +3049,18 @@
           "abbrev": "BOS",
           "name": "Boston Red Sox",
           "short_name": "Red Sox",
-          "wins": 64,
+          "wins": 65,
           "losses": 56,
-          "pct": ".533",
-          "gb": "10.0",
-          "wc_gb": "+4.5",
-          "streak": "L5",
+          "pct": ".537",
+          "gb": "9.5",
+          "wc_gb": "+5.0",
+          "streak": "W1",
           "last_ten": "5-5",
           "division_rank": 3,
           "league_rank": 3,
           "wc_rank": 2,
-          "run_diff": 79,
-          "runs_scored": 531,
+          "run_diff": 86,
+          "runs_scored": 538,
           "runs_allowed": 452,
           "elim_num": "33"
         },
@@ -3070,19 +3070,19 @@
           "name": "Toronto Blue Jays",
           "short_name": "Blue Jays",
           "wins": 59,
-          "losses": 63,
-          "pct": ".484",
-          "gb": "16.0",
-          "wc_gb": "1.5",
-          "streak": "W3",
-          "last_ten": "7-3",
+          "losses": 64,
+          "pct": ".480",
+          "gb": "16.5",
+          "wc_gb": "2.0",
+          "streak": "L1",
+          "last_ten": "6-4",
           "division_rank": 4,
-          "league_rank": 9,
-          "wc_rank": 6,
-          "run_diff": -54,
+          "league_rank": 10,
+          "wc_rank": 7,
+          "run_diff": -61,
           "runs_scored": 482,
-          "runs_allowed": 536,
-          "elim_num": "26"
+          "runs_allowed": 543,
+          "elim_num": "25"
         },
         {
           "id": 110,
@@ -3184,8 +3184,8 @@
           "streak": "L1",
           "last_ten": "3-7",
           "division_rank": 4,
-          "league_rank": 10,
-          "wc_rank": 7,
+          "league_rank": 9,
+          "wc_rank": 6,
           "run_diff": -30,
           "runs_scored": 483,
           "runs_allowed": 513,
