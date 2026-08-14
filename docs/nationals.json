@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-14T22:01:51+00:00",
+  "fetched_at": "2026-08-14T22:36:53+00:00",
   "freshness": {
-    "schedule": "2026-08-14T22:01:50+00:00",
-    "standings": "2026-08-14T22:01:51+00:00",
+    "schedule": "2026-08-14T22:36:52+00:00",
+    "standings": "2026-08-14T22:36:52+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-14T19:15:18+00:00",
-    "weather": "2026-08-14T22:01:51+00:00"
+    "weather": "2026-08-14T22:36:53+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -133,10 +133,10 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Starts Soon"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-14T22:01:51+00:00",
+    "fetched_at": "2026-08-14T22:36:53+00:00",
     "source": "open_meteo",
     "game_pk": 823591,
     "venue_name": "Citi Field",
@@ -279,7 +279,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 823588,
@@ -1030,7 +1030,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 823588,
@@ -1331,21 +1331,21 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Rangers Sports Network, presented by Progressive",
           "call_sign": "RSN",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1595,7 +1595,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "away",
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1604,7 +1604,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "home",
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
