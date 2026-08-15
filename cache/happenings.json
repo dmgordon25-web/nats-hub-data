@@ -1,84 +1,96 @@
 {
   "data_version": 1,
-  "generated_at": "2026-08-15T07:34:56+00:00",
-  "mode": "falkor_enriched",
+  "generated_at": "2026-08-15T11:36:26+00:00",
+  "mode": "rss_fallback",
   "freshness": {
-    "news": "2026-08-15T07:34:17+00:00",
-    "videos": "2026-08-15T07:34:17+00:00",
-    "vibes": "2026-08-15T07:34:56+00:00"
+    "news": "2026-08-15T11:35:10+00:00",
+    "videos": "2026-08-15T11:35:10+00:00",
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-08-15T07:34:13+00:00",
+      "last_updated_at": "2026-08-15T11:35:05+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-08-15T07:34:14+00:00",
+      "last_updated_at": "2026-08-15T11:35:07+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-08-15T07:34:14+00:00",
+      "last_updated_at": "2026-08-15T11:35:07+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-08-15T07:34:15+00:00",
+      "last_updated_at": "2026-08-15T11:35:08+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-08-15T07:34:15+00:00",
+      "last_updated_at": "2026-08-15T11:35:08+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-08-15T07:34:16+00:00",
+      "last_updated_at": "2026-08-15T11:35:09+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-08-15T07:34:17+00:00",
+      "last_updated_at": "2026-08-15T11:35:09+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-08-15T07:34:17+00:00",
+      "last_updated_at": "2026-08-15T11:35:10+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "why_it_matters",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "trending",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
+    }
+  ],
   "top_stories": [
     {
       "title": "Nats SS Abrams, MLB errors leader, moving to 2B",
       "url": "https://www.espn.com/mlb/story/_/id/49613090/nationals-move-all-star-shortstop-cj-abrams-second-base",
       "source": "ESPN MLB",
       "published_at": "2026-08-15T07:56:40+00:00",
-      "why_it_matters": {
-        "text": "Nationals shortstop and NL All-Star CJ Abrams is moving to second base. Manager Blake Butera stated the move is the best option for the team's future.",
-        "ai_generated": true
-      },
       "image_url": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0623%2Fr1678456_1296x729_16%2D9.jpg"
+    },
+    {
+      "title": "Mets’ Kodai Senga showing signs of success as late-inning reliever",
+      "url": "https://sports.yahoo.com/articles/mets-kodai-senga-showing-signs-063148330.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-08-15T06:31:48+00:00",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/16ca069f96de0ba3d6b8aad563d5eeee70094c2e90ba691d7eaf07f5fd3f84c3/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fny_post_sports_articles_389%2F172c37ec817c326072047d343177d9d4.jpg"
     },
     {
       "title": "Nationals Moving CJ Abrams To Second Base",
       "url": "https://www.mlbtraderumors.com/2026/08/nationals-moving-cj-abrams-to-second-base.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-08-15T04:50:33+00:00",
-      "why_it_matters": {
-        "text": "Nationals manager Blake Butera announced that CJ Abrams will gradually move from shortstop to second base. While he may still play shortstop occasionally, Nasim Nuñez will become the regular shortstop while Abrams transitions to a regular second base role.",
-        "ai_generated": true
-      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/2026-07-27T202021Z_1393478848_MT1USATODAY29460475_RTRMADP_3_MLB-WASHINGTON-NATIONALS-AT-ATHLETICS-1024x683.jpg"
     },
     {
@@ -86,10 +98,6 @@
       "url": "https://sports.yahoo.com/articles/mets-defeat-nationals-series-opener-020217468.html",
       "source": "Yahoo Sports MLB",
       "published_at": "2026-08-15T02:02:17+00:00",
-      "why_it_matters": {
-        "text": "The Mets won the opening game of their homestand against the Nationals.",
-        "ai_generated": true
-      },
       "image_url": "https://s.yimg.com/lo/mysterio/api/33bef843cadfe600670e706848eb3408337dcf7bf81c3902f47c39cf79e0821e/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F52d9d281d921eb09c22fd6f663d37806.jpg"
     },
     {
@@ -97,32 +105,13 @@
       "url": "https://sports.yahoo.com/articles/francisco-lindor-jared-youngs-home-014233891.html",
       "source": "Yahoo Sports MLB",
       "published_at": "2026-08-15T01:42:33+00:00",
-      "why_it_matters": {
-        "text": "The Mets defeated the Washington Nationals 4-1 on Friday night after a late offensive surge in the sixth inning following a slow start with only one hit through five innings.",
-        "ai_generated": true
-      },
       "image_url": "https://s.yimg.com/lo/mysterio/api/78c209f4dc58b0184a90cd9212dc95036830f522de644986143fce2ab56ceafb/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2F0daa0f9c4d64098e118606664f87a367.jpg"
-    },
-    {
-      "title": "Nationals star CJ Abrams changing position in late-season surprise",
-      "url": "https://sports.yahoo.com/articles/nationals-star-cj-abrams-changing-002020844.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-08-15T00:20:20+00:00",
-      "why_it_matters": {
-        "text": "Nationals star CJ Abrams is changing positions in a late-season move as the team shakes up its infield.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/b2ffe84ad42248089758d091eb947a7473d1efed3ee3649461bc218185cc18e7/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fny_post_sports_articles_389%2Fbb29ace997e70a0ec06c141a622b9868.jpg"
     },
     {
       "title": "Game #124 Nats in CitiField",
       "url": "https://nats.talkdcsports.com/2026/08/14/game-124-nats-in-citifield/",
       "source": "Talk Nats",
       "published_at": "2026-08-14T22:35:01+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals are facing off at CitiField for Game #124. The team is highlighting Cade Cavalli's high game score and will feature Andrew Alvarez in the upcoming matchup.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/IMG-20260812-WA0085.jpg?fit=1200%2C739&ssl=1"
     },
     {
@@ -144,10 +133,6 @@
     "result_banner": {
       "type": "loss",
       "text": "Tough one — the Nats fell to the Mets 4-1."
-    },
-    "storyline": {
-      "text": "Nationals shortstop and NL All-Star CJ Abrams is moving to second base. Manager Blake Butera stated the move is the best option for the team's future.",
-      "ai_generated": true
     }
   },
   "videos": [
@@ -195,105 +180,11 @@
     }
   ],
   "fan_vibes": {
-    "overall": "mixed",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "CJ Abrams position change",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://sports.yahoo.com/articles/nationals-star-cj-abrams-changing-002020844.html",
-          "https://www.espn.com/mlb/story/_/id/49613090/nationals-move-all-star-shortstop-cj-abrams-second-base",
-          "https://www.mlbtraderumors.com/2026/08/nationals-moving-cj-abrams-to-second-base.html"
-        ]
-      },
-      {
-        "label": "Recent losses to Mets",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://sports.yahoo.com/articles/francisco-lindor-jared-youngs-home-014233891.html",
-          "https://sports.yahoo.com/articles/mets-defeat-nationals-series-opener-020217468.html"
-        ]
-      },
-      {
-        "label": "Roster highlights",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/08/14/game-124-nats-in-citifield/"
-        ]
-      }
-    ]
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
   },
-  "trending": [
-    {
-      "label": "CJ Abrams",
-      "sentiment": "",
-      "context": "Nats SS Abrams, MLB errors leader, moving to 2B",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/nationals-star-cj-abrams-changing-002020844.html",
-        "https://www.espn.com/mlb/story/_/id/49613090/nationals-move-all-star-shortstop-cj-abrams-second-base",
-        "https://www.mlbtraderumors.com/2026/08/nationals-moving-cj-abrams-to-second-base.html"
-      ]
-    },
-    {
-      "label": "Mets",
-      "sentiment": "",
-      "context": "Mets defeat Nationals in series opener",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/francisco-lindor-jared-youngs-home-014233891.html",
-        "https://sports.yahoo.com/articles/mets-defeat-nationals-series-opener-020217468.html"
-      ]
-    },
-    {
-      "label": "Roster Move",
-      "sentiment": "",
-      "context": "Nats SS Abrams, MLB errors leader, moving to 2B",
-      "source_urls": [
-        "https://www.espn.com/mlb/story/_/id/49613090/nationals-move-all-star-shortstop-cj-abrams-second-base"
-      ]
-    },
-    {
-      "label": "Nasim Nuñez",
-      "sentiment": "",
-      "context": "Nationals Moving CJ Abrams To Second Base",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/08/nationals-moving-cj-abrams-to-second-base.html"
-      ]
-    },
-    {
-      "label": "Shortstop",
-      "sentiment": "",
-      "context": "Nationals Moving CJ Abrams To Second Base",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/08/nationals-moving-cj-abrams-to-second-base.html"
-      ]
-    },
-    {
-      "label": "Second Base",
-      "sentiment": "",
-      "context": "Nationals Moving CJ Abrams To Second Base",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/08/nationals-moving-cj-abrams-to-second-base.html"
-      ]
-    },
-    {
-      "label": "Roster Changes",
-      "sentiment": "",
-      "context": "Nationals Moving CJ Abrams To Second Base",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/nationals-star-cj-abrams-changing-002020844.html",
-        "https://www.mlbtraderumors.com/2026/08/nationals-moving-cj-abrams-to-second-base.html"
-      ]
-    },
-    {
-      "label": "Francisco Lindor",
-      "sentiment": "",
-      "context": "Francisco Lindor, Jared Young&#39;s home runs lift Mets to 4-1 win over Nationals",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/francisco-lindor-jared-youngs-home-014233891.html"
-      ]
-    }
-  ],
+  "trending": [],
   "what_to_watch": [
     {
       "text": "The Nats visit the Mets on Saturday.",
