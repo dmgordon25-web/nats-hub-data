@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-15T19:30:59+00:00",
+  "fetched_at": "2026-08-15T19:53:16+00:00",
   "freshness": {
-    "schedule": "2026-08-15T19:30:58+00:00",
-    "standings": "2026-08-15T19:30:58+00:00",
+    "schedule": "2026-08-15T19:53:14+00:00",
+    "standings": "2026-08-15T19:53:15+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-15T18:49:15+00:00",
-    "weather": "2026-08-15T19:30:59+00:00"
+    "weather": "2026-08-15T19:53:16+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -15,8 +15,8 @@
     "game_pk": 823588,
     "date": "2026-08-15",
     "start_time_utc": "2026-08-15T20:10:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "Warmup",
     "is_nats_home": false,
     "home": {
       "id": 121,
@@ -141,7 +141,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "FS1",
       "is_national": true,
@@ -151,10 +151,10 @@
       "intent_uri": "https://tv.youtube.com/watch/live/fox",
       "fallback_uri": "https://tv.youtube.com/"
     },
-    "watch_label": "Starts Soon"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-15T19:30:59+00:00",
+    "fetched_at": "2026-08-15T19:53:16+00:00",
     "source": "open_meteo",
     "game_pk": 823588,
     "venue_name": "Citi Field",
@@ -179,8 +179,8 @@
       "game_pk": 823588,
       "date": "2026-08-15",
       "start_time_utc": "2026-08-15T20:10:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "Warmup",
       "is_nats_home": false,
       "home": {
         "id": 121,
@@ -305,7 +305,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "FS1",
         "is_national": true,
@@ -315,7 +315,7 @@
         "intent_uri": "https://tv.youtube.com/watch/live/fox",
         "fallback_uri": "https://tv.youtube.com/"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 823590,
@@ -478,21 +478,21 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Rangers Sports Network, presented by Progressive",
           "call_sign": "RSN",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -926,8 +926,8 @@
       "game_pk": 823588,
       "date": "2026-08-15",
       "start_time_utc": "2026-08-15T20:10:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "Warmup",
       "is_nats_home": false,
       "home": {
         "id": 121,
@@ -1052,7 +1052,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "FS1",
         "is_national": true,
@@ -1062,7 +1062,7 @@
         "intent_uri": "https://tv.youtube.com/watch/live/fox",
         "fallback_uri": "https://tv.youtube.com/"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 823590,
@@ -1225,21 +1225,21 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Rangers Sports Network, presented by Progressive",
           "call_sign": "RSN",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1489,7 +1489,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "away",
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1498,7 +1498,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "home",
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -3062,7 +3062,7 @@
           "losses": 54,
           "pct": ".557",
           "gb": "6.5",
-          "wc_gb": "+8.0",
+          "wc_gb": "+8.5",
           "streak": "L2",
           "last_ten": "5-5",
           "division_rank": 2,
@@ -3082,7 +3082,7 @@
           "losses": 57,
           "pct": ".533",
           "gb": "9.5",
-          "wc_gb": "+5.0",
+          "wc_gb": "+5.5",
           "streak": "L1",
           "last_ten": "4-6",
           "division_rank": 3,
@@ -3102,7 +3102,7 @@
           "losses": 64,
           "pct": ".484",
           "gb": "15.5",
-          "wc_gb": "1.0",
+          "wc_gb": "0.5",
           "streak": "W1",
           "last_ten": "7-3",
           "division_rank": 4,
@@ -3122,7 +3122,7 @@
           "losses": 63,
           "pct": ".484",
           "gb": "15.5",
-          "wc_gb": "1.0",
+          "wc_gb": "0.5",
           "streak": "W1",
           "last_ten": "5-5",
           "division_rank": 5,
@@ -3145,40 +3145,20 @@
           "abbrev": "CWS",
           "name": "Chicago White Sox",
           "short_name": "White Sox",
-          "wins": 63,
+          "wins": 64,
           "losses": 58,
-          "pct": ".521",
+          "pct": ".525",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "W1",
-          "last_ten": "4-6",
+          "streak": "W2",
+          "last_ten": "5-5",
           "division_rank": 1,
           "league_rank": 4,
           "wc_rank": null,
-          "run_diff": 44,
-          "runs_scored": 583,
-          "runs_allowed": 539,
+          "run_diff": 45,
+          "runs_scored": 587,
+          "runs_allowed": 542,
           "elim_num": "-"
-        },
-        {
-          "id": 116,
-          "abbrev": "DET",
-          "name": "Detroit Tigers",
-          "short_name": "Tigers",
-          "wins": 60,
-          "losses": 62,
-          "pct": ".492",
-          "gb": "3.5",
-          "wc_gb": "-",
-          "streak": "L1",
-          "last_ten": "6-4",
-          "division_rank": 2,
-          "league_rank": 6,
-          "wc_rank": 3,
-          "run_diff": 86,
-          "runs_scored": 557,
-          "runs_allowed": 471,
-          "elim_num": "38"
         },
         {
           "id": 142,
@@ -3188,17 +3168,37 @@
           "wins": 60,
           "losses": 63,
           "pct": ".488",
-          "gb": "4.0",
-          "wc_gb": "0.5",
+          "gb": "4.5",
+          "wc_gb": "-",
           "streak": "L1",
           "last_ten": "4-6",
-          "division_rank": 3,
-          "league_rank": 7,
-          "wc_rank": 4,
+          "division_rank": 2,
+          "league_rank": 6,
+          "wc_rank": 3,
           "run_diff": -38,
           "runs_scored": 572,
           "runs_allowed": 610,
-          "elim_num": "37"
+          "elim_num": "36"
+        },
+        {
+          "id": 116,
+          "abbrev": "DET",
+          "name": "Detroit Tigers",
+          "short_name": "Tigers",
+          "wins": 60,
+          "losses": 63,
+          "pct": ".488",
+          "gb": "4.5",
+          "wc_gb": "-",
+          "streak": "L2",
+          "last_ten": "5-5",
+          "division_rank": 3,
+          "league_rank": 8,
+          "wc_rank": 5,
+          "run_diff": 85,
+          "runs_scored": 560,
+          "runs_allowed": 475,
+          "elim_num": "36"
         },
         {
           "id": 114,
@@ -3208,8 +3208,8 @@
           "wins": 59,
           "losses": 64,
           "pct": ".480",
-          "gb": "5.0",
-          "wc_gb": "1.5",
+          "gb": "5.5",
+          "wc_gb": "1.0",
           "streak": "L2",
           "last_ten": "2-8",
           "division_rank": 4,
@@ -3218,7 +3218,7 @@
           "run_diff": -32,
           "runs_scored": 488,
           "runs_allowed": 520,
-          "elim_num": "36"
+          "elim_num": "35"
         },
         {
           "id": 118,
@@ -3228,8 +3228,8 @@
           "wins": 50,
           "losses": 73,
           "pct": ".407",
-          "gb": "14.0",
-          "wc_gb": "10.5",
+          "gb": "14.5",
+          "wc_gb": "10.0",
           "streak": "W1",
           "last_ten": "4-6",
           "division_rank": 5,
@@ -3238,7 +3238,7 @@
           "run_diff": -113,
           "runs_scored": 510,
           "runs_allowed": 623,
-          "elim_num": "27"
+          "elim_num": "26"
         }
       ]
     },
@@ -3276,12 +3276,12 @@
           "losses": 63,
           "pct": ".488",
           "gb": "3.0",
-          "wc_gb": "0.5",
+          "wc_gb": "-",
           "streak": "L4",
           "last_ten": "5-5",
           "division_rank": 2,
-          "league_rank": 8,
-          "wc_rank": 5,
+          "league_rank": 7,
+          "wc_rank": 4,
           "run_diff": -46,
           "runs_scored": 500,
           "runs_allowed": 546,
@@ -3296,7 +3296,7 @@
           "losses": 66,
           "pct": ".463",
           "gb": "6.0",
-          "wc_gb": "3.5",
+          "wc_gb": "3.0",
           "streak": "L1",
           "last_ten": "2-8",
           "division_rank": 3,
@@ -3316,7 +3316,7 @@
           "losses": 74,
           "pct": ".393",
           "gb": "14.5",
-          "wc_gb": "12.0",
+          "wc_gb": "11.5",
           "streak": "W1",
           "last_ten": "3-7",
           "division_rank": 4,
@@ -3336,7 +3336,7 @@
           "losses": 75,
           "pct": ".390",
           "gb": "15.0",
-          "wc_gb": "12.5",
+          "wc_gb": "12.0",
           "streak": "L1",
           "last_ten": "5-5",
           "division_rank": 5,
