@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-16T18:32:41+00:00",
+  "fetched_at": "2026-08-16T18:47:46+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -259,7 +259,7 @@
         "name": "New York Mets",
         "short_name": "Mets",
         "record": "55-69",
-        "score": 0
+        "score": 3
       },
       "away": {
         "id": 120,
@@ -337,17 +337,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 3,
+        "current_inning": 4,
         "inning_half": "Bottom",
-        "inning_state": "End",
+        "inning_state": "Bottom",
         "is_top_inning": false,
         "balls": 0,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 0,
+        "strikes": 2,
+        "outs": 2,
+        "home_runs": 3,
         "away_runs": 2,
-        "home_hits": 2,
-        "away_hits": 2,
+        "home_hits": 5,
+        "away_hits": 3,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -400,21 +400,21 @@
       },
       "broadcasts": [
         {
-          "name": "Rangers Sports Network, presented by Progressive",
-          "call_sign": "RSN",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Rangers Sports Network, presented by Progressive",
+          "call_sign": "RSN",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -650,7 +650,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "home",
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -659,7 +659,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "away",
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {

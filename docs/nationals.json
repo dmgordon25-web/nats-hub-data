@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-16T18:32:43+00:00",
+  "fetched_at": "2026-08-16T18:47:47+00:00",
   "freshness": {
-    "schedule": "2026-08-16T18:32:41+00:00",
-    "standings": "2026-08-16T18:32:42+00:00",
+    "schedule": "2026-08-16T18:47:46+00:00",
+    "standings": "2026-08-16T18:47:47+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-08-16T13:42:01+00:00",
-    "weather": "2026-08-16T18:32:43+00:00"
+    "former_nats": "2026-08-16T18:47:46+00:00",
+    "weather": "2026-08-16T18:47:47+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -24,7 +24,7 @@
       "name": "New York Mets",
       "short_name": "Mets",
       "record": "55-69",
-      "score": 0
+      "score": 3
     },
     "away": {
       "id": 120,
@@ -102,17 +102,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 3,
+      "current_inning": 4,
       "inning_half": "Bottom",
-      "inning_state": "End",
+      "inning_state": "Bottom",
       "is_top_inning": false,
       "balls": 0,
-      "strikes": 3,
-      "outs": 3,
-      "home_runs": 0,
+      "strikes": 2,
+      "outs": 2,
+      "home_runs": 3,
       "away_runs": 2,
-      "home_hits": 2,
-      "away_hits": 2,
+      "home_hits": 5,
+      "away_hits": 3,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -136,14 +136,14 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-16T18:32:43+00:00",
+    "fetched_at": "2026-08-16T18:47:47+00:00",
     "source": "open_meteo",
     "game_pk": 823590,
     "venue_name": "Citi Field",
     "forecast_at": "2026-08-16T18:00",
-    "temperature_f": 78.1,
-    "feels_like_f": 76.0,
-    "wind_mph": 13.9,
+    "temperature_f": 80.7,
+    "feels_like_f": 79.9,
+    "wind_mph": 15.4,
     "wind_dir": "S",
     "precip_chance": 1,
     "precip_inches": 0.0,
@@ -170,7 +170,7 @@
         "name": "New York Mets",
         "short_name": "Mets",
         "record": "55-69",
-        "score": 0
+        "score": 3
       },
       "away": {
         "id": 120,
@@ -248,17 +248,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 3,
+        "current_inning": 4,
         "inning_half": "Bottom",
-        "inning_state": "End",
+        "inning_state": "Bottom",
         "is_top_inning": false,
         "balls": 0,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 0,
+        "strikes": 2,
+        "outs": 2,
+        "home_runs": 3,
         "away_runs": 2,
-        "home_hits": 2,
-        "away_hits": 2,
+        "home_hits": 5,
+        "away_hits": 3,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -322,21 +322,21 @@
       },
       "broadcasts": [
         {
-          "name": "Rangers Sports Network, presented by Progressive",
-          "call_sign": "RSN",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Rangers Sports Network, presented by Progressive",
+          "call_sign": "RSN",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -944,7 +944,7 @@
         "name": "New York Mets",
         "short_name": "Mets",
         "record": "55-69",
-        "score": 0
+        "score": 3
       },
       "away": {
         "id": 120,
@@ -1022,17 +1022,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 3,
+        "current_inning": 4,
         "inning_half": "Bottom",
-        "inning_state": "End",
+        "inning_state": "Bottom",
         "is_top_inning": false,
         "balls": 0,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 0,
+        "strikes": 2,
+        "outs": 2,
+        "home_runs": 3,
         "away_runs": 2,
-        "home_hits": 2,
-        "away_hits": 2,
+        "home_hits": 5,
+        "away_hits": 3,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -1096,21 +1096,21 @@
       },
       "broadcasts": [
         {
-          "name": "Rangers Sports Network, presented by Progressive",
-          "call_sign": "RSN",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Rangers Sports Network, presented by Progressive",
+          "call_sign": "RSN",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1368,7 +1368,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "home",
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1377,7 +1377,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "away",
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
