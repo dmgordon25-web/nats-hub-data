@@ -1,106 +1,103 @@
 {
   "data_version": 1,
-  "generated_at": "2026-08-16T15:43:17+00:00",
-  "mode": "falkor_enriched",
+  "generated_at": "2026-08-16T20:06:57+00:00",
+  "mode": "rss_fallback",
   "freshness": {
-    "news": "2026-08-16T15:42:34+00:00",
-    "videos": "2026-08-16T15:42:34+00:00",
-    "vibes": "2026-08-16T15:43:17+00:00"
+    "news": "2026-08-16T20:04:24+00:00",
+    "videos": "2026-08-16T20:04:24+00:00",
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-08-16T15:42:31+00:00",
+      "last_updated_at": "2026-08-16T20:04:00+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-08-16T15:42:32+00:00",
+      "last_updated_at": "2026-08-16T20:04:09+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-08-16T15:42:32+00:00",
+      "last_updated_at": "2026-08-16T20:04:11+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-08-16T15:42:32+00:00",
+      "last_updated_at": "2026-08-16T20:04:12+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-08-16T15:42:33+00:00",
+      "last_updated_at": "2026-08-16T20:04:16+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-08-16T15:42:33+00:00",
+      "last_updated_at": "2026-08-16T20:04:19+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-08-16T15:42:34+00:00",
+      "last_updated_at": "2026-08-16T20:04:21+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-08-16T15:42:34+00:00",
+      "last_updated_at": "2026-08-16T20:04:24+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "why_it_matters",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "trending",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
+    }
+  ],
   "top_stories": [
+    {
+      "title": "Mets vs. Nationals: Lineups, broadcast info, and open thread, 8/16/26",
+      "url": "https://sports.yahoo.com/articles/mets-vs-nationals-lineups-broadcast-164000690.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-08-16T16:40:00+00:00",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/dcc700ce014137426259962a9abf476454154b938cd4c2a3548d31b78c2faf2e/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F402fefa50dd6b727f1501fb6d37832fd.jpg"
+    },
+    {
+      "title": "Washington Nationals vs New York Mets Game Thread",
+      "url": "https://www.federalbaseball.com/washington-nationals-discussions/93501/washington-nationals-vs-new-york-mets-game-thread",
+      "source": "Federal Baseball",
+      "published_at": "2026-08-16T16:07:14+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2290643395.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+    },
     {
       "title": "New Nationals pitchers Yovanny Cruz and Will Dion are showing that velocity is not everything",
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/93491/nationals-pitchers-yovanny-cruz-will-dion-showing-velocity-not-everything",
       "source": "Federal Baseball",
       "published_at": "2026-08-16T14:46:03+00:00",
-      "why_it_matters": {
-        "text": "Nationals pitchers Yovanny Cruz and Will Dion demonstrate that velocity isn't everything. While Cruz is a flamethrower averaging 100 MPH, Dion's slower 91 MPH fastball is noted as being more effective.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2290636610.jpg?quality=90&strip=all&crop=0%2C7.6212585202015%2C100%2C84.757482959597&w=1200"
-    },
-    {
-      "title": "Mets vs Nationals: How to watch on SNY on Aug. 16, 2026",
-      "url": "https://sports.yahoo.com/articles/mets-vs-nationals-watch-sny-133751713.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-08-16T13:37:51+00:00",
-      "why_it_matters": {
-        "text": "Information is provided on how to watch the Mets vs Nationals game on SNY on August 16, 2026.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/cb890bc8d3cbed4115273a56989a2a069bee3815fc0f016ccf225379b6f4f05a/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2F97676a27223760da60bd6eeee46a3e2a.jpg"
-    },
-    {
-      "title": "ICYMI in Mets Land: New York stays hot with walk-off win over Nationals",
-      "url": "https://sports.yahoo.com/articles/icymi-mets-land-york-stays-132249733.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-08-16T13:22:49+00:00",
-      "why_it_matters": {
-        "text": "The Mets secured a walk-off win against the Nationals.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/36001a1b374578d1ca95de813ef66276425b1c9c9051bbccf5ab01fbc83c0811/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2F0a6d0d3453858f59b925b1383ad6a199.jpg"
     },
     {
       "title": "Game #126 Turning the page…again",
       "url": "https://nats.talkdcsports.com/2026/08/16/game-126-turning-the-page-again/",
       "source": "Talk Nats",
       "published_at": "2026-08-16T12:26:32+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals lost their third consecutive game against the Mets, which ended in a blown-save loss. The text notes that the bullpen remains an issue for the team.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2023/09/Jake-Irvin-9-21-2023-Sol-Tucker-scaled.jpg?fit=1200%2C954&ssl=1"
     },
     {
@@ -108,22 +105,7 @@
       "url": "https://nats.talkdcsports.com/2026/08/15/game-125-lord-gets-the-start/",
       "source": "Talk Nats",
       "published_at": "2026-08-15T19:15:50+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals lost 4-1 after a strong starting performance followed by a struggling bullpen. The team will start Brad Lord, who was recently stretched, in the next game.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/07/Blake-Butera-lineup-card-Sol-Tucker-Sacramnento.jpg?fit=891%2C846&ssl=1"
-    },
-    {
-      "title": "Washington Nationals vs New York Mets Game Thread",
-      "url": "https://www.federalbaseball.com/washington-nationals-discussions/93483/washington-nationals-vs-new-york-mets-game-thread",
-      "source": "Federal Baseball",
-      "published_at": "2026-08-15T18:46:03+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals lost 4-1 to the New York Mets after struggling bats and a faltering bullpen. The team aims to even the series against the Mets' makeshift pitching staff, which includes a lefty on the mound.",
-        "ai_generated": true
-      },
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2290524037.jpg?quality=90&strip=all&crop=0%2C10.729494822323%2C100%2C78.541010355354&w=1200"
     },
     {
       "title": "Can’t spell TEAM without ME",
@@ -138,16 +120,19 @@
       "source": "Federal Baseball",
       "published_at": "2026-08-15T14:08:07+00:00",
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2285214163.jpg?quality=90&strip=all&crop=0%2C10.736571304768%2C100%2C78.526857390463&w=1200"
+    },
+    {
+      "title": "Nationals Moving CJ Abrams To Second Base",
+      "url": "https://www.mlbtraderumors.com/2026/08/nationals-moving-cj-abrams-to-second-base.html",
+      "source": "MLB Trade Rumors",
+      "published_at": "2026-08-15T04:50:33+00:00",
+      "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/2026-07-27T202021Z_1393478848_MT1USATODAY29460475_RTRMADP_3_MLB-WASHINGTON-NATIONALS-AT-ATHLETICS-1024x683.jpg"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "loss",
       "text": "Tough one — the Nats fell to the Mets 5-4."
-    },
-    "storyline": {
-      "text": "Nationals pitchers Yovanny Cruz and Will Dion demonstrate that velocity isn't everything. While Cruz is a flamethrower averaging 100 MPH, Dion's slower 91 MPH fastball is noted as being more effective.",
-      "ai_generated": true
     }
   },
   "videos": [
@@ -195,111 +180,12 @@
     }
   ],
   "fan_vibes": {
-    "overall": "negative",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "Bullpen struggles",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/08/15/game-125-lord-gets-the-start/",
-          "https://nats.talkdcsports.com/2026/08/16/game-126-turning-the-page-again/",
-          "https://www.federalbaseball.com/washington-nationals-discussions/93483/washington-nationals-vs-new-york-mets-game-thread"
-        ]
-      },
-      {
-        "label": "Pitching diversity",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/93491/nationals-pitchers-yovanny-cruz-will-dion-showing-velocity-not-everything"
-        ]
-      },
-      {
-        "label": "Series performance",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/08/16/game-126-turning-the-page-again/",
-          "https://sports.yahoo.com/articles/icymi-mets-land-york-stays-132249733.html",
-          "https://www.federalbaseball.com/washington-nationals-discussions/93483/washington-nationals-vs-new-york-mets-game-thread"
-        ]
-      }
-    ]
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
   },
-  "trending": [
-    {
-      "label": "Mets",
-      "sentiment": "",
-      "context": "Mets vs Nationals: How to watch on SNY on Aug. 16, 2026",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/16/game-126-turning-the-page-again/",
-        "https://sports.yahoo.com/articles/icymi-mets-land-york-stays-132249733.html",
-        "https://sports.yahoo.com/articles/mets-vs-nationals-watch-sny-133751713.html",
-        "https://www.federalbaseball.com/washington-nationals-discussions/93483/washington-nationals-vs-new-york-mets-game-thread"
-      ]
-    },
-    {
-      "label": "game recap",
-      "sentiment": "",
-      "context": "Game #125 Lord gets the start!",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/15/game-125-lord-gets-the-start/",
-        "https://www.federalbaseball.com/washington-nationals-discussions/93483/washington-nationals-vs-new-york-mets-game-thread"
-      ]
-    },
-    {
-      "label": "pitching",
-      "sentiment": "",
-      "context": "New Nationals pitchers Yovanny Cruz and Will Dion are showing that velocity is not everything",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/93491/nationals-pitchers-yovanny-cruz-will-dion-showing-velocity-not-everything"
-      ]
-    },
-    {
-      "label": "velocity",
-      "sentiment": "",
-      "context": "New Nationals pitchers Yovanny Cruz and Will Dion are showing that velocity is not everything",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/93491/nationals-pitchers-yovanny-cruz-will-dion-showing-velocity-not-everything"
-      ]
-    },
-    {
-      "label": "Yovanny Cruz",
-      "sentiment": "",
-      "context": "New Nationals pitchers Yovanny Cruz and Will Dion are showing that velocity is not everything",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/93491/nationals-pitchers-yovanny-cruz-will-dion-showing-velocity-not-everything"
-      ]
-    },
-    {
-      "label": "Will Dion",
-      "sentiment": "",
-      "context": "New Nationals pitchers Yovanny Cruz and Will Dion are showing that velocity is not everything",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/93491/nationals-pitchers-yovanny-cruz-will-dion-showing-velocity-not-everything"
-      ]
-    },
-    {
-      "label": "SNY",
-      "sentiment": "",
-      "context": "Mets vs Nationals: How to watch on SNY on Aug. 16, 2026",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/mets-vs-nationals-watch-sny-133751713.html"
-      ]
-    },
-    {
-      "label": "bullpen",
-      "sentiment": "",
-      "context": "Game #126 Turning the page…again",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/16/game-126-turning-the-page-again/"
-      ]
-    }
-  ],
+  "trending": [],
   "what_to_watch": [
-    {
-      "text": "The Nats visit the Mets on Sunday.",
-      "source_url_or_game_pk": "823590"
-    },
     {
       "text": "The Nats visit the Rangers on Tuesday.",
       "source_url_or_game_pk": "822859"
