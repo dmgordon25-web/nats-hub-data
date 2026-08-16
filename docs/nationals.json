@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-16T19:00:07+00:00",
+  "fetched_at": "2026-08-16T19:28:06+00:00",
   "freshness": {
-    "schedule": "2026-08-16T19:00:05+00:00",
-    "standings": "2026-08-16T19:00:05+00:00",
+    "schedule": "2026-08-16T19:28:04+00:00",
+    "standings": "2026-08-16T19:28:05+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-16T18:47:46+00:00",
-    "weather": "2026-08-16T19:00:06+00:00"
+    "weather": "2026-08-16T19:28:05+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -24,7 +24,7 @@
       "name": "New York Mets",
       "short_name": "Mets",
       "record": "55-69",
-      "score": 3
+      "score": 4
     },
     "away": {
       "id": 120,
@@ -32,7 +32,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "60-65",
-      "score": 2
+      "score": 3
     },
     "venue": {
       "id": 3289,
@@ -102,18 +102,18 @@
       }
     ],
     "linescore": {
-      "current_inning": 5,
-      "inning_half": "Bottom",
-      "inning_state": "Bottom",
-      "is_top_inning": false,
-      "balls": 1,
-      "strikes": 2,
-      "outs": 0,
-      "home_runs": 3,
-      "away_runs": 2,
-      "home_hits": 6,
-      "away_hits": 3,
-      "home_errors": 0,
+      "current_inning": 7,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 1,
+      "home_runs": 4,
+      "away_runs": 3,
+      "home_hits": 8,
+      "away_hits": 5,
+      "home_errors": 1,
       "away_errors": 0
     },
     "series": {
@@ -136,7 +136,7 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-16T19:00:06+00:00",
+    "fetched_at": "2026-08-16T19:28:05+00:00",
     "source": "open_meteo",
     "game_pk": 823590,
     "venue_name": "Citi Field",
@@ -170,7 +170,7 @@
         "name": "New York Mets",
         "short_name": "Mets",
         "record": "55-69",
-        "score": 3
+        "score": 4
       },
       "away": {
         "id": 120,
@@ -178,7 +178,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "60-65",
-        "score": 2
+        "score": 3
       },
       "venue": {
         "id": 3289,
@@ -248,18 +248,18 @@
         }
       ],
       "linescore": {
-        "current_inning": 5,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 1,
-        "strikes": 2,
-        "outs": 0,
-        "home_runs": 3,
-        "away_runs": 2,
-        "home_hits": 6,
-        "away_hits": 3,
-        "home_errors": 0,
+        "current_inning": 7,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1,
+        "home_runs": 4,
+        "away_runs": 3,
+        "home_hits": 8,
+        "away_hits": 5,
+        "home_errors": 1,
         "away_errors": 0
       },
       "series": {
@@ -313,7 +313,11 @@
         "lon": -97.081818
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 615698,
+          "name": "Cal Quantrill",
+          "hand": null
+        },
         "away": {
           "id": 800600,
           "name": "Jackson Kent",
@@ -322,21 +326,21 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Rangers Sports Network, presented by Progressive",
           "call_sign": "RSN",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -944,7 +948,7 @@
         "name": "New York Mets",
         "short_name": "Mets",
         "record": "55-69",
-        "score": 3
+        "score": 4
       },
       "away": {
         "id": 120,
@@ -952,7 +956,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "60-65",
-        "score": 2
+        "score": 3
       },
       "venue": {
         "id": 3289,
@@ -1022,18 +1026,18 @@
         }
       ],
       "linescore": {
-        "current_inning": 5,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 1,
-        "strikes": 2,
-        "outs": 0,
-        "home_runs": 3,
-        "away_runs": 2,
-        "home_hits": 6,
-        "away_hits": 3,
-        "home_errors": 0,
+        "current_inning": 7,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1,
+        "home_runs": 4,
+        "away_runs": 3,
+        "home_hits": 8,
+        "away_hits": 5,
+        "home_errors": 1,
         "away_errors": 0
       },
       "series": {
@@ -1087,7 +1091,11 @@
         "lon": -97.081818
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 615698,
+          "name": "Cal Quantrill",
+          "hand": null
+        },
         "away": {
           "id": 800600,
           "name": "Jackson Kent",
@@ -1096,21 +1104,21 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Rangers Sports Network, presented by Progressive",
           "call_sign": "RSN",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1368,7 +1376,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "away",
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1377,7 +1385,7 @@
           "type": "TV",
           "language": "en",
           "is_national": true,
-          "home_away": "home",
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -3034,18 +3042,18 @@
           "name": "Tampa Bay Rays",
           "short_name": "Rays",
           "wins": 74,
-          "losses": 48,
-          "pct": ".607",
+          "losses": 49,
+          "pct": ".602",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "L2",
-          "last_ten": "8-2",
+          "streak": "L3",
+          "last_ten": "7-3",
           "division_rank": 1,
           "league_rank": 1,
           "wc_rank": null,
-          "run_diff": 60,
-          "runs_scored": 557,
-          "runs_allowed": 497,
+          "run_diff": 52,
+          "runs_scored": 559,
+          "runs_allowed": 507,
           "elim_num": "-"
         },
         {
@@ -3056,7 +3064,7 @@
           "wins": 68,
           "losses": 55,
           "pct": ".553",
-          "gb": "6.5",
+          "gb": "6.0",
           "wc_gb": "+7.5",
           "streak": "L3",
           "last_ten": "5-5",
@@ -3076,7 +3084,7 @@
           "wins": 66,
           "losses": 57,
           "pct": ".537",
-          "gb": "8.5",
+          "gb": "8.0",
           "wc_gb": "+5.5",
           "streak": "W1",
           "last_ten": "4-6",
@@ -3089,6 +3097,26 @@
           "elim_num": "32"
         },
         {
+          "id": 110,
+          "abbrev": "BAL",
+          "name": "Baltimore Orioles",
+          "short_name": "Orioles",
+          "wins": 61,
+          "losses": 63,
+          "pct": ".492",
+          "gb": "13.5",
+          "wc_gb": "-",
+          "streak": "W3",
+          "last_ten": "5-5",
+          "division_rank": 4,
+          "league_rank": 7,
+          "wc_rank": 4,
+          "run_diff": -26,
+          "runs_scored": 563,
+          "runs_allowed": 589,
+          "elim_num": "26"
+        },
+        {
           "id": 141,
           "abbrev": "TOR",
           "name": "Toronto Blue Jays",
@@ -3096,37 +3124,17 @@
           "wins": 61,
           "losses": 64,
           "pct": ".488",
-          "gb": "14.5",
+          "gb": "14.0",
           "wc_gb": "0.5",
           "streak": "W2",
           "last_ten": "7-3",
-          "division_rank": 4,
-          "league_rank": 7,
-          "wc_rank": 4,
+          "division_rank": 5,
+          "league_rank": 8,
+          "wc_rank": 5,
           "run_diff": -56,
           "runs_scored": 489,
           "runs_allowed": 545,
           "elim_num": "25"
-        },
-        {
-          "id": 110,
-          "abbrev": "BAL",
-          "name": "Baltimore Orioles",
-          "short_name": "Orioles",
-          "wins": 60,
-          "losses": 63,
-          "pct": ".488",
-          "gb": "14.5",
-          "wc_gb": "0.5",
-          "streak": "W2",
-          "last_ten": "5-5",
-          "division_rank": 5,
-          "league_rank": 8,
-          "wc_rank": 5,
-          "run_diff": -34,
-          "runs_scored": 553,
-          "runs_allowed": 587,
-          "elim_num": "26"
         }
       ]
     },
