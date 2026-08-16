@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-16T03:30:03+00:00",
+  "fetched_at": "2026-08-16T04:10:07+00:00",
   "freshness": {
-    "schedule": "2026-08-16T03:29:59+00:00",
-    "standings": "2026-08-16T03:30:00+00:00",
+    "schedule": "2026-08-16T04:10:04+00:00",
+    "standings": "2026-08-16T04:10:05+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-15T23:33:03+00:00",
-    "weather": "2026-08-16T03:30:02+00:00"
+    "weather": "2026-08-16T04:10:07+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -136,16 +136,16 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-16T03:30:02+00:00",
+    "fetched_at": "2026-08-16T04:10:07+00:00",
     "source": "open_meteo",
     "game_pk": 823590,
     "venue_name": "Citi Field",
     "forecast_at": "2026-08-16T18:00",
-    "temperature_f": 81.8,
-    "feels_like_f": 82.6,
-    "wind_mph": 13.0,
+    "temperature_f": 81.7,
+    "feels_like_f": 82.3,
+    "wind_mph": 12.3,
     "wind_dir": "SSE",
-    "precip_chance": 2,
+    "precip_chance": 1,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -3201,19 +3201,19 @@
           "name": "Kansas City Royals",
           "short_name": "Royals",
           "wins": 50,
-          "losses": 73,
-          "pct": ".407",
-          "gb": "14.5",
-          "wc_gb": "10.0",
-          "streak": "W1",
-          "last_ten": "4-6",
+          "losses": 74,
+          "pct": ".403",
+          "gb": "15.0",
+          "wc_gb": "10.5",
+          "streak": "L1",
+          "last_ten": "3-7",
           "division_rank": 5,
           "league_rank": 13,
           "wc_rank": 10,
-          "run_diff": -113,
+          "run_diff": -114,
           "runs_scored": 510,
-          "runs_allowed": 623,
-          "elim_num": "26"
+          "runs_allowed": 624,
+          "elim_num": "25"
         }
       ]
     },
@@ -3283,6 +3283,26 @@
           "elim_num": "34"
         },
         {
+          "id": 108,
+          "abbrev": "LAA",
+          "name": "Los Angeles Angels",
+          "short_name": "Angels",
+          "wins": 49,
+          "losses": 75,
+          "pct": ".395",
+          "gb": "14.0",
+          "wc_gb": "11.5",
+          "streak": "W1",
+          "last_ten": "6-4",
+          "division_rank": 4,
+          "league_rank": 14,
+          "wc_rank": 11,
+          "run_diff": -83,
+          "runs_scored": 507,
+          "runs_allowed": 590,
+          "elim_num": "25"
+        },
+        {
           "id": 133,
           "abbrev": "ATH",
           "name": "Athletics",
@@ -3294,33 +3314,13 @@
           "wc_gb": "11.5",
           "streak": "W1",
           "last_ten": "3-7",
-          "division_rank": 4,
-          "league_rank": 14,
-          "wc_rank": 11,
+          "division_rank": 5,
+          "league_rank": 15,
+          "wc_rank": 12,
           "run_diff": -175,
           "runs_scored": 532,
           "runs_allowed": 707,
           "elim_num": "26"
-        },
-        {
-          "id": 108,
-          "abbrev": "LAA",
-          "name": "Los Angeles Angels",
-          "short_name": "Angels",
-          "wins": 48,
-          "losses": 75,
-          "pct": ".390",
-          "gb": "14.5",
-          "wc_gb": "12.0",
-          "streak": "L1",
-          "last_ten": "5-5",
-          "division_rank": 5,
-          "league_rank": 15,
-          "wc_rank": 12,
-          "run_diff": -84,
-          "runs_scored": 506,
-          "runs_allowed": 590,
-          "elim_num": "25"
         }
       ]
     }
