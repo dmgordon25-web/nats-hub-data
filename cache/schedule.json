@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-16T17:00:17+00:00",
+  "fetched_at": "2026-08-16T17:31:27+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -250,8 +250,8 @@
       "game_pk": 823590,
       "date": "2026-08-16",
       "start_time_utc": "2026-08-16T17:40:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "Warmup",
       "is_nats_home": false,
       "home": {
         "id": 121,
@@ -392,7 +392,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 800600,
+          "name": "Jackson Kent",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -497,7 +501,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 676917,
+          "name": "Cade Cavalli",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -602,7 +610,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 674841,
+          "name": "Andrew Alvarez",
+          "hand": null
+        }
       },
       "broadcasts": [
         {

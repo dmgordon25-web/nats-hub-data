@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-16T17:00:21+00:00",
+  "fetched_at": "2026-08-16T17:31:28+00:00",
   "freshness": {
-    "schedule": "2026-08-16T17:00:17+00:00",
-    "standings": "2026-08-16T17:00:18+00:00",
+    "schedule": "2026-08-16T17:31:27+00:00",
+    "standings": "2026-08-16T17:31:27+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-16T13:42:01+00:00",
-    "weather": "2026-08-16T17:00:21+00:00"
+    "weather": "2026-08-16T17:31:28+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -15,8 +15,8 @@
     "game_pk": 823590,
     "date": "2026-08-16",
     "start_time_utc": "2026-08-16T17:40:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "Warmup",
     "is_nats_home": false,
     "home": {
       "id": 121,
@@ -123,7 +123,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "Nationals.TV",
       "is_national": false,
@@ -133,19 +133,19 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Starts Soon"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-16T17:00:21+00:00",
+    "fetched_at": "2026-08-16T17:31:28+00:00",
     "source": "open_meteo",
     "game_pk": 823590,
     "venue_name": "Citi Field",
     "forecast_at": "2026-08-16T18:00",
-    "temperature_f": 80.2,
-    "feels_like_f": 79.1,
-    "wind_mph": 12.7,
-    "wind_dir": "SSE",
-    "precip_chance": 2,
+    "temperature_f": 79.5,
+    "feels_like_f": 75.6,
+    "wind_mph": 14.1,
+    "wind_dir": "S",
+    "precip_chance": 1,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -161,8 +161,8 @@
       "game_pk": 823590,
       "date": "2026-08-16",
       "start_time_utc": "2026-08-16T17:40:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "Warmup",
       "is_nats_home": false,
       "home": {
         "id": 121,
@@ -269,7 +269,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -279,7 +279,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822859,
@@ -314,7 +314,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 800600,
+          "name": "Jackson Kent",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -430,7 +434,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 676917,
+          "name": "Cade Cavalli",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -927,8 +935,8 @@
       "game_pk": 823590,
       "date": "2026-08-16",
       "start_time_utc": "2026-08-16T17:40:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "Warmup",
       "is_nats_home": false,
       "home": {
         "id": 121,
@@ -1035,7 +1043,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -1045,7 +1053,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822859,
@@ -1080,7 +1088,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 800600,
+          "name": "Jackson Kent",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1196,7 +1208,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 676917,
+          "name": "Cade Cavalli",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1312,7 +1328,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 674841,
+          "name": "Andrew Alvarez",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
