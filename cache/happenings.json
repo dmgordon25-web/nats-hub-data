@@ -1,63 +1,68 @@
 {
   "data_version": 1,
-  "generated_at": "2026-08-16T07:41:48+00:00",
+  "generated_at": "2026-08-16T11:42:24+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-08-16T07:41:04+00:00",
-    "videos": "2026-08-16T07:41:04+00:00",
-    "vibes": "2026-08-16T07:41:48+00:00"
+    "news": "2026-08-16T11:41:57+00:00",
+    "videos": "2026-08-16T11:41:57+00:00",
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-08-16T07:41:01+00:00",
+      "last_updated_at": "2026-08-16T11:41:54+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-08-16T07:41:02+00:00",
+      "last_updated_at": "2026-08-16T11:41:55+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-08-16T07:41:02+00:00",
+      "last_updated_at": "2026-08-16T11:41:55+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-08-16T07:41:03+00:00",
+      "last_updated_at": "2026-08-16T11:41:56+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-08-16T07:41:03+00:00",
+      "last_updated_at": "2026-08-16T11:41:56+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-08-16T07:41:04+00:00",
+      "last_updated_at": "2026-08-16T11:41:57+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-08-16T07:41:04+00:00",
+      "last_updated_at": "2026-08-16T11:41:57+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-08-16T07:41:04+00:00",
+      "last_updated_at": "2026-08-16T11:41:57+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
+    }
+  ],
   "top_stories": [
     {
       "title": "Francisco Lindor leading streaking Mets after walk-off hit vs. Nationals: &#39;It’s a good time right now&#39;",
@@ -65,7 +70,7 @@
       "source": "Yahoo Sports MLB",
       "published_at": "2026-08-16T00:53:14+00:00",
       "why_it_matters": {
-        "text": "Francisco Lindor is leading a surging Mets team following a walk-off hit against the Nationals, noting the positive energy surrounding the current roster.",
+        "text": "Francisco Lindor is leading a streaking Mets team following a walk-off hit against the Nationals, noting that there is positive energy surrounding the current team.",
         "ai_generated": true
       },
       "image_url": "https://s.yimg.com/lo/mysterio/api/4d062248c107d37f51b0e4d7484b521d29e37bc4e230d1a2411bf0214b629cc1/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2Fb342db0c1f96aac7cbc368844ec9e91e.jpg"
@@ -76,7 +81,7 @@
       "source": "Yahoo Sports MLB",
       "published_at": "2026-08-16T00:33:05+00:00",
       "why_it_matters": {
-        "text": "The Mets secured a 5-4 comeback victory over the Washington Nationals, highlighted by a Francisco Lindor walk-off RBI. Players Andy Green, Sean Manaea, Jefry Yan, and Carson Benge discussed the team's recent turnaround.",
+        "text": "The Mets secured a 5-4 comeback victory over the Washington Nationals, featuring a walk-off RBI from Francisco Lindor. Players Andy Green, Sean Manaea, Jefry Yan, and Carson Benge discussed the team's recent turnaround.",
         "ai_generated": true
       },
       "image_url": "https://s.yimg.com/lo/mysterio/api/3790a64eae2ed236f09c37b2cdda1ed514eb94abc1d106df59e3bf5b13a758b4/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2F8853ebe914a8ee93d2ece1cfc337e530.jpg"
@@ -87,7 +92,7 @@
       "source": "Yahoo Sports MLB",
       "published_at": "2026-08-16T00:15:51+00:00",
       "why_it_matters": {
-        "text": "The Mets rallied from two runs down to secure a 5-4 walk-off win over the Nationals following a Francisco Lindor single. The team has won eight of their last 11 games since making several trades at the MLB deadline.",
+        "text": "The Mets secured a 5-4 walk-off victory over the Nationals following a Francisco Lindor single after trailing by two runs. The team has won eight of their last 11 games since making several trades at the MLB deadline.",
         "ai_generated": true
       },
       "image_url": "https://s.yimg.com/lo/mysterio/api/31ad3ead78e54466c4592b644da69a0d06853d5636d55a45e29adf0277b1c84e/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-08%2Ff9b59c58-4f33-426f-a072-130d5a2471da"
@@ -109,7 +114,7 @@
       "source": "Yahoo Sports MLB",
       "published_at": "2026-08-15T23:27:09+00:00",
       "why_it_matters": {
-        "text": "The Mets won against the Nationals following hits from Alvarez and Lindor, supported by a performance from the bullpen that allowed the offense to mount a comeback.",
+        "text": "The Mets won against the Nats following hits from Alvarez and Lindor, with a strong performance from the bullpen providing the offense an opportunity to comeback.",
         "ai_generated": true
       },
       "image_url": "https://s.yimg.com/lo/mysterio/api/1c0a61763c8c35464c37056f8bd0e6a90d3047f6275895fda0404e804d43e0e0/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F83387ea8b56f9804fd4872fba2627004.jpg"
@@ -120,7 +125,7 @@
       "source": "Yahoo Sports MLB",
       "published_at": "2026-08-15T23:12:14+00:00",
       "why_it_matters": {
-        "text": "The Mets defeated the Washington Nationals 5-4 after a comeback performance featuring a two-run ninth inning and a walk-off RBI from Francisco Lindor.",
+        "text": "The Mets defeated the Washington Nationals 5-4 after a comeback performance featuring a two-run ninth inning and a walk-off RBI hit by Francisco Lindor.",
         "ai_generated": true
       },
       "image_url": "https://s.yimg.com/lo/mysterio/api/040ee89f0d7c3684fcbbb12d194e9901c5dd764199c217c64dcb5961ba34b622/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2Fe26d651420cfa0496408cd90cc3b92bf.jpg"
@@ -146,7 +151,7 @@
       "text": "Tough one — the Nats fell to the Mets 5-4."
     },
     "storyline": {
-      "text": "Francisco Lindor is leading a surging Mets team following a walk-off hit against the Nationals, noting the positive energy surrounding the current roster.",
+      "text": "Francisco Lindor is leading a streaking Mets team following a walk-off hit against the Nationals, noting that there is positive energy surrounding the current team.",
       "ai_generated": true
     }
   },
@@ -195,34 +200,9 @@
     }
   ],
   "fan_vibes": {
-    "overall": "negative",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "Loss to Mets",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://sports.yahoo.com/articles/francisco-lindor-leading-streaking-mets-005314645.html",
-          "https://sports.yahoo.com/articles/francisco-lindor-walk-off-hit-232710028.html",
-          "https://sports.yahoo.com/articles/francisco-lindors-walk-off-completes-231214112.html",
-          "https://sports.yahoo.com/articles/mets-notes-resilient-amazins-playing-003305260.html",
-          "https://sports.yahoo.com/articles/mets-pull-win-over-nats-232709853.html",
-          "https://sports.yahoo.com/mlb/article/mets-rally-from-2-runs-down-for-5-4-walk-off-win-over-nationals-on-francisco-lindor-single-001551722.html"
-        ]
-      },
-      {
-        "label": "Lindor Walk-off Hit",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://sports.yahoo.com/articles/francisco-lindor-leading-streaking-mets-005314645.html",
-          "https://sports.yahoo.com/articles/francisco-lindor-walk-off-hit-232710028.html",
-          "https://sports.yahoo.com/articles/francisco-lindors-walk-off-completes-231214112.html",
-          "https://sports.yahoo.com/articles/mets-notes-resilient-amazins-playing-003305260.html",
-          "https://sports.yahoo.com/articles/mets-pull-win-over-nats-232709853.html",
-          "https://sports.yahoo.com/mlb/article/mets-rally-from-2-runs-down-for-5-4-walk-off-win-over-nationals-on-francisco-lindor-single-001551722.html"
-        ]
-      }
-    ]
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
   },
   "trending": [
     {
