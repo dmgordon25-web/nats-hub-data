@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-18T19:56:22+00:00",
+  "fetched_at": "2026-08-18T20:30:18+00:00",
   "freshness": {
-    "schedule": "2026-08-18T19:56:22+00:00",
-    "standings": "2026-08-18T19:56:22+00:00",
+    "schedule": "2026-08-18T20:30:17+00:00",
+    "standings": "2026-08-18T20:30:17+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-18T18:57:34+00:00",
-    "weather": "2026-08-18T19:56:22+00:00"
+    "weather": "2026-08-18T20:30:17+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -16,7 +16,7 @@
     "date": "2026-08-18",
     "start_time_utc": "2026-08-19T00:05:00Z",
     "status": "Preview",
-    "detailed_status": "Scheduled",
+    "detailed_status": "Pre-Game",
     "is_nats_home": false,
     "home": {
       "id": 140,
@@ -24,7 +24,7 @@
       "name": "Texas Rangers",
       "short_name": "Rangers",
       "record": "61-64",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 120,
@@ -32,7 +32,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "60-66",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 5325,
@@ -102,19 +102,19 @@
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
       "game_number": 1,
@@ -136,7 +136,7 @@
     "watch_label": "Next Game"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-18T19:56:22+00:00",
+    "fetched_at": "2026-08-18T20:30:17+00:00",
     "source": "open_meteo",
     "game_pk": 822859,
     "venue_name": "Globe Life Field",
@@ -157,7 +157,7 @@
       "date": "2026-08-18",
       "start_time_utc": "2026-08-19T00:05:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": false,
       "home": {
         "id": 140,
@@ -165,7 +165,7 @@
         "name": "Texas Rangers",
         "short_name": "Rangers",
         "record": "61-64",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 120,
@@ -173,7 +173,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "60-66",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 5325,
@@ -243,19 +243,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 1,
@@ -317,21 +317,21 @@
       },
       "broadcasts": [
         {
-          "name": "Rangers Sports Network, presented by Progressive",
-          "call_sign": "RSN",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Rangers Sports Network, presented by Progressive",
+          "call_sign": "RSN",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -789,7 +789,7 @@
       "date": "2026-08-18",
       "start_time_utc": "2026-08-19T00:05:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": false,
       "home": {
         "id": 140,
@@ -797,7 +797,7 @@
         "name": "Texas Rangers",
         "short_name": "Rangers",
         "record": "61-64",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 120,
@@ -805,7 +805,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "60-66",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 5325,
@@ -875,19 +875,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 1,
@@ -949,21 +949,21 @@
       },
       "broadcasts": [
         {
-          "name": "Rangers Sports Network, presented by Progressive",
-          "call_sign": "RSN",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Rangers Sports Network, presented by Progressive",
+          "call_sign": "RSN",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1221,21 +1221,21 @@
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "WQAM 104.3",
           "call_sign": "WQAM 104.3",
           "type": "FM",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1328,6 +1328,15 @@
           "media_state": "MEDIA_OFF"
         },
         {
+          "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
+          "call_sign": "MIAM",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
           "name": "FS1",
           "call_sign": "FS1",
           "type": "TV",
@@ -1343,15 +1352,6 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
-          "call_sign": "MIAM",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
