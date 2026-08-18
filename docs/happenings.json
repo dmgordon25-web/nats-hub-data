@@ -1,73 +1,74 @@
 {
   "data_version": 1,
-  "generated_at": "2026-08-17T20:11:29+00:00",
+  "generated_at": "2026-08-18T00:13:16+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-08-17T20:10:52+00:00",
-    "videos": "2026-08-17T20:10:52+00:00",
-    "vibes": "2026-08-17T20:11:29+00:00"
+    "news": "2026-08-18T00:11:48+00:00",
+    "videos": "2026-08-18T00:11:48+00:00",
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-08-17T20:10:48+00:00",
+      "last_updated_at": "2026-08-18T00:11:42+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-08-17T20:10:49+00:00",
+      "last_updated_at": "2026-08-18T00:11:44+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-08-17T20:10:49+00:00",
+      "last_updated_at": "2026-08-18T00:11:45+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-08-17T20:10:50+00:00",
+      "last_updated_at": "2026-08-18T00:11:45+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-08-17T20:10:50+00:00",
+      "last_updated_at": "2026-08-18T00:11:46+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-08-17T20:10:51+00:00",
+      "last_updated_at": "2026-08-18T00:11:47+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-08-17T20:10:51+00:00",
+      "last_updated_at": "2026-08-18T00:11:48+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-08-17T20:10:52+00:00",
+      "last_updated_at": "2026-08-18T00:11:48+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
+    }
+  ],
   "top_stories": [
     {
       "title": "Ronny Cruz Is Transforming As A Hitter in High-A Wilmington",
       "url": "https://www.federalbaseball.com/washington-nationals-prospects/93509/ronny-cruz-transforming-as-hitter-high-a-wilmington",
       "source": "Federal Baseball",
       "published_at": "2026-08-17T19:03:57+00:00",
-      "why_it_matters": {
-        "text": "Ronny Cruz is adapting as a hitter in High-A Wilmington after an explosive April performance and promotion from Low A, following a period of struggling to find offensive success at his new level.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/04/gettyimages-2269289719.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -75,10 +76,6 @@
       "url": "https://nats.talkdcsports.com/2026/08/16/from-playoff-hopes-to-fading-hopes/",
       "source": "Talk Nats",
       "published_at": "2026-08-17T01:49:05+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals' optimism regarding playoff hopes has faded, falling from being 2 games over .500 on July 26th to a season-low 6.0 games under .500.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/03/Simon-Mathews-3-6-2026-Sol-Tucker-scaled.jpeg?fit=1145%2C1200&ssl=1"
     },
     {
@@ -86,10 +83,6 @@
       "url": "https://www.federalbaseball.com/washington-nationals-discussions/93501/washington-nationals-vs-new-york-mets-game-thread",
       "source": "Federal Baseball",
       "published_at": "2026-08-16T16:07:14+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals face the New York Mets in a divisional matchup. The Nats have struggled against NL East teams this season, and while they had a promising series against the Reds, bullpen issues have resurfaced.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2290643395.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -98,7 +91,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-08-16T14:46:03+00:00",
       "why_it_matters": {
-        "text": "Nationals pitchers Yovanny Cruz and Will Dion demonstrate that velocity isn't the only factor in effectiveness. While Cruz is a flamethrower averaging 100 MPH, Dion's slower 91 MPH fastball is noted as being more effective.",
+        "text": "Nationals pitchers Yovanny Cruz and Will Dion demonstrate that velocity isn't everything. While Cruz is a flamethrower averaging 100 MPH, Dion's slower 91 MPH fastball is noted as being more effective.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2290636610.jpg?quality=90&strip=all&crop=0%2C7.6212585202015%2C100%2C84.757482959597&w=1200"
@@ -109,7 +102,7 @@
       "source": "Talk Nats",
       "published_at": "2026-08-16T12:26:32+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals lost their third consecutive game against the Mets, which ended in a blown-save loss. The text notes that the bullpen remains an issue for the team.",
+        "text": "The Washington Nationals lost their third consecutive game against the Mets, which ended in a blown-save loss. The text notes that the team's bullpen remains an issue.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2023/09/Jake-Irvin-9-21-2023-Sol-Tucker-scaled.jpg?fit=1200%2C954&ssl=1"
@@ -120,7 +113,7 @@
       "source": "Talk Nats",
       "published_at": "2026-08-15T19:15:50+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals lost 4-1 after a disappointing offensive performance and bullpen struggles. The team will start Brad Lord today, who recently returned from being stretched.",
+        "text": "The Washington Nationals lost 4-1 after a struggling offense and bullpen issues. The team will start Brad Lord today, who recently received a stretch.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/07/Blake-Butera-lineup-card-Sol-Tucker-Sacramnento.jpg?fit=891%2C846&ssl=1"
@@ -144,10 +137,6 @@
     "result_banner": {
       "type": "loss",
       "text": "Tough one — the Nats fell to the Mets 4-3."
-    },
-    "storyline": {
-      "text": "Ronny Cruz is adapting as a hitter in High-A Wilmington after an explosive April performance and promotion from Low A, following a period of struggling to find offensive success at his new level.",
-      "ai_generated": true
     }
   },
   "videos": [
@@ -195,87 +184,21 @@
     }
   ],
   "fan_vibes": {
-    "overall": "negative",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "Bullpen Struggles",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/08/15/game-125-lord-gets-the-start/",
-          "https://nats.talkdcsports.com/2026/08/16/game-126-turning-the-page-again/",
-          "https://www.federalbaseball.com/washington-nationals-discussions/93501/washington-nationals-vs-new-york-mets-game-thread"
-        ]
-      },
-      {
-        "label": "Fading Playoff Hopes",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/08/16/from-playoff-hopes-to-fading-hopes/"
-        ]
-      },
-      {
-        "label": "Prospect Development",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/93491/nationals-pitchers-yovanny-cruz-will-dion-showing-velocity-not-everything",
-          "https://www.federalbaseball.com/washington-nationals-prospects/93509/ronny-cruz-transforming-as-hitter-high-a-wilmington"
-        ]
-      }
-    ]
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
   },
   "trending": [
     {
-      "label": "Ronny Cruz",
-      "sentiment": "",
-      "context": "Ronny Cruz Is Transforming As A Hitter in High-A Wilmington",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-prospects/93509/ronny-cruz-transforming-as-hitter-high-a-wilmington"
-      ]
-    },
-    {
-      "label": "High-A",
-      "sentiment": "",
-      "context": "Ronny Cruz Is Transforming As A Hitter in High-A Wilmington",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-prospects/93509/ronny-cruz-transforming-as-hitter-high-a-wilmington"
-      ]
-    },
-    {
-      "label": "Wilmington",
-      "sentiment": "",
-      "context": "Ronny Cruz Is Transforming As A Hitter in High-A Wilmington",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-prospects/93509/ronny-cruz-transforming-as-hitter-high-a-wilmington"
-      ]
-    },
-    {
-      "label": "prospects",
-      "sentiment": "",
-      "context": "Ronny Cruz Is Transforming As A Hitter in High-A Wilmington",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-prospects/93509/ronny-cruz-transforming-as-hitter-high-a-wilmington"
-      ]
-    },
-    {
-      "label": "playoffs",
-      "sentiment": "",
-      "context": "From playoff hopes to fading hopes…",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/16/from-playoff-hopes-to-fading-hopes/"
-      ]
-    },
-    {
-      "label": "New York Mets",
-      "sentiment": "",
-      "context": "Washington Nationals vs New York Mets Game Thread",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/16/game-126-turning-the-page-again/",
-        "https://www.federalbaseball.com/washington-nationals-discussions/93501/washington-nationals-vs-new-york-mets-game-thread"
-      ]
-    },
-    {
       "label": "pitching",
+      "sentiment": "",
+      "context": "New Nationals pitchers Yovanny Cruz and Will Dion are showing that velocity is not everything",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/93491/nationals-pitchers-yovanny-cruz-will-dion-showing-velocity-not-everything"
+      ]
+    },
+    {
+      "label": "velocity",
       "sentiment": "",
       "context": "New Nationals pitchers Yovanny Cruz and Will Dion are showing that velocity is not everything",
       "source_urls": [
@@ -288,6 +211,46 @@
       "context": "New Nationals pitchers Yovanny Cruz and Will Dion are showing that velocity is not everything",
       "source_urls": [
         "https://www.federalbaseball.com/washington-nationals-analysis/93491/nationals-pitchers-yovanny-cruz-will-dion-showing-velocity-not-everything"
+      ]
+    },
+    {
+      "label": "Will Dion",
+      "sentiment": "",
+      "context": "New Nationals pitchers Yovanny Cruz and Will Dion are showing that velocity is not everything",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/93491/nationals-pitchers-yovanny-cruz-will-dion-showing-velocity-not-everything"
+      ]
+    },
+    {
+      "label": "Mets",
+      "sentiment": "",
+      "context": "Game #126 Turning the page…again",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/08/16/game-126-turning-the-page-again/"
+      ]
+    },
+    {
+      "label": "bullpen",
+      "sentiment": "",
+      "context": "Game #126 Turning the page…again",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/08/16/game-126-turning-the-page-again/"
+      ]
+    },
+    {
+      "label": "Brad Lord",
+      "sentiment": "",
+      "context": "Game #125 Lord gets the start!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/08/15/game-125-lord-gets-the-start/"
+      ]
+    },
+    {
+      "label": "game recap",
+      "sentiment": "",
+      "context": "Game #125 Lord gets the start!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/08/15/game-125-lord-gets-the-start/"
       ]
     }
   ],
@@ -307,9 +270,9 @@
   ],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "James Wood",
-    "text": "A towering, high-ceiling outfielder who also came to Washington in the Juan Soto trade.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/695578/spots/120",
+    "name": "MacKenzie Gore",
+    "text": "The hard-throwing left-handed starter and another key piece of the return in the Juan Soto trade.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/669022/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
