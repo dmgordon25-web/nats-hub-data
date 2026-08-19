@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-18T23:48:20+00:00",
+  "fetched_at": "2026-08-19T00:23:50+00:00",
   "freshness": {
-    "schedule": "2026-08-18T23:48:19+00:00",
-    "standings": "2026-08-18T23:48:19+00:00",
+    "schedule": "2026-08-19T00:23:50+00:00",
+    "standings": "2026-08-19T00:23:50+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-18T23:34:23+00:00",
-    "weather": "2026-08-18T23:48:20+00:00"
+    "weather": "2026-08-19T00:23:50+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -16,7 +16,7 @@
     "date": "2026-08-18",
     "start_time_utc": "2026-08-19T00:05:00Z",
     "status": "Live",
-    "detailed_status": "Warmup",
+    "detailed_status": "In Progress",
     "is_nats_home": false,
     "home": {
       "id": 140,
@@ -24,7 +24,7 @@
       "name": "Texas Rangers",
       "short_name": "Rangers",
       "record": "61-64",
-      "score": 0
+      "score": 1
     },
     "away": {
       "id": 120,
@@ -103,16 +103,16 @@
     ],
     "linescore": {
       "current_inning": 1,
-      "inning_half": "Top",
-      "inning_state": "Top",
-      "is_top_inning": true,
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0,
-      "home_runs": 0,
+      "inning_half": "Bottom",
+      "inning_state": "End",
+      "is_top_inning": false,
+      "balls": 1,
+      "strikes": 2,
+      "outs": 3,
+      "home_runs": 1,
       "away_runs": 0,
-      "home_hits": 0,
-      "away_hits": 0,
+      "home_hits": 2,
+      "away_hits": 1,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -136,7 +136,7 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-18T23:48:20+00:00",
+    "fetched_at": "2026-08-19T00:23:50+00:00",
     "source": "open_meteo",
     "game_pk": 822859,
     "venue_name": "Globe Life Field",
@@ -145,11 +145,10 @@
     "summary": "Indoor / retractable roof"
   },
   "tonight_tidbit": {
-    "id": "tonight_away",
-    "category": "tonight_nugget",
-    "weight": 5,
-    "text": "On the road tonight. Different ballpark, same hope.",
-    "trigger": "is_away_game"
+    "id": "did_you_know_first_game_2005",
+    "category": "did_you_know",
+    "weight": 3,
+    "text": "The first regular-season Nats game was April 4, 2005, in Philadelphia. They lost 8-4. They didn't win their first home game until April 14."
   },
   "next_three": [
     {
@@ -157,7 +156,7 @@
       "date": "2026-08-18",
       "start_time_utc": "2026-08-19T00:05:00Z",
       "status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 140,
@@ -165,7 +164,7 @@
         "name": "Texas Rangers",
         "short_name": "Rangers",
         "record": "61-64",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 120,
@@ -244,16 +243,16 @@
       ],
       "linescore": {
         "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
+        "inning_half": "Bottom",
+        "inning_state": "End",
+        "is_top_inning": false,
+        "balls": 1,
+        "strikes": 2,
+        "outs": 3,
+        "home_runs": 1,
         "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "home_hits": 2,
+        "away_hits": 1,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -317,21 +316,21 @@
       },
       "broadcasts": [
         {
-          "name": "Rangers Sports Network, presented by Progressive",
-          "call_sign": "RSN",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Rangers Sports Network, presented by Progressive",
+          "call_sign": "RSN",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -535,261 +534,14 @@
       "watch_label": "Next Game"
     }
   ],
-  "last_result": {
-    "game_pk": 823590,
-    "date": "2026-08-16",
-    "start_time_utc": "2026-08-16T17:40:00Z",
-    "status": "Final",
-    "detailed_status": "Final",
-    "is_nats_home": false,
-    "home": {
-      "id": 121,
-      "abbrev": "NYM",
-      "name": "New York Mets",
-      "short_name": "Mets",
-      "record": "56-69",
-      "score": 4
-    },
-    "away": {
-      "id": 120,
-      "abbrev": "WSH",
-      "name": "Washington Nationals",
-      "short_name": "Nationals",
-      "record": "60-66",
-      "score": 3
-    },
-    "venue": {
-      "id": 3289,
-      "name": "Citi Field",
-      "city": "Flushing",
-      "state": "NY",
-      "lat": 40.75753012,
-      "lon": -73.84559155
-    },
-    "probable_pitchers": {
-      "home": {
-        "id": 681035,
-        "name": "Christian Scott",
-        "hand": null
-      },
-      "away": {
-        "id": 663623,
-        "name": "Jake Irvin",
-        "hand": null
-      }
-    },
-    "broadcasts": [
-      {
-        "name": "SNY",
-        "call_sign": "SNY",
-        "type": "TV",
-        "language": "en",
-        "is_national": false,
-        "home_away": "home",
-        "media_state": "MEDIA_ARCHIVE"
-      },
-      {
-        "name": "Nationals.TV",
-        "call_sign": "NATS",
-        "type": "TV",
-        "language": "en",
-        "is_national": false,
-        "home_away": "away",
-        "media_state": "MEDIA_ARCHIVE"
-      },
-      {
-        "name": "Audacy Mets Radio WHSQ 880AM",
-        "call_sign": "WHSQ 880AM",
-        "type": "AM",
-        "language": "en",
-        "is_national": false,
-        "home_away": "home",
-        "media_state": "MEDIA_ARCHIVE"
-      },
-      {
-        "name": "WJFK 106.7 The Fan",
-        "call_sign": "106.7 FM",
-        "type": "FM",
-        "language": "en",
-        "is_national": false,
-        "home_away": "away",
-        "media_state": "MEDIA_ARCHIVE"
-      },
-      {
-        "name": "Audacy App 92.3 HD2",
-        "call_sign": "Audacy",
-        "type": "FM",
-        "language": "es",
-        "is_national": false,
-        "home_away": "home",
-        "media_state": "MEDIA_ARCHIVE"
-      }
-    ],
-    "linescore": {
-      "current_inning": 9,
-      "inning_half": "Top",
-      "inning_state": "Top",
-      "is_top_inning": true,
-      "balls": 2,
-      "strikes": 3,
-      "outs": 3,
-      "home_runs": 4,
-      "away_runs": 3,
-      "home_hits": 10,
-      "away_hits": 5,
-      "home_errors": 1,
-      "away_errors": 0
-    },
-    "series": {
-      "game_number": 3,
-      "games_in_series": 3,
-      "description": "Regular Season"
-    },
-    "double_header": "N",
-    "_source": "mlb_statsapi",
-    "classification": "previous",
-    "provider": {
-      "broadcast_name": "Nationals.TV",
-      "is_national": false,
-      "rule_id": "masn_natstv",
-      "label": "MASN+ / Nationals.TV via MLB app",
-      "package": "com.bamnetworks.mobile.android.gameday.atbat",
-      "intent_uri": "mlbatbat://game/{game_pk}",
-      "fallback_uri": "https://www.mlb.com/nationals/tv"
-    },
-    "watch_label": "Game Final"
-  },
+  "last_result": null,
   "all_games": [
-    {
-      "game_pk": 823590,
-      "date": "2026-08-16",
-      "start_time_utc": "2026-08-16T17:40:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 121,
-        "abbrev": "NYM",
-        "name": "New York Mets",
-        "short_name": "Mets",
-        "record": "56-69",
-        "score": 4
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "60-66",
-        "score": 3
-      },
-      "venue": {
-        "id": 3289,
-        "name": "Citi Field",
-        "city": "Flushing",
-        "state": "NY",
-        "lat": 40.75753012,
-        "lon": -73.84559155
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 681035,
-          "name": "Christian Scott",
-          "hand": null
-        },
-        "away": {
-          "id": 663623,
-          "name": "Jake Irvin",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "SNY",
-          "call_sign": "SNY",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Audacy Mets Radio WHSQ 880AM",
-          "call_sign": "WHSQ 880AM",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Audacy App 92.3 HD2",
-          "call_sign": "Audacy",
-          "type": "FM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 2,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 4,
-        "away_runs": 3,
-        "home_hits": 10,
-        "away_hits": 5,
-        "home_errors": 1,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 3,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
     {
       "game_pk": 822859,
       "date": "2026-08-18",
       "start_time_utc": "2026-08-19T00:05:00Z",
       "status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 140,
@@ -797,7 +549,7 @@
         "name": "Texas Rangers",
         "short_name": "Rangers",
         "record": "61-64",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 120,
@@ -876,16 +628,16 @@
       ],
       "linescore": {
         "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
+        "inning_half": "Bottom",
+        "inning_state": "End",
+        "is_top_inning": false,
+        "balls": 1,
+        "strikes": 2,
+        "outs": 3,
+        "home_runs": 1,
         "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "home_hits": 2,
+        "away_hits": 1,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -949,21 +701,21 @@
       },
       "broadcasts": [
         {
-          "name": "Rangers Sports Network, presented by Progressive",
-          "call_sign": "RSN",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Rangers Sports Network, presented by Progressive",
+          "call_sign": "RSN",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1221,21 +973,21 @@
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "WQAM 104.3",
           "call_sign": "WQAM 104.3",
           "type": "FM",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1328,6 +1080,15 @@
           "media_state": "MEDIA_OFF"
         },
         {
+          "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
+          "call_sign": "MIAM",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
           "name": "FS1",
           "call_sign": "FS1",
           "type": "TV",
@@ -1343,15 +1104,6 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
-          "call_sign": "MIAM",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -2559,6 +2311,122 @@
       },
       "series": {
         "game_number": 1,
+        "games_in_series": 2,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 822686,
+      "date": "2026-09-02",
+      "start_time_utc": "2026-09-02T17:05:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": true,
+      "home": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "60-66",
+        "score": null
+      },
+      "away": {
+        "id": 144,
+        "abbrev": "ATL",
+        "name": "Atlanta Braves",
+        "short_name": "Braves",
+        "record": "74-51",
+        "score": null
+      },
+      "venue": {
+        "id": 3309,
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.872861,
+        "lon": -77.007501
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "680 AM/93.7 FM The Fan",
+          "call_sign": "680 AM",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "BravesVision",
+          "call_sign": "BravesVsn",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Los Bravos",
+          "call_sign": "Los Bravos",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 2,
         "games_in_series": 2,
         "description": "Regular Season"
       },
