@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-08-19T02:32:30+00:00",
+  "fetched_at": "2026-08-19T03:26:57+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
       "game_pk": 822859,
       "date": "2026-08-18",
       "start_time_utc": "2026-08-19T00:05:00Z",
-      "status": "Live",
-      "detailed_status": "In Progress",
+      "status": "Final",
+      "detailed_status": "Final",
       "is_nats_home": false,
       "home": {
         "id": 140,
         "abbrev": "TEX",
         "name": "Texas Rangers",
         "short_name": "Rangers",
-        "record": "61-64",
+        "record": "62-64",
         "score": 5
       },
       "away": {
@@ -22,7 +22,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "60-66",
+        "record": "60-67",
         "score": 0
       },
       "venue": {
@@ -93,17 +93,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 8,
-        "inning_half": "Bottom",
-        "inning_state": "End",
-        "is_top_inning": false,
+        "current_inning": 9,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
         "balls": 1,
         "strikes": 2,
         "outs": 3,
         "home_runs": 5,
         "away_runs": 0,
         "home_hits": 11,
-        "away_hits": 6,
+        "away_hits": 7,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -127,7 +127,7 @@
         "abbrev": "TEX",
         "name": "Texas Rangers",
         "short_name": "Rangers",
-        "record": "61-64",
+        "record": "62-64",
         "score": null
       },
       "away": {
@@ -135,7 +135,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "60-66",
+        "record": "60-67",
         "score": null
       },
       "venue": {
@@ -147,7 +147,11 @@
         "lon": -97.081818
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 677958,
+          "name": "Kumar Rocker",
+          "hand": null
+        },
         "away": {
           "id": 676917,
           "name": "Cade Cavalli",
@@ -236,7 +240,7 @@
         "abbrev": "TEX",
         "name": "Texas Rangers",
         "short_name": "Rangers",
-        "record": "61-64",
+        "record": "62-64",
         "score": null
       },
       "away": {
@@ -244,7 +248,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "60-66",
+        "record": "60-67",
         "score": null
       },
       "venue": {
@@ -371,7 +375,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "60-66",
+        "record": "60-67",
         "score": null
       },
       "venue": {
@@ -476,7 +480,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "60-66",
+        "record": "60-67",
         "score": null
       },
       "venue": {
@@ -599,7 +603,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "60-66",
+        "record": "60-67",
         "score": null
       },
       "venue": {
@@ -696,7 +700,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "60-66",
+        "record": "60-67",
         "score": null
       },
       "away": {
@@ -792,7 +796,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "60-66",
+        "record": "60-67",
         "score": null
       },
       "away": {
@@ -888,7 +892,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "60-66",
+        "record": "60-67",
         "score": null
       },
       "away": {
@@ -984,7 +988,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "60-66",
+        "record": "60-67",
         "score": null
       },
       "away": {
@@ -1080,7 +1084,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "60-66",
+        "record": "60-67",
         "score": null
       },
       "away": {
@@ -1203,7 +1207,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "60-66",
+        "record": "60-67",
         "score": null
       },
       "away": {
@@ -1308,7 +1312,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "60-66",
+        "record": "60-67",
         "score": null
       },
       "away": {
@@ -1413,7 +1417,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "60-66",
+        "record": "60-67",
         "score": null
       },
       "away": {
@@ -1536,7 +1540,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "60-66",
+        "record": "60-67",
         "score": null
       },
       "away": {
@@ -1641,7 +1645,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "60-66",
+        "record": "60-67",
         "score": null
       },
       "away": {
