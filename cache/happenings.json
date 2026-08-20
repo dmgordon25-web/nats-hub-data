@@ -1,71 +1,82 @@
 {
   "data_version": 1,
-  "generated_at": "2026-08-19T23:19:12+00:00",
+  "generated_at": "2026-08-20T03:19:54+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-08-19T23:18:41+00:00",
-    "videos": "2026-08-19T23:18:41+00:00",
-    "vibes": "2026-08-19T23:19:12+00:00"
+    "news": "2026-08-20T03:19:27+00:00",
+    "videos": null,
+    "vibes": "2026-08-20T03:19:54+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-08-19T23:18:38+00:00",
+      "last_updated_at": "2026-08-20T03:19:19+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-08-19T23:18:39+00:00",
+      "last_updated_at": "2026-08-20T03:19:20+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-08-19T23:18:40+00:00",
+      "last_updated_at": "2026-08-20T03:19:20+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-08-19T23:18:40+00:00",
+      "last_updated_at": "2026-08-20T03:19:21+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-08-19T23:18:40+00:00",
+      "last_updated_at": "2026-08-20T03:19:21+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-08-19T23:18:41+00:00",
+      "last_updated_at": "2026-08-20T03:19:22+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-08-19T23:18:41+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-08-19T23:18:41+00:00",
+      "last_updated_at": "2026-08-20T03:19:27+00:00",
       "status": "live"
     }
   ],
   "limited_sources": [],
   "top_stories": [
     {
+      "title": "62-65 – Rangers still aren’t very good, lose 6-0 to Nationals",
+      "url": "https://sports.yahoo.com/articles/62-65-rangers-still-aren-025712107.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-08-20T02:57:12+00:00",
+      "why_it_matters": {
+        "text": "The Rangers lost 6-0 to the Nationals.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/lo/mysterio/api/f8977b1150c15423df0eba991a7edfbafa0f169e9f8e3f480a2611ac300c1a19/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fe0f611ca54925fcb301444b5a5d82a32.jpg"
+    },
+    {
       "title": "Game 127 Game Day Thread – Washington Nationals @ Texas Rangers",
       "url": "https://sports.yahoo.com/articles/game-127-game-day-thread-230500200.html",
       "source": "Yahoo Sports MLB",
       "published_at": "2026-08-19T23:05:00+00:00",
       "why_it_matters": {
-        "text": "Game 127 Game Day Thread for the matchup between the Washington Nationals and the Texas Rangers.",
+        "text": "Game 127 features the Washington Nationals playing against the Texas Rangers.",
         "ai_generated": true
       },
       "image_url": "https://s.yimg.com/lo/mysterio/api/fb471610cc32076cabc22bf241960cac8945aed64cfc0952360e0e0c04e85a98/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F79b2e7980e3a65b66e5ba98d60dc9e1f.jpg"
@@ -76,10 +87,21 @@
       "source": "Talk Nats",
       "published_at": "2026-08-19T22:36:38+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals are on a four-game losing streak following Jackson Kent's second career start. Tonight, pitcher Cade Cavalli will take the mound after delivering a one-hit performance in his previous appearance.",
+        "text": "The Washington Nationals are on a four-game losing streak following Jackson Kent's start. Tonight, pitcher Cade Cavalli will take the mound after his previous 1-hit performance in 8.0 innings.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/07/IMG-20260717-WA0028-1.jpg?fit=1200%2C901&ssl=1"
+    },
+    {
+      "title": "Washington Nationals vs Texas Rangers Game Thread",
+      "url": "https://www.federalbaseball.com/washington-nationals-discussions/93566/washington-nationals-vs-texas-rangers-game-thread",
+      "source": "Federal Baseball",
+      "published_at": "2026-08-19T21:55:17+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals were shut out by the Texas Rangers in their last game. They now look to even the series and improve their performance as they aim to avoid a late-season collapse.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2290753710.jpg?quality=90&strip=all&crop=0%2C7.7698452226215%2C100%2C84.460309554757&w=1200"
     },
     {
       "title": "Texas Rangers lineup for August 19, 2026",
@@ -108,10 +130,6 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/93557/what-should-washington-nationals-do-about-dylan-crews-problem",
       "source": "Federal Baseball",
       "published_at": "2026-08-19T19:06:24+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals are facing a difficult month due to trade losses, injuries, and the poor performance of Dylan Crews during a period when the team needed him most.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2289802467.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -119,25 +137,7 @@
       "url": "https://nats.talkdcsports.com/2026/08/19/the-cj-abrams-position-change-needed-a-united-front/",
       "source": "Talk Nats",
       "published_at": "2026-08-19T18:36:12+00:00",
-      "why_it_matters": {
-        "text": "The announcement regarding CJ Abrams' position change took on a life of its own following manager Blake Butera's brief discussion of the move during his pregame media session.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/IMG-20260812-WA0033.jpg?fit=1200%2C1090&ssl=1"
-    },
-    {
-      "title": "MLBTR Podcast: The Athletics’ Unclear Future, The Reds Without Hunter Greene, The Yankees’ Infield, And More!",
-      "url": "https://www.mlbtraderumors.com/2026/08/mlbtr-podcast-the-athletics-unclear-future-the-reds-without-hunter-greene-the-yankees-infield-and-more.html",
-      "source": "MLB Trade Rumors",
-      "published_at": "2026-08-19T14:39:35+00:00",
-      "image_url": "https://cdn.mlbtraderumors.com/files/2025/12/DavidForst-1024x683.jpg"
-    },
-    {
-      "title": "The Washington Nationals are in free fall",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/93547/washington-nationals-in-free-fall",
-      "source": "Federal Baseball",
-      "published_at": "2026-08-19T13:58:04+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2290752875.jpg?quality=90&strip=all&crop=0%2C10.535662606225%2C100%2C78.92867478755&w=1200"
     }
   ],
   "team_pulse": {
@@ -146,58 +146,22 @@
       "text": "Tough one — the Nats fell to the Rangers 5-0."
     },
     "storyline": {
-      "text": "Game 127 Game Day Thread for the matchup between the Washington Nationals and the Texas Rangers.",
+      "text": "The Rangers lost 6-0 to the Nationals.",
       "ai_generated": true
     }
   },
-  "videos": [
-    {
-      "title": "Former 14th Rounder Erik Tolman Gets Called Up",
-      "url": "https://www.youtube.com/shorts/fd9lvEAJ-Xc",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i3.ytimg.com/vi/fd9lvEAJ-Xc/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "Gus and Louis Varland's Dad Watch Them Pitch Head-to-Head! | Mic'd Up | Presented by AARP",
-      "url": "https://www.youtube.com/watch?v=IwL1UO8dm0o",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i2.ytimg.com/vi/IwL1UO8dm0o/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "Abimelec Ortiz Third Deck Moonshot",
-      "url": "https://www.youtube.com/shorts/HvHCXxpoMXw",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i1.ytimg.com/vi/HvHCXxpoMXw/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "A 3-STRIKEOUT Inning To Start Jackson Kent's MLB Career",
-      "url": "https://www.youtube.com/shorts/DMtjUCldUW8",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i1.ytimg.com/vi/DMtjUCldUW8/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "Jackson Kent Gets The Call To The Show",
-      "url": "https://www.youtube.com/shorts/v0YT36szQEo",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i3.ytimg.com/vi/v0YT36szQEo/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "Handing the Nats a Baby Goat",
-      "url": "https://www.youtube.com/shorts/L2SXlEmp44I",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i1.ytimg.com/vi/L2SXlEmp44I/hqdefault.jpg",
-      "duration_s": 0
-    }
-  ],
+  "videos": [],
   "fan_vibes": {
     "overall": "mixed",
     "ai_generated": true,
     "themes": [
+      {
+        "label": "Recent Victory",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://sports.yahoo.com/articles/62-65-rangers-still-aren-025712107.html"
+        ]
+      },
       {
         "label": "Roster Management",
         "sentiment": "positive",
@@ -206,18 +170,11 @@
         ]
       },
       {
-        "label": "Pitching Performance",
-        "sentiment": "mixed",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/08/19/game-128-cavalli-in-the-stoppers-role/"
-        ]
-      },
-      {
-        "label": "Internal Team Issues",
+        "label": "Performance Concerns",
         "sentiment": "negative",
         "source_urls": [
-          "https://nats.talkdcsports.com/2026/08/19/the-cj-abrams-position-change-needed-a-united-front/",
-          "https://www.federalbaseball.com/washington-nationals-analysis/93557/what-should-washington-nationals-do-about-dylan-crews-problem"
+          "https://nats.talkdcsports.com/2026/08/19/game-128-cavalli-in-the-stoppers-role/",
+          "https://www.federalbaseball.com/washington-nationals-discussions/93566/washington-nationals-vs-texas-rangers-game-thread"
         ]
       }
     ]
@@ -226,10 +183,12 @@
     {
       "label": "Texas Rangers",
       "sentiment": "",
-      "context": "Game 127 Game Day Thread – Washington Nationals @ Texas Rangers",
+      "context": "62-65 – Rangers still aren’t very good, lose 6-0 to Nationals",
       "source_urls": [
+        "https://sports.yahoo.com/articles/62-65-rangers-still-aren-025712107.html",
         "https://sports.yahoo.com/articles/game-127-game-day-thread-230500200.html",
-        "https://sports.yahoo.com/articles/texas-rangers-lineup-august-19-214057671.html"
+        "https://sports.yahoo.com/articles/texas-rangers-lineup-august-19-214057671.html",
+        "https://www.federalbaseball.com/washington-nationals-discussions/93566/washington-nationals-vs-texas-rangers-game-thread"
       ]
     },
     {
@@ -246,6 +205,14 @@
       "context": "Game #128 Cavalli in the stopper’s role",
       "source_urls": [
         "https://nats.talkdcsports.com/2026/08/19/game-128-cavalli-in-the-stoppers-role/"
+      ]
+    },
+    {
+      "label": "Series",
+      "sentiment": "",
+      "context": "Washington Nationals vs Texas Rangers Game Thread",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-discussions/93566/washington-nationals-vs-texas-rangers-game-thread"
       ]
     },
     {
@@ -279,21 +246,9 @@
       "source_urls": [
         "https://www.mlbtraderumors.com/2026/08/nationals-select-erik-tolman.html"
       ]
-    },
-    {
-      "label": "Dylan Crews",
-      "sentiment": "",
-      "context": "What should the Washington Nationals do about their Dylan Crews problem?",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/93557/what-should-washington-nationals-do-about-dylan-crews-problem"
-      ]
     }
   ],
   "what_to_watch": [
-    {
-      "text": "The Nats visit the Rangers on Wednesday.",
-      "source_url_or_game_pk": "822860"
-    },
     {
       "text": "The Nats visit the Rangers on Thursday.",
       "source_url_or_game_pk": "822861"
@@ -305,9 +260,9 @@
   ],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "Dylan Crews",
-    "text": "The No. 2 overall pick in the 2023 MLB Draft out of LSU, headlining the next wave of Nationals talent.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/686611/spots/120",
+    "name": "CJ Abrams",
+    "text": "The Nationals' dynamic young shortstop, acquired in the 2022 Juan Soto trade and now a cornerstone of the rebuild.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/682928/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
