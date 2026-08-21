@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-20T23:43:51+00:00",
+  "fetched_at": "2026-08-21T00:25:04+00:00",
   "freshness": {
-    "schedule": "2026-08-20T23:43:51+00:00",
-    "standings": "2026-08-20T23:43:51+00:00",
+    "schedule": "2026-08-21T00:25:03+00:00",
+    "standings": "2026-08-21T00:25:04+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-20T23:38:14+00:00",
-    "weather": "2026-08-20T23:43:51+00:00"
+    "weather": "2026-08-21T00:25:04+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -16,7 +16,7 @@
     "date": "2026-08-20",
     "start_time_utc": "2026-08-21T00:05:00Z",
     "status": "Live",
-    "detailed_status": "Warmup",
+    "detailed_status": "In Progress",
     "is_nats_home": false,
     "home": {
       "id": 140,
@@ -120,17 +120,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 1,
+      "current_inning": 2,
       "inning_half": "Top",
       "inning_state": "Top",
       "is_top_inning": true,
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0,
+      "balls": 2,
+      "strikes": 2,
+      "outs": 1,
       "home_runs": 0,
       "away_runs": 0,
       "home_hits": 0,
-      "away_hits": 0,
+      "away_hits": 1,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -154,7 +154,7 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-20T23:43:51+00:00",
+    "fetched_at": "2026-08-21T00:25:04+00:00",
     "source": "open_meteo",
     "game_pk": 822861,
     "venue_name": "Globe Life Field",
@@ -163,10 +163,10 @@
     "summary": "Indoor / retractable roof"
   },
   "tonight_tidbit": {
-    "id": "did_you_know_zimmerman_first_pick",
+    "id": "did_you_know_2014_no_hitter",
     "category": "did_you_know",
-    "weight": 5,
-    "text": "Ryan Zimmerman was the Nationals' very first draft pick in 2005, the same year the franchise moved from Montreal."
+    "weight": 4,
+    "text": "Jordan Zimmermann threw a no-hitter on the last day of the 2014 regular season — the first in Nationals/Expos history."
   },
   "next_three": [
     {
@@ -174,7 +174,7 @@
       "date": "2026-08-20",
       "start_time_utc": "2026-08-21T00:05:00Z",
       "status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 140,
@@ -278,17 +278,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 2,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "balls": 2,
+        "strikes": 2,
+        "outs": 1,
         "home_runs": 0,
         "away_runs": 0,
         "home_hits": 0,
-        "away_hits": 0,
+        "away_hits": 1,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -348,7 +348,11 @@
           "name": "Ryan Gusto",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 695418,
+          "name": "Brad Lord",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -370,21 +374,21 @@
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "WQAM 104.3",
-          "call_sign": "WQAM 104.3",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "WJFK 106.7 The Fan",
           "call_sign": "106.7 FM",
           "type": "FM",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WQAM 104.3",
+          "call_sign": "WQAM 104.3",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -429,7 +433,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 823831,
@@ -468,7 +472,11 @@
           "name": "Eury Pérez",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 663623,
+          "name": "Jake Irvin",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -478,15 +486,6 @@
           "language": "en",
           "is_national": true,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
-          "call_sign": "MIAM",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -505,6 +504,15 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
+          "call_sign": "MIAM",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -696,130 +704,6 @@
   },
   "all_games": [
     {
-      "game_pk": 822859,
-      "date": "2026-08-18",
-      "start_time_utc": "2026-08-19T00:05:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 140,
-        "abbrev": "TEX",
-        "name": "Texas Rangers",
-        "short_name": "Rangers",
-        "record": "62-64",
-        "score": 5
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "60-67",
-        "score": 0
-      },
-      "venue": {
-        "id": 5325,
-        "name": "Globe Life Field",
-        "city": "Arlington",
-        "state": "TX",
-        "lat": 32.747299,
-        "lon": -97.081818
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 615698,
-          "name": "Cal Quantrill",
-          "hand": null
-        },
-        "away": {
-          "id": 800600,
-          "name": "Jackson Kent",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Rangers Sports Network, presented by Progressive",
-          "call_sign": "RSN",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "105.3 The Fan",
-          "call_sign": "105.3 KRLD",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "KFLC 1270",
-          "call_sign": "KFLC",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 1,
-        "strikes": 2,
-        "outs": 3,
-        "home_runs": 5,
-        "away_runs": 0,
-        "home_hits": 11,
-        "away_hits": 7,
-        "home_errors": 0,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
-    {
       "game_pk": 822860,
       "date": "2026-08-19",
       "start_time_utc": "2026-08-20T00:05:00Z",
@@ -948,7 +832,7 @@
       "date": "2026-08-20",
       "start_time_utc": "2026-08-21T00:05:00Z",
       "status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 140,
@@ -1052,17 +936,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 2,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "balls": 2,
+        "strikes": 2,
+        "outs": 1,
         "home_runs": 0,
         "away_runs": 0,
         "home_hits": 0,
-        "away_hits": 0,
+        "away_hits": 1,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -1122,7 +1006,11 @@
           "name": "Ryan Gusto",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 695418,
+          "name": "Brad Lord",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1144,21 +1032,21 @@
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "WQAM 104.3",
-          "call_sign": "WQAM 104.3",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "WJFK 106.7 The Fan",
           "call_sign": "106.7 FM",
           "type": "FM",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WQAM 104.3",
+          "call_sign": "WQAM 104.3",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1203,7 +1091,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 823831,
@@ -1242,7 +1130,11 @@
           "name": "Eury Pérez",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 663623,
+          "name": "Jake Irvin",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1252,15 +1144,6 @@
           "language": "en",
           "is_national": true,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
-          "call_sign": "MIAM",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1279,6 +1162,15 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
+          "call_sign": "MIAM",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1375,8 +1267,16 @@
         "lon": -80.21951795
       },
       "probable_pitchers": {
-        "home": null,
-        "away": null
+        "home": {
+          "id": 676083,
+          "name": "Janson Junk",
+          "hand": null
+        },
+        "away": {
+          "id": 800600,
+          "name": "Jackson Kent",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -2603,6 +2503,122 @@
       "series": {
         "game_number": 2,
         "games_in_series": 2,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 823905,
+      "date": "2026-09-04",
+      "start_time_utc": "2026-09-05T02:10:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": false,
+      "home": {
+        "id": 119,
+        "abbrev": "LAD",
+        "name": "Los Angeles Dodgers",
+        "short_name": "Dodgers",
+        "record": "77-51",
+        "score": null
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "61-67",
+        "score": null
+      },
+      "venue": {
+        "id": 22,
+        "name": "UNIQLO Field at Dodger Stadium",
+        "city": "Los Angeles",
+        "state": "CA",
+        "lat": 34.07368,
+        "lon": -118.24053
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "SportsNet LA",
+          "call_sign": "SNLA",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Dodgers Radio AM570",
+          "call_sign": "KLAC AM570",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KTNQ 1020",
+          "call_sign": "KTNQ",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 1,
+        "games_in_series": 3,
         "description": "Regular Season"
       },
       "double_header": "N",
