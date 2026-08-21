@@ -1,79 +1,106 @@
 {
   "data_version": 1,
-  "generated_at": "2026-08-21T00:11:40+00:00",
+  "generated_at": "2026-08-21T04:13:11+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-08-21T00:09:14+00:00",
-    "videos": "2026-08-21T00:09:14+00:00",
-    "vibes": null
+    "news": "2026-08-21T04:12:01+00:00",
+    "videos": "2026-08-21T04:12:01+00:00",
+    "vibes": "2026-08-21T04:13:11+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-08-21T00:09:11+00:00",
+      "last_updated_at": "2026-08-21T04:11:58+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-08-21T00:09:12+00:00",
+      "last_updated_at": "2026-08-21T04:11:59+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-08-21T00:09:12+00:00",
+      "last_updated_at": "2026-08-21T04:11:59+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-08-21T00:09:13+00:00",
+      "last_updated_at": "2026-08-21T04:12:00+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-08-21T00:09:13+00:00",
+      "last_updated_at": "2026-08-21T04:12:00+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-08-21T00:09:14+00:00",
+      "last_updated_at": "2026-08-21T04:12:00+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-08-21T00:09:14+00:00",
+      "last_updated_at": "2026-08-21T04:12:01+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-08-21T00:09:14+00:00",
+      "last_updated_at": "2026-08-21T04:12:01+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "Nats' Abrams day-to-day with sprained left ankle",
       "url": "https://www.espn.com/mlb/story/_/id/49674666/nationals-abrams-day-day-spraining-ankle-slide",
       "source": "ESPN MLB",
-      "published_at": "2026-08-21T00:07:03+00:00",
+      "published_at": "2026-08-21T04:32:40+00:00",
+      "image_url": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0820%2Fr1704597_1296x729_16%2D9.jpg"
+    },
+    {
+      "title": "63-65 – Elder stars help Rangers eke out 2-0 win over Nationals",
+      "url": "https://sports.yahoo.com/articles/63-65-elder-stars-help-023706742.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-08-21T02:37:06+00:00",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/385ae863cb4b198da4ff8e55bb9fffbe6498f74e8e5d13f69b101d455049bfe5/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F41655a32046e84ec69961c15544685ab.jpg"
+    },
+    {
+      "title": "Gerrit Cole spins another gem, Yankees complete sweep with 6-1 win over Orioles",
+      "url": "https://sports.yahoo.com/articles/gerrit-cole-spins-another-gem-014508808.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-08-21T01:45:08+00:00",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/bea5943dfd51b45f3ee069b3ea60397fb60749934e68b0634c105335da2538a5/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2F97cf3f4731e8d8ec3b3000a3330e762a.jpg"
+    },
+    {
+      "title": "Rangers’ Jacob deGrom reaches 2,000 strikeouts in 2nd-fewest games and innings pitched",
+      "url": "https://sports.yahoo.com/articles/rangers-jacob-degrom-reaches-2-011422797.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-08-21T01:14:22+00:00",
       "why_it_matters": {
-        "text": "Nationals player CJ Abrams is listed as day-to-day after suffering a sprained left ankle during a slide in Wednesday's win over the Rangers.",
+        "text": "Rangers pitcher Jacob deGrom reached 2,000 strikeouts in the second-fewest games and innings pitched, achieving the milestone after striking out the first two batters against the Washington Nationals.",
         "ai_generated": true
       },
-      "image_url": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0820%2Fr1704597_1296x729_16%2D9.jpg"
+      "image_url": "https://s.yimg.com/lo/mysterio/api/0bec7e51da287993c552822d439999ec274869287d8f73b0fdce0a4994c36564/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2Fbce62ed6b22923f63b380cd34ffcb066.jpg"
+    },
+    {
+      "title": "Jacob deGrom notches 2,000th career strikeout in Rangers&#39; 2-0 win vs. Nationals",
+      "url": "https://sports.yahoo.com/mlb/breaking-news/article/jacob-degrom-notches-2000th-career-strikeout-in-rangers-2-0-win-vs-nationals-002039720.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-08-21T00:20:39+00:00",
+      "why_it_matters": {
+        "text": "Jacob deGrom recorded his 2,000th career strikeout during the Rangers' 2-0 victory against the Nationals.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/lo/mysterio/api/c9371aa6d420ab50634dac2b11508b50e3723c61832691190887b9a28fcc95b6/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-08%2F924ac13b-4cca-48d0-bc5e-cfe40f149229"
     },
     {
       "title": "Matt LeCroy has mastered the art of being a Triple-A manager",
@@ -81,7 +108,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-08-20T23:52:14+00:00",
       "why_it_matters": {
-        "text": "Matt LeCroy has established himself as a beloved manager for the Rochester Red Wings, where he is noted for his strong presence and leadership in Triple-A baseball.",
+        "text": "Matt LeCroy is described as a beloved manager for the Rochester Red Wings, where he has mastered his role as the team's skipper.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/images-12.jpg?quality=90&strip=all&crop=0,23.821989528796,100,52.356020942408"
@@ -91,10 +118,6 @@
       "url": "https://sports.yahoo.com/articles/game-128-game-day-thread-230500208.html",
       "source": "Yahoo Sports MLB",
       "published_at": "2026-08-20T23:05:00+00:00",
-      "why_it_matters": {
-        "text": "A game day thread for Game 128 between the Washington Nationals and the Texas Rangers, featuring a humorous comment regarding pitcher Jacob deGrom.",
-        "ai_generated": true
-      },
       "image_url": "https://s.yimg.com/lo/mysterio/api/7612aeae28bfd13ac212942644de8c046deb684ed7f2a2e1d33eecec556c89ff/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fe0fb45ec858057f63b9e69289ba4e5ae.jpg"
     },
     {
@@ -102,57 +125,13 @@
       "url": "https://nats.talkdcsports.com/2026/08/20/game-129-a-series-for-the-nats-to-win/",
       "source": "Talk Nats",
       "published_at": "2026-08-20T22:05:00+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals won their last game following a strong performance by Cade Cavalli. The team is looking for another win today as Andrew Alvarez prepares to follow up Cavalli's performance.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2025/09/Andrew-Alvarez-debut-9-1-2025-Sol-Tucker-B-scaled.jpg?fit=1200%2C807&ssl=1"
-    },
-    {
-      "title": "Washington Nationals vs Texas Rangers Game Thread",
-      "url": "https://www.federalbaseball.com/washington-nationals-discussions/93598/washington-nationals-vs-texas-rangers-game-thread",
-      "source": "Federal Baseball",
-      "published_at": "2026-08-20T21:37:21+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals were led by pitcher Cade Cavalli and hitter Andres Chaparro. They look to secure a series win with their second-best starter after recent struggles on the road.",
-        "ai_generated": true
-      },
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2290623061.jpg?quality=90&strip=all&crop=0%2C10.739928062549%2C100%2C78.520143874901&w=1200"
-    },
-    {
-      "title": "Texas Rangers lineup for August 20, 2026",
-      "url": "https://sports.yahoo.com/articles/texas-rangers-lineup-august-20-203430125.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-08-20T20:34:30+00:00",
-      "why_it_matters": {
-        "text": "The Texas Rangers' lineup is set for their series finale against the Nationals on August 20, 2026.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/b832a3816cf90bfe5cfe461fdc58036cb96c45a2f925efee8afc0d56a0016437/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F937adc109a58af24240259cd96d80c0d.jpg"
-    },
-    {
-      "title": "Nationals ace Cade Cavalli is nibbling on the edge of Cy Young contention",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/93573/nationals-ace-cade-cavalli-nibbling-edge-cy-young-contention",
-      "source": "Federal Baseball",
-      "published_at": "2026-08-20T14:58:09+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2290615010.jpg?quality=90&strip=all&crop=0%2C9.308384204412%2C100%2C81.383231591176&w=1200"
-    },
-    {
-      "title": "Cade Cavalli wants to be your №1",
-      "url": "https://nats.talkdcsports.com/2026/08/20/cade-cavalli-wants-to-be-your-%e2%84%961/",
-      "source": "Talk Nats",
-      "published_at": "2026-08-20T13:28:05+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/Cade-Cavalli-in-Texas-.jpg?fit=1200%2C901&ssl=1"
     }
   ],
   "team_pulse": {
     "result_banner": {
-      "type": "win",
-      "text": "Curly W! The Nats beat the Rangers 6-0."
-    },
-    "storyline": {
-      "text": "Nationals player CJ Abrams is listed as day-to-day after suffering a sprained left ankle during a slide in Wednesday's win over the Rangers.",
-      "ai_generated": true
+      "type": "loss",
+      "text": "Tough one — the Nats fell to the Rangers 2-0."
     }
   },
   "videos": [
@@ -200,52 +179,52 @@
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "negative",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "Injury Concerns",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://www.espn.com/mlb/story/_/id/49674666/nationals-abrams-day-day-spraining-ankle-slide"
+        ]
+      },
+      {
+        "label": "Loss to Rangers",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://sports.yahoo.com/articles/63-65-elder-stars-help-023706742.html",
+          "https://sports.yahoo.com/articles/rangers-jacob-degrom-reaches-2-011422797.html",
+          "https://sports.yahoo.com/mlb/breaking-news/article/jacob-degrom-notches-2000th-career-strikeout-in-rangers-2-0-win-vs-nationals-002039720.html"
+        ]
+      }
+    ]
   },
   "trending": [
     {
+      "label": "Jacob deGrom",
+      "sentiment": "",
+      "context": "Rangers’ Jacob deGrom reaches 2,000 strikeouts in 2nd-fewest games and innings pitched",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/rangers-jacob-degrom-reaches-2-011422797.html",
+        "https://sports.yahoo.com/mlb/breaking-news/article/jacob-degrom-notches-2000th-career-strikeout-in-rangers-2-0-win-vs-nationals-002039720.html"
+      ]
+    },
+    {
       "label": "Texas Rangers",
       "sentiment": "",
-      "context": "Game 128 Game Day Thread – Washington Nationals @ Texas Rangers",
+      "context": "Rangers’ Jacob deGrom reaches 2,000 strikeouts in 2nd-fewest games and innings pitched",
       "source_urls": [
-        "https://sports.yahoo.com/articles/game-128-game-day-thread-230500208.html",
-        "https://sports.yahoo.com/articles/texas-rangers-lineup-august-20-203430125.html",
-        "https://www.federalbaseball.com/washington-nationals-discussions/93598/washington-nationals-vs-texas-rangers-game-thread"
+        "https://sports.yahoo.com/articles/rangers-jacob-degrom-reaches-2-011422797.html",
+        "https://sports.yahoo.com/mlb/breaking-news/article/jacob-degrom-notches-2000th-career-strikeout-in-rangers-2-0-win-vs-nationals-002039720.html"
       ]
     },
     {
-      "label": "Cade Cavalli",
+      "label": "strikeouts",
       "sentiment": "",
-      "context": "Game #129 A series for the Nats to win",
+      "context": "Jacob deGrom notches 2,000th career strikeout in Rangers&#39; 2-0 win vs. Nationals",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/20/game-129-a-series-for-the-nats-to-win/",
-        "https://www.federalbaseball.com/washington-nationals-discussions/93598/washington-nationals-vs-texas-rangers-game-thread"
-      ]
-    },
-    {
-      "label": "CJ Abrams",
-      "sentiment": "",
-      "context": "Nats' Abrams day-to-day with sprained left ankle",
-      "source_urls": [
-        "https://www.espn.com/mlb/story/_/id/49674666/nationals-abrams-day-day-spraining-ankle-slide"
-      ]
-    },
-    {
-      "label": "injury",
-      "sentiment": "",
-      "context": "Nats' Abrams day-to-day with sprained left ankle",
-      "source_urls": [
-        "https://www.espn.com/mlb/story/_/id/49674666/nationals-abrams-day-day-spraining-ankle-slide"
-      ]
-    },
-    {
-      "label": "Matt LeCroy",
-      "sentiment": "",
-      "context": "Matt LeCroy has mastered the art of being a Triple-A manager",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/93583/matt-lecroy-mastered-art-being-a-triple-a-manager"
+        "https://sports.yahoo.com/mlb/breaking-news/article/jacob-degrom-notches-2000th-career-strikeout-in-rangers-2-0-win-vs-nationals-002039720.html"
       ]
     },
     {
@@ -257,7 +236,7 @@
       ]
     },
     {
-      "label": "Triple-A",
+      "label": "Matt LeCroy",
       "sentiment": "",
       "context": "Matt LeCroy has mastered the art of being a Triple-A manager",
       "source_urls": [
@@ -281,6 +260,10 @@
     {
       "text": "The Nats visit the Marlins on Saturday.",
       "source_url_or_game_pk": "823831"
+    },
+    {
+      "text": "The Nats visit the Marlins on Sunday.",
+      "source_url_or_game_pk": "823827"
     }
   ],
   "on_this_day": {},
