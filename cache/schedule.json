@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-22T01:09:07+00:00",
+  "fetched_at": "2026-08-22T02:19:53+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -137,24 +137,24 @@
       "game_pk": 823830,
       "date": "2026-08-21",
       "start_time_utc": "2026-08-21T23:10:00Z",
-      "status": "Live",
-      "detailed_status": "In Progress",
+      "status": "Final",
+      "detailed_status": "Final",
       "is_nats_home": false,
       "home": {
         "id": 146,
         "abbrev": "MIA",
         "name": "Miami Marlins",
         "short_name": "Marlins",
-        "record": "64-64",
-        "score": 0
+        "record": "65-64",
+        "score": 3
       },
       "away": {
         "id": 120,
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "61-68",
-        "score": 1
+        "record": "61-69",
+        "score": 2
       },
       "venue": {
         "id": 4169,
@@ -224,19 +224,19 @@
         }
       ],
       "linescore": {
-        "current_inning": 7,
-        "inning_half": "Top",
-        "inning_state": "Middle",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 3,
-        "home_runs": 0,
-        "away_runs": 1,
-        "home_hits": 1,
-        "away_hits": 8,
+        "current_inning": 9,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "balls": 2,
+        "strikes": 2,
+        "outs": 0,
+        "home_runs": 3,
+        "away_runs": 2,
+        "home_hits": 6,
+        "away_hits": 9,
         "home_errors": 0,
-        "away_errors": 0
+        "away_errors": 1
       },
       "series": {
         "game_number": 1,
@@ -258,7 +258,7 @@
         "abbrev": "MIA",
         "name": "Miami Marlins",
         "short_name": "Marlins",
-        "record": "64-64",
+        "record": "65-64",
         "score": null
       },
       "away": {
@@ -266,7 +266,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "61-68",
+        "record": "61-69",
         "score": null
       },
       "venue": {
@@ -300,6 +300,15 @@
           "media_state": "MEDIA_OFF"
         },
         {
+          "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
+          "call_sign": "MIAM",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
           "name": "FS1",
           "call_sign": "FS1",
           "type": "TV",
@@ -315,15 +324,6 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
-          "call_sign": "MIAM",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -389,7 +389,7 @@
         "abbrev": "MIA",
         "name": "Miami Marlins",
         "short_name": "Marlins",
-        "record": "64-64",
+        "record": "65-64",
         "score": null
       },
       "away": {
@@ -397,7 +397,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "61-68",
+        "record": "61-69",
         "score": null
       },
       "venue": {
@@ -502,7 +502,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "61-68",
+        "record": "61-69",
         "score": null
       },
       "away": {
@@ -598,7 +598,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "61-68",
+        "record": "61-69",
         "score": null
       },
       "away": {
@@ -694,7 +694,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "61-68",
+        "record": "61-69",
         "score": null
       },
       "away": {
@@ -790,7 +790,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "61-68",
+        "record": "61-69",
         "score": null
       },
       "away": {
@@ -886,7 +886,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "61-68",
+        "record": "61-69",
         "score": null
       },
       "away": {
@@ -894,7 +894,7 @@
         "abbrev": "MIA",
         "name": "Miami Marlins",
         "short_name": "Marlins",
-        "record": "64-64",
+        "record": "65-64",
         "score": null
       },
       "venue": {
@@ -1009,7 +1009,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "61-68",
+        "record": "61-69",
         "score": null
       },
       "away": {
@@ -1017,7 +1017,7 @@
         "abbrev": "MIA",
         "name": "Miami Marlins",
         "short_name": "Marlins",
-        "record": "64-64",
+        "record": "65-64",
         "score": null
       },
       "venue": {
@@ -1114,7 +1114,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "61-68",
+        "record": "61-69",
         "score": null
       },
       "away": {
@@ -1122,7 +1122,7 @@
         "abbrev": "MIA",
         "name": "Miami Marlins",
         "short_name": "Marlins",
-        "record": "64-64",
+        "record": "65-64",
         "score": null
       },
       "venue": {
@@ -1219,7 +1219,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "61-68",
+        "record": "61-69",
         "score": null
       },
       "away": {
@@ -1227,7 +1227,7 @@
         "abbrev": "MIA",
         "name": "Miami Marlins",
         "short_name": "Marlins",
-        "record": "64-64",
+        "record": "65-64",
         "score": null
       },
       "venue": {
@@ -1342,7 +1342,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "61-68",
+        "record": "61-69",
         "score": null
       },
       "away": {
@@ -1447,7 +1447,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "61-68",
+        "record": "61-69",
         "score": null
       },
       "away": {
@@ -1560,7 +1560,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "61-68",
+        "record": "61-69",
         "score": null
       },
       "venue": {
@@ -1665,7 +1665,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "61-68",
+        "record": "61-69",
         "score": null
       },
       "venue": {
