@@ -1,63 +1,68 @@
 {
   "data_version": 1,
-  "generated_at": "2026-08-22T02:53:18+00:00",
+  "generated_at": "2026-08-22T06:54:18+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-08-22T02:52:39+00:00",
+    "news": "2026-08-22T06:53:36+00:00",
     "videos": "2026-08-22T02:52:39+00:00",
-    "vibes": "2026-08-22T02:53:18+00:00"
+    "vibes": "2026-08-22T06:54:18+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-08-22T02:52:36+00:00",
+      "last_updated_at": "2026-08-22T06:53:24+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-08-22T02:52:37+00:00",
+      "last_updated_at": "2026-08-22T06:53:25+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-08-22T02:52:37+00:00",
+      "last_updated_at": "2026-08-22T06:53:25+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-08-22T02:52:38+00:00",
+      "last_updated_at": "2026-08-22T06:53:25+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-08-22T02:52:38+00:00",
+      "last_updated_at": "2026-08-22T06:53:26+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-08-22T02:52:38+00:00",
+      "last_updated_at": "2026-08-22T06:53:27+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-08-22T02:52:39+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-08-22T02:52:39+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    }
+  ],
   "top_stories": [
     {
       "title": "Game #130 Nats have an opportunity in Miami!",
@@ -65,7 +70,7 @@
       "source": "Talk Nats",
       "published_at": "2026-08-21T22:52:45+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals face an opportunity in Miami as they look to start a winning streak against a changed Marlins team with a new lineup.",
+        "text": "The Washington Nationals face the Marlins in Game 130 in Miami. Both teams have undergone changes, and the Nationals are looking to establish a winning streak with their new lineup.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2023/05/20230516_190309-1.jpg?fit=1200%2C900&ssl=1"
@@ -76,7 +81,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-08-21T20:49:49+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals offense has struggled following injuries and trades, including two shutouts in a series against the Rangers. The team aims to improve its poor divisional record in an upcoming game against the Miami Marlins.",
+        "text": "The Washington Nationals' offense has struggled due to injuries and trades, leading to shutouts in a recent series. The team aims to improve its poor divisional record against the Miami Marlins despite ongoing roster issues.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2290623018.jpg?quality=90&strip=all&crop=0%2C10.739316661474%2C100%2C78.521366677052&w=1200"
@@ -87,7 +92,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-08-21T17:49:37+00:00",
       "why_it_matters": {
-        "text": "The Nationals concluded a frustrating road trip with a 2-0 loss in Texas. The team managed only one hit against Jacob deGrom, who recorded his 2,000th career strikeout, while Andrew Alvarez allowed one run over five innings.",
+        "text": "The Nationals concluded a frustrating road trip in Texas with a 2-0 loss. The team managed only one hit against Jacob deGrom, who recorded his 2,000th career strikeout, and three Rangers relievers.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2290621185.jpg?quality=90&strip=all&crop=0%2C9.9555398986893%2C100%2C80.088920202621&w=1200"
@@ -109,7 +114,7 @@
       "source": "Talk Nats",
       "published_at": "2026-08-21T15:55:28+00:00",
       "why_it_matters": {
-        "text": "The baseball regular season is ending soon as teams enter their final 30-game push. Uncertainty exists regarding a potential strike that could threaten the 2027 season, leaving fans to focus on current games despite mixed feelings about the Washington Nationals' outlook.",
+        "text": "The baseball regular season is ending soon as teams enter their final 30-game push. Uncertainty exists regarding a potential strike that could threaten the 2027 season, while the Washington Nationals' season may not end with optimism.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/James-Wood-CJ-Abrams-A.jpg?fit=1056%2C935&ssl=1"
@@ -146,7 +151,7 @@
       "text": "Tough one — the Nats fell to the Marlins 3-2."
     },
     "storyline": {
-      "text": "The Washington Nationals face an opportunity in Miami as they look to start a winning streak against a changed Marlins team with a new lineup.",
+      "text": "The Washington Nationals face the Marlins in Game 130 in Miami. Both teams have undergone changes, and the Nationals are looking to establish a winning streak with their new lineup.",
       "ai_generated": true
     }
   },
@@ -195,16 +200,22 @@
     }
   ],
   "fan_vibes": {
-    "overall": "mixed",
+    "overall": "negative",
     "ai_generated": true,
     "themes": [
       {
         "label": "Offensive Struggles",
         "sentiment": "negative",
         "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/24480807/nationals-outfielder-daylen-lile-having-sophomore-slump-at-plate",
           "https://www.federalbaseball.com/washington-nationals-discussions/93631/washington-nationals-vs-miami-marlins-game-thread",
           "https://www.federalbaseball.com/washington-nationals-game-information/93623/beaten-bruised-nationals-finish-up-their-road-trip-with-series-in-miami"
+        ]
+      },
+      {
+        "label": "Roster Performance Issues",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/24480807/nationals-outfielder-daylen-lile-having-sophomore-slump-at-plate"
         ]
       },
       {
@@ -215,7 +226,7 @@
         ]
       },
       {
-        "label": "Upcoming Opportunity",
+        "label": "Season Outlook",
         "sentiment": "mixed",
         "source_urls": [
           "https://nats.talkdcsports.com/2026/08/21/final-30-game-push-this-weekend/",
@@ -235,6 +246,14 @@
       ]
     },
     {
+      "label": "Marlins",
+      "sentiment": "",
+      "context": "Game #130 Nats have an opportunity in Miami!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/08/21/game-130-nats-have-an-opportunity-in-miami/"
+      ]
+    },
+    {
       "label": "injuries",
       "sentiment": "",
       "context": "Washington Nationals vs Miami Marlins Game Thread",
@@ -243,7 +262,7 @@
       ]
     },
     {
-      "label": "trades",
+      "label": "divisional record",
       "sentiment": "",
       "context": "Washington Nationals vs Miami Marlins Game Thread",
       "source_urls": [
@@ -267,27 +286,19 @@
       ]
     },
     {
+      "label": "road trip",
+      "sentiment": "",
+      "context": "The Beaten and Bruised Nationals Finish Up Their Road Trip With A Series in Miami",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-game-information/93623/beaten-bruised-nationals-finish-up-their-road-trip-with-series-in-miami"
+      ]
+    },
+    {
       "label": "Seaver King",
       "sentiment": "",
       "context": "Seaver King is giving the Washington Nationals no choice but to call him up",
       "source_urls": [
         "https://www.federalbaseball.com/washington-nationals-prospects/93619/seaver-king-giving-washington-nationals-no-choice-but-call-him-up"
-      ]
-    },
-    {
-      "label": "roster move",
-      "sentiment": "",
-      "context": "Seaver King is giving the Washington Nationals no choice but to call him up",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-prospects/93619/seaver-king-giving-washington-nationals-no-choice-but-call-him-up"
-      ]
-    },
-    {
-      "label": "strike threat",
-      "sentiment": "",
-      "context": "Final 30-game push this weekend",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/21/final-30-game-push-this-weekend/"
       ]
     }
   ],
