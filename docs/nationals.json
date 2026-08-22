@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-22T03:10:59+00:00",
+  "fetched_at": "2026-08-22T03:59:25+00:00",
   "freshness": {
-    "schedule": "2026-08-22T03:10:58+00:00",
-    "standings": "2026-08-22T03:10:59+00:00",
+    "schedule": "2026-08-22T03:59:25+00:00",
+    "standings": "2026-08-22T03:59:25+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-21T23:36:06+00:00",
-    "weather": "2026-08-22T03:10:59+00:00"
+    "weather": "2026-08-22T03:59:25+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -65,6 +65,15 @@
         "media_state": "MEDIA_OFF"
       },
       {
+        "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
+        "call_sign": "MIAM",
+        "type": "TV",
+        "language": "en",
+        "is_national": false,
+        "home_away": "home",
+        "media_state": "MEDIA_OFF"
+      },
+      {
         "name": "FS1",
         "call_sign": "FS1",
         "type": "TV",
@@ -80,15 +89,6 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
-      },
-      {
-        "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
-        "call_sign": "MIAM",
-        "type": "TV",
-        "language": "en",
-        "is_national": false,
-        "home_away": "home",
         "media_state": "MEDIA_OFF"
       },
       {
@@ -154,7 +154,7 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-22T03:10:59+00:00",
+    "fetched_at": "2026-08-22T03:59:25+00:00",
     "source": "open_meteo",
     "game_pk": 823831,
     "venue_name": "loanDepot park",
@@ -223,6 +223,15 @@
           "media_state": "MEDIA_OFF"
         },
         {
+          "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
+          "call_sign": "MIAM",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
           "name": "FS1",
           "call_sign": "FS1",
           "type": "TV",
@@ -238,15 +247,6 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
-          "call_sign": "MIAM",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -455,7 +455,7 @@
         "abbrev": "COL",
         "name": "Colorado Rockies",
         "short_name": "Rockies",
-        "record": "50-77",
+        "record": "50-78",
         "score": null
       },
       "venue": {
@@ -594,7 +594,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
@@ -603,7 +603,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -612,7 +612,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "WQAM 104.3",
@@ -621,7 +621,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "WAQI 710",
@@ -630,7 +630,7 @@
         "language": "es",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       }
     ],
     "linescore": {
@@ -861,7 +861,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
@@ -870,7 +870,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -879,7 +879,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WQAM 104.3",
@@ -888,7 +888,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WAQI 710",
@@ -897,7 +897,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         }
       ],
       "linescore": {
@@ -988,6 +988,15 @@
           "media_state": "MEDIA_OFF"
         },
         {
+          "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
+          "call_sign": "MIAM",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
           "name": "FS1",
           "call_sign": "FS1",
           "type": "TV",
@@ -1003,15 +1012,6 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
-          "call_sign": "MIAM",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1220,7 +1220,7 @@
         "abbrev": "COL",
         "name": "Colorado Rockies",
         "short_name": "Rockies",
-        "record": "50-77",
+        "record": "50-78",
         "score": null
       },
       "venue": {
@@ -1327,7 +1327,7 @@
         "abbrev": "COL",
         "name": "Colorado Rockies",
         "short_name": "Rockies",
-        "record": "50-77",
+        "record": "50-78",
         "score": null
       },
       "venue": {
@@ -1434,7 +1434,7 @@
         "abbrev": "COL",
         "name": "Colorado Rockies",
         "short_name": "Rockies",
-        "record": "50-77",
+        "record": "50-78",
         "score": null
       },
       "venue": {
@@ -1541,7 +1541,7 @@
         "abbrev": "COL",
         "name": "Colorado Rockies",
         "short_name": "Rockies",
-        "record": "50-77",
+        "record": "50-78",
         "score": null
       },
       "venue": {
@@ -2627,7 +2627,7 @@
         "losses": 58,
         "pct": ".550",
         "gb": "4.0",
-        "wc_gb": "+2.5",
+        "wc_gb": "+2.0",
         "streak": "W7",
         "last_ten": "8-2",
         "division_rank": 2,
@@ -2647,7 +2647,7 @@
         "losses": 64,
         "pct": ".504",
         "gb": "10.0",
-        "wc_gb": "3.5",
+        "wc_gb": "4.0",
         "streak": "W1",
         "last_ten": "5-5",
         "division_rank": 3,
@@ -2667,7 +2667,7 @@
         "losses": 69,
         "pct": ".469",
         "gb": "14.5",
-        "wc_gb": "8.0",
+        "wc_gb": "8.5",
         "streak": "L2",
         "last_ten": "2-8",
         "division_rank": 4,
@@ -2687,7 +2687,7 @@
         "losses": 71,
         "pct": ".450",
         "gb": "17.0",
-        "wc_gb": "10.5",
+        "wc_gb": "11.0",
         "streak": "L1",
         "last_ten": "6-4",
         "division_rank": 5,
@@ -2735,7 +2735,7 @@
           "losses": 58,
           "pct": ".550",
           "gb": "4.0",
-          "wc_gb": "+2.5",
+          "wc_gb": "+2.0",
           "streak": "W7",
           "last_ten": "8-2",
           "division_rank": 2,
@@ -2755,7 +2755,7 @@
           "losses": 64,
           "pct": ".504",
           "gb": "10.0",
-          "wc_gb": "3.5",
+          "wc_gb": "4.0",
           "streak": "W1",
           "last_ten": "5-5",
           "division_rank": 3,
@@ -2775,7 +2775,7 @@
           "losses": 69,
           "pct": ".469",
           "gb": "14.5",
-          "wc_gb": "8.0",
+          "wc_gb": "8.5",
           "streak": "L2",
           "last_ten": "2-8",
           "division_rank": 4,
@@ -2795,7 +2795,7 @@
           "losses": 71,
           "pct": ".450",
           "gb": "17.0",
-          "wc_gb": "10.5",
+          "wc_gb": "11.0",
           "streak": "L1",
           "last_ten": "6-4",
           "division_rank": 5,
@@ -2838,19 +2838,19 @@
           "abbrev": "SD",
           "name": "San Diego Padres",
           "short_name": "Padres",
-          "wins": 68,
+          "wins": 69,
           "losses": 60,
-          "pct": ".531",
-          "gb": "9.0",
+          "pct": ".535",
+          "gb": "8.5",
           "wc_gb": "-",
-          "streak": "L1",
+          "streak": "W1",
           "last_ten": "7-3",
           "division_rank": 2,
           "league_rank": 6,
           "wc_rank": 3,
-          "run_diff": 3,
-          "runs_scored": 543,
-          "runs_allowed": 540,
+          "run_diff": 7,
+          "runs_scored": 549,
+          "runs_allowed": 542,
           "elim_num": "26"
         },
         {
@@ -2862,7 +2862,7 @@
           "losses": 61,
           "pct": ".523",
           "gb": "10.0",
-          "wc_gb": "1.0",
+          "wc_gb": "1.5",
           "streak": "W1",
           "last_ten": "5-5",
           "division_rank": 3,
@@ -2882,7 +2882,7 @@
           "losses": 76,
           "pct": ".406",
           "gb": "25.0",
-          "wc_gb": "16.0",
+          "wc_gb": "16.5",
           "streak": "L2",
           "last_ten": "3-7",
           "division_rank": 4,
@@ -2899,19 +2899,19 @@
           "name": "Colorado Rockies",
           "short_name": "Rockies",
           "wins": 50,
-          "losses": 77,
-          "pct": ".394",
-          "gb": "26.5",
-          "wc_gb": "17.5",
-          "streak": "L3",
+          "losses": 78,
+          "pct": ".391",
+          "gb": "27.0",
+          "wc_gb": "18.5",
+          "streak": "L4",
           "last_ten": "4-6",
           "division_rank": 5,
           "league_rank": 15,
           "wc_rank": 12,
-          "run_diff": -122,
-          "runs_scored": 611,
-          "runs_allowed": 733,
-          "elim_num": "9"
+          "run_diff": -130,
+          "runs_scored": 612,
+          "runs_allowed": 742,
+          "elim_num": "8"
         }
       ]
     },
@@ -2949,7 +2949,7 @@
           "losses": 54,
           "pct": ".578",
           "gb": "5.5",
-          "wc_gb": "+6.0",
+          "wc_gb": "+5.5",
           "streak": "L1",
           "last_ten": "6-4",
           "division_rank": 2,
@@ -2969,7 +2969,7 @@
           "losses": 64,
           "pct": ".508",
           "gb": "14.5",
-          "wc_gb": "3.0",
+          "wc_gb": "3.5",
           "streak": "L1",
           "last_ten": "6-4",
           "division_rank": 3,
@@ -2989,7 +2989,7 @@
           "losses": 66,
           "pct": ".488",
           "gb": "17.0",
-          "wc_gb": "5.5",
+          "wc_gb": "6.0",
           "streak": "W2",
           "last_ten": "5-5",
           "division_rank": 4,
@@ -3009,7 +3009,7 @@
           "losses": 67,
           "pct": ".477",
           "gb": "18.5",
-          "wc_gb": "7.0",
+          "wc_gb": "7.5",
           "streak": "L1",
           "last_ten": "4-6",
           "division_rank": 5,
@@ -3056,7 +3056,7 @@
           "losses": 55,
           "pct": ".570",
           "gb": "3.0",
-          "wc_gb": "+10.0",
+          "wc_gb": "+9.5",
           "streak": "W5",
           "last_ten": "7-3",
           "division_rank": 2,
@@ -3076,7 +3076,7 @@
           "losses": 59,
           "pct": ".539",
           "gb": "7.0",
-          "wc_gb": "+6.0",
+          "wc_gb": "+5.5",
           "streak": "W1",
           "last_ten": "5-5",
           "division_rank": 3,
@@ -3096,12 +3096,12 @@
           "losses": 67,
           "pct": ".485",
           "gb": "14.0",
-          "wc_gb": "1.0",
+          "wc_gb": "1.5",
           "streak": "L1",
           "last_ten": "6-4",
           "division_rank": 4,
-          "league_rank": 8,
-          "wc_rank": 5,
+          "league_rank": 9,
+          "wc_rank": 6,
           "run_diff": -51,
           "runs_scored": 514,
           "runs_allowed": 565,
@@ -3116,7 +3116,7 @@
           "losses": 67,
           "pct": ".481",
           "gb": "14.5",
-          "wc_gb": "1.5",
+          "wc_gb": "2.0",
           "streak": "W1",
           "last_ten": "5-5",
           "division_rank": 5,
@@ -3160,38 +3160,38 @@
           "name": "Minnesota Twins",
           "short_name": "Twins",
           "wins": 63,
-          "losses": 65,
-          "pct": ".492",
-          "gb": "4.0",
-          "wc_gb": "-",
-          "streak": "W3",
+          "losses": 66,
+          "pct": ".488",
+          "gb": "4.5",
+          "wc_gb": "1.0",
+          "streak": "L1",
           "last_ten": "5-5",
           "division_rank": 2,
-          "league_rank": 6,
-          "wc_rank": 3,
-          "run_diff": -41,
-          "runs_scored": 592,
-          "runs_allowed": 633,
-          "elim_num": "31"
+          "league_rank": 7,
+          "wc_rank": 4,
+          "run_diff": -45,
+          "runs_scored": 594,
+          "runs_allowed": 639,
+          "elim_num": "30"
         },
         {
           "id": 114,
           "abbrev": "CLE",
           "name": "Cleveland Guardians",
           "short_name": "Guardians",
-          "wins": 62,
+          "wins": 63,
           "losses": 66,
-          "pct": ".484",
-          "gb": "5.0",
+          "pct": ".488",
+          "gb": "4.5",
           "wc_gb": "1.0",
-          "streak": "W1",
-          "last_ten": "4-6",
+          "streak": "W2",
+          "last_ten": "5-5",
           "division_rank": 3,
-          "league_rank": 9,
-          "wc_rank": 6,
-          "run_diff": -23,
-          "runs_scored": 507,
-          "runs_allowed": 530,
+          "league_rank": 8,
+          "wc_rank": 5,
+          "run_diff": -15,
+          "runs_scored": 516,
+          "runs_allowed": 531,
           "elim_num": "30"
         },
         {
@@ -3203,7 +3203,7 @@
           "losses": 67,
           "pct": ".477",
           "gb": "6.0",
-          "wc_gb": "2.0",
+          "wc_gb": "2.5",
           "streak": "L3",
           "last_ten": "3-7",
           "division_rank": 4,
@@ -3223,7 +3223,7 @@
           "losses": 74,
           "pct": ".431",
           "gb": "12.0",
-          "wc_gb": "8.0",
+          "wc_gb": "8.5",
           "streak": "W6",
           "last_ten": "7-3",
           "division_rank": 5,
@@ -3266,19 +3266,19 @@
           "abbrev": "TEX",
           "name": "Texas Rangers",
           "short_name": "Rangers",
-          "wins": 63,
+          "wins": 64,
           "losses": 65,
-          "pct": ".492",
-          "gb": "1.5",
+          "pct": ".496",
+          "gb": "1.0",
           "wc_gb": "-",
-          "streak": "W1",
+          "streak": "W2",
           "last_ten": "4-6",
           "division_rank": 2,
-          "league_rank": 7,
-          "wc_rank": 4,
-          "run_diff": -46,
-          "runs_scored": 514,
-          "runs_allowed": 560,
+          "league_rank": 6,
+          "wc_rank": 3,
+          "run_diff": -45,
+          "runs_scored": 516,
+          "runs_allowed": 561,
           "elim_num": "33"
         },
         {
@@ -3290,7 +3290,7 @@
           "losses": 68,
           "pct": ".469",
           "gb": "4.5",
-          "wc_gb": "3.0",
+          "wc_gb": "3.5",
           "streak": "L1",
           "last_ten": "4-6",
           "division_rank": 3,
@@ -3307,19 +3307,19 @@
           "name": "Los Angeles Angels",
           "short_name": "Angels",
           "wins": 51,
-          "losses": 77,
-          "pct": ".398",
-          "gb": "13.5",
-          "wc_gb": "12.0",
-          "streak": "W1",
+          "losses": 78,
+          "pct": ".395",
+          "gb": "14.0",
+          "wc_gb": "13.0",
+          "streak": "L1",
           "last_ten": "6-4",
           "division_rank": 4,
           "league_rank": 14,
           "wc_rank": 11,
-          "run_diff": -70,
-          "runs_scored": 530,
-          "runs_allowed": 600,
-          "elim_num": "21"
+          "run_diff": -71,
+          "runs_scored": 531,
+          "runs_allowed": 602,
+          "elim_num": "20"
         },
         {
           "id": 133,
@@ -3330,7 +3330,7 @@
           "losses": 80,
           "pct": ".380",
           "gb": "16.0",
-          "wc_gb": "14.5",
+          "wc_gb": "15.0",
           "streak": "L5",
           "last_ten": "2-8",
           "division_rank": 5,
@@ -3353,7 +3353,7 @@
     "losses": 69,
     "pct": ".469",
     "gb": "14.5",
-    "wc_gb": "8.0",
+    "wc_gb": "8.5",
     "streak": "L2",
     "last_ten": "2-8",
     "division_rank": 4,
