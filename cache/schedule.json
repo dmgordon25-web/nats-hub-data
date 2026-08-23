@@ -1,138 +1,7 @@
 {
-  "fetched_at": "2026-08-22T23:55:02+00:00",
+  "fetched_at": "2026-08-23T01:14:57+00:00",
   "source": "mlb_statsapi",
   "games": [
-    {
-      "game_pk": 822861,
-      "date": "2026-08-20",
-      "start_time_utc": "2026-08-21T00:05:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 140,
-        "abbrev": "TEX",
-        "name": "Texas Rangers",
-        "short_name": "Rangers",
-        "record": "63-65",
-        "score": 2
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "61-68",
-        "score": 0
-      },
-      "venue": {
-        "id": 5325,
-        "name": "Globe Life Field",
-        "city": "Arlington",
-        "state": "TX",
-        "lat": 32.747299,
-        "lon": -97.081818
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 594798,
-          "name": "Jacob deGrom",
-          "hand": null
-        },
-        "away": {
-          "id": 674841,
-          "name": "Andrew Alvarez",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Rangers Sports Network, presented by Progressive",
-          "call_sign": "RSN",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "FS1",
-          "call_sign": "FS1",
-          "type": "TV",
-          "language": "en",
-          "is_national": true,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "FS1",
-          "call_sign": "FS1",
-          "type": "TV",
-          "language": "en",
-          "is_national": true,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "105.3 The Fan",
-          "call_sign": "105.3 KRLD",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "KFLC 1270",
-          "call_sign": "KFLC",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 1,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 2,
-        "away_runs": 0,
-        "home_hits": 6,
-        "away_hits": 1,
-        "home_errors": 0,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 3,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi"
-    },
     {
       "game_pk": 823830,
       "date": "2026-08-21",
@@ -315,7 +184,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
@@ -324,7 +193,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -333,7 +202,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "560AM WQAM",
@@ -342,7 +211,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WAQI 710",
@@ -351,7 +220,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         }
       ],
       "linescore": {
@@ -1744,6 +1613,111 @@
       },
       "series": {
         "game_number": 2,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi"
+    },
+    {
+      "game_pk": 823903,
+      "date": "2026-09-06",
+      "start_time_utc": "2026-09-07T02:10:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": false,
+      "home": {
+        "id": 119,
+        "abbrev": "LAD",
+        "name": "Los Angeles Dodgers",
+        "short_name": "Dodgers",
+        "record": "78-51",
+        "score": null
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "61-70",
+        "score": null
+      },
+      "venue": {
+        "id": 22,
+        "name": "UNIQLO Field at Dodger Stadium",
+        "city": "Los Angeles",
+        "state": "CA",
+        "lat": 34.07368,
+        "lon": -118.24053
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "SportsNet LA",
+          "call_sign": "SNLA",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Dodgers Radio AM570",
+          "call_sign": "KLAC AM570",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KTNQ 1020",
+          "call_sign": "KTNQ",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 3,
         "games_in_series": 3,
         "description": "Regular Season"
       },
