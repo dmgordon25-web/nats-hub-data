@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-23T17:54:00+00:00",
+  "fetched_at": "2026-08-23T18:33:07+00:00",
   "freshness": {
-    "schedule": "2026-08-23T17:54:00+00:00",
-    "standings": "2026-08-23T17:54:00+00:00",
+    "schedule": "2026-08-23T18:33:06+00:00",
+    "standings": "2026-08-23T18:33:06+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-23T13:43:36+00:00",
-    "weather": "2026-08-23T17:54:00+00:00"
+    "weather": "2026-08-23T18:33:06+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -24,7 +24,7 @@
       "name": "Miami Marlins",
       "short_name": "Marlins",
       "record": "66-64",
-      "score": 0
+      "score": 1
     },
     "away": {
       "id": 120,
@@ -102,16 +102,16 @@
       }
     ],
     "linescore": {
-      "current_inning": 1,
-      "inning_half": "Bottom",
-      "inning_state": "Bottom",
-      "is_top_inning": false,
-      "balls": 0,
+      "current_inning": 4,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 2,
       "strikes": 2,
-      "outs": 1,
-      "home_runs": 0,
+      "outs": 0,
+      "home_runs": 1,
       "away_runs": 0,
-      "home_hits": 0,
+      "home_hits": 2,
       "away_hits": 0,
       "home_errors": 0,
       "away_errors": 0
@@ -136,7 +136,7 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-23T17:54:00+00:00",
+    "fetched_at": "2026-08-23T18:33:06+00:00",
     "source": "open_meteo",
     "game_pk": 823827,
     "venue_name": "loanDepot park",
@@ -164,7 +164,7 @@
         "name": "Miami Marlins",
         "short_name": "Marlins",
         "record": "66-64",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 120,
@@ -242,16 +242,16 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 0,
+        "current_inning": 4,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 2,
         "strikes": 2,
-        "outs": 1,
-        "home_runs": 0,
+        "outs": 0,
+        "home_runs": 1,
         "away_runs": 0,
-        "home_hits": 0,
+        "home_hits": 2,
         "away_hits": 0,
         "home_errors": 0,
         "away_errors": 0
@@ -312,7 +312,11 @@
           "name": "Cade Cavalli",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 663372,
+          "name": "Ryan Feltner",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -423,7 +427,11 @@
           "name": "Andrew Alvarez",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 607536,
+          "name": "Kyle Freeland",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -920,7 +928,7 @@
         "name": "Miami Marlins",
         "short_name": "Marlins",
         "record": "66-64",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 120,
@@ -998,16 +1006,16 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 0,
+        "current_inning": 4,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 2,
         "strikes": 2,
-        "outs": 1,
-        "home_runs": 0,
+        "outs": 0,
+        "home_runs": 1,
         "away_runs": 0,
-        "home_hits": 0,
+        "home_hits": 2,
         "away_hits": 0,
         "home_errors": 0,
         "away_errors": 0
@@ -1068,7 +1076,11 @@
           "name": "Cade Cavalli",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 663372,
+          "name": "Ryan Feltner",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1179,7 +1191,11 @@
           "name": "Andrew Alvarez",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 607536,
+          "name": "Kyle Freeland",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1286,7 +1302,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 685299,
+          "name": "Tanner Gordon",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1397,7 +1417,11 @@
           "name": "Jake Irvin",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 687312,
+          "name": "Gabriel Hughes",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
