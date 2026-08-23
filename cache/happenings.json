@@ -1,73 +1,82 @@
 {
   "data_version": 1,
-  "generated_at": "2026-08-23T07:01:57+00:00",
-  "mode": "falkor_enriched",
+  "generated_at": "2026-08-23T11:04:07+00:00",
+  "mode": "rss_fallback",
   "freshness": {
-    "news": "2026-08-23T07:01:19+00:00",
-    "videos": "2026-08-23T07:01:19+00:00",
-    "vibes": "2026-08-23T07:01:57+00:00"
+    "news": "2026-08-23T11:02:05+00:00",
+    "videos": "2026-08-23T11:02:05+00:00",
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-08-23T07:01:16+00:00",
+      "last_updated_at": "2026-08-23T11:02:02+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-08-23T07:01:17+00:00",
+      "last_updated_at": "2026-08-23T11:02:03+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-08-23T07:01:17+00:00",
+      "last_updated_at": "2026-08-23T11:02:03+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-08-23T07:01:18+00:00",
+      "last_updated_at": "2026-08-23T11:02:03+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-08-23T07:01:18+00:00",
+      "last_updated_at": "2026-08-23T11:02:04+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-08-23T07:01:19+00:00",
+      "last_updated_at": "2026-08-23T11:02:04+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-08-23T07:01:19+00:00",
+      "last_updated_at": "2026-08-23T11:02:05+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-08-23T07:01:19+00:00",
+      "last_updated_at": "2026-08-23T11:02:05+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "why_it_matters",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "trending",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
+    }
+  ],
   "top_stories": [
     {
       "title": "Nationals Claim Matt Waldron",
       "url": "https://www.mlbtraderumors.com/2026/08/nationals-claim-matt-waldron.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-08-22T19:37:20+00:00",
-      "why_it_matters": {
-        "text": "The Nationals claimed right-hander Matt Waldron off waivers from the Blue Jays. In a corresponding move, Connelly Early was moved from the 15-day injured list to the 60-day IL.",
-        "ai_generated": true
-      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2023/12/USATSI_21530990-1024x682.jpg"
     },
     {
@@ -75,10 +84,6 @@
       "url": "https://nats.talkdcsports.com/2026/08/22/game-131-nats-need-to-even-up-this-series/",
       "source": "Talk Nats",
       "published_at": "2026-08-22T18:58:00+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals lost their last game and need to even up the series against the Marlins. With only 31 games remaining in the regular season, questions remain regarding manager Blake Butera's strategy and the team's ability to start a winning streak.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2021/06/Marlins-Park-Sol-Tucker-6-27-2021.jpeg?fit=1200%2C900&ssl=1"
     },
     {
@@ -86,10 +91,6 @@
       "url": "https://www.federalbaseball.com/washington-nationals-discussions/93647/washington-nationals-vs-miami-marlins-game-thread",
       "source": "Federal Baseball",
       "published_at": "2026-08-22T18:31:55+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals mounted a rare ninth-inning comeback against the Miami Marlins but ultimately lost. The team faces an injury-stricken lineup while looking to even the series in Miami.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2290864810.jpg?quality=90&strip=all&crop=0%2C10.752607989199%2C100%2C78.494784021602&w=1200"
     },
     {
@@ -97,10 +98,6 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/93639/keibert-ruiz-been-rock-solid-for-washington-nationals",
       "source": "Federal Baseball",
       "published_at": "2026-08-22T14:57:32+00:00",
-      "why_it_matters": {
-        "text": "Despite the Washington Nationals facing issues with injuries and trades affecting their offense, catcher Keibert Ruiz continues to perform well and produce results for the team.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2290843058.jpg?quality=90&strip=all&crop=0%2C10.729222003675%2C100%2C78.54155599265&w=1200"
     },
     {
@@ -108,10 +105,6 @@
       "url": "https://nats.talkdcsports.com/2026/08/22/not-all-blown-saves-are-created-equally/",
       "source": "Talk Nats",
       "published_at": "2026-08-22T13:18:10+00:00",
-      "why_it_matters": {
-        "text": "Not all blown saves are equal, as some are not the reliever's fault and do not necessarily result in losses. The article provides examples of blown saves experienced by the Washington Nationals this season.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/IMG-20260812-WA0056.jpg?fit=1200%2C1046&ssl=1"
     },
     {
@@ -119,10 +112,6 @@
       "url": "https://nats.talkdcsports.com/2026/08/21/game-130-nats-have-an-opportunity-in-miami/",
       "source": "Talk Nats",
       "published_at": "2026-08-21T22:52:45+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals face the Marlins in Game 130 in Miami. Both teams have undergone changes, and the Nationals are looking to establish a winning streak with their new lineup.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2023/05/20230516_190309-1.jpg?fit=1200%2C900&ssl=1"
     },
     {
@@ -144,10 +133,6 @@
     "result_banner": {
       "type": "loss",
       "text": "Tough one — the Nats fell to the Marlins 4-2."
-    },
-    "storyline": {
-      "text": "The Nationals claimed right-hander Matt Waldron off waivers from the Blue Jays. In a corresponding move, Connelly Early was moved from the 15-day injured list to the 60-day IL.",
-      "ai_generated": true
     }
   },
   "videos": [
@@ -195,110 +180,11 @@
     }
   ],
   "fan_vibes": {
-    "overall": "mixed",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "Roster Management",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.mlbtraderumors.com/2026/08/nationals-claim-matt-waldron.html"
-        ]
-      },
-      {
-        "label": "On-field Performance",
-        "sentiment": "mixed",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/08/21/game-130-nats-have-an-opportunity-in-miami/",
-          "https://nats.talkdcsports.com/2026/08/22/game-131-nats-need-to-even-up-this-series/",
-          "https://www.federalbaseball.com/washington-nationals-discussions/93647/washington-nationals-vs-miami-marlins-game-thread"
-        ]
-      },
-      {
-        "label": "Individual Standouts",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/93639/keibert-ruiz-been-rock-solid-for-washington-nationals"
-        ]
-      },
-      {
-        "label": "Injury Impact",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/93639/keibert-ruiz-been-rock-solid-for-washington-nationals",
-          "https://www.federalbaseball.com/washington-nationals-discussions/93647/washington-nationals-vs-miami-marlins-game-thread"
-        ]
-      }
-    ]
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
   },
-  "trending": [
-    {
-      "label": "Marlins",
-      "sentiment": "",
-      "context": "Game #131 Nats need to even up this series!",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/21/game-130-nats-have-an-opportunity-in-miami/",
-        "https://nats.talkdcsports.com/2026/08/22/game-131-nats-need-to-even-up-this-series/",
-        "https://www.federalbaseball.com/washington-nationals-discussions/93647/washington-nationals-vs-miami-marlins-game-thread"
-      ]
-    },
-    {
-      "label": "Matt Waldron",
-      "sentiment": "",
-      "context": "Nationals Claim Matt Waldron",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/08/nationals-claim-matt-waldron.html"
-      ]
-    },
-    {
-      "label": "Blue Jays",
-      "sentiment": "",
-      "context": "Nationals Claim Matt Waldron",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/08/nationals-claim-matt-waldron.html"
-      ]
-    },
-    {
-      "label": "Roster Move",
-      "sentiment": "",
-      "context": "Nationals Claim Matt Waldron",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/08/nationals-claim-matt-waldron.html"
-      ]
-    },
-    {
-      "label": "Blake Butera",
-      "sentiment": "",
-      "context": "Game #131 Nats need to even up this series!",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/22/game-131-nats-need-to-even-up-this-series/"
-      ]
-    },
-    {
-      "label": "regular season",
-      "sentiment": "",
-      "context": "Game #131 Nats need to even up this series!",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/22/game-131-nats-need-to-even-up-this-series/"
-      ]
-    },
-    {
-      "label": "Keibert Ruiz",
-      "sentiment": "",
-      "context": "Keibert Ruiz has been rock solid for the Washington Nationals",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/93639/keibert-ruiz-been-rock-solid-for-washington-nationals"
-      ]
-    },
-    {
-      "label": "blown saves",
-      "sentiment": "",
-      "context": "Not all blown saves are created equally!",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/22/not-all-blown-saves-are-created-equally/"
-      ]
-    }
-  ],
+  "trending": [],
   "what_to_watch": [
     {
       "text": "The Nats visit the Marlins on Sunday.",
