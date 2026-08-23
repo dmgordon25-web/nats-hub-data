@@ -1,76 +1,63 @@
 {
   "data_version": 1,
-  "generated_at": "2026-08-23T23:10:40+00:00",
-  "mode": "rss_fallback",
+  "generated_at": "2026-08-23T23:48:24+00:00",
+  "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-08-23T23:08:37+00:00",
-    "videos": "2026-08-23T23:08:37+00:00",
-    "vibes": null
+    "news": "2026-08-23T23:47:35+00:00",
+    "videos": "2026-08-23T23:47:35+00:00",
+    "vibes": "2026-08-23T23:48:24+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-08-23T23:08:34+00:00",
+      "last_updated_at": "2026-08-23T23:47:32+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-08-23T23:08:34+00:00",
+      "last_updated_at": "2026-08-23T23:47:33+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-08-23T23:08:35+00:00",
+      "last_updated_at": "2026-08-23T23:47:33+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-08-23T23:08:35+00:00",
+      "last_updated_at": "2026-08-23T23:47:33+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-08-23T23:08:35+00:00",
+      "last_updated_at": "2026-08-23T23:47:34+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-08-23T23:08:36+00:00",
+      "last_updated_at": "2026-08-23T23:47:34+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-08-23T23:08:37+00:00",
+      "last_updated_at": "2026-08-23T23:47:34+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-08-23T23:08:37+00:00",
+      "last_updated_at": "2026-08-23T23:47:35+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "why_it_matters",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "trending",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "One month ago was all positive vibes; Today the polar opposite!",
@@ -84,6 +71,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-scores/93673/2026-washington-nationals-become-deeply-depressing-team-watch",
       "source": "Federal Baseball",
       "published_at": "2026-08-23T21:11:09+00:00",
+      "why_it_matters": {
+        "text": "Despite an incredible defensive play by Jacob Young in the third inning where he made a spectacular catch to rob Heriberto Hernandez of extra bases, the 2026 Washington Nationals are described as a depressing team to watch.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2291725267.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -91,6 +82,10 @@
       "url": "https://sports.yahoo.com/mlb/article/nationals-center-fielder-jacob-young-scales-wall-to-snare-deep-fly-from-marlins-heriberto-hernandez-200914446.html",
       "source": "Yahoo Sports MLB",
       "published_at": "2026-08-23T20:09:14+00:00",
+      "why_it_matters": {
+        "text": "Nationals center fielder Jacob Young made a spectacular defensive play by scaling a wall to catch a deep fly ball from Marlins' Heriberto Hernández.",
+        "ai_generated": true
+      },
       "image_url": "https://s.yimg.com/lo/mysterio/api/08a2a84f2d40ecc73a5b8e33df2bfd3d7420b270b44e4b897184a354953a8ee2/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-08%2F50c55fb2-b866-41ac-923f-7dcb1b432c1a"
     },
     {
@@ -98,6 +93,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-discussions/93666/washington-nationals-vs-miami-marlins-game-thread",
       "source": "Federal Baseball",
       "published_at": "2026-08-23T16:29:16+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals are in a free fall and need to start winning games to improve their season standing. They face the Miami Marlins today, seeking to avoid another divisional sweep.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2291041417.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -105,6 +104,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/93655/washington-nationals-erik-tolman-story-unshakable-resilience",
       "source": "Federal Baseball",
       "published_at": "2026-08-23T14:00:45+00:00",
+      "why_it_matters": {
+        "text": "Despite a forgettable night and a 4-2 loss against the Miami Marlins, Washington Nationals player Erik Tolman demonstrated unshakable resilience during the game.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2291051546.jpg?quality=90&strip=all&crop=0%2C10.741326552745%2C100%2C78.51734689451&w=1200"
     },
     {
@@ -112,6 +115,10 @@
       "url": "https://nats.talkdcsports.com/2026/08/23/game-132-nats-need-a-win/",
       "source": "Talk Nats",
       "published_at": "2026-08-23T13:53:00+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals need a win in Game 132 after the pitching staff allowed only four runs while the bats produced only two. The team continues to play without James Wood and CJ Abrams.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/IMG-20260812-WA0017.jpg?fit=1200%2C800&ssl=1"
     },
     {
@@ -180,11 +187,94 @@
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "negative",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "Team Performance Decline",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/08/23/one-month-ago-was-all-positive-vibes-today-the-polar-opposite/",
+          "https://www.federalbaseball.com/washington-nationals-discussions/93666/washington-nationals-vs-miami-marlins-game-thread",
+          "https://www.federalbaseball.com/washington-nationals-scores/93673/2026-washington-nationals-become-deeply-depressing-team-watch"
+        ]
+      },
+      {
+        "label": "Individual Defensive Highlights",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://sports.yahoo.com/mlb/article/nationals-center-fielder-jacob-young-scales-wall-to-snare-deep-fly-from-marlins-heriberto-hernandez-200914446.html"
+        ]
+      },
+      {
+        "label": "Player Resilience",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/93655/washington-nationals-erik-tolman-story-unshakable-resilience"
+        ]
+      },
+      {
+        "label": "Offensive Struggles",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/08/23/game-132-nats-need-a-win/"
+        ]
+      }
+    ]
   },
-  "trending": [],
+  "trending": [
+    {
+      "label": "Jacob Young",
+      "sentiment": "",
+      "context": "The 2026 Washington Nationals have become a deeply depressing team to watch",
+      "source_urls": [
+        "https://sports.yahoo.com/mlb/article/nationals-center-fielder-jacob-young-scales-wall-to-snare-deep-fly-from-marlins-heriberto-hernandez-200914446.html",
+        "https://www.federalbaseball.com/washington-nationals-scores/93673/2026-washington-nationals-become-deeply-depressing-team-watch"
+      ]
+    },
+    {
+      "label": "defense",
+      "sentiment": "",
+      "context": "The 2026 Washington Nationals have become a deeply depressing team to watch",
+      "source_urls": [
+        "https://sports.yahoo.com/mlb/article/nationals-center-fielder-jacob-young-scales-wall-to-snare-deep-fly-from-marlins-heriberto-hernandez-200914446.html",
+        "https://www.federalbaseball.com/washington-nationals-scores/93673/2026-washington-nationals-become-deeply-depressing-team-watch"
+      ]
+    },
+    {
+      "label": "Miami Marlins",
+      "sentiment": "",
+      "context": "Washington Nationals vs Miami Marlins Game Thread",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/93655/washington-nationals-erik-tolman-story-unshakable-resilience",
+        "https://www.federalbaseball.com/washington-nationals-discussions/93666/washington-nationals-vs-miami-marlins-game-thread"
+      ]
+    },
+    {
+      "label": "divisional sweep",
+      "sentiment": "",
+      "context": "Washington Nationals vs Miami Marlins Game Thread",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-discussions/93666/washington-nationals-vs-miami-marlins-game-thread"
+      ]
+    },
+    {
+      "label": "Erik Tolman",
+      "sentiment": "",
+      "context": "Washington Nationals Erik Tolman has a story of unshakable resilience",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/93655/washington-nationals-erik-tolman-story-unshakable-resilience"
+      ]
+    },
+    {
+      "label": "game update",
+      "sentiment": "",
+      "context": "Game #132 Nats need a win!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/08/23/game-132-nats-need-a-win/"
+      ]
+    }
+  ],
   "what_to_watch": [
     {
       "text": "The Nats host the Rockies on Monday.",
