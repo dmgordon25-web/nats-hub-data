@@ -1,73 +1,103 @@
 {
   "data_version": 1,
-  "generated_at": "2026-08-24T18:24:52+00:00",
-  "mode": "falkor_enriched",
+  "generated_at": "2026-08-24T22:25:13+00:00",
+  "mode": "rss_fallback",
   "freshness": {
-    "news": "2026-08-24T18:24:17+00:00",
-    "videos": "2026-08-24T18:24:17+00:00",
-    "vibes": "2026-08-24T18:24:52+00:00"
+    "news": "2026-08-24T22:25:07+00:00",
+    "videos": "2026-08-24T22:25:07+00:00",
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-08-24T18:24:14+00:00",
+      "last_updated_at": "2026-08-24T22:25:02+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-08-24T18:24:15+00:00",
+      "last_updated_at": "2026-08-24T22:25:03+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-08-24T18:24:15+00:00",
+      "last_updated_at": "2026-08-24T22:25:04+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-08-24T18:24:15+00:00",
+      "last_updated_at": "2026-08-24T22:25:04+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-08-24T18:24:16+00:00",
+      "last_updated_at": "2026-08-24T22:25:05+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-08-24T18:24:17+00:00",
+      "last_updated_at": "2026-08-24T22:25:06+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-08-24T18:24:17+00:00",
+      "last_updated_at": "2026-08-24T22:25:07+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-08-24T18:24:17+00:00",
+      "last_updated_at": "2026-08-24T22:25:07+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "why_it_matters",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "trending",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
+    }
+  ],
   "top_stories": [
+    {
+      "title": "Game #133 Cavalli trying to be the Ace of Diamonds",
+      "url": "https://nats.talkdcsports.com/2026/08/24/game-133-cavalli-trying-to-be-the-ace-of-diamonds/",
+      "source": "Talk Nats",
+      "published_at": "2026-08-24T21:57:00+00:00",
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/06/IMG-20260601-WA0051-1.jpg?fit=1200%2C973&ssl=1"
+    },
+    {
+      "title": "Colorado Rockies at Washington Nationals game discussion: Ryan Feltner vs. Cade Cavalli",
+      "url": "https://sports.yahoo.com/articles/colorado-rockies-washington-nationals-game-214500499.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-08-24T21:45:00+00:00",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/96795879845058ed2b6ef8ac20c2757a612c8aba8814bb0f6354020b7d6f4296/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fd313c80f66fa7818e5a06b518afab039.jpg"
+    },
+    {
+      "title": "Free-falling Washington Nationals comes home for 4 games against Rockies",
+      "url": "https://sports.yahoo.com/articles/nationals-freefall-comes-home-4-200000470.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-08-24T20:00:00+00:00",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/4deaa280bc8ecf94c832687c9bb0b37a4b9fd5de2f2852622f02f3f061b5ff94/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F0d659af73c6a61506d83aee764a0125c.jpg"
+    },
     {
       "title": "Jacob Young has managed to hold off the competition and remain the Nationals center fielder",
       "url": "https://sports.yahoo.com/articles/jacob-young-managed-hold-off-171500897.html",
       "source": "Yahoo Sports MLB",
       "published_at": "2026-08-24T17:15:00+00:00",
-      "why_it_matters": {
-        "text": "Jacob Young has maintained his position as the Nationals' center fielder, successfully holding off highly touted competition that was expected to replace him.",
-        "ai_generated": true
-      },
       "image_url": "https://s.yimg.com/lo/mysterio/api/e9c8249c7f3353c7adf8d91051737254182949acb1e05499796669c0e8a213f7/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Ffe55fda5fde09e103dcadce00300a637.jpg"
     },
     {
@@ -75,32 +105,13 @@
       "url": "https://nats.talkdcsports.com/2026/08/24/espn-sportscenter-had-nats-highlights-as-their-intro-of-top-plays/",
       "source": "Talk Nats",
       "published_at": "2026-08-24T14:48:42+00:00",
-      "why_it_matters": {
-        "text": "ESPN Sportscenter featured highlights from the Washington Nationals during its intro of top plays, specifically highlighting Jacob Young's Spiderman catch and a segment showcasing his career catches.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/07/Jacob-Young-climbing-the-wall-by-Marideth-Sandler.jpeg?fit=1200%2C931&ssl=1"
-    },
-    {
-      "title": "Trey Lipscomb deserves a second chance with the Washington Nationals",
-      "url": "https://sports.yahoo.com/articles/trey-lipscomb-deserves-second-chance-142500861.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-08-24T14:25:00+00:00",
-      "why_it_matters": {
-        "text": "Trey Lipscomb has performed well enough this season to earn a second opportunity with the Washington Nationals.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/3e49af039cbb2c84ce4712a75452cee88276ba5f09b253077bf7b5af496ccb5c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fa8b096319514ff8c9c06be33fd3168d1.jpg"
     },
     {
       "title": "One month ago was all positive vibes; Today the polar opposite!",
       "url": "https://nats.talkdcsports.com/2026/08/23/one-month-ago-was-all-positive-vibes-today-the-polar-opposite/",
       "source": "Talk Nats",
       "published_at": "2026-08-23T22:49:46+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals are experiencing a shift in momentum. After being one game away from a Wild Card spot on July 26th following a win against the Arizona Diamondbacks, the team's situation has shifted significantly.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/07/Blake-Butera-lineup-card-Sol-Tucker-Sacramnento.jpg?fit=891%2C846&ssl=1"
     },
     {
@@ -108,10 +119,6 @@
       "url": "https://www.federalbaseball.com/washington-nationals-scores/93673/2026-washington-nationals-become-deeply-depressing-team-watch",
       "source": "Federal Baseball",
       "published_at": "2026-08-23T21:11:09+00:00",
-      "why_it_matters": {
-        "text": "Despite an incredible defensive play by Jacob Young in the third inning where he made a spectacular catch to rob Heriberto Hernandez of extra bases, the 2026 Washington Nationals are described as a depressing team to watch.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2291725267.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -119,35 +126,13 @@
       "url": "https://www.federalbaseball.com/washington-nationals-discussions/93666/washington-nationals-vs-miami-marlins-game-thread",
       "source": "Federal Baseball",
       "published_at": "2026-08-23T16:29:16+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals are in a free fall and need to start winning games to improve their season standing. They face the Miami Marlins today, seeking to avoid another divisional sweep.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2291041417.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "Washington Nationals Erik Tolman has a story of unshakable resilience",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/93655/washington-nationals-erik-tolman-story-unshakable-resilience",
-      "source": "Federal Baseball",
-      "published_at": "2026-08-23T14:00:45+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2291051546.jpg?quality=90&strip=all&crop=0%2C10.741326552745%2C100%2C78.51734689451&w=1200"
-    },
-    {
-      "title": "Game #132 Nats need a win!",
-      "url": "https://nats.talkdcsports.com/2026/08/23/game-132-nats-need-a-win/",
-      "source": "Talk Nats",
-      "published_at": "2026-08-23T13:53:00+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/IMG-20260812-WA0017.jpg?fit=1200%2C800&ssl=1"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "loss",
       "text": "Tough one — the Nats fell to the Marlins 6-2."
-    },
-    "storyline": {
-      "text": "Jacob Young has maintained his position as the Nationals' center fielder, successfully holding off highly touted competition that was expected to replace him.",
-      "ai_generated": true
     }
   },
   "videos": [
@@ -195,103 +180,11 @@
     }
   ],
   "fan_vibes": {
-    "overall": "mixed",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "Jacob Young's Performance",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/08/24/espn-sportscenter-had-nats-highlights-as-their-intro-of-top-plays/",
-          "https://sports.yahoo.com/articles/jacob-young-managed-hold-off-171500897.html",
-          "https://www.federalbaseball.com/washington-nationals-scores/93673/2026-washington-nationals-become-deeply-depressing-team-watch"
-        ]
-      },
-      {
-        "label": "Team Momentum Decline",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/08/23/one-month-ago-was-all-positive-vibes-today-the-polar-opposite/",
-          "https://www.federalbaseball.com/washington-nationals-discussions/93666/washington-nationals-vs-miami-marlins-game-thread"
-        ]
-      },
-      {
-        "label": "Roster Opportunities",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://sports.yahoo.com/articles/trey-lipscomb-deserves-second-chance-142500861.html"
-        ]
-      },
-      {
-        "label": "Current Team Outlook",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-discussions/93666/washington-nationals-vs-miami-marlins-game-thread",
-          "https://www.federalbaseball.com/washington-nationals-scores/93673/2026-washington-nationals-become-deeply-depressing-team-watch"
-        ]
-      }
-    ]
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
   },
-  "trending": [
-    {
-      "label": "Jacob Young",
-      "sentiment": "",
-      "context": "Jacob Young has managed to hold off the competition and remain the Nationals center fielder",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/24/espn-sportscenter-had-nats-highlights-as-their-intro-of-top-plays/",
-        "https://sports.yahoo.com/articles/jacob-young-managed-hold-off-171500897.html",
-        "https://www.federalbaseball.com/washington-nationals-scores/93673/2026-washington-nationals-become-deeply-depressing-team-watch"
-      ]
-    },
-    {
-      "label": "Roster",
-      "sentiment": "",
-      "context": "Jacob Young has managed to hold off the competition and remain the Nationals center fielder",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/jacob-young-managed-hold-off-171500897.html"
-      ]
-    },
-    {
-      "label": "ESPN",
-      "sentiment": "",
-      "context": "ESPN Sportscenter had Nats highlights as their intro of top plays!",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/24/espn-sportscenter-had-nats-highlights-as-their-intro-of-top-plays/"
-      ]
-    },
-    {
-      "label": "Sportscenter",
-      "sentiment": "",
-      "context": "ESPN Sportscenter had Nats highlights as their intro of top plays!",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/24/espn-sportscenter-had-nats-highlights-as-their-intro-of-top-plays/"
-      ]
-    },
-    {
-      "label": "Trey Lipscomb",
-      "sentiment": "",
-      "context": "Trey Lipscomb deserves a second chance with the Washington Nationals",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/trey-lipscomb-deserves-second-chance-142500861.html"
-      ]
-    },
-    {
-      "label": "Wild Card",
-      "sentiment": "",
-      "context": "One month ago was all positive vibes; Today the polar opposite!",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/23/one-month-ago-was-all-positive-vibes-today-the-polar-opposite/"
-      ]
-    },
-    {
-      "label": "Miami Marlins",
-      "sentiment": "",
-      "context": "Washington Nationals vs Miami Marlins Game Thread",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-discussions/93666/washington-nationals-vs-miami-marlins-game-thread"
-      ]
-    }
-  ],
+  "trending": [],
   "what_to_watch": [
     {
       "text": "The Nats host the Rockies on Monday.",
