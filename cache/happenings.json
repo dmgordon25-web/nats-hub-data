@@ -1,64 +1,80 @@
 {
   "data_version": 1,
-  "generated_at": "2026-08-25T02:25:55+00:00",
+  "generated_at": "2026-08-25T04:54:03+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-08-25T02:25:24+00:00",
+    "news": "2026-08-25T04:53:17+00:00",
     "videos": "2026-08-25T02:25:24+00:00",
-    "vibes": "2026-08-25T02:25:55+00:00"
+    "vibes": "2026-08-25T04:54:03+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-08-25T02:25:20+00:00",
+      "last_updated_at": "2026-08-25T04:53:05+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-08-25T02:25:21+00:00",
+      "last_updated_at": "2026-08-25T04:53:05+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-08-25T02:25:22+00:00",
+      "last_updated_at": "2026-08-25T04:53:06+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-08-25T02:25:22+00:00",
+      "last_updated_at": "2026-08-25T04:53:06+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-08-25T02:25:22+00:00",
+      "last_updated_at": "2026-08-25T04:53:06+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-08-25T02:25:23+00:00",
+      "last_updated_at": "2026-08-25T04:53:07+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-08-25T02:25:23+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-08-25T02:25:24+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    }
+  ],
   "top_stories": [
+    {
+      "title": "Bad baseball continues for Colorado as the Rockies fall to the Nationals 13-3",
+      "url": "https://sports.yahoo.com/articles/bad-baseball-continues-colorado-rockies-021954664.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-08-25T02:19:54+00:00",
+      "why_it_matters": {
+        "text": "The Colorado Rockies lost 13-3 to the Nationals, marking a season-high of seven consecutive losses.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/lo/mysterio/api/dd8e88f5a83773641c9baa635aa6b5ac4e1db23e61b4e2968170acc1b3599d3c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F35287bb012d40284c24dedc64fd176e2.jpg"
+    },
     {
       "title": "Ezequiel Tovar exits Rockies-Nationals game with left wrist strain",
       "url": "https://sports.yahoo.com/articles/ezequiel-tovar-exits-rockies-nationals-011519169.html",
@@ -76,7 +92,7 @@
       "source": "Talk Nats",
       "published_at": "2026-08-24T21:57:00+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals are looking for a win with pitcher Cade Cavalli on the mound tonight, as the team has not won a game since CJ Abrams twisted his ankle.",
+        "text": "The Washington Nationals face a winless streak since CJ Abrams' injury. The team looks to pitcher Cade Cavalli to act as the 'ace of diamonds' and secure a victory in Game 133.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/06/IMG-20260601-WA0051-1.jpg?fit=1200%2C973&ssl=1"
@@ -98,7 +114,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-08-24T21:13:48+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals return home to face the Colorado Rockies after a difficult 1-8 road trip. While the Rockies are considered a beatable opponent, the team's recent performance makes this four-game series a significant test for the battered and bruised squad.",
+        "text": "The Washington Nationals return home to face the Colorado Rockies after a difficult road trip. Despite facing a beatable opponent, the team's recent performance makes this four-game series a significant test for the battered and bruised squad.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2291081374.jpg?quality=90&strip=all&crop=0%2C10.736790342986%2C100%2C78.526419314028&w=1200"
@@ -108,6 +124,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-game-information/93700/nationals-freefall-comes-home-for-4-games-against-rockies",
       "source": "Federal Baseball",
       "published_at": "2026-08-24T20:23:04+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals are struggling in the National League East after a three-game sweep by Miami. They are currently 10 games below .500 and only 1.5 games ahead of the New York Mets, facing a difficult August with playoff hopes fading.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2291724637.jpg?quality=90&strip=all&crop=0%2C10.725760780371%2C100%2C78.548478439259&w=1200"
     },
     {
@@ -123,22 +143,15 @@
       "source": "Talk Nats",
       "published_at": "2026-08-24T14:48:42+00:00",
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/07/Jacob-Young-climbing-the-wall-by-Marideth-Sandler.jpeg?fit=1200%2C931&ssl=1"
-    },
-    {
-      "title": "Trey Lipscomb deserves a second chance with the Washington Nationals",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/93681/trey-lipscomb-deserves-second-chance-with-washington-nationals",
-      "source": "Federal Baseball",
-      "published_at": "2026-08-24T14:19:21+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2209927628.jpg?quality=90&strip=all&crop=0%2C10.74051103571%2C100%2C78.51897792858&w=1200"
     }
   ],
   "team_pulse": {
     "result_banner": {
-      "type": "loss",
-      "text": "Tough one — the Nats fell to the Marlins 6-2."
+      "type": "win",
+      "text": "Curly W! The Nats beat the Rockies 13-3."
     },
     "storyline": {
-      "text": "Ezequiel Tovar left a Rockies-Nationals game due to a left wrist strain, and Ryan Ritter entered the game at shortstop in the sixth inning.",
+      "text": "The Colorado Rockies lost 13-3 to the Nationals, marking a season-high of seven consecutive losses.",
       "ai_generated": true
     }
   },
@@ -187,7 +200,7 @@
     }
   ],
   "fan_vibes": {
-    "overall": "negative",
+    "overall": "mixed",
     "ai_generated": true,
     "themes": [
       {
@@ -200,11 +213,10 @@
         ]
       },
       {
-        "label": "Roster Health Concerns",
-        "sentiment": "negative",
+        "label": "Opponent Performance",
+        "sentiment": "positive",
         "source_urls": [
-          "https://nats.talkdcsports.com/2026/08/24/game-133-cavalli-trying-to-be-the-ace-of-diamonds/",
-          "https://www.federalbaseball.com/washington-nationals-discussions/93704/washington-nationals-vs-colorado-rockies-game-thread"
+          "https://sports.yahoo.com/articles/bad-baseball-continues-colorado-rockies-021954664.html"
         ]
       },
       {
@@ -214,25 +226,28 @@
           "https://nats.talkdcsports.com/2026/08/24/game-133-cavalli-trying-to-be-the-ace-of-diamonds/",
           "https://sports.yahoo.com/articles/colorado-rockies-washington-nationals-game-214500499.html"
         ]
-      },
-      {
-        "label": "Roster Stability",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/93691/jacob-young-managed-hold-off-competition-remain-nationals-center-fielder"
-        ]
       }
     ]
   },
   "trending": [
     {
-      "label": "Colorado Rockies",
+      "label": "Rockies",
       "sentiment": "",
-      "context": "Ezequiel Tovar exits Rockies-Nationals game with left wrist strain",
+      "context": "Bad baseball continues for Colorado as the Rockies fall to the Nationals 13-3",
       "source_urls": [
+        "https://sports.yahoo.com/articles/bad-baseball-continues-colorado-rockies-021954664.html",
         "https://sports.yahoo.com/articles/colorado-rockies-washington-nationals-game-214500499.html",
         "https://sports.yahoo.com/articles/ezequiel-tovar-exits-rockies-nationals-011519169.html",
         "https://www.federalbaseball.com/washington-nationals-discussions/93704/washington-nationals-vs-colorado-rockies-game-thread"
+      ]
+    },
+    {
+      "label": "Cade Cavalli",
+      "sentiment": "",
+      "context": "Game #133 Cavalli trying to be the Ace of Diamonds",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/08/24/game-133-cavalli-trying-to-be-the-ace-of-diamonds/",
+        "https://sports.yahoo.com/articles/colorado-rockies-washington-nationals-game-214500499.html"
       ]
     },
     {
@@ -244,14 +259,6 @@
       ]
     },
     {
-      "label": "Cade Cavalli",
-      "sentiment": "",
-      "context": "Game #133 Cavalli trying to be the Ace of Diamonds",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/24/game-133-cavalli-trying-to-be-the-ace-of-diamonds/"
-      ]
-    },
-    {
       "label": "CJ Abrams",
       "sentiment": "",
       "context": "Game #133 Cavalli trying to be the Ace of Diamonds",
@@ -260,11 +267,27 @@
       ]
     },
     {
-      "label": "home game",
+      "label": "Ryan Feltner",
+      "sentiment": "",
+      "context": "Colorado Rockies at Washington Nationals game discussion: Ryan Feltner vs. Cade Cavalli",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/colorado-rockies-washington-nationals-game-214500499.html"
+      ]
+    },
+    {
+      "label": "Home Game",
       "sentiment": "",
       "context": "Washington Nationals vs Colorado Rockies Game Thread",
       "source_urls": [
         "https://www.federalbaseball.com/washington-nationals-discussions/93704/washington-nationals-vs-colorado-rockies-game-thread"
+      ]
+    },
+    {
+      "label": "National League East",
+      "sentiment": "",
+      "context": "Free-falling Washington Nationals comes home for 4 games against Rockies",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-game-information/93700/nationals-freefall-comes-home-for-4-games-against-rockies"
       ]
     }
   ],
@@ -276,6 +299,10 @@
     {
       "text": "The Nats host the Rockies on Wednesday.",
       "source_url_or_game_pk": "822692"
+    },
+    {
+      "text": "The Nats host the Rockies on Thursday.",
+      "source_url_or_game_pk": "822694"
     }
   ],
   "on_this_day": {},
