@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-26T20:04:44+00:00",
+  "fetched_at": "2026-08-26T23:28:51+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -214,8 +214,8 @@
       "game_pk": 822692,
       "date": "2026-08-26",
       "start_time_utc": "2026-08-26T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -223,7 +223,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "62-72",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 115,
@@ -261,7 +261,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -270,7 +270,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -279,7 +279,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "KOA 850 AM/94.1 FM ",
@@ -288,21 +288,21 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 3,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
         "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
+        "strikes": 2,
+        "outs": 2,
+        "home_runs": 1,
         "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "home_hits": 2,
+        "away_hits": 2,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -1411,7 +1411,7 @@
         "abbrev": "SD",
         "name": "San Diego Padres",
         "short_name": "Padres",
-        "record": "71-62",
+        "record": "72-62",
         "score": null
       },
       "away": {
@@ -1516,7 +1516,7 @@
         "abbrev": "SD",
         "name": "San Diego Padres",
         "short_name": "Padres",
-        "record": "71-62",
+        "record": "72-62",
         "score": null
       },
       "away": {
@@ -1621,7 +1621,7 @@
         "abbrev": "SD",
         "name": "San Diego Padres",
         "short_name": "Padres",
-        "record": "71-62",
+        "record": "72-62",
         "score": null
       },
       "away": {
