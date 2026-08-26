@@ -1,88 +1,102 @@
 {
   "data_version": 1,
-  "generated_at": "2026-08-26T01:04:04+00:00",
+  "generated_at": "2026-08-26T04:03:25+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-08-26T01:01:54+00:00",
-    "videos": "2026-08-26T01:01:54+00:00",
-    "vibes": null
+    "news": "2026-08-26T04:02:26+00:00",
+    "videos": "2026-08-26T04:02:26+00:00",
+    "vibes": "2026-08-26T04:03:25+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-08-26T01:01:49+00:00",
+      "last_updated_at": "2026-08-26T04:02:18+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-08-26T01:01:50+00:00",
+      "last_updated_at": "2026-08-26T04:02:19+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-08-26T01:01:50+00:00",
+      "last_updated_at": "2026-08-26T04:02:20+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-08-26T01:01:51+00:00",
+      "last_updated_at": "2026-08-26T04:02:20+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-08-26T01:01:51+00:00",
+      "last_updated_at": "2026-08-26T04:02:20+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-08-26T01:01:53+00:00",
+      "last_updated_at": "2026-08-26T04:02:21+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-08-26T01:01:53+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-08-26T01:01:54+00:00",
+      "last_updated_at": "2026-08-26T04:02:26+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
+    {
+      "title": "Nationals To Recall Luis Perales For MLB Debut",
+      "url": "https://www.mlbtraderumors.com/2026/08/nationals-to-recall-luis-perales-for-mlb-debut.html",
+      "source": "MLB Trade Rumors",
+      "published_at": "2026-08-26T03:24:44+00:00",
+      "image_url": "https://cdn.mlbtraderumors.com/files/2026/08/2026-03-05T200434Z_555930409_MT1USATODAY28408269_RTRMADP_3_MLB-SPRING-TRAINING-NEW-YORK-METS-AT-WASHINGTON-NATIONALS-1024x683.jpg"
+    },
+    {
+      "title": "The Rockies let the dogs out, defeat the Nationals, 3-1",
+      "url": "https://sports.yahoo.com/articles/rockies-let-dogs-defeat-nationals-021444205.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-08-26T02:14:44+00:00",
+      "why_it_matters": {
+        "text": "The Rockies defeated the Nationals 3-1, ending their seven-game losing streak.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/lo/mysterio/api/05fb60a3f37970873f595d6713b05faa750e843ffefe9fb6bbb517550d402e3c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F79854a6de0d13eb95f432096594801ae.jpg"
+    },
     {
       "title": "Game #134 Nats try to make it 2 wins in a row!",
       "url": "https://nats.talkdcsports.com/2026/08/25/game-134-nats-try-to-make-it-2-wins-in-a-row/",
       "source": "Talk Nats",
       "published_at": "2026-08-25T21:46:06+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals broke their losing streak with a 13-run explosion in the final four innings. Following starter Cade Cavalli's win, lefty Andrew Alvarez takes the mound tonight as the team seeks two consecutive wins.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2025/09/Andrew-Alvarez-debut-9-1-2025-Sol-Tucker-B-scaled.jpg?fit=1200%2C807&ssl=1"
-    },
-    {
-      "title": "Colorado Rockies @ Washington Nationals game discussion: Mason Adams vs. Andrew Alvarez",
-      "url": "https://sports.yahoo.com/articles/colorado-rockies--washington-nationals-game-discussion-mason-adams-vs-andrew-alvarez-214500863.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-08-25T21:45:00+00:00",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/81d8f07c217f10e4b418e648ec97cc856c910edd396686098d5963a8313f99a2/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F89fb0bfdd58dbc96ab9c0466b0ae76e7.jpg"
     },
     {
       "title": "Washington Nationals vs Colorado Rockies Game Thread",
       "url": "https://www.federalbaseball.com/washington-nationals-discussions/93734/washington-nationals-vs-colorado-rockies-game-thread",
       "source": "Federal Baseball",
       "published_at": "2026-08-25T21:08:43+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals scored 13 runs to win the first game of a four-game series against the Colorado Rockies. The team now looks to secure more victories, especially as winning without Cade Cavalli on the mound has been challenging.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2292009657.jpg?quality=90&strip=all&crop=0%2C32.547993019197%2C100%2C34.904013961606&w=1200"
     },
     {
@@ -91,7 +105,7 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-08-25T18:35:06+00:00",
       "why_it_matters": {
-        "text": "The Nationals added Matt Waldron to the active roster after claiming him off waivers from the Blue Jays, resulting in right-hander Trevor Williams being designated for assignment.",
+        "text": "The Nationals added right-hander Matt Waldron to the active roster after acquiring him from the Blue Jays, resulting in the designation of Trevor Williams for assignment.",
         "ai_generated": true
       },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/08/Trevor_Williams_Nationals-copy-2-1024x683.jpg"
@@ -101,6 +115,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-news/93727/washington-nationals-dfa-veteran-trevor-williams",
       "source": "Federal Baseball",
       "published_at": "2026-08-25T18:33:57+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals have designated veteran swingman Trevor Williams for release. Williams was one of the team's longest-tenured players, having been with the organization since 2023.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2288304818.jpg?quality=90&strip=all&crop=0%2C10.730226971678%2C100%2C78.539546056644&w=1200"
     },
     {
@@ -116,81 +134,112 @@
       "source": "Federal Baseball",
       "published_at": "2026-08-25T14:23:49+00:00",
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2291410227.jpg?quality=90&strip=all&crop=0%2C10.774448934912%2C100%2C78.451102130177&w=1200"
-    },
-    {
-      "title": "From being no-hit to a 13-hit 13-run onslaught in the final 4 innings!",
-      "url": "https://nats.talkdcsports.com/2026/08/25/from-being-no-hit-to-a-13-hit-13-run-onslaught-in-the-final-4-innings/",
-      "source": "Talk Nats",
-      "published_at": "2026-08-25T12:36:20+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/Screenshot_20260825_075737_Gallery.jpg?fit=1200%2C667&ssl=1"
     }
   ],
   "team_pulse": {
     "result_banner": {
-      "type": "win",
-      "text": "Curly W! The Nats beat the Rockies 13-3."
+      "type": "loss",
+      "text": "Tough one — the Nats fell to the Rockies 3-1."
     }
   },
   "videos": [
     {
-      "title": "5-RUN INNING VS. THE ROCKIES IN D.C. | Full Inning",
-      "url": "https://www.youtube.com/watch?v=d7gIOmFF7fA",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i1.ytimg.com/vi/d7gIOmFF7fA/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "Daylen Lile Demolishes A Second-Deck Home Run",
-      "url": "https://www.youtube.com/shorts/YZyBormTfVA",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i2.ytimg.com/vi/YZyBormTfVA/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "JACOB YOUNG CATCH OF THE YEAR ALERT 🤯",
-      "url": "https://www.youtube.com/shorts/3oz-3Qwc8Y4",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i4.ytimg.com/vi/3oz-3Qwc8Y4/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "Asking Nationals Players Random Questions They Wouldn't Know The Answer To",
-      "url": "https://www.youtube.com/shorts/js3SEbAWLPk",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i3.ytimg.com/vi/js3SEbAWLPk/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "José Tena 415-Foot Blast In Texas! 💪",
-      "url": "https://www.youtube.com/shorts/p_ZWqAyGoUs",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i1.ytimg.com/vi/p_ZWqAyGoUs/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "Former 14th Rounder Erik Tolman Gets Called Up",
-      "url": "https://www.youtube.com/shorts/fd9lvEAJ-Xc",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i3.ytimg.com/vi/fd9lvEAJ-Xc/hqdefault.jpg",
+      "title": "ROCKIES vs. NATIONALS: Official Full Game Highlights (August 25) | 2026 MLB Season",
+      "url": "https://www.youtube.com/watch?v=DZQHXPePJ1Y",
+      "source": "MLB on YouTube",
+      "thumbnail_url": "https://i1.ytimg.com/vi/DZQHXPePJ1Y/hqdefault.jpg",
       "duration_s": 0
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "mixed",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "Recent On-Field Success",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/08/25/game-134-nats-try-to-make-it-2-wins-in-a-row/",
+          "https://www.federalbaseball.com/washington-nationals-discussions/93734/washington-nationals-vs-colorado-rockies-game-thread"
+        ]
+      },
+      {
+        "label": "Roster Management Changes",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-news/93727/washington-nationals-dfa-veteran-trevor-williams",
+          "https://www.mlbtraderumors.com/2026/08/nationals-designate-trevor-williams-for-assignment.html"
+        ]
+      },
+      {
+        "label": "Prospect Development",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.mlbtraderumors.com/2026/08/nationals-to-recall-luis-perales-for-mlb-debut.html"
+        ]
+      },
+      {
+        "label": "Recent Series Losses",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://sports.yahoo.com/articles/rockies-let-dogs-defeat-nationals-021444205.html"
+        ]
+      }
+    ]
   },
   "trending": [
     {
-      "label": "Matt Waldron",
+      "label": "Trevor Williams",
       "sentiment": "",
       "context": "Nationals Designate Trevor Williams For Assignment",
       "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-news/93727/washington-nationals-dfa-veteran-trevor-williams",
         "https://www.mlbtraderumors.com/2026/08/nationals-designate-trevor-williams-for-assignment.html"
       ]
     },
     {
-      "label": "Trevor Williams",
+      "label": "Rockies",
+      "sentiment": "",
+      "context": "The Rockies let the dogs out, defeat the Nationals, 3-1",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/rockies-let-dogs-defeat-nationals-021444205.html",
+        "https://www.federalbaseball.com/washington-nationals-discussions/93734/washington-nationals-vs-colorado-rockies-game-thread"
+      ]
+    },
+    {
+      "label": "Cade Cavalli",
+      "sentiment": "",
+      "context": "Game #134 Nats try to make it 2 wins in a row!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/08/25/game-134-nats-try-to-make-it-2-wins-in-a-row/"
+      ]
+    },
+    {
+      "label": "Andrew Alvarez",
+      "sentiment": "",
+      "context": "Game #134 Nats try to make it 2 wins in a row!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/08/25/game-134-nats-try-to-make-it-2-wins-in-a-row/"
+      ]
+    },
+    {
+      "label": "minor league",
+      "sentiment": "",
+      "context": "Game #134 Nats try to make it 2 wins in a row!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/08/25/game-134-nats-try-to-make-it-2-wins-in-a-row/"
+      ]
+    },
+    {
+      "label": "series opener",
+      "sentiment": "",
+      "context": "Washington Nationals vs Colorado Rockies Game Thread",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-discussions/93734/washington-nationals-vs-colorado-rockies-game-thread"
+      ]
+    },
+    {
+      "label": "Matt Waldron",
       "sentiment": "",
       "context": "Nationals Designate Trevor Williams For Assignment",
       "source_urls": [
@@ -202,6 +251,7 @@
       "sentiment": "",
       "context": "Nationals Designate Trevor Williams For Assignment",
       "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-news/93727/washington-nationals-dfa-veteran-trevor-williams",
         "https://www.mlbtraderumors.com/2026/08/nationals-designate-trevor-williams-for-assignment.html"
       ]
     }
@@ -214,6 +264,10 @@
     {
       "text": "The Nats host the Rockies on Thursday.",
       "source_url_or_game_pk": "822694"
+    },
+    {
+      "text": "The Nats host the Marlins on Friday.",
+      "source_url_or_game_pk": "822691"
     }
   ],
   "on_this_day": {},
