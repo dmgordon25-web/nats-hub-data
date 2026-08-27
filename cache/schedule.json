@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-27T07:41:40+00:00",
+  "fetched_at": "2026-08-27T18:16:13+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -214,8 +214,8 @@
       "game_pk": 822694,
       "date": "2026-08-27",
       "start_time_utc": "2026-08-27T17:05:00Z",
-      "status": "Preview",
-      "detailed_status": "Scheduled",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -223,7 +223,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "62-73",
-        "score": null
+        "score": 2
       },
       "away": {
         "id": 115,
@@ -231,7 +231,7 @@
         "name": "Colorado Rockies",
         "short_name": "Rockies",
         "record": "52-81",
-        "score": null
+        "score": 1
       },
       "venue": {
         "id": 3309,
@@ -261,7 +261,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -270,16 +270,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "KOA 850 AM/94.1 FM ",
-          "call_sign": "KOA",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -288,23 +279,32 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
+        },
+        {
+          "name": "KOA 850 AM/94.1 FM ",
+          "call_sign": "KOA",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 4,
+        "inning_half": "Top",
+        "inning_state": "Middle",
+        "is_top_inning": true,
+        "balls": 1,
+        "strikes": 3,
+        "outs": 3,
+        "home_runs": 2,
+        "away_runs": 1,
+        "home_hits": 5,
+        "away_hits": 1,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 4,
@@ -346,7 +346,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 800600,
+          "name": "Jackson Kent",
+          "hand": null
+        },
         "away": {
           "id": 691587,
           "name": "Eury Pérez",
@@ -473,7 +477,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 676917,
+          "name": "Cade Cavalli",
+          "hand": null
+        },
         "away": {
           "id": 645261,
           "name": "Sandy Alcantara",
@@ -582,7 +590,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 674841,
+          "name": "Andrew Alvarez",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
