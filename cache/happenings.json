@@ -1,63 +1,68 @@
 {
   "data_version": 1,
-  "generated_at": "2026-08-27T01:32:00+00:00",
+  "generated_at": "2026-08-27T02:16:44+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-08-27T01:31:09+00:00",
+    "news": "2026-08-27T02:16:14+00:00",
     "videos": "2026-08-27T01:31:09+00:00",
-    "vibes": "2026-08-27T01:32:00+00:00"
+    "vibes": "2026-08-27T02:16:44+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-08-27T01:31:06+00:00",
+      "last_updated_at": "2026-08-27T02:16:02+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-08-27T01:31:07+00:00",
+      "last_updated_at": "2026-08-27T02:16:03+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-08-27T01:31:07+00:00",
+      "last_updated_at": "2026-08-27T02:16:03+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-08-27T01:31:07+00:00",
+      "last_updated_at": "2026-08-27T02:16:04+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-08-27T01:31:07+00:00",
+      "last_updated_at": "2026-08-27T02:16:04+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-08-27T01:31:08+00:00",
+      "last_updated_at": "2026-08-27T02:16:05+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-08-27T01:31:08+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-08-27T01:31:09+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    }
+  ],
   "top_stories": [
     {
       "title": "Game #135 Nats have 2 new pitchers!",
@@ -65,7 +70,7 @@
       "source": "Talk Nats",
       "published_at": "2026-08-26T22:14:18+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals have added two new pitchers, Matt Waldron and Luis Perales, to the roster following the removal of Trevor Williams and Jake Bird. The team seeks to improve their offensive performance after scoring only one run in their previous game.",
+        "text": "The Washington Nationals have added two new pitchers, Matt Waldron and Luis Perales, to the roster following the acquisition of players via a waiver claim. The team seeks to improve their offensive performance after scoring only one run in their previous game.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/IMG-20260824-WA0035.jpg?fit=1200%2C794&ssl=1"
@@ -76,7 +81,7 @@
       "source": "Yahoo Sports MLB",
       "published_at": "2026-08-26T21:45:00+00:00",
       "why_it_matters": {
-        "text": "Following the end of their longest losing streak, the Colorado Rockies aim to begin a winning streak in their game against the Washington Nationals featuring Tanner Gordon and Matt Waldron.",
+        "text": "The Colorado Rockies, having ended their longest losing streak last night, aim to begin a winning streak in their game against the Washington Nationals featuring Tanner Gordon and Matt Waldron.",
         "ai_generated": true
       },
       "image_url": "https://s.yimg.com/lo/mysterio/api/a41fff36a84f520c4351fdfcdc05245228a9117c66f5379c8c4f82422c0abc30/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F242fff7077a507b363c08d797c1bf0dc.jpg"
@@ -87,7 +92,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-08-26T21:19:14+00:00",
       "why_it_matters": {
-        "text": "After a high-scoring game on Monday, the Washington Nationals' offense struggled yesterday with only one solo home run by Daylen Lile. The team looks to improve their scoring frequency in upcoming games.",
+        "text": "After a 13-run performance on Monday, the Washington Nationals' offense struggled yesterday with only one solo home run by Daylen Lile. The team looks to improve their scoring frequency in upcoming games.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2291532659.jpg?quality=90&strip=all&crop=0%2C10.813449489314%2C100%2C78.373101021372&w=1200"
@@ -98,7 +103,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-08-26T15:09:22+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals have called up pitcher Luis Perales to make his MLB debut. The move follows a season of fan discussion regarding the trade involving Jake Bennett.",
+        "text": "The Washington Nationals have called up pitcher Luis Perales to make his MLB debut. The move follows significant fan discussion regarding the trade involving Jake Bennett.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2239562981.jpg?quality=90&strip=all&crop=0%2C9.8148209512448%2C100%2C80.37035809751&w=1200"
@@ -109,7 +114,7 @@
       "source": "Talk Nats",
       "published_at": "2026-08-26T14:28:13+00:00",
       "why_it_matters": {
-        "text": "The text discusses the importance of managerial decisions in baseball, noting that while execution by players is key, coaches must also make strategic in-game moves within finite limits regarding bench depth and bullpen rotations.",
+        "text": "The text discusses how managerial decisions are most effective when players execute the plan, while noting that coaches must make strategic in-game moves within specific limits regarding bench depth and bullpen rotations.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/03/Blake-Butera-Spring-Training-by-Jake-Stephens-3-1-2026.jpeg?fit=1200%2C803&ssl=1"
@@ -120,7 +125,7 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-08-26T03:24:44+00:00",
       "why_it_matters": {
-        "text": "The Nationals are recalling right-hander Luis Perales from Triple-A Rochester for his MLB debut. This move follows the optioning of Jake Bird, and since Perales is already on the 40-man roster, no other roster moves are required.",
+        "text": "The Nationals are recalling right-hander Luis Perales from Triple-A Rochester for his MLB debut. The move follows the optioning of Jake Bird, and since Perales is already on the 40-man roster, no other roster moves are required.",
         "ai_generated": true
       },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/08/2026-03-05T200434Z_555930409_MT1USATODAY28408269_RTRMADP_3_MLB-SPRING-TRAINING-NEW-YORK-METS-AT-WASHINGTON-NATIONALS-1024x683.jpg"
@@ -146,7 +151,7 @@
       "text": "Tough one — the Nats fell to the Rockies 3-1."
     },
     "storyline": {
-      "text": "The Washington Nationals have added two new pitchers, Matt Waldron and Luis Perales, to the roster following the removal of Trevor Williams and Jake Bird. The team seeks to improve their offensive performance after scoring only one run in their previous game.",
+      "text": "The Washington Nationals have added two new pitchers, Matt Waldron and Luis Perales, to the roster following the acquisition of players via a waiver claim. The team seeks to improve their offensive performance after scoring only one run in their previous game.",
       "ai_generated": true
     }
   },
@@ -226,6 +231,15 @@
   },
   "trending": [
     {
+      "label": "Colorado Rockies",
+      "sentiment": "",
+      "context": "Colorado Rockies vs. Washington Nationals game discussion: Tanner Gordon vs. Matt Waldron",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/colorado-rockies-vs-washington-nationals-214500990.html",
+        "https://www.federalbaseball.com/washington-nationals-discussions/93752/washington-nationals-vs-colorado-rockies-game-thread"
+      ]
+    },
+    {
       "label": "Luis Perales",
       "sentiment": "",
       "context": "Washington Nationals call up fire-baller Luis Perales to make MLB debut",
@@ -251,15 +265,6 @@
       ]
     },
     {
-      "label": "Rockies",
-      "sentiment": "",
-      "context": "Colorado Rockies vs. Washington Nationals game discussion: Tanner Gordon vs. Matt Waldron",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/colorado-rockies-vs-washington-nationals-214500990.html",
-        "https://www.federalbaseball.com/washington-nationals-discussions/93752/washington-nationals-vs-colorado-rockies-game-thread"
-      ]
-    },
-    {
       "label": "Tanner Gordon",
       "sentiment": "",
       "context": "Colorado Rockies vs. Washington Nationals game discussion: Tanner Gordon vs. Matt Waldron",
@@ -276,7 +281,7 @@
       ]
     },
     {
-      "label": "offense",
+      "label": "scoring",
       "sentiment": "",
       "context": "Washington Nationals vs Colorado Rockies Game Thread",
       "source_urls": [
