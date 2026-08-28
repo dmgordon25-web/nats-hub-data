@@ -1,9 +1,9 @@
 {
   "data_version": 1,
-  "generated_at": "2026-08-27T23:02:37+00:00",
+  "generated_at": "2026-08-28T02:17:35+00:00",
   "mode": "rss_fallback",
   "freshness": {
-    "news": "2026-08-27T23:02:35+00:00",
+    "news": "2026-08-28T02:17:32+00:00",
     "videos": "2026-08-27T23:02:35+00:00",
     "vibes": null
   },
@@ -11,19 +11,19 @@
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-08-27T23:02:32+00:00",
+      "last_updated_at": "2026-08-28T02:17:22+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-08-27T23:02:33+00:00",
+      "last_updated_at": "2026-08-28T02:17:22+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-08-27T23:02:33+00:00",
+      "last_updated_at": "2026-08-28T02:17:23+00:00",
       "status": "live"
     },
     {
@@ -35,29 +35,33 @@
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-08-27T23:02:34+00:00",
+      "last_updated_at": "2026-08-28T02:17:23+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-08-27T23:02:34+00:00",
+      "last_updated_at": "2026-08-28T02:17:23+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-08-27T23:02:35+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-08-27T23:02:35+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
   "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    },
     {
       "id": "why_it_matters",
       "reason": "ai_enrichment_unavailable"
@@ -201,9 +205,9 @@
   ],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "Dylan Crews",
-    "text": "The No. 2 overall pick in the 2023 MLB Draft out of LSU, headlining the next wave of Nationals talent.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/686611/spots/120",
+    "name": "CJ Abrams",
+    "text": "The Nationals' dynamic young shortstop, acquired in the 2022 Juan Soto trade and now a cornerstone of the rebuild.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/682928/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
