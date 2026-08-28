@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-28T09:43:48+00:00",
+  "fetched_at": "2026-08-28T19:25:05+00:00",
   "freshness": {
-    "schedule": "2026-08-28T09:43:46+00:00",
-    "standings": "2026-08-28T09:43:47+00:00",
+    "schedule": "2026-08-28T19:25:03+00:00",
+    "standings": "2026-08-28T19:25:04+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-08-28T06:55:27+00:00",
-    "weather": "2026-08-28T09:43:47+00:00"
+    "former_nats": "2026-08-28T19:25:03+00:00",
+    "weather": "2026-08-28T19:25:04+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -74,18 +74,27 @@
         "media_state": "MEDIA_OFF"
       },
       {
-        "name": "WQAM 104.3",
-        "call_sign": "WQAM 104.3",
+        "name": "WJFK 106.7 The Fan",
+        "call_sign": "106.7 FM",
         "type": "FM",
+        "language": "en",
+        "is_national": false,
+        "home_away": "home",
+        "media_state": "MEDIA_OFF"
+      },
+      {
+        "name": "560AM WQAM",
+        "call_sign": "560AM WQAM",
+        "type": "AM",
         "language": "en",
         "is_national": false,
         "home_away": "away",
         "media_state": "MEDIA_OFF"
       },
       {
-        "name": "WJFK 106.7 The Fan",
-        "call_sign": "106.7 FM",
-        "type": "FM",
+        "name": "Fox 5 WTTG",
+        "call_sign": "Fox 5",
+        "type": "TV",
         "language": "en",
         "is_national": false,
         "home_away": "home",
@@ -98,15 +107,6 @@
         "language": "es",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
-      },
-      {
-        "name": "Fox 5 WTTG",
-        "call_sign": "Fox 5",
-        "type": "TV",
-        "language": "en",
-        "is_national": false,
-        "home_away": "home",
         "media_state": "MEDIA_OFF"
       },
       {
@@ -154,16 +154,16 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-28T09:43:47+00:00",
+    "fetched_at": "2026-08-28T19:25:04+00:00",
     "source": "open_meteo",
     "game_pk": 822691,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-08-28T23:00",
-    "temperature_f": 85.3,
-    "feels_like_f": 87.9,
-    "wind_mph": 5.2,
-    "wind_dir": "N",
-    "precip_chance": 7,
+    "temperature_f": 79.7,
+    "feels_like_f": 85.9,
+    "wind_mph": 6.5,
+    "wind_dir": "E",
+    "precip_chance": 3,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -238,18 +238,27 @@
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "WQAM 104.3",
-          "call_sign": "WQAM 104.3",
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
           "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "560AM WQAM",
+          "call_sign": "560AM WQAM",
+          "type": "AM",
           "language": "en",
           "is_national": false,
           "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
+          "name": "Fox 5 WTTG",
+          "call_sign": "Fox 5",
+          "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "home",
@@ -262,15 +271,6 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Fox 5 WTTG",
-          "call_sign": "Fox 5",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -971,18 +971,27 @@
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "WQAM 104.3",
-          "call_sign": "WQAM 104.3",
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
           "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "560AM WQAM",
+          "call_sign": "560AM WQAM",
+          "type": "AM",
           "language": "en",
           "is_national": false,
           "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
+          "name": "Fox 5 WTTG",
+          "call_sign": "Fox 5",
+          "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "home",
@@ -995,15 +1004,6 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
-          "name": "Fox 5 WTTG",
-          "call_sign": "Fox 5",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
