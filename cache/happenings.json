@@ -1,54 +1,54 @@
 {
   "data_version": 1,
-  "generated_at": "2026-08-28T02:17:35+00:00",
-  "mode": "rss_fallback",
+  "generated_at": "2026-08-28T02:23:27+00:00",
+  "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-08-28T02:17:32+00:00",
-    "videos": "2026-08-27T23:02:35+00:00",
-    "vibes": null
+    "news": "2026-08-28T02:22:25+00:00",
+    "videos": "2026-08-28T02:22:25+00:00",
+    "vibes": "2026-08-28T02:23:27+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-08-28T02:17:22+00:00",
+      "last_updated_at": "2026-08-28T02:22:17+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-08-28T02:17:22+00:00",
+      "last_updated_at": "2026-08-28T02:22:18+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-08-28T02:17:23+00:00",
+      "last_updated_at": "2026-08-28T02:22:18+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-08-28T02:22:18+00:00",
+      "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-08-28T02:17:23+00:00",
+      "last_updated_at": "2026-08-28T02:22:19+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-08-28T02:17:23+00:00",
+      "last_updated_at": "2026-08-28T02:22:20+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-08-28T02:22:20+00:00",
+      "status": "live"
     },
     {
       "id": "yt_mlb",
@@ -57,30 +57,17 @@
       "status": "timed_out"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "videos",
-      "reason": "last_check_too_old"
-    },
-    {
-      "id": "why_it_matters",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "trending",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "Postgamer: Nats turned the page into a 7-1 win!",
       "url": "https://nats.talkdcsports.com/2026/08/27/postgamer-nats-turned-the-page-into-a-7-1-win/",
       "source": "Talk Nats",
       "published_at": "2026-08-27T20:41:00+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals won their 63rd game of the season with a 7-1 victory, ensuring they will not have a 100-loss season despite predictions from some analysts.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/nats.talk-dc-sports-6a90a0af8293d.png?fit=1150%2C928&ssl=1"
     },
     {
@@ -88,6 +75,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/93781/nationals-should-consider-platooning-daylen-lile-dylan-crews-2027",
       "source": "Federal Baseball",
       "published_at": "2026-08-27T19:19:56+00:00",
+      "why_it_matters": {
+        "text": "The Nationals are considering platooning Daylen Lile and Dylan Crews for 2027. Both were highly anticipated youngsters in 2026, with Lile earning a player of the month award following an excellent rookie campaign.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2242898339.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -95,6 +86,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-discussions/93773/washington-nationals-vs-colorado-rockies-game-thread",
       "source": "Federal Baseball",
       "published_at": "2026-08-27T15:12:56+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals suffered a humiliating loss against the Colorado Rockies and are looking to salvage a split in an upcoming day game.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2291645350.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -102,6 +97,10 @@
       "url": "https://nats.talkdcsports.com/2026/08/27/game-136-nats-must-win-for-a-split/",
       "source": "Talk Nats",
       "published_at": "2026-08-27T14:21:57+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals faced a difficult bullpen game on Wednesday after Matt Waldron's short appearance. Will Dion gave up two home runs, leading to a 4-1 deficit and further issues for the team.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/IMG-20260826-WA0020.jpg?fit=1200%2C1021&ssl=1"
     },
     {
@@ -109,6 +108,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/93763/washington-nationals-hit-rock-bottom",
       "source": "Federal Baseball",
       "published_at": "2026-08-27T14:18:59+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals are experiencing a period of significant struggle following the trade deadline, losing 13-1 to the Colorado Rockies and losing their previous team spirit.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2291521099.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -116,6 +119,10 @@
       "url": "https://nats.talkdcsports.com/2026/08/26/game-135-nats-have-2-new-pitchers/",
       "source": "Talk Nats",
       "published_at": "2026-08-26T22:14:18+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals have added two new pitchers, Matt Waldron and Luis Perales, to the roster following the removal of Trevor Williams and Jake Bird. The team seeks to improve their offensive performance after scoring only one run in their previous game.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/IMG-20260824-WA0035.jpg?fit=1200%2C794&ssl=1"
     },
     {
@@ -137,6 +144,10 @@
     "result_banner": {
       "type": "win",
       "text": "Curly W! The Nats beat the Rockies 7-1."
+    },
+    "storyline": {
+      "text": "The Washington Nationals won their 63rd game of the season with a 7-1 victory, ensuring they will not have a 100-loss season despite predictions from some analysts.",
+      "ai_generated": true
     }
   },
   "videos": [
@@ -184,11 +195,102 @@
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "mixed",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "Recent On-Field Success",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/08/27/postgamer-nats-turned-the-page-into-a-7-1-win/"
+        ]
+      },
+      {
+        "label": "Roster and Strategy",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/08/26/game-135-nats-have-2-new-pitchers/",
+          "https://www.federalbaseball.com/washington-nationals-analysis/93781/nationals-should-consider-platooning-daylen-lile-dylan-crews-2027"
+        ]
+      },
+      {
+        "label": "Recent Struggles",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/08/27/game-136-nats-must-win-for-a-split/",
+          "https://www.federalbaseball.com/washington-nationals-analysis/93763/washington-nationals-hit-rock-bottom",
+          "https://www.federalbaseball.com/washington-nationals-discussions/93773/washington-nationals-vs-colorado-rockies-game-thread"
+        ]
+      }
+    ]
   },
-  "trending": [],
+  "trending": [
+    {
+      "label": "Colorado Rockies",
+      "sentiment": "",
+      "context": "Washington Nationals vs Colorado Rockies Game Thread",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/93763/washington-nationals-hit-rock-bottom",
+        "https://www.federalbaseball.com/washington-nationals-discussions/93773/washington-nationals-vs-colorado-rockies-game-thread"
+      ]
+    },
+    {
+      "label": "Daylen Lile",
+      "sentiment": "",
+      "context": "The Nationals Should Consider Platooning Daylen Lile and Dylan Crews in 2027",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/93781/nationals-should-consider-platooning-daylen-lile-dylan-crews-2027"
+      ]
+    },
+    {
+      "label": "Dylan Crews",
+      "sentiment": "",
+      "context": "The Nationals Should Consider Platooning Daylen Lile and Dylan Crews in 2027",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/93781/nationals-should-consider-platooning-daylen-lile-dylan-crews-2027"
+      ]
+    },
+    {
+      "label": "rookie",
+      "sentiment": "",
+      "context": "The Nationals Should Consider Platooning Daylen Lile and Dylan Crews in 2027",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/93781/nationals-should-consider-platooning-daylen-lile-dylan-crews-2027"
+      ]
+    },
+    {
+      "label": "Matt Waldron",
+      "sentiment": "",
+      "context": "Game #136 Nats must win for a split!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/08/27/game-136-nats-must-win-for-a-split/"
+      ]
+    },
+    {
+      "label": "Will Dion",
+      "sentiment": "",
+      "context": "Game #136 Nats must win for a split!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/08/27/game-136-nats-must-win-for-a-split/"
+      ]
+    },
+    {
+      "label": "bullpen",
+      "sentiment": "",
+      "context": "Game #136 Nats must win for a split!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/08/27/game-136-nats-must-win-for-a-split/"
+      ]
+    },
+    {
+      "label": "Cade Cavalli",
+      "sentiment": "",
+      "context": "The Washington Nationals have hit rock bottom",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/93763/washington-nationals-hit-rock-bottom"
+      ]
+    }
+  ],
   "what_to_watch": [
     {
       "text": "The Nats host the Marlins on Friday.",
