@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-28T19:25:03+00:00",
+  "fetched_at": "2026-08-28T21:54:01+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -215,7 +215,7 @@
       "date": "2026-08-28",
       "start_time_utc": "2026-08-28T22:45:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -223,7 +223,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "63-73",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 146,
@@ -231,7 +231,7 @@
         "name": "Miami Marlins",
         "short_name": "Marlins",
         "record": "68-66",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -261,7 +261,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
@@ -270,7 +270,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -279,7 +279,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "560AM WQAM",
@@ -288,7 +288,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Fox 5 WTTG",
@@ -306,7 +306,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Gray Media",
@@ -319,19 +319,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 1,
@@ -491,7 +491,11 @@
           "name": "Andrew Alvarez",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 676083,
+          "name": "Janson Junk",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -596,7 +600,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 687473,
+          "name": "Ryan Gusto",
+          "hand": null
+        }
       },
       "broadcasts": [
         {

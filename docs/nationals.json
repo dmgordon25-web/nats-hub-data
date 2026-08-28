@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-28T19:25:05+00:00",
+  "fetched_at": "2026-08-28T21:54:02+00:00",
   "freshness": {
-    "schedule": "2026-08-28T19:25:03+00:00",
-    "standings": "2026-08-28T19:25:04+00:00",
+    "schedule": "2026-08-28T21:54:01+00:00",
+    "standings": "2026-08-28T21:54:02+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-08-28T19:25:03+00:00",
-    "weather": "2026-08-28T19:25:04+00:00"
+    "weather": "2026-08-28T21:54:02+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -16,7 +16,7 @@
     "date": "2026-08-28",
     "start_time_utc": "2026-08-28T22:45:00Z",
     "status": "Preview",
-    "detailed_status": "Scheduled",
+    "detailed_status": "Pre-Game",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "63-73",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 146,
@@ -32,7 +32,7 @@
       "name": "Miami Marlins",
       "short_name": "Marlins",
       "record": "68-66",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 3309,
@@ -62,7 +62,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
@@ -71,7 +71,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -80,7 +80,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "560AM WQAM",
@@ -89,7 +89,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Fox 5 WTTG",
@@ -107,7 +107,7 @@
         "language": "es",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Gray Media",
@@ -120,19 +120,19 @@
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
       "game_number": 1,
@@ -151,19 +151,19 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Starts Soon"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-28T19:25:04+00:00",
+    "fetched_at": "2026-08-28T21:54:02+00:00",
     "source": "open_meteo",
     "game_pk": 822691,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-08-28T23:00",
-    "temperature_f": 79.7,
-    "feels_like_f": 85.9,
-    "wind_mph": 6.5,
-    "wind_dir": "E",
-    "precip_chance": 3,
+    "temperature_f": 80.9,
+    "feels_like_f": 87.0,
+    "wind_mph": 3.6,
+    "wind_dir": "N",
+    "precip_chance": 4,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -180,7 +180,7 @@
       "date": "2026-08-28",
       "start_time_utc": "2026-08-28T22:45:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -188,7 +188,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "63-73",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 146,
@@ -196,7 +196,7 @@
         "name": "Miami Marlins",
         "short_name": "Marlins",
         "record": "68-66",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -226,7 +226,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
@@ -235,7 +235,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -244,7 +244,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "560AM WQAM",
@@ -253,7 +253,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Fox 5 WTTG",
@@ -271,7 +271,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Gray Media",
@@ -284,19 +284,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 1,
@@ -315,7 +315,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 822690,
@@ -478,7 +478,11 @@
           "name": "Andrew Alvarez",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 676083,
+          "name": "Janson Junk",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -913,7 +917,7 @@
       "date": "2026-08-28",
       "start_time_utc": "2026-08-28T22:45:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -921,7 +925,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "63-73",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 146,
@@ -929,7 +933,7 @@
         "name": "Miami Marlins",
         "short_name": "Marlins",
         "record": "68-66",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -959,7 +963,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
@@ -968,7 +972,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -977,7 +981,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "560AM WQAM",
@@ -986,7 +990,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Fox 5 WTTG",
@@ -1004,7 +1008,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Gray Media",
@@ -1017,19 +1021,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 1,
@@ -1048,7 +1052,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 822690,
@@ -1211,7 +1215,11 @@
           "name": "Andrew Alvarez",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 676083,
+          "name": "Janson Junk",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1327,7 +1335,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 687473,
+          "name": "Ryan Gusto",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -2817,19 +2829,19 @@
           "name": "Chicago Cubs",
           "short_name": "Cubs",
           "wins": 76,
-          "losses": 58,
-          "pct": ".567",
-          "gb": "7.0",
-          "wc_gb": "+4.0",
-          "streak": "L2",
+          "losses": 59,
+          "pct": ".563",
+          "gb": "7.5",
+          "wc_gb": "+3.5",
+          "streak": "L3",
           "last_ten": "4-6",
           "division_rank": 2,
           "league_rank": 4,
           "wc_rank": 1,
-          "run_diff": 119,
-          "runs_scored": 695,
-          "runs_allowed": 576,
-          "elim_num": "22"
+          "run_diff": 117,
+          "runs_scored": 703,
+          "runs_allowed": 586,
+          "elim_num": "21"
         },
         {
           "id": 138,
@@ -2876,19 +2888,19 @@
           "abbrev": "CIN",
           "name": "Cincinnati Reds",
           "short_name": "Reds",
-          "wins": 63,
+          "wins": 64,
           "losses": 71,
-          "pct": ".470",
-          "gb": "20.0",
-          "wc_gb": "9.0",
-          "streak": "W1",
+          "pct": ".474",
+          "gb": "19.5",
+          "wc_gb": "8.5",
+          "streak": "W2",
           "last_ten": "4-6",
           "division_rank": 5,
           "league_rank": 11,
           "wc_rank": 8,
-          "run_diff": -100,
-          "runs_scored": 548,
-          "runs_allowed": 648,
+          "run_diff": -98,
+          "runs_scored": 558,
+          "runs_allowed": 656,
           "elim_num": "9"
         }
       ]
