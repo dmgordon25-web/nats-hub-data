@@ -1,74 +1,112 @@
 {
   "data_version": 1,
-  "generated_at": "2026-08-29T00:55:58+00:00",
+  "generated_at": "2026-08-29T04:57:43+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-08-29T00:54:59+00:00",
+    "news": "2026-08-29T04:56:36+00:00",
     "videos": "2026-08-29T00:54:59+00:00",
-    "vibes": "2026-08-29T00:55:58+00:00"
+    "vibes": "2026-08-29T04:57:43+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-08-29T00:54:33+00:00",
+      "last_updated_at": "2026-08-29T04:56:23+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-08-29T00:54:36+00:00",
+      "last_updated_at": "2026-08-29T04:56:24+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-08-29T00:54:38+00:00",
+      "last_updated_at": "2026-08-29T04:56:24+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-08-29T00:54:38+00:00",
+      "last_updated_at": "2026-08-29T04:56:24+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-08-29T00:54:39+00:00",
+      "last_updated_at": "2026-08-29T04:56:25+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-08-29T00:54:40+00:00",
+      "last_updated_at": "2026-08-29T04:56:26+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-08-29T00:54:58+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-08-29T00:54:59+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    }
+  ],
   "top_stories": [
+    {
+      "title": "Postgamer: Nats beat Miami with great results from Jackson Kent!",
+      "url": "https://nats.talkdcsports.com/2026/08/28/postgamer-nats-beat-miami-with-great-results-from-jackson-kent/",
+      "source": "Talk Nats",
+      "published_at": "2026-08-29T02:50:41+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals defeated the Miami Marlins, ending an eight-game losing streak against them. The victory featured strong results from Jackson Kent and a performance that knocked out Eury Perez after 3.0 innings.",
+        "ai_generated": true
+      },
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/HPjoiJlXQAAQvq5.jpg?fit=1200%2C1181&ssl=1"
+    },
+    {
+      "title": "Washington Nationals vs Miami Marlins Game Thread",
+      "url": "https://www.federalbaseball.com/washington-nationals-discussions/93810/washington-nationals-vs-miami-marlins-game-thread",
+      "source": "Federal Baseball",
+      "published_at": "2026-08-28T21:49:56+00:00",
+      "why_it_matters": {
+        "text": "The Miami Marlins face the Washington Nationals for a four-game series following a season of dominance over the Nats. The Marlins are described as a gritty, fundamentally sound team.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2292345669.jpg?quality=90&strip=all&crop=0%2C10.476860260862%2C100%2C79.046279478275&w=1200"
+    },
     {
       "title": "Game #137 The Nats start a key 4-game series against Miami",
       "url": "https://nats.talkdcsports.com/2026/08/28/game-137-the-nats-start-a-key-4-game-series-against-miami/",
       "source": "Talk Nats",
       "published_at": "2026-08-28T20:58:00+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals begin a 4-game series against the Miami Marlins in Washington, D.C. The team faces a challenge as they have been outperformed by the Marlins for most of the season.",
+        "text": "The Washington Nationals begin a four-game series against the Miami Marlins in Washington, D.C. The team faces a challenge as they have been outperformed by the Marlins for most of the season.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/Jackson-Kent-side-session.jpg?fit=1200%2C870&ssl=1"
+    },
+    {
+      "title": "The Washington Nationals need CJ Abrams to play second base as soon as possible",
+      "url": "https://www.federalbaseball.com/washington-nationals-analysis/93799/washington-nationals-need-cj-abrams-play-second-base-soon-possible",
+      "source": "Federal Baseball",
+      "published_at": "2026-08-28T16:50:22+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals have yet to move star shortstop CJ Abrams to second base despite announcing the plan two weeks ago. The delay in this transition is creating an awkward situation for the team.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2290791823.jpg?quality=90&strip=all&crop=0%2C10.942240971621%2C100%2C78.115518056759&w=1200"
     },
     {
       "title": "The final sprint to the finish",
@@ -76,20 +114,27 @@
       "source": "Talk Nats",
       "published_at": "2026-08-28T16:30:40+00:00",
       "why_it_matters": {
-        "text": "The text reflects on the Washington Nationals' performance, noting they appeared to be a playoff team on June 16th with a .500 record and the 6th best record in the NL.",
+        "text": "The text reflects on the Washington Nationals' performance, noting a period on June 16th when they held the 6th best record in the NL and appeared to be a playoff team.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/IMG-20260827-WA0030-e1787926337950.jpg?fit=1200%2C658&ssl=1"
+    },
+    {
+      "title": "Andres Chaparro is becoming more than a platoon bat for the Washington Nationals",
+      "url": "https://www.federalbaseball.com/washington-nationals-analysis/93788/andres-chaparro-becoming-more-than-platoon-bat-for-washington-nationals",
+      "source": "Federal Baseball",
+      "published_at": "2026-08-28T14:22:14+00:00",
+      "why_it_matters": {
+        "text": "Andres Chaparro is transitioning from a platoon first baseman into an everyday contributor for the Washington Nationals, following in the footsteps of Curtis Mead.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2291650629.jpg?quality=90&strip=all&crop=0%2C10.740970263441%2C100%2C78.518059473118&w=1200"
     },
     {
       "title": "Postgamer: Nats turned the page into a 7-1 win!",
       "url": "https://nats.talkdcsports.com/2026/08/27/postgamer-nats-turned-the-page-into-a-7-1-win/",
       "source": "Talk Nats",
       "published_at": "2026-08-27T20:41:00+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals won their 63rd game of the season with a 7-1 victory, ensuring they will not have a 100-loss season despite predictions from some analysts.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/nats.talk-dc-sports-6a90a0af8293d.png?fit=1150%2C928&ssl=1"
     },
     {
@@ -97,56 +142,16 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/93781/nationals-should-consider-platooning-daylen-lile-dylan-crews-2027",
       "source": "Federal Baseball",
       "published_at": "2026-08-27T19:19:56+00:00",
-      "why_it_matters": {
-        "text": "The Nationals are considering platooning Daylen Lile and Dylan Crews for 2027. Both were highly hyped youngsters in 2026, with Lile earning a player of the month award following an excellent rookie campaign.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2242898339.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "Washington Nationals vs Colorado Rockies Game Thread",
-      "url": "https://www.federalbaseball.com/washington-nationals-discussions/93773/washington-nationals-vs-colorado-rockies-game-thread",
-      "source": "Federal Baseball",
-      "published_at": "2026-08-27T15:12:56+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals suffered a humiliating loss against the Colorado Rockies and are looking to salvage a split in a day game this afternoon.",
-        "ai_generated": true
-      },
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2291645350.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "Game #136 Nats must win for a split!",
-      "url": "https://nats.talkdcsports.com/2026/08/27/game-136-nats-must-win-for-a-split/",
-      "source": "Talk Nats",
-      "published_at": "2026-08-27T14:21:57+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals face a must-win game to achieve a split after a disastrous bullpen performance on Wednesday, where Will Dion gave up two home runs in a 4-1 deficit.",
-        "ai_generated": true
-      },
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/IMG-20260826-WA0020.jpg?fit=1200%2C1021&ssl=1"
-    },
-    {
-      "title": "The Washington Nationals have hit rock bottom",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/93763/washington-nationals-hit-rock-bottom",
-      "source": "Federal Baseball",
-      "published_at": "2026-08-27T14:18:59+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2291521099.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "Game #135 Nats have 2 new pitchers!",
-      "url": "https://nats.talkdcsports.com/2026/08/26/game-135-nats-have-2-new-pitchers/",
-      "source": "Talk Nats",
-      "published_at": "2026-08-26T22:14:18+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/IMG-20260824-WA0035.jpg?fit=1200%2C794&ssl=1"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "win",
-      "text": "Curly W! The Nats beat the Rockies 7-1."
+      "text": "Curly W! The Nats beat the Marlins 9-2."
     },
     "storyline": {
-      "text": "The Washington Nationals begin a 4-game series against the Miami Marlins in Washington, D.C. The team faces a challenge as they have been outperformed by the Marlins for most of the season.",
+      "text": "The Washington Nationals defeated the Miami Marlins, ending an eight-game losing streak against them. The victory featured strong results from Jackson Kent and a performance that knocked out Eury Perez after 3.0 innings.",
       "ai_generated": true
     }
   },
@@ -199,33 +204,32 @@
     "ai_generated": true,
     "themes": [
       {
-        "label": "Recent Performance Volatility",
-        "sentiment": "mixed",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/08/27/game-136-nats-must-win-for-a-split/",
-          "https://www.federalbaseball.com/washington-nationals-discussions/93773/washington-nationals-vs-colorado-rockies-game-thread"
-        ]
-      },
-      {
-        "label": "Positive Momentum/Record",
+        "label": "Recent Victory over Miami",
         "sentiment": "positive",
         "source_urls": [
-          "https://nats.talkdcsports.com/2026/08/27/postgamer-nats-turned-the-page-into-a-7-1-win/"
+          "https://nats.talkdcsports.com/2026/08/28/postgamer-nats-beat-miami-with-great-results-from-jackson-kent/"
         ]
       },
       {
-        "label": "Future Prospect Development",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/93781/nationals-should-consider-platooning-daylen-lile-dylan-crews-2027"
-        ]
-      },
-      {
-        "label": "Upcoming Series Challenges",
-        "sentiment": "mixed",
+        "label": "Marlins Series Challenge",
+        "sentiment": "negative",
         "source_urls": [
           "https://nats.talkdcsports.com/2026/08/28/game-137-the-nats-start-a-key-4-game-series-against-miami/",
-          "https://nats.talkdcsports.com/2026/08/28/the-final-sprint-to-the-finish/"
+          "https://www.federalbaseball.com/washington-nationals-discussions/93810/washington-nationals-vs-miami-marlins-game-thread"
+        ]
+      },
+      {
+        "label": "Roster Transition Issues",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/93799/washington-nationals-need-cj-abrams-play-second-base-soon-possible"
+        ]
+      },
+      {
+        "label": "Player Development Progress",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/93788/andres-chaparro-becoming-more-than-platoon-bat-for-washington-nationals"
         ]
       }
     ]
@@ -234,9 +238,27 @@
     {
       "label": "Miami Marlins",
       "sentiment": "",
-      "context": "Game #137 The Nats start a key 4-game series against Miami",
+      "context": "Postgamer: Nats beat Miami with great results from Jackson Kent!",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/28/game-137-the-nats-start-a-key-4-game-series-against-miami/"
+        "https://nats.talkdcsports.com/2026/08/28/game-137-the-nats-start-a-key-4-game-series-against-miami/",
+        "https://nats.talkdcsports.com/2026/08/28/postgamer-nats-beat-miami-with-great-results-from-jackson-kent/",
+        "https://www.federalbaseball.com/washington-nationals-discussions/93810/washington-nationals-vs-miami-marlins-game-thread"
+      ]
+    },
+    {
+      "label": "Jackson Kent",
+      "sentiment": "",
+      "context": "Postgamer: Nats beat Miami with great results from Jackson Kent!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/08/28/postgamer-nats-beat-miami-with-great-results-from-jackson-kent/"
+      ]
+    },
+    {
+      "label": "Eury Perez",
+      "sentiment": "",
+      "context": "Postgamer: Nats beat Miami with great results from Jackson Kent!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/08/28/postgamer-nats-beat-miami-with-great-results-from-jackson-kent/"
       ]
     },
     {
@@ -248,6 +270,22 @@
       ]
     },
     {
+      "label": "CJ Abrams",
+      "sentiment": "",
+      "context": "The Washington Nationals need CJ Abrams to play second base as soon as possible",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/93799/washington-nationals-need-cj-abrams-play-second-base-soon-possible"
+      ]
+    },
+    {
+      "label": "roster moves",
+      "sentiment": "",
+      "context": "The Washington Nationals need CJ Abrams to play second base as soon as possible",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/93799/washington-nationals-need-cj-abrams-play-second-base-soon-possible"
+      ]
+    },
+    {
       "label": "playoffs",
       "sentiment": "",
       "context": "The final sprint to the finish",
@@ -256,43 +294,11 @@
       ]
     },
     {
-      "label": "win",
+      "label": "Andres Chaparro",
       "sentiment": "",
-      "context": "Postgamer: Nats turned the page into a 7-1 win!",
+      "context": "Andres Chaparro is becoming more than a platoon bat for the Washington Nationals",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/27/postgamer-nats-turned-the-page-into-a-7-1-win/"
-      ]
-    },
-    {
-      "label": "Daylen Lile",
-      "sentiment": "",
-      "context": "The Nationals Should Consider Platooning Daylen Lile and Dylan Crews in 2027",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/93781/nationals-should-consider-platooning-daylen-lile-dylan-crews-2027"
-      ]
-    },
-    {
-      "label": "Dylan Crews",
-      "sentiment": "",
-      "context": "The Nationals Should Consider Platooning Daylen Lile and Dylan Crews in 2027",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/93781/nationals-should-consider-platooning-daylen-lile-dylan-crews-2027"
-      ]
-    },
-    {
-      "label": "rookie",
-      "sentiment": "",
-      "context": "The Nationals Should Consider Platooning Daylen Lile and Dylan Crews in 2027",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/93781/nationals-should-consider-platooning-daylen-lile-dylan-crews-2027"
-      ]
-    },
-    {
-      "label": "Colorado Rockies",
-      "sentiment": "",
-      "context": "Washington Nationals vs Colorado Rockies Game Thread",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-discussions/93773/washington-nationals-vs-colorado-rockies-game-thread"
+        "https://www.federalbaseball.com/washington-nationals-analysis/93788/andres-chaparro-becoming-more-than-platoon-bat-for-washington-nationals"
       ]
     }
   ],
@@ -304,6 +310,10 @@
     {
       "text": "The Nats host the Marlins on Sunday.",
       "source_url_or_game_pk": "822688"
+    },
+    {
+      "text": "The Nats host the Marlins on Monday.",
+      "source_url_or_game_pk": "822689"
     }
   ],
   "on_this_day": {},
