@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-30T19:21:42+00:00",
+  "fetched_at": "2026-08-30T21:09:01+00:00",
   "freshness": {
-    "schedule": "2026-08-30T19:21:41+00:00",
-    "standings": "2026-08-30T19:21:41+00:00",
+    "schedule": "2026-08-30T21:09:00+00:00",
+    "standings": "2026-08-30T21:09:00+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-08-30T17:25:52+00:00",
-    "weather": "2026-08-30T19:21:42+00:00"
+    "former_nats": "2026-08-30T21:09:00+00:00",
+    "weather": "2026-08-30T21:09:01+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -43,7 +43,11 @@
       "lon": -77.007501
     },
     "probable_pitchers": {
-      "home": null,
+      "home": {
+        "id": 702021,
+        "name": "Will Dion",
+        "hand": null
+      },
       "away": {
         "id": 687473,
         "name": "Ryan Gusto",
@@ -150,18 +154,18 @@
     "watch_label": "Next Game"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-30T19:21:42+00:00",
+    "fetched_at": "2026-08-30T21:09:01+00:00",
     "source": "open_meteo",
     "game_pk": 822689,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-08-31T23:00",
-    "temperature_f": 88.7,
-    "feels_like_f": 94.0,
-    "wind_mph": 6.2,
-    "wind_dir": "SE",
-    "precip_chance": 6,
+    "temperature_f": 86.0,
+    "feels_like_f": 89.5,
+    "wind_mph": 4.1,
+    "wind_dir": "ENE",
+    "precip_chance": 8,
     "precip_inches": 0.0,
-    "summary": "Clear",
+    "summary": "Overcast",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -203,7 +207,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 702021,
+          "name": "Will Dion",
+          "hand": null
+        },
         "away": {
           "id": 687473,
           "name": "Ryan Gusto",
@@ -329,7 +337,7 @@
         "abbrev": "ATL",
         "name": "Atlanta Braves",
         "short_name": "Braves",
-        "record": "81-55",
+        "record": "82-55",
         "score": null
       },
       "venue": {
@@ -453,7 +461,7 @@
         "abbrev": "ATL",
         "name": "Atlanta Braves",
         "short_name": "Braves",
-        "record": "81-55",
+        "record": "82-55",
         "score": null
       },
       "venue": {
@@ -559,7 +567,7 @@
     "date": "2026-08-30",
     "start_time_utc": "2026-08-30T16:15:00Z",
     "status": "Final",
-    "detailed_status": "Game Over",
+    "detailed_status": "Final",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -605,7 +613,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "WQAM 104.3",
@@ -614,7 +622,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "Peacock/NBCSN",
@@ -623,7 +631,7 @@
         "language": "en",
         "is_national": true,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "Peacock/NBCSN",
@@ -641,7 +649,7 @@
         "language": "es",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       }
     ],
     "linescore": {
@@ -950,7 +958,7 @@
       "date": "2026-08-30",
       "start_time_utc": "2026-08-30T16:15:00Z",
       "status": "Final",
-      "detailed_status": "Game Over",
+      "detailed_status": "Final",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -996,7 +1004,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WQAM 104.3",
@@ -1005,7 +1013,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "Peacock/NBCSN",
@@ -1014,7 +1022,7 @@
           "language": "en",
           "is_national": true,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "Peacock/NBCSN",
@@ -1032,7 +1040,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         }
       ],
       "linescore": {
@@ -1101,7 +1109,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 702021,
+          "name": "Will Dion",
+          "hand": null
+        },
         "away": {
           "id": 687473,
           "name": "Ryan Gusto",
@@ -1227,7 +1239,7 @@
         "abbrev": "ATL",
         "name": "Atlanta Braves",
         "short_name": "Braves",
-        "record": "81-55",
+        "record": "82-55",
         "score": null
       },
       "venue": {
@@ -1351,7 +1363,7 @@
         "abbrev": "ATL",
         "name": "Atlanta Braves",
         "short_name": "Braves",
-        "record": "81-55",
+        "record": "82-55",
         "score": null
       },
       "venue": {
@@ -1811,7 +1823,7 @@
         "abbrev": "SD",
         "name": "San Diego Padres",
         "short_name": "Padres",
-        "record": "72-64",
+        "record": "72-65",
         "score": null
       },
       "away": {
@@ -1927,7 +1939,7 @@
         "abbrev": "SD",
         "name": "San Diego Padres",
         "short_name": "Padres",
-        "record": "72-64",
+        "record": "72-65",
         "score": null
       },
       "away": {
@@ -2043,7 +2055,7 @@
         "abbrev": "SD",
         "name": "San Diego Padres",
         "short_name": "Padres",
-        "record": "72-64",
+        "record": "72-65",
         "score": null
       },
       "away": {
@@ -2479,19 +2491,19 @@
         "abbrev": "ATL",
         "name": "Atlanta Braves",
         "short_name": "Braves",
-        "wins": 81,
+        "wins": 82,
         "losses": 55,
-        "pct": ".596",
+        "pct": ".599",
         "gb": "-",
         "wc_gb": "-",
-        "streak": "W6",
-        "last_ten": "7-3",
+        "streak": "W7",
+        "last_ten": "8-2",
         "division_rank": 1,
         "league_rank": 2,
         "wc_rank": null,
-        "run_diff": 116,
-        "runs_scored": 633,
-        "runs_allowed": 517,
+        "run_diff": 117,
+        "runs_scored": 636,
+        "runs_allowed": 519,
         "elim_num": "-"
       },
       {
@@ -2502,7 +2514,7 @@
         "wins": 76,
         "losses": 60,
         "pct": ".559",
-        "gb": "5.0",
+        "gb": "5.5",
         "wc_gb": "+4.0",
         "streak": "W3",
         "last_ten": "8-2",
@@ -2512,7 +2524,7 @@
         "run_diff": 27,
         "runs_scored": 617,
         "runs_allowed": 590,
-        "elim_num": "22"
+        "elim_num": "21"
       },
       {
         "id": 146,
@@ -2522,7 +2534,7 @@
         "wins": 69,
         "losses": 68,
         "pct": ".504",
-        "gb": "12.5",
+        "gb": "13.0",
         "wc_gb": "3.5",
         "streak": "W1",
         "last_ten": "5-5",
@@ -2532,7 +2544,7 @@
         "run_diff": 15,
         "runs_scored": 594,
         "runs_allowed": 579,
-        "elim_num": "14"
+        "elim_num": "13"
       },
       {
         "id": 120,
@@ -2542,7 +2554,7 @@
         "wins": 65,
         "losses": 74,
         "pct": ".468",
-        "gb": "17.5",
+        "gb": "18.0",
         "wc_gb": "8.5",
         "streak": "L1",
         "last_ten": "4-6",
@@ -2552,7 +2564,7 @@
         "run_diff": 16,
         "runs_scored": 720,
         "runs_allowed": 704,
-        "elim_num": "8"
+        "elim_num": "7"
       },
       {
         "id": 121,
@@ -2562,7 +2574,7 @@
         "wins": 61,
         "losses": 75,
         "pct": ".449",
-        "gb": "20.0",
+        "gb": "20.5",
         "wc_gb": "11.0",
         "streak": "W1",
         "last_ten": "4-6",
@@ -2572,7 +2584,7 @@
         "run_diff": -50,
         "runs_scored": 559,
         "runs_allowed": 609,
-        "elim_num": "7"
+        "elim_num": "6"
       }
     ]
   },
@@ -2587,19 +2599,19 @@
           "abbrev": "ATL",
           "name": "Atlanta Braves",
           "short_name": "Braves",
-          "wins": 81,
+          "wins": 82,
           "losses": 55,
-          "pct": ".596",
+          "pct": ".599",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "W6",
-          "last_ten": "7-3",
+          "streak": "W7",
+          "last_ten": "8-2",
           "division_rank": 1,
           "league_rank": 2,
           "wc_rank": null,
-          "run_diff": 116,
-          "runs_scored": 633,
-          "runs_allowed": 517,
+          "run_diff": 117,
+          "runs_scored": 636,
+          "runs_allowed": 519,
           "elim_num": "-"
         },
         {
@@ -2610,7 +2622,7 @@
           "wins": 76,
           "losses": 60,
           "pct": ".559",
-          "gb": "5.0",
+          "gb": "5.5",
           "wc_gb": "+4.0",
           "streak": "W3",
           "last_ten": "8-2",
@@ -2620,7 +2632,7 @@
           "run_diff": 27,
           "runs_scored": 617,
           "runs_allowed": 590,
-          "elim_num": "22"
+          "elim_num": "21"
         },
         {
           "id": 146,
@@ -2630,7 +2642,7 @@
           "wins": 69,
           "losses": 68,
           "pct": ".504",
-          "gb": "12.5",
+          "gb": "13.0",
           "wc_gb": "3.5",
           "streak": "W1",
           "last_ten": "5-5",
@@ -2640,7 +2652,7 @@
           "run_diff": 15,
           "runs_scored": 594,
           "runs_allowed": 579,
-          "elim_num": "14"
+          "elim_num": "13"
         },
         {
           "id": 120,
@@ -2650,7 +2662,7 @@
           "wins": 65,
           "losses": 74,
           "pct": ".468",
-          "gb": "17.5",
+          "gb": "18.0",
           "wc_gb": "8.5",
           "streak": "L1",
           "last_ten": "4-6",
@@ -2660,7 +2672,7 @@
           "run_diff": 16,
           "runs_scored": 720,
           "runs_allowed": 704,
-          "elim_num": "8"
+          "elim_num": "7"
         },
         {
           "id": 121,
@@ -2670,7 +2682,7 @@
           "wins": 61,
           "losses": 75,
           "pct": ".449",
-          "gb": "20.0",
+          "gb": "20.5",
           "wc_gb": "11.0",
           "streak": "W1",
           "last_ten": "4-6",
@@ -2680,7 +2692,7 @@
           "run_diff": -50,
           "runs_scored": 559,
           "runs_allowed": 609,
-          "elim_num": "7"
+          "elim_num": "6"
         }
       ]
     },
@@ -2710,26 +2722,6 @@
           "elim_num": "-"
         },
         {
-          "id": 135,
-          "abbrev": "SD",
-          "name": "San Diego Padres",
-          "short_name": "Padres",
-          "wins": 72,
-          "losses": 64,
-          "pct": ".529",
-          "gb": "9.0",
-          "wc_gb": "-",
-          "streak": "L2",
-          "last_ten": "5-5",
-          "division_rank": 2,
-          "league_rank": 6,
-          "wc_rank": 3,
-          "run_diff": 11,
-          "runs_scored": 579,
-          "runs_allowed": 568,
-          "elim_num": "18"
-        },
-        {
           "id": 109,
           "abbrev": "AZ",
           "name": "Arizona Diamondbacks",
@@ -2741,12 +2733,32 @@
           "wc_gb": "-",
           "streak": "L1",
           "last_ten": "6-4",
-          "division_rank": 3,
-          "league_rank": 7,
-          "wc_rank": 4,
+          "division_rank": 2,
+          "league_rank": 6,
+          "wc_rank": 3,
           "run_diff": 5,
           "runs_scored": 625,
           "runs_allowed": 620,
+          "elim_num": "17"
+        },
+        {
+          "id": 135,
+          "abbrev": "SD",
+          "name": "San Diego Padres",
+          "short_name": "Padres",
+          "wins": 72,
+          "losses": 65,
+          "pct": ".526",
+          "gb": "9.5",
+          "wc_gb": "0.5",
+          "streak": "L3",
+          "last_ten": "4-6",
+          "division_rank": 3,
+          "league_rank": 7,
+          "wc_rank": 4,
+          "run_diff": 10,
+          "runs_scored": 583,
+          "runs_allowed": 573,
           "elim_num": "17"
         },
         {
@@ -2775,18 +2787,18 @@
           "name": "Colorado Rockies",
           "short_name": "Rockies",
           "wins": 52,
-          "losses": 84,
-          "pct": ".382",
-          "gb": "29.0",
-          "wc_gb": "20.0",
-          "streak": "L3",
+          "losses": 85,
+          "pct": ".380",
+          "gb": "29.5",
+          "wc_gb": "20.5",
+          "streak": "L4",
           "last_ten": "2-8",
           "division_rank": 5,
           "league_rank": 15,
           "wc_rank": 12,
-          "run_diff": -141,
-          "runs_scored": 642,
-          "runs_allowed": 783,
+          "run_diff": -142,
+          "runs_scored": 644,
+          "runs_allowed": 786,
           "elim_num": "E"
         }
       ]
@@ -2908,19 +2920,19 @@
           "abbrev": "TB",
           "name": "Tampa Bay Rays",
           "short_name": "Rays",
-          "wins": 81,
+          "wins": 82,
           "losses": 54,
-          "pct": ".600",
+          "pct": ".603",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "W3",
+          "streak": "W4",
           "last_ten": "6-4",
           "division_rank": 1,
           "league_rank": 1,
           "wc_rank": null,
-          "run_diff": 53,
-          "runs_scored": 611,
-          "runs_allowed": 558,
+          "run_diff": 54,
+          "runs_scored": 616,
+          "runs_allowed": 562,
           "elim_num": "-"
         },
         {
@@ -2928,20 +2940,20 @@
           "abbrev": "NYY",
           "name": "New York Yankees",
           "short_name": "Yankees",
-          "wins": 77,
+          "wins": 78,
           "losses": 59,
-          "pct": ".566",
+          "pct": ".569",
           "gb": "4.5",
           "wc_gb": "+9.0",
-          "streak": "W1",
+          "streak": "W2",
           "last_ten": "6-4",
           "division_rank": 2,
           "league_rank": 2,
           "wc_rank": 1,
-          "run_diff": 102,
-          "runs_scored": 606,
-          "runs_allowed": 504,
-          "elim_num": "23"
+          "run_diff": 117,
+          "runs_scored": 622,
+          "runs_allowed": 505,
+          "elim_num": "22"
         },
         {
           "id": 111,
@@ -2949,19 +2961,39 @@
           "name": "Boston Red Sox",
           "short_name": "Red Sox",
           "wins": 74,
-          "losses": 62,
-          "pct": ".544",
-          "gb": "7.5",
-          "wc_gb": "+6.0",
-          "streak": "L1",
+          "losses": 63,
+          "pct": ".540",
+          "gb": "8.5",
+          "wc_gb": "+5.0",
+          "streak": "L2",
           "last_ten": "6-4",
           "division_rank": 3,
           "league_rank": 3,
           "wc_rank": 2,
-          "run_diff": 99,
-          "runs_scored": 608,
-          "runs_allowed": 509,
-          "elim_num": "20"
+          "run_diff": 84,
+          "runs_scored": 609,
+          "runs_allowed": 525,
+          "elim_num": "18"
+        },
+        {
+          "id": 141,
+          "abbrev": "TOR",
+          "name": "Toronto Blue Jays",
+          "short_name": "Blue Jays",
+          "wins": 68,
+          "losses": 70,
+          "pct": ".493",
+          "gb": "15.0",
+          "wc_gb": "1.5",
+          "streak": "W3",
+          "last_ten": "6-4",
+          "division_rank": 4,
+          "league_rank": 7,
+          "wc_rank": 4,
+          "run_diff": -50,
+          "runs_scored": 548,
+          "runs_allowed": 598,
+          "elim_num": "11"
         },
         {
           "id": 110,
@@ -2971,36 +3003,16 @@
           "wins": 67,
           "losses": 69,
           "pct": ".493",
-          "gb": "14.5",
-          "wc_gb": "1.0",
-          "streak": "W2",
-          "last_ten": "6-4",
-          "division_rank": 4,
-          "league_rank": 7,
-          "wc_rank": 4,
-          "run_diff": -21,
-          "runs_scored": 618,
-          "runs_allowed": 639,
-          "elim_num": "13"
-        },
-        {
-          "id": 141,
-          "abbrev": "TOR",
-          "name": "Toronto Blue Jays",
-          "short_name": "Blue Jays",
-          "wins": 67,
-          "losses": 70,
-          "pct": ".489",
           "gb": "15.0",
           "wc_gb": "1.5",
           "streak": "W2",
-          "last_ten": "5-5",
+          "last_ten": "6-4",
           "division_rank": 5,
           "league_rank": 8,
           "wc_rank": 5,
-          "run_diff": -57,
-          "runs_scored": 541,
-          "runs_allowed": 598,
+          "run_diff": -21,
+          "runs_scored": 618,
+          "runs_allowed": 639,
           "elim_num": "12"
         }
       ]
@@ -3016,18 +3028,18 @@
           "name": "Chicago White Sox",
           "short_name": "White Sox",
           "wins": 72,
-          "losses": 63,
-          "pct": ".533",
+          "losses": 64,
+          "pct": ".529",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "W4",
-          "last_ten": "7-3",
+          "streak": "L1",
+          "last_ten": "6-4",
           "division_rank": 1,
           "league_rank": 4,
           "wc_rank": null,
-          "run_diff": 48,
-          "runs_scored": 651,
-          "runs_allowed": 603,
+          "run_diff": 44,
+          "runs_scored": 652,
+          "runs_allowed": 608,
           "elim_num": "-"
         },
         {
@@ -3035,19 +3047,19 @@
           "abbrev": "CLE",
           "name": "Cleveland Guardians",
           "short_name": "Guardians",
-          "wins": 68,
+          "wins": 69,
           "losses": 68,
-          "pct": ".500",
-          "gb": "4.5",
+          "pct": ".504",
+          "gb": "3.5",
           "wc_gb": "-",
-          "streak": "L2",
-          "last_ten": "7-3",
+          "streak": "W1",
+          "last_ten": "8-2",
           "division_rank": 2,
-          "league_rank": 6,
+          "league_rank": 5,
           "wc_rank": 3,
-          "run_diff": -12,
-          "runs_scored": 546,
-          "runs_allowed": 558,
+          "run_diff": -2,
+          "runs_scored": 557,
+          "runs_allowed": 559,
           "elim_num": "23"
         },
         {
@@ -3055,19 +3067,19 @@
           "abbrev": "MIN",
           "name": "Minnesota Twins",
           "short_name": "Twins",
-          "wins": 64,
+          "wins": 65,
           "losses": 72,
-          "pct": ".471",
-          "gb": "8.5",
+          "pct": ".474",
+          "gb": "7.5",
           "wc_gb": "4.0",
-          "streak": "L4",
+          "streak": "W1",
           "last_ten": "3-7",
           "division_rank": 3,
-          "league_rank": 11,
-          "wc_rank": 8,
-          "run_diff": -60,
-          "runs_scored": 621,
-          "runs_allowed": 681,
+          "league_rank": 10,
+          "wc_rank": 7,
+          "run_diff": -56,
+          "runs_scored": 626,
+          "runs_allowed": 682,
           "elim_num": "19"
         },
         {
@@ -3078,8 +3090,8 @@
           "wins": 63,
           "losses": 72,
           "pct": ".467",
-          "gb": "9.0",
-          "wc_gb": "4.5",
+          "gb": "8.5",
+          "wc_gb": "5.0",
           "streak": "W1",
           "last_ten": "2-8",
           "division_rank": 4,
@@ -3096,19 +3108,19 @@
           "name": "Kansas City Royals",
           "short_name": "Royals",
           "wins": 62,
-          "losses": 75,
-          "pct": ".453",
+          "losses": 76,
+          "pct": ".449",
           "gb": "11.0",
-          "wc_gb": "6.5",
-          "streak": "W3",
-          "last_ten": "9-1",
+          "wc_gb": "7.5",
+          "streak": "L1",
+          "last_ten": "8-2",
           "division_rank": 5,
           "league_rank": 13,
           "wc_rank": 10,
-          "run_diff": -73,
-          "runs_scored": 589,
-          "runs_allowed": 662,
-          "elim_num": "16"
+          "run_diff": -83,
+          "runs_scored": 590,
+          "runs_allowed": 673,
+          "elim_num": "15"
         }
       ]
     },
@@ -3130,7 +3142,7 @@
           "streak": "L1",
           "last_ten": "5-5",
           "division_rank": 1,
-          "league_rank": 5,
+          "league_rank": 6,
           "wc_rank": null,
           "run_diff": -46,
           "runs_scored": 618,
@@ -3146,7 +3158,7 @@
           "losses": 70,
           "pct": ".485",
           "gb": "2.0",
-          "wc_gb": "2.0",
+          "wc_gb": "2.5",
           "streak": "L4",
           "last_ten": "4-6",
           "division_rank": 2,
@@ -3163,19 +3175,19 @@
           "name": "Seattle Mariners",
           "short_name": "Mariners",
           "wins": 64,
-          "losses": 72,
-          "pct": ".471",
-          "gb": "4.0",
-          "wc_gb": "4.0",
-          "streak": "L3",
-          "last_ten": "5-5",
+          "losses": 73,
+          "pct": ".467",
+          "gb": "4.5",
+          "wc_gb": "5.0",
+          "streak": "L4",
+          "last_ten": "4-6",
           "division_rank": 3,
-          "league_rank": 10,
-          "wc_rank": 7,
-          "run_diff": -65,
+          "league_rank": 11,
+          "wc_rank": 8,
+          "run_diff": -72,
           "runs_scored": 530,
-          "runs_allowed": 595,
-          "elim_num": "23"
+          "runs_allowed": 602,
+          "elim_num": "22"
         },
         {
           "id": 133,
@@ -3186,7 +3198,7 @@
           "losses": 83,
           "pct": ".390",
           "gb": "15.0",
-          "wc_gb": "15.0",
+          "wc_gb": "15.5",
           "streak": "L2",
           "last_ten": "4-6",
           "division_rank": 4,
@@ -3206,7 +3218,7 @@
           "losses": 84,
           "pct": ".382",
           "gb": "16.0",
-          "wc_gb": "16.0",
+          "wc_gb": "16.5",
           "streak": "L6",
           "last_ten": "2-8",
           "division_rank": 5,
@@ -3228,7 +3240,7 @@
     "wins": 65,
     "losses": 74,
     "pct": ".468",
-    "gb": "17.5",
+    "gb": "18.0",
     "wc_gb": "8.5",
     "streak": "L1",
     "last_ten": "4-6",
@@ -3238,7 +3250,7 @@
     "run_diff": 16,
     "runs_scored": 720,
     "runs_allowed": 704,
-    "elim_num": "8"
+    "elim_num": "7"
   },
   "notable_injuries": [
     {
@@ -3362,5 +3374,13 @@
       "description": "Gray (elbow) has resumed a throwing program, Mark Zuckerman of NatsJournal.com reports."
     }
   ],
-  "former_nats_flag_candidates": []
+  "former_nats_flag_candidates": [
+    {
+      "mlb_id": 453286,
+      "name": "Max Scherzer",
+      "summary": "10-K start",
+      "celebrate": true,
+      "against_nats": false
+    }
+  ]
 }
