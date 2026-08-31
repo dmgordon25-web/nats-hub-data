@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-08-31T19:29:34+00:00",
+  "fetched_at": "2026-08-31T22:53:02+00:00",
   "freshness": {
-    "schedule": "2026-08-31T19:29:32+00:00",
-    "standings": "2026-08-31T19:29:33+00:00",
+    "schedule": "2026-08-31T22:53:01+00:00",
+    "standings": "2026-08-31T22:53:01+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-08-31T19:29:32+00:00",
-    "weather": "2026-08-31T19:29:34+00:00"
+    "former_nats": "2026-08-31T22:53:01+00:00",
+    "weather": "2026-08-31T22:53:02+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -15,8 +15,8 @@
     "game_pk": 822689,
     "date": "2026-08-31",
     "start_time_utc": "2026-08-31T22:45:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "In Progress",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "65-74",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 146,
@@ -32,7 +32,7 @@
       "name": "Miami Marlins",
       "short_name": "Marlins",
       "record": "69-68",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 3309,
@@ -62,7 +62,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -71,7 +71,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WQAM 104.3",
@@ -80,7 +80,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "FS1",
@@ -107,7 +107,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WAQI 710",
@@ -116,23 +116,23 @@
         "language": "es",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Middle",
+      "is_top_inning": true,
+      "balls": 1,
+      "strikes": 2,
+      "outs": 3,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
       "game_number": 4,
@@ -141,7 +141,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "FS1",
       "is_national": true,
@@ -151,21 +151,21 @@
       "intent_uri": "https://tv.youtube.com/watch/live/fox",
       "fallback_uri": "https://tv.youtube.com/"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-08-31T19:29:34+00:00",
+    "fetched_at": "2026-08-31T22:53:02+00:00",
     "source": "open_meteo",
     "game_pk": 822689,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-08-31T23:00",
-    "temperature_f": 86.6,
-    "feels_like_f": 92.6,
-    "wind_mph": 3.5,
-    "wind_dir": "NE",
-    "precip_chance": 15,
+    "temperature_f": 82.4,
+    "feels_like_f": 92.2,
+    "wind_mph": 1.8,
+    "wind_dir": "N",
+    "precip_chance": 12,
     "precip_inches": 0.0,
-    "summary": "Mostly clear",
+    "summary": "Partly cloudy",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -179,8 +179,8 @@
       "game_pk": 822689,
       "date": "2026-08-31",
       "start_time_utc": "2026-08-31T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -188,7 +188,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "65-74",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 146,
@@ -196,7 +196,7 @@
         "name": "Miami Marlins",
         "short_name": "Marlins",
         "record": "69-68",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -226,7 +226,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -235,7 +235,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WQAM 104.3",
@@ -244,7 +244,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "FS1",
@@ -271,7 +271,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WAQI 710",
@@ -280,23 +280,23 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Middle",
+        "is_top_inning": true,
+        "balls": 1,
+        "strikes": 2,
+        "outs": 3,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 4,
@@ -305,7 +305,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "FS1",
         "is_national": true,
@@ -315,7 +315,7 @@
         "intent_uri": "https://tv.youtube.com/watch/live/fox",
         "fallback_uri": "https://tv.youtube.com/"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822687,
@@ -939,8 +939,8 @@
       "game_pk": 822689,
       "date": "2026-08-31",
       "start_time_utc": "2026-08-31T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -948,7 +948,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "65-74",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 146,
@@ -956,7 +956,7 @@
         "name": "Miami Marlins",
         "short_name": "Marlins",
         "record": "69-68",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -986,7 +986,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -995,7 +995,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WQAM 104.3",
@@ -1004,7 +1004,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "FS1",
@@ -1031,7 +1031,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WAQI 710",
@@ -1040,23 +1040,23 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Middle",
+        "is_top_inning": true,
+        "balls": 1,
+        "strikes": 2,
+        "outs": 3,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 4,
@@ -1065,7 +1065,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "FS1",
         "is_national": true,
@@ -1075,7 +1075,7 @@
         "intent_uri": "https://tv.youtube.com/watch/live/fox",
         "fallback_uri": "https://tv.youtube.com/"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822687,

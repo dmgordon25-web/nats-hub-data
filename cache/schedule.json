@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-31T19:29:32+00:00",
+  "fetched_at": "2026-08-31T22:53:01+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -232,8 +232,8 @@
       "game_pk": 822689,
       "date": "2026-08-31",
       "start_time_utc": "2026-08-31T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -241,7 +241,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "65-74",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 146,
@@ -249,7 +249,7 @@
         "name": "Miami Marlins",
         "short_name": "Marlins",
         "record": "69-68",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -279,7 +279,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -288,7 +288,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WQAM 104.3",
@@ -297,7 +297,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "FS1",
@@ -324,7 +324,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WAQI 710",
@@ -333,23 +333,23 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Middle",
+        "is_top_inning": true,
+        "balls": 1,
+        "strikes": 2,
+        "outs": 3,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 4,
