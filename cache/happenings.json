@@ -1,82 +1,73 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-01T17:50:05+00:00",
-  "mode": "rss_fallback",
+  "generated_at": "2026-09-01T18:20:38+00:00",
+  "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-01T17:47:41+00:00",
-    "videos": "2026-09-01T17:47:41+00:00",
-    "vibes": null
+    "news": "2026-09-01T18:19:56+00:00",
+    "videos": "2026-09-01T18:19:56+00:00",
+    "vibes": "2026-09-01T18:20:38+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-01T17:47:15+00:00",
+      "last_updated_at": "2026-09-01T18:19:53+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-01T17:47:19+00:00",
+      "last_updated_at": "2026-09-01T18:19:54+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-01T17:47:31+00:00",
+      "last_updated_at": "2026-09-01T18:19:55+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-01T17:47:32+00:00",
+      "last_updated_at": "2026-09-01T18:19:55+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-01T17:47:33+00:00",
+      "last_updated_at": "2026-09-01T18:19:55+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-01T17:47:36+00:00",
+      "last_updated_at": "2026-09-01T18:19:56+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-09-01T17:47:37+00:00",
+      "last_updated_at": "2026-09-01T18:19:56+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-09-01T17:47:41+00:00",
+      "last_updated_at": "2026-09-01T18:19:56+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "why_it_matters",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "trending",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "Braves begin NL East road trip with AJ Smith-Shawver set to start Nationals series opener",
       "url": "https://sports.yahoo.com/articles/braves-begin-nl-east-road-173000018.html",
       "source": "Yahoo Sports MLB",
       "published_at": "2026-09-01T17:30:00+00:00",
+      "why_it_matters": {
+        "text": "The Braves are beginning their NL East road trip, which features AJ Smith-Shawver as the starting pitcher for the opening game of the series against the Nationals.",
+        "ai_generated": true
+      },
       "image_url": "https://s.yimg.com/lo/mysterio/api/f29cb2a261eda6cc649244987d2bf0b9497f2ece20c389eeaa809a3966f62262/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F46577b387f728909fce09953c28b28d3.jpg"
     },
     {
@@ -84,6 +75,10 @@
       "url": "https://www.mlbtraderumors.com/2026/09/nationals-to-select-jared-simpson.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-09-01T17:16:47+00:00",
+      "why_it_matters": {
+        "text": "The Nationals are selecting the contract of lefty Jared Simpson as their second September call-up, joining Yohandy Morales. Because there is only one vacancy on the 40-man roster, a corresponding transaction will be required.",
+        "ai_generated": true
+      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/09/washington-nationals-mascot-screech-1024x683.jpg"
     },
     {
@@ -91,6 +86,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/93918/tool-helped-erik-tolman-become-flame-throwing-big-leaguer",
       "source": "Federal Baseball",
       "published_at": "2026-09-01T17:11:17+00:00",
+      "why_it_matters": {
+        "text": "New Nationals reliever Erik Tolman uses a specialized black brace on his lower leg to help achieve upper 90s velocity from the left side.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2291139681.jpg?quality=90&strip=all&crop=0%2C10.840672443973%2C100%2C78.318655112054&w=1200"
     },
     {
@@ -98,6 +97,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-news/93909/washington-nationals-call-up-powerful-yohandy-morales",
       "source": "Federal Baseball",
       "published_at": "2026-09-01T15:39:53+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals have called up hitter Yohandy Morales, a 2023 second-round draft pick, to the big leagues after he progressed through the minor leagues.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/05/gettyimages-2113291051.jpg?quality=90&strip=all&crop=0%2C10.736053227598%2C100%2C78.527893544803&w=1200"
     },
     {
@@ -105,6 +108,10 @@
       "url": "https://www.mlbtraderumors.com/2026/08/nationals-to-select-yohandy-morales.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-09-01T02:24:52+00:00",
+      "why_it_matters": {
+        "text": "The Nationals are calling up corner infield prospect Yohandy Morales as rosters expand on Tuesday. The move follows the release of Trevor Williams, creating a spot on the 40-man roster and protecting Morales from the Rule 5 draft.",
+        "ai_generated": true
+      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/08/2025-03-26T153105Z_1915540613_MT1USATODAY25769444_RTRMADP_3_MLB-WASHINGTON-NATIONALS-MEDIA-DAY-1024x1024.jpg"
     },
     {
@@ -112,6 +119,10 @@
       "url": "https://nats.talkdcsports.com/2026/08/31/postgamer-daylen-lile-and-erik-tolman-seal-the-deal-as-nats-win-the-series/",
       "source": "Talk Nats",
       "published_at": "2026-09-01T01:56:29+00:00",
+      "why_it_matters": {
+        "text": "Daylen Lile and Erik Tolman led the Nats to a series victory. Lile contributed two homers, four RBIs, and an outfield assist, while Tolman pitched the final two innings of a 6-3 win.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/IMG-20260831-WA0034.jpg?fit=1102%2C1080&ssl=1"
     },
     {
@@ -133,6 +144,10 @@
     "result_banner": {
       "type": "win",
       "text": "Curly W! The Nats beat the Marlins 6-3."
+    },
+    "storyline": {
+      "text": "The Braves are beginning their NL East road trip, which features AJ Smith-Shawver as the starting pitcher for the opening game of the series against the Nationals.",
+      "ai_generated": true
     }
   },
   "videos": [
@@ -180,11 +195,97 @@
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "positive",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "Roster Expansion Success",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-news/93909/washington-nationals-call-up-powerful-yohandy-morales",
+          "https://www.mlbtraderumors.com/2026/08/nationals-to-select-yohandy-morales.html",
+          "https://www.mlbtraderumors.com/2026/09/nationals-to-select-jared-simpson.html"
+        ]
+      },
+      {
+        "label": "Relief Pitching Performance",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/08/31/postgamer-daylen-lile-and-erik-tolman-seal-the-deal-as-nats-win-the-series/",
+          "https://www.federalbaseball.com/washington-nationals-analysis/93918/tool-helped-erik-tolman-become-flame-throwing-big-leaguer"
+        ]
+      }
+    ]
   },
-  "trending": [],
+  "trending": [
+    {
+      "label": "Roster Move",
+      "sentiment": "",
+      "context": "Nationals To Select Jared Simpson",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-news/93909/washington-nationals-call-up-powerful-yohandy-morales",
+        "https://www.mlbtraderumors.com/2026/09/nationals-to-select-jared-simpson.html"
+      ]
+    },
+    {
+      "label": "Erik Tolman",
+      "sentiment": "",
+      "context": "This tool helped Erik Tolman become a flame-throwing big leaguer",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/08/31/postgamer-daylen-lile-and-erik-tolman-seal-the-deal-as-nats-win-the-series/",
+        "https://www.federalbaseball.com/washington-nationals-analysis/93918/tool-helped-erik-tolman-become-flame-throwing-big-leaguer"
+      ]
+    },
+    {
+      "label": "Yohandy Morales",
+      "sentiment": "",
+      "context": "Washington Nationals call up the powerful Yohandy Morales",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-news/93909/washington-nationals-call-up-powerful-yohandy-morales",
+        "https://www.mlbtraderumors.com/2026/08/nationals-to-select-yohandy-morales.html"
+      ]
+    },
+    {
+      "label": "Braves",
+      "sentiment": "",
+      "context": "Braves begin NL East road trip with AJ Smith-Shawver set to start Nationals series opener",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/braves-begin-nl-east-road-173000018.html"
+      ]
+    },
+    {
+      "label": "AJ Smith-Shawver",
+      "sentiment": "",
+      "context": "Braves begin NL East road trip with AJ Smith-Shawver set to start Nationals series opener",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/braves-begin-nl-east-road-173000018.html"
+      ]
+    },
+    {
+      "label": "Jared Simpson",
+      "sentiment": "",
+      "context": "Nationals To Select Jared Simpson",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/09/nationals-to-select-jared-simpson.html"
+      ]
+    },
+    {
+      "label": "September Call-up",
+      "sentiment": "",
+      "context": "Nationals To Select Jared Simpson",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/09/nationals-to-select-jared-simpson.html"
+      ]
+    },
+    {
+      "label": "pitching",
+      "sentiment": "",
+      "context": "This tool helped Erik Tolman become a flame-throwing big leaguer",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/93918/tool-helped-erik-tolman-become-flame-throwing-big-leaguer"
+      ]
+    }
+  ],
   "what_to_watch": [
     {
       "text": "The Nats host the Braves on Tuesday.",
