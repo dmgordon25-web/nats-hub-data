@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-09-01T21:55:49+00:00",
+  "fetched_at": "2026-09-01T23:53:45+00:00",
   "freshness": {
-    "schedule": "2026-09-01T21:55:48+00:00",
-    "standings": "2026-09-01T21:55:49+00:00",
+    "schedule": "2026-09-01T23:53:43+00:00",
+    "standings": "2026-09-01T23:53:43+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-09-01T21:03:57+00:00",
-    "weather": "2026-09-01T21:55:49+00:00"
+    "weather": "2026-09-01T23:53:44+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -15,8 +15,8 @@
     "game_pk": 822687,
     "date": "2026-09-01",
     "start_time_utc": "2026-09-01T22:45:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "In Progress",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "66-74",
-      "score": 0
+      "score": 5
     },
     "away": {
       "id": 144,
@@ -32,7 +32,7 @@
       "name": "Atlanta Braves",
       "short_name": "Braves",
       "record": "82-56",
-      "score": 0
+      "score": 2
     },
     "venue": {
       "id": 3309,
@@ -102,17 +102,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 1,
-      "inning_half": "Top",
-      "inning_state": "Top",
-      "is_top_inning": true,
-      "balls": 0,
-      "strikes": 0,
-      "outs": 0,
-      "home_runs": 0,
-      "away_runs": 0,
-      "home_hits": 0,
-      "away_hits": 0,
+      "current_inning": 3,
+      "inning_half": "Bottom",
+      "inning_state": "End",
+      "is_top_inning": false,
+      "balls": 3,
+      "strikes": 1,
+      "outs": 3,
+      "home_runs": 5,
+      "away_runs": 2,
+      "home_hits": 6,
+      "away_hits": 3,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -123,7 +123,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "Nationals.TV",
       "is_national": false,
@@ -133,21 +133,21 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Starts Soon"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-09-01T21:55:49+00:00",
+    "fetched_at": "2026-09-01T23:53:44+00:00",
     "source": "open_meteo",
     "game_pk": 822687,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-09-01T23:00",
-    "temperature_f": 93.2,
-    "feels_like_f": 99.6,
-    "wind_mph": 3.4,
-    "wind_dir": "W",
-    "precip_chance": 1,
+    "temperature_f": 92.0,
+    "feels_like_f": 97.1,
+    "wind_mph": 6.0,
+    "wind_dir": "WSW",
+    "precip_chance": 5,
     "precip_inches": 0.0,
-    "summary": "Mostly clear",
+    "summary": "Overcast",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -161,8 +161,8 @@
       "game_pk": 822687,
       "date": "2026-09-01",
       "start_time_utc": "2026-09-01T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -170,7 +170,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "66-74",
-        "score": 0
+        "score": 5
       },
       "away": {
         "id": 144,
@@ -178,7 +178,7 @@
         "name": "Atlanta Braves",
         "short_name": "Braves",
         "record": "82-56",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 3309,
@@ -248,17 +248,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "current_inning": 3,
+        "inning_half": "Bottom",
+        "inning_state": "End",
+        "is_top_inning": false,
+        "balls": 3,
+        "strikes": 1,
+        "outs": 3,
+        "home_runs": 5,
+        "away_runs": 2,
+        "home_hits": 6,
+        "away_hits": 3,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -269,7 +269,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -279,7 +279,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822686,
@@ -931,8 +931,8 @@
       "game_pk": 822687,
       "date": "2026-09-01",
       "start_time_utc": "2026-09-01T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -940,7 +940,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "66-74",
-        "score": 0
+        "score": 5
       },
       "away": {
         "id": 144,
@@ -948,7 +948,7 @@
         "name": "Atlanta Braves",
         "short_name": "Braves",
         "record": "82-56",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 3309,
@@ -1018,17 +1018,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "current_inning": 3,
+        "inning_half": "Bottom",
+        "inning_state": "End",
+        "is_top_inning": false,
+        "balls": 3,
+        "strikes": 1,
+        "outs": 3,
+        "home_runs": 5,
+        "away_runs": 2,
+        "home_hits": 6,
+        "away_hits": 3,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -1039,7 +1039,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -1049,7 +1049,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822686,
