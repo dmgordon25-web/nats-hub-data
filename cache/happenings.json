@@ -1,67 +1,63 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-01T05:32:54+00:00",
+  "generated_at": "2026-09-01T09:35:39+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-01T05:30:34+00:00",
-    "videos": "2026-09-01T01:28:32+00:00",
+    "news": "2026-09-01T09:33:23+00:00",
+    "videos": "2026-09-01T09:33:23+00:00",
     "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-01T05:30:22+00:00",
+      "last_updated_at": "2026-09-01T09:33:20+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-01T05:30:22+00:00",
+      "last_updated_at": "2026-09-01T09:33:20+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-01T05:30:23+00:00",
+      "last_updated_at": "2026-09-01T09:33:21+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-01T05:30:23+00:00",
+      "last_updated_at": "2026-09-01T09:33:21+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-01T05:30:23+00:00",
+      "last_updated_at": "2026-09-01T09:33:21+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-01T05:30:24+00:00",
+      "last_updated_at": "2026-09-01T09:33:22+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-09-01T09:33:22+00:00",
+      "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-09-01T09:33:23+00:00",
+      "status": "live"
     }
   ],
   "limited_sources": [
-    {
-      "id": "videos",
-      "reason": "last_check_too_old"
-    },
     {
       "id": "fan_vibes",
       "reason": "ai_sentiment_unavailable"
@@ -74,7 +70,7 @@
       "source": "Yahoo Sports MLB",
       "published_at": "2026-09-01T04:28:01+00:00",
       "why_it_matters": {
-        "text": "Jorge Montanez provides a breakdown of recent MLB injury news, specifically noting that Willson Contreras is sidelined with a hamstring strain while James Wood is nearing a return.",
+        "text": "Jorge Montanez provides an update on recent MLB injuries, specifically noting that Willson Contreras has a hamstring strain while James Wood is nearing a return.",
         "ai_generated": true
       },
       "image_url": "https://s.yimg.com/lo/mysterio/api/966a058c1a8384375085e5c847409a6b8b07e13c17e488f4fbc7d24cd300abf9/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2F6feb038f41660dc98a31a9555f769c01.jpg"
@@ -85,7 +81,7 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-09-01T02:24:52+00:00",
       "why_it_matters": {
-        "text": "The Nationals are calling up corner infield prospect Yohandy Morales as rosters expand on Tuesday. The move follows the release of Trevor Williams, creating an opening on the 40-man roster and protecting Morales from the Rule 5 draft.",
+        "text": "The Nationals are calling up corner infield prospect Yohandy Morales as rosters expand on Tuesday. The move follows the release of Trevor Williams, creating a spot on the 40-man roster and protecting Morales from the Rule 5 draft.",
         "ai_generated": true
       },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/08/2025-03-26T153105Z_1915540613_MT1USATODAY25769444_RTRMADP_3_MLB-WASHINGTON-NATIONALS-MEDIA-DAY-1024x1024.jpg"
@@ -96,7 +92,7 @@
       "source": "Talk Nats",
       "published_at": "2026-09-01T01:56:29+00:00",
       "why_it_matters": {
-        "text": "Daylen Lile and Erik Tolman led the Nats to a series victory in a 6-3 win. Lile contributed two homers, four RBIs, and an outfield assist, while Tolman pitched the final two innings with three outs in a high-pressure situation.",
+        "text": "Daylen Lile and Erik Tolman led the Nats to a series win in a 6-3 victory. Lile contributed two homers, four RBIs, and an outfield assist, while Tolman pitched the final two innings with three outs after inheriting bases loaded.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/IMG-20260831-WA0034.jpg?fit=1102%2C1080&ssl=1"
@@ -107,7 +103,7 @@
       "source": "Talk Nats",
       "published_at": "2026-08-31T21:51:00+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals suffered a loss on Sunday after an airmailed throw went into the dugout in the 9th inning. This followed a blown save on Saturday that resulted in a walk-off win.",
+        "text": "The Washington Nationals suffered a loss on Sunday after an airmailed throw went into the dugout in the 9th inning. This follows a Saturday game where they won via a walk-off despite a blown save.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/HQ8Oiv1WYAEvW65.jpg?fit=787%2C1200&ssl=1"
@@ -118,7 +114,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-08-31T21:31:28+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals face the Miami Marlins in the final game of a four-game series. Following a 9th-inning meltdown, the Nats aim to win three out of four games while the Marlins seek to salvage a split.",
+        "text": "The Washington Nationals and Miami Marlins face off in the final game of their four-game series. Following a 9th-inning meltdown for the Nats, they seek to win three out of four games while the Marlins aim to salvage a split.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2292325074.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
@@ -129,7 +125,7 @@
       "source": "Talk Nats",
       "published_at": "2026-08-31T18:07:00+00:00",
       "why_it_matters": {
-        "text": "Washington Nationals fans are expressing palpable frustration regarding the current state of the team's pitching, following a promising start that initially made them odds-on favorites to make the playoffs.",
+        "text": "Washington Nationals fans are expressing palpable frustration regarding the state of the team's pitching. Despite a promising start that briefly made them odds-on favorites to make the playoffs, concerns about building a sustainable starting rotation remain.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/nats.talk-dc-sports-6a8d8b18dc9b7.png?fit=1200%2C894&ssl=1"
@@ -155,11 +151,18 @@
       "text": "Curly W! The Nats beat the Marlins 6-3."
     },
     "storyline": {
-      "text": "Jorge Montanez provides a breakdown of recent MLB injury news, specifically noting that Willson Contreras is sidelined with a hamstring strain while James Wood is nearing a return.",
+      "text": "Jorge Montanez provides an update on recent MLB injuries, specifically noting that Willson Contreras has a hamstring strain while James Wood is nearing a return.",
       "ai_generated": true
     }
   },
   "videos": [
+    {
+      "title": "Marlins vs. Nationals Game Highlights (8/31/26) | MLB Highlights",
+      "url": "https://www.youtube.com/watch?v=N6FStAIhObY",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i3.ytimg.com/vi/N6FStAIhObY/hqdefault.jpg",
+      "duration_s": 0
+    },
     {
       "title": "Daylen Lile Going For Another Player Of The Week",
       "url": "https://www.youtube.com/shorts/fkOSwp14LDQ",
@@ -172,13 +175,6 @@
       "url": "https://www.youtube.com/shorts/TsMuvn2vH1U",
       "source": "Nationals on YouTube",
       "thumbnail_url": "https://i1.ytimg.com/vi/TsMuvn2vH1U/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "DYLAN CREWS WALK-OFF + GATORADE BATH | FULL AT-BAT + HIGHLIGHTS",
-      "url": "https://www.youtube.com/watch?v=ZXacN9MI8F4",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i3.ytimg.com/vi/ZXacN9MI8F4/hqdefault.jpg",
       "duration_s": 0
     },
     {
