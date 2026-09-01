@@ -1,63 +1,71 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-01T13:39:03+00:00",
-  "mode": "falkor_enriched",
+  "generated_at": "2026-09-01T17:50:05+00:00",
+  "mode": "rss_fallback",
   "freshness": {
-    "news": "2026-09-01T13:36:09+00:00",
-    "videos": "2026-09-01T13:36:09+00:00",
+    "news": "2026-09-01T17:47:41+00:00",
+    "videos": "2026-09-01T17:47:41+00:00",
     "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-01T13:36:06+00:00",
+      "last_updated_at": "2026-09-01T17:47:15+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-01T13:36:06+00:00",
+      "last_updated_at": "2026-09-01T17:47:19+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-01T13:36:07+00:00",
+      "last_updated_at": "2026-09-01T17:47:31+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-01T13:36:07+00:00",
+      "last_updated_at": "2026-09-01T17:47:32+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-01T13:36:07+00:00",
+      "last_updated_at": "2026-09-01T17:47:33+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-01T13:36:08+00:00",
+      "last_updated_at": "2026-09-01T17:47:36+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-09-01T13:36:09+00:00",
+      "last_updated_at": "2026-09-01T17:47:37+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-09-01T13:36:09+00:00",
+      "last_updated_at": "2026-09-01T17:47:41+00:00",
       "status": "live"
     }
   ],
   "limited_sources": [
+    {
+      "id": "why_it_matters",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "trending",
+      "reason": "ai_enrichment_unavailable"
+    },
     {
       "id": "fan_vibes",
       "reason": "ai_sentiment_unavailable"
@@ -65,25 +73,38 @@
   ],
   "top_stories": [
     {
-      "title": "MLB Injury Report: Willson Contreras sidelined with hamstring strain, James Wood nearing return",
-      "url": "https://sports.yahoo.com/articles/mlb-injury-report-willson-contreras-042801665.html",
+      "title": "Braves begin NL East road trip with AJ Smith-Shawver set to start Nationals series opener",
+      "url": "https://sports.yahoo.com/articles/braves-begin-nl-east-road-173000018.html",
       "source": "Yahoo Sports MLB",
-      "published_at": "2026-09-01T04:28:01+00:00",
-      "why_it_matters": {
-        "text": "Jorge Montanez reports on recent MLB injuries, noting that Willson Contreras is sidelined with a hamstring strain while James Wood is nearing a return.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/966a058c1a8384375085e5c847409a6b8b07e13c17e488f4fbc7d24cd300abf9/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2F6feb038f41660dc98a31a9555f769c01.jpg"
+      "published_at": "2026-09-01T17:30:00+00:00",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/f29cb2a261eda6cc649244987d2bf0b9497f2ece20c389eeaa809a3966f62262/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F46577b387f728909fce09953c28b28d3.jpg"
+    },
+    {
+      "title": "Nationals To Select Jared Simpson",
+      "url": "https://www.mlbtraderumors.com/2026/09/nationals-to-select-jared-simpson.html",
+      "source": "MLB Trade Rumors",
+      "published_at": "2026-09-01T17:16:47+00:00",
+      "image_url": "https://cdn.mlbtraderumors.com/files/2026/09/washington-nationals-mascot-screech-1024x683.jpg"
+    },
+    {
+      "title": "This tool helped Erik Tolman become a flame-throwing big leaguer",
+      "url": "https://www.federalbaseball.com/washington-nationals-analysis/93918/tool-helped-erik-tolman-become-flame-throwing-big-leaguer",
+      "source": "Federal Baseball",
+      "published_at": "2026-09-01T17:11:17+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2291139681.jpg?quality=90&strip=all&crop=0%2C10.840672443973%2C100%2C78.318655112054&w=1200"
+    },
+    {
+      "title": "Washington Nationals call up the powerful Yohandy Morales",
+      "url": "https://www.federalbaseball.com/washington-nationals-news/93909/washington-nationals-call-up-powerful-yohandy-morales",
+      "source": "Federal Baseball",
+      "published_at": "2026-09-01T15:39:53+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/05/gettyimages-2113291051.jpg?quality=90&strip=all&crop=0%2C10.736053227598%2C100%2C78.527893544803&w=1200"
     },
     {
       "title": "Nationals To Select Yohandy Morales",
       "url": "https://www.mlbtraderumors.com/2026/08/nationals-to-select-yohandy-morales.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-09-01T02:24:52+00:00",
-      "why_it_matters": {
-        "text": "The Nationals are calling up corner infield prospect Yohandy Morales as rosters expand on Tuesday. The move follows the release of Trevor Williams, creating a spot on the 40-man roster and protecting Morales from the Rule 5 draft.",
-        "ai_generated": true
-      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/08/2025-03-26T153105Z_1915540613_MT1USATODAY25769444_RTRMADP_3_MLB-WASHINGTON-NATIONALS-MEDIA-DAY-1024x1024.jpg"
     },
     {
@@ -91,10 +112,6 @@
       "url": "https://nats.talkdcsports.com/2026/08/31/postgamer-daylen-lile-and-erik-tolman-seal-the-deal-as-nats-win-the-series/",
       "source": "Talk Nats",
       "published_at": "2026-09-01T01:56:29+00:00",
-      "why_it_matters": {
-        "text": "Daylen Lile and Erik Tolman led the Nats to a series win in a 6-3 victory. Lile contributed two homers and an outfield assist, while Tolman pitched the final two innings with three outs after inheriting the bases loaded.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/IMG-20260831-WA0034.jpg?fit=1102%2C1080&ssl=1"
     },
     {
@@ -102,10 +119,6 @@
       "url": "https://nats.talkdcsports.com/2026/08/31/game-140-nats-are-throwing-a-bullpen-game/",
       "source": "Talk Nats",
       "published_at": "2026-08-31T21:51:00+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals lost a game after an airmailed throw went into the dugout in the 9th inning. This followed a previous game where they won via a walk-off after a blown save.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/HQ8Oiv1WYAEvW65.jpg?fit=787%2C1200&ssl=1"
     },
     {
@@ -113,46 +126,13 @@
       "url": "https://www.federalbaseball.com/washington-nationals-prospects/93710/miguel-sime-jr-meteoric-rise-awarded-nationals-milb-accolade",
       "source": "Federal Baseball",
       "published_at": "2026-08-31T21:37:36+00:00",
-      "why_it_matters": {
-        "text": "Miguel Sime Jr. received a Minor League Baseball accolade from the Washington Nationals as the team evaluates its prospects ahead of the end of the season.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2285785232.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "Washington Nationals vs Miami Marlins Game Thread",
-      "url": "https://www.federalbaseball.com/washington-nationals-discussions/93893/washington-nationals-vs-miami-marlins-game-thread",
-      "source": "Federal Baseball",
-      "published_at": "2026-08-31T21:31:28+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals face the Miami Marlins in the final game of a four-game series. Following a 9th-inning meltdown yesterday, the Nats aim to win three out of four games while the Marlins seek to salvage a split.",
-        "ai_generated": true
-      },
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2292325074.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "Get the best of Federal Baseball on the new SB Nation app",
-      "url": "https://www.federalbaseball.com/general/93610/get-the-best-of-federal-baseball-on-the-new-sb-nation-app",
-      "source": "Federal Baseball",
-      "published_at": "2026-08-31T20:00:53+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-153213046.jpg?quality=90&strip=all&crop=0%2C11.102510443976%2C100%2C77.794979112048&w=1200"
-    },
-    {
-      "title": "How Can the Nationals Build a Sustainable Starting Rotation?",
-      "url": "https://nats.talkdcsports.com/2026/08/31/how-can-the-nationals-build-a-sustainable-starting-rotation/",
-      "source": "Talk Nats",
-      "published_at": "2026-08-31T18:07:00+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/nats.talk-dc-sports-6a8d8b18dc9b7.png?fit=1200%2C894&ssl=1"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "win",
       "text": "Curly W! The Nats beat the Marlins 6-3."
-    },
-    "storyline": {
-      "text": "Jorge Montanez reports on recent MLB injuries, noting that Willson Contreras is sidelined with a hamstring strain while James Wood is nearing a return.",
-      "ai_generated": true
     }
   },
   "videos": [
@@ -204,73 +184,7 @@
     "ai_generated": false,
     "themes": []
   },
-  "trending": [
-    {
-      "label": "Injury Report",
-      "sentiment": "",
-      "context": "MLB Injury Report: Willson Contreras sidelined with hamstring strain, James Wood nearing return",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/mlb-injury-report-willson-contreras-042801665.html"
-      ]
-    },
-    {
-      "label": "Willson Contreras",
-      "sentiment": "",
-      "context": "MLB Injury Report: Willson Contreras sidelined with hamstring strain, James Wood nearing return",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/mlb-injury-report-willson-contreras-042801665.html"
-      ]
-    },
-    {
-      "label": "James Wood",
-      "sentiment": "",
-      "context": "MLB Injury Report: Willson Contreras sidelined with hamstring strain, James Wood nearing return",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/mlb-injury-report-willson-contreras-042801665.html"
-      ]
-    },
-    {
-      "label": "Yohandy Morales",
-      "sentiment": "",
-      "context": "Nationals To Select Yohandy Morales",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/08/nationals-to-select-yohandy-morales.html"
-      ]
-    },
-    {
-      "label": "roster expansion",
-      "sentiment": "",
-      "context": "Nationals To Select Yohandy Morales",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/08/nationals-to-select-yohandy-morales.html"
-      ]
-    },
-    {
-      "label": "prospect",
-      "sentiment": "",
-      "context": "Nationals To Select Yohandy Morales",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-prospects/93710/miguel-sime-jr-meteoric-rise-awarded-nationals-milb-accolade",
-        "https://www.mlbtraderumors.com/2026/08/nationals-to-select-yohandy-morales.html"
-      ]
-    },
-    {
-      "label": "Lile",
-      "sentiment": "",
-      "context": "Postgamer: Daylen Lile and Erik Tolman seal the deal as Nats win the series!",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/31/postgamer-daylen-lile-and-erik-tolman-seal-the-deal-as-nats-win-the-series/"
-      ]
-    },
-    {
-      "label": "Tolman",
-      "sentiment": "",
-      "context": "Postgamer: Daylen Lile and Erik Tolman seal the deal as Nats win the series!",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/31/postgamer-daylen-lile-and-erik-tolman-seal-the-deal-as-nats-win-the-series/"
-      ]
-    }
-  ],
+  "trending": [],
   "what_to_watch": [
     {
       "text": "The Nats host the Braves on Tuesday.",
