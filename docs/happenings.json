@@ -1,82 +1,91 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-01T22:20:59+00:00",
-  "mode": "rss_fallback",
+  "generated_at": "2026-09-01T22:58:17+00:00",
+  "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-01T22:20:56+00:00",
-    "videos": "2026-09-01T22:20:56+00:00",
-    "vibes": null
+    "news": "2026-09-01T22:57:18+00:00",
+    "videos": "2026-09-01T22:57:18+00:00",
+    "vibes": "2026-09-01T22:58:17+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-01T22:20:53+00:00",
+      "last_updated_at": "2026-09-01T22:57:15+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-01T22:20:54+00:00",
+      "last_updated_at": "2026-09-01T22:57:16+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-01T22:20:54+00:00",
+      "last_updated_at": "2026-09-01T22:57:16+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-01T22:20:55+00:00",
+      "last_updated_at": "2026-09-01T22:57:17+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-01T22:20:55+00:00",
+      "last_updated_at": "2026-09-01T22:57:17+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-01T22:20:55+00:00",
+      "last_updated_at": "2026-09-01T22:57:17+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-09-01T22:20:56+00:00",
+      "last_updated_at": "2026-09-01T22:57:18+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-09-01T22:20:56+00:00",
+      "last_updated_at": "2026-09-01T22:57:18+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "why_it_matters",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "trending",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
+    {
+      "title": "Game #141 Nats have a 2-game set with the Braves",
+      "url": "https://nats.talkdcsports.com/2026/09/01/game-141-nats-have-a-2-game-set-with-the-braves/",
+      "source": "Talk Nats",
+      "published_at": "2026-09-01T22:24:01+00:00",
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/nats.talk-dc-sports-6a97523fb5c7d.png?fit=1145%2C928&ssl=1"
+    },
+    {
+      "title": "Braves at Nationals Chat and Discussion: AJ Smith-Shawver vs. Jake Irvin",
+      "url": "https://sports.yahoo.com/articles/braves-nationals-chat-discussion-aj-221500746.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-09-01T22:15:00+00:00",
+      "why_it_matters": {
+        "text": "A discussion and preview of the upcoming baseball game between the Braves and Nationals, featuring a pitching matchup between AJ Smith-Shawver and Jake Irvin.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/lo/mysterio/api/e985403a9cdc2fad2fe0a81def71e0961f5eb3a56cea9a56b94936a63c9031da/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fb60dc24de23035a8da1b7fc665b867e4.jpg"
+    },
     {
       "title": "Washington Nationals vs Atlanta Braves Game Thread",
       "url": "https://www.federalbaseball.com/washington-nationals-discussions/93926/washington-nationals-vs-atlanta-braves-game-thread",
       "source": "Federal Baseball",
       "published_at": "2026-09-01T21:28:57+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals continue their homestand with a two-game series against the Atlanta Braves as they enter September and look to finish strong.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2292438110.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -84,6 +93,10 @@
       "url": "https://sports.yahoo.com/articles/brewer-hicklen-starts-lf-ozzie-192251879.html",
       "source": "Yahoo Sports MLB",
       "published_at": "2026-09-01T19:22:51+00:00",
+      "why_it_matters": {
+        "text": "Brewer Hicklen will start in left field and Ozzie Albies will play designated hitter as the Braves open their series against the Nationals.",
+        "ai_generated": true
+      },
       "image_url": "https://s.yimg.com/lo/mysterio/api/62536a2cb0446cc2b8badf8ec5c87aeb4e784d2a1203835cec4c262fa99091b7/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Faed6292a7dfa2a2a1876066bd4ecacb2.jpg"
     },
     {
@@ -91,6 +104,10 @@
       "url": "https://www.mlbtraderumors.com/2026/09/nationals-to-select-jared-simpson.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-09-01T19:05:47+00:00",
+      "why_it_matters": {
+        "text": "The Nationals have officially selected Jared Simpson and Morales. Catcher Drew Millas was moved to the 60-day injured list due to a finger fracture to create a 40-man roster spot.",
+        "ai_generated": true
+      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/09/washington-nationals-mascot-screech-1024x683.jpg"
     },
     {
@@ -98,6 +115,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/93918/tool-helped-erik-tolman-become-flame-throwing-big-leaguer",
       "source": "Federal Baseball",
       "published_at": "2026-09-01T17:11:17+00:00",
+      "why_it_matters": {
+        "text": "New Nationals reliever Erik Tolman uses a specialized black brace on his lower leg, which contributes to his ability to deliver upper 90s velocity from the left side.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2291139681.jpg?quality=90&strip=all&crop=0%2C10.840672443973%2C100%2C78.318655112054&w=1200"
     },
     {
@@ -113,20 +134,6 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-09-01T02:24:52+00:00",
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/08/2025-03-26T153105Z_1915540613_MT1USATODAY25769444_RTRMADP_3_MLB-WASHINGTON-NATIONALS-MEDIA-DAY-1024x1024.jpg"
-    },
-    {
-      "title": "Postgamer: Daylen Lile and Erik Tolman seal the deal as Nats win the series!",
-      "url": "https://nats.talkdcsports.com/2026/08/31/postgamer-daylen-lile-and-erik-tolman-seal-the-deal-as-nats-win-the-series/",
-      "source": "Talk Nats",
-      "published_at": "2026-09-01T01:56:29+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/IMG-20260831-WA0034.jpg?fit=1102%2C1080&ssl=1"
-    },
-    {
-      "title": "Game #140 Nats are throwing a bullpen game",
-      "url": "https://nats.talkdcsports.com/2026/08/31/game-140-nats-are-throwing-a-bullpen-game/",
-      "source": "Talk Nats",
-      "published_at": "2026-08-31T21:51:00+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/HQ8Oiv1WYAEvW65.jpg?fit=787%2C1200&ssl=1"
     }
   ],
   "team_pulse": {
@@ -180,11 +187,102 @@
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "mixed",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "Upcoming Series Matchups",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://sports.yahoo.com/articles/braves-nationals-chat-discussion-aj-221500746.html",
+          "https://www.federalbaseball.com/washington-nationals-discussions/93926/washington-nationals-vs-atlanta-braves-game-thread"
+        ]
+      },
+      {
+        "label": "Roster Management",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.mlbtraderumors.com/2026/09/nationals-to-select-jared-simpson.html"
+        ]
+      },
+      {
+        "label": "Player Performance/Tech",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/93918/tool-helped-erik-tolman-become-flame-throwing-big-leaguer"
+        ]
+      }
+    ]
   },
-  "trending": [],
+  "trending": [
+    {
+      "label": "Braves",
+      "sentiment": "",
+      "context": "Braves at Nationals Chat and Discussion: AJ Smith-Shawver vs. Jake Irvin",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/braves-nationals-chat-discussion-aj-221500746.html",
+        "https://sports.yahoo.com/articles/brewer-hicklen-starts-lf-ozzie-192251879.html",
+        "https://www.federalbaseball.com/washington-nationals-discussions/93926/washington-nationals-vs-atlanta-braves-game-thread"
+      ]
+    },
+    {
+      "label": "Pitching",
+      "sentiment": "",
+      "context": "Braves at Nationals Chat and Discussion: AJ Smith-Shawver vs. Jake Irvin",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/braves-nationals-chat-discussion-aj-221500746.html",
+        "https://www.federalbaseball.com/washington-nationals-analysis/93918/tool-helped-erik-tolman-become-flame-throwing-big-leaguer"
+      ]
+    },
+    {
+      "label": "NL East",
+      "sentiment": "",
+      "context": "Washington Nationals vs Atlanta Braves Game Thread",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-discussions/93926/washington-nationals-vs-atlanta-braves-game-thread"
+      ]
+    },
+    {
+      "label": "Hicklen",
+      "sentiment": "",
+      "context": "Brewer Hicklen starts in LF, Ozzie Albies at DH for Braves series opener against the Nationals",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/brewer-hicklen-starts-lf-ozzie-192251879.html"
+      ]
+    },
+    {
+      "label": "Albies",
+      "sentiment": "",
+      "context": "Brewer Hicklen starts in LF, Ozzie Albies at DH for Braves series opener against the Nationals",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/brewer-hicklen-starts-lf-ozzie-192251879.html"
+      ]
+    },
+    {
+      "label": "Jared Simpson",
+      "sentiment": "",
+      "context": "Nationals To Select Jared Simpson",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/09/nationals-to-select-jared-simpson.html"
+      ]
+    },
+    {
+      "label": "Drew Millas",
+      "sentiment": "",
+      "context": "Nationals To Select Jared Simpson",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/09/nationals-to-select-jared-simpson.html"
+      ]
+    },
+    {
+      "label": "roster move",
+      "sentiment": "",
+      "context": "Nationals To Select Jared Simpson",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/09/nationals-to-select-jared-simpson.html"
+      ]
+    }
+  ],
   "what_to_watch": [
     {
       "text": "The Nats host the Braves on Tuesday.",
