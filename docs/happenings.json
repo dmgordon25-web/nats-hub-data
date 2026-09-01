@@ -1,71 +1,113 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-01T01:29:39+00:00",
+  "generated_at": "2026-09-01T05:32:54+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-01T01:28:32+00:00",
+    "news": "2026-09-01T05:30:34+00:00",
     "videos": "2026-09-01T01:28:32+00:00",
-    "vibes": "2026-09-01T01:29:39+00:00"
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-01T01:28:28+00:00",
+      "last_updated_at": "2026-09-01T05:30:22+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-01T01:28:29+00:00",
+      "last_updated_at": "2026-09-01T05:30:22+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-01T01:28:29+00:00",
+      "last_updated_at": "2026-09-01T05:30:23+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-01T01:28:29+00:00",
+      "last_updated_at": "2026-09-01T05:30:23+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-01T01:28:30+00:00",
+      "last_updated_at": "2026-09-01T05:30:23+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-01T01:28:31+00:00",
+      "last_updated_at": "2026-09-01T05:30:24+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-09-01T01:28:31+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-09-01T01:28:32+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    },
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
+    }
+  ],
   "top_stories": [
+    {
+      "title": "MLB Injury Report: Willson Contreras sidelined with hamstring strain, James Wood nearing return",
+      "url": "https://sports.yahoo.com/articles/mlb-injury-report-willson-contreras-042801665.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-09-01T04:28:01+00:00",
+      "why_it_matters": {
+        "text": "Jorge Montanez provides a breakdown of recent MLB injury news, specifically noting that Willson Contreras is sidelined with a hamstring strain while James Wood is nearing a return.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/lo/mysterio/api/966a058c1a8384375085e5c847409a6b8b07e13c17e488f4fbc7d24cd300abf9/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2F6feb038f41660dc98a31a9555f769c01.jpg"
+    },
+    {
+      "title": "Nationals To Select Yohandy Morales",
+      "url": "https://www.mlbtraderumors.com/2026/08/nationals-to-select-yohandy-morales.html",
+      "source": "MLB Trade Rumors",
+      "published_at": "2026-09-01T02:24:52+00:00",
+      "why_it_matters": {
+        "text": "The Nationals are calling up corner infield prospect Yohandy Morales as rosters expand on Tuesday. The move follows the release of Trevor Williams, creating an opening on the 40-man roster and protecting Morales from the Rule 5 draft.",
+        "ai_generated": true
+      },
+      "image_url": "https://cdn.mlbtraderumors.com/files/2026/08/2025-03-26T153105Z_1915540613_MT1USATODAY25769444_RTRMADP_3_MLB-WASHINGTON-NATIONALS-MEDIA-DAY-1024x1024.jpg"
+    },
+    {
+      "title": "Postgamer: Daylen Lile and Erik Tolman seal the deal as Nats win the series!",
+      "url": "https://nats.talkdcsports.com/2026/08/31/postgamer-daylen-lile-and-erik-tolman-seal-the-deal-as-nats-win-the-series/",
+      "source": "Talk Nats",
+      "published_at": "2026-09-01T01:56:29+00:00",
+      "why_it_matters": {
+        "text": "Daylen Lile and Erik Tolman led the Nats to a series victory in a 6-3 win. Lile contributed two homers, four RBIs, and an outfield assist, while Tolman pitched the final two innings with three outs in a high-pressure situation.",
+        "ai_generated": true
+      },
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/IMG-20260831-WA0034.jpg?fit=1102%2C1080&ssl=1"
+    },
     {
       "title": "Game #140 Nats are throwing a bullpen game",
       "url": "https://nats.talkdcsports.com/2026/08/31/game-140-nats-are-throwing-a-bullpen-game/",
       "source": "Talk Nats",
       "published_at": "2026-08-31T21:51:00+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals suffered a loss in the 9th inning after an airmailed throw went into the dugout. This followed a previous game where they won via a walk-off despite a blown save.",
+        "text": "The Washington Nationals suffered a loss on Sunday after an airmailed throw went into the dugout in the 9th inning. This followed a blown save on Saturday that resulted in a walk-off win.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/HQ8Oiv1WYAEvW65.jpg?fit=787%2C1200&ssl=1"
@@ -76,21 +118,10 @@
       "source": "Federal Baseball",
       "published_at": "2026-08-31T21:31:28+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals and Miami Marlins face off in the final game of their four-game series. Following a ninth-inning meltdown yesterday, the Nats aim to win three out of four games while the Marlins seek to salvage a split.",
+        "text": "The Washington Nationals face the Miami Marlins in the final game of a four-game series. Following a 9th-inning meltdown, the Nats aim to win three out of four games while the Marlins seek to salvage a split.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2292325074.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "2026 Fantasy Baseball Top 300: Juan Soto, James Wood zooming back up, Chase Burns plummets",
-      "url": "https://sports.yahoo.com/articles/2026-fantasy-baseball-top-300-045232474.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-08-31T21:30:00+00:00",
-      "why_it_matters": {
-        "text": "The 2026 Fantasy Baseball Top 300 rankings show Juan Soto and James Wood rising, while Chase Burns falls. Ketel Marte, Riley Greene, and Roman Anthony also see significant jumps as they return to lineups.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/a6e2d66a3fb8882d541827fbaffe206ca59663cc65e7d9812921acd8c4af05df/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2F047ac8782900be95615b627f5531b31f.jpg"
     },
     {
       "title": "How Can the Nationals Build a Sustainable Starting Rotation?",
@@ -98,7 +129,7 @@
       "source": "Talk Nats",
       "published_at": "2026-08-31T18:07:00+00:00",
       "why_it_matters": {
-        "text": "Washington Nationals fans are expressing palpable frustration regarding the state of the team's pitching rotation following a promising start that initially made them favorites to make the playoffs.",
+        "text": "Washington Nationals fans are expressing palpable frustration regarding the current state of the team's pitching, following a promising start that initially made them odds-on favorites to make the playoffs.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/nats.talk-dc-sports-6a8d8b18dc9b7.png?fit=1200%2C894&ssl=1"
@@ -108,10 +139,6 @@
       "url": "https://www.federalbaseball.com/washington-nationals-prospects/93869/breaking-down-washington-nationals-top-five-pitching-prospects",
       "source": "Federal Baseball",
       "published_at": "2026-08-31T16:16:41+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals are facing a significant need for quality pitching, particularly in the bullpen, which is currently overextended due to a lack of reliable starting pitchers.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2025/08/gettyimages-2115791169.jpg?quality=90&strip=all&crop=0%2C10.730450119866%2C100%2C78.539099760267&w=1200"
     },
     {
@@ -119,34 +146,16 @@
       "url": "https://www.mlbtraderumors.com/2026/08/nationals-release-trevor-williams.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-08-31T15:58:27+00:00",
-      "why_it_matters": {
-        "text": "The Nationals released veteran righty Trevor Williams after he went unclaimed through waivers following a designation for assignment last week.",
-        "ai_generated": true
-      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/trevor-williams-washington-nationals-1024x683.jpg"
-    },
-    {
-      "title": "Devin Fitz-Gerald Is Finding Himself Again At Double A Harrisburg",
-      "url": "https://www.federalbaseball.com/washington-nationals-prospects/93871/devin-fitz-gerald-finding-himself-again-double-a-harrisburg",
-      "source": "Federal Baseball",
-      "published_at": "2026-08-31T14:22:05+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/08/gettyimages-2290745724.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "The Nats’ pitching situation",
-      "url": "https://nats.talkdcsports.com/2026/08/31/the-nats-pitching-situation/",
-      "source": "Talk Nats",
-      "published_at": "2026-08-31T13:27:54+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/nats.talk-dc-sports-6a9309866e845.png?fit=928%2C1131&ssl=1"
     }
   ],
   "team_pulse": {
     "result_banner": {
-      "type": "loss",
-      "text": "Tough one — the Nats fell to the Marlins 6-2."
+      "type": "win",
+      "text": "Curly W! The Nats beat the Marlins 6-3."
     },
     "storyline": {
-      "text": "The Washington Nationals suffered a loss in the 9th inning after an airmailed throw went into the dugout. This followed a previous game where they won via a walk-off despite a blown save.",
+      "text": "Jorge Montanez provides a breakdown of recent MLB injury news, specifically noting that Willson Contreras is sidelined with a hamstring strain while James Wood is nearing a return.",
       "ai_generated": true
     }
   },
@@ -195,100 +204,73 @@
     }
   ],
   "fan_vibes": {
-    "overall": "negative",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "Bullpen Instability",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/08/31/game-140-nats-are-throwing-a-bullpen-game/",
-          "https://www.federalbaseball.com/washington-nationals-discussions/93893/washington-nationals-vs-miami-marlins-game-thread",
-          "https://www.federalbaseball.com/washington-nationals-prospects/93869/breaking-down-washington-nationals-top-five-pitching-prospects"
-        ]
-      },
-      {
-        "label": "Starting Rotation Concerns",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/08/31/how-can-the-nationals-build-a-sustainable-starting-rotation/",
-          "https://www.federalbaseball.com/washington-nationals-prospects/93869/breaking-down-washington-nationals-top-five-pitching-prospects"
-        ]
-      },
-      {
-        "label": "Prospect Outlook",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://sports.yahoo.com/articles/2026-fantasy-baseball-top-300-045232474.html"
-        ]
-      }
-    ]
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
   },
   "trending": [
     {
-      "label": "pitching",
+      "label": "Injury Report",
       "sentiment": "",
-      "context": "How Can the Nationals Build a Sustainable Starting Rotation?",
+      "context": "MLB Injury Report: Willson Contreras sidelined with hamstring strain, James Wood nearing return",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/31/how-can-the-nationals-build-a-sustainable-starting-rotation/",
-        "https://www.federalbaseball.com/washington-nationals-prospects/93869/breaking-down-washington-nationals-top-five-pitching-prospects"
+        "https://sports.yahoo.com/articles/mlb-injury-report-willson-contreras-042801665.html"
       ]
     },
     {
-      "label": "bullpen game",
+      "label": "Willson Contreras",
       "sentiment": "",
-      "context": "Game #140 Nats are throwing a bullpen game",
+      "context": "MLB Injury Report: Willson Contreras sidelined with hamstring strain, James Wood nearing return",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/31/game-140-nats-are-throwing-a-bullpen-game/",
-        "https://www.federalbaseball.com/washington-nationals-prospects/93869/breaking-down-washington-nationals-top-five-pitching-prospects"
-      ]
-    },
-    {
-      "label": "walk-off",
-      "sentiment": "",
-      "context": "Game #140 Nats are throwing a bullpen game",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/08/31/game-140-nats-are-throwing-a-bullpen-game/"
-      ]
-    },
-    {
-      "label": "Marlins",
-      "sentiment": "",
-      "context": "Washington Nationals vs Miami Marlins Game Thread",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-discussions/93893/washington-nationals-vs-miami-marlins-game-thread"
-      ]
-    },
-    {
-      "label": "Fantasy Baseball",
-      "sentiment": "",
-      "context": "2026 Fantasy Baseball Top 300: Juan Soto, James Wood zooming back up, Chase Burns plummets",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/2026-fantasy-baseball-top-300-045232474.html"
-      ]
-    },
-    {
-      "label": "Juan Soto",
-      "sentiment": "",
-      "context": "2026 Fantasy Baseball Top 300: Juan Soto, James Wood zooming back up, Chase Burns plummets",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/2026-fantasy-baseball-top-300-045232474.html"
+        "https://sports.yahoo.com/articles/mlb-injury-report-willson-contreras-042801665.html"
       ]
     },
     {
       "label": "James Wood",
       "sentiment": "",
-      "context": "2026 Fantasy Baseball Top 300: Juan Soto, James Wood zooming back up, Chase Burns plummets",
+      "context": "MLB Injury Report: Willson Contreras sidelined with hamstring strain, James Wood nearing return",
       "source_urls": [
-        "https://sports.yahoo.com/articles/2026-fantasy-baseball-top-300-045232474.html"
+        "https://sports.yahoo.com/articles/mlb-injury-report-willson-contreras-042801665.html"
       ]
     },
     {
-      "label": "Chase Burns",
+      "label": "Yohandy Morales",
       "sentiment": "",
-      "context": "2026 Fantasy Baseball Top 300: Juan Soto, James Wood zooming back up, Chase Burns plummets",
+      "context": "Nationals To Select Yohandy Morales",
       "source_urls": [
-        "https://sports.yahoo.com/articles/2026-fantasy-baseball-top-300-045232474.html"
+        "https://www.mlbtraderumors.com/2026/08/nationals-to-select-yohandy-morales.html"
+      ]
+    },
+    {
+      "label": "roster expansion",
+      "sentiment": "",
+      "context": "Nationals To Select Yohandy Morales",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/08/nationals-to-select-yohandy-morales.html"
+      ]
+    },
+    {
+      "label": "prospect",
+      "sentiment": "",
+      "context": "Nationals To Select Yohandy Morales",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/08/nationals-to-select-yohandy-morales.html"
+      ]
+    },
+    {
+      "label": "Daylen Lile",
+      "sentiment": "",
+      "context": "Postgamer: Daylen Lile and Erik Tolman seal the deal as Nats win the series!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/08/31/postgamer-daylen-lile-and-erik-tolman-seal-the-deal-as-nats-win-the-series/"
+      ]
+    },
+    {
+      "label": "Erik Tolman",
+      "sentiment": "",
+      "context": "Postgamer: Daylen Lile and Erik Tolman seal the deal as Nats win the series!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/08/31/postgamer-daylen-lile-and-erik-tolman-seal-the-deal-as-nats-win-the-series/"
       ]
     }
   ],
@@ -300,6 +282,10 @@
     {
       "text": "The Nats host the Braves on Wednesday.",
       "source_url_or_game_pk": "822686"
+    },
+    {
+      "text": "The Nats visit the Dodgers on Friday.",
+      "source_url_or_game_pk": "823905"
     }
   ],
   "on_this_day": {},
