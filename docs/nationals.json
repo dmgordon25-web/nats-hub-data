@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-09-02T12:05:28+00:00",
+  "fetched_at": "2026-09-02T16:13:33+00:00",
   "freshness": {
-    "schedule": "2026-09-02T12:05:26+00:00",
-    "standings": "2026-09-02T12:05:27+00:00",
+    "schedule": "2026-09-02T16:13:31+00:00",
+    "standings": "2026-09-02T16:13:32+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-09-02T12:05:26+00:00",
-    "weather": "2026-09-02T12:05:27+00:00"
+    "weather": "2026-09-02T16:13:32+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -16,7 +16,7 @@
     "date": "2026-09-02",
     "start_time_utc": "2026-09-02T17:05:00Z",
     "status": "Preview",
-    "detailed_status": "Scheduled",
+    "detailed_status": "Pre-Game",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "67-74",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 144,
@@ -32,7 +32,7 @@
       "name": "Atlanta Braves",
       "short_name": "Braves",
       "record": "82-57",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 3309,
@@ -62,7 +62,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -71,7 +71,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "BravesVision",
@@ -80,7 +80,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -89,7 +89,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Los Bravos",
@@ -98,23 +98,23 @@
         "language": "es",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
       "game_number": 2,
@@ -133,21 +133,21 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Starts Soon"
   },
   "focus_weather": {
-    "fetched_at": "2026-09-02T12:05:27+00:00",
+    "fetched_at": "2026-09-02T16:13:32+00:00",
     "source": "open_meteo",
     "game_pk": 822686,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-09-02T17:00",
-    "temperature_f": 90.4,
-    "feels_like_f": 102.5,
-    "wind_mph": 2.9,
+    "temperature_f": 91.8,
+    "feels_like_f": 103.6,
+    "wind_mph": 2.6,
     "wind_dir": "ESE",
     "precip_chance": 1,
     "precip_inches": 0.0,
-    "summary": "Mostly clear",
+    "summary": "Clear",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -162,7 +162,7 @@
       "date": "2026-09-02",
       "start_time_utc": "2026-09-02T17:05:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -170,7 +170,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "67-74",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 144,
@@ -178,7 +178,7 @@
         "name": "Atlanta Braves",
         "short_name": "Braves",
         "record": "82-57",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -208,7 +208,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -217,7 +217,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "BravesVision",
@@ -226,7 +226,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -235,7 +235,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Los Bravos",
@@ -244,23 +244,23 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 2,
@@ -279,7 +279,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 823905,
@@ -314,7 +314,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 800600,
+          "name": "Jackson Kent",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -430,7 +434,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 676917,
+          "name": "Cade Cavalli",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -910,7 +918,7 @@
       "date": "2026-09-02",
       "start_time_utc": "2026-09-02T17:05:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -918,7 +926,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "67-74",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 144,
@@ -926,7 +934,7 @@
         "name": "Atlanta Braves",
         "short_name": "Braves",
         "record": "82-57",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -956,7 +964,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -965,7 +973,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "BravesVision",
@@ -974,7 +982,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -983,7 +991,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Los Bravos",
@@ -992,23 +1000,23 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 2,
@@ -1027,7 +1035,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 823905,
@@ -1062,7 +1070,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 800600,
+          "name": "Jackson Kent",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1178,7 +1190,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 676917,
+          "name": "Cade Cavalli",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1294,7 +1310,11 @@
       },
       "probable_pitchers": {
         "home": null,
-        "away": null
+        "away": {
+          "id": 674841,
+          "name": "Andrew Alvarez",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
