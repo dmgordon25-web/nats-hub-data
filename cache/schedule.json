@@ -1,120 +1,7 @@
 {
-  "fetched_at": "2026-09-03T23:33:43+00:00",
+  "fetched_at": "2026-09-04T00:57:57+00:00",
   "source": "mlb_statsapi",
   "games": [
-    {
-      "game_pk": 822687,
-      "date": "2026-09-01",
-      "start_time_utc": "2026-09-01T22:45:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "67-74",
-        "score": 9
-      },
-      "away": {
-        "id": 144,
-        "abbrev": "ATL",
-        "name": "Atlanta Braves",
-        "short_name": "Braves",
-        "record": "82-57",
-        "score": 5
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 663623,
-          "name": "Jake Irvin",
-          "hand": null
-        },
-        "away": {
-          "id": 700363,
-          "name": "AJ Smith-Shawver",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "680 AM/93.7 FM The Fan",
-          "call_sign": "680 AM",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "BravesVision",
-          "call_sign": "BravesVsn",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Los Bravos",
-          "call_sign": "Los Bravos",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 9,
-        "away_runs": 5,
-        "home_hits": 12,
-        "away_hits": 8,
-        "home_errors": 0,
-        "away_errors": 1
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 2,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi"
-    },
     {
       "game_pk": 822686,
       "date": "2026-09-02",
@@ -260,7 +147,11 @@
         "lon": -118.24053
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 605483,
+          "name": "Blake Snell",
+          "hand": null
+        },
         "away": {
           "id": 800600,
           "name": "Jackson Kent",
@@ -287,21 +178,21 @@
           "media_state": "MEDIA_OFF"
         },
         {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Dodgers Radio AM570",
           "call_sign": "KLAC AM570",
           "type": "AM",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -369,7 +260,11 @@
         "lon": -118.24053
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 607192,
+          "name": "Tyler Glasnow",
+          "hand": null
+        },
         "away": {
           "id": 676917,
           "name": "Cade Cavalli",
@@ -1363,6 +1258,111 @@
       "series": {
         "game_number": 2,
         "games_in_series": 2,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi"
+    },
+    {
+      "game_pk": 823005,
+      "date": "2026-09-18",
+      "start_time_utc": "2026-09-19T00:15:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": false,
+      "home": {
+        "id": 138,
+        "abbrev": "STL",
+        "name": "St. Louis Cardinals",
+        "short_name": "Cardinals",
+        "record": "70-70",
+        "score": null
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "67-75",
+        "score": null
+      },
+      "venue": {
+        "id": 2889,
+        "name": "Busch Stadium",
+        "city": "St. Louis",
+        "state": "MO",
+        "lat": 38.62256667,
+        "lon": -90.19286667
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Cardinals.TV Presented by bet365",
+          "call_sign": "CARD",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "KMOX 1120 AM/104.1 FM",
+          "call_sign": "KMOX",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WIJR AM 880 (En Espanol)",
+          "call_sign": "WIJR",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 1,
+        "games_in_series": 3,
         "description": "Regular Season"
       },
       "double_header": "N",
