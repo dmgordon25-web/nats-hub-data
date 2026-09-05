@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-09-05T01:04:23+00:00",
+  "fetched_at": "2026-09-05T03:06:43+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
       "game_pk": 823905,
       "date": "2026-09-04",
       "start_time_utc": "2026-09-05T02:10:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 119,
@@ -15,7 +15,7 @@
         "name": "Los Angeles Dodgers",
         "short_name": "Dodgers",
         "record": "83-57",
-        "score": 0
+        "score": 3
       },
       "away": {
         "id": 120,
@@ -93,17 +93,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 4,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
+        "balls": 2,
+        "strikes": 2,
         "outs": 0,
-        "home_runs": 0,
+        "home_runs": 3,
         "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "home_hits": 2,
+        "away_hits": 2,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -672,7 +672,7 @@
         "abbrev": "LAA",
         "name": "Los Angeles Angels",
         "short_name": "Angels",
-        "record": "53-87",
+        "record": "53-88",
         "score": null
       },
       "venue": {
@@ -768,7 +768,7 @@
         "abbrev": "LAA",
         "name": "Los Angeles Angels",
         "short_name": "Angels",
-        "record": "53-87",
+        "record": "53-88",
         "score": null
       },
       "venue": {
@@ -864,7 +864,7 @@
         "abbrev": "LAA",
         "name": "Los Angeles Angels",
         "short_name": "Angels",
-        "record": "53-87",
+        "record": "53-88",
         "score": null
       },
       "venue": {
@@ -960,7 +960,7 @@
         "abbrev": "PHI",
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
-        "record": "79-61",
+        "record": "79-62",
         "score": null
       },
       "venue": {
@@ -1065,7 +1065,7 @@
         "abbrev": "PHI",
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
-        "record": "79-61",
+        "record": "79-62",
         "score": null
       },
       "venue": {
