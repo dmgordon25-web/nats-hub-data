@@ -1,29 +1,29 @@
 {
-  "fetched_at": "2026-09-05T03:06:43+00:00",
+  "fetched_at": "2026-09-05T07:36:48+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
       "game_pk": 823905,
       "date": "2026-09-04",
       "start_time_utc": "2026-09-05T02:10:00Z",
-      "status": "Live",
-      "detailed_status": "In Progress",
+      "status": "Final",
+      "detailed_status": "Final",
       "is_nats_home": false,
       "home": {
         "id": 119,
         "abbrev": "LAD",
         "name": "Los Angeles Dodgers",
         "short_name": "Dodgers",
-        "record": "83-57",
-        "score": 3
+        "record": "84-57",
+        "score": 5
       },
       "away": {
         "id": 120,
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "67-75",
-        "score": 0
+        "record": "67-76",
+        "score": 3
       },
       "venue": {
         "id": 22,
@@ -53,7 +53,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "Nationals.TV",
@@ -62,7 +62,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "Dodgers Radio AM570",
@@ -71,7 +71,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -80,7 +80,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "KTNQ 1020",
@@ -89,23 +89,23 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         }
       ],
       "linescore": {
-        "current_inning": 4,
+        "current_inning": 9,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
         "balls": 2,
-        "strikes": 2,
-        "outs": 0,
-        "home_runs": 3,
-        "away_runs": 0,
-        "home_hits": 2,
-        "away_hits": 2,
-        "home_errors": 0,
-        "away_errors": 0
+        "strikes": 1,
+        "outs": 3,
+        "home_runs": 5,
+        "away_runs": 3,
+        "home_hits": 5,
+        "away_hits": 10,
+        "home_errors": 1,
+        "away_errors": 1
       },
       "series": {
         "game_number": 1,
@@ -127,7 +127,7 @@
         "abbrev": "LAD",
         "name": "Los Angeles Dodgers",
         "short_name": "Dodgers",
-        "record": "83-57",
+        "record": "84-57",
         "score": null
       },
       "away": {
@@ -135,7 +135,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "67-75",
+        "record": "67-76",
         "score": null
       },
       "venue": {
@@ -240,7 +240,7 @@
         "abbrev": "LAD",
         "name": "Los Angeles Dodgers",
         "short_name": "Dodgers",
-        "record": "83-57",
+        "record": "84-57",
         "score": null
       },
       "away": {
@@ -248,7 +248,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "67-75",
+        "record": "67-76",
         "score": null
       },
       "venue": {
@@ -349,7 +349,7 @@
         "abbrev": "SD",
         "name": "San Diego Padres",
         "short_name": "Padres",
-        "record": "73-67",
+        "record": "74-67",
         "score": null
       },
       "away": {
@@ -357,7 +357,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "67-75",
+        "record": "67-76",
         "score": null
       },
       "venue": {
@@ -454,7 +454,7 @@
         "abbrev": "SD",
         "name": "San Diego Padres",
         "short_name": "Padres",
-        "record": "73-67",
+        "record": "74-67",
         "score": null
       },
       "away": {
@@ -462,7 +462,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "67-75",
+        "record": "67-76",
         "score": null
       },
       "venue": {
@@ -559,7 +559,7 @@
         "abbrev": "SD",
         "name": "San Diego Padres",
         "short_name": "Padres",
-        "record": "73-67",
+        "record": "74-67",
         "score": null
       },
       "away": {
@@ -567,7 +567,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "67-75",
+        "record": "67-76",
         "score": null
       },
       "venue": {
@@ -664,7 +664,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "67-75",
+        "record": "67-76",
         "score": null
       },
       "away": {
@@ -760,7 +760,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "67-75",
+        "record": "67-76",
         "score": null
       },
       "away": {
@@ -856,7 +856,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "67-75",
+        "record": "67-76",
         "score": null
       },
       "away": {
@@ -952,7 +952,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "67-75",
+        "record": "67-76",
         "score": null
       },
       "away": {
@@ -1057,7 +1057,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "67-75",
+        "record": "67-76",
         "score": null
       },
       "away": {
@@ -1162,7 +1162,7 @@
         "abbrev": "STL",
         "name": "St. Louis Cardinals",
         "short_name": "Cardinals",
-        "record": "70-71",
+        "record": "71-71",
         "score": null
       },
       "away": {
@@ -1170,7 +1170,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "67-75",
+        "record": "67-76",
         "score": null
       },
       "venue": {
@@ -1267,7 +1267,7 @@
         "abbrev": "STL",
         "name": "St. Louis Cardinals",
         "short_name": "Cardinals",
-        "record": "70-71",
+        "record": "71-71",
         "score": null
       },
       "away": {
@@ -1275,7 +1275,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "67-75",
+        "record": "67-76",
         "score": null
       },
       "venue": {
