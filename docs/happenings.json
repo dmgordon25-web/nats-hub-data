@@ -1,68 +1,63 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-06T05:55:47+00:00",
+  "generated_at": "2026-09-06T09:57:14+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-06T05:55:00+00:00",
-    "videos": "2026-09-06T01:53:40+00:00",
-    "vibes": "2026-09-06T05:55:47+00:00"
+    "news": "2026-09-06T09:56:42+00:00",
+    "videos": "2026-09-06T09:56:42+00:00",
+    "vibes": "2026-09-06T09:57:14+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-06T05:54:48+00:00",
+      "last_updated_at": "2026-09-06T09:56:39+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-06T05:54:49+00:00",
+      "last_updated_at": "2026-09-06T09:56:40+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-06T05:54:49+00:00",
+      "last_updated_at": "2026-09-06T09:56:40+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-06T05:54:50+00:00",
+      "last_updated_at": "2026-09-06T09:56:40+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-06T05:54:50+00:00",
+      "last_updated_at": "2026-09-06T09:56:41+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-06T05:54:50+00:00",
+      "last_updated_at": "2026-09-06T09:56:41+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-09-06T09:56:42+00:00",
+      "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-09-06T09:56:42+00:00",
+      "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "videos",
-      "reason": "last_check_too_old"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "Tommy Edman does it all in Dodgers win over Nationals",
@@ -76,12 +71,23 @@
       "image_url": "https://s.yimg.com/lo/mysterio/api/81bf84b08313dd41db603cb7212bf0596fd9639f054738e8ee7c673711272a1a/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F60878439be1c988f3a43e5b5762eef77.jpg"
     },
     {
+      "title": "Dodgers finally regaining momentum after comeback win over Nationals",
+      "url": "https://sports.yahoo.com/articles/dodgers-finally-regaining-momentum-comeback-042928120.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-09-06T04:29:28+00:00",
+      "why_it_matters": {
+        "text": "The Dodgers are gaining momentum following a comeback victory against the Nationals, with manager Dave Roberts expressing cautious optimism.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/lo/mysterio/api/ccdf26c3810da42410ee3f67280810e1b95b6ddfe91ab2f5cf5d5b547a12bae9/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fny_post_sports_articles_389%2F1fa8da9e4df01f136f1ecef5b79b8e98.jpg"
+    },
+    {
       "title": "Dodgers on Deck: Sunday, September 6 vs. Nationals",
       "url": "https://sports.yahoo.com/articles/dodgers-deck-sunday-september-6-014851918.html",
       "source": "Yahoo Sports MLB",
       "published_at": "2026-09-06T01:48:51+00:00",
       "why_it_matters": {
-        "text": "The Dodgers face the Washington Nationals on Sunday, September 6, at Dodger Stadium. The game features a 7:10 p.m. first pitch and will feature various pitchers including Justin Wrobleski and likely Bobby Miller.",
+        "text": "The Dodgers face the Washington Nationals on Sunday, September 6, at Dodger Stadium. The game features a 7:10 p.m. first pitch and will utilize various pitchers including Justin Wrobleski and likely Bobby Miller for bulk outings.",
         "ai_generated": true
       },
       "image_url": "https://s.yimg.com/lo/mysterio/api/9d6e41961589f4bae21430730f23e5a009beaf1193a50e47cd9c750fa7626332/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fa628967acd91850e4413f9b19a2b7c27.jpg"
@@ -92,7 +98,7 @@
       "source": "Yahoo Sports MLB",
       "published_at": "2026-09-06T00:52:00+00:00",
       "why_it_matters": {
-        "text": "The Dodgers face the Nationals in a game starting slightly earlier than the previous night. Washington's Cade Cavalli will pitch while Dalton Rushing is set as the designated hitter; Shohei Ohtani is out for his third consecutive game.",
+        "text": "The Dodgers face the Nationals in a game starting slightly earlier than the previous night. Washington's Cade Cavalli will pitch while Dalton Rushing is set to DH; Shohei Ohtani is out for his third consecutive game.",
         "ai_generated": true
       },
       "image_url": "https://s.yimg.com/lo/mysterio/api/2f575f4882ef1f23a6ad226dd0a6855531d102f1569279070b239f553eb5f102/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Ff55a36dfd00d7dc2818c4a7b007878a6.jpg"
@@ -103,7 +109,7 @@
       "source": "Yahoo Sports MLB",
       "published_at": "2026-09-06T00:37:05+00:00",
       "why_it_matters": {
-        "text": "The Dodgers scratched Dalton Rushing due to elbow soreness and Max Muncy because he is sick. Both players were originally planned to start in the lineup for Saturday's game against the Washington Nationals.",
+        "text": "The Dodgers scratched Dalton Rushing due to elbow soreness and Max Muncy because he is sick. Both players were originally planned to start in the game against the Washington Nationals.",
         "ai_generated": true
       },
       "image_url": "https://s.yimg.com/lo/mysterio/api/f791700fdd05a886ee7fe3ed52e10887806cab56c7e9954e92ad89701bf8fff3/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Ffdc866ac1749c77ef5a589c9353f302c.jpg"
@@ -114,7 +120,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-09-05T21:41:04+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals look to even their series against the Los Angeles Dodgers tonight. Despite a late rally last night, they face a tough challenge but have pitcher Cade Cavalli on the mound.",
+        "text": "The Washington Nationals look to even the series against the Los Angeles Dodgers tonight. Despite a late rally last night, they face a challenge but have pitcher Cade Cavalli on the mound.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2293045926.jpg?quality=90&strip=all&crop=0%2C10.728866959052%2C100%2C78.542266081895&w=1200"
@@ -124,10 +130,6 @@
       "url": "https://nats.talkdcsports.com/2026/09/05/game-144-cavalli-on-the-mound-against-the-dodgers/",
       "source": "Talk Nats",
       "published_at": "2026-09-05T21:22:00+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals lost 5-3 to the Dodgers after a series of errors and a double over the wall. Ace pitcher Cade Cavalli takes the mound tonight at UNIQLO Field at Dodger Stadium.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/07/IMG-20260717-WA0028-1.jpg?fit=1200%2C901&ssl=1"
     },
     {
@@ -136,19 +138,12 @@
       "source": "Federal Baseball",
       "published_at": "2026-09-05T16:50:44+00:00",
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2292704314.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "Nationals Notes: Abrams, Early, Gray",
-      "url": "https://www.mlbtraderumors.com/2026/09/nationals-notes-abrams-early-gray.html",
-      "source": "MLB Trade Rumors",
-      "published_at": "2026-09-05T15:54:00+00:00",
-      "image_url": "https://cdn.mlbtraderumors.com/files/2026/09/CJAbrams-1024x683.jpg"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "loss",
-      "text": "Tough one — the Nats fell to the Dodgers 5-3."
+      "text": "Tough one — the Nats fell to the Dodgers 6-5."
     },
     "storyline": {
       "text": "Tommy Edman's performance helped the Dodgers secure a victory over the Nationals, marking their third consecutive win after losing the first two games of their homestand.",
@@ -200,31 +195,30 @@
     }
   ],
   "fan_vibes": {
-    "overall": "negative",
+    "overall": "mixed",
     "ai_generated": true,
     "themes": [
       {
-        "label": "Loss to Dodgers",
-        "sentiment": "negative",
+        "label": "Dodgers' Performance",
+        "sentiment": "positive",
         "source_urls": [
-          "https://nats.talkdcsports.com/2026/09/05/game-144-cavalli-on-the-mound-against-the-dodgers/",
+          "https://sports.yahoo.com/articles/dodgers-finally-regaining-momentum-comeback-042928120.html",
           "https://sports.yahoo.com/articles/tommy-edman-does-dodgers-win-040327097.html"
-        ]
-      },
-      {
-        "label": "Pitching Performance",
-        "sentiment": "mixed",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/09/05/game-144-cavalli-on-the-mound-against-the-dodgers/",
-          "https://sports.yahoo.com/articles/dodgers-vs-nationals-game-chat-005200605.html",
-          "https://www.federalbaseball.com/washington-nationals-discussions/94014/washington-nationals-vs-los-angeles-dodgers-game-thread"
         ]
       },
       {
         "label": "Roster Availability",
         "sentiment": "negative",
         "source_urls": [
-          "https://sports.yahoo.com/articles/dalton-rushing-scratched-elbow-soreness-003705957.html"
+          "https://sports.yahoo.com/articles/dalton-rushing-scratched-elbow-soreness-003705957.html",
+          "https://sports.yahoo.com/articles/dodgers-vs-nationals-game-chat-005200605.html"
+        ]
+      },
+      {
+        "label": "Series Competition",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-discussions/94014/washington-nationals-vs-los-angeles-dodgers-game-thread"
         ]
       }
     ]
@@ -235,9 +229,9 @@
       "sentiment": "",
       "context": "Tommy Edman does it all in Dodgers win over Nationals",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/09/05/game-144-cavalli-on-the-mound-against-the-dodgers/",
         "https://sports.yahoo.com/articles/dalton-rushing-scratched-elbow-soreness-003705957.html",
         "https://sports.yahoo.com/articles/dodgers-deck-sunday-september-6-014851918.html",
+        "https://sports.yahoo.com/articles/dodgers-finally-regaining-momentum-comeback-042928120.html",
         "https://sports.yahoo.com/articles/dodgers-vs-nationals-game-chat-005200605.html",
         "https://sports.yahoo.com/articles/tommy-edman-does-dodgers-win-040327097.html",
         "https://www.federalbaseball.com/washington-nationals-discussions/94014/washington-nationals-vs-los-angeles-dodgers-game-thread"
@@ -248,7 +242,6 @@
       "sentiment": "",
       "context": "Dodgers vs. Nationals game chat",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/09/05/game-144-cavalli-on-the-mound-against-the-dodgers/",
         "https://sports.yahoo.com/articles/dodgers-vs-nationals-game-chat-005200605.html",
         "https://www.federalbaseball.com/washington-nationals-discussions/94014/washington-nationals-vs-los-angeles-dodgers-game-thread"
       ]
@@ -287,7 +280,7 @@
       ]
     },
     {
-      "label": "injuries",
+      "label": "Injuries",
       "sentiment": "",
       "context": "Dalton Rushing scratched with elbow soreness, Max Muncy sick",
       "source_urls": [
@@ -303,6 +296,10 @@
     {
       "text": "The Nats visit the Padres on Monday.",
       "source_url_or_game_pk": "823254"
+    },
+    {
+      "text": "The Nats visit the Padres on Tuesday.",
+      "source_url_or_game_pk": "823250"
     }
   ],
   "on_this_day": {},
