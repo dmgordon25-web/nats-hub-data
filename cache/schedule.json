@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-07T20:46:28+00:00",
+  "fetched_at": "2026-09-07T21:32:43+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -232,8 +232,8 @@
       "game_pk": 823254,
       "date": "2026-09-07",
       "start_time_utc": "2026-09-07T21:10:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 135,
@@ -241,7 +241,7 @@
         "name": "San Diego Padres",
         "short_name": "Padres",
         "record": "75-68",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 120,
@@ -319,16 +319,16 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 2,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 1,
         "outs": 0,
-        "home_runs": 0,
+        "home_runs": 1,
         "away_runs": 0,
-        "home_hits": 0,
+        "home_hits": 3,
         "away_hits": 0,
         "home_errors": 0,
         "away_errors": 0
