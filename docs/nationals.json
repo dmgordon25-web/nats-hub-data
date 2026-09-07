@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-09-07T21:32:44+00:00",
+  "fetched_at": "2026-09-07T23:02:25+00:00",
   "freshness": {
-    "schedule": "2026-09-07T21:32:43+00:00",
-    "standings": "2026-09-07T21:32:43+00:00",
+    "schedule": "2026-09-07T23:02:24+00:00",
+    "standings": "2026-09-07T23:02:25+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-09-07T21:32:42+00:00",
-    "weather": "2026-09-07T21:32:44+00:00"
+    "weather": "2026-09-07T23:02:25+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -24,7 +24,7 @@
       "name": "San Diego Padres",
       "short_name": "Padres",
       "record": "75-68",
-      "score": 1
+      "score": 3
     },
     "away": {
       "id": 120,
@@ -32,7 +32,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "67-78",
-      "score": 0
+      "score": 2
     },
     "venue": {
       "id": 2680,
@@ -102,17 +102,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 2,
+      "current_inning": 7,
       "inning_half": "Top",
       "inning_state": "Top",
       "is_top_inning": true,
       "balls": 1,
       "strikes": 1,
       "outs": 0,
-      "home_runs": 1,
-      "away_runs": 0,
-      "home_hits": 3,
-      "away_hits": 0,
+      "home_runs": 3,
+      "away_runs": 2,
+      "home_hits": 8,
+      "away_hits": 4,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -136,18 +136,18 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-09-07T21:32:44+00:00",
+    "fetched_at": "2026-09-07T23:02:25+00:00",
     "source": "open_meteo",
     "game_pk": 823254,
     "venue_name": "Petco Park",
     "forecast_at": "2026-09-07T21:00",
-    "temperature_f": 94.1,
-    "feels_like_f": 97.8,
-    "wind_mph": 8.9,
+    "temperature_f": 95.1,
+    "feels_like_f": 103.0,
+    "wind_mph": 10.1,
     "wind_dir": "NW",
     "precip_chance": 1,
     "precip_inches": 0.0,
-    "summary": "Partly cloudy",
+    "summary": "Clear",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -170,7 +170,7 @@
         "name": "San Diego Padres",
         "short_name": "Padres",
         "record": "75-68",
-        "score": 1
+        "score": 3
       },
       "away": {
         "id": 120,
@@ -178,7 +178,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "67-78",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 2680,
@@ -248,17 +248,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 2,
+        "current_inning": 7,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
         "balls": 1,
         "strikes": 1,
         "outs": 0,
-        "home_runs": 1,
-        "away_runs": 0,
-        "home_hits": 3,
-        "away_hits": 0,
+        "home_runs": 3,
+        "away_runs": 2,
+        "home_hits": 8,
+        "away_hits": 4,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -912,7 +912,7 @@
         "name": "San Diego Padres",
         "short_name": "Padres",
         "record": "75-68",
-        "score": 1
+        "score": 3
       },
       "away": {
         "id": 120,
@@ -920,7 +920,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "67-78",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 2680,
@@ -990,17 +990,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 2,
+        "current_inning": 7,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
         "balls": 1,
         "strikes": 1,
         "outs": 0,
-        "home_runs": 1,
-        "away_runs": 0,
-        "home_hits": 3,
-        "away_hits": 0,
+        "home_runs": 3,
+        "away_runs": 2,
+        "home_hits": 8,
+        "away_hits": 4,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -2180,7 +2180,7 @@
         "abbrev": "DET",
         "name": "Detroit Tigers",
         "short_name": "Tigers",
-        "record": "65-78",
+        "record": "66-78",
         "score": null
       },
       "away": {
@@ -2872,38 +2872,38 @@
           "name": "Minnesota Twins",
           "short_name": "Twins",
           "wins": 68,
-          "losses": 75,
-          "pct": ".476",
-          "gb": "7.0",
-          "wc_gb": "4.0",
-          "streak": "L1",
+          "losses": 76,
+          "pct": ".472",
+          "gb": "7.5",
+          "wc_gb": "4.5",
+          "streak": "L2",
           "last_ten": "4-6",
           "division_rank": 3,
           "league_rank": 10,
           "wc_rank": 7,
-          "run_diff": -48,
-          "runs_scored": 666,
-          "runs_allowed": 714,
-          "elim_num": "13"
+          "run_diff": -49,
+          "runs_scored": 670,
+          "runs_allowed": 719,
+          "elim_num": "12"
         },
         {
           "id": 116,
           "abbrev": "DET",
           "name": "Detroit Tigers",
           "short_name": "Tigers",
-          "wins": 65,
+          "wins": 66,
           "losses": 78,
-          "pct": ".455",
-          "gb": "10.0",
-          "wc_gb": "7.0",
-          "streak": "L1",
-          "last_ten": "3-7",
+          "pct": ".458",
+          "gb": "9.5",
+          "wc_gb": "6.5",
+          "streak": "W1",
+          "last_ten": "4-6",
           "division_rank": 4,
           "league_rank": 12,
           "wc_rank": 9,
-          "run_diff": 50,
-          "runs_scored": 627,
-          "runs_allowed": 577,
+          "run_diff": 51,
+          "runs_scored": 632,
+          "runs_allowed": 581,
           "elim_num": "10"
         },
         {
