@@ -1,70 +1,108 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-07T23:09:36+00:00",
+  "generated_at": "2026-09-08T03:10:59+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-07T23:08:36+00:00",
+    "news": "2026-09-08T03:10:18+00:00",
     "videos": "2026-09-07T23:08:36+00:00",
-    "vibes": "2026-09-07T23:09:36+00:00"
+    "vibes": "2026-09-08T03:10:59+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-07T23:08:21+00:00",
+      "last_updated_at": "2026-09-08T03:10:06+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-07T23:08:22+00:00",
+      "last_updated_at": "2026-09-08T03:10:06+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-07T23:08:22+00:00",
+      "last_updated_at": "2026-09-08T03:10:07+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-07T23:08:34+00:00",
+      "last_updated_at": "2026-09-08T03:10:07+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-07T23:08:35+00:00",
+      "last_updated_at": "2026-09-08T03:10:07+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-07T23:08:35+00:00",
+      "last_updated_at": "2026-09-08T03:10:08+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-09-07T23:08:36+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-09-07T23:08:36+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    }
+  ],
   "top_stories": [
+    {
+      "title": "Dodgers’ Shohei Ohtani back as DH after 4-day break; pitching plans on hold",
+      "url": "https://sports.yahoo.com/articles/dodgers-shohei-ohtani-back-dh-024638756.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-09-08T02:46:38+00:00",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/aabf38aa9c69d8c85a6ae352759c6ecbb3886512c21e4d81a6b91e881ceb60b9/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2F5e248cc7add7420dd5be2b1f3111f1d9.jpg"
+    },
     {
       "title": "Nationals Notes: Ribalta, Cruz, Early",
       "url": "https://www.mlbtraderumors.com/2026/09/nationals-notes-ribalta-cruz-early.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-09-07T22:47:05+00:00",
+      "why_it_matters": {
+        "text": "The Nationals placed right-hander Orlando Ribalta on the 15-day injured list due to right forearm inflammation, with Yovanny Cruz recalled in a corresponding move. The severity of Ribalta's injury is currently unknown.",
+        "ai_generated": true
+      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/09/Orlando_Ribalta_Nationals-1024x768.jpg"
+    },
+    {
+      "title": "Padres going full ‘Pitchcraft and Wizardry’ for Harry Potter Day",
+      "url": "https://sports.yahoo.com/articles/padres-going-full-pitchcraft-wizardry-204900996.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-09-07T20:49:00+00:00",
+      "why_it_matters": {
+        "text": "The Padres will celebrate Harry Potter Day during Monday's Labor Day game against the Nationals, featuring a limited-edition \"School of Pitchcraft and Wizardry\" Joe Musgrove bobblehead giveaway.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/lo/mysterio/api/b88c36accd058a713f79c6cab261393462f59799c0fa2f77533cbbb52369331e/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fny_post_sports_articles_389%2F4e91dc7049fcb63586dcb403773c6ea1.jpg"
+    },
+    {
+      "title": "Dodgers’ never-seen-before feat inspires confidence of World Series three-peat",
+      "url": "https://sports.yahoo.com/articles/dodgers-never-seen-feat-inspires-201136454.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-09-07T20:11:36+00:00",
+      "why_it_matters": {
+        "text": "The Dodgers made history with a never-seen-before feat as Mookie Betts completed a three-game sweep of the Nationals, inspiring confidence in a potential World Series three-peat.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/lo/mysterio/api/eb65a34d230e70e0c43baf2d4a6fad3a83eaacda34ff477757249ca9c43103a3/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fny_post_sports_articles_389%2F0b896d9d3c802819f314a3de3812e424.jpg"
     },
     {
       "title": "Washington Nationals at San Diego Padres",
@@ -83,7 +121,7 @@
       "source": "Talk Nats",
       "published_at": "2026-09-07T20:05:00+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals are moving on from a loss in Chavez Ravine to play the next three days in San Diego, with Jake Irvin scheduled as their starter.",
+        "text": "The Washington Nationals move on from their recent loss in Chavez Ravine to face a new opponent in San Diego. The team will start the series with Jake Irvin as their starting pitcher.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2025/06/IMG_20250624_215112-1.jpg?fit=1200%2C900&ssl=1"
@@ -93,10 +131,6 @@
       "url": "https://www.federalbaseball.com/washington-nationals-discussions/94060/washington-nationals-vs-san-diego-padres-game-thread",
       "source": "Federal Baseball",
       "published_at": "2026-09-07T20:01:09+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals faced bullpen issues against the Dodgers but have an opportunity to impact the San Diego Padres' wild card hunt in their upcoming matchup.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2293735029.jpg?quality=90&strip=all&crop=0%2C9.7736385008623%2C100%2C80.452722998275&w=1200"
     },
     {
@@ -104,42 +138,13 @@
       "url": "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-no-19-smu-vs-florida-state-nationals-vs-padres-and-more/",
       "source": "CBS Sports MLB",
       "published_at": "2026-09-07T19:30:45+00:00",
-      "why_it_matters": {
-        "text": "The report highlights today's top games to watch, including SMU vs. Florida State and Nationals vs. Padres, featuring best bets and odds based on the SportsLine Projection Model and CBS Sports experts.",
-        "ai_generated": true
-      },
       "image_url": "https://sportshub.cbsistatic.com/i/r/2026/08/30/7efa52da-98d3-4ba9-a219-0ee46e1ba0a2/thumbnail/1200x675/5c7dad6b618f135e5dbb07968808ba76/keith-jennings-smu.jpg"
-    },
-    {
-      "title": "Nats try to end their 4-game losing streak with 3 games against Padres",
-      "url": "https://www.federalbaseball.com/washington-nationals-game-information/94056/nats-try-to-end-4-game-losing-streak-3-games-against-padres",
-      "source": "Federal Baseball",
-      "published_at": "2026-09-07T18:08:39+00:00",
-      "why_it_matters": {
-        "text": "The Nationals are attempting to end a four-game losing streak with three games against the Padres after being swept by the Dodgers. The team is currently 11 games under .500 and faces struggles in both the bullpen and offense.",
-        "ai_generated": true
-      },
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2293046218.jpg?quality=90&strip=all&crop=0%2C10.691497747281%2C100%2C78.617004505439&w=1200"
-    },
-    {
-      "title": "Blown Save №37 — Nats tied a record you don’t want!",
-      "url": "https://nats.talkdcsports.com/2026/09/07/blown-save-%e2%84%9637-nats-tied-a-record-you-dont-want/",
-      "source": "Talk Nats",
-      "published_at": "2026-09-07T15:30:54+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/20260906_175051.jpg?fit=1200%2C676&ssl=1"
-    },
-    {
-      "title": "Nasim Nunez is not a viable starting option for the Washington Nationals",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/94047/nasim-nunez-not-viable-starting-option-for-washington-nationals",
-      "source": "Federal Baseball",
-      "published_at": "2026-09-07T15:09:56+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2293045901.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "loss",
-      "text": "Tough one — the Nats fell to the Dodgers 7-5."
+      "text": "Tough one — the Nats fell to the Padres 3-2."
     }
   },
   "videos": [
@@ -187,95 +192,96 @@
     }
   ],
   "fan_vibes": {
-    "overall": "negative",
+    "overall": "mixed",
     "ai_generated": true,
     "themes": [
       {
-        "label": "struggling performance",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-game-information/94056/nats-try-to-end-4-game-losing-streak-3-games-against-padres"
-        ]
-      },
-      {
-        "label": "bullpen issues",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-discussions/94060/washington-nationals-vs-san-diego-padres-game-thread",
-          "https://www.federalbaseball.com/washington-nationals-game-information/94056/nats-try-to-end-4-game-losing-streak-3-games-against-padres"
-        ]
-      },
-      {
-        "label": "upcoming series focus",
+        "label": "Roster Management",
         "sentiment": "mixed",
         "source_urls": [
-          "https://nats.talkdcsports.com/2026/09/07/game-146-nats-turn-the-page-to-san-diego/",
-          "https://sports.yahoo.com/articles/washington-nationals-san-diego-padres-201000127.html",
-          "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-no-19-smu-vs-florida-state-nationals-vs-padres-and-more/",
-          "https://www.federalbaseball.com/washington-nationals-discussions/94060/washington-nationals-vs-san-diego-padres-game-thread"
+          "https://www.mlbtraderumors.com/2026/09/nationals-notes-ribalta-cruz-early.html"
+        ]
+      },
+      {
+        "label": "Upcoming Series Outlook",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/09/07/game-146-nats-turn-the-page-to-san-diego/"
+        ]
+      },
+      {
+        "label": "Opponent Performance",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://sports.yahoo.com/articles/dodgers-never-seen-feat-inspires-201136454.html"
         ]
       }
     ]
   },
   "trending": [
     {
-      "label": "San Diego Padres",
+      "label": "Orlando Ribalta",
       "sentiment": "",
-      "context": "Washington Nationals at San Diego Padres",
+      "context": "Nationals Notes: Ribalta, Cruz, Early",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/09/07/game-146-nats-turn-the-page-to-san-diego/",
-        "https://sports.yahoo.com/articles/washington-nationals-san-diego-padres-201000127.html",
-        "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-no-19-smu-vs-florida-state-nationals-vs-padres-and-more/",
-        "https://www.federalbaseball.com/washington-nationals-discussions/94060/washington-nationals-vs-san-diego-padres-game-thread",
-        "https://www.federalbaseball.com/washington-nationals-game-information/94056/nats-try-to-end-4-game-losing-streak-3-games-against-padres"
+        "https://www.mlbtraderumors.com/2026/09/nationals-notes-ribalta-cruz-early.html"
       ]
     },
     {
-      "label": "Jake Irvin",
+      "label": "Yovanny Cruz",
       "sentiment": "",
-      "context": "Game #146 Nats turn the page to San Diego",
+      "context": "Nationals Notes: Ribalta, Cruz, Early",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/09/07/game-146-nats-turn-the-page-to-san-diego/"
+        "https://www.mlbtraderumors.com/2026/09/nationals-notes-ribalta-cruz-early.html"
       ]
     },
     {
-      "label": "betting",
+      "label": "Injured List",
       "sentiment": "",
-      "context": "Today's top games to watch, best bets, odds: No. 19 SMU vs. Florida State, Nationals vs. Padres and more",
+      "context": "Nationals Notes: Ribalta, Cruz, Early",
       "source_urls": [
-        "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-no-19-smu-vs-florida-state-nationals-vs-padres-and-more/"
+        "https://www.mlbtraderumors.com/2026/09/nationals-notes-ribalta-cruz-early.html"
       ]
     },
     {
-      "label": "SMU",
+      "label": "Padres",
       "sentiment": "",
-      "context": "Today's top games to watch, best bets, odds: No. 19 SMU vs. Florida State, Nationals vs. Padres and more",
+      "context": "Padres going full ‘Pitchcraft and Wizardry’ for Harry Potter Day",
       "source_urls": [
-        "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-no-19-smu-vs-florida-state-nationals-vs-padres-and-more/"
+        "https://sports.yahoo.com/articles/padres-going-full-pitchcraft-wizardry-204900996.html",
+        "https://sports.yahoo.com/articles/washington-nationals-san-diego-padres-201000127.html"
       ]
     },
     {
-      "label": "Florida State",
+      "label": "Harry Potter",
       "sentiment": "",
-      "context": "Today's top games to watch, best bets, odds: No. 19 SMU vs. Florida State, Nationals vs. Padres and more",
+      "context": "Padres going full ‘Pitchcraft and Wizardry’ for Harry Potter Day",
       "source_urls": [
-        "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-no-19-smu-vs-florida-state-nationals-vs-padres-and-more/"
+        "https://sports.yahoo.com/articles/padres-going-full-pitchcraft-wizardry-204900996.html"
       ]
     },
     {
-      "label": "losing streak",
+      "label": "Labor Day",
       "sentiment": "",
-      "context": "Nats try to end their 4-game losing streak with 3 games against Padres",
+      "context": "Padres going full ‘Pitchcraft and Wizardry’ for Harry Potter Day",
       "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-game-information/94056/nats-try-to-end-4-game-losing-streak-3-games-against-padres"
+        "https://sports.yahoo.com/articles/padres-going-full-pitchcraft-wizardry-204900996.html"
       ]
     },
     {
-      "label": "bullpen",
+      "label": "Giveaway",
       "sentiment": "",
-      "context": "Nats try to end their 4-game losing streak with 3 games against Padres",
+      "context": "Padres going full ‘Pitchcraft and Wizardry’ for Harry Potter Day",
       "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-game-information/94056/nats-try-to-end-4-game-losing-streak-3-games-against-padres"
+        "https://sports.yahoo.com/articles/padres-going-full-pitchcraft-wizardry-204900996.html"
+      ]
+    },
+    {
+      "label": "Joe Musgrove",
+      "sentiment": "",
+      "context": "Padres going full ‘Pitchcraft and Wizardry’ for Harry Potter Day",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/padres-going-full-pitchcraft-wizardry-204900996.html"
       ]
     }
   ],
@@ -287,13 +293,17 @@
     {
       "text": "The Nats visit the Padres on Wednesday.",
       "source_url_or_game_pk": "823251"
+    },
+    {
+      "text": "The Nats host the Angels on Friday.",
+      "source_url_or_game_pk": "822684"
     }
   ],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "MacKenzie Gore",
-    "text": "The hard-throwing left-handed starter and another key piece of the return in the Juan Soto trade.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/669022/spots/120",
+    "name": "Dylan Crews",
+    "text": "The No. 2 overall pick in the 2023 MLB Draft out of LSU, headlining the next wave of Nationals talent.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/686611/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
