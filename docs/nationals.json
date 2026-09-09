@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-09-09T16:11:40+00:00",
+  "fetched_at": "2026-09-09T17:08:33+00:00",
   "freshness": {
-    "schedule": "2026-09-09T16:11:38+00:00",
-    "standings": "2026-09-09T16:11:39+00:00",
+    "schedule": "2026-09-09T17:08:33+00:00",
+    "standings": "2026-09-09T17:08:33+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-09-09T12:18:50+00:00",
-    "weather": "2026-09-09T16:11:40+00:00"
+    "former_nats": "2026-09-09T17:08:32+00:00",
+    "weather": "2026-09-09T17:08:33+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -16,7 +16,7 @@
     "date": "2026-09-09",
     "start_time_utc": "2026-09-09T20:10:00Z",
     "status": "Preview",
-    "detailed_status": "Scheduled",
+    "detailed_status": "Pre-Game",
     "is_nats_home": false,
     "home": {
       "id": 135,
@@ -56,21 +56,21 @@
     },
     "broadcasts": [
       {
-        "name": "Padres.TV Presented by UC San Diego Health",
-        "call_sign": "SDPA",
-        "type": "TV",
-        "language": "en",
-        "is_national": false,
-        "home_away": "home",
-        "media_state": "MEDIA_OFF"
-      },
-      {
         "name": "Nationals.TV",
         "call_sign": "NATS",
         "type": "TV",
         "language": "en",
         "is_national": false,
         "home_away": "away",
+        "media_state": "MEDIA_OFF"
+      },
+      {
+        "name": "Padres.TV Presented by UC San Diego Health",
+        "call_sign": "SDPA",
+        "type": "TV",
+        "language": "en",
+        "is_national": false,
+        "home_away": "home",
         "media_state": "MEDIA_OFF"
       },
       {
@@ -136,18 +136,18 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-09-09T16:11:40+00:00",
+    "fetched_at": "2026-09-09T17:08:33+00:00",
     "source": "open_meteo",
     "game_pk": 823251,
     "venue_name": "Petco Park",
     "forecast_at": "2026-09-09T20:00",
-    "temperature_f": 90.7,
-    "feels_like_f": 98.9,
-    "wind_mph": 8.2,
+    "temperature_f": 93.9,
+    "feels_like_f": 100.2,
+    "wind_mph": 8.1,
     "wind_dir": "SW",
     "precip_chance": 1,
     "precip_inches": 0.0,
-    "summary": "Partly cloudy",
+    "summary": "Mostly clear",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -162,7 +162,7 @@
       "date": "2026-09-09",
       "start_time_utc": "2026-09-09T20:10:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": false,
       "home": {
         "id": 135,
@@ -202,21 +202,21 @@
       },
       "broadcasts": [
         {
-          "name": "Padres.TV Presented by UC San Diego Health",
-          "call_sign": "SDPA",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Padres.TV Presented by UC San Diego Health",
+          "call_sign": "SDPA",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -874,7 +874,7 @@
       "date": "2026-09-09",
       "start_time_utc": "2026-09-09T20:10:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": false,
       "home": {
         "id": 135,
@@ -914,21 +914,21 @@
       },
       "broadcasts": [
         {
-          "name": "Padres.TV Presented by UC San Diego Health",
-          "call_sign": "SDPA",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Nationals.TV",
           "call_sign": "NATS",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Padres.TV Presented by UC San Diego Health",
+          "call_sign": "SDPA",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
           "media_state": "MEDIA_OFF"
         },
         {
