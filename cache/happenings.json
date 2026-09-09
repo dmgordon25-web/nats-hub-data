@@ -1,69 +1,100 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-08T22:31:57+00:00",
+  "generated_at": "2026-09-09T02:33:09+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-08T22:31:15+00:00",
+    "news": "2026-09-09T02:32:24+00:00",
     "videos": "2026-09-08T22:31:15+00:00",
-    "vibes": "2026-09-08T22:31:57+00:00"
+    "vibes": "2026-09-09T02:33:09+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-08T22:31:12+00:00",
+      "last_updated_at": "2026-09-09T02:32:11+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-08T22:31:13+00:00",
+      "last_updated_at": "2026-09-09T02:32:12+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-08T22:31:13+00:00",
+      "last_updated_at": "2026-09-09T02:32:12+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-08T22:31:13+00:00",
+      "last_updated_at": "2026-09-09T02:32:13+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-08T22:31:13+00:00",
+      "last_updated_at": "2026-09-09T02:32:13+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-08T22:31:14+00:00",
+      "last_updated_at": "2026-09-09T02:32:14+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-09-08T22:31:14+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-09-08T22:31:15+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    }
+  ],
   "top_stories": [
+    {
+      "title": "Washington Nationals at San Diego Padres",
+      "url": "https://sports.yahoo.com/articles/washington-nationals-san-diego-padres-004000330.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-09-09T00:40:00+00:00",
+      "why_it_matters": {
+        "text": "A game thread for the matchup between the Washington Nationals and San Diego Padres on September 8, 2026.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/lo/mysterio/api/77387dd334e3dce9134bb20ca6561221579e1cc4f294b4f72f24d74af89f75cc/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fcf33556d12d9110698fbc2f2386a68dd.jpg"
+    },
+    {
+      "title": "Washington Nationals vs San Diego Padres Game Thread",
+      "url": "https://www.federalbaseball.com/washington-nationals-discussions/94083/washington-nationals-vs-san-diego-padres-game-thread",
+      "source": "Federal Baseball",
+      "published_at": "2026-09-08T23:11:08+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals have struggled on the road since late July, including during their current West Coast trip where they have faced several close games.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2294218729.jpg?quality=90&strip=all&crop=0%2C10.74078930526%2C100%2C78.518421389479&w=1200"
+    },
     {
       "title": "Game #147 Nats need a Curly W",
       "url": "https://nats.talkdcsports.com/2026/09/08/game-147-nats-need-a-curly-w/",
       "source": "Talk Nats",
       "published_at": "2026-09-08T22:03:00+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals are seeking their next victory after a week-long winless streak. Today's game is a scheduled bullpen game featuring Riley Cornelio as the opener.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/20260907_140258.jpg?fit=1200%2C1053&ssl=1"
     },
     {
@@ -72,7 +103,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-09-08T19:18:47+00:00",
       "why_it_matters": {
-        "text": "Joe Glassey is highlighted as a successful acquisition for the Washington Nationals following a trade with the Orioles just before the deadline.",
+        "text": "Joe Glassey is identified as a potential 'steal' for the Washington Nationals following a trade with the Orioles made just before the deadline.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2292427134.jpg?quality=90&strip=all&crop=0%2C10.746381432636%2C100%2C78.507237134727&w=1200"
@@ -83,7 +114,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-09-08T14:53:45+00:00",
       "why_it_matters": {
-        "text": "Connelly Early has returned to the Nationals' lineup following an injury setback that delayed his expected mid-August return. He is currently beginning his first rehab stint.",
+        "text": "Connelly Early has returned to the Nationals' lineup following an injury setback that delayed his expected mid-August return. He is currently beginning his first rehab stint after being on the shelf.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2287356395.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
@@ -94,7 +125,7 @@
       "source": "Talk Nats",
       "published_at": "2026-09-08T13:34:00+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals have recorded 37 blown saves in the 2026 season, accounting for 22 of their 79 total losses. The text notes that these instances represent 27.8 percent of the team's total losses.",
+        "text": "The Washington Nationals have recorded 37 blown saves in the 2026 season, accounting for 22 of their 79 total losses. The text notes that blown save rules can be complex and sometimes unfair.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/07/IMG-20260729-WA0022.jpg?fit=1129%2C1200&ssl=1"
@@ -104,10 +135,6 @@
       "url": "https://www.mlbtraderumors.com/2026/09/nationals-notes-ribalta-cruz-early.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-09-07T22:47:05+00:00",
-      "why_it_matters": {
-        "text": "The Nationals placed right-hander Orlando Ribalta on the 15-day injured list due to right forearm inflammation, with Yovanny Cruz recalled in a corresponding move. The severity of Ribalta's injury remains unclear.",
-        "ai_generated": true
-      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/09/Orlando_Ribalta_Nationals-1024x768.jpg"
     },
     {
@@ -115,31 +142,17 @@
       "url": "https://nats.talkdcsports.com/2026/09/07/game-146-nats-turn-the-page-to-san-diego/",
       "source": "Talk Nats",
       "published_at": "2026-09-07T20:05:00+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals move on to San Diego for a three-day series following a loss in Chavez Ravine. Jake Irvin is set as the starter for the opening game of this new series.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2025/06/IMG_20250624_215112-1.jpg?fit=1200%2C900&ssl=1"
-    },
-    {
-      "title": "Washington Nationals vs San Diego Padres Game Thread",
-      "url": "https://www.federalbaseball.com/washington-nationals-discussions/94060/washington-nationals-vs-san-diego-padres-game-thread",
-      "source": "Federal Baseball",
-      "published_at": "2026-09-07T20:01:09+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2293735029.jpg?quality=90&strip=all&crop=0%2C9.7736385008623%2C100%2C80.452722998275&w=1200"
-    },
-    {
-      "title": "Today's top games to watch, best bets, odds: No. 19 SMU vs. Florida State, Nationals vs. Padres and more",
-      "url": "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-no-19-smu-vs-florida-state-nationals-vs-padres-and-more/",
-      "source": "CBS Sports MLB",
-      "published_at": "2026-09-07T19:30:45+00:00",
-      "image_url": "https://sportshub.cbsistatic.com/i/r/2026/08/30/7efa52da-98d3-4ba9-a219-0ee46e1ba0a2/thumbnail/1200x675/5c7dad6b618f135e5dbb07968808ba76/keith-jennings-smu.jpg"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "loss",
       "text": "Tough one — the Nats fell to the Padres 3-2."
+    },
+    "storyline": {
+      "text": "A game thread for the matchup between the Washington Nationals and San Diego Padres on September 8, 2026.",
+      "ai_generated": true
     }
   },
   "videos": [
@@ -191,38 +204,70 @@
     "ai_generated": true,
     "themes": [
       {
-        "label": "Roster Additions",
-        "sentiment": "positive",
+        "label": "Road Struggles",
+        "sentiment": "negative",
         "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-prospects/94076/joe-glassey-might-be-steal-of-deadline-washington-nationals"
+          "https://www.federalbaseball.com/washington-nationals-discussions/94083/washington-nationals-vs-san-diego-padres-game-thread"
         ]
       },
       {
-        "label": "Bullpen Concerns",
+        "label": "Bullpen Performance Issues",
         "sentiment": "negative",
         "source_urls": [
           "https://nats.talkdcsports.com/2026/09/08/a-deep-dive-on-the-37-blown-saves/"
         ]
       },
       {
-        "label": "Injury Management",
-        "sentiment": "mixed",
+        "label": "Roster Additions & Rehab",
+        "sentiment": "positive",
         "source_urls": [
           "https://www.federalbaseball.com/washington-nationals-analysis/94068/what-expect-from-connelly-early-when-comes-back-injury",
-          "https://www.mlbtraderumors.com/2026/09/nationals-notes-ribalta-cruz-early.html"
+          "https://www.federalbaseball.com/washington-nationals-prospects/94076/joe-glassey-might-be-steal-of-deadline-washington-nationals"
         ]
       },
       {
-        "label": "Upcoming Schedule",
-        "sentiment": "mixed",
+        "label": "Current Winless Streak",
+        "sentiment": "negative",
         "source_urls": [
-          "https://nats.talkdcsports.com/2026/09/07/game-146-nats-turn-the-page-to-san-diego/",
           "https://nats.talkdcsports.com/2026/09/08/game-147-nats-need-a-curly-w/"
         ]
       }
     ]
   },
   "trending": [
+    {
+      "label": "San Diego Padres",
+      "sentiment": "",
+      "context": "Washington Nationals at San Diego Padres",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/washington-nationals-san-diego-padres-004000330.html",
+        "https://www.federalbaseball.com/washington-nationals-discussions/94083/washington-nationals-vs-san-diego-padres-game-thread"
+      ]
+    },
+    {
+      "label": "Road Trip",
+      "sentiment": "",
+      "context": "Washington Nationals vs San Diego Padres Game Thread",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-discussions/94083/washington-nationals-vs-san-diego-padres-game-thread"
+      ]
+    },
+    {
+      "label": "bullpen game",
+      "sentiment": "",
+      "context": "Game #147 Nats need a Curly W",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/08/game-147-nats-need-a-curly-w/"
+      ]
+    },
+    {
+      "label": "Riley Cornelio",
+      "sentiment": "",
+      "context": "Game #147 Nats need a Curly W",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/08/game-147-nats-need-a-curly-w/"
+      ]
+    },
     {
       "label": "Joe Glassey",
       "sentiment": "",
@@ -240,7 +285,7 @@
       ]
     },
     {
-      "label": "Orioles",
+      "label": "player acquisition",
       "sentiment": "",
       "context": "Joe Glassey might be the steal of the deadline for the Washington Nationals",
       "source_urls": [
@@ -253,38 +298,6 @@
       "context": "What to expect from Connelly Early when he comes back from injury",
       "source_urls": [
         "https://www.federalbaseball.com/washington-nationals-analysis/94068/what-expect-from-connelly-early-when-comes-back-injury"
-      ]
-    },
-    {
-      "label": "injury",
-      "sentiment": "",
-      "context": "What to expect from Connelly Early when he comes back from injury",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/94068/what-expect-from-connelly-early-when-comes-back-injury"
-      ]
-    },
-    {
-      "label": "rehab",
-      "sentiment": "",
-      "context": "What to expect from Connelly Early when he comes back from injury",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/94068/what-expect-from-connelly-early-when-comes-back-injury"
-      ]
-    },
-    {
-      "label": "blown saves",
-      "sentiment": "",
-      "context": "A Deep Dive on the 37 Blown Saves",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/09/08/a-deep-dive-on-the-37-blown-saves/"
-      ]
-    },
-    {
-      "label": "sports statistics",
-      "sentiment": "",
-      "context": "A Deep Dive on the 37 Blown Saves",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/09/08/a-deep-dive-on-the-37-blown-saves/"
       ]
     }
   ],
@@ -304,9 +317,9 @@
   ],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "Dylan Crews",
-    "text": "The No. 2 overall pick in the 2023 MLB Draft out of LSU, headlining the next wave of Nationals talent.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/686611/spots/120",
+    "name": "CJ Abrams",
+    "text": "The Nationals' dynamic young shortstop, acquired in the 2022 Juan Soto trade and now a cornerstone of the rebuild.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/682928/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
