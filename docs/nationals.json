@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-09-09T00:03:50+00:00",
+  "fetched_at": "2026-09-09T01:14:07+00:00",
   "freshness": {
-    "schedule": "2026-09-09T00:03:48+00:00",
-    "standings": "2026-09-09T00:03:49+00:00",
+    "schedule": "2026-09-09T01:14:06+00:00",
+    "standings": "2026-09-09T01:14:07+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-09-08T21:11:29+00:00",
-    "weather": "2026-09-09T00:03:50+00:00"
+    "former_nats": "2026-09-09T01:14:06+00:00",
+    "weather": "2026-09-09T01:14:07+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -62,7 +62,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -71,7 +71,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -80,7 +80,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "KWFN 97.3",
@@ -89,7 +89,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "XEMO 860",
@@ -98,7 +98,7 @@
         "language": "es",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       }
     ],
     "linescore": {
@@ -133,21 +133,21 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Starts Soon"
   },
   "focus_weather": {
-    "fetched_at": "2026-09-09T00:03:50+00:00",
+    "fetched_at": "2026-09-09T01:14:07+00:00",
     "source": "open_meteo",
     "game_pk": 823250,
     "venue_name": "Petco Park",
     "forecast_at": "2026-09-09T02:00",
-    "temperature_f": 82.1,
-    "feels_like_f": 83.3,
-    "wind_mph": 11.0,
-    "wind_dir": "NNE",
+    "temperature_f": 83.1,
+    "feels_like_f": 86.6,
+    "wind_mph": 7.0,
+    "wind_dir": "N",
     "precip_chance": 6,
     "precip_inches": 0.0,
-    "summary": "Partly cloudy",
+    "summary": "Clear",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -208,7 +208,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -217,7 +217,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -226,7 +226,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "KWFN 97.3",
@@ -235,7 +235,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "XEMO 860",
@@ -244,7 +244,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
@@ -279,7 +279,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 823251,
@@ -813,7 +813,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -822,7 +822,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -831,7 +831,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "KWFN 97.3",
@@ -840,7 +840,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "XEMO 860",
@@ -849,7 +849,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
@@ -884,7 +884,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 823251,
@@ -1923,7 +1923,7 @@
         "abbrev": "DET",
         "name": "Detroit Tigers",
         "short_name": "Tigers",
-        "record": "66-78",
+        "record": "66-79",
         "score": null
       },
       "away": {
@@ -2039,7 +2039,7 @@
         "abbrev": "DET",
         "name": "Detroit Tigers",
         "short_name": "Tigers",
-        "record": "66-78",
+        "record": "66-79",
         "score": null
       },
       "away": {
@@ -2155,7 +2155,7 @@
         "abbrev": "DET",
         "name": "Detroit Tigers",
         "short_name": "Tigers",
-        "record": "66-78",
+        "record": "66-79",
         "score": null
       },
       "away": {
