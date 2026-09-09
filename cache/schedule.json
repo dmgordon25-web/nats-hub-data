@@ -1,120 +1,7 @@
 {
-  "fetched_at": "2026-09-08T21:58:59+00:00",
+  "fetched_at": "2026-09-09T00:03:48+00:00",
   "source": "mlb_statsapi",
   "games": [
-    {
-      "game_pk": 823903,
-      "date": "2026-09-06",
-      "start_time_utc": "2026-09-07T02:10:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 119,
-        "abbrev": "LAD",
-        "name": "Los Angeles Dodgers",
-        "short_name": "Dodgers",
-        "record": "86-57",
-        "score": 7
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "67-78",
-        "score": 5
-      },
-      "venue": {
-        "id": 22,
-        "name": "UNIQLO Field at Dodger Stadium",
-        "city": "Los Angeles",
-        "state": "CA",
-        "lat": 34.07368,
-        "lon": -118.24053
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 680736,
-          "name": "Justin Wrobleski",
-          "hand": null
-        },
-        "away": {
-          "id": 674841,
-          "name": "Andrew Alvarez",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "SportsNet LA",
-          "call_sign": "SNLA",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Dodgers Radio AM570",
-          "call_sign": "KLAC AM570",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "KTNQ 1020",
-          "call_sign": "KTNQ",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 7,
-        "away_runs": 5,
-        "home_hits": 10,
-        "away_hits": 9,
-        "home_errors": 1,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 3,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi"
-    },
     {
       "game_pk": 823254,
       "date": "2026-09-07",
@@ -241,7 +128,7 @@
         "name": "San Diego Padres",
         "short_name": "Padres",
         "record": "76-68",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 120,
@@ -249,7 +136,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "67-79",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 2680,
@@ -319,19 +206,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 2,
@@ -386,21 +273,21 @@
       },
       "broadcasts": [
         {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_OFF"
-        },
-        {
           "name": "Padres.TV Presented by UC San Diego Health",
           "call_sign": "SDPA",
           "type": "TV",
           "language": "en",
           "is_national": false,
           "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
           "media_state": "MEDIA_OFF"
         },
         {
@@ -1471,6 +1358,111 @@
       },
       "series": {
         "game_number": 2,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi"
+    },
+    {
+      "game_pk": 824223,
+      "date": "2026-09-23",
+      "start_time_utc": "2026-09-23T17:10:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": false,
+      "home": {
+        "id": 116,
+        "abbrev": "DET",
+        "name": "Detroit Tigers",
+        "short_name": "Tigers",
+        "record": "66-78",
+        "score": null
+      },
+      "away": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "67-79",
+        "score": null
+      },
+      "venue": {
+        "id": 2394,
+        "name": "Comerica Park",
+        "city": "Detroit",
+        "state": "MI",
+        "lat": 42.3391151,
+        "lon": -83.048695
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Detroit SportsNet",
+          "call_sign": "DSN",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WXYT 97.1 FM",
+          "call_sign": "WXYTFM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "LaZ WDTW 1310AM/107.9FM",
+          "call_sign": "LaZ WDTW",
+          "type": "AM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 3,
         "games_in_series": 3,
         "description": "Regular Season"
       },
