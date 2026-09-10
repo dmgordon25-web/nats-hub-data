@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-09-09T23:32:59+00:00",
+  "fetched_at": "2026-09-10T01:02:47+00:00",
   "freshness": {
-    "schedule": "2026-09-09T23:32:59+00:00",
-    "standings": "2026-09-09T23:32:59+00:00",
+    "schedule": "2026-09-10T01:02:46+00:00",
+    "standings": "2026-09-10T01:02:47+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-09-09T20:57:34+00:00",
-    "weather": "2026-09-09T23:32:59+00:00"
+    "former_nats": "2026-09-10T01:02:46+00:00",
+    "weather": "2026-09-10T01:02:47+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -127,25 +127,25 @@
     "watch_label": "Next Game"
   },
   "focus_weather": {
-    "fetched_at": "2026-09-09T23:32:59+00:00",
+    "fetched_at": "2026-09-10T01:02:47+00:00",
     "source": "open_meteo",
     "game_pk": 822684,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-09-11T23:00",
-    "temperature_f": 79.8,
-    "feels_like_f": 83.9,
-    "wind_mph": 5.7,
-    "wind_dir": "SSE",
+    "temperature_f": 78.9,
+    "feels_like_f": 82.1,
+    "wind_mph": 3.7,
+    "wind_dir": "ESE",
     "precip_chance": 1,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "tonight_may",
-    "category": "tonight_nugget",
-    "weight": 4,
-    "text": "May baseball. The weather warms up and the standings start to mean something."
+    "id": "nostalgia_2019_parade",
+    "category": "nostalgia",
+    "weight": 6,
+    "text": "The 2019 parade started at the Capitol and ended at Nationals Park. Stephen Strasburg held the trophy. Everyone in DC took a Monday off."
   },
   "next_three": [
     {
@@ -545,7 +545,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "Nationals.TV",
@@ -554,7 +554,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -563,7 +563,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "KWFN 97.3",
@@ -572,7 +572,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "XEMO 860",
@@ -581,7 +581,7 @@
         "language": "es",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       }
     ],
     "linescore": {
@@ -619,130 +619,6 @@
     "watch_label": "Game Final"
   },
   "all_games": [
-    {
-      "game_pk": 823254,
-      "date": "2026-09-07",
-      "start_time_utc": "2026-09-07T21:10:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 135,
-        "abbrev": "SD",
-        "name": "San Diego Padres",
-        "short_name": "Padres",
-        "record": "76-68",
-        "score": 3
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "67-79",
-        "score": 2
-      },
-      "venue": {
-        "id": 2680,
-        "name": "Petco Park",
-        "city": "San Diego",
-        "state": "CA",
-        "lat": 32.707861,
-        "lon": -117.157278
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 601713,
-          "name": "Nick Pivetta",
-          "hand": null
-        },
-        "away": {
-          "id": 663623,
-          "name": "Jake Irvin",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Padres.TV Presented by UC San Diego Health",
-          "call_sign": "SDPA",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "KWFN 97.3",
-          "call_sign": "KWFN",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "XEMO 860",
-          "call_sign": "XEMO",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 3,
-        "home_runs": 3,
-        "away_runs": 2,
-        "home_hits": 9,
-        "away_hits": 5,
-        "home_errors": 0,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
     {
       "game_pk": 823250,
       "date": "2026-09-08",
@@ -918,7 +794,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "Nationals.TV",
@@ -927,7 +803,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -936,7 +812,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "KWFN 97.3",
@@ -945,7 +821,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "XEMO 860",
@@ -954,7 +830,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         }
       ],
       "linescore": {
