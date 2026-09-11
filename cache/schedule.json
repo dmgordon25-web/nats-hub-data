@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-11T21:43:17+00:00",
+  "fetched_at": "2026-09-11T23:33:40+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -119,8 +119,8 @@
       "game_pk": 822684,
       "date": "2026-09-11",
       "start_time_utc": "2026-09-11T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -136,7 +136,7 @@
         "name": "Los Angeles Angels",
         "short_name": "Angels",
         "record": "56-90",
-        "score": 0
+        "score": 1
       },
       "venue": {
         "id": 3309,
@@ -197,19 +197,19 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 3,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "strikes": 2,
+        "outs": 2,
         "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "away_runs": 1,
+        "home_hits": 1,
+        "away_hits": 1,
         "home_errors": 0,
-        "away_errors": 0
+        "away_errors": 1
       },
       "series": {
         "game_number": 1,
