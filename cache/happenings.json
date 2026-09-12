@@ -1,96 +1,106 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-11T21:11:44+00:00",
-  "mode": "rss_fallback",
+  "generated_at": "2026-09-12T00:57:39+00:00",
+  "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-11T21:11:42+00:00",
-    "videos": "2026-09-11T21:11:42+00:00",
-    "vibes": null
+    "news": "2026-09-12T00:57:04+00:00",
+    "videos": "2026-09-12T00:57:04+00:00",
+    "vibes": "2026-09-12T00:57:39+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-11T21:11:40+00:00",
+      "last_updated_at": "2026-09-12T00:57:01+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-11T21:11:41+00:00",
+      "last_updated_at": "2026-09-12T00:57:02+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-11T21:11:41+00:00",
+      "last_updated_at": "2026-09-12T00:57:02+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-09-12T00:57:02+00:00",
+      "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-11T21:11:41+00:00",
+      "last_updated_at": "2026-09-12T00:57:03+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-11T21:11:42+00:00",
+      "last_updated_at": "2026-09-12T00:57:03+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-09-11T21:11:42+00:00",
+      "last_updated_at": "2026-09-12T00:57:04+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-09-11T21:11:42+00:00",
+      "last_updated_at": "2026-09-12T00:57:04+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "why_it_matters",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "trending",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "Game #149 Cavalli has to be the stopper!",
       "url": "https://nats.talkdcsports.com/2026/09/11/game-149-cavalli-has-to-be-the-stopper/",
       "source": "Talk Nats",
       "published_at": "2026-09-11T21:03:08+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/nats.talk-dc-sports-6aa4695ac9814.png?fit=1200%2C594&ssl=1"
+      "why_it_matters": {
+        "text": "The Washington Nationals return home following a disappointing road trip. Ace pitcher Cade Cavalli takes the mound to attempt to stop a long losing streak during a game that also marks a 25-year anniversary of a past tragedy.",
+        "ai_generated": true
+      },
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/nats.talk-dc-sports-6aa47f3790180.png?fit=1050%2C1008&ssl=1"
     },
     {
       "title": "San Diego wins four straight, sweeping Nats before crucial road trip",
       "url": "https://sports.yahoo.com/articles/san-diego-wins-four-straight-201500110.html",
       "source": "Yahoo Sports MLB",
       "published_at": "2026-09-11T20:15:00+00:00",
+      "why_it_matters": {
+        "text": "The San Diego Padres won four consecutive games, sweeping the Nationals prior to an upcoming road trip.",
+        "ai_generated": true
+      },
       "image_url": "https://s.yimg.com/lo/mysterio/api/ff0eda729788d2ac5774be52671c6a89879e31e9cbf79fd97539a73fa98f252b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F049fbc0a91a14152464be11527001a30.jpg"
+    },
+    {
+      "title": "Washington Nationals vs Los Angeles Angels Game Thread",
+      "url": "https://www.federalbaseball.com/washington-nationals-discussions/94132/washington-nationals-vs-los-angeles-angels-game-thread",
+      "source": "Federal Baseball",
+      "published_at": "2026-09-11T19:53:19+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals have struggled recently, including a 0-6 West Coast trip where they consistently lost close games. Fans hope the team's performance improves during their upcoming home games.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2294242411.jpg?quality=90&strip=all&crop=0%2C10.743792720308%2C100%2C78.512414559384&w=1200"
     },
     {
       "title": "Checking in on Jarlin Susana’s return to the mound",
       "url": "https://www.federalbaseball.com/washington-nationals-prospects/94124/checking-in-jarlin-susanas-return-to-mound",
       "source": "Federal Baseball",
       "published_at": "2026-09-11T18:28:41+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals faced significant setbacks in their farm system during the 2025 season as top pitching prospects Jarlin Susana and Travis Sykora suffered major injuries. While Sykora is out for the year with Tommy John surgery, the team is monitoring Susana's status.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2293697151.jpg?quality=90&strip=all&crop=0%2C10.739359843723%2C100%2C78.521280312555&w=1200"
     },
     {
@@ -98,6 +108,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94116/cade-cavalli-makes-washington-nationals-exciting-on-start-days",
       "source": "Federal Baseball",
       "published_at": "2026-09-11T16:07:27+00:00",
+      "why_it_matters": {
+        "text": "Cade Cavalli provides a source of excitement for Washington Nationals fans during his start days, offering a contrast to the team's performance in recent months.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2293734626.jpg?quality=90&strip=all&crop=0%2C12.154451905095%2C100%2C75.691096189809&w=1200"
     },
     {
@@ -105,6 +119,10 @@
       "url": "https://nats.talkdcsports.com/2026/09/11/the-try-out-month-and-a-look-to-the-future/",
       "source": "Talk Nats",
       "published_at": "2026-09-11T15:16:40+00:00",
+      "why_it_matters": {
+        "text": "With 14 games remaining in the 2026 season, the Washington Nationals are evaluating new players following the trade deadline, roster expansion on September 1, and bullpen turnover.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/nats.talk-dc-sports-6aa40d018b87b.png?fit=992%2C1056&ssl=1"
     },
     {
@@ -120,19 +138,16 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-09-10T15:01:39+00:00",
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/09/DrewMillas-1024x683.jpg"
-    },
-    {
-      "title": "CJ Abrams is having another disappointing late season collapse for the Washington Nationals",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/94110/cj-abrams-having-another-disappointing-late-season-collapse-washington-nationals",
-      "source": "Federal Baseball",
-      "published_at": "2026-09-10T13:13:59+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2293880400.jpg?quality=90&strip=all&crop=0%2C10.804569092547%2C100%2C78.390861814906&w=1200"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "loss",
       "text": "Tough one — the Nats fell to the Padres 9-2."
+    },
+    "storyline": {
+      "text": "The Washington Nationals return home following a disappointing road trip. Ace pitcher Cade Cavalli takes the mound to attempt to stop a long losing streak during a game that also marks a 25-year anniversary of a past tragedy.",
+      "ai_generated": true
     }
   },
   "videos": [
@@ -180,16 +195,110 @@
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "mixed",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "Frustration with losing streak",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/09/11/game-149-cavalli-has-to-be-the-stopper/",
+          "https://sports.yahoo.com/articles/san-diego-wins-four-straight-201500110.html",
+          "https://www.federalbaseball.com/washington-nationals-discussions/94132/washington-nationals-vs-los-angeles-angels-game-thread"
+        ]
+      },
+      {
+        "label": "Cade Cavalli excitement",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/09/11/game-149-cavalli-has-to-be-the-stopper/",
+          "https://www.federalbaseball.com/washington-nationals-analysis/94116/cade-cavalli-makes-washington-nationals-exciting-on-start-days"
+        ]
+      },
+      {
+        "label": "Farm system injuries",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-prospects/94124/checking-in-jarlin-susanas-return-to-mound"
+        ]
+      },
+      {
+        "label": "Future roster evaluation",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/09/11/the-try-out-month-and-a-look-to-the-future/"
+        ]
+      }
+    ]
   },
-  "trending": [],
-  "what_to_watch": [
+  "trending": [
     {
-      "text": "The Nats host the Angels on Friday.",
-      "source_url_or_game_pk": "822684"
+      "label": "Cade Cavalli",
+      "sentiment": "",
+      "context": "Game #149 Cavalli has to be the stopper!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/11/game-149-cavalli-has-to-be-the-stopper/",
+        "https://www.federalbaseball.com/washington-nationals-analysis/94116/cade-cavalli-makes-washington-nationals-exciting-on-start-days"
+      ]
     },
+    {
+      "label": "home game",
+      "sentiment": "",
+      "context": "Game #149 Cavalli has to be the stopper!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/11/game-149-cavalli-has-to-be-the-stopper/"
+      ]
+    },
+    {
+      "label": "San Diego",
+      "sentiment": "",
+      "context": "San Diego wins four straight, sweeping Nats before crucial road trip",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/san-diego-wins-four-straight-201500110.html"
+      ]
+    },
+    {
+      "label": "Padres",
+      "sentiment": "",
+      "context": "San Diego wins four straight, sweeping Nats before crucial road trip",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/san-diego-wins-four-straight-201500110.html"
+      ]
+    },
+    {
+      "label": "Los Angeles Angels",
+      "sentiment": "",
+      "context": "Washington Nationals vs Los Angeles Angels Game Thread",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-discussions/94132/washington-nationals-vs-los-angeles-angels-game-thread"
+      ]
+    },
+    {
+      "label": "West Coast Trip",
+      "sentiment": "",
+      "context": "Washington Nationals vs Los Angeles Angels Game Thread",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-discussions/94132/washington-nationals-vs-los-angeles-angels-game-thread"
+      ]
+    },
+    {
+      "label": "Jarlin Susana",
+      "sentiment": "",
+      "context": "Checking in on Jarlin Susana’s return to the mound",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-prospects/94124/checking-in-jarlin-susanas-return-to-mound"
+      ]
+    },
+    {
+      "label": "Travis Sykora",
+      "sentiment": "",
+      "context": "Checking in on Jarlin Susana’s return to the mound",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-prospects/94124/checking-in-jarlin-susanas-return-to-mound"
+      ]
+    }
+  ],
+  "what_to_watch": [
     {
       "text": "The Nats host the Angels on Saturday.",
       "source_url_or_game_pk": "822685"
@@ -201,9 +310,9 @@
   ],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "MacKenzie Gore",
-    "text": "The hard-throwing left-handed starter and another key piece of the return in the Juan Soto trade.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/669022/spots/120",
+    "name": "Dylan Crews",
+    "text": "The No. 2 overall pick in the 2023 MLB Draft out of LSU, headlining the next wave of Nationals talent.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/686611/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
