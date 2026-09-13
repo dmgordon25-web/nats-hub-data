@@ -1,69 +1,91 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-12T22:09:06+00:00",
+  "generated_at": "2026-09-13T02:10:46+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-12T22:07:56+00:00",
-    "videos": "2026-09-12T22:07:56+00:00",
-    "vibes": "2026-09-12T22:09:06+00:00"
+    "news": "2026-09-13T02:09:52+00:00",
+    "videos": "2026-09-13T02:09:52+00:00",
+    "vibes": "2026-09-13T02:10:46+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-12T22:07:53+00:00",
+      "last_updated_at": "2026-09-13T02:09:44+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-12T22:07:54+00:00",
+      "last_updated_at": "2026-09-13T02:09:45+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-12T22:07:54+00:00",
+      "last_updated_at": "2026-09-13T02:09:46+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-12T22:07:55+00:00",
+      "last_updated_at": "2026-09-13T02:09:46+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-12T22:07:55+00:00",
+      "last_updated_at": "2026-09-13T02:09:46+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-12T22:07:56+00:00",
+      "last_updated_at": "2026-09-13T02:09:46+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-09-12T22:07:56+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-09-12T22:07:56+00:00",
+      "last_updated_at": "2026-09-13T02:09:52+00:00",
       "status": "live"
     }
   ],
   "limited_sources": [],
   "top_stories": [
     {
+      "title": "Washington Nationals finally overcome bullpen collapse and show resilience in walk-off win",
+      "url": "https://www.federalbaseball.com/washington-nationals-scores/94154/washington-nationals-overcome-bullpen-collapse-show-resilience-walk-off-win",
+      "source": "Federal Baseball",
+      "published_at": "2026-09-12T23:40:30+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2294441141.jpg?quality=90&strip=all&crop=0%2C10.736542054878%2C100%2C78.526915890244&w=1200"
+    },
+    {
+      "title": "Postgamer: The 69ᵗʰ win is as sweet as honey!",
+      "url": "https://nats.talkdcsports.com/2026/09/12/postgamer-the-69%e1%b5%97%ca%b0-win-is-as-sweet-as-honey/",
+      "source": "Talk Nats",
+      "published_at": "2026-09-12T23:35:24+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals secured a walk-off win against the Angels, marking their 69th victory. Despite suffering their 39th blown save of the season, they overcame a 5-4 deficit in the bottom of the 9th inning.",
+        "ai_generated": true
+      },
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/Nats-win-City-Connect-blue.jpg?fit=1040%2C992&ssl=1"
+    },
+    {
       "title": "Game #150 Nats will go for a series win today!",
       "url": "https://nats.talkdcsports.com/2026/09/12/game-150-nats-will-go-for-a-series-win-today/",
       "source": "Talk Nats",
       "published_at": "2026-09-12T19:25:58+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals won a significant comeback victory last night and are looking to secure a series win in today's afternoon game featuring LHP Andrew Alvarez on the mound.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2025/09/Andrew-Alvarez-by-Marlene-Koenig-9-13-2025.jpg?fit=885%2C828&ssl=1"
     },
     {
@@ -71,6 +93,10 @@
       "url": "https://www.mlbtraderumors.com/2026/09/nationals-claim-chase-hampton.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-09-12T19:25:55+00:00",
+      "why_it_matters": {
+        "text": "The Nationals claimed right-hander Chase Hampton off the Yankees' waiver wire and optioned him to Double-A. To accommodate the roster spot, Matt Waldron was moved to the 60-day IL, ending his 2026 season.",
+        "ai_generated": true
+      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2025/02/Chase_Hampton_Yankees-1024x683.jpg"
     },
     {
@@ -78,6 +104,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-discussions/94146/washington-nationals-vs-los-angeles-angels-game-thread",
       "source": "Federal Baseball",
       "published_at": "2026-09-12T18:05:36+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals snapped a seven-game losing streak with a 4-3 win and look to build momentum by seeking a series win while facing an underrated young pitcher.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2294794495.jpg?quality=90&strip=all&crop=0%2C10.474855762814%2C100%2C79.050288474372&w=1200"
     },
     {
@@ -85,6 +115,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-news/94139/washington-nationals-demote-former-closer-clayton-beeter-triple-a",
       "source": "Federal Baseball",
       "published_at": "2026-09-12T15:37:53+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals have demoted former closer Clayton Beeter to Triple-A following his recent struggles in the bullpen.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2293741435.jpg?quality=90&strip=all&crop=0%2C13.086503155748%2C100%2C73.826993688504&w=1200"
     },
     {
@@ -92,10 +126,6 @@
       "url": "https://nats.talkdcsports.com/2026/09/12/the-mlb-draft-lottery-odds/",
       "source": "Talk Nats",
       "published_at": "2026-09-12T14:54:10+00:00",
-      "why_it_matters": {
-        "text": "The MLB Draft Lottery was introduced as an anti-tanking provision to replace a drafting order based solely on records from worst to best. The current system uses lottery balls with pre-determined odds for the bottom three teams.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/MLB-Draft-Lottery-2027.jpg?fit=1200%2C652&ssl=1"
     },
     {
@@ -103,74 +133,21 @@
       "url": "https://nats.talkdcsports.com/2026/09/11/postgamer-nats-turned-the-tables-on-the-opposing-bullpen/",
       "source": "Talk Nats",
       "published_at": "2026-09-12T01:49:21+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals secured their second come-from-behind victory of the year by winning 4-3 against an opposing bullpen. This win snapped a seven-game losing streak.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/Jorbit-Vivas-2-run-double-game-winning-9-11-2026-Sol-Tucker-a.jpg?fit=1200%2C784&ssl=1"
-    },
-    {
-      "title": "Game #149 Cavalli has to be the stopper!",
-      "url": "https://nats.talkdcsports.com/2026/09/11/game-149-cavalli-has-to-be-the-stopper/",
-      "source": "Talk Nats",
-      "published_at": "2026-09-11T21:03:08+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/nats.talk-dc-sports-6aa47f3790180.png?fit=1050%2C1008&ssl=1"
-    },
-    {
-      "title": "Checking in on Jarlin Susana’s return to the mound",
-      "url": "https://www.federalbaseball.com/washington-nationals-prospects/94124/checking-in-jarlin-susanas-return-to-mound",
-      "source": "Federal Baseball",
-      "published_at": "2026-09-11T18:28:41+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2293697151.jpg?quality=90&strip=all&crop=0%2C10.739359843723%2C100%2C78.521280312555&w=1200"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "win",
-      "text": "Curly W! The Nats beat the Angels 4-3."
+      "text": "Curly W! The Nats beat the Angels 6-5."
     }
   },
   "videos": [
     {
-      "title": "Angels vs. Nationals Game Highlights (9/11/26) | MLB Highlights",
-      "url": "https://www.youtube.com/watch?v=bk_DFQ3wcNE",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i3.ytimg.com/vi/bk_DFQ3wcNE/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "Abimelec Ortiz Gets His Red Seat",
-      "url": "https://www.youtube.com/shorts/HOD5U2_hxX8",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i1.ytimg.com/vi/HOD5U2_hxX8/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "Andrés Chaparro Crushed a Pinch-Hit Homer",
-      "url": "https://www.youtube.com/shorts/UB92sU21WBw",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i2.ytimg.com/vi/UB92sU21WBw/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "Yohandy Morales Hit a 406-Foot Homer Off THIS Pitch",
-      "url": "https://www.youtube.com/shorts/AZE3m1MiALc",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i2.ytimg.com/vi/AZE3m1MiALc/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "CJ Abrams Crushes His 30th Home Run vs. Dodgers 🔥💪",
-      "url": "https://www.youtube.com/shorts/U4gqokqeVaY",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i2.ytimg.com/vi/U4gqokqeVaY/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "The First MLB Strikeout For Jack Sinclair",
-      "url": "https://www.youtube.com/shorts/siHQMF5Nomc",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i4.ytimg.com/vi/siHQMF5Nomc/hqdefault.jpg",
+      "title": "ANGELS vs. NATIONALS: Official Full Game Highlights (September 12) | 2026 MLB Season",
+      "url": "https://www.youtube.com/watch?v=f8aqw7Y2BwU",
+      "source": "MLB on YouTube",
+      "thumbnail_url": "https://i3.ytimg.com/vi/f8aqw7Y2BwU/hqdefault.jpg",
       "duration_s": 0
     }
   ],
@@ -179,11 +156,21 @@
     "ai_generated": true,
     "themes": [
       {
-        "label": "Recent Win Momentum",
+        "label": "Resilient Walk-off Win",
         "sentiment": "positive",
         "source_urls": [
-          "https://nats.talkdcsports.com/2026/09/11/postgamer-nats-turned-the-tables-on-the-opposing-bullpen/",
-          "https://nats.talkdcsports.com/2026/09/12/game-150-nats-will-go-for-a-series-win-today/"
+          "https://nats.talkdcsports.com/2026/09/12/game-150-nats-will-go-for-a-series-win-today/",
+          "https://nats.talkdcsports.com/2026/09/12/postgamer-the-69%e1%b5%97%ca%b0-win-is-as-sweet-as-honey/",
+          "https://www.federalbaseball.com/washington-nationals-discussions/94146/washington-nationals-vs-los-angeles-angels-game-thread",
+          "https://www.federalbaseball.com/washington-nationals-scores/94154/washington-nationals-overcome-bullpen-collapse-show-resilience-walk-off-win"
+        ]
+      },
+      {
+        "label": "Bullpen Struggles",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/09/12/postgamer-the-69%e1%b5%97%ca%b0-win-is-as-sweet-as-honey/",
+          "https://www.federalbaseball.com/washington-nationals-news/94139/washington-nationals-demote-former-closer-clayton-beeter-triple-a"
         ]
       },
       {
@@ -198,35 +185,69 @@
   },
   "trending": [
     {
-      "label": "Draft Lottery",
+      "label": "series win",
       "sentiment": "",
-      "context": "The MLB Draft Lottery Odds",
+      "context": "Game #150 Nats will go for a series win today!",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/09/12/the-mlb-draft-lottery-odds/"
+        "https://nats.talkdcsports.com/2026/09/12/game-150-nats-will-go-for-a-series-win-today/",
+        "https://www.federalbaseball.com/washington-nationals-discussions/94146/washington-nationals-vs-los-angeles-angels-game-thread"
       ]
     },
     {
-      "label": "Anti-tanking",
+      "label": "Angels",
       "sentiment": "",
-      "context": "The MLB Draft Lottery Odds",
+      "context": "Postgamer: The 69ᵗʰ win is as sweet as honey!",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/09/12/the-mlb-draft-lottery-odds/"
+        "https://nats.talkdcsports.com/2026/09/12/postgamer-the-69%e1%b5%97%ca%b0-win-is-as-sweet-as-honey/",
+        "https://www.federalbaseball.com/washington-nationals-discussions/94146/washington-nationals-vs-los-angeles-angels-game-thread"
       ]
     },
     {
-      "label": "win",
+      "label": "walk-off win",
       "sentiment": "",
-      "context": "Postgamer: Nats turned the tables on the opposing bullpen!",
+      "context": "Postgamer: The 69ᵗʰ win is as sweet as honey!",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/09/11/postgamer-nats-turned-the-tables-on-the-opposing-bullpen/"
+        "https://nats.talkdcsports.com/2026/09/12/postgamer-the-69%e1%b5%97%ca%b0-win-is-as-sweet-as-honey/"
       ]
     },
     {
-      "label": "comeback",
+      "label": "Andrew Alvarez",
       "sentiment": "",
-      "context": "Postgamer: Nats turned the tables on the opposing bullpen!",
+      "context": "Game #150 Nats will go for a series win today!",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/09/11/postgamer-nats-turned-the-tables-on-the-opposing-bullpen/"
+        "https://nats.talkdcsports.com/2026/09/12/game-150-nats-will-go-for-a-series-win-today/"
+      ]
+    },
+    {
+      "label": "Yankees",
+      "sentiment": "",
+      "context": "Nationals Claim Chase Hampton",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/09/nationals-claim-chase-hampton.html"
+      ]
+    },
+    {
+      "label": "Chase Hampton",
+      "sentiment": "",
+      "context": "Nationals Claim Chase Hampton",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/09/nationals-claim-chase-hampton.html"
+      ]
+    },
+    {
+      "label": "Matt Waldron",
+      "sentiment": "",
+      "context": "Nationals Claim Chase Hampton",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/09/nationals-claim-chase-hampton.html"
+      ]
+    },
+    {
+      "label": "Roster Move",
+      "sentiment": "",
+      "context": "Nationals Claim Chase Hampton",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/09/nationals-claim-chase-hampton.html"
       ]
     }
   ],
@@ -238,13 +259,17 @@
     {
       "text": "The Nats host the Phillies on Tuesday.",
       "source_url_or_game_pk": "822683"
+    },
+    {
+      "text": "The Nats host the Phillies on Wednesday.",
+      "source_url_or_game_pk": "822680"
     }
   ],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "Dylan Crews",
-    "text": "The No. 2 overall pick in the 2023 MLB Draft out of LSU, headlining the next wave of Nationals talent.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/686611/spots/120",
+    "name": "CJ Abrams",
+    "text": "The Nationals' dynamic young shortstop, acquired in the 2022 Juan Soto trade and now a cornerstone of the rebuild.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/682928/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
