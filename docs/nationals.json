@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-09-13T16:57:21+00:00",
+  "fetched_at": "2026-09-13T18:37:12+00:00",
   "freshness": {
-    "schedule": "2026-09-13T16:57:20+00:00",
-    "standings": "2026-09-13T16:57:20+00:00",
+    "schedule": "2026-09-13T18:37:11+00:00",
+    "standings": "2026-09-13T18:37:11+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-09-13T16:57:19+00:00",
-    "weather": "2026-09-13T16:57:21+00:00"
+    "weather": "2026-09-13T18:37:12+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -15,8 +15,8 @@
     "game_pk": 822682,
     "date": "2026-09-13",
     "start_time_utc": "2026-09-13T17:35:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "In Progress",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -32,7 +32,7 @@
       "name": "Los Angeles Angels",
       "short_name": "Angels",
       "record": "56-92",
-      "score": 0
+      "score": 1
     },
     "venue": {
       "id": 3309,
@@ -93,17 +93,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 1,
-      "inning_half": "Top",
-      "inning_state": "Top",
-      "is_top_inning": true,
+      "current_inning": 4,
+      "inning_half": "Bottom",
+      "inning_state": "Bottom",
+      "is_top_inning": false,
       "balls": 0,
-      "strikes": 0,
-      "outs": 0,
+      "strikes": 2,
+      "outs": 2,
       "home_runs": 0,
-      "away_runs": 0,
-      "home_hits": 0,
-      "away_hits": 0,
+      "away_runs": 1,
+      "home_hits": 4,
+      "away_hits": 2,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -114,7 +114,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "Nationals.TV",
       "is_national": false,
@@ -124,19 +124,19 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Starts Soon"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-09-13T16:57:21+00:00",
+    "fetched_at": "2026-09-13T18:37:12+00:00",
     "source": "open_meteo",
     "game_pk": 822682,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-09-13T18:00",
-    "temperature_f": 83.4,
-    "feels_like_f": 93.1,
-    "wind_mph": 3.6,
+    "temperature_f": 82.4,
+    "feels_like_f": 91.5,
+    "wind_mph": 2.7,
     "wind_dir": "W",
-    "precip_chance": 7,
+    "precip_chance": 14,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -152,8 +152,8 @@
       "game_pk": 822682,
       "date": "2026-09-13",
       "start_time_utc": "2026-09-13T17:35:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -169,7 +169,7 @@
         "name": "Los Angeles Angels",
         "short_name": "Angels",
         "record": "56-92",
-        "score": 0
+        "score": 1
       },
       "venue": {
         "id": 3309,
@@ -230,17 +230,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 4,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "strikes": 2,
+        "outs": 2,
         "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "away_runs": 1,
+        "home_hits": 4,
+        "away_hits": 2,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -251,7 +251,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -261,7 +261,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822683,
@@ -300,7 +300,11 @@
           "name": "Jackson Kent",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 650911,
+          "name": "Cristopher Sánchez",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -420,7 +424,11 @@
           "name": "Cade Cavalli",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 554430,
+          "name": "Zack Wheeler",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -854,8 +862,8 @@
       "game_pk": 822682,
       "date": "2026-09-13",
       "start_time_utc": "2026-09-13T17:35:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -871,7 +879,7 @@
         "name": "Los Angeles Angels",
         "short_name": "Angels",
         "record": "56-92",
-        "score": 0
+        "score": 1
       },
       "venue": {
         "id": 3309,
@@ -932,17 +940,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 4,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "strikes": 2,
+        "outs": 2,
         "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "away_runs": 1,
+        "home_hits": 4,
+        "away_hits": 2,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -953,7 +961,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -963,7 +971,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 822683,
@@ -1002,7 +1010,11 @@
           "name": "Jackson Kent",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 650911,
+          "name": "Cristopher Sánchez",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1122,7 +1134,11 @@
           "name": "Cade Cavalli",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 554430,
+          "name": "Zack Wheeler",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
