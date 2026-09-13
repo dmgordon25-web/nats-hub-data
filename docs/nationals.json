@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-09-12T23:26:59+00:00",
+  "fetched_at": "2026-09-13T00:58:37+00:00",
   "freshness": {
-    "schedule": "2026-09-12T23:26:58+00:00",
-    "standings": "2026-09-12T23:26:58+00:00",
+    "schedule": "2026-09-13T00:58:36+00:00",
+    "standings": "2026-09-13T00:58:36+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-09-12T20:35:19+00:00",
-    "weather": "2026-09-12T23:26:59+00:00"
+    "former_nats": "2026-09-13T00:58:36+00:00",
+    "weather": "2026-09-13T00:58:37+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -124,10 +124,10 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Next Game"
+    "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-09-12T23:26:59+00:00",
+    "fetched_at": "2026-09-13T00:58:37+00:00",
     "source": "open_meteo",
     "game_pk": 822682,
     "venue_name": "Nationals Park",
@@ -136,16 +136,16 @@
     "feels_like_f": 91.5,
     "wind_mph": 2.5,
     "wind_dir": "W",
-    "precip_chance": 8,
+    "precip_chance": 4,
     "precip_inches": 0.0,
     "summary": "Partly cloudy",
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "did_you_know_screech_2005",
-    "category": "ballpark",
-    "weight": 3,
-    "text": "Screech the bald eagle has been the Nats mascot since 2005. Kids who first met him at the inaugural season are bringing their own kids now."
+    "id": "nostalgia_2019_strasburg_mvp",
+    "category": "nostalgia",
+    "weight": 5,
+    "text": "Stephen Strasburg was World Series MVP — 2-0, 14 strikeouts in 14.1 IP. He earned every dollar of his next contract that month."
   },
   "next_three": [
     {
@@ -261,7 +261,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822683,
@@ -547,7 +547,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "ABTV, presented by Pechanga Resort Casino",
@@ -556,7 +556,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -565,7 +565,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       },
       {
         "name": "KLAA 830",
@@ -574,7 +574,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_ON"
+        "media_state": "MEDIA_ARCHIVE"
       }
     ],
     "linescore": {
@@ -778,7 +778,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "ABTV, presented by Pechanga Resort Casino",
@@ -787,7 +787,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -796,7 +796,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         },
         {
           "name": "KLAA 830",
@@ -805,7 +805,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_ON"
+          "media_state": "MEDIA_ARCHIVE"
         }
       ],
       "linescore": {
@@ -955,7 +955,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822683,
@@ -2116,6 +2116,122 @@
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
       "watch_label": "Next Game"
+    },
+    {
+      "game_pk": 822679,
+      "date": "2026-09-27",
+      "start_time_utc": "2026-09-27T19:05:00Z",
+      "status": "Preview",
+      "detailed_status": "Scheduled",
+      "is_nats_home": true,
+      "home": {
+        "id": 120,
+        "abbrev": "WSH",
+        "name": "Washington Nationals",
+        "short_name": "Nationals",
+        "record": "69-81",
+        "score": null
+      },
+      "away": {
+        "id": 121,
+        "abbrev": "NYM",
+        "name": "New York Mets",
+        "short_name": "Mets",
+        "record": "69-79",
+        "score": null
+      },
+      "venue": {
+        "id": 3309,
+        "name": "Nationals Park",
+        "city": "Washington",
+        "state": "DC",
+        "lat": 38.872861,
+        "lon": -77.007501
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      },
+      "broadcasts": [
+        {
+          "name": "SNY",
+          "call_sign": "SNY",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Nationals.TV",
+          "call_sign": "NATS",
+          "type": "TV",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Audacy Mets Radio WHSQ 880AM",
+          "call_sign": "WHSQ 880AM",
+          "type": "AM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "WJFK 106.7 The Fan",
+          "call_sign": "106.7 FM",
+          "type": "FM",
+          "language": "en",
+          "is_national": false,
+          "home_away": "home",
+          "media_state": "MEDIA_OFF"
+        },
+        {
+          "name": "Audacy App 92.3 HD2",
+          "call_sign": "Audacy",
+          "type": "FM",
+          "language": "es",
+          "is_national": false,
+          "home_away": "away",
+          "media_state": "MEDIA_OFF"
+        }
+      ],
+      "linescore": {
+        "current_inning": null,
+        "inning_half": null,
+        "inning_state": null,
+        "is_top_inning": null,
+        "balls": null,
+        "strikes": null,
+        "outs": null,
+        "home_runs": null,
+        "away_runs": null,
+        "home_hits": null,
+        "away_hits": null,
+        "home_errors": null,
+        "away_errors": null
+      },
+      "series": {
+        "game_number": 3,
+        "games_in_series": 3,
+        "description": "Regular Season"
+      },
+      "double_header": "N",
+      "_source": "mlb_statsapi",
+      "classification": "next",
+      "provider": {
+        "broadcast_name": "Nationals.TV",
+        "is_national": false,
+        "rule_id": "masn_natstv",
+        "label": "MASN+ / Nationals.TV via MLB app",
+        "package": "com.bamnetworks.mobile.android.gameday.atbat",
+        "intent_uri": "mlbatbat://game/{game_pk}",
+        "fallback_uri": "https://www.mlb.com/nationals/tv"
+      },
+      "watch_label": "Next Game"
     }
   ],
   "standings": {
@@ -2557,19 +2673,19 @@
           "abbrev": "TB",
           "name": "Tampa Bay Rays",
           "short_name": "Rays",
-          "wins": 88,
+          "wins": 89,
           "losses": 59,
-          "pct": ".599",
+          "pct": ".601",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "W1",
+          "streak": "W2",
           "last_ten": "6-4",
           "division_rank": 1,
           "league_rank": 1,
           "wc_rank": null,
-          "run_diff": 58,
-          "runs_scored": 665,
-          "runs_allowed": 607,
+          "run_diff": 59,
+          "runs_scored": 668,
+          "runs_allowed": 609,
           "elim_num": "-"
         },
         {
@@ -2580,7 +2696,7 @@
           "wins": 85,
           "losses": 63,
           "pct": ".574",
-          "gb": "3.5",
+          "gb": "4.0",
           "wc_gb": "+10.5",
           "streak": "L1",
           "last_ten": "7-3",
@@ -2600,7 +2716,7 @@
           "wins": 81,
           "losses": 68,
           "pct": ".544",
-          "gb": "8.0",
+          "gb": "8.5",
           "wc_gb": "+6.0",
           "streak": "W1",
           "last_ten": "6-4",
@@ -2610,7 +2726,7 @@
           "run_diff": 85,
           "runs_scored": 659,
           "runs_allowed": 574,
-          "elim_num": "6"
+          "elim_num": "5"
         },
         {
           "id": 141,
@@ -2620,7 +2736,7 @@
           "wins": 74,
           "losses": 75,
           "pct": ".497",
-          "gb": "15.0",
+          "gb": "15.5",
           "wc_gb": "1.0",
           "streak": "W1",
           "last_ten": "6-4",
@@ -2640,7 +2756,7 @@
           "wins": 72,
           "losses": 77,
           "pct": ".483",
-          "gb": "17.0",
+          "gb": "17.5",
           "wc_gb": "3.0",
           "streak": "L1",
           "last_ten": "3-7",
@@ -2772,18 +2888,18 @@
           "name": "Houston Astros",
           "short_name": "Astros",
           "wins": 75,
-          "losses": 73,
-          "pct": ".507",
+          "losses": 74,
+          "pct": ".503",
           "gb": "-",
           "wc_gb": "-",
-          "streak": "L1",
+          "streak": "L2",
           "last_ten": "5-5",
           "division_rank": 1,
           "league_rank": 5,
           "wc_rank": null,
-          "run_diff": -42,
-          "runs_scored": 663,
-          "runs_allowed": 705,
+          "run_diff": -43,
+          "runs_scored": 665,
+          "runs_allowed": 708,
           "elim_num": "-"
         },
         {
@@ -2794,7 +2910,7 @@
           "wins": 72,
           "losses": 76,
           "pct": ".486",
-          "gb": "3.0",
+          "gb": "2.5",
           "wc_gb": "2.5",
           "streak": "L3",
           "last_ten": "4-6",
@@ -2814,7 +2930,7 @@
           "wins": 69,
           "losses": 79,
           "pct": ".466",
-          "gb": "6.0",
+          "gb": "5.5",
           "wc_gb": "5.5",
           "streak": "L1",
           "last_ten": "5-5",
@@ -2834,7 +2950,7 @@
           "wins": 60,
           "losses": 88,
           "pct": ".405",
-          "gb": "15.0",
+          "gb": "14.5",
           "wc_gb": "14.5",
           "streak": "W2",
           "last_ten": "7-3",
@@ -2854,7 +2970,7 @@
           "wins": 56,
           "losses": 92,
           "pct": ".378",
-          "gb": "19.0",
+          "gb": "18.5",
           "wc_gb": "18.5",
           "streak": "L2",
           "last_ten": "3-7",
