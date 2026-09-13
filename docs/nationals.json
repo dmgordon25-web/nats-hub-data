@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-09-13T15:50:55+00:00",
+  "fetched_at": "2026-09-13T16:57:21+00:00",
   "freshness": {
-    "schedule": "2026-09-13T15:50:54+00:00",
-    "standings": "2026-09-13T15:50:54+00:00",
+    "schedule": "2026-09-13T16:57:20+00:00",
+    "standings": "2026-09-13T16:57:20+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-09-13T12:42:28+00:00",
-    "weather": "2026-09-13T15:50:55+00:00"
+    "former_nats": "2026-09-13T16:57:19+00:00",
+    "weather": "2026-09-13T16:57:21+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -62,7 +62,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "ABTV, presented by Pechanga Resort Casino",
@@ -71,7 +71,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -80,7 +80,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "KLAA 830",
@@ -89,7 +89,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       }
     ],
     "linescore": {
@@ -124,17 +124,17 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Starts Soon"
   },
   "focus_weather": {
-    "fetched_at": "2026-09-13T15:50:55+00:00",
+    "fetched_at": "2026-09-13T16:57:21+00:00",
     "source": "open_meteo",
     "game_pk": 822682,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-09-13T18:00",
-    "temperature_f": 83.2,
-    "feels_like_f": 91.7,
-    "wind_mph": 4.0,
+    "temperature_f": 83.4,
+    "feels_like_f": 93.1,
+    "wind_mph": 3.6,
     "wind_dir": "W",
     "precip_chance": 7,
     "precip_inches": 0.0,
@@ -199,7 +199,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "ABTV, presented by Pechanga Resort Casino",
@@ -208,7 +208,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -217,7 +217,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "KLAA 830",
@@ -226,7 +226,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
@@ -261,7 +261,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 822683,
@@ -295,7 +295,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 800600,
+          "name": "Jackson Kent",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -411,7 +415,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 676917,
+          "name": "Cade Cavalli",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -893,7 +901,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "ABTV, presented by Pechanga Resort Casino",
@@ -902,7 +910,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -911,7 +919,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "KLAA 830",
@@ -920,7 +928,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
@@ -955,7 +963,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 822683,
@@ -989,7 +997,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 800600,
+          "name": "Jackson Kent",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
@@ -1105,7 +1117,11 @@
         "lon": -77.007501
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 676917,
+          "name": "Cade Cavalli",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
