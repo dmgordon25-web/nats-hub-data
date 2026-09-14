@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-09-13T23:08:44+00:00",
+  "fetched_at": "2026-09-14T01:02:30+00:00",
   "freshness": {
-    "schedule": "2026-09-13T23:08:42+00:00",
-    "standings": "2026-09-13T23:08:43+00:00",
+    "schedule": "2026-09-14T01:02:29+00:00",
+    "standings": "2026-09-14T01:02:29+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-09-13T20:52:51+00:00",
-    "weather": "2026-09-13T23:08:43+00:00"
+    "former_nats": "2026-09-14T01:02:29+00:00",
+    "weather": "2026-09-14T01:02:30+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -136,25 +136,25 @@
     "watch_label": "Next Game"
   },
   "focus_weather": {
-    "fetched_at": "2026-09-13T23:08:43+00:00",
+    "fetched_at": "2026-09-14T01:02:30+00:00",
     "source": "open_meteo",
     "game_pk": 822683,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-09-15T23:00",
     "temperature_f": 74.4,
-    "feels_like_f": 73.0,
-    "wind_mph": 5.0,
-    "wind_dir": "S",
+    "feels_like_f": 73.5,
+    "wind_mph": 4.2,
+    "wind_dir": "SSE",
     "precip_chance": 0,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "nostalgia_2019_strasburg_mvp",
-    "category": "nostalgia",
-    "weight": 5,
-    "text": "Stephen Strasburg was World Series MVP — 2-0, 14 strikeouts in 14.1 IP. He earned every dollar of his next contract that month."
+    "id": "did_you_know_park_dimensions",
+    "category": "ballpark",
+    "weight": 2,
+    "text": "Nationals Park is 336 feet down the left field line, 402 to dead center, 335 to right. The right-center alley is where the wind helps."
   },
   "next_three": [
     {
@@ -638,121 +638,6 @@
     "watch_label": "Game Final"
   },
   "all_games": [
-    {
-      "game_pk": 822684,
-      "date": "2026-09-11",
-      "start_time_utc": "2026-09-11T22:45:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "68-81",
-        "score": 4
-      },
-      "away": {
-        "id": 108,
-        "abbrev": "LAA",
-        "name": "Los Angeles Angels",
-        "short_name": "Angels",
-        "record": "56-91",
-        "score": 3
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 676917,
-          "name": "Cade Cavalli",
-          "hand": null
-        },
-        "away": {
-          "id": 579328,
-          "name": "Yusei Kikuchi",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "ABTV, presented by Pechanga Resort Casino",
-          "call_sign": "ABTV",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "KLAA 830",
-          "call_sign": "KLAA",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 3,
-        "home_runs": 4,
-        "away_runs": 3,
-        "home_hits": 6,
-        "away_hits": 4,
-        "home_errors": 0,
-        "away_errors": 1
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
     {
       "game_pk": 822685,
       "date": "2026-09-12",
@@ -2755,19 +2640,19 @@
           "abbrev": "BOS",
           "name": "Boston Red Sox",
           "short_name": "Red Sox",
-          "wins": 81,
+          "wins": 82,
           "losses": 68,
-          "pct": ".544",
-          "gb": "9.0",
-          "wc_gb": "+5.5",
-          "streak": "W1",
-          "last_ten": "6-4",
+          "pct": ".547",
+          "gb": "8.5",
+          "wc_gb": "+6.0",
+          "streak": "W2",
+          "last_ten": "7-3",
           "division_rank": 3,
           "league_rank": 3,
           "wc_rank": 2,
-          "run_diff": 85,
-          "runs_scored": 659,
-          "runs_allowed": 574,
+          "run_diff": 88,
+          "runs_scored": 663,
+          "runs_allowed": 575,
           "elim_num": "4"
         },
         {
@@ -2903,19 +2788,19 @@
           "name": "Kansas City Royals",
           "short_name": "Royals",
           "wins": 66,
-          "losses": 83,
-          "pct": ".443",
-          "gb": "10.0",
-          "wc_gb": "9.5",
-          "streak": "L1",
+          "losses": 84,
+          "pct": ".440",
+          "gb": "10.5",
+          "wc_gb": "10.0",
+          "streak": "L2",
           "last_ten": "4-6",
           "division_rank": 5,
           "league_rank": 13,
           "wc_rank": 10,
-          "run_diff": -91,
-          "runs_scored": 633,
-          "runs_allowed": 724,
-          "elim_num": "2"
+          "run_diff": -94,
+          "runs_scored": 634,
+          "runs_allowed": 728,
+          "elim_num": "1"
         }
       ]
     },
@@ -2970,38 +2855,38 @@
           "name": "Seattle Mariners",
           "short_name": "Mariners",
           "wins": 70,
-          "losses": 79,
-          "pct": ".470",
-          "gb": "4.5",
-          "wc_gb": "5.5",
-          "streak": "W1",
-          "last_ten": "5-5",
+          "losses": 80,
+          "pct": ".467",
+          "gb": "5.0",
+          "wc_gb": "6.0",
+          "streak": "L1",
+          "last_ten": "4-6",
           "division_rank": 3,
           "league_rank": 12,
           "wc_rank": 9,
-          "run_diff": -57,
-          "runs_scored": 605,
-          "runs_allowed": 662,
-          "elim_num": "9"
+          "run_diff": -58,
+          "runs_scored": 612,
+          "runs_allowed": 670,
+          "elim_num": "8"
         },
         {
           "id": 133,
           "abbrev": "ATH",
           "name": "Athletics",
           "short_name": "Athletics",
-          "wins": 60,
+          "wins": 61,
           "losses": 89,
-          "pct": ".403",
-          "gb": "14.5",
-          "wc_gb": "15.5",
-          "streak": "L1",
+          "pct": ".407",
+          "gb": "14.0",
+          "wc_gb": "15.0",
+          "streak": "W1",
           "last_ten": "7-3",
           "division_rank": 4,
           "league_rank": 14,
           "wc_rank": 11,
-          "run_diff": -204,
-          "runs_scored": 648,
-          "runs_allowed": 852,
+          "run_diff": -203,
+          "runs_scored": 656,
+          "runs_allowed": 859,
           "elim_num": "E"
         },
         {
