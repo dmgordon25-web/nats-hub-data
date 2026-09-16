@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-09-16T19:39:07+00:00",
+  "fetched_at": "2026-09-16T21:20:31+00:00",
   "freshness": {
-    "schedule": "2026-09-16T19:39:06+00:00",
-    "standings": "2026-09-16T19:39:07+00:00",
+    "schedule": "2026-09-16T21:20:30+00:00",
+    "standings": "2026-09-16T21:20:31+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-09-16T17:36:38+00:00",
-    "weather": "2026-09-16T19:39:07+00:00"
+    "former_nats": "2026-09-16T21:20:30+00:00",
+    "weather": "2026-09-16T21:20:31+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "71-81",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 143,
@@ -32,7 +32,7 @@
       "name": "Philadelphia Phillies",
       "short_name": "Phillies",
       "record": "83-68",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 3309,
@@ -62,7 +62,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Nationals.TV",
@@ -71,7 +71,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "94 WIP",
@@ -80,7 +80,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -89,7 +89,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "iHeart App",
@@ -98,23 +98,23 @@
         "language": "es",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
       "game_number": 2,
@@ -136,14 +136,14 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-09-16T19:39:07+00:00",
+    "fetched_at": "2026-09-16T21:20:31+00:00",
     "source": "open_meteo",
     "game_pk": 822680,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-09-16T23:00",
-    "temperature_f": 81.1,
-    "feels_like_f": 82.4,
-    "wind_mph": 4.1,
+    "temperature_f": 80.0,
+    "feels_like_f": 83.2,
+    "wind_mph": 3.4,
     "wind_dir": "S",
     "precip_chance": 0,
     "precip_inches": 0.0,
@@ -170,7 +170,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "71-81",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 143,
@@ -178,7 +178,7 @@
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
         "record": "83-68",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -208,7 +208,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -217,7 +217,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "94 WIP",
@@ -226,7 +226,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -235,7 +235,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "iHeart App",
@@ -244,23 +244,23 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 2,
@@ -293,7 +293,7 @@
         "abbrev": "STL",
         "name": "St. Louis Cardinals",
         "short_name": "Cardinals",
-        "record": "75-77",
+        "record": "75-78",
         "score": null
       },
       "away": {
@@ -417,7 +417,7 @@
         "abbrev": "STL",
         "name": "St. Louis Cardinals",
         "short_name": "Cardinals",
-        "record": "75-77",
+        "record": "75-78",
         "score": null
       },
       "away": {
@@ -442,7 +442,11 @@
           "name": "Michael McGreevy",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 674841,
+          "name": "Andrew Alvarez",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -788,7 +792,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "71-81",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 143,
@@ -796,7 +800,7 @@
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
         "record": "83-68",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -826,7 +830,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -835,7 +839,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "94 WIP",
@@ -844,7 +848,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -853,7 +857,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "iHeart App",
@@ -862,23 +866,23 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 2,
@@ -911,7 +915,7 @@
         "abbrev": "STL",
         "name": "St. Louis Cardinals",
         "short_name": "Cardinals",
-        "record": "75-77",
+        "record": "75-78",
         "score": null
       },
       "away": {
@@ -1035,7 +1039,7 @@
         "abbrev": "STL",
         "name": "St. Louis Cardinals",
         "short_name": "Cardinals",
-        "record": "75-77",
+        "record": "75-78",
         "score": null
       },
       "away": {
@@ -1060,7 +1064,11 @@
           "name": "Michael McGreevy",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 674841,
+          "name": "Andrew Alvarez",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -1155,7 +1163,7 @@
         "abbrev": "STL",
         "name": "St. Louis Cardinals",
         "short_name": "Cardinals",
-        "record": "75-77",
+        "record": "75-78",
         "score": null
       },
       "away": {
@@ -1180,7 +1188,11 @@
           "name": "Quinn Mathews",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 663623,
+          "name": "Jake Irvin",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -2245,19 +2257,19 @@
           "abbrev": "SF",
           "name": "San Francisco Giants",
           "short_name": "Giants",
-          "wins": 63,
+          "wins": 64,
           "losses": 89,
-          "pct": ".414",
-          "gb": "29.5",
-          "wc_gb": "19.5",
-          "streak": "W1",
+          "pct": ".418",
+          "gb": "29.0",
+          "wc_gb": "19.0",
+          "streak": "W2",
           "last_ten": "5-5",
           "division_rank": 4,
           "league_rank": 14,
           "wc_rank": 11,
-          "run_diff": -71,
-          "runs_scored": 643,
-          "runs_allowed": 714,
+          "run_diff": -70,
+          "runs_scored": 649,
+          "runs_allowed": 719,
           "elim_num": "E"
         },
         {
@@ -2353,18 +2365,18 @@
           "name": "St. Louis Cardinals",
           "short_name": "Cardinals",
           "wins": 75,
-          "losses": 77,
-          "pct": ".493",
-          "gb": "19.5",
-          "wc_gb": "7.5",
-          "streak": "L1",
+          "losses": 78,
+          "pct": ".490",
+          "gb": "20.0",
+          "wc_gb": "8.0",
+          "streak": "L2",
           "last_ten": "4-6",
           "division_rank": 4,
           "league_rank": 10,
           "wc_rank": 7,
-          "run_diff": -13,
-          "runs_scored": 688,
-          "runs_allowed": 701,
+          "run_diff": -14,
+          "runs_scored": 693,
+          "runs_allowed": 707,
           "elim_num": "E"
         },
         {
@@ -2502,43 +2514,43 @@
       "league": "AL",
       "teams": [
         {
+          "id": 114,
+          "abbrev": "CLE",
+          "name": "Cleveland Guardians",
+          "short_name": "Guardians",
+          "wins": 78,
+          "losses": 75,
+          "pct": ".510",
+          "gb": "-",
+          "wc_gb": "-",
+          "streak": "W2",
+          "last_ten": "6-4",
+          "division_rank": 1,
+          "league_rank": 4,
+          "wc_rank": null,
+          "run_diff": -7,
+          "runs_scored": 631,
+          "runs_allowed": 638,
+          "elim_num": "-"
+        },
+        {
           "id": 145,
           "abbrev": "CWS",
           "name": "Chicago White Sox",
           "short_name": "White Sox",
           "wins": 77,
-          "losses": 74,
-          "pct": ".510",
-          "gb": "-",
-          "wc_gb": "-",
-          "streak": "L1",
-          "last_ten": "3-7",
-          "division_rank": 1,
-          "league_rank": 4,
-          "wc_rank": null,
-          "run_diff": 37,
-          "runs_scored": 708,
-          "runs_allowed": 671,
-          "elim_num": "-"
-        },
-        {
-          "id": 114,
-          "abbrev": "CLE",
-          "name": "Cleveland Guardians",
-          "short_name": "Guardians",
-          "wins": 77,
           "losses": 75,
           "pct": ".507",
           "gb": "0.5",
           "wc_gb": "-",
-          "streak": "W1",
-          "last_ten": "5-5",
+          "streak": "L2",
+          "last_ten": "3-7",
           "division_rank": 2,
           "league_rank": 5,
           "wc_rank": 3,
-          "run_diff": -10,
-          "runs_scored": 625,
-          "runs_allowed": 635,
+          "run_diff": 34,
+          "runs_scored": 711,
+          "runs_allowed": 677,
           "elim_num": "10"
         },
         {
@@ -2559,7 +2571,7 @@
           "run_diff": 80,
           "runs_scored": 682,
           "runs_allowed": 602,
-          "elim_num": "6"
+          "elim_num": "5"
         },
         {
           "id": 142,
