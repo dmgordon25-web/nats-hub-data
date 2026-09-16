@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-09-16T16:26:34+00:00",
+  "fetched_at": "2026-09-16T17:36:39+00:00",
   "freshness": {
-    "schedule": "2026-09-16T16:26:32+00:00",
-    "standings": "2026-09-16T16:26:33+00:00",
+    "schedule": "2026-09-16T17:36:38+00:00",
+    "standings": "2026-09-16T17:36:38+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-09-16T12:34:52+00:00",
-    "weather": "2026-09-16T16:26:34+00:00"
+    "former_nats": "2026-09-16T17:36:38+00:00",
+    "weather": "2026-09-16T17:36:39+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -136,18 +136,18 @@
     "watch_label": "Watch Tonight"
   },
   "focus_weather": {
-    "fetched_at": "2026-09-16T16:26:34+00:00",
+    "fetched_at": "2026-09-16T17:36:39+00:00",
     "source": "open_meteo",
     "game_pk": 822680,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-09-16T23:00",
     "temperature_f": 81.5,
-    "feels_like_f": 81.4,
-    "wind_mph": 4.2,
+    "feels_like_f": 82.5,
+    "wind_mph": 4.4,
     "wind_dir": "SSW",
     "precip_chance": 0,
     "precip_inches": 0.0,
-    "summary": "Overcast",
+    "summary": "Clear",
     "is_dome": false
   },
   "tonight_tidbit": {
@@ -1175,7 +1175,11 @@
         "lon": -90.19286667
       },
       "probable_pitchers": {
-        "home": null,
+        "home": {
+          "id": 687273,
+          "name": "Quinn Mathews",
+          "hand": null
+        },
         "away": null
       },
       "broadcasts": [
