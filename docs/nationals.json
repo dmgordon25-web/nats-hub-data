@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-09-16T21:20:31+00:00",
+  "fetched_at": "2026-09-16T22:20:56+00:00",
   "freshness": {
-    "schedule": "2026-09-16T21:20:30+00:00",
-    "standings": "2026-09-16T21:20:31+00:00",
+    "schedule": "2026-09-16T22:20:55+00:00",
+    "standings": "2026-09-16T22:20:56+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-09-16T21:20:30+00:00",
-    "weather": "2026-09-16T21:20:31+00:00"
+    "weather": "2026-09-16T22:20:56+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -133,16 +133,16 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Watch Tonight"
+    "watch_label": "Starts Soon"
   },
   "focus_weather": {
-    "fetched_at": "2026-09-16T21:20:31+00:00",
+    "fetched_at": "2026-09-16T22:20:56+00:00",
     "source": "open_meteo",
     "game_pk": 822680,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-09-16T23:00",
     "temperature_f": 80.0,
-    "feels_like_f": 83.2,
+    "feels_like_f": 83.6,
     "wind_mph": 3.4,
     "wind_dir": "S",
     "precip_chance": 0,
@@ -279,7 +279,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 823005,
@@ -901,7 +901,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Watch Tonight"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 823005,
@@ -1287,7 +1287,7 @@
         "abbrev": "DET",
         "name": "Detroit Tigers",
         "short_name": "Tigers",
-        "record": "72-79",
+        "record": "72-80",
         "score": null
       },
       "away": {
@@ -1403,7 +1403,7 @@
         "abbrev": "DET",
         "name": "Detroit Tigers",
         "short_name": "Tigers",
-        "record": "72-79",
+        "record": "72-80",
         "score": null
       },
       "away": {
@@ -1519,7 +1519,7 @@
         "abbrev": "DET",
         "name": "Detroit Tigers",
         "short_name": "Tigers",
-        "record": "72-79",
+        "record": "72-80",
         "score": null
       },
       "away": {
@@ -2432,19 +2432,19 @@
           "name": "New York Yankees",
           "short_name": "Yankees",
           "wins": 88,
-          "losses": 63,
-          "pct": ".583",
-          "gb": "3.5",
-          "wc_gb": "+11.5",
-          "streak": "W3",
-          "last_ten": "8-2",
+          "losses": 64,
+          "pct": ".579",
+          "gb": "4.0",
+          "wc_gb": "+11.0",
+          "streak": "L1",
+          "last_ten": "7-3",
           "division_rank": 2,
           "league_rank": 2,
           "wc_rank": 1,
-          "run_diff": 137,
-          "runs_scored": 693,
-          "runs_allowed": 556,
-          "elim_num": "8"
+          "run_diff": 136,
+          "runs_scored": 697,
+          "runs_allowed": 561,
+          "elim_num": "7"
         },
         {
           "id": 111,
@@ -2471,19 +2471,19 @@
           "abbrev": "TOR",
           "name": "Toronto Blue Jays",
           "short_name": "Blue Jays",
-          "wins": 75,
+          "wins": 76,
           "losses": 77,
-          "pct": ".493",
-          "gb": "17.0",
-          "wc_gb": "2.0",
-          "streak": "L2",
+          "pct": ".497",
+          "gb": "16.5",
+          "wc_gb": "1.5",
+          "streak": "W1",
           "last_ten": "4-6",
           "division_rank": 4,
-          "league_rank": 8,
-          "wc_rank": 5,
-          "run_diff": -41,
-          "runs_scored": 614,
-          "runs_allowed": 655,
+          "league_rank": 7,
+          "wc_rank": 4,
+          "run_diff": -37,
+          "runs_scored": 619,
+          "runs_allowed": 656,
           "elim_num": "E"
         },
         {
@@ -2559,38 +2559,38 @@
           "name": "Detroit Tigers",
           "short_name": "Tigers",
           "wins": 72,
-          "losses": 79,
-          "pct": ".477",
-          "gb": "5.0",
-          "wc_gb": "4.5",
-          "streak": "W6",
-          "last_ten": "8-2",
+          "losses": 80,
+          "pct": ".474",
+          "gb": "5.5",
+          "wc_gb": "5.0",
+          "streak": "L1",
+          "last_ten": "7-3",
           "division_rank": 3,
           "league_rank": 10,
           "wc_rank": 7,
-          "run_diff": 80,
-          "runs_scored": 682,
-          "runs_allowed": 602,
-          "elim_num": "5"
+          "run_diff": 76,
+          "runs_scored": 683,
+          "runs_allowed": 607,
+          "elim_num": "4"
         },
         {
           "id": 142,
           "abbrev": "MIN",
           "name": "Minnesota Twins",
           "short_name": "Twins",
-          "wins": 70,
+          "wins": 71,
           "losses": 81,
-          "pct": ".464",
-          "gb": "7.0",
-          "wc_gb": "6.5",
-          "streak": "L3",
+          "pct": ".467",
+          "gb": "6.5",
+          "wc_gb": "6.0",
+          "streak": "W1",
           "last_ten": "3-7",
           "division_rank": 4,
           "league_rank": 11,
           "wc_rank": 8,
-          "run_diff": -74,
-          "runs_scored": 687,
-          "runs_allowed": 761,
+          "run_diff": -73,
+          "runs_scored": 692,
+          "runs_allowed": 765,
           "elim_num": "4"
         },
         {
@@ -2653,8 +2653,8 @@
           "streak": "W3",
           "last_ten": "5-5",
           "division_rank": 2,
-          "league_rank": 7,
-          "wc_rank": 4,
+          "league_rank": 8,
+          "wc_rank": 5,
           "run_diff": -42,
           "runs_scored": 628,
           "runs_allowed": 670,
