@@ -1,78 +1,69 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-16T05:40:44+00:00",
+  "generated_at": "2026-09-16T09:42:34+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-16T05:39:20+00:00",
-    "videos": "2026-09-16T01:37:16+00:00",
-    "vibes": "2026-09-16T05:40:44+00:00"
+    "news": "2026-09-16T09:41:58+00:00",
+    "videos": "2026-09-16T09:41:58+00:00",
+    "vibes": "2026-09-16T09:42:34+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-16T05:38:56+00:00",
+      "last_updated_at": "2026-09-16T09:41:31+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-16T05:38:57+00:00",
+      "last_updated_at": "2026-09-16T09:41:56+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-16T05:38:57+00:00",
+      "last_updated_at": "2026-09-16T09:41:56+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-16T05:38:58+00:00",
+      "last_updated_at": "2026-09-16T09:41:57+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-16T05:38:58+00:00",
+      "last_updated_at": "2026-09-16T09:41:57+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-16T05:38:59+00:00",
+      "last_updated_at": "2026-09-16T09:41:58+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-09-16T09:41:58+00:00",
+      "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-09-16T09:41:58+00:00",
+      "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "videos",
-      "reason": "last_check_too_old"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "For Phillies, &#39;writing is on the wall&#39; after losing game to Nationals, ace to IL",
       "url": "https://sports.yahoo.com/articles/phillies-writing-wall-losing-game-030405154.html",
       "source": "Yahoo Sports MLB",
       "published_at": "2026-09-16T03:04:05+00:00",
-      "why_it_matters": {
-        "text": "The Phillies suffered a crushing loss to the Nationals following the news that All-Star pitcher Jesus Luzardo has been placed on the injured list.",
-        "ai_generated": true
-      },
       "image_url": "https://s.yimg.com/lo/mysterio/api/19ba9ba861022c20a3257d1abd9848d917b07b96620d7f43c6a18b7f6c3fad74/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fusa_today_sports_articles_558%2F9d787e753e8047b44e1070dd0427110b.jpg"
     },
     {
@@ -92,7 +83,7 @@
       "source": "Talk Nats",
       "published_at": "2026-09-16T01:20:23+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals won their fourth consecutive game following a come-from-behind victory featuring home runs from Andres Chaparro and Daylen Lile, with Erik Tolman securing the final save.",
+        "text": "The Washington Nationals achieved a 4-game winning streak following a come-from-behind victory featuring home runs from Andres Chaparro and Daylen Lile, with Erik Tolman securing the final out.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/IMG-20260831-WA0064.jpg?fit=1200%2C1170&ssl=1"
@@ -125,7 +116,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-09-15T18:58:28+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals are seeking to defeat the Mets in a battle for fourth place during the final 11 games of the season, despite being officially eliminated from playoff contention.",
+        "text": "The Washington Nationals are aiming to defeat the Mets in a battle for fourth place during the final 11 games of the season, despite being officially eliminated from playoff contention.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2295104501.jpg?quality=90&strip=all&crop=0%2C10.4724777759%2C100%2C79.055044448201&w=1200"
@@ -149,25 +140,21 @@
     "result_banner": {
       "type": "win",
       "text": "Curly W! The Nats beat the Phillies 6-3."
-    },
-    "storyline": {
-      "text": "The Phillies suffered a crushing loss to the Nationals following the news that All-Star pitcher Jesus Luzardo has been placed on the injured list.",
-      "ai_generated": true
     }
   },
   "videos": [
+    {
+      "title": "Phillies vs. Nationals Game Highlights (9/15/26) | MLB Highlights",
+      "url": "https://www.youtube.com/watch?v=FfrHzvCinyY",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i3.ytimg.com/vi/FfrHzvCinyY/hqdefault.jpg",
+      "duration_s": 0
+    },
     {
       "title": "ANDRÉS CHAPARRO 422-FOOTER 🚀",
       "url": "https://www.youtube.com/shorts/5rG1dEknJ7U",
       "source": "Nationals on YouTube",
       "thumbnail_url": "https://i2.ytimg.com/vi/5rG1dEknJ7U/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "Angels vs. Nationals Game Highlights (9/13/26) | MLB Highlights",
-      "url": "https://www.youtube.com/watch?v=R1_DA8W2HXw",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i3.ytimg.com/vi/R1_DA8W2HXw/hqdefault.jpg",
       "duration_s": 0
     },
     {
@@ -204,15 +191,15 @@
     "ai_generated": true,
     "themes": [
       {
-        "label": "Winning Momentum",
+        "label": "Winning Streak Momentum",
         "sentiment": "positive",
         "source_urls": [
-          "https://nats.talkdcsports.com/2026/09/15/postgamer-the-nats-have-a-4-game-winning-streak/",
-          "https://sports.yahoo.com/articles/eroding-nationals-6-phillies-3-014003792.html"
+          "https://nats.talkdcsports.com/2026/09/15/game-152-a-quick-2-game-series-with-the-phillies/",
+          "https://nats.talkdcsports.com/2026/09/15/postgamer-the-nats-have-a-4-game-winning-streak/"
         ]
       },
       {
-        "label": "Comeback Victories",
+        "label": "Come-from-behind Victories",
         "sentiment": "positive",
         "source_urls": [
           "https://nats.talkdcsports.com/2026/09/15/game-152-a-quick-2-game-series-with-the-phillies/",
@@ -231,30 +218,13 @@
   },
   "trending": [
     {
-      "label": "Phillies",
+      "label": "Philadelphia Phillies",
       "sentiment": "",
-      "context": "For Phillies, &#39;writing is on the wall&#39; after losing game to Nationals, ace to IL",
+      "context": "ERODING: Nationals 6, Phillies 3",
       "source_urls": [
         "https://nats.talkdcsports.com/2026/09/15/game-152-a-quick-2-game-series-with-the-phillies/",
         "https://sports.yahoo.com/articles/eroding-nationals-6-phillies-3-014003792.html",
-        "https://sports.yahoo.com/articles/phillies-writing-wall-losing-game-030405154.html",
         "https://www.federalbaseball.com/washington-nationals-discussions/94235/washington-nationals-vs-philadelphia-phillies-game-thread"
-      ]
-    },
-    {
-      "label": "Jesus Luzardo",
-      "sentiment": "",
-      "context": "For Phillies, &#39;writing is on the wall&#39; after losing game to Nationals, ace to IL",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/phillies-writing-wall-losing-game-030405154.html"
-      ]
-    },
-    {
-      "label": "Injured List",
-      "sentiment": "",
-      "context": "For Phillies, &#39;writing is on the wall&#39; after losing game to Nationals, ace to IL",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/phillies-writing-wall-losing-game-030405154.html"
       ]
     },
     {
@@ -279,6 +249,14 @@
       "context": "Washington Nationals vs Philadelphia Phillies Game Thread",
       "source_urls": [
         "https://www.federalbaseball.com/washington-nationals-discussions/94235/washington-nationals-vs-philadelphia-phillies-game-thread"
+      ]
+    },
+    {
+      "label": "postseason",
+      "sentiment": "",
+      "context": "Game #152 A quick 2-game series with the Phillies",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/15/game-152-a-quick-2-game-series-with-the-phillies/"
       ]
     },
     {
