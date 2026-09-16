@@ -1,117 +1,13 @@
 {
-  "fetched_at": "2026-09-15T22:27:32+00:00",
+  "fetched_at": "2026-09-16T00:43:44+00:00",
   "source": "mlb_statsapi",
   "games": [
-    {
-      "game_pk": 822682,
-      "date": "2026-09-13",
-      "start_time_utc": "2026-09-13T17:35:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "70-81",
-        "score": 6
-      },
-      "away": {
-        "id": 108,
-        "abbrev": "LAA",
-        "name": "Los Angeles Angels",
-        "short_name": "Angels",
-        "record": "56-93",
-        "score": 5
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 683000,
-          "name": "Riley Cornelio",
-          "hand": null
-        },
-        "away": {
-          "id": 680570,
-          "name": "Grayson Rodriguez",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "ABTV, presented by Pechanga Resort Casino",
-          "call_sign": "ABTV",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "KLAA 830",
-          "call_sign": "KLAA",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 6,
-        "away_runs": 5,
-        "home_hits": 13,
-        "away_hits": 4,
-        "home_errors": 1,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 3,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi"
-    },
     {
       "game_pk": 822683,
       "date": "2026-09-15",
       "start_time_utc": "2026-09-15T22:45:00Z",
       "status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -119,7 +15,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "70-81",
-        "score": 0
+        "score": 3
       },
       "away": {
         "id": 143,
@@ -127,7 +23,7 @@
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
         "record": "83-67",
-        "score": 0
+        "score": 3
       },
       "venue": {
         "id": 3309,
@@ -197,17 +93,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 7,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "outs": 1,
+        "home_runs": 3,
+        "away_runs": 3,
+        "home_hits": 8,
+        "away_hits": 4,
         "home_errors": 0,
         "away_errors": 0
       },

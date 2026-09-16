@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-09-15T22:27:33+00:00",
+  "fetched_at": "2026-09-16T00:43:45+00:00",
   "freshness": {
-    "schedule": "2026-09-15T22:27:32+00:00",
-    "standings": "2026-09-15T22:27:32+00:00",
+    "schedule": "2026-09-16T00:43:44+00:00",
+    "standings": "2026-09-16T00:43:45+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-09-15T21:23:32+00:00",
-    "weather": "2026-09-15T22:27:33+00:00"
+    "weather": "2026-09-16T00:43:45+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -16,7 +16,7 @@
     "date": "2026-09-15",
     "start_time_utc": "2026-09-15T22:45:00Z",
     "status": "Live",
-    "detailed_status": "Warmup",
+    "detailed_status": "In Progress",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -24,7 +24,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "70-81",
-      "score": 0
+      "score": 3
     },
     "away": {
       "id": 143,
@@ -32,7 +32,7 @@
       "name": "Philadelphia Phillies",
       "short_name": "Phillies",
       "record": "83-67",
-      "score": 0
+      "score": 3
     },
     "venue": {
       "id": 3309,
@@ -102,17 +102,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 1,
-      "inning_half": "Top",
-      "inning_state": "Top",
-      "is_top_inning": true,
+      "current_inning": 7,
+      "inning_half": "Bottom",
+      "inning_state": "Bottom",
+      "is_top_inning": false,
       "balls": 0,
       "strikes": 0,
-      "outs": 0,
-      "home_runs": 0,
-      "away_runs": 0,
-      "home_hits": 0,
-      "away_hits": 0,
+      "outs": 1,
+      "home_runs": 3,
+      "away_runs": 3,
+      "home_hits": 8,
+      "away_hits": 4,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -136,14 +136,14 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-09-15T22:27:33+00:00",
+    "fetched_at": "2026-09-16T00:43:45+00:00",
     "source": "open_meteo",
     "game_pk": 822683,
     "venue_name": "Nationals Park",
-    "forecast_at": "2026-09-15T23:00",
-    "temperature_f": 74.4,
-    "feels_like_f": 73.3,
-    "wind_mph": 6.1,
+    "forecast_at": "2026-09-16T00:00",
+    "temperature_f": 72.1,
+    "feels_like_f": 71.0,
+    "wind_mph": 6.0,
     "wind_dir": "ESE",
     "precip_chance": 0,
     "precip_inches": 0.0,
@@ -151,10 +151,10 @@
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "player_spotlight_keibert",
-    "category": "player_spotlight",
-    "weight": 5,
-    "text": "Keibert Ruiz is the catcher of the present and future. He's young, he hits, he frames pitches well."
+    "id": "did_you_know_capitol_view",
+    "category": "ballpark",
+    "weight": 4,
+    "text": "From the upper deck along third base, you can see the Capitol dome. The architects designed it that way on purpose."
   },
   "next_three": [
     {
@@ -162,7 +162,7 @@
       "date": "2026-09-15",
       "start_time_utc": "2026-09-15T22:45:00Z",
       "status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -170,7 +170,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "70-81",
-        "score": 0
+        "score": 3
       },
       "away": {
         "id": 143,
@@ -178,7 +178,7 @@
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
         "record": "83-67",
-        "score": 0
+        "score": 3
       },
       "venue": {
         "id": 3309,
@@ -248,17 +248,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 7,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "outs": 1,
+        "home_runs": 3,
+        "away_runs": 3,
+        "home_hits": 8,
+        "away_hits": 4,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -403,7 +403,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 823005,
@@ -526,243 +526,14 @@
       "watch_label": "Next Game"
     }
   ],
-  "last_result": {
-    "game_pk": 822682,
-    "date": "2026-09-13",
-    "start_time_utc": "2026-09-13T17:35:00Z",
-    "status": "Final",
-    "detailed_status": "Final",
-    "is_nats_home": true,
-    "home": {
-      "id": 120,
-      "abbrev": "WSH",
-      "name": "Washington Nationals",
-      "short_name": "Nationals",
-      "record": "70-81",
-      "score": 6
-    },
-    "away": {
-      "id": 108,
-      "abbrev": "LAA",
-      "name": "Los Angeles Angels",
-      "short_name": "Angels",
-      "record": "56-93",
-      "score": 5
-    },
-    "venue": {
-      "id": 3309,
-      "name": "Nationals Park",
-      "city": "Washington",
-      "state": "DC",
-      "lat": 38.872861,
-      "lon": -77.007501
-    },
-    "probable_pitchers": {
-      "home": {
-        "id": 683000,
-        "name": "Riley Cornelio",
-        "hand": null
-      },
-      "away": {
-        "id": 680570,
-        "name": "Grayson Rodriguez",
-        "hand": null
-      }
-    },
-    "broadcasts": [
-      {
-        "name": "Nationals.TV",
-        "call_sign": "NATS",
-        "type": "TV",
-        "language": "en",
-        "is_national": false,
-        "home_away": "home",
-        "media_state": "MEDIA_ARCHIVE"
-      },
-      {
-        "name": "ABTV, presented by Pechanga Resort Casino",
-        "call_sign": "ABTV",
-        "type": "TV",
-        "language": "en",
-        "is_national": false,
-        "home_away": "away",
-        "media_state": "MEDIA_ARCHIVE"
-      },
-      {
-        "name": "WJFK 106.7 The Fan",
-        "call_sign": "106.7 FM",
-        "type": "FM",
-        "language": "en",
-        "is_national": false,
-        "home_away": "home",
-        "media_state": "MEDIA_ARCHIVE"
-      },
-      {
-        "name": "KLAA 830",
-        "call_sign": "KLAA",
-        "type": "AM",
-        "language": "en",
-        "is_national": false,
-        "home_away": "away",
-        "media_state": "MEDIA_ARCHIVE"
-      }
-    ],
-    "linescore": {
-      "current_inning": 9,
-      "inning_half": "Top",
-      "inning_state": "Top",
-      "is_top_inning": true,
-      "balls": 0,
-      "strikes": 3,
-      "outs": 3,
-      "home_runs": 6,
-      "away_runs": 5,
-      "home_hits": 13,
-      "away_hits": 4,
-      "home_errors": 1,
-      "away_errors": 0
-    },
-    "series": {
-      "game_number": 3,
-      "games_in_series": 3,
-      "description": "Regular Season"
-    },
-    "double_header": "N",
-    "_source": "mlb_statsapi",
-    "classification": "previous",
-    "provider": {
-      "broadcast_name": "Nationals.TV",
-      "is_national": false,
-      "rule_id": "masn_natstv",
-      "label": "MASN+ / Nationals.TV via MLB app",
-      "package": "com.bamnetworks.mobile.android.gameday.atbat",
-      "intent_uri": "mlbatbat://game/{game_pk}",
-      "fallback_uri": "https://www.mlb.com/nationals/tv"
-    },
-    "watch_label": "Game Final"
-  },
+  "last_result": null,
   "all_games": [
-    {
-      "game_pk": 822682,
-      "date": "2026-09-13",
-      "start_time_utc": "2026-09-13T17:35:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "70-81",
-        "score": 6
-      },
-      "away": {
-        "id": 108,
-        "abbrev": "LAA",
-        "name": "Los Angeles Angels",
-        "short_name": "Angels",
-        "record": "56-93",
-        "score": 5
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 683000,
-          "name": "Riley Cornelio",
-          "hand": null
-        },
-        "away": {
-          "id": 680570,
-          "name": "Grayson Rodriguez",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "ABTV, presented by Pechanga Resort Casino",
-          "call_sign": "ABTV",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "KLAA 830",
-          "call_sign": "KLAA",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 6,
-        "away_runs": 5,
-        "home_hits": 13,
-        "away_hits": 4,
-        "home_errors": 1,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 3,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
     {
       "game_pk": 822683,
       "date": "2026-09-15",
       "start_time_utc": "2026-09-15T22:45:00Z",
       "status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -770,7 +541,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "70-81",
-        "score": 0
+        "score": 3
       },
       "away": {
         "id": 143,
@@ -778,7 +549,7 @@
         "name": "Philadelphia Phillies",
         "short_name": "Phillies",
         "record": "83-67",
-        "score": 0
+        "score": 3
       },
       "venue": {
         "id": 3309,
@@ -848,17 +619,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 7,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "outs": 1,
+        "home_runs": 3,
+        "away_runs": 3,
+        "home_hits": 8,
+        "away_hits": 4,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -1003,7 +774,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 823005,
