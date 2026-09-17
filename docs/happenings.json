@@ -1,63 +1,68 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-17T03:31:31+00:00",
+  "generated_at": "2026-09-17T04:40:00+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-17T03:30:19+00:00",
+    "news": "2026-09-17T04:39:16+00:00",
     "videos": "2026-09-17T03:30:19+00:00",
-    "vibes": "2026-09-17T03:31:31+00:00"
+    "vibes": "2026-09-17T04:40:00+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-17T03:30:12+00:00",
+      "last_updated_at": "2026-09-17T04:39:04+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-17T03:30:13+00:00",
+      "last_updated_at": "2026-09-17T04:39:05+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-17T03:30:13+00:00",
+      "last_updated_at": "2026-09-17T04:39:06+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-17T03:30:13+00:00",
+      "last_updated_at": "2026-09-17T04:39:06+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-17T03:30:13+00:00",
+      "last_updated_at": "2026-09-17T04:39:06+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-17T03:30:14+00:00",
+      "last_updated_at": "2026-09-17T04:39:07+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-09-17T03:30:19+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-09-17T03:30:19+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    }
+  ],
   "top_stories": [
     {
       "title": "Proud Mary keep on burning: Phillies 3, Nationals 0",
@@ -65,7 +70,7 @@
       "source": "Yahoo Sports MLB",
       "published_at": "2026-09-17T02:01:01+00:00",
       "why_it_matters": {
-        "text": "The Phillies defeated the Nationals 3-0 in a game where Zack Wheeler pitched the team to a shutout win.",
+        "text": "The Phillies defeated the Nationals 3-0 in a game where Zack Wheeler pitched the team to a shutout victory.",
         "ai_generated": true
       },
       "image_url": "https://s.yimg.com/lo/mysterio/api/793c81cbf122734a5fd56c94507be8d723a02dfdc2112ff6297a5269b620db8c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fdb42cc1d7da27da307c7966adc2d1818.jpg"
@@ -98,7 +103,7 @@
       "source": "CBS Sports MLB",
       "published_at": "2026-09-16T19:30:47+00:00",
       "why_it_matters": {
-        "text": "CBS Sports highlights today's top baseball games including Marlins vs. Diamondbacks and Phillies vs. Nationals, providing best bets and odds based on the SportsLine Projection Model and expert analysis.",
+        "text": "The report highlights today's top baseball games including Marlins vs. Diamondbacks and Phillies vs. Nationals, featuring best bets and odds based on the SportsLine Projection Model and CBS Sports experts.",
         "ai_generated": true
       },
       "image_url": "https://sportshub.cbsistatic.com/i/r/2026/08/11/5314d4eb-bdf5-48e6-8b85-bc487834a094/thumbnail/1200x675/ab5edad7dabb098f77cc370ee509f045/corbin-carroll-diamondbacks.jpg"
@@ -120,7 +125,7 @@
       "source": "Talk Nats",
       "published_at": "2026-09-16T15:24:13+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals secured their 71st win of the 2026 season with 10 games remaining, tying a franchise record since the 2019 World Series. The team aims to continue winning in the final stretch.",
+        "text": "The Washington Nationals secured their 71st win of the 2026 season with 10 games remaining, tying a franchise record since the 2019 World Series season. The team aims to continue winning in the final stretch.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/nats.talk-dc-sports-6a94468c59645.png?fit=976%2C1078&ssl=1"
@@ -142,11 +147,11 @@
   ],
   "team_pulse": {
     "result_banner": {
-      "type": "win",
-      "text": "Curly W! The Nats beat the Phillies 6-3."
+      "type": "loss",
+      "text": "Tough one — the Nats fell to the Phillies 3-0."
     },
     "storyline": {
-      "text": "The Phillies defeated the Nationals 3-0 in a game where Zack Wheeler pitched the team to a shutout win.",
+      "text": "The Phillies defeated the Nationals 3-0 in a game where Zack Wheeler pitched the team to a shutout victory.",
       "ai_generated": true
     }
   },
@@ -199,7 +204,7 @@
     "ai_generated": true,
     "themes": [
       {
-        "label": "Strong Team Performance",
+        "label": "Recent Performance",
         "sentiment": "positive",
         "source_urls": [
           "https://nats.talkdcsports.com/2026/09/16/game-153-nats-go-for-sweep-of-phillies/",
@@ -214,12 +219,10 @@
         ]
       },
       {
-        "label": "Recent Series Results",
-        "sentiment": "mixed",
+        "label": "Series Outcome",
+        "sentiment": "negative",
         "source_urls": [
-          "https://nats.talkdcsports.com/2026/09/16/game-153-nats-go-for-sweep-of-phillies/",
-          "https://sports.yahoo.com/articles/proud-mary-keep-burning-phillies-020101599.html",
-          "https://www.federalbaseball.com/washington-nationals-discussions/94260/washington-nationals-vs-philadelphia-phillies-game-thread"
+          "https://sports.yahoo.com/articles/proud-mary-keep-burning-phillies-020101599.html"
         ]
       }
     ]
@@ -240,28 +243,11 @@
       "sentiment": "",
       "context": "Proud Mary keep on burning: Phillies 3, Nationals 0",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/09/16/game-153-nats-go-for-sweep-of-phillies/",
         "https://sports.yahoo.com/articles/proud-mary-keep-burning-phillies-020101599.html"
       ]
     },
     {
-      "label": "playoffs",
-      "sentiment": "",
-      "context": "Washington Nationals vs Philadelphia Phillies Game Thread",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-discussions/94260/washington-nationals-vs-philadelphia-phillies-game-thread"
-      ]
-    },
-    {
-      "label": "sweep",
-      "sentiment": "",
-      "context": "Game #153 Nats go for sweep of Phillies!",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/09/16/game-153-nats-go-for-sweep-of-phillies/"
-      ]
-    },
-    {
-      "label": "sports betting",
+      "label": "betting",
       "sentiment": "",
       "context": "Today's top games to watch, best bets, odds: Marlins vs. Diamondbacks, Phillies vs. Nationals and more",
       "source_urls": [
@@ -291,6 +277,22 @@
       "source_urls": [
         "https://www.federalbaseball.com/washington-nationals-analysis/94253/yovanny-cruz-starting-make-encouraging-strides-washington-nationals"
       ]
+    },
+    {
+      "label": "win streak",
+      "sentiment": "",
+      "context": "Win #71 is big, the next wins are more significant!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/16/win-71-is-big-the-next-wins-are-more-significant/"
+      ]
+    },
+    {
+      "label": "2026 season",
+      "sentiment": "",
+      "context": "Win #71 is big, the next wins are more significant!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/16/win-71-is-big-the-next-wins-are-more-significant/"
+      ]
     }
   ],
   "what_to_watch": [
@@ -301,6 +303,10 @@
     {
       "text": "The Nats visit the Cardinals on Saturday.",
       "source_url_or_game_pk": "823003"
+    },
+    {
+      "text": "The Nats visit the Cardinals on Sunday.",
+      "source_url_or_game_pk": "823001"
     }
   ],
   "on_this_day": {},
