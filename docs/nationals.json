@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-09-18T21:38:01+00:00",
+  "fetched_at": "2026-09-18T23:34:42+00:00",
   "freshness": {
-    "schedule": "2026-09-18T21:37:59+00:00",
-    "standings": "2026-09-18T21:38:00+00:00",
+    "schedule": "2026-09-18T23:34:41+00:00",
+    "standings": "2026-09-18T23:34:41+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-09-18T20:56:00+00:00",
-    "weather": "2026-09-18T21:38:00+00:00"
+    "weather": "2026-09-18T23:34:42+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -62,7 +62,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "Cardinals.TV Presented by bet365",
@@ -71,7 +71,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "KMOX 1120 AM/104.1 FM",
@@ -80,7 +80,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WJFK 106.7 The Fan",
@@ -89,7 +89,7 @@
         "language": "en",
         "is_national": false,
         "home_away": "away",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       },
       {
         "name": "WIJR AM 880 (En Espanol)",
@@ -98,7 +98,7 @@
         "language": "es",
         "is_national": false,
         "home_away": "home",
-        "media_state": "MEDIA_OFF"
+        "media_state": "MEDIA_ON"
       }
     ],
     "linescore": {
@@ -133,19 +133,19 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Next Game"
+    "watch_label": "Starts Soon"
   },
   "focus_weather": {
-    "fetched_at": "2026-09-18T21:38:00+00:00",
+    "fetched_at": "2026-09-18T23:34:42+00:00",
     "source": "open_meteo",
     "game_pk": 823005,
     "venue_name": "Busch Stadium",
     "forecast_at": "2026-09-19T00:00",
-    "temperature_f": 92.5,
-    "feels_like_f": 95.5,
-    "wind_mph": 4.2,
-    "wind_dir": "ENE",
-    "precip_chance": 4,
+    "temperature_f": 93.1,
+    "feels_like_f": 97.2,
+    "wind_mph": 1.0,
+    "wind_dir": "NNE",
+    "precip_chance": 2,
     "precip_inches": 0.0,
     "summary": "Clear",
     "is_dome": false
@@ -208,7 +208,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Cardinals.TV Presented by bet365",
@@ -217,7 +217,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "KMOX 1120 AM/104.1 FM",
@@ -226,7 +226,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -235,7 +235,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WIJR AM 880 (En Espanol)",
@@ -244,7 +244,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
@@ -279,7 +279,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 823003,
@@ -830,7 +830,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Cardinals.TV Presented by bet365",
@@ -839,7 +839,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "KMOX 1120 AM/104.1 FM",
@@ -848,7 +848,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -857,7 +857,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WIJR AM 880 (En Espanol)",
@@ -866,7 +866,7 @@
           "language": "es",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
@@ -901,7 +901,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Starts Soon"
     },
     {
       "game_pk": 823003,
