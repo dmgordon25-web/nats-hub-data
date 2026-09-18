@@ -1,73 +1,100 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-17T21:34:28+00:00",
-  "mode": "falkor_enriched",
+  "generated_at": "2026-09-18T01:36:32+00:00",
+  "mode": "rss_fallback",
   "freshness": {
-    "news": "2026-09-17T21:33:37+00:00",
+    "news": "2026-09-18T01:35:00+00:00",
     "videos": "2026-09-17T21:33:37+00:00",
-    "vibes": "2026-09-17T21:34:28+00:00"
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-17T21:33:35+00:00",
+      "last_updated_at": "2026-09-18T01:34:47+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-17T21:33:36+00:00",
+      "last_updated_at": "2026-09-18T01:34:48+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-17T21:33:36+00:00",
+      "last_updated_at": "2026-09-18T01:34:48+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-17T21:33:36+00:00",
+      "last_updated_at": "2026-09-18T01:34:49+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-17T21:33:36+00:00",
+      "last_updated_at": "2026-09-18T01:34:49+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-17T21:33:37+00:00",
+      "last_updated_at": "2026-09-18T01:34:50+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-09-17T21:33:37+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-09-17T21:33:37+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    },
+    {
+      "id": "why_it_matters",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "trending",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
+    }
+  ],
   "top_stories": [
+    {
+      "title": "Source: Nats/Cavalli are in advanced talks for a contract extension!",
+      "url": "https://nats.talkdcsports.com/2026/09/17/source-nats-cavalli-are-in-advanced-talks-for-a-contract-extension/",
+      "source": "Talk Nats",
+      "published_at": "2026-09-17T23:57:21+00:00",
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/nats.talk-dc-sports-6a9aabceee37c.png?fit=1200%2C894&ssl=1"
+    },
+    {
+      "title": "Nationals, Cade Cavalli Nearing Agreement On Contract Extension",
+      "url": "https://www.mlbtraderumors.com/2026/09/nationals-cade-cavalli-nearing-agreement-on-contract-extension.html",
+      "source": "MLB Trade Rumors",
+      "published_at": "2026-09-17T23:40:03+00:00",
+      "image_url": "https://cdn.mlbtraderumors.com/files/2026/08/CadeCavalli-1024x683.jpg"
+    },
     {
       "title": "Series Preview: Cardinals Host Nationals for Last Homestand of Season",
       "url": "https://sports.yahoo.com/articles/series-preview-cardinals-host-nationals-200000130.html",
       "source": "Yahoo Sports MLB",
       "published_at": "2026-09-17T20:00:00+00:00",
-      "why_it_matters": {
-        "text": "The St. Louis Cardinals host the Washington Nationals for their final home stand of the season starting Friday night. The matchup features a pitching rotation including Kyle Leahy.",
-        "ai_generated": true
-      },
       "image_url": "https://s.yimg.com/lo/mysterio/api/b0fd53000f7dd8f7146a872e8cb820af983acad8f7101bbeff97aba109db10e4/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F0721f26f6b3b6aa69d9ca6ce497368ed.jpg"
     },
     {
@@ -75,10 +102,6 @@
       "url": "https://www.mlbtraderumors.com/2026/09/nationals-reinstate-josiah-gray-from-60-day-injured-list.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-09-17T19:15:43+00:00",
-      "why_it_matters": {
-        "text": "The Nationals have reinstated right-hander Josiah Gray from the 60-day injured list. This move follows the option of outfielder Andrew Pinckney and a request for unconditional release waivers for right-hander Wyatt Mills.",
-        "ai_generated": true
-      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/03/USATSI_28382387-1024x683.jpg"
     },
     {
@@ -86,10 +109,6 @@
       "url": "https://www.federalbaseball.com/washington-nationals-news/94280/after-long-recovery-josiah-gray-finally-back-in-big-leagues",
       "source": "Federal Baseball",
       "published_at": "2026-09-17T19:06:21+00:00",
-      "why_it_matters": {
-        "text": "Josiah Gray has been activated from the 60 Day IL by the Nationals after a recovery period of nearly two and a half years. His return marks the end of a long process following his last appearance on April 4.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2152144412.jpg?quality=90&strip=all&crop=0%2C10.736201055355%2C100%2C78.527597889289&w=1200"
     },
     {
@@ -97,10 +116,6 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94267/daylen-lile-realistic-extension-candidate-for-washington-nationals",
       "source": "Federal Baseball",
       "published_at": "2026-09-17T14:28:23+00:00",
-      "why_it_matters": {
-        "text": "Daylen Lile is considered a realistic extension candidate for the Washington Nationals as the team enters the offseason. The text notes that the Nats have rarely given long-term contracts to young players recently, but hopes this may change under Paul Toboni.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2294972420.jpg?quality=90&strip=all&crop=0%2C10.752607989199%2C100%2C78.494784021602&w=1200"
     },
     {
@@ -108,10 +123,6 @@
       "url": "https://nats.talkdcsports.com/2026/09/17/the-walk-a-thon-x-13/",
       "source": "Talk Nats",
       "published_at": "2026-09-17T13:35:53+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals' bullpen pitched 8⅔ innings of 1-run, 4-hit baseball with seven strikeouts against the Phillies, despite a 9:7 BB/K ratio and a performance from starter Jared Simpson.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/1H6A7471-1.jpg?fit=1200%2C946&ssl=1"
     },
     {
@@ -119,35 +130,13 @@
       "url": "https://www.federalbaseball.com/washington-nationals-discussions/94260/washington-nationals-vs-philadelphia-phillies-game-thread",
       "source": "Federal Baseball",
       "published_at": "2026-09-16T21:51:01+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals defeated the Philadelphia Phillies last night and face them again tonight. The Phillies need a win for their playoff push, while the Nationals have been performing well at home.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2294972443.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "Game #153 Nats go for sweep of Phillies!",
-      "url": "https://nats.talkdcsports.com/2026/09/16/game-153-nats-go-for-sweep-of-phillies/",
-      "source": "Talk Nats",
-      "published_at": "2026-09-16T21:43:00+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/nats.talk-dc-sports-6aab5711d67ee.png?fit=944%2C1128&ssl=1"
-    },
-    {
-      "title": "Today's top games to watch, best bets, odds: Marlins vs. Diamondbacks, Phillies vs. Nationals and more",
-      "url": "https://www.cbssports.com/betting/news/todays-top-games-to-watch-best-bets-odds-marlins-vs-diamondbacks-phillies-vs-nationals-and-more/",
-      "source": "CBS Sports MLB",
-      "published_at": "2026-09-16T19:30:47+00:00",
-      "image_url": "https://sportshub.cbsistatic.com/i/r/2026/08/11/5314d4eb-bdf5-48e6-8b85-bc487834a094/thumbnail/1200x675/ab5edad7dabb098f77cc370ee509f045/corbin-carroll-diamondbacks.jpg"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "loss",
       "text": "Tough one — the Nats fell to the Phillies 3-0."
-    },
-    "storyline": {
-      "text": "The St. Louis Cardinals host the Washington Nationals for their final home stand of the season starting Friday night. The matchup features a pitching rotation including Kyle Leahy.",
-      "ai_generated": true
     }
   },
   "videos": [
@@ -195,108 +184,11 @@
     }
   ],
   "fan_vibes": {
-    "overall": "positive",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "Player Recovery Success",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-news/94280/after-long-recovery-josiah-gray-finally-back-in-big-leagues",
-          "https://www.mlbtraderumors.com/2026/09/nationals-reinstate-josiah-gray-from-60-day-injured-list.html"
-        ]
-      },
-      {
-        "label": "Bullpen Performance",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/09/17/the-walk-a-thon-x-13/"
-        ]
-      },
-      {
-        "label": "Prospect Potential",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/94267/daylen-lile-realistic-extension-candidate-for-washington-nationals"
-        ]
-      },
-      {
-        "label": "Home Performance",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-discussions/94260/washington-nationals-vs-philadelphia-phillies-game-thread"
-        ]
-      }
-    ]
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
   },
-  "trending": [
-    {
-      "label": "Josiah Gray",
-      "sentiment": "",
-      "context": "Nationals Reinstate Josiah Gray From 60-Day Injured List",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-news/94280/after-long-recovery-josiah-gray-finally-back-in-big-leagues",
-        "https://www.mlbtraderumors.com/2026/09/nationals-reinstate-josiah-gray-from-60-day-injured-list.html"
-      ]
-    },
-    {
-      "label": "Phillies",
-      "sentiment": "",
-      "context": "The Walk-A-Thon x 13",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/09/17/the-walk-a-thon-x-13/",
-        "https://www.federalbaseball.com/washington-nationals-discussions/94260/washington-nationals-vs-philadelphia-phillies-game-thread"
-      ]
-    },
-    {
-      "label": "Cardinals",
-      "sentiment": "",
-      "context": "Series Preview: Cardinals Host Nationals for Last Homestand of Season",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/series-preview-cardinals-host-nationals-200000130.html"
-      ]
-    },
-    {
-      "label": "St. Louis",
-      "sentiment": "",
-      "context": "Series Preview: Cardinals Host Nationals for Last Homestand of Season",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/series-preview-cardinals-host-nationals-200000130.html"
-      ]
-    },
-    {
-      "label": "Roster Move",
-      "sentiment": "",
-      "context": "Nationals Reinstate Josiah Gray From 60-Day Injured List",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/09/nationals-reinstate-josiah-gray-from-60-day-injured-list.html"
-      ]
-    },
-    {
-      "label": "Injured List",
-      "sentiment": "",
-      "context": "Nationals Reinstate Josiah Gray From 60-Day Injured List",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/09/nationals-reinstate-josiah-gray-from-60-day-injured-list.html"
-      ]
-    },
-    {
-      "label": "recovery",
-      "sentiment": "",
-      "context": "After A Long Recovery, Josiah Gray Is Finally Back In The Big Leagues",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-news/94280/after-long-recovery-josiah-gray-finally-back-in-big-leagues"
-      ]
-    },
-    {
-      "label": "roster update",
-      "sentiment": "",
-      "context": "After A Long Recovery, Josiah Gray Is Finally Back In The Big Leagues",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-news/94280/after-long-recovery-josiah-gray-finally-back-in-big-leagues"
-      ]
-    }
-  ],
+  "trending": [],
   "what_to_watch": [
     {
       "text": "The Nats visit the Cardinals on Friday.",
@@ -313,9 +205,9 @@
   ],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "CJ Abrams",
-    "text": "The Nationals' dynamic young shortstop, acquired in the 2022 Juan Soto trade and now a cornerstone of the rebuild.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/682928/spots/120",
+    "name": "James Wood",
+    "text": "A towering, high-ceiling outfielder who also came to Washington in the Juan Soto trade.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/695578/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
