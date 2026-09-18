@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-09-17T22:43:28+00:00",
+  "fetched_at": "2026-09-18T00:49:15+00:00",
   "freshness": {
-    "schedule": "2026-09-17T22:43:28+00:00",
-    "standings": "2026-09-17T22:43:28+00:00",
+    "schedule": "2026-09-18T00:49:14+00:00",
+    "standings": "2026-09-18T00:49:14+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-09-17T21:24:45+00:00",
-    "weather": "2026-09-17T22:43:28+00:00"
+    "weather": "2026-09-18T00:49:15+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -136,7 +136,7 @@
     "watch_label": "Next Game"
   },
   "focus_weather": {
-    "fetched_at": "2026-09-17T22:43:28+00:00",
+    "fetched_at": "2026-09-18T00:49:15+00:00",
     "source": "open_meteo",
     "game_pk": 823005,
     "venue_name": "Busch Stadium",
@@ -145,16 +145,16 @@
     "feels_like_f": 88.3,
     "wind_mph": 5.4,
     "wind_dir": "ENE",
-    "precip_chance": 17,
+    "precip_chance": 16,
     "precip_inches": 0.0,
     "summary": "Partly cloudy",
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "tonight_july",
-    "category": "tonight_nugget",
-    "weight": 4,
-    "text": "July nights. Heat, humidity, fireworks weekends. Trade deadline rumblings on the horizon."
+    "id": "player_spotlight_irvin",
+    "category": "player_spotlight",
+    "weight": 3,
+    "text": "Jake Irvin: a workhorse. Eats innings. Doesn't get rattled. The kind of arm you build a rotation around."
   },
   "next_three": [
     {
@@ -655,130 +655,6 @@
     "watch_label": "Game Final"
   },
   "all_games": [
-    {
-      "game_pk": 822683,
-      "date": "2026-09-15",
-      "start_time_utc": "2026-09-15T22:45:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "71-81",
-        "score": 6
-      },
-      "away": {
-        "id": 143,
-        "abbrev": "PHI",
-        "name": "Philadelphia Phillies",
-        "short_name": "Phillies",
-        "record": "83-68",
-        "score": 3
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 800600,
-          "name": "Jackson Kent",
-          "hand": null
-        },
-        "away": {
-          "id": 650911,
-          "name": "Cristopher Sánchez",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "NBCSP",
-          "call_sign": "NBCSP",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "94 WIP",
-          "call_sign": "WIP",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "iHeart App",
-          "call_sign": "iHeart App",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 3,
-        "strikes": 2,
-        "outs": 3,
-        "home_runs": 6,
-        "away_runs": 3,
-        "home_hits": 9,
-        "away_hits": 5,
-        "home_errors": 0,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 2,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
     {
       "game_pk": 822680,
       "date": "2026-09-16",
