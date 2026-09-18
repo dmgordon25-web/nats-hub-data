@@ -1,54 +1,54 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-18T01:36:32+00:00",
-  "mode": "rss_fallback",
+  "generated_at": "2026-09-18T05:37:48+00:00",
+  "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-18T01:35:00+00:00",
-    "videos": "2026-09-17T21:33:37+00:00",
+    "news": "2026-09-18T05:37:10+00:00",
+    "videos": "2026-09-18T05:37:10+00:00",
     "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-18T01:34:47+00:00",
+      "last_updated_at": "2026-09-18T05:36:58+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-18T01:34:48+00:00",
+      "last_updated_at": "2026-09-18T05:36:59+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-18T01:34:48+00:00",
+      "last_updated_at": "2026-09-18T05:36:59+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-18T01:34:49+00:00",
+      "last_updated_at": "2026-09-18T05:37:00+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-18T01:34:49+00:00",
+      "last_updated_at": "2026-09-18T05:37:00+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-18T01:34:50+00:00",
+      "last_updated_at": "2026-09-18T05:37:00+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-09-18T05:37:05+00:00",
+      "status": "live"
     },
     {
       "id": "yt_mlb",
@@ -59,49 +59,42 @@
   ],
   "limited_sources": [
     {
-      "id": "videos",
-      "reason": "last_check_too_old"
-    },
-    {
-      "id": "why_it_matters",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "trending",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
       "id": "fan_vibes",
       "reason": "ai_sentiment_unavailable"
     }
   ],
   "top_stories": [
     {
+      "title": "Nationals, Cade Cavalli Nearing Agreement On Contract Extension",
+      "url": "https://www.mlbtraderumors.com/2026/09/nationals-cade-cavalli-nearing-agreement-on-contract-extension.html",
+      "source": "MLB Trade Rumors",
+      "published_at": "2026-09-18T04:40:03+00:00",
+      "why_it_matters": {
+        "text": "The Nationals and right-hander Cade Cavalli are nearing an agreement on a contract extension. While the deal is not finalized, there is optimism regarding its completion as Cavalli enters his first of four arbitration years.",
+        "ai_generated": true
+      },
+      "image_url": "https://cdn.mlbtraderumors.com/files/2026/08/CadeCavalli-1024x683.jpg"
+    },
+    {
       "title": "Source: Nats/Cavalli are in advanced talks for a contract extension!",
       "url": "https://nats.talkdcsports.com/2026/09/17/source-nats-cavalli-are-in-advanced-talks-for-a-contract-extension/",
       "source": "Talk Nats",
       "published_at": "2026-09-17T23:57:21+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals and Cade Cavalli are in advanced negotiations for a contract extension that would buy out his remaining arbitration years and free agent years.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/nats.talk-dc-sports-6a9aabceee37c.png?fit=1200%2C894&ssl=1"
-    },
-    {
-      "title": "Nationals, Cade Cavalli Nearing Agreement On Contract Extension",
-      "url": "https://www.mlbtraderumors.com/2026/09/nationals-cade-cavalli-nearing-agreement-on-contract-extension.html",
-      "source": "MLB Trade Rumors",
-      "published_at": "2026-09-17T23:40:03+00:00",
-      "image_url": "https://cdn.mlbtraderumors.com/files/2026/08/CadeCavalli-1024x683.jpg"
-    },
-    {
-      "title": "Series Preview: Cardinals Host Nationals for Last Homestand of Season",
-      "url": "https://sports.yahoo.com/articles/series-preview-cardinals-host-nationals-200000130.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-09-17T20:00:00+00:00",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/b0fd53000f7dd8f7146a872e8cb820af983acad8f7101bbeff97aba109db10e4/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F0721f26f6b3b6aa69d9ca6ce497368ed.jpg"
     },
     {
       "title": "Nationals Reinstate Josiah Gray From 60-Day Injured List",
       "url": "https://www.mlbtraderumors.com/2026/09/nationals-reinstate-josiah-gray-from-60-day-injured-list.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-09-17T19:15:43+00:00",
+      "why_it_matters": {
+        "text": "The Nationals have reinstated right-hander Josiah Gray from the 60-day injured list. This move follows the optioning of outfielder Andrew Pinckney and a request for unconditional release waivers for right-hander Wyatt Mills.",
+        "ai_generated": true
+      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/03/USATSI_28382387-1024x683.jpg"
     },
     {
@@ -109,6 +102,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-news/94280/after-long-recovery-josiah-gray-finally-back-in-big-leagues",
       "source": "Federal Baseball",
       "published_at": "2026-09-17T19:06:21+00:00",
+      "why_it_matters": {
+        "text": "Josiah Gray has been activated from the 60 Day IL by the Nationals after a recovery period of nearly two and a half years. His return marks the end of a long recovery process since his last appearance on April 4.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2152144412.jpg?quality=90&strip=all&crop=0%2C10.736201055355%2C100%2C78.527597889289&w=1200"
     },
     {
@@ -116,6 +113,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94267/daylen-lile-realistic-extension-candidate-for-washington-nationals",
       "source": "Federal Baseball",
       "published_at": "2026-09-17T14:28:23+00:00",
+      "why_it_matters": {
+        "text": "Daylen Lile is considered a realistic extension candidate for the Washington Nationals as the team enters the offseason. The text notes that the Nats have rarely given long-term contracts to young players recently, but hopes this may change under Paul Toboni.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2294972420.jpg?quality=90&strip=all&crop=0%2C10.752607989199%2C100%2C78.494784021602&w=1200"
     },
     {
@@ -123,6 +124,10 @@
       "url": "https://nats.talkdcsports.com/2026/09/17/the-walk-a-thon-x-13/",
       "source": "Talk Nats",
       "published_at": "2026-09-17T13:35:53+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals' bullpen pitched 8⅔ innings of one-run, four-hit baseball with seven strikeouts against the Phillies, despite a 9:7 walk-to-strikeout ratio and a performance by starter Jared Simpson.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/1H6A7471-1.jpg?fit=1200%2C946&ssl=1"
     },
     {
@@ -131,12 +136,23 @@
       "source": "Federal Baseball",
       "published_at": "2026-09-16T21:51:01+00:00",
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2294972443.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+    },
+    {
+      "title": "Game #153 Nats go for sweep of Phillies!",
+      "url": "https://nats.talkdcsports.com/2026/09/16/game-153-nats-go-for-sweep-of-phillies/",
+      "source": "Talk Nats",
+      "published_at": "2026-09-16T21:43:00+00:00",
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/nats.talk-dc-sports-6aab5711d67ee.png?fit=944%2C1128&ssl=1"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "loss",
       "text": "Tough one — the Nats fell to the Phillies 3-0."
+    },
+    "storyline": {
+      "text": "The Nationals and right-hander Cade Cavalli are nearing an agreement on a contract extension. While the deal is not finalized, there is optimism regarding its completion as Cavalli enters his first of four arbitration years.",
+      "ai_generated": true
     }
   },
   "videos": [
@@ -188,7 +204,75 @@
     "ai_generated": false,
     "themes": []
   },
-  "trending": [],
+  "trending": [
+    {
+      "label": "Cade Cavalli",
+      "sentiment": "",
+      "context": "Nationals, Cade Cavalli Nearing Agreement On Contract Extension",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/17/source-nats-cavalli-are-in-advanced-talks-for-a-contract-extension/",
+        "https://www.mlbtraderumors.com/2026/09/nationals-cade-cavalli-nearing-agreement-on-contract-extension.html"
+      ]
+    },
+    {
+      "label": "contract extension",
+      "sentiment": "",
+      "context": "Nationals, Cade Cavalli Nearing Agreement On Contract Extension",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/17/source-nats-cavalli-are-in-advanced-talks-for-a-contract-extension/",
+        "https://www.mlbtraderumors.com/2026/09/nationals-cade-cavalli-nearing-agreement-on-contract-extension.html"
+      ]
+    },
+    {
+      "label": "Josiah Gray",
+      "sentiment": "",
+      "context": "Nationals Reinstate Josiah Gray From 60-Day Injured List",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-news/94280/after-long-recovery-josiah-gray-finally-back-in-big-leagues",
+        "https://www.mlbtraderumors.com/2026/09/nationals-reinstate-josiah-gray-from-60-day-injured-list.html"
+      ]
+    },
+    {
+      "label": "Roster Move",
+      "sentiment": "",
+      "context": "Nationals Reinstate Josiah Gray From 60-Day Injured List",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/09/nationals-reinstate-josiah-gray-from-60-day-injured-list.html"
+      ]
+    },
+    {
+      "label": "Injured List",
+      "sentiment": "",
+      "context": "Nationals Reinstate Josiah Gray From 60-Day Injured List",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/09/nationals-reinstate-josiah-gray-from-60-day-injured-list.html"
+      ]
+    },
+    {
+      "label": "injury recovery",
+      "sentiment": "",
+      "context": "After A Long Recovery, Josiah Gray Is Finally Back In The Big Leagues",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-news/94280/after-long-recovery-josiah-gray-finally-back-in-big-leagues"
+      ]
+    },
+    {
+      "label": "Daylen Lile",
+      "sentiment": "",
+      "context": "Daylen Lile is a realistic extension candidate for the Washington Nationals",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94267/daylen-lile-realistic-extension-candidate-for-washington-nationals"
+      ]
+    },
+    {
+      "label": "player extensions",
+      "sentiment": "",
+      "context": "Daylen Lile is a realistic extension candidate for the Washington Nationals",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94267/daylen-lile-realistic-extension-candidate-for-washington-nationals"
+      ]
+    }
+  ],
   "what_to_watch": [
     {
       "text": "The Nats visit the Cardinals on Friday.",
