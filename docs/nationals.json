@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-09-18T19:00:35+00:00",
+  "fetched_at": "2026-09-18T20:56:00+00:00",
   "freshness": {
-    "schedule": "2026-09-18T19:00:34+00:00",
-    "standings": "2026-09-18T19:00:34+00:00",
+    "schedule": "2026-09-18T20:56:00+00:00",
+    "standings": "2026-09-18T20:56:00+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-09-18T17:03:34+00:00",
-    "weather": "2026-09-18T19:00:35+00:00"
+    "former_nats": "2026-09-18T20:56:00+00:00",
+    "weather": "2026-09-18T20:56:00+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -16,7 +16,7 @@
     "date": "2026-09-18",
     "start_time_utc": "2026-09-19T00:15:00Z",
     "status": "Preview",
-    "detailed_status": "Scheduled",
+    "detailed_status": "Pre-Game",
     "is_nats_home": false,
     "home": {
       "id": 138,
@@ -24,7 +24,7 @@
       "name": "St. Louis Cardinals",
       "short_name": "Cardinals",
       "record": "75-78",
-      "score": null
+      "score": 0
     },
     "away": {
       "id": 120,
@@ -32,7 +32,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "71-82",
-      "score": null
+      "score": 0
     },
     "venue": {
       "id": 2889,
@@ -102,19 +102,19 @@
       }
     ],
     "linescore": {
-      "current_inning": null,
-      "inning_half": null,
-      "inning_state": null,
-      "is_top_inning": null,
-      "balls": null,
-      "strikes": null,
-      "outs": null,
-      "home_runs": null,
-      "away_runs": null,
-      "home_hits": null,
-      "away_hits": null,
-      "home_errors": null,
-      "away_errors": null
+      "current_inning": 1,
+      "inning_half": "Top",
+      "inning_state": "Top",
+      "is_top_inning": true,
+      "balls": 0,
+      "strikes": 0,
+      "outs": 0,
+      "home_runs": 0,
+      "away_runs": 0,
+      "home_hits": 0,
+      "away_hits": 0,
+      "home_errors": 0,
+      "away_errors": 0
     },
     "series": {
       "game_number": 1,
@@ -136,14 +136,14 @@
     "watch_label": "Next Game"
   },
   "focus_weather": {
-    "fetched_at": "2026-09-18T19:00:35+00:00",
+    "fetched_at": "2026-09-18T20:56:00+00:00",
     "source": "open_meteo",
     "game_pk": 823005,
     "venue_name": "Busch Stadium",
     "forecast_at": "2026-09-19T00:00",
-    "temperature_f": 92.8,
-    "feels_like_f": 96.4,
-    "wind_mph": 3.7,
+    "temperature_f": 92.5,
+    "feels_like_f": 95.2,
+    "wind_mph": 4.0,
     "wind_dir": "ENE",
     "precip_chance": 4,
     "precip_inches": 0.0,
@@ -162,7 +162,7 @@
       "date": "2026-09-18",
       "start_time_utc": "2026-09-19T00:15:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": false,
       "home": {
         "id": 138,
@@ -170,7 +170,7 @@
         "name": "St. Louis Cardinals",
         "short_name": "Cardinals",
         "record": "75-78",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 120,
@@ -178,7 +178,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "71-82",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 2889,
@@ -248,19 +248,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 1,
@@ -784,7 +784,7 @@
       "date": "2026-09-18",
       "start_time_utc": "2026-09-19T00:15:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": false,
       "home": {
         "id": 138,
@@ -792,7 +792,7 @@
         "name": "St. Louis Cardinals",
         "short_name": "Cardinals",
         "record": "75-78",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 120,
@@ -800,7 +800,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "71-82",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 2889,
@@ -870,19 +870,19 @@
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 1,
