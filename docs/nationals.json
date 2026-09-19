@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-09-18T23:34:42+00:00",
+  "fetched_at": "2026-09-19T01:08:57+00:00",
   "freshness": {
-    "schedule": "2026-09-18T23:34:41+00:00",
-    "standings": "2026-09-18T23:34:41+00:00",
+    "schedule": "2026-09-19T01:08:56+00:00",
+    "standings": "2026-09-19T01:08:56+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-09-18T20:56:00+00:00",
-    "weather": "2026-09-18T23:34:42+00:00"
+    "former_nats": "2026-09-19T01:08:55+00:00",
+    "weather": "2026-09-19T01:08:57+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -15,8 +15,8 @@
     "game_pk": 823005,
     "date": "2026-09-18",
     "start_time_utc": "2026-09-19T00:15:00Z",
-    "status": "Preview",
-    "detailed_status": "Pre-Game",
+    "status": "Live",
+    "detailed_status": "In Progress",
     "is_nats_home": false,
     "home": {
       "id": 138,
@@ -32,7 +32,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "71-82",
-      "score": 0
+      "score": 7
     },
     "venue": {
       "id": 2889,
@@ -102,18 +102,18 @@
       }
     ],
     "linescore": {
-      "current_inning": 1,
-      "inning_half": "Top",
-      "inning_state": "Top",
-      "is_top_inning": true,
+      "current_inning": 3,
+      "inning_half": "Bottom",
+      "inning_state": "Bottom",
+      "is_top_inning": false,
       "balls": 0,
-      "strikes": 0,
+      "strikes": 1,
       "outs": 0,
       "home_runs": 0,
-      "away_runs": 0,
-      "home_hits": 0,
-      "away_hits": 0,
-      "home_errors": 0,
+      "away_runs": 7,
+      "home_hits": 2,
+      "away_hits": 5,
+      "home_errors": 2,
       "away_errors": 0
     },
     "series": {
@@ -123,7 +123,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "Nationals.TV",
       "is_national": false,
@@ -133,10 +133,10 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Starts Soon"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-09-18T23:34:42+00:00",
+    "fetched_at": "2026-09-19T01:08:57+00:00",
     "source": "open_meteo",
     "game_pk": 823005,
     "venue_name": "Busch Stadium",
@@ -151,18 +151,18 @@
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "player_spotlight_irvin",
-    "category": "player_spotlight",
-    "weight": 3,
-    "text": "Jake Irvin: a workhorse. Eats innings. Doesn't get rattled. The kind of arm you build a rotation around."
+    "id": "tonight_july",
+    "category": "tonight_nugget",
+    "weight": 4,
+    "text": "July nights. Heat, humidity, fireworks weekends. Trade deadline rumblings on the horizon."
   },
   "next_three": [
     {
       "game_pk": 823005,
       "date": "2026-09-18",
       "start_time_utc": "2026-09-19T00:15:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 138,
@@ -178,7 +178,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "71-82",
-        "score": 0
+        "score": 7
       },
       "venue": {
         "id": 2889,
@@ -248,18 +248,18 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 3,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 0,
         "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
-        "home_errors": 0,
+        "away_runs": 7,
+        "home_hits": 2,
+        "away_hits": 5,
+        "home_errors": 2,
         "away_errors": 0
       },
       "series": {
@@ -269,7 +269,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -279,7 +279,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 823003,
@@ -403,7 +403,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 823001,
@@ -530,261 +530,14 @@
       "watch_label": "Next Game"
     }
   ],
-  "last_result": {
-    "game_pk": 822680,
-    "date": "2026-09-16",
-    "start_time_utc": "2026-09-16T22:45:00Z",
-    "status": "Final",
-    "detailed_status": "Final",
-    "is_nats_home": true,
-    "home": {
-      "id": 120,
-      "abbrev": "WSH",
-      "name": "Washington Nationals",
-      "short_name": "Nationals",
-      "record": "71-82",
-      "score": 0
-    },
-    "away": {
-      "id": 143,
-      "abbrev": "PHI",
-      "name": "Philadelphia Phillies",
-      "short_name": "Phillies",
-      "record": "84-68",
-      "score": 3
-    },
-    "venue": {
-      "id": 3309,
-      "name": "Nationals Park",
-      "city": "Washington",
-      "state": "DC",
-      "lat": 38.872861,
-      "lon": -77.007501
-    },
-    "probable_pitchers": {
-      "home": {
-        "id": 688692,
-        "name": "Jared Simpson",
-        "hand": null
-      },
-      "away": {
-        "id": 554430,
-        "name": "Zack Wheeler",
-        "hand": null
-      }
-    },
-    "broadcasts": [
-      {
-        "name": "NBCSP",
-        "call_sign": "NBCSP",
-        "type": "TV",
-        "language": "en",
-        "is_national": false,
-        "home_away": "away",
-        "media_state": "MEDIA_ARCHIVE"
-      },
-      {
-        "name": "Nationals.TV",
-        "call_sign": "NATS",
-        "type": "TV",
-        "language": "en",
-        "is_national": false,
-        "home_away": "home",
-        "media_state": "MEDIA_ARCHIVE"
-      },
-      {
-        "name": "94 WIP",
-        "call_sign": "WIP",
-        "type": "FM",
-        "language": "en",
-        "is_national": false,
-        "home_away": "away",
-        "media_state": "MEDIA_ARCHIVE"
-      },
-      {
-        "name": "WJFK 106.7 The Fan",
-        "call_sign": "106.7 FM",
-        "type": "FM",
-        "language": "en",
-        "is_national": false,
-        "home_away": "home",
-        "media_state": "MEDIA_ARCHIVE"
-      },
-      {
-        "name": "iHeart App",
-        "call_sign": "iHeart App",
-        "type": "AM",
-        "language": "es",
-        "is_national": false,
-        "home_away": "away",
-        "media_state": "MEDIA_ARCHIVE"
-      }
-    ],
-    "linescore": {
-      "current_inning": 9,
-      "inning_half": "Bottom",
-      "inning_state": "Bottom",
-      "is_top_inning": false,
-      "balls": 3,
-      "strikes": 3,
-      "outs": 3,
-      "home_runs": 0,
-      "away_runs": 3,
-      "home_hits": 4,
-      "away_hits": 5,
-      "home_errors": 0,
-      "away_errors": 0
-    },
-    "series": {
-      "game_number": 2,
-      "games_in_series": 2,
-      "description": "Regular Season"
-    },
-    "double_header": "N",
-    "_source": "mlb_statsapi",
-    "classification": "previous",
-    "provider": {
-      "broadcast_name": "Nationals.TV",
-      "is_national": false,
-      "rule_id": "masn_natstv",
-      "label": "MASN+ / Nationals.TV via MLB app",
-      "package": "com.bamnetworks.mobile.android.gameday.atbat",
-      "intent_uri": "mlbatbat://game/{game_pk}",
-      "fallback_uri": "https://www.mlb.com/nationals/tv"
-    },
-    "watch_label": "Game Final"
-  },
+  "last_result": null,
   "all_games": [
-    {
-      "game_pk": 822680,
-      "date": "2026-09-16",
-      "start_time_utc": "2026-09-16T22:45:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "71-82",
-        "score": 0
-      },
-      "away": {
-        "id": 143,
-        "abbrev": "PHI",
-        "name": "Philadelphia Phillies",
-        "short_name": "Phillies",
-        "record": "84-68",
-        "score": 3
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 688692,
-          "name": "Jared Simpson",
-          "hand": null
-        },
-        "away": {
-          "id": 554430,
-          "name": "Zack Wheeler",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "NBCSP",
-          "call_sign": "NBCSP",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "94 WIP",
-          "call_sign": "WIP",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "iHeart App",
-          "call_sign": "iHeart App",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 3,
-        "strikes": 3,
-        "outs": 3,
-        "home_runs": 0,
-        "away_runs": 3,
-        "home_hits": 4,
-        "away_hits": 5,
-        "home_errors": 0,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 2,
-        "games_in_series": 2,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
     {
       "game_pk": 823005,
       "date": "2026-09-18",
       "start_time_utc": "2026-09-19T00:15:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 138,
@@ -800,7 +553,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "71-82",
-        "score": 0
+        "score": 7
       },
       "venue": {
         "id": 2889,
@@ -870,18 +623,18 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 3,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 0,
         "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
-        "home_errors": 0,
+        "away_runs": 7,
+        "home_hits": 2,
+        "away_hits": 5,
+        "home_errors": 2,
         "away_errors": 0
       },
       "series": {
@@ -891,7 +644,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -901,7 +654,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Starts Soon"
+      "watch_label": "Watch Live"
     },
     {
       "game_pk": 823003,
@@ -1025,7 +778,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 823001,
