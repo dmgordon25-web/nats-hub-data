@@ -1,68 +1,63 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-20T04:06:25+00:00",
+  "generated_at": "2026-09-20T08:07:33+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-20T04:05:44+00:00",
-    "videos": "2026-09-20T00:04:20+00:00",
-    "vibes": "2026-09-20T04:06:25+00:00"
+    "news": "2026-09-20T08:06:54+00:00",
+    "videos": "2026-09-20T08:06:54+00:00",
+    "vibes": "2026-09-20T08:07:33+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-20T04:05:33+00:00",
+      "last_updated_at": "2026-09-20T08:06:52+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-20T04:05:34+00:00",
+      "last_updated_at": "2026-09-20T08:06:52+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-20T04:05:34+00:00",
+      "last_updated_at": "2026-09-20T08:06:53+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-20T04:05:34+00:00",
+      "last_updated_at": "2026-09-20T08:06:53+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-20T04:05:34+00:00",
+      "last_updated_at": "2026-09-20T08:06:53+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-20T04:05:35+00:00",
+      "last_updated_at": "2026-09-20T08:06:54+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-09-20T08:06:54+00:00",
+      "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-09-20T08:06:54+00:00",
+      "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "videos",
-      "reason": "last_check_too_old"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "Postgamer: Nats win a thriller in extras!",
@@ -81,7 +76,7 @@
       "source": "Yahoo Sports MLB",
       "published_at": "2026-09-20T03:17:13+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals defeated the St. Louis Cardinals in extra innings despite committing four errors. The team took an early lead against Michael McGreevy before the game changed late.",
+        "text": "The Washington Nationals defeated the St. Louis Cardinals in extra innings despite committing four errors during the game.",
         "ai_generated": true
       },
       "image_url": "https://s.yimg.com/lo/mysterio/api/e59ef02cf2be0c95caeed9006d66cfb1909d714034858fb2bf0fb0c893347e40/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Ffaf269ef5ea78ae8145f453a8fa67bb7.jpg"
@@ -125,7 +120,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-09-19T21:10:34+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals defeated the St. Louis Cardinals yesterday with performances from Cade Cavalli and Josiah Gray. They aim to clinch a series win tonight, which would allow them to avoid a 90-loss season for the first time since 2020.",
+        "text": "The Washington Nationals defeated the St. Louis Cardinals yesterday with strong performances from Cade Cavalli and Josiah Gray. They aim to clinch a series win tonight, which would allow them to avoid a 90-loss season for the first time since 2020.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2295342856.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
@@ -157,6 +152,20 @@
   },
   "videos": [
     {
+      "title": "Nationals vs. Cardinals Game Highlights (9/19/26) | MLB Highlights",
+      "url": "https://www.youtube.com/watch?v=Ens2YjCJ5Lc",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Ens2YjCJ5Lc/hqdefault.jpg",
+      "duration_s": 0
+    },
+    {
+      "title": "Dylan Crews Takes Flight And Robs Jordan Walker",
+      "url": "https://www.youtube.com/shorts/Emda7v1k46Y",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Emda7v1k46Y/hqdefault.jpg",
+      "duration_s": 0
+    },
+    {
       "title": "404-Foot Bomb For Daylen Lile",
       "url": "https://www.youtube.com/shorts/RJjMBoz0iLU",
       "source": "Nationals on YouTube",
@@ -171,13 +180,6 @@
       "duration_s": 0
     },
     {
-      "title": "Nationals vs. Cardinals Game Highlights (9/18/26) | MLB Highlights",
-      "url": "https://www.youtube.com/watch?v=XlZGNl---0A",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i1.ytimg.com/vi/XlZGNl---0A/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
       "title": "Dylan Crews Leaves The Yard",
       "url": "https://www.youtube.com/shorts/WjuHCFkCxg8",
       "source": "Nationals on YouTube",
@@ -189,13 +191,6 @@
       "url": "https://www.youtube.com/shorts/6UNk03KH_mo",
       "source": "Nationals on YouTube",
       "thumbnail_url": "https://i3.ytimg.com/vi/6UNk03KH_mo/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "Asking Our Players To Describe Their Position Without Speaking",
-      "url": "https://www.youtube.com/shorts/eT6iTg9ALzU",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i2.ytimg.com/vi/eT6iTg9ALzU/hqdefault.jpg",
       "duration_s": 0
     }
   ],
@@ -231,7 +226,7 @@
   },
   "trending": [
     {
-      "label": "St. Louis Cardinals",
+      "label": "Cardinals",
       "sentiment": "",
       "context": "Nationals Commit 4 Errors, but Still Beat St. Louis Cardinals in Extras",
       "source_urls": [
