@@ -1,71 +1,98 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-20T00:04:46+00:00",
+  "generated_at": "2026-09-20T04:06:25+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-20T00:04:20+00:00",
+    "news": "2026-09-20T04:05:44+00:00",
     "videos": "2026-09-20T00:04:20+00:00",
-    "vibes": "2026-09-20T00:04:46+00:00"
+    "vibes": "2026-09-20T04:06:25+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-20T00:04:17+00:00",
+      "last_updated_at": "2026-09-20T04:05:33+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-20T00:04:18+00:00",
+      "last_updated_at": "2026-09-20T04:05:34+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-20T00:04:18+00:00",
+      "last_updated_at": "2026-09-20T04:05:34+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-20T00:04:18+00:00",
+      "last_updated_at": "2026-09-20T04:05:34+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-20T00:04:18+00:00",
+      "last_updated_at": "2026-09-20T04:05:34+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-20T00:04:19+00:00",
+      "last_updated_at": "2026-09-20T04:05:35+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-09-20T00:04:20+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-09-20T00:04:20+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    }
+  ],
   "top_stories": [
+    {
+      "title": "Postgamer: Nats win a thriller in extras!",
+      "url": "https://nats.talkdcsports.com/2026/09/19/postgamer-nats-win-a-thriller-in-extras/",
+      "source": "Talk Nats",
+      "published_at": "2026-09-20T03:27:51+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals won a game in 11 innings with a final score of 8-5. Jorbit Vivas was the offensive hero but also committed a costly error that resulted in two unearned runs.",
+        "ai_generated": true
+      },
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/nats.talk-dc-sports-6aaf51a5876b3.png?fit=1200%2C784&ssl=1"
+    },
+    {
+      "title": "Nationals Commit 4 Errors, but Still Beat St. Louis Cardinals in Extras",
+      "url": "https://sports.yahoo.com/articles/nationals-commit-4-errors-still-031713678.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-09-20T03:17:13+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals defeated the St. Louis Cardinals in extra innings despite committing four errors. The team took an early lead against Michael McGreevy before the game changed late.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/lo/mysterio/api/e59ef02cf2be0c95caeed9006d66cfb1909d714034858fb2bf0fb0c893347e40/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Ffaf269ef5ea78ae8145f453a8fa67bb7.jpg"
+    },
     {
       "title": "D-backs vs. Yankees discussion",
       "url": "https://sports.yahoo.com/articles/d-backs-vs-yankees-discussion-233000748.html",
       "source": "Yahoo Sports MLB",
       "published_at": "2026-09-19T23:30:00+00:00",
       "why_it_matters": {
-        "text": "The lineup for today's game between the Yankees and Diamondbacks features players such as Ben Rice, Lars Nootbaar, Cody Bellinger, Ketel Marte, Luis Garcia, Gabriel Moreno, Heliot Ramos, Geraldo Perdomo, George Lombard, Corbin Carroll, Austin Wells, and Nolan Arenado.",
+        "text": "The lineup for today's game between the Yankees and Diamondbacks features players including Ben Rice, Lars Nootbaar, Cody Bellinger, Ketel Marte, Luis Garcia, Gabriel Moreno, Heliot Ramos, Geraldo Perdomo, George Lombard, Corbin Carroll, Austin Wells, and Nolan Arenado.",
         "ai_generated": true
       },
       "image_url": "https://s.yimg.com/lo/mysterio/api/cb8c74c3aaaa992f616b2550b7bb3f4ce8cf06b9f93a72d71839d151c52bd6a9/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fe778e033c1723dcffb83e21841abf2b9.jpg"
@@ -98,7 +125,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-09-19T21:10:34+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals defeated the St. Louis Cardinals yesterday with strong performances from Cade Cavalli and Josiah Gray. They aim to clinch a series win tonight, which would allow them to avoid a 90-loss season for the first time since 2020.",
+        "text": "The Washington Nationals defeated the St. Louis Cardinals yesterday with performances from Cade Cavalli and Josiah Gray. They aim to clinch a series win tonight, which would allow them to avoid a 90-loss season for the first time since 2020.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2295342856.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
@@ -108,10 +135,6 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94322/nationals-players-could-soon-be-in-line-cade-cavalli-like-extension",
       "source": "Federal Baseball",
       "published_at": "2026-09-19T18:09:21+00:00",
-      "why_it_matters": {
-        "text": "Following the news of a contract extension for starter Cade Cavalli, fans are identifying James Wood and CJ Abrams as the primary candidates for the next potential team extension.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2293894342.jpg?quality=90&strip=all&crop=0%2C10.477950250262%2C100%2C79.044099499475&w=1200"
     },
     {
@@ -119,34 +142,16 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94313/yesterday-was-best-day-washington-nationals-in-long-time",
       "source": "Federal Baseball",
       "published_at": "2026-09-19T15:30:37+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals experienced a successful day featuring several milestones and positive moments, with the team performing well on the field.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2295345320.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "Toboni’s ‘scouting and player development monster’ was just part of his goals!",
-      "url": "https://nats.talkdcsports.com/2026/09/19/tobonis-goal-of-creating-a-scouting-and-player-development-monster-is-looking-good/",
-      "source": "Talk Nats",
-      "published_at": "2026-09-19T13:12:00+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/nats.talk-dc-sports-6aae8f00e3d91.png?fit=1200%2C623&ssl=1"
-    },
-    {
-      "title": "How the Nationals and Cardinals, two of MLB's biggest surprises in 2026, can speed up their rebuilds in 2027",
-      "url": "https://www.cbssports.com/mlb/news/nationals-cardinals-speed-up-rebuilds/",
-      "source": "CBS Sports MLB",
-      "published_at": "2026-09-19T12:09:48+00:00",
-      "image_url": "https://sportshub.cbsistatic.com/i/r/2026/09/17/7d739b42-b338-4ccc-b435-2671e406804e/thumbnail/1200x675/6bc20e651792802a04041de5af18d456/mlbpostmortem-natscardsartboard-1.png"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "win",
-      "text": "Curly W! The Nats beat the Cardinals 9-1."
+      "text": "Curly W! The Nats beat the Cardinals 8-5."
     },
     "storyline": {
-      "text": "The lineup for today's game between the Yankees and Diamondbacks features players such as Ben Rice, Lars Nootbaar, Cody Bellinger, Ketel Marte, Luis Garcia, Gabriel Moreno, Heliot Ramos, Geraldo Perdomo, George Lombard, Corbin Carroll, Austin Wells, and Nolan Arenado.",
+      "text": "The Washington Nationals won a game in 11 innings with a final score of 8-5. Jorbit Vivas was the offensive hero but also committed a costly error that resulted in two unearned runs.",
       "ai_generated": true
     }
   },
@@ -199,38 +204,56 @@
     "ai_generated": true,
     "themes": [
       {
-        "label": "Winning Momentum",
+        "label": "Extra Innings Victory",
         "sentiment": "positive",
         "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/94313/yesterday-was-best-day-washington-nationals-in-long-time",
-          "https://www.federalbaseball.com/washington-nationals-discussions/94328/washington-nationals-vs-st-louis-cardinals-game-thread"
+          "https://nats.talkdcsports.com/2026/09/19/postgamer-nats-win-a-thriller-in-extras/",
+          "https://sports.yahoo.com/articles/nationals-commit-4-errors-still-031713678.html"
         ]
       },
       {
-        "label": "Playoff/Record Pursuit",
+        "label": "Defensive Struggles",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/09/19/postgamer-nats-win-a-thriller-in-extras/",
+          "https://sports.yahoo.com/articles/nationals-commit-4-errors-still-031713678.html"
+        ]
+      },
+      {
+        "label": "Playoff/Standings Pursuit",
         "sentiment": "positive",
         "source_urls": [
           "https://nats.talkdcsports.com/2026/09/19/game-155-nats-will-try-to-clinch-the-series-tonight/",
           "https://www.federalbaseball.com/washington-nationals-discussions/94328/washington-nationals-vs-st-louis-cardinals-game-thread"
-        ]
-      },
-      {
-        "label": "Roster Development",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/94322/nationals-players-could-soon-be-in-line-cade-cavalli-like-extension"
         ]
       }
     ]
   },
   "trending": [
     {
-      "label": "Cade Cavalli",
+      "label": "St. Louis Cardinals",
       "sentiment": "",
-      "context": "Washington Nationals vs St. Louis Cardinals Game Thread",
+      "context": "Nationals Commit 4 Errors, but Still Beat St. Louis Cardinals in Extras",
       "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/94322/nationals-players-could-soon-be-in-line-cade-cavalli-like-extension",
+        "https://sports.yahoo.com/articles/nationals-commit-4-errors-still-031713678.html",
+        "https://sports.yahoo.com/articles/st-louis-cardinals-vs-washington-230000416.html",
         "https://www.federalbaseball.com/washington-nationals-discussions/94328/washington-nationals-vs-st-louis-cardinals-game-thread"
+      ]
+    },
+    {
+      "label": "Jorbit Vivas",
+      "sentiment": "",
+      "context": "Postgamer: Nats win a thriller in extras!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/19/postgamer-nats-win-a-thriller-in-extras/"
+      ]
+    },
+    {
+      "label": "extra innings",
+      "sentiment": "",
+      "context": "Postgamer: Nats win a thriller in extras!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/19/postgamer-nats-win-a-thriller-in-extras/"
       ]
     },
     {
@@ -258,15 +281,6 @@
       ]
     },
     {
-      "label": "Cardinals",
-      "sentiment": "",
-      "context": "St. Louis Cardinals vs Washington Nationals Game Discussion Saturday Night",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/st-louis-cardinals-vs-washington-230000416.html",
-        "https://www.federalbaseball.com/washington-nationals-discussions/94328/washington-nationals-vs-st-louis-cardinals-game-thread"
-      ]
-    },
-    {
       "label": "Busch Stadium",
       "sentiment": "",
       "context": "St. Louis Cardinals vs Washington Nationals Game Discussion Saturday Night",
@@ -281,21 +295,9 @@
       "source_urls": [
         "https://nats.talkdcsports.com/2026/09/19/game-155-nats-will-try-to-clinch-the-series-tonight/"
       ]
-    },
-    {
-      "label": "Josiah Gray",
-      "sentiment": "",
-      "context": "Washington Nationals vs St. Louis Cardinals Game Thread",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-discussions/94328/washington-nationals-vs-st-louis-cardinals-game-thread"
-      ]
     }
   ],
   "what_to_watch": [
-    {
-      "text": "The Nats visit the Cardinals on Saturday.",
-      "source_url_or_game_pk": "823003"
-    },
     {
       "text": "The Nats visit the Cardinals on Sunday.",
       "source_url_or_game_pk": "823001"
@@ -303,6 +305,10 @@
     {
       "text": "The Nats visit the Tigers on Monday.",
       "source_url_or_game_pk": "824221"
+    },
+    {
+      "text": "The Nats visit the Tigers on Tuesday.",
+      "source_url_or_game_pk": "824222"
     }
   ],
   "on_this_day": {},
