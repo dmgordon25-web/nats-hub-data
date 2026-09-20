@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-19T22:32:34+00:00",
+  "fetched_at": "2026-09-20T00:22:12+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -119,8 +119,8 @@
       "game_pk": 823003,
       "date": "2026-09-19",
       "start_time_utc": "2026-09-19T23:15:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 138,
@@ -136,7 +136,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "72-82",
-        "score": 0
+        "score": 2
       },
       "venue": {
         "id": 2889,
@@ -206,19 +206,19 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 4,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
-        "balls": 0,
+        "balls": 1,
         "strikes": 0,
-        "outs": 0,
+        "outs": 2,
         "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
-        "home_errors": 0,
-        "away_errors": 0
+        "away_runs": 2,
+        "home_hits": 4,
+        "away_hits": 5,
+        "home_errors": 1,
+        "away_errors": 1
       },
       "series": {
         "game_number": 2,
@@ -676,7 +676,7 @@
         "abbrev": "NYM",
         "name": "New York Mets",
         "short_name": "Mets",
-        "record": "70-84",
+        "record": "71-84",
         "score": null
       },
       "venue": {
@@ -781,7 +781,7 @@
         "abbrev": "NYM",
         "name": "New York Mets",
         "short_name": "Mets",
-        "record": "70-84",
+        "record": "71-84",
         "score": null
       },
       "venue": {
@@ -886,7 +886,7 @@
         "abbrev": "NYM",
         "name": "New York Mets",
         "short_name": "Mets",
-        "record": "70-84",
+        "record": "71-84",
         "score": null
       },
       "venue": {
