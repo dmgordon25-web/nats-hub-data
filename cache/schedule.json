@@ -1,120 +1,7 @@
 {
-  "fetched_at": "2026-09-20T23:06:54+00:00",
+  "fetched_at": "2026-09-21T01:03:25+00:00",
   "source": "mlb_statsapi",
   "games": [
-    {
-      "game_pk": 823005,
-      "date": "2026-09-18",
-      "start_time_utc": "2026-09-19T00:15:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 138,
-        "abbrev": "STL",
-        "name": "St. Louis Cardinals",
-        "short_name": "Cardinals",
-        "record": "75-79",
-        "score": 1
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "72-82",
-        "score": 9
-      },
-      "venue": {
-        "id": 2889,
-        "name": "Busch Stadium",
-        "city": "St. Louis",
-        "state": "MO",
-        "lat": 38.62256667,
-        "lon": -90.19286667
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 681517,
-          "name": "Kyle Leahy",
-          "hand": null
-        },
-        "away": {
-          "id": 676917,
-          "name": "Cade Cavalli",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Cardinals.TV Presented by bet365",
-          "call_sign": "CARD",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "KMOX 1120 AM/104.1 FM",
-          "call_sign": "KMOX",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WIJR AM 880 (En Espanol)",
-          "call_sign": "WIJR",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 1,
-        "strikes": 0,
-        "outs": 3,
-        "home_runs": 1,
-        "away_runs": 9,
-        "home_hits": 7,
-        "away_hits": 7,
-        "home_errors": 3,
-        "away_errors": 0
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi"
-    },
     {
       "game_pk": 823003,
       "date": "2026-09-19",
@@ -353,7 +240,7 @@
         "abbrev": "DET",
         "name": "Detroit Tigers",
         "short_name": "Tigers",
-        "record": "73-82",
+        "record": "73-83",
         "score": null
       },
       "away": {
@@ -378,7 +265,11 @@
           "name": "River Ryan",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 687792,
+          "name": "DJ Herz",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -462,7 +353,7 @@
         "abbrev": "DET",
         "name": "Detroit Tigers",
         "short_name": "Tigers",
-        "record": "73-82",
+        "record": "73-83",
         "score": null
       },
       "away": {
@@ -575,7 +466,7 @@
         "abbrev": "DET",
         "name": "Detroit Tigers",
         "short_name": "Tigers",
-        "record": "73-82",
+        "record": "73-83",
         "score": null
       },
       "away": {
