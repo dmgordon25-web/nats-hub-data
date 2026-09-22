@@ -1,120 +1,7 @@
 {
-  "fetched_at": "2026-09-21T22:00:12+00:00",
+  "fetched_at": "2026-09-22T00:40:48+00:00",
   "source": "mlb_statsapi",
   "games": [
-    {
-      "game_pk": 823003,
-      "date": "2026-09-19",
-      "start_time_utc": "2026-09-19T23:15:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 138,
-        "abbrev": "STL",
-        "name": "St. Louis Cardinals",
-        "short_name": "Cardinals",
-        "record": "75-80",
-        "score": 5
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "73-82",
-        "score": 8
-      },
-      "venue": {
-        "id": 2889,
-        "name": "Busch Stadium",
-        "city": "St. Louis",
-        "state": "MO",
-        "lat": 38.62256667,
-        "lon": -90.19286667
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 700241,
-          "name": "Michael McGreevy",
-          "hand": null
-        },
-        "away": {
-          "id": 674841,
-          "name": "Andrew Alvarez",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Cardinals.TV Presented by bet365",
-          "call_sign": "CARD",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "KMOX 1120 AM/104.1 FM",
-          "call_sign": "KMOX",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WIJR AM 880 (En Espanol)",
-          "call_sign": "WIJR",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 11,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "balls": 0,
-        "strikes": 1,
-        "outs": 3,
-        "home_runs": 5,
-        "away_runs": 8,
-        "home_hits": 14,
-        "away_hits": 12,
-        "home_errors": 2,
-        "away_errors": 4
-      },
-      "series": {
-        "game_number": 2,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi"
-    },
     {
       "game_pk": 823001,
       "date": "2026-09-20",
@@ -232,8 +119,8 @@
       "game_pk": 824221,
       "date": "2026-09-21",
       "start_time_utc": "2026-09-21T22:40:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": false,
       "home": {
         "id": 116,
@@ -241,7 +128,7 @@
         "name": "Detroit Tigers",
         "short_name": "Tigers",
         "record": "73-83",
-        "score": 0
+        "score": 9
       },
       "away": {
         "id": 120,
@@ -319,19 +206,19 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 8,
         "inning_half": "Top",
         "inning_state": "Top",
         "is_top_inning": true,
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 0,
-        "home_runs": 0,
+        "home_runs": 9,
         "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "home_hits": 11,
+        "away_hits": 3,
         "home_errors": 0,
-        "away_errors": 0
+        "away_errors": 1
       },
       "series": {
         "game_number": 1,
