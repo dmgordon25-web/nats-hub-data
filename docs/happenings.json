@@ -1,47 +1,47 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-22T02:05:47+00:00",
+  "generated_at": "2026-09-22T06:07:24+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-22T02:05:09+00:00",
-    "videos": "2026-09-22T01:35:00+00:00",
-    "vibes": "2026-09-22T02:05:47+00:00"
+    "news": "2026-09-22T06:06:49+00:00",
+    "videos": "2026-09-22T06:06:49+00:00",
+    "vibes": "2026-09-22T06:07:24+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-22T02:04:57+00:00",
+      "last_updated_at": "2026-09-22T06:06:25+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-22T02:04:58+00:00",
+      "last_updated_at": "2026-09-22T06:06:38+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-22T02:04:58+00:00",
+      "last_updated_at": "2026-09-22T06:06:38+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-22T02:04:58+00:00",
+      "last_updated_at": "2026-09-22T06:06:38+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-22T02:04:58+00:00",
+      "last_updated_at": "2026-09-22T06:06:38+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-22T02:04:59+00:00",
+      "last_updated_at": "2026-09-22T06:06:39+00:00",
       "status": "live"
     },
     {
@@ -53,24 +53,30 @@
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-09-22T06:06:49+00:00",
+      "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "videos",
-      "reason": "last_check_too_old"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
+    {
+      "title": "RHP Ryan, key piece in Skubal trade, shines in debut for Tigers",
+      "url": "https://www.espn.com/mlb/story/_/id/50002018/river-ryan-key-piece-tarik-skubal-deal-leads-tigers",
+      "source": "ESPN MLB",
+      "published_at": "2026-09-22T04:15:27+00:00",
+      "why_it_matters": {
+        "text": "RHP River Ryan, acquired from the Dodgers in the Tarik Skubal trade, pitched three scoreless innings in a win during his Detroit debut against the Nationals.",
+        "ai_generated": true
+      },
+      "image_url": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0922%2Fr1720256_1296x729_16%2D9.jpg"
+    },
     {
       "title": "GameThread: Detroit Tigers vs. Washington Nationals, 6:40 p.m.",
       "url": "https://sports.yahoo.com/articles/gamethread-detroit-tigers-vs-washington-223000756.html",
       "source": "Yahoo Sports MLB",
       "published_at": "2026-09-21T22:30:00+00:00",
       "why_it_matters": {
-        "text": "The Detroit Tigers and Washington Nationals are scheduled to face each other at 6:40 p.m. at Comerica Park. The pitching matchup features RHP River Ryan against LHP DJ Herz.",
+        "text": "The Detroit Tigers face the Washington Nationals at Comerica Park at 6:40 p.m. The pitching matchup features RHP River Ryan against LHP DJ Herz.",
         "ai_generated": true
       },
       "image_url": "https://s.yimg.com/lo/mysterio/api/a0b8d74ff25047df113c6a7a58cf12b8685911659975aed528544843af0770c2/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fcac06b258e68b767addcf8dbd09ccd8e.jpg"
@@ -81,7 +87,7 @@
       "source": "Talk Nats",
       "published_at": "2026-09-21T21:20:00+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals will feature DJ Herz on the mound for his first MLB game since the 2024 season. Herz, the team's 43rd pitcher of the season, returns after undergoing surgery for a torn UCL ligament in his elbow.",
+        "text": "The Washington Nationals will feature DJ Herz on the mound for his first MLB game since the end of the 2024 season. Herz, the team's 43rd pitcher of the season, returns after undergoing surgery for a torn UCL ligament.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2024/09/DJ-Herz-8-31-2024-scaled.jpg?fit=1200%2C792&ssl=1"
@@ -103,21 +109,10 @@
       "source": "Federal Baseball",
       "published_at": "2026-09-21T19:36:20+00:00",
       "why_it_matters": {
-        "text": "Nationals star CJ Abrams has developed into a significantly larger power threat than scouts initially projected during the 2019 MLB Draft, where he was expected to be a contact and speed-focused hitter with limited home run potential.",
+        "text": "Nationals star CJ Abrams has developed into a significantly larger power threat than scouts originally predicted. Despite being a highly touted prospect in the 2019 MLB Draft, he was initially expected to be a contact and speed hitter with limited home run potential.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2295342919.jpg?quality=90&strip=all&crop=0%2C10.713340963676%2C100%2C78.573318072649&w=1200"
-    },
-    {
-      "title": "Gore announced as Tuesday starter against Mets",
-      "url": "https://sports.yahoo.com/articles/gore-announced-tuesday-starter-against-185842477.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-09-21T18:58:42+00:00",
-      "why_it_matters": {
-        "text": "Mackenzie Gore has been announced as the starting pitcher for the series opener against the Mets on Tuesday.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/7ca86d2b2ed38eae02101905d20366e06a21374967ef3dc5443cefb9f9cb4111/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fd684221a93370b51195de4d0c2e15fab.jpg"
     },
     {
       "title": "Nationals To Release Cole Henry",
@@ -148,63 +143,28 @@
   "team_pulse": {
     "result_banner": {
       "type": "loss",
-      "text": "Tough one — the Nats fell to the Cardinals 5-3."
+      "text": "Tough one — the Nats fell to the Tigers 9-2."
     },
     "storyline": {
-      "text": "The Detroit Tigers and Washington Nationals are scheduled to face each other at 6:40 p.m. at Comerica Park. The pitching matchup features RHP River Ryan against LHP DJ Herz.",
+      "text": "RHP River Ryan, acquired from the Dodgers in the Tarik Skubal trade, pitched three scoreless innings in a win during his Detroit debut against the Nationals.",
       "ai_generated": true
     }
   },
   "videos": [
     {
-      "title": "CJ Abrams Go-Ahead Homer",
-      "url": "https://www.youtube.com/shorts/PEPU1bBYJKk",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i1.ytimg.com/vi/PEPU1bBYJKk/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "Nationals vs. Cardinals Game Highlights (9/19/26) | MLB Highlights",
-      "url": "https://www.youtube.com/watch?v=Ens2YjCJ5Lc",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i2.ytimg.com/vi/Ens2YjCJ5Lc/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "Dylan Crews Takes Flight And Robs Jordan Walker",
-      "url": "https://www.youtube.com/shorts/Emda7v1k46Y",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i2.ytimg.com/vi/Emda7v1k46Y/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "404-Foot Bomb For Daylen Lile",
-      "url": "https://www.youtube.com/shorts/RJjMBoz0iLU",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i3.ytimg.com/vi/RJjMBoz0iLU/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "Josiah Gray Returns to the Mound After 3 Years 🫶",
-      "url": "https://www.youtube.com/shorts/F5llb5obpFg",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i3.ytimg.com/vi/F5llb5obpFg/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "Dylan Crews Leaves The Yard",
-      "url": "https://www.youtube.com/shorts/WjuHCFkCxg8",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i4.ytimg.com/vi/WjuHCFkCxg8/hqdefault.jpg",
+      "title": "NATIONALS vs. TIGERS: Official Full Game Highlights (September 21) | 2026 MLB Season",
+      "url": "https://www.youtube.com/watch?v=IzdsBphpsXg",
+      "source": "MLB on YouTube",
+      "thumbnail_url": "https://i2.ytimg.com/vi/IzdsBphpsXg/hqdefault.jpg",
       "duration_s": 0
     }
   ],
   "fan_vibes": {
-    "overall": "positive",
+    "overall": "mixed",
     "ai_generated": true,
     "themes": [
       {
-        "label": "Pitching depth and recovery",
+        "label": "Roster Management",
         "sentiment": "positive",
         "source_urls": [
           "https://nats.talkdcsports.com/2026/09/21/game-157-dj-herz-is-back/",
@@ -212,56 +172,81 @@
         ]
       },
       {
-        "label": "Player development",
+        "label": "Player Development",
         "sentiment": "positive",
         "source_urls": [
           "https://www.federalbaseball.com/washington-nationals-analysis/94359/nationals-cj-abrams-developed-much-bigger-power-threat-scouts-expected"
         ]
       },
       {
-        "label": "Upcoming matchups",
-        "sentiment": "mixed",
+        "label": "Opponent Performance",
+        "sentiment": "negative",
         "source_urls": [
-          "https://sports.yahoo.com/articles/gamethread-detroit-tigers-vs-washington-223000756.html",
-          "https://sports.yahoo.com/articles/gore-announced-tuesday-starter-against-185842477.html",
-          "https://www.federalbaseball.com/washington-nationals-discussions/94366/washington-nationals-vs-detroit-tigers-game-thread"
+          "https://www.espn.com/mlb/story/_/id/50002018/river-ryan-key-piece-tarik-skubal-deal-leads-tigers"
         ]
       }
     ]
   },
   "trending": [
     {
-      "label": "Detroit Tigers",
+      "label": "DJ Herz",
       "sentiment": "",
       "context": "GameThread: Detroit Tigers vs. Washington Nationals, 6:40 p.m.",
       "source_urls": [
-        "https://sports.yahoo.com/articles/gamethread-detroit-tigers-vs-washington-223000756.html",
-        "https://www.federalbaseball.com/washington-nationals-discussions/94366/washington-nationals-vs-detroit-tigers-game-thread"
-      ]
-    },
-    {
-      "label": "DJ Herz",
-      "sentiment": "",
-      "context": "Game #157 DJ Herz is back",
-      "source_urls": [
         "https://nats.talkdcsports.com/2026/09/21/game-157-dj-herz-is-back/",
+        "https://sports.yahoo.com/articles/gamethread-detroit-tigers-vs-washington-223000756.html",
         "https://www.mlbtraderumors.com/2026/09/nationals-release-cole-henry-activate-dj-herz.html"
       ]
     },
     {
-      "label": "Comerica Park",
+      "label": "Detroit Tigers",
       "sentiment": "",
-      "context": "GameThread: Detroit Tigers vs. Washington Nationals, 6:40 p.m.",
+      "context": "RHP Ryan, key piece in Skubal trade, shines in debut for Tigers",
       "source_urls": [
-        "https://sports.yahoo.com/articles/gamethread-detroit-tigers-vs-washington-223000756.html"
+        "https://sports.yahoo.com/articles/gamethread-detroit-tigers-vs-washington-223000756.html",
+        "https://www.espn.com/mlb/story/_/id/50002018/river-ryan-key-piece-tarik-skubal-deal-leads-tigers",
+        "https://www.federalbaseball.com/washington-nationals-discussions/94366/washington-nationals-vs-detroit-tigers-game-thread"
       ]
     },
     {
-      "label": "Pitcher",
+      "label": "Ryan",
+      "sentiment": "",
+      "context": "RHP Ryan, key piece in Skubal trade, shines in debut for Tigers",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/gamethread-detroit-tigers-vs-washington-223000756.html",
+        "https://www.espn.com/mlb/story/_/id/50002018/river-ryan-key-piece-tarik-skubal-deal-leads-tigers"
+      ]
+    },
+    {
+      "label": "Skubal",
+      "sentiment": "",
+      "context": "RHP Ryan, key piece in Skubal trade, shines in debut for Tigers",
+      "source_urls": [
+        "https://www.espn.com/mlb/story/_/id/50002018/river-ryan-key-piece-tarik-skubal-deal-leads-tigers"
+      ]
+    },
+    {
+      "label": "Dodgers",
+      "sentiment": "",
+      "context": "RHP Ryan, key piece in Skubal trade, shines in debut for Tigers",
+      "source_urls": [
+        "https://www.espn.com/mlb/story/_/id/50002018/river-ryan-key-piece-tarik-skubal-deal-leads-tigers"
+      ]
+    },
+    {
+      "label": "Pitching",
       "sentiment": "",
       "context": "Game #157 DJ Herz is back",
       "source_urls": [
         "https://nats.talkdcsports.com/2026/09/21/game-157-dj-herz-is-back/"
+      ]
+    },
+    {
+      "label": "Season Finale",
+      "sentiment": "",
+      "context": "Washington Nationals vs Detroit Tigers Game Thread",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-discussions/94366/washington-nationals-vs-detroit-tigers-game-thread"
       ]
     },
     {
@@ -270,30 +255,6 @@
       "context": "Nationals star CJ Abrams has developed into a much bigger power threat than scouts expected",
       "source_urls": [
         "https://www.federalbaseball.com/washington-nationals-analysis/94359/nationals-cj-abrams-developed-much-bigger-power-threat-scouts-expected"
-      ]
-    },
-    {
-      "label": "Prospects",
-      "sentiment": "",
-      "context": "Nationals star CJ Abrams has developed into a much bigger power threat than scouts expected",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/94359/nationals-cj-abrams-developed-much-bigger-power-threat-scouts-expected"
-      ]
-    },
-    {
-      "label": "Mackenzie Gore",
-      "sentiment": "",
-      "context": "Gore announced as Tuesday starter against Mets",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/gore-announced-tuesday-starter-against-185842477.html"
-      ]
-    },
-    {
-      "label": "Mets",
-      "sentiment": "",
-      "context": "Gore announced as Tuesday starter against Mets",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/gore-announced-tuesday-starter-against-185842477.html"
       ]
     }
   ],
@@ -305,6 +266,10 @@
     {
       "text": "The Nats visit the Tigers on Wednesday.",
       "source_url_or_game_pk": "824223"
+    },
+    {
+      "text": "The Nats host the Mets on Friday.",
+      "source_url_or_game_pk": "822681"
     }
   ],
   "on_this_day": {},
