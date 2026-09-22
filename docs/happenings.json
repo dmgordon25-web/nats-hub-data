@@ -1,74 +1,96 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-21T21:34:24+00:00",
+  "generated_at": "2026-09-22T01:35:24+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-21T21:33:15+00:00",
-    "videos": "2026-09-21T21:33:15+00:00",
-    "vibes": "2026-09-21T21:34:24+00:00"
+    "news": "2026-09-22T01:35:00+00:00",
+    "videos": "2026-09-22T01:35:00+00:00",
+    "vibes": "2026-09-22T01:35:24+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-21T21:33:11+00:00",
+      "last_updated_at": "2026-09-22T01:34:53+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-21T21:33:12+00:00",
+      "last_updated_at": "2026-09-22T01:34:53+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-21T21:33:13+00:00",
+      "last_updated_at": "2026-09-22T01:34:54+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-21T21:33:13+00:00",
+      "last_updated_at": "2026-09-22T01:34:54+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-21T21:33:13+00:00",
+      "last_updated_at": "2026-09-22T01:34:54+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-21T21:33:14+00:00",
+      "last_updated_at": "2026-09-22T01:34:55+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-09-21T21:33:14+00:00",
+      "last_updated_at": "2026-09-22T01:34:55+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-09-21T21:33:15+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
   "limited_sources": [],
   "top_stories": [
+    {
+      "title": "GameThread: Detroit Tigers vs. Washington Nationals, 6:40 p.m.",
+      "url": "https://sports.yahoo.com/articles/gamethread-detroit-tigers-vs-washington-223000756.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-09-21T22:30:00+00:00",
+      "why_it_matters": {
+        "text": "The Detroit Tigers face the Washington Nationals at Comerica Park at 6:40 p.m. The pitching matchup features RHP River Ryan against LHP DJ Herz.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/lo/mysterio/api/a0b8d74ff25047df113c6a7a58cf12b8685911659975aed528544843af0770c2/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fcac06b258e68b767addcf8dbd09ccd8e.jpg"
+    },
     {
       "title": "Game #157 DJ Herz is back",
       "url": "https://nats.talkdcsports.com/2026/09/21/game-157-dj-herz-is-back/",
       "source": "Talk Nats",
       "published_at": "2026-09-21T21:20:00+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals will feature DJ Herz on the mound for Game 157. Herz is the team's 43rd pitcher of the season and makes his first MLB appearance since the end of the 2024 season following a torn UCL ligament.",
+        "text": "The Washington Nationals will feature DJ Herz on the mound for his first MLB game since the end of the 2024 season. Herz, the team's 43rd pitcher of the season, returns after undergoing surgery for a torn UCL ligament.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2024/09/DJ-Herz-8-31-2024-scaled.jpg?fit=1200%2C792&ssl=1"
+    },
+    {
+      "title": "Washington Nationals vs Detroit Tigers Game Thread",
+      "url": "https://www.federalbaseball.com/washington-nationals-discussions/94366/washington-nationals-vs-detroit-tigers-game-thread",
+      "source": "Federal Baseball",
+      "published_at": "2026-09-21T20:19:41+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals are facing the Detroit Tigers in their final road series of the season, with only six games remaining before the 2026 season concludes.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2295620764.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
       "title": "Nationals star CJ Abrams has developed into a much bigger power threat than scouts expected",
@@ -76,7 +98,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-09-21T19:36:20+00:00",
       "why_it_matters": {
-        "text": "Nationals star CJ Abrams has developed into a significantly larger power threat than scouts initially predicted during the 2019 MLB Draft, where he was expected to be a hitter focused on speed and contact.",
+        "text": "Nationals star CJ Abrams has developed into a larger power threat than scouts initially predicted. Despite being a highly touted prospect in the 2019 MLB Draft, he was not originally expected to be a monster power hitter.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2295342919.jpg?quality=90&strip=all&crop=0%2C10.713340963676%2C100%2C78.573318072649&w=1200"
@@ -87,7 +109,7 @@
       "source": "Yahoo Sports MLB",
       "published_at": "2026-09-21T18:58:42+00:00",
       "why_it_matters": {
-        "text": "Mackenzie Gore has been announced as the starting pitcher for the series opener against the Mets on Tuesday.",
+        "text": "Mackenzie Gore has been announced as the starter for the series opener against the Mets on Tuesday.",
         "ai_generated": true
       },
       "image_url": "https://s.yimg.com/lo/mysterio/api/7ca86d2b2ed38eae02101905d20366e06a21374967ef3dc5443cefb9f9cb4111/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fd684221a93370b51195de4d0c2e15fab.jpg"
@@ -98,7 +120,7 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-09-21T17:32:24+00:00",
       "why_it_matters": {
-        "text": "The Nationals have requested unconditional release waivers for right-hander Cole Henry. His spot on the 40-man roster will be taken by left-hander DJ Herz, who has completed rehab from surgery and been reinstated from the 60-day injured list.",
+        "text": "The Nationals have requested unconditional release waivers for right-hander Cole Henry. His roster spot will be taken by left-hander DJ Herz, who has completed rehab from surgery and been reinstated from the 60-day injured list.",
         "ai_generated": true
       },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/09/cole-henry-nationals-1024x683.jpg"
@@ -108,10 +130,6 @@
       "url": "https://nats.talkdcsports.com/2026/09/21/triple-a-rochester-wins-the-2nd-half-international-league-title/",
       "source": "Talk Nats",
       "published_at": "2026-09-21T15:59:00+00:00",
-      "why_it_matters": {
-        "text": "Triple-A Rochester won the second-half International League title after a comeback victory in the final game of the regular season. The team overcame an early deficit caused by poor defense to secure their first postseason appearance since 2013.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2021/08/Donovan-Casey-21-Rochester-Ryan-Morris-1.jpg?fit=567%2C787&ssl=1"
     },
     {
@@ -119,25 +137,7 @@
       "url": "https://www.federalbaseball.com/washington-nationals-news/94352/what-expect-from-dj-herz-return-to-washington-nationals",
       "source": "Federal Baseball",
       "published_at": "2026-09-21T14:42:55+00:00",
-      "why_it_matters": {
-        "text": "The article discusses pitcher DJ Herz's return to the Washington Nationals for the 2025 season. Following a rookie season where he showed significant upside and potential as a key rotation piece, his future with the team is being evaluated.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2160677195.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "Blown Save №42 — Nats keep setting new records…",
-      "url": "https://nats.talkdcsports.com/2026/09/21/blown-save-%e2%84%9642-nats-keep-setting-new-records/",
-      "source": "Talk Nats",
-      "published_at": "2026-09-21T10:57:00+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/Call-To-The-Bullpen.jpg?fit=841%2C1034&ssl=1"
-    },
-    {
-      "title": "Nationals To Activate DJ Herz From 60-Day IL On Monday",
-      "url": "https://www.mlbtraderumors.com/2026/09/nationals-to-activate-dj-herz-from-60-day-il-on-monday.html",
-      "source": "MLB Trade Rumors",
-      "published_at": "2026-09-21T00:05:02+00:00",
-      "image_url": "https://cdn.mlbtraderumors.com/files/2025/03/dj-herz-nationals-1024x683.jpg"
     }
   ],
   "team_pulse": {
@@ -146,7 +146,7 @@
       "text": "Tough one — the Nats fell to the Cardinals 5-3."
     },
     "storyline": {
-      "text": "The Washington Nationals will feature DJ Herz on the mound for Game 157. Herz is the team's 43rd pitcher of the season and makes his first MLB appearance since the end of the 2024 season following a torn UCL ligament.",
+      "text": "The Detroit Tigers face the Washington Nationals at Comerica Park at 6:40 p.m. The pitching matchup features RHP River Ryan against LHP DJ Herz.",
       "ai_generated": true
     }
   },
@@ -199,26 +199,27 @@
     "ai_generated": true,
     "themes": [
       {
-        "label": "DJ Herz's return",
+        "label": "Roster Depth & Recovery",
         "sentiment": "positive",
         "source_urls": [
           "https://nats.talkdcsports.com/2026/09/21/game-157-dj-herz-is-back/",
-          "https://www.federalbaseball.com/washington-nationals-news/94352/what-expect-from-dj-herz-return-to-washington-nationals",
           "https://www.mlbtraderumors.com/2026/09/nationals-release-cole-henry-activate-dj-herz.html"
         ]
       },
       {
-        "label": "CJ Abrams development",
+        "label": "Player Development",
         "sentiment": "positive",
         "source_urls": [
           "https://www.federalbaseball.com/washington-nationals-analysis/94359/nationals-cj-abrams-developed-much-bigger-power-threat-scouts-expected"
         ]
       },
       {
-        "label": "Triple-A success",
-        "sentiment": "positive",
+        "label": "Upcoming Matchups",
+        "sentiment": "mixed",
         "source_urls": [
-          "https://nats.talkdcsports.com/2026/09/21/triple-a-rochester-wins-the-2nd-half-international-league-title/"
+          "https://sports.yahoo.com/articles/gamethread-detroit-tigers-vs-washington-223000756.html",
+          "https://sports.yahoo.com/articles/gore-announced-tuesday-starter-against-185842477.html",
+          "https://www.federalbaseball.com/washington-nationals-discussions/94366/washington-nationals-vs-detroit-tigers-game-thread"
         ]
       }
     ]
@@ -227,15 +228,32 @@
     {
       "label": "DJ Herz",
       "sentiment": "",
-      "context": "Game #157 DJ Herz is back",
+      "context": "GameThread: Detroit Tigers vs. Washington Nationals, 6:40 p.m.",
       "source_urls": [
         "https://nats.talkdcsports.com/2026/09/21/game-157-dj-herz-is-back/",
-        "https://www.federalbaseball.com/washington-nationals-news/94352/what-expect-from-dj-herz-return-to-washington-nationals",
+        "https://sports.yahoo.com/articles/gamethread-detroit-tigers-vs-washington-223000756.html",
         "https://www.mlbtraderumors.com/2026/09/nationals-release-cole-henry-activate-dj-herz.html"
       ]
     },
     {
-      "label": "Pitching",
+      "label": "Detroit Tigers",
+      "sentiment": "",
+      "context": "GameThread: Detroit Tigers vs. Washington Nationals, 6:40 p.m.",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/gamethread-detroit-tigers-vs-washington-223000756.html",
+        "https://www.federalbaseball.com/washington-nationals-discussions/94366/washington-nationals-vs-detroit-tigers-game-thread"
+      ]
+    },
+    {
+      "label": "River Ryan",
+      "sentiment": "",
+      "context": "GameThread: Detroit Tigers vs. Washington Nationals, 6:40 p.m.",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/gamethread-detroit-tigers-vs-washington-223000756.html"
+      ]
+    },
+    {
+      "label": "Pitcher",
       "sentiment": "",
       "context": "Game #157 DJ Herz is back",
       "source_urls": [
@@ -243,11 +261,19 @@
       ]
     },
     {
-      "label": "Injury Recovery",
+      "label": "Road Series",
       "sentiment": "",
-      "context": "Game #157 DJ Herz is back",
+      "context": "Washington Nationals vs Detroit Tigers Game Thread",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/09/21/game-157-dj-herz-is-back/"
+        "https://www.federalbaseball.com/washington-nationals-discussions/94366/washington-nationals-vs-detroit-tigers-game-thread"
+      ]
+    },
+    {
+      "label": "Season Finale",
+      "sentiment": "",
+      "context": "Washington Nationals vs Detroit Tigers Game Thread",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-discussions/94366/washington-nationals-vs-detroit-tigers-game-thread"
       ]
     },
     {
@@ -259,43 +285,15 @@
       ]
     },
     {
-      "label": "prospects",
+      "label": "Prospects",
       "sentiment": "",
       "context": "Nationals star CJ Abrams has developed into a much bigger power threat than scouts expected",
       "source_urls": [
         "https://www.federalbaseball.com/washington-nationals-analysis/94359/nationals-cj-abrams-developed-much-bigger-power-threat-scouts-expected"
-      ]
-    },
-    {
-      "label": "power hitting",
-      "sentiment": "",
-      "context": "Nationals star CJ Abrams has developed into a much bigger power threat than scouts expected",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/94359/nationals-cj-abrams-developed-much-bigger-power-threat-scouts-expected"
-      ]
-    },
-    {
-      "label": "Mackenzie Gore",
-      "sentiment": "",
-      "context": "Gore announced as Tuesday starter against Mets",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/gore-announced-tuesday-starter-against-185842477.html"
-      ]
-    },
-    {
-      "label": "Mets",
-      "sentiment": "",
-      "context": "Gore announced as Tuesday starter against Mets",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/gore-announced-tuesday-starter-against-185842477.html"
       ]
     }
   ],
   "what_to_watch": [
-    {
-      "text": "The Nats visit the Tigers on Monday.",
-      "source_url_or_game_pk": "824221"
-    },
     {
       "text": "The Nats visit the Tigers on Tuesday.",
       "source_url_or_game_pk": "824222"
@@ -307,9 +305,9 @@
   ],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "CJ Abrams",
-    "text": "The Nationals' dynamic young shortstop, acquired in the 2022 Juan Soto trade and now a cornerstone of the rebuild.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/682928/spots/120",
+    "name": "James Wood",
+    "text": "A towering, high-ceiling outfielder who also came to Washington in the Juan Soto trade.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/695578/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
