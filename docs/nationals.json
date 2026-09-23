@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-09-22T22:48:17+00:00",
+  "fetched_at": "2026-09-23T00:58:47+00:00",
   "freshness": {
-    "schedule": "2026-09-22T22:48:15+00:00",
-    "standings": "2026-09-22T22:48:16+00:00",
+    "schedule": "2026-09-23T00:58:46+00:00",
+    "standings": "2026-09-23T00:58:46+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-09-22T21:21:43+00:00",
-    "weather": "2026-09-22T22:48:17+00:00"
+    "weather": "2026-09-23T00:58:47+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -24,7 +24,7 @@
       "name": "Detroit Tigers",
       "short_name": "Tigers",
       "record": "74-83",
-      "score": 0
+      "score": 1
     },
     "away": {
       "id": 120,
@@ -32,7 +32,7 @@
       "name": "Washington Nationals",
       "short_name": "Nationals",
       "record": "73-84",
-      "score": 0
+      "score": 3
     },
     "venue": {
       "id": 2394,
@@ -102,17 +102,17 @@
       }
     ],
     "linescore": {
-      "current_inning": 1,
+      "current_inning": 8,
       "inning_half": "Bottom",
       "inning_state": "Bottom",
       "is_top_inning": false,
       "balls": 0,
       "strikes": 0,
-      "outs": 0,
-      "home_runs": 0,
-      "away_runs": 0,
-      "home_hits": 0,
-      "away_hits": 0,
+      "outs": 2,
+      "home_runs": 1,
+      "away_runs": 3,
+      "home_hits": 7,
+      "away_hits": 6,
       "home_errors": 0,
       "away_errors": 0
     },
@@ -136,25 +136,25 @@
     "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-09-22T22:48:17+00:00",
+    "fetched_at": "2026-09-23T00:58:47+00:00",
     "source": "open_meteo",
     "game_pk": 824222,
     "venue_name": "Comerica Park",
-    "forecast_at": "2026-09-22T23:00",
-    "temperature_f": 61.2,
-    "feels_like_f": 57.7,
-    "wind_mph": 8.0,
+    "forecast_at": "2026-09-23T00:00",
+    "temperature_f": 58.6,
+    "feels_like_f": 54.9,
+    "wind_mph": 7.0,
     "wind_dir": "ENE",
     "precip_chance": 0,
     "precip_inches": 0.0,
-    "summary": "Mostly clear",
+    "summary": "Clear",
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "wholesome_screech_birthday",
-    "category": "wholesome",
-    "weight": 3,
-    "text": "Screech the bald eagle has been the Nats mascot since 2005. He turns the same age as the franchise every year."
+    "id": "stat_nerd_gore_stuff_plus",
+    "category": "stat_nerd",
+    "weight": 4,
+    "text": "MacKenzie Gore's fastball spin rate is in the top 15% of MLB starters. The ball jumps on hitters more than the radar gun says."
   },
   "next_three": [
     {
@@ -170,7 +170,7 @@
         "name": "Detroit Tigers",
         "short_name": "Tigers",
         "record": "74-83",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 120,
@@ -178,7 +178,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "73-84",
-        "score": 0
+        "score": 3
       },
       "venue": {
         "id": 2394,
@@ -248,17 +248,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 8,
         "inning_half": "Bottom",
         "inning_state": "Bottom",
         "is_top_inning": false,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "outs": 2,
+        "home_runs": 1,
+        "away_runs": 3,
+        "home_hits": 7,
+        "away_hits": 6,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -399,7 +399,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822681,
@@ -644,130 +644,6 @@
   },
   "all_games": [
     {
-      "game_pk": 823001,
-      "date": "2026-09-20",
-      "start_time_utc": "2026-09-20T18:15:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 138,
-        "abbrev": "STL",
-        "name": "St. Louis Cardinals",
-        "short_name": "Cardinals",
-        "record": "76-80",
-        "score": 5
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "73-83",
-        "score": 3
-      },
-      "venue": {
-        "id": 2889,
-        "name": "Busch Stadium",
-        "city": "St. Louis",
-        "state": "MO",
-        "lat": 38.62256667,
-        "lon": -90.19286667
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 687273,
-          "name": "Quinn Mathews",
-          "hand": null
-        },
-        "away": {
-          "id": 663623,
-          "name": "Jake Irvin",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Cardinals.TV Presented by bet365",
-          "call_sign": "CARD",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "KMOX 1120 AM/104.1 FM",
-          "call_sign": "KMOX",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WIJR AM 880 (En Espanol)",
-          "call_sign": "WIJR",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 3,
-        "home_runs": 5,
-        "away_runs": 3,
-        "home_hits": 6,
-        "away_hits": 7,
-        "home_errors": 0,
-        "away_errors": 1
-      },
-      "series": {
-        "game_number": 3,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
-    {
       "game_pk": 824221,
       "date": "2026-09-21",
       "start_time_utc": "2026-09-21T22:40:00Z",
@@ -904,7 +780,7 @@
         "name": "Detroit Tigers",
         "short_name": "Tigers",
         "record": "74-83",
-        "score": 0
+        "score": 1
       },
       "away": {
         "id": 120,
@@ -912,7 +788,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "73-84",
-        "score": 0
+        "score": 3
       },
       "venue": {
         "id": 2394,
@@ -982,17 +858,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 8,
         "inning_half": "Bottom",
         "inning_state": "Bottom",
         "is_top_inning": false,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "outs": 2,
+        "home_runs": 1,
+        "away_runs": 3,
+        "home_hits": 7,
+        "away_hits": 6,
         "home_errors": 0,
         "away_errors": 0
       },
@@ -1133,7 +1009,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Next Game"
+      "watch_label": "Watch Tonight"
     },
     {
       "game_pk": 822681,
