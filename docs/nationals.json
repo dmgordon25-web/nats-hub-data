@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-09-23T22:28:35+00:00",
+  "fetched_at": "2026-09-24T00:49:38+00:00",
   "freshness": {
-    "schedule": "2026-09-23T22:28:34+00:00",
-    "standings": "2026-09-23T22:28:34+00:00",
+    "schedule": "2026-09-24T00:49:36+00:00",
+    "standings": "2026-09-24T00:49:37+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-09-23T21:32:02+00:00",
-    "weather": "2026-09-23T22:28:35+00:00"
+    "weather": "2026-09-24T00:49:37+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -132,14 +132,14 @@
     "watch_label": "Next Game"
   },
   "focus_weather": {
-    "fetched_at": "2026-09-23T22:28:35+00:00",
+    "fetched_at": "2026-09-24T00:49:37+00:00",
     "source": "open_meteo",
     "game_pk": 822681,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-09-25T23:00",
-    "temperature_f": 68.1,
-    "feels_like_f": 63.5,
-    "wind_mph": 6.1,
+    "temperature_f": 67.8,
+    "feels_like_f": 63.3,
+    "wind_mph": 5.4,
     "wind_dir": "N",
     "precip_chance": 1,
     "precip_inches": 0.0,
@@ -147,10 +147,10 @@
     "is_dome": false
   },
   "tonight_tidbit": {
-    "id": "stat_nerd_gore_stuff_plus",
-    "category": "stat_nerd",
+    "id": "wholesome_dave_martinez",
+    "category": "wholesome",
     "weight": 4,
-    "text": "MacKenzie Gore's fastball spin rate is in the top 15% of MLB starters. The ball jumps on hitters more than the radar gun says."
+    "text": "Dave Martinez took heat after the 2018 dugout incident. He kept showing up. Then 2019 happened. The right manager, the right time."
   },
   "next_three": [
     {
@@ -639,130 +639,6 @@
     "watch_label": "Game Final"
   },
   "all_games": [
-    {
-      "game_pk": 824221,
-      "date": "2026-09-21",
-      "start_time_utc": "2026-09-21T22:40:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": false,
-      "home": {
-        "id": 116,
-        "abbrev": "DET",
-        "name": "Detroit Tigers",
-        "short_name": "Tigers",
-        "record": "74-83",
-        "score": 9
-      },
-      "away": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "73-84",
-        "score": 2
-      },
-      "venue": {
-        "id": 2394,
-        "name": "Comerica Park",
-        "city": "Detroit",
-        "state": "MI",
-        "lat": 42.3391151,
-        "lon": -83.048695
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 689981,
-          "name": "River Ryan",
-          "hand": null
-        },
-        "away": {
-          "id": 687792,
-          "name": "DJ Herz",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Detroit SportsNet",
-          "call_sign": "DSN",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WXYT 97.1 FM",
-          "call_sign": "WXYTFM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "LaZ WDTW 1310AM/107.9FM",
-          "call_sign": "LaZ WDTW",
-          "type": "AM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 1,
-        "strikes": 1,
-        "outs": 3,
-        "home_runs": 9,
-        "away_runs": 2,
-        "home_hits": 12,
-        "away_hits": 5,
-        "home_errors": 0,
-        "away_errors": 1
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
     {
       "game_pk": 824222,
       "date": "2026-09-22",
