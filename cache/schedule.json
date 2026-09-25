@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-25T21:37:01+00:00",
+  "fetched_at": "2026-09-25T23:21:04+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -119,8 +119,8 @@
       "game_pk": 822681,
       "date": "2026-09-25",
       "start_time_utc": "2026-09-25T22:45:00Z",
-      "status": "Preview",
-      "detailed_status": "Pre-Game",
+      "status": "Live",
+      "detailed_status": "In Progress",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -128,7 +128,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "75-84",
-        "score": 0
+        "score": 2
       },
       "away": {
         "id": 121,
@@ -136,7 +136,7 @@
         "name": "New York Mets",
         "short_name": "Mets",
         "record": "73-86",
-        "score": 0
+        "score": 1
       },
       "venue": {
         "id": 3309,
@@ -152,7 +152,11 @@
           "name": "Andrew Alvarez",
           "hand": null
         },
-        "away": null
+        "away": {
+          "id": 642376,
+          "name": "Jefry Yan",
+          "hand": null
+        }
       },
       "broadcasts": [
         {
@@ -202,17 +206,17 @@
         }
       ],
       "linescore": {
-        "current_inning": 1,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "current_inning": 2,
+        "inning_half": "Bottom",
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "home_runs": 0,
-        "away_runs": 0,
-        "home_hits": 0,
-        "away_hits": 0,
+        "strikes": 2,
+        "outs": 1,
+        "home_runs": 2,
+        "away_runs": 1,
+        "home_hits": 3,
+        "away_hits": 2,
         "home_errors": 0,
         "away_errors": 0
       },
