@@ -1,74 +1,73 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-25T05:07:10+00:00",
+  "generated_at": "2026-09-25T09:08:36+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-25T05:06:30+00:00",
-    "videos": "2026-09-25T00:11:54+00:00",
-    "vibes": "2026-09-25T05:07:10+00:00"
+    "news": "2026-09-25T09:07:54+00:00",
+    "videos": "2026-09-25T09:07:54+00:00",
+    "vibes": "2026-09-25T09:08:36+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-25T05:06:18+00:00",
+      "last_updated_at": "2026-09-25T09:07:28+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-25T05:06:19+00:00",
+      "last_updated_at": "2026-09-25T09:07:29+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-25T05:06:19+00:00",
+      "last_updated_at": "2026-09-25T09:07:29+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-25T05:06:19+00:00",
+      "last_updated_at": "2026-09-25T09:07:29+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-25T05:06:20+00:00",
+      "last_updated_at": "2026-09-25T09:07:41+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-25T05:06:20+00:00",
+      "last_updated_at": "2026-09-25T09:07:53+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-09-25T09:07:53+00:00",
+      "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-09-25T09:07:54+00:00",
+      "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "videos",
-      "reason": "last_check_too_old"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "Winner-Take-All semi-final for Triple-A Rochester!",
       "url": "https://nats.talkdcsports.com/2026/09/24/winner-take-all-semi-final-for-triple-a-rochester/",
       "source": "Talk Nats",
       "published_at": "2026-09-24T23:02:25+00:00",
+      "why_it_matters": {
+        "text": "The Rochester Red Wings and Memphis Redbirds face off in a winner-take-all elimination game at AutoZone Park. The winner of this Triple-A International League Championship Series game advances directly to the Triple-A National Championship Game.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/nats.talk-dc-sports-6ab5ae971328b.png?fit=1200%2C798&ssl=1"
     },
     {
@@ -77,7 +76,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-09-24T20:36:42+00:00",
       "why_it_matters": {
-        "text": "Devin Fitz-Gerald is a highly-ranked switch-hitting infield prospect in the Nationals system. Ranked among the top prospects by MLB Pipeline and Baseball America, he is considered one of the best prospects acquired in the MacKenzie Gore trade.",
+        "text": "Devin Fitz-Gerald is a highly-ranked switch-hitting infield prospect in the Nationals system. Ranked as a top prospect by both MLB Pipeline and Baseball America, he is noted as the strongest prospect received in the MacKenzie Gore trade.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2286316006.jpg?quality=90&strip=all&crop=0%2C10.743992708026%2C100%2C78.512014583948&w=1200"
@@ -99,7 +98,7 @@
       "source": "Talk Nats",
       "published_at": "2026-09-24T13:31:33+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals are expected to face a challenge to their 2022 record. The final standings will be revealed on Sunday evening.",
+        "text": "The text discusses the upcoming final standings for the Washington Nationals, noting that the team's performance in 2026 differed from 2022 and will be compared against the record set in 2022.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2025/11/Paul-Toboni-Blake-Butera-State-of-the-Nationals-1.jpg?fit=1200%2C1016&ssl=1"
@@ -121,7 +120,7 @@
       "source": "Talk Nats",
       "published_at": "2026-09-23T23:15:00+00:00",
       "why_it_matters": {
-        "text": "The Rochester Red Wings are one win away from the championship game after winning the first game of a best-of-three playoff series against the Memphis Redbirds for the Triple-A International League semi-final.",
+        "text": "The Rochester Red Wings are one win away from the championship game after winning their first game in the best-of-3 Triple-A International League semi-final series against the Memphis Redbirds.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2024/10/Matt-LeCroy-by-Marlene-Koenig-scaled.jpg?fit=919%2C1200&ssl=1"
@@ -145,6 +144,10 @@
     "result_banner": {
       "type": "win",
       "text": "Curly W! The Nats beat the Tigers 4-2."
+    },
+    "storyline": {
+      "text": "The Rochester Red Wings and Memphis Redbirds face off in a winner-take-all elimination game at AutoZone Park. The winner of this Triple-A International League Championship Series game advances directly to the Triple-A National Championship Game.",
+      "ai_generated": true
     }
   },
   "videos": [
@@ -203,18 +206,18 @@
         ]
       },
       {
-        "label": "Roster Competition",
-        "sentiment": "mixed",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/94421/washington-nationals-have-interesting-decision-make-first-base-next-season"
-        ]
-      },
-      {
         "label": "Triple-A Success",
         "sentiment": "positive",
         "source_urls": [
           "https://nats.talkdcsports.com/2026/09/23/game-2-rochester-is-1-win-from-moving-to-the-championship-game/",
           "https://nats.talkdcsports.com/2026/09/24/winner-take-all-semi-final-for-triple-a-rochester/"
+        ]
+      },
+      {
+        "label": "Roster Competition",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/94421/washington-nationals-have-interesting-decision-make-first-base-next-season"
         ]
       },
       {
@@ -228,12 +231,47 @@
   },
   "trending": [
     {
+      "label": "Triple-A",
+      "sentiment": "",
+      "context": "Winner-Take-All semi-final for Triple-A Rochester!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/23/game-2-rochester-is-1-win-from-moving-to-the-championship-game/",
+        "https://nats.talkdcsports.com/2026/09/24/winner-take-all-semi-final-for-triple-a-rochester/"
+      ]
+    },
+    {
+      "label": "Rochester Red Wings",
+      "sentiment": "",
+      "context": "Winner-Take-All semi-final for Triple-A Rochester!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/23/game-2-rochester-is-1-win-from-moving-to-the-championship-game/",
+        "https://nats.talkdcsports.com/2026/09/24/winner-take-all-semi-final-for-triple-a-rochester/"
+      ]
+    },
+    {
+      "label": "Memphis Redbirds",
+      "sentiment": "",
+      "context": "Winner-Take-All semi-final for Triple-A Rochester!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/23/game-2-rochester-is-1-win-from-moving-to-the-championship-game/",
+        "https://nats.talkdcsports.com/2026/09/24/winner-take-all-semi-final-for-triple-a-rochester/"
+      ]
+    },
+    {
       "label": "Playoffs",
       "sentiment": "",
       "context": "MLBTR Podcast: Free Agent Power Rankings, Cade Cavalli’s Extension, And Likely Playoff Matchups",
       "source_urls": [
         "https://nats.talkdcsports.com/2026/09/23/game-2-rochester-is-1-win-from-moving-to-the-championship-game/",
         "https://www.mlbtraderumors.com/2026/09/mlbtr-podcast-free-agent-power-rankings-cade-cavallis-extension-and-likely-playoff-matchups.html"
+      ]
+    },
+    {
+      "label": "championship",
+      "sentiment": "",
+      "context": "Winner-Take-All semi-final for Triple-A Rochester!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/24/winner-take-all-semi-final-for-triple-a-rochester/"
       ]
     },
     {
@@ -253,43 +291,11 @@
       ]
     },
     {
-      "label": "roster moves",
-      "sentiment": "",
-      "context": "The Washington Nationals have an interesting decision to make at first base next season",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/94421/washington-nationals-have-interesting-decision-make-first-base-next-season"
-      ]
-    },
-    {
       "label": "first base",
       "sentiment": "",
       "context": "The Washington Nationals have an interesting decision to make at first base next season",
       "source_urls": [
         "https://www.federalbaseball.com/washington-nationals-analysis/94421/washington-nationals-have-interesting-decision-make-first-base-next-season"
-      ]
-    },
-    {
-      "label": "DH",
-      "sentiment": "",
-      "context": "The Washington Nationals have an interesting decision to make at first base next season",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/94421/washington-nationals-have-interesting-decision-make-first-base-next-season"
-      ]
-    },
-    {
-      "label": "standings",
-      "sentiment": "",
-      "context": "Those who thought 2026 was going to be another 2022 were wrong! What about 2027?",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/09/24/those-who-thought-2026-was-going-to-be-another-2022-were-wrong-what-about-2027/"
-      ]
-    },
-    {
-      "label": "Podcast",
-      "sentiment": "",
-      "context": "MLBTR Podcast: Free Agent Power Rankings, Cade Cavalli’s Extension, And Likely Playoff Matchups",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/09/mlbtr-podcast-free-agent-power-rankings-cade-cavallis-extension-and-likely-playoff-matchups.html"
       ]
     }
   ],
