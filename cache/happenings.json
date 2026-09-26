@@ -1,9 +1,9 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-26T01:13:37+00:00",
+  "generated_at": "2026-09-26T01:55:33+00:00",
   "mode": "rss_fallback",
   "freshness": {
-    "news": "2026-09-26T01:12:08+00:00",
+    "news": "2026-09-26T01:55:30+00:00",
     "videos": "2026-09-26T01:12:08+00:00",
     "vibes": null
   },
@@ -11,53 +11,57 @@
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-26T01:12:04+00:00",
+      "last_updated_at": "2026-09-26T01:55:19+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-26T01:12:05+00:00",
+      "last_updated_at": "2026-09-26T01:55:19+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-26T01:12:05+00:00",
+      "last_updated_at": "2026-09-26T01:55:19+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-26T01:12:06+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-26T01:12:06+00:00",
+      "last_updated_at": "2026-09-26T01:55:20+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-26T01:12:07+00:00",
+      "last_updated_at": "2026-09-26T01:55:20+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-09-26T01:12:07+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-09-26T01:12:08+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
   "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    },
     {
       "id": "why_it_matters",
       "reason": "ai_enrichment_unavailable"
@@ -72,6 +76,13 @@
     }
   ],
   "top_stories": [
+    {
+      "title": "Carson Benge becomes first Mets rookie to go 20/20 in a season",
+      "url": "https://sports.yahoo.com/articles/carson-benge-becomes-first-mets-011404457.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-09-26T01:14:04+00:00",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/872d7a680bbc3e678ca20b8d7c675e8ae2436b29ead3ae1e265022b6c03a65b2/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2F2c5e5551099a14864a27d2da54b57a86.jpg"
+    },
     {
       "title": "Saturday&#39;s Mets-Nationals game moved up to avoid inclement weather",
       "url": "https://sports.yahoo.com/articles/saturdays-mets-nationals-game-moved-003223179.html",
@@ -120,19 +131,12 @@
       "source": "Talk Nats",
       "published_at": "2026-09-25T13:59:55+00:00",
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/Cortland-Lawson-9-24-2026.png?fit=778%2C582&ssl=1"
-    },
-    {
-      "title": "The Rochester Red Wings win their first International League title since 1997",
-      "url": "https://www.federalbaseball.com/washington-nationals-news/94438/rochester-red-wings-win-first-international-league-title-1997",
-      "source": "Federal Baseball",
-      "published_at": "2026-09-25T13:33:27+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/b3038294-2cf1-4b7e-986f-60378855b24e-RedWings.webp?quality=90&strip=all&crop=0,3.4613147178592,100,93.077370564282"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "win",
-      "text": "Curly W! The Nats beat the Tigers 4-2."
+      "text": "Curly W! The Nats beat the Mets 7-6."
     }
   },
   "videos": [
