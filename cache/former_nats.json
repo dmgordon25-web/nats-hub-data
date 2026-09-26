@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-25T21:37:01+00:00",
+  "fetched_at": "2026-09-26T01:31:22+00:00",
   "source": "mlb_statsapi",
   "players": [
     {
@@ -15,21 +15,21 @@
         "name": "Philadelphia Phillies"
       },
       "season_stats": {
-        "ab": 564,
+        "ab": 567,
         "avg": ".270",
         "hr": 28,
         "rbi": 86,
         "r": 92,
-        "h": 152,
-        "obp": ".381",
-        "slg": ".486",
+        "h": 153,
+        "obp": ".382",
+        "slg": ".485",
         "ops": ".867",
         "sb": 7
       },
       "last_game": {
-        "date": "2026-09-24",
-        "opponent": "MIL",
-        "line": "2-4, 1 RBI"
+        "date": "2026-09-25",
+        "opponent": "TB",
+        "line": "1-3"
       },
       "significant_event": null,
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/547180/headshot/67/current"
@@ -47,23 +47,28 @@
         "name": "New York Mets"
       },
       "season_stats": {
-        "ab": 387,
-        "avg": ".274",
+        "ab": 391,
+        "avg": ".276",
         "hr": 27,
         "rbi": 68,
-        "r": 61,
-        "h": 106,
-        "obp": ".393",
+        "r": 63,
+        "h": 108,
+        "obp": ".394",
         "slg": ".522",
-        "ops": ".915",
+        "ops": ".916",
         "sb": 9
       },
       "last_game": {
-        "date": "2026-09-24",
-        "opponent": "TEX",
-        "line": "0-3"
+        "date": "2026-09-25",
+        "opponent": "WSH",
+        "line": "2-4"
       },
-      "significant_event": null,
+      "significant_event": {
+        "kind": "against_nats",
+        "summary": "2-for-4 vs. Nats",
+        "against_nats": true,
+        "celebrate": true
+      },
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/665742/headshot/67/current"
     },
     {
@@ -79,21 +84,21 @@
         "name": "Philadelphia Phillies"
       },
       "season_stats": {
-        "ab": 631,
+        "ab": 635,
         "avg": ".239",
         "hr": 19,
         "rbi": 58,
         "r": 100,
-        "h": 151,
+        "h": 152,
         "obp": ".296",
-        "slg": ".377",
-        "ops": ".673",
+        "slg": ".376",
+        "ops": ".672",
         "sb": 21
       },
       "last_game": {
-        "date": "2026-09-24",
-        "opponent": "MIL",
-        "line": "0-4"
+        "date": "2026-09-25",
+        "opponent": "TB",
+        "line": "1-4"
       },
       "significant_event": null,
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/607208/headshot/67/current"
@@ -111,21 +116,21 @@
         "name": "Minnesota Twins"
       },
       "season_stats": {
-        "ab": 560,
+        "ab": 561,
         "avg": ".255",
         "hr": 20,
         "rbi": 92,
-        "r": 76,
+        "r": 77,
         "h": 143,
-        "obp": ".317",
-        "slg": ".416",
-        "ops": ".733",
+        "obp": ".319",
+        "slg": ".415",
+        "ops": ".734",
         "sb": 2
       },
       "last_game": {
-        "date": "2026-09-23",
-        "opponent": "SF",
-        "line": "1-5, 1 RBI"
+        "date": "2026-09-25",
+        "opponent": "TEX",
+        "line": "0-1"
       },
       "significant_event": null,
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/605137/headshot/67/current"
@@ -288,5 +293,13 @@
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/d_people:generic:headshot:67:current.png/w_213,q_auto:best/v1/people/607200/headshot/67/current"
     }
   ],
-  "flag_candidates": []
+  "flag_candidates": [
+    {
+      "mlb_id": 665742,
+      "name": "Juan Soto",
+      "summary": "2-for-4 vs. Nats",
+      "celebrate": true,
+      "against_nats": true
+    }
+  ]
 }
