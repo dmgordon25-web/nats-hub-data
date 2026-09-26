@@ -1,20 +1,20 @@
 {
-  "fetched_at": "2026-09-26T01:31:22+00:00",
+  "fetched_at": "2026-09-26T01:50:26+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
       "game_pk": 822681,
       "date": "2026-09-25",
       "start_time_utc": "2026-09-25T22:45:00Z",
-      "status": "Live",
-      "detailed_status": "In Progress",
+      "status": "Final",
+      "detailed_status": "Game Over",
       "is_nats_home": true,
       "home": {
         "id": 120,
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "75-84",
+        "record": "76-84",
         "score": 7
       },
       "away": {
@@ -22,7 +22,7 @@
         "abbrev": "NYM",
         "name": "New York Mets",
         "short_name": "Mets",
-        "record": "73-86",
+        "record": "73-87",
         "score": 6
       },
       "venue": {
@@ -93,13 +93,13 @@
         }
       ],
       "linescore": {
-        "current_inning": 8,
-        "inning_half": "Bottom",
-        "inning_state": "Bottom",
-        "is_top_inning": false,
+        "current_inning": 9,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
         "balls": 1,
         "strikes": 2,
-        "outs": 1,
+        "outs": 3,
         "home_runs": 7,
         "away_runs": 6,
         "home_hits": 11,
@@ -127,7 +127,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "75-84",
+        "record": "76-84",
         "score": null
       },
       "away": {
@@ -135,7 +135,7 @@
         "abbrev": "NYM",
         "name": "New York Mets",
         "short_name": "Mets",
-        "record": "73-86",
+        "record": "73-87",
         "score": null
       },
       "venue": {
@@ -240,7 +240,7 @@
         "abbrev": "WSH",
         "name": "Washington Nationals",
         "short_name": "Nationals",
-        "record": "75-84",
+        "record": "76-84",
         "score": null
       },
       "away": {
@@ -248,7 +248,7 @@
         "abbrev": "NYM",
         "name": "New York Mets",
         "short_name": "Mets",
-        "record": "73-86",
+        "record": "73-87",
         "score": null
       },
       "venue": {
