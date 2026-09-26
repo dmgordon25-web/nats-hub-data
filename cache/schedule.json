@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-26T12:12:44+00:00",
+  "fetched_at": "2026-09-26T16:02:14+00:00",
   "source": "mlb_statsapi",
   "games": [
     {
@@ -120,7 +120,7 @@
       "date": "2026-09-26",
       "start_time_utc": "2026-09-26T16:35:00Z",
       "status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -128,7 +128,7 @@
         "name": "Washington Nationals",
         "short_name": "Nationals",
         "record": "76-84",
-        "score": null
+        "score": 0
       },
       "away": {
         "id": 121,
@@ -136,7 +136,7 @@
         "name": "New York Mets",
         "short_name": "Mets",
         "record": "73-87",
-        "score": null
+        "score": 0
       },
       "venue": {
         "id": 3309,
@@ -166,7 +166,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Nationals.TV",
@@ -175,7 +175,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Audacy Mets Radio WHSQ 880AM",
@@ -184,7 +184,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "WJFK 106.7 The Fan",
@@ -193,7 +193,7 @@
           "language": "en",
           "is_national": false,
           "home_away": "home",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         },
         {
           "name": "Audacy App 92.3 HD2",
@@ -202,23 +202,23 @@
           "language": "es",
           "is_national": false,
           "home_away": "away",
-          "media_state": "MEDIA_OFF"
+          "media_state": "MEDIA_ON"
         }
       ],
       "linescore": {
-        "current_inning": null,
-        "inning_half": null,
-        "inning_state": null,
-        "is_top_inning": null,
-        "balls": null,
-        "strikes": null,
-        "outs": null,
-        "home_runs": null,
-        "away_runs": null,
-        "home_hits": null,
-        "away_hits": null,
-        "home_errors": null,
-        "away_errors": null
+        "current_inning": 1,
+        "inning_half": "Top",
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "home_runs": 0,
+        "away_runs": 0,
+        "home_hits": 0,
+        "away_hits": 0,
+        "home_errors": 0,
+        "away_errors": 0
       },
       "series": {
         "game_number": 2,
