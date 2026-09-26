@@ -1,73 +1,110 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-25T21:11:38+00:00",
-  "mode": "falkor_enriched",
+  "generated_at": "2026-09-26T01:13:37+00:00",
+  "mode": "rss_fallback",
   "freshness": {
-    "news": "2026-09-25T21:11:09+00:00",
-    "videos": "2026-09-25T21:11:09+00:00",
-    "vibes": "2026-09-25T21:11:38+00:00"
+    "news": "2026-09-26T01:12:08+00:00",
+    "videos": "2026-09-26T01:12:08+00:00",
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-25T21:11:05+00:00",
+      "last_updated_at": "2026-09-26T01:12:04+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-25T21:11:06+00:00",
+      "last_updated_at": "2026-09-26T01:12:05+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-25T21:11:07+00:00",
+      "last_updated_at": "2026-09-26T01:12:05+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-25T21:11:07+00:00",
+      "last_updated_at": "2026-09-26T01:12:06+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-25T21:11:07+00:00",
+      "last_updated_at": "2026-09-26T01:12:06+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-25T21:11:08+00:00",
+      "last_updated_at": "2026-09-26T01:12:07+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-09-25T21:11:08+00:00",
+      "last_updated_at": "2026-09-26T01:12:07+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-09-25T21:11:09+00:00",
+      "last_updated_at": "2026-09-26T01:12:08+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "why_it_matters",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "trending",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
+    }
+  ],
   "top_stories": [
+    {
+      "title": "Saturday&#39;s Mets-Nationals game moved up to avoid inclement weather",
+      "url": "https://sports.yahoo.com/articles/saturdays-mets-nationals-game-moved-003223179.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-09-26T00:32:23+00:00",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/992d06c71cb9bf737c3860193f2ca02be19c88ff6bd210fb10154caafdfcc514/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2Fb9c2759ac2bad274849f176dc636be1f.jpg"
+    },
+    {
+      "title": "Game #160 Nats can clinch 4th place with a Curly W!",
+      "url": "https://nats.talkdcsports.com/2026/09/25/game-160-nats-can-clinch-4th-place-with-a-curly-w/",
+      "source": "Talk Nats",
+      "published_at": "2026-09-25T21:48:00+00:00",
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/nats.talk-dc-sports-6aa41c4a9e856.png?fit=1090%2C976&ssl=1"
+    },
+    {
+      "title": "Mets at Nationals: Lineups, broadcast info, and open thread, 9/25/26",
+      "url": "https://sports.yahoo.com/articles/mets-nationals-lineups-broadcast-open-214500990.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-09-25T21:45:00+00:00",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/1a1ecf1e57423e48ba9ab26f1855a50e94841f0a7c2989b038748e2c5269f21f/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F6447d28cfb4c84e00a81e2cbea6d6e22.jpg"
+    },
+    {
+      "title": "Washington Nationals vs New York Mets Game Thread",
+      "url": "https://www.federalbaseball.com/washington-nationals-discussions/94463/washington-nationals-vs-new-york-mets-game-thread",
+      "source": "Federal Baseball",
+      "published_at": "2026-09-25T20:26:56+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2296186987.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+    },
     {
       "title": "Washington Nationals final chapter of 2026 season comes with 3 games against Mets",
       "url": "https://www.federalbaseball.com/washington-nationals-game-information/94451/washington-nationals-final-chapter-2026-season-comes-3-games-against-mets",
       "source": "Federal Baseball",
       "published_at": "2026-09-25T20:11:08+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals conclude their 2026 season with a three-game series against the Mets. The two teams are separated by only two games as they compete for the 4th and 5th spots in the National League East.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2296477628.jpg?quality=90&strip=all&crop=0%2C10.736526649144%2C100%2C78.526946701712&w=1200"
     },
     {
@@ -75,10 +112,6 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94449/jorbit-vivas-not-been-that-bad-for-washington-nationals",
       "source": "Federal Baseball",
       "published_at": "2026-09-25T17:29:49+00:00",
-      "why_it_matters": {
-        "text": "Jorbit Vivas, a 25-year-old utility infielder for the Washington Nationals, has faced criticism from fans due to struggles in RISP and lapses in focus, though some argue his performance has not been that bad.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2296995782.jpg?quality=90&strip=all&crop=0%2C10.741439722932%2C100%2C78.517120554135&w=1200"
     },
     {
@@ -86,10 +119,6 @@
       "url": "https://nats.talkdcsports.com/2026/09/25/rochester-wins-the-international-league-championship-advances-to-triple-a-national-championship-game/",
       "source": "Talk Nats",
       "published_at": "2026-09-25T13:59:55+00:00",
-      "why_it_matters": {
-        "text": "The Rochester Red Wings won the Triple-A International League championship with a 3-2 victory over the Memphis Redbirds. This win advances the team to the Triple-A National Championship Game.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/Cortland-Lawson-9-24-2026.png?fit=778%2C582&ssl=1"
     },
     {
@@ -97,57 +126,13 @@
       "url": "https://www.federalbaseball.com/washington-nationals-news/94438/rochester-red-wings-win-first-international-league-title-1997",
       "source": "Federal Baseball",
       "published_at": "2026-09-25T13:33:27+00:00",
-      "why_it_matters": {
-        "text": "The Rochester Red Wings, the Washington Nationals' AAA affiliate, won their first International League title since 1997 after defeating the Memphis Red Birds in a winner-take-all game 3.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/b3038294-2cf1-4b7e-986f-60378855b24e-RedWings.webp?quality=90&strip=all&crop=0,3.4613147178592,100,93.077370564282"
-    },
-    {
-      "title": "Winner-Take-All semi-final for Triple-A Rochester!",
-      "url": "https://nats.talkdcsports.com/2026/09/24/winner-take-all-semi-final-for-triple-a-rochester/",
-      "source": "Talk Nats",
-      "published_at": "2026-09-24T23:02:25+00:00",
-      "why_it_matters": {
-        "text": "The Rochester Red Wings and Memphis Redbirds face off in a winner-take-all elimination game in Game 3 of the Triple-A International League Championship Series. The winner advances directly to the Triple-A National Championship Game.",
-        "ai_generated": true
-      },
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/nats.talk-dc-sports-6ab5ae971328b.png?fit=1200%2C798&ssl=1"
-    },
-    {
-      "title": "Nationals prospect Devin Fitz-Gerald has persevered despite a trying year on and off the field",
-      "url": "https://www.federalbaseball.com/washington-nationals-prospects/94429/nationals-devin-fitz-gerald-persevered-despite-trying-year-on-off-field",
-      "source": "Federal Baseball",
-      "published_at": "2026-09-24T20:36:42+00:00",
-      "why_it_matters": {
-        "text": "Devin Fitz-Gerald is a highly-ranked switch-hitting infield prospect in the Nationals system. Ranked as a top prospect by both MLB Pipeline and Baseball America, he is considered the best of the five prospects received in the MacKenzie Gore trade.",
-        "ai_generated": true
-      },
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2286316006.jpg?quality=90&strip=all&crop=0%2C10.743992708026%2C100%2C78.512014583948&w=1200"
-    },
-    {
-      "title": "The Washington Nationals have an interesting decision to make at first base next season",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/94421/washington-nationals-have-interesting-decision-make-first-base-next-season",
-      "source": "Federal Baseball",
-      "published_at": "2026-09-24T14:47:32+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2294772873.jpg?quality=90&strip=all&crop=0%2C10.735791285524%2C100%2C78.528417428952&w=1200"
-    },
-    {
-      "title": "Those who thought 2026 was going to be another 2022 were wrong! What about 2027?",
-      "url": "https://nats.talkdcsports.com/2026/09/24/those-who-thought-2026-was-going-to-be-another-2022-were-wrong-what-about-2027/",
-      "source": "Talk Nats",
-      "published_at": "2026-09-24T13:31:33+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2025/11/Paul-Toboni-Blake-Butera-State-of-the-Nationals-1.jpg?fit=1200%2C1016&ssl=1"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "win",
       "text": "Curly W! The Nats beat the Tigers 4-2."
-    },
-    "storyline": {
-      "text": "The Washington Nationals conclude their 2026 season with a three-game series against the Mets. The two teams are separated by only two games as they compete for the 4th and 5th spots in the National League East.",
-      "ai_generated": true
     }
   },
   "videos": [
@@ -195,118 +180,12 @@
     }
   ],
   "fan_vibes": {
-    "overall": "mixed",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "Minor League Success",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/09/24/winner-take-all-semi-final-for-triple-a-rochester/",
-          "https://nats.talkdcsports.com/2026/09/25/rochester-wins-the-international-league-championship-advances-to-triple-a-national-championship-game/",
-          "https://www.federalbaseball.com/washington-nationals-news/94438/rochester-red-wings-win-first-international-league-title-1997"
-        ]
-      },
-      {
-        "label": "Prospect Development",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-prospects/94429/nationals-devin-fitz-gerald-persevered-despite-trying-year-on-off-field"
-        ]
-      },
-      {
-        "label": "Player Performance Debate",
-        "sentiment": "mixed",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/94449/jorbit-vivas-not-been-that-bad-for-washington-nationals"
-        ]
-      },
-      {
-        "label": "End of Season Competition",
-        "sentiment": "mixed",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-game-information/94451/washington-nationals-final-chapter-2026-season-comes-3-games-against-mets"
-        ]
-      }
-    ]
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
   },
-  "trending": [
-    {
-      "label": "Rochester Red Wings",
-      "sentiment": "",
-      "context": "Rochester Wins the International League Championship; Advances to Triple-A National Championship Game",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/09/24/winner-take-all-semi-final-for-triple-a-rochester/",
-        "https://nats.talkdcsports.com/2026/09/25/rochester-wins-the-international-league-championship-advances-to-triple-a-national-championship-game/",
-        "https://www.federalbaseball.com/washington-nationals-news/94438/rochester-red-wings-win-first-international-league-title-1997"
-      ]
-    },
-    {
-      "label": "Championship",
-      "sentiment": "",
-      "context": "Rochester Wins the International League Championship; Advances to Triple-A National Championship Game",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/09/24/winner-take-all-semi-final-for-triple-a-rochester/",
-        "https://nats.talkdcsports.com/2026/09/25/rochester-wins-the-international-league-championship-advances-to-triple-a-national-championship-game/",
-        "https://www.federalbaseball.com/washington-nationals-news/94438/rochester-red-wings-win-first-international-league-title-1997"
-      ]
-    },
-    {
-      "label": "International League",
-      "sentiment": "",
-      "context": "Rochester Wins the International League Championship; Advances to Triple-A National Championship Game",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/09/25/rochester-wins-the-international-league-championship-advances-to-triple-a-national-championship-game/",
-        "https://www.federalbaseball.com/washington-nationals-news/94438/rochester-red-wings-win-first-international-league-title-1997"
-      ]
-    },
-    {
-      "label": "Triple-A",
-      "sentiment": "",
-      "context": "Rochester Wins the International League Championship; Advances to Triple-A National Championship Game",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/09/24/winner-take-all-semi-final-for-triple-a-rochester/",
-        "https://nats.talkdcsports.com/2026/09/25/rochester-wins-the-international-league-championship-advances-to-triple-a-national-championship-game/"
-      ]
-    },
-    {
-      "label": "New York Mets",
-      "sentiment": "",
-      "context": "Washington Nationals final chapter of 2026 season comes with 3 games against Mets",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-game-information/94451/washington-nationals-final-chapter-2026-season-comes-3-games-against-mets"
-      ]
-    },
-    {
-      "label": "National League East",
-      "sentiment": "",
-      "context": "Washington Nationals final chapter of 2026 season comes with 3 games against Mets",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-game-information/94451/washington-nationals-final-chapter-2026-season-comes-3-games-against-mets"
-      ]
-    },
-    {
-      "label": "2026 Season",
-      "sentiment": "",
-      "context": "Washington Nationals final chapter of 2026 season comes with 3 games against Mets",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-game-information/94451/washington-nationals-final-chapter-2026-season-comes-3-games-against-mets"
-      ]
-    },
-    {
-      "label": "Jorbit Vivas",
-      "sentiment": "",
-      "context": "Jorbit Vivas has not been that bad for the Washington Nationals",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/94449/jorbit-vivas-not-been-that-bad-for-washington-nationals"
-      ]
-    }
-  ],
+  "trending": [],
   "what_to_watch": [
-    {
-      "text": "The Nats host the Mets on Friday.",
-      "source_url_or_game_pk": "822681"
-    },
     {
       "text": "The Nats host the Mets on Saturday.",
       "source_url_or_game_pk": "822678"
@@ -318,9 +197,9 @@
   ],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "CJ Abrams",
-    "text": "The Nationals' dynamic young shortstop, acquired in the 2022 Juan Soto trade and now a cornerstone of the rebuild.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/682928/spots/120",
+    "name": "James Wood",
+    "text": "A towering, high-ceiling outfielder who also came to Washington in the Juan Soto trade.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/695578/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
