@@ -1,78 +1,69 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-26T05:16:28+00:00",
+  "generated_at": "2026-09-26T09:18:09+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-26T05:14:20+00:00",
-    "videos": "2026-09-26T01:12:08+00:00",
-    "vibes": "2026-09-26T05:16:28+00:00"
+    "news": "2026-09-26T09:17:09+00:00",
+    "videos": "2026-09-26T09:17:09+00:00",
+    "vibes": "2026-09-26T09:18:09+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-26T05:14:06+00:00",
+      "last_updated_at": "2026-09-26T09:16:55+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-26T05:14:07+00:00",
+      "last_updated_at": "2026-09-26T09:17:06+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-26T05:14:08+00:00",
+      "last_updated_at": "2026-09-26T09:17:07+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-26T05:14:09+00:00",
+      "last_updated_at": "2026-09-26T09:17:07+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-26T05:14:09+00:00",
+      "last_updated_at": "2026-09-26T09:17:07+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-26T05:14:10+00:00",
+      "last_updated_at": "2026-09-26T09:17:08+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-09-26T09:17:08+00:00",
+      "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-09-26T09:17:09+00:00",
+      "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "videos",
-      "reason": "last_check_too_old"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "Nationals To Activate Connelly Early From 60-Day IL",
       "url": "https://www.mlbtraderumors.com/2026/09/nationals-to-activate-connelly-early-from-60-day-il.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-09-26T03:43:39+00:00",
-      "why_it_matters": {
-        "text": "The Nationals are expected to activate lefty pitcher Connelly Early from the 60-day IL for his team debut in Saturday's matchup against the Mets. Early has not pitched in the majors since late June and is expected to pitch a few innings.",
-        "ai_generated": true
-      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/09/ConnellyEarly-1024x683.jpg"
     },
     {
@@ -81,7 +72,7 @@
       "source": "Talk Nats",
       "published_at": "2026-09-26T01:58:52+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals secured their 76th win of the season, clinching fourth place. Josiah Gray recorded his first save in the 7-6 victory over the New York Mets.",
+        "text": "The Washington Nationals secured their 76th win of the season, clinching 4th place. Josiah Gray recorded his first save in a 7-6 victory over the New York Mets.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/nats.talk-dc-sports-6ab7419042b09.png?fit=1118%2C960&ssl=1"
@@ -114,7 +105,7 @@
       "source": "Yahoo Sports MLB",
       "published_at": "2026-09-26T00:32:23+00:00",
       "why_it_matters": {
-        "text": "The start time for Saturday's game between the Mets and Nationals has been moved up as a precautionary measure to avoid inclement weather.",
+        "text": "The start time for Saturday's Mets-Nationals game has been moved up as a precautionary measure to avoid inclement weather in the area.",
         "ai_generated": true
       },
       "image_url": "https://s.yimg.com/lo/mysterio/api/992d06c71cb9bf737c3860193f2ca02be19c88ff6bd210fb10154caafdfcc514/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2Fb9c2759ac2bad274849f176dc636be1f.jpg"
@@ -125,7 +116,7 @@
       "source": "Talk Nats",
       "published_at": "2026-09-25T21:48:00+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals face the Mets tonight at Nationals Park. The team holds a 2.0 game lead in the standings, and a single win in this final series would clinch 4th place.",
+        "text": "The Washington Nationals face the Mets in their final series of the season at Nationals Park. The Nats hold a 2.0 game lead, and a single win in this series would clinch 4th place.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/nats.talk-dc-sports-6aa41c4a9e856.png?fit=1090%2C976&ssl=1"
@@ -149,25 +140,28 @@
     "result_banner": {
       "type": "win",
       "text": "Curly W! The Nats beat the Mets 7-6."
-    },
-    "storyline": {
-      "text": "The Nationals are expected to activate lefty pitcher Connelly Early from the 60-day IL for his team debut in Saturday's matchup against the Mets. Early has not pitched in the majors since late June and is expected to pitch a few innings.",
-      "ai_generated": true
     }
   },
   "videos": [
+    {
+      "title": "JOSIAH GRAY FIRST CAREER SAVE IN RETURN HOME! | Full Inning + Nationals.TV Interview",
+      "url": "https://www.youtube.com/watch?v=rVTAWfjjHWU",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i3.ytimg.com/vi/rVTAWfjjHWU/hqdefault.jpg",
+      "duration_s": 0
+    },
+    {
+      "title": "After 3 Years Josiah Gray Returns To Nats Park & Gets His 1st MLB Save",
+      "url": "https://www.youtube.com/shorts/kZ3D5D_9RSg",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i4.ytimg.com/vi/kZ3D5D_9RSg/hqdefault.jpg",
+      "duration_s": 0
+    },
     {
       "title": "Cade Cavalli to Nats Fans After Extension #MLB",
       "url": "https://www.youtube.com/shorts/v_1SMp5S_9I",
       "source": "Nationals on YouTube",
       "thumbnail_url": "https://i3.ytimg.com/vi/v_1SMp5S_9I/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "Cade Cavalli Contract Extension Press Conference",
-      "url": "https://www.youtube.com/watch?v=kjqZkaTsIpk",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i4.ytimg.com/vi/kjqZkaTsIpk/hqdefault.jpg",
       "duration_s": 0
     },
     {
@@ -190,13 +184,6 @@
       "source": "Nationals on YouTube",
       "thumbnail_url": "https://i1.ytimg.com/vi/PEPU1bBYJKk/hqdefault.jpg",
       "duration_s": 0
-    },
-    {
-      "title": "Dylan Crews Takes Flight And Robs Jordan Walker",
-      "url": "https://www.youtube.com/shorts/Emda7v1k46Y",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i2.ytimg.com/vi/Emda7v1k46Y/hqdefault.jpg",
-      "duration_s": 0
     }
   ],
   "fan_vibes": {
@@ -204,7 +191,7 @@
     "ai_generated": true,
     "themes": [
       {
-        "label": "Winning and Standings",
+        "label": "Winning and Ranking",
         "sentiment": "positive",
         "source_urls": [
           "https://nats.talkdcsports.com/2026/09/25/game-160-nats-can-clinch-4th-place-with-a-curly-w/",
@@ -212,7 +199,7 @@
         ]
       },
       {
-        "label": "Pitcher Activation",
+        "label": "Roster Management",
         "sentiment": "positive",
         "source_urls": [
           "https://www.mlbtraderumors.com/2026/09/nationals-to-activate-connelly-early-from-60-day-il.html"
@@ -238,22 +225,6 @@
         "https://sports.yahoo.com/articles/carson-benge-becomes-first-mets-011404457.html",
         "https://sports.yahoo.com/articles/mets-cant-overcome-early-deficit-014920255.html",
         "https://sports.yahoo.com/articles/saturdays-mets-nationals-game-moved-003223179.html"
-      ]
-    },
-    {
-      "label": "Connelly Early",
-      "sentiment": "",
-      "context": "Nationals To Activate Connelly Early From 60-Day IL",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/09/nationals-to-activate-connelly-early-from-60-day-il.html"
-      ]
-    },
-    {
-      "label": "Injured List",
-      "sentiment": "",
-      "context": "Nationals To Activate Connelly Early From 60-Day IL",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/09/nationals-to-activate-connelly-early-from-60-day-il.html"
       ]
     },
     {
@@ -294,6 +265,22 @@
       "context": "Carson Benge becomes first Mets rookie to go 20-20 in a season",
       "source_urls": [
         "https://sports.yahoo.com/articles/carson-benge-becomes-first-mets-011404457.html"
+      ]
+    },
+    {
+      "label": "Home Run",
+      "sentiment": "",
+      "context": "Carson Benge becomes first Mets rookie to go 20-20 in a season",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/carson-benge-becomes-first-mets-011404457.html"
+      ]
+    },
+    {
+      "label": "weather",
+      "sentiment": "",
+      "context": "Saturday&#39;s Mets-Nationals game moved up to avoid inclement weather",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/saturdays-mets-nationals-game-moved-003223179.html"
       ]
     }
   ],
