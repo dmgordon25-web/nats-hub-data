@@ -1,47 +1,47 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-27T01:29:22+00:00",
+  "generated_at": "2026-09-27T05:30:39+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-27T01:28:40+00:00",
+    "news": "2026-09-27T05:30:00+00:00",
     "videos": "2026-09-27T01:28:40+00:00",
-    "vibes": "2026-09-27T01:29:22+00:00"
+    "vibes": "2026-09-27T05:30:39+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-27T01:28:31+00:00",
+      "last_updated_at": "2026-09-27T05:29:48+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-27T01:28:32+00:00",
+      "last_updated_at": "2026-09-27T05:29:49+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-27T01:28:33+00:00",
+      "last_updated_at": "2026-09-27T05:29:50+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-27T01:28:33+00:00",
+      "last_updated_at": "2026-09-27T05:29:50+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-27T01:28:34+00:00",
+      "last_updated_at": "2026-09-27T05:29:50+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-27T01:28:35+00:00",
+      "last_updated_at": "2026-09-27T05:29:51+00:00",
       "status": "live"
     },
     {
@@ -53,33 +53,38 @@
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-09-27T01:28:40+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    }
+  ],
   "top_stories": [
     {
-      "title": "Mets' Soto exits after HBP; X-rays return clean",
-      "url": "https://www.espn.com/mlb/story/_/id/50035926/juan-soto-exits-mets-win-hbp-x-rays-negative",
-      "source": "ESPN MLB",
-      "published_at": "2026-09-27T02:14:22+00:00",
+      "title": "Luis Garcia Jr. showing signs of heating up at perfect time for Yankees ahead of playoffs",
+      "url": "https://sports.yahoo.com/articles/luis-garcia-jr-showing-signs-223911439.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-09-26T22:39:11+00:00",
       "why_it_matters": {
-        "text": "Mets left fielder Juan Soto was forced to leave Saturday's win against the Nationals after being hit by a pitch on his right hand in the ninth inning. X-rays returned clean.",
+        "text": "Luis Garcia Jr. showed signs of heating up for the Yankees during a 6-3 win over the Orioles, following a period of hitting .224 in September.",
         "ai_generated": true
       },
-      "image_url": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0926%2Fr1722156_1296x729_16%2D9.jpg"
+      "image_url": "https://s.yimg.com/lo/mysterio/api/4e1a88a806f4a3c78feb5db0785f3fbef4820b79cd1528bdec42e320ae0dfd7c/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fny_post_sports_articles_389%2Fc458620642b04d0e85e4bd6e2aa633ab.jpg"
     },
     {
-      "title": "Mets-Nationals game on Sunday moved up due to weather",
-      "url": "https://sports.yahoo.com/articles/mets-nationals-game-sunday-moved-203516333.html",
+      "title": "Former Yankees top prospect Chase Hampton DFA’d by Nationals after second chance",
+      "url": "https://sports.yahoo.com/articles/former-yankees-top-prospect-chase-213538571.html",
       "source": "Yahoo Sports MLB",
-      "published_at": "2026-09-26T20:35:16+00:00",
+      "published_at": "2026-09-26T21:35:38+00:00",
       "why_it_matters": {
-        "text": "The Mets and Nationals' final regular season game on Sunday will be moved to an earlier time due to forecasted inclement weather in Washington, D.C.",
+        "text": "Former Yankees top prospect Chase Hampton was designated for assignment by the Nationals, occurring just weeks after he was released by the Yankees.",
         "ai_generated": true
       },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/992d06c71cb9bf737c3860193f2ca02be19c88ff6bd210fb10154caafdfcc514/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2Fb9c2759ac2bad274849f176dc636be1f.jpg"
+      "image_url": "https://s.yimg.com/lo/mysterio/api/05dea62c0fa6b41a962d6aa8c03b16829719cba92bda7cdb62cc275a1290912c/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fny_post_sports_articles_389%2F74a4c3a92e23d9d9084bbe52384e0d40.jpg"
     },
     {
       "title": "Rochester goes for the Triple-A championship; Early gets promoted from Triple-A!",
@@ -87,49 +92,20 @@
       "source": "Talk Nats",
       "published_at": "2026-09-26T20:09:05+00:00",
       "why_it_matters": {
-        "text": "LHP Connelly Early was promoted from Triple-A Rochester to the Washington Nationals. Although he could have started for Rochester in the Triple-A championship, the team chose to have him debut for the Nats, where he threw 3.0 scoreless innings with one hit allowed.",
+        "text": "LHP Connelly Early was promoted from Triple-A Rochester to the Washington Nationals. Although he could have started for Rochester in the Triple-A championship, the team chose to have him debut for the Nats, where he threw 3.0 scoreless innings with only one hit.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-26-at-7.26.21-PM-1.jpeg?fit=986%2C1120&ssl=1"
-    },
-    {
-      "title": "X-rays negative after Mets&#39; Juan Soto leaves vs. Nationals following HBP on hand",
-      "url": "https://sports.yahoo.com/articles/x-rays-negative-mets-juan-194513743.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-09-26T19:45:13+00:00",
-      "why_it_matters": {
-        "text": "Juan Soto received positive news after X-rays came back negative following his departure from a game against the Nationals after being hit by a pitch on the hand.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/8b41b38d2f5d2cca2aa7d8d61bb177040fa980951d94d30c444f6084bf88d69e/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2F622b3f1d9297e70e0c462d2aabba8219.jpg"
-    },
-    {
-      "title": "A.J. Ewing’s home run give Mets win over Nationals, Tong finishes strong",
-      "url": "https://sports.yahoo.com/articles/j-ewing-home-run-mets-193340917.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-09-26T19:33:40+00:00",
-      "why_it_matters": {
-        "text": "The Mets won the penultimate game of their season following a home run by A.J. Ewing and a strong finish from Tong.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/116f6fb4f6c60f35b8f4fc86722dcd4de6e8659efd065d1a0e204472cd23cea4/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F8fd99107b54f455d3a5cd9394f6593a7.jpg"
-    },
-    {
-      "title": "A.J. Ewing lifts three-run shot, Ronny Mauricio homers twice in Mets&#39; 7-1 win over Nationals",
-      "url": "https://sports.yahoo.com/articles/j-ewing-lifts-three-run-192128680.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-09-26T19:21:28+00:00",
-      "why_it_matters": {
-        "text": "The Mets defeated the Washington Nationals 7-1 on Saturday afternoon, featuring a three-run shot from A.J. Ewing and two home runs from Ronny Mauricio.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/e3eb218e5fc36ab8289020570045fdb1e92e823a77f4f240959c93afd321dfa0/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2Ffb5c5b517b04b308fdeff40e611b2b13.jpg"
     },
     {
       "title": "Washington Nationals vs New York Mets Game Thread",
       "url": "https://www.federalbaseball.com/washington-nationals-discussions/94480/washington-nationals-vs-new-york-mets-game-thread",
       "source": "Federal Baseball",
       "published_at": "2026-09-26T15:50:08+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals are playing an early game against the New York Mets, moved from 3 PM to 12:35 PM to avoid bad weather. With two games remaining, the team aims to finish strong as Blake Butera makes some changes.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2296580008.jpg?quality=90&strip=all&crop=0%2C10.741798438134%2C100%2C78.516403123733&w=1200"
     },
     {
@@ -137,7 +113,36 @@
       "url": "https://www.mlbtraderumors.com/2026/09/nationals-designate-chase-hampton-for-assignment.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-09-26T15:30:17+00:00",
+      "why_it_matters": {
+        "text": "The Nationals have designated right-hander Chase Hampton for assignment and optioned Luis Perales to Triple-A Rochester. These moves are intended to clear roster space for the activation of Connelly Early from the 60-day injured list.",
+        "ai_generated": true
+      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2025/02/Chase_Hampton_Yankees-1024x683.jpg"
+    },
+    {
+      "title": "Game #161 Nats will finish ahead of the Mets in 2026!",
+      "url": "https://nats.talkdcsports.com/2026/09/26/game-161-nats-will-finish-ahead-of-the-mets-in-2026/",
+      "source": "Talk Nats",
+      "published_at": "2026-09-26T13:59:00+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals secured a win against the Mets on Friday night, ensuring they will finish ahead of the Mets in the standings for 2026. With the Marlins also winning their game, the NL East standings are now set.",
+        "ai_generated": true
+      },
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/IMG-20260912-WA0022.jpg?fit=1200%2C800&ssl=1"
+    },
+    {
+      "title": "The Washington Nationals officially avoid a last place finish",
+      "url": "https://www.federalbaseball.com/washington-nationals-analysis/94470/washington-nationals-avoid-last-place-finish",
+      "source": "Federal Baseball",
+      "published_at": "2026-09-26T12:57:56+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2296583948.jpg?quality=90&strip=all&crop=0%2C10.73820111473%2C100%2C78.523597770539&w=1200"
+    },
+    {
+      "title": "Nationals To Activate Connelly Early From 60-Day IL",
+      "url": "https://www.mlbtraderumors.com/2026/09/nationals-to-activate-connelly-early-from-60-day-il.html",
+      "source": "MLB Trade Rumors",
+      "published_at": "2026-09-26T03:43:39+00:00",
+      "image_url": "https://cdn.mlbtraderumors.com/files/2026/09/ConnellyEarly-1024x683.jpg"
     }
   ],
   "team_pulse": {
@@ -146,7 +151,7 @@
       "text": "Tough one — the Nats fell to the Mets 7-1."
     },
     "storyline": {
-      "text": "Mets left fielder Juan Soto was forced to leave Saturday's win against the Nationals after being hit by a pitch on his right hand in the ninth inning. X-rays returned clean.",
+      "text": "Luis Garcia Jr. showed signs of heating up for the Yankees during a 6-3 win over the Orioles, following a period of hitting .224 in September.",
       "ai_generated": true
     }
   },
@@ -164,74 +169,47 @@
     "ai_generated": true,
     "themes": [
       {
-        "label": "Roster Development",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/09/26/rochester-goes-for-the-triple-a-championship-early-gets-promoted-from-triple-a/"
-        ]
-      },
-      {
-        "label": "Opponent Performance",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://sports.yahoo.com/articles/j-ewing-home-run-mets-193340917.html",
-          "https://sports.yahoo.com/articles/j-ewing-lifts-three-run-192128680.html"
-        ]
-      },
-      {
-        "label": "Game Logistics",
+        "label": "Roster Management",
         "sentiment": "mixed",
         "source_urls": [
-          "https://sports.yahoo.com/articles/mets-nationals-game-sunday-moved-203516333.html"
+          "https://sports.yahoo.com/articles/former-yankees-top-prospect-chase-213538571.html",
+          "https://www.mlbtraderumors.com/2026/09/nationals-designate-chase-hampton-for-assignment.html"
+        ]
+      },
+      {
+        "label": "Prospect Promotion",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/09/26/rochester-goes-for-the-triple-a-championship-early-gets-promoted-from-triple-a/",
+          "https://www.mlbtraderumors.com/2026/09/nationals-designate-chase-hampton-for-assignment.html"
+        ]
+      },
+      {
+        "label": "Standings Progress",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/09/26/game-161-nats-will-finish-ahead-of-the-mets-in-2026/"
         ]
       }
     ]
   },
   "trending": [
     {
-      "label": "Mets",
+      "label": "Yankees",
       "sentiment": "",
-      "context": "Mets' Soto exits after HBP; X-rays return clean",
+      "context": "Luis Garcia Jr. showing signs of heating up at perfect time for Yankees ahead of playoffs",
       "source_urls": [
-        "https://sports.yahoo.com/articles/j-ewing-home-run-mets-193340917.html",
-        "https://sports.yahoo.com/articles/j-ewing-lifts-three-run-192128680.html",
-        "https://sports.yahoo.com/articles/mets-nationals-game-sunday-moved-203516333.html",
-        "https://sports.yahoo.com/articles/x-rays-negative-mets-juan-194513743.html",
-        "https://www.espn.com/mlb/story/_/id/50035926/juan-soto-exits-mets-win-hbp-x-rays-negative"
+        "https://sports.yahoo.com/articles/former-yankees-top-prospect-chase-213538571.html",
+        "https://sports.yahoo.com/articles/luis-garcia-jr-showing-signs-223911439.html"
       ]
     },
     {
-      "label": "Juan Soto",
+      "label": "Chase Hampton",
       "sentiment": "",
-      "context": "Mets' Soto exits after HBP; X-rays return clean",
+      "context": "Former Yankees top prospect Chase Hampton DFA’d by Nationals after second chance",
       "source_urls": [
-        "https://sports.yahoo.com/articles/x-rays-negative-mets-juan-194513743.html",
-        "https://www.espn.com/mlb/story/_/id/50035926/juan-soto-exits-mets-win-hbp-x-rays-negative"
-      ]
-    },
-    {
-      "label": "injury update",
-      "sentiment": "",
-      "context": "Mets' Soto exits after HBP; X-rays return clean",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/x-rays-negative-mets-juan-194513743.html",
-        "https://www.espn.com/mlb/story/_/id/50035926/juan-soto-exits-mets-win-hbp-x-rays-negative"
-      ]
-    },
-    {
-      "label": "Weather",
-      "sentiment": "",
-      "context": "Mets-Nationals game on Sunday moved up due to weather",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/mets-nationals-game-sunday-moved-203516333.html"
-      ]
-    },
-    {
-      "label": "Rochester",
-      "sentiment": "",
-      "context": "Rochester goes for the Triple-A championship; Early gets promoted from Triple-A!",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/09/26/rochester-goes-for-the-triple-a-championship-early-gets-promoted-from-triple-a/"
+        "https://sports.yahoo.com/articles/former-yankees-top-prospect-chase-213538571.html",
+        "https://www.mlbtraderumors.com/2026/09/nationals-designate-chase-hampton-for-assignment.html"
       ]
     },
     {
@@ -239,24 +217,49 @@
       "sentiment": "",
       "context": "Rochester goes for the Triple-A championship; Early gets promoted from Triple-A!",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/09/26/rochester-goes-for-the-triple-a-championship-early-gets-promoted-from-triple-a/"
+        "https://nats.talkdcsports.com/2026/09/26/rochester-goes-for-the-triple-a-championship-early-gets-promoted-from-triple-a/",
+        "https://www.mlbtraderumors.com/2026/09/nationals-designate-chase-hampton-for-assignment.html"
       ]
     },
     {
-      "label": "Triple-A",
+      "label": "New York Mets",
       "sentiment": "",
-      "context": "Rochester goes for the Triple-A championship; Early gets promoted from Triple-A!",
+      "context": "Washington Nationals vs New York Mets Game Thread",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/09/26/rochester-goes-for-the-triple-a-championship-early-gets-promoted-from-triple-a/"
+        "https://nats.talkdcsports.com/2026/09/26/game-161-nats-will-finish-ahead-of-the-mets-in-2026/",
+        "https://www.federalbaseball.com/washington-nationals-discussions/94480/washington-nationals-vs-new-york-mets-game-thread"
       ]
     },
     {
-      "label": "home run",
+      "label": "Luis Garcia Jr.",
       "sentiment": "",
-      "context": "A.J. Ewing’s home run give Mets win over Nationals, Tong finishes strong",
+      "context": "Luis Garcia Jr. showing signs of heating up at perfect time for Yankees ahead of playoffs",
       "source_urls": [
-        "https://sports.yahoo.com/articles/j-ewing-home-run-mets-193340917.html",
-        "https://sports.yahoo.com/articles/j-ewing-lifts-three-run-192128680.html"
+        "https://sports.yahoo.com/articles/luis-garcia-jr-showing-signs-223911439.html"
+      ]
+    },
+    {
+      "label": "Orioles",
+      "sentiment": "",
+      "context": "Luis Garcia Jr. showing signs of heating up at perfect time for Yankees ahead of playoffs",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/luis-garcia-jr-showing-signs-223911439.html"
+      ]
+    },
+    {
+      "label": "playoffs",
+      "sentiment": "",
+      "context": "Luis Garcia Jr. showing signs of heating up at perfect time for Yankees ahead of playoffs",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/luis-garcia-jr-showing-signs-223911439.html"
+      ]
+    },
+    {
+      "label": "Prospects",
+      "sentiment": "",
+      "context": "Former Yankees top prospect Chase Hampton DFA’d by Nationals after second chance",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/former-yankees-top-prospect-chase-213538571.html"
       ]
     }
   ],
