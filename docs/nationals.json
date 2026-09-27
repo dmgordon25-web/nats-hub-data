@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-09-27T16:39:00+00:00",
+  "fetched_at": "2026-09-27T17:42:48+00:00",
   "freshness": {
-    "schedule": "2026-09-27T16:38:59+00:00",
-    "standings": "2026-09-27T16:38:59+00:00",
+    "schedule": "2026-09-27T17:42:47+00:00",
+    "standings": "2026-09-27T17:42:48+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
-    "former_nats": "2026-09-27T12:58:58+00:00",
-    "weather": "2026-09-27T16:39:00+00:00"
+    "former_nats": "2026-09-27T17:42:47+00:00",
+    "weather": "2026-09-27T17:42:48+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -15,8 +15,8 @@
     "game_pk": 822679,
     "date": "2026-09-27",
     "start_time_utc": "2026-09-27T17:05:00Z",
-    "status": "Preview",
-    "detailed_status": "Delayed Start",
+    "status": "Live",
+    "detailed_status": "Warmup",
     "is_nats_home": true,
     "home": {
       "id": 120,
@@ -123,7 +123,7 @@
     },
     "double_header": "N",
     "_source": "mlb_statsapi",
-    "classification": "next",
+    "classification": "live",
     "provider": {
       "broadcast_name": "Nationals.TV",
       "is_national": false,
@@ -133,19 +133,19 @@
       "intent_uri": "mlbatbat://game/{game_pk}",
       "fallback_uri": "https://www.mlb.com/nationals/tv"
     },
-    "watch_label": "Delayed"
+    "watch_label": "Watch Live"
   },
   "focus_weather": {
-    "fetched_at": "2026-09-27T16:39:00+00:00",
+    "fetched_at": "2026-09-27T17:42:48+00:00",
     "source": "open_meteo",
     "game_pk": 822679,
     "venue_name": "Nationals Park",
     "forecast_at": "2026-09-27T17:00",
-    "temperature_f": 61.3,
-    "feels_like_f": 59.9,
-    "wind_mph": 7.1,
+    "temperature_f": 60.8,
+    "feels_like_f": 57.3,
+    "wind_mph": 12.7,
     "wind_dir": "NW",
-    "precip_chance": 31,
+    "precip_chance": 33,
     "precip_inches": 0.0,
     "summary": "Overcast",
     "is_dome": false
@@ -161,8 +161,8 @@
       "game_pk": 822679,
       "date": "2026-09-27",
       "start_time_utc": "2026-09-27T17:05:00Z",
-      "status": "Preview",
-      "detailed_status": "Delayed Start",
+      "status": "Live",
+      "detailed_status": "Warmup",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -269,7 +269,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -279,7 +279,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Delayed"
+      "watch_label": "Watch Live"
     }
   ],
   "last_result": {
@@ -659,8 +659,8 @@
       "game_pk": 822679,
       "date": "2026-09-27",
       "start_time_utc": "2026-09-27T17:05:00Z",
-      "status": "Preview",
-      "detailed_status": "Delayed Start",
+      "status": "Live",
+      "detailed_status": "Warmup",
       "is_nats_home": true,
       "home": {
         "id": 120,
@@ -767,7 +767,7 @@
       },
       "double_header": "N",
       "_source": "mlb_statsapi",
-      "classification": "next",
+      "classification": "live",
       "provider": {
         "broadcast_name": "Nationals.TV",
         "is_national": false,
@@ -777,7 +777,7 @@
         "intent_uri": "mlbatbat://game/{game_pk}",
         "fallback_uri": "https://www.mlb.com/nationals/tv"
       },
-      "watch_label": "Delayed"
+      "watch_label": "Watch Live"
     }
   ],
   "standings": {
