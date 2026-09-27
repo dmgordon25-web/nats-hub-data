@@ -1,68 +1,63 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-27T05:30:39+00:00",
+  "generated_at": "2026-09-27T09:31:56+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-27T05:30:00+00:00",
-    "videos": "2026-09-27T01:28:40+00:00",
-    "vibes": "2026-09-27T05:30:39+00:00"
+    "news": "2026-09-27T09:31:06+00:00",
+    "videos": "2026-09-27T09:31:06+00:00",
+    "vibes": "2026-09-27T09:31:56+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-27T05:29:48+00:00",
+      "last_updated_at": "2026-09-27T09:31:03+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-27T05:29:49+00:00",
+      "last_updated_at": "2026-09-27T09:31:04+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-27T05:29:50+00:00",
+      "last_updated_at": "2026-09-27T09:31:05+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-27T05:29:50+00:00",
+      "last_updated_at": "2026-09-27T09:31:05+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-27T05:29:50+00:00",
+      "last_updated_at": "2026-09-27T09:31:05+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-27T05:29:51+00:00",
+      "last_updated_at": "2026-09-27T09:31:05+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-09-27T09:31:06+00:00",
+      "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-09-27T09:31:06+00:00",
+      "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "videos",
-      "reason": "last_check_too_old"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "Luis Garcia Jr. showing signs of heating up at perfect time for Yankees ahead of playoffs",
@@ -76,23 +71,12 @@
       "image_url": "https://s.yimg.com/lo/mysterio/api/4e1a88a806f4a3c78feb5db0785f3fbef4820b79cd1528bdec42e320ae0dfd7c/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fny_post_sports_articles_389%2Fc458620642b04d0e85e4bd6e2aa633ab.jpg"
     },
     {
-      "title": "Former Yankees top prospect Chase Hampton DFA’d by Nationals after second chance",
-      "url": "https://sports.yahoo.com/articles/former-yankees-top-prospect-chase-213538571.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-09-26T21:35:38+00:00",
-      "why_it_matters": {
-        "text": "Former Yankees top prospect Chase Hampton was designated for assignment by the Nationals, occurring just weeks after he was released by the Yankees.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/05dea62c0fa6b41a962d6aa8c03b16829719cba92bda7cdb62cc275a1290912c/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fny_post_sports_articles_389%2F74a4c3a92e23d9d9084bbe52384e0d40.jpg"
-    },
-    {
       "title": "Rochester goes for the Triple-A championship; Early gets promoted from Triple-A!",
       "url": "https://nats.talkdcsports.com/2026/09/26/rochester-goes-for-the-triple-a-championship-early-gets-promoted-from-triple-a/",
       "source": "Talk Nats",
       "published_at": "2026-09-26T20:09:05+00:00",
       "why_it_matters": {
-        "text": "LHP Connelly Early was promoted from Triple-A Rochester to the Washington Nationals. Although he could have started for Rochester in the Triple-A championship, the team chose to have him debut for the Nats, where he threw 3.0 scoreless innings with only one hit.",
+        "text": "LHP Connelly Early was promoted from Triple-A Rochester to the Washington Nationals. Despite the team's pursuit of the Triple-A championship, Early was moved up to debut for the Nats, where he pitched 3.0 scoreless innings with only one hit.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-26-at-7.26.21-PM-1.jpeg?fit=986%2C1120&ssl=1"
@@ -103,7 +87,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-09-26T15:50:08+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals are playing an early game against the New York Mets, moved from 3 PM to 12:35 PM to avoid bad weather. With two games remaining, the team aims to finish strong as Blake Butera makes some changes.",
+        "text": "The Washington Nationals and New York Mets are playing an early game moved from 3 PM to 12:35 PM to avoid bad weather. With two games remaining, the Nats aim to finish strong as Blake Butera makes changes.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2296580008.jpg?quality=90&strip=all&crop=0%2C10.741798438134%2C100%2C78.516403123733&w=1200"
@@ -135,6 +119,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94470/washington-nationals-avoid-last-place-finish",
       "source": "Federal Baseball",
       "published_at": "2026-09-26T12:57:56+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals secured 4th place in their division following a 7-6 win, officially avoiding a last-place finish for the 2026 season.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2296583948.jpg?quality=90&strip=all&crop=0%2C10.73820111473%2C100%2C78.523597770539&w=1200"
     },
     {
@@ -143,6 +131,13 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-09-26T03:43:39+00:00",
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/09/ConnellyEarly-1024x683.jpg"
+    },
+    {
+      "title": "Postgamer: Nats clinch 4th place with 76th win! Josiah Gray 1st save!",
+      "url": "https://nats.talkdcsports.com/2026/09/25/postgamer-nats-clinch-4th-place-with-76th-win-josiah-gray-1st-save/",
+      "source": "Talk Nats",
+      "published_at": "2026-09-26T01:58:52+00:00",
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/nats.talk-dc-sports-6ab7419042b09.png?fit=1118%2C960&ssl=1"
     }
   ],
   "team_pulse": {
@@ -157,27 +152,54 @@
   },
   "videos": [
     {
-      "title": "METS vs. NATIONALS: Official Full Game Highlights (September 26) | 2026 MLB Season",
-      "url": "https://www.youtube.com/watch?v=Vu2cTH5cs1E",
-      "source": "MLB on YouTube",
-      "thumbnail_url": "https://i3.ytimg.com/vi/Vu2cTH5cs1E/hqdefault.jpg",
+      "title": "Connelly Early 3.0 Shutout Innings in Nationals Debut | Every Out",
+      "url": "https://www.youtube.com/watch?v=R2nwlskYgP8",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i3.ytimg.com/vi/R2nwlskYgP8/hqdefault.jpg",
+      "duration_s": 0
+    },
+    {
+      "title": "There Was Never A Password",
+      "url": "https://www.youtube.com/shorts/BUEKUMhexXk",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i3.ytimg.com/vi/BUEKUMhexXk/hqdefault.jpg",
+      "duration_s": 0
+    },
+    {
+      "title": "After 3 Years Josiah Gray Returns To Nats Park & Gets His 1st MLB Save",
+      "url": "https://www.youtube.com/shorts/kZ3D5D_9RSg",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i4.ytimg.com/vi/kZ3D5D_9RSg/hqdefault.jpg",
+      "duration_s": 0
+    },
+    {
+      "title": "Cade Cavalli to Nats Fans After Extension #MLB",
+      "url": "https://www.youtube.com/shorts/v_1SMp5S_9I",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i3.ytimg.com/vi/v_1SMp5S_9I/hqdefault.jpg",
+      "duration_s": 0
+    },
+    {
+      "title": "HISTORY: Nasim Nuñez Breaks Nationals Single Season Steals Record",
+      "url": "https://www.youtube.com/shorts/4YXUDh7O0F4",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4YXUDh7O0F4/hqdefault.jpg",
+      "duration_s": 0
+    },
+    {
+      "title": "CJ Abrams Homers For His 100th RBI",
+      "url": "https://www.youtube.com/shorts/2psoNvo5SzY",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2psoNvo5SzY/hqdefault.jpg",
       "duration_s": 0
     }
   ],
   "fan_vibes": {
-    "overall": "mixed",
+    "overall": "positive",
     "ai_generated": true,
     "themes": [
       {
         "label": "Roster Management",
-        "sentiment": "mixed",
-        "source_urls": [
-          "https://sports.yahoo.com/articles/former-yankees-top-prospect-chase-213538571.html",
-          "https://www.mlbtraderumors.com/2026/09/nationals-designate-chase-hampton-for-assignment.html"
-        ]
-      },
-      {
-        "label": "Prospect Promotion",
         "sentiment": "positive",
         "source_urls": [
           "https://nats.talkdcsports.com/2026/09/26/rochester-goes-for-the-triple-a-championship-early-gets-promoted-from-triple-a/",
@@ -185,33 +207,23 @@
         ]
       },
       {
-        "label": "Standings Progress",
+        "label": "Standings Success",
         "sentiment": "positive",
         "source_urls": [
-          "https://nats.talkdcsports.com/2026/09/26/game-161-nats-will-finish-ahead-of-the-mets-in-2026/"
+          "https://nats.talkdcsports.com/2026/09/26/game-161-nats-will-finish-ahead-of-the-mets-in-2026/",
+          "https://www.federalbaseball.com/washington-nationals-analysis/94470/washington-nationals-avoid-last-place-finish"
+        ]
+      },
+      {
+        "label": "Game Performance",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-discussions/94480/washington-nationals-vs-new-york-mets-game-thread"
         ]
       }
     ]
   },
   "trending": [
-    {
-      "label": "Yankees",
-      "sentiment": "",
-      "context": "Luis Garcia Jr. showing signs of heating up at perfect time for Yankees ahead of playoffs",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/former-yankees-top-prospect-chase-213538571.html",
-        "https://sports.yahoo.com/articles/luis-garcia-jr-showing-signs-223911439.html"
-      ]
-    },
-    {
-      "label": "Chase Hampton",
-      "sentiment": "",
-      "context": "Former Yankees top prospect Chase Hampton DFA’d by Nationals after second chance",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/former-yankees-top-prospect-chase-213538571.html",
-        "https://www.mlbtraderumors.com/2026/09/nationals-designate-chase-hampton-for-assignment.html"
-      ]
-    },
     {
       "label": "Connelly Early",
       "sentiment": "",
@@ -239,6 +251,14 @@
       ]
     },
     {
+      "label": "Yankees",
+      "sentiment": "",
+      "context": "Luis Garcia Jr. showing signs of heating up at perfect time for Yankees ahead of playoffs",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/luis-garcia-jr-showing-signs-223911439.html"
+      ]
+    },
+    {
       "label": "Orioles",
       "sentiment": "",
       "context": "Luis Garcia Jr. showing signs of heating up at perfect time for Yankees ahead of playoffs",
@@ -255,11 +275,19 @@
       ]
     },
     {
-      "label": "Prospects",
+      "label": "Rochester",
       "sentiment": "",
-      "context": "Former Yankees top prospect Chase Hampton DFA’d by Nationals after second chance",
+      "context": "Rochester goes for the Triple-A championship; Early gets promoted from Triple-A!",
       "source_urls": [
-        "https://sports.yahoo.com/articles/former-yankees-top-prospect-chase-213538571.html"
+        "https://nats.talkdcsports.com/2026/09/26/rochester-goes-for-the-triple-a-championship-early-gets-promoted-from-triple-a/"
+      ]
+    },
+    {
+      "label": "Triple-A",
+      "sentiment": "",
+      "context": "Rochester goes for the Triple-A championship; Early gets promoted from Triple-A!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/26/rochester-goes-for-the-triple-a-championship-early-gets-promoted-from-triple-a/"
       ]
     }
   ],
