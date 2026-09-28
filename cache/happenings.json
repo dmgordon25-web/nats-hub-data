@@ -1,82 +1,95 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-28T12:29:44+00:00",
-  "mode": "rss_fallback",
+  "generated_at": "2026-09-28T16:31:18+00:00",
+  "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-28T12:29:41+00:00",
-    "videos": "2026-09-28T12:29:41+00:00",
-    "vibes": null
+    "news": "2026-09-28T16:30:40+00:00",
+    "videos": "2026-09-28T16:30:40+00:00",
+    "vibes": "2026-09-28T16:31:18+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-28T12:29:38+00:00",
+      "last_updated_at": "2026-09-28T16:30:25+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-28T12:29:39+00:00",
+      "last_updated_at": "2026-09-28T16:30:38+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-28T12:29:39+00:00",
+      "last_updated_at": "2026-09-28T16:30:38+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-28T12:29:40+00:00",
+      "last_updated_at": "2026-09-28T16:30:38+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-28T12:29:40+00:00",
+      "last_updated_at": "2026-09-28T16:30:39+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-28T12:29:41+00:00",
+      "last_updated_at": "2026-09-28T16:30:40+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-09-28T12:29:41+00:00",
+      "last_updated_at": "2026-09-28T16:30:40+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-09-28T12:29:41+00:00",
+      "last_updated_at": "2026-09-28T16:30:40+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "why_it_matters",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "trending",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
+    {
+      "title": "The 2026 Washington Nationals had a season to be proud of",
+      "url": "https://www.federalbaseball.com/washington-nationals-analysis/94504/2026-washington-nationals-had-season-be-proud-of",
+      "source": "Federal Baseball",
+      "published_at": "2026-09-28T15:50:26+00:00",
+      "why_it_matters": {
+        "text": "The 2026 Washington Nationals finished their season with a 77-85 record, marking an 11-win improvement from the previous year. While the season is described as a step forward, there is still room for growth.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2296934665.jpg?quality=90&strip=all&crop=0%2C10.727477770167%2C100%2C78.545044459667&w=1200"
+    },
+    {
+      "title": "Building blocks for the future from 77 wins!",
+      "url": "https://nats.talkdcsports.com/2026/09/28/building-blocks-for-the-future-from-77-wins/",
+      "source": "Talk Nats",
+      "published_at": "2026-09-28T14:54:21+00:00",
+      "why_it_matters": {
+        "text": "After being hired by the Washington Nationals, Paul Toboni declared his goal to make the team the \"Envy of [his] sport.\" Despite initial skepticism, he has presided over a period of success.",
+        "ai_generated": true
+      },
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/03/Paul-Toboni-and-Mark-Lerner-by-Intrepid-3-23-2026-scaled-1.jpg?fit=1200%2C804&ssl=1"
+    },
     {
       "title": "Postgamer: Nats finish 2026 with their 77th win!",
       "url": "https://nats.talkdcsports.com/2026/09/27/postgamer-nats-finish-2026-with-their-77th-win/",
       "source": "Talk Nats",
       "published_at": "2026-09-27T21:00:21+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals finished the 2026 season with their 77th win, ending on a hot streak of winning 10 of their final 14 games. The team moved from 67 wins to 77 wins in just over two weeks.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/nats.talk-dc-sports-6ab99ef944e1b.png?fit=1087%2C992&ssl=1"
     },
     {
@@ -84,6 +97,10 @@
       "url": "https://nats.talkdcsports.com/2026/09/27/game-162-thank-you-fans/",
       "source": "Talk Nats",
       "published_at": "2026-09-27T16:42:00+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals have hired Paul Toboni and Jason Sinnarajah as division presidents for baseball operations and the business side, respectively, to create a new sense of what could be great for the future of the team.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/Final-game-of-2026.jpg?fit=1200%2C554&ssl=1"
     },
     {
@@ -113,26 +130,16 @@
       "source": "Talk Nats",
       "published_at": "2026-09-26T20:09:05+00:00",
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-26-at-7.26.21-PM-1.jpeg?fit=986%2C1120&ssl=1"
-    },
-    {
-      "title": "Nationals Designate Chase Hampton For Assignment",
-      "url": "https://www.mlbtraderumors.com/2026/09/nationals-designate-chase-hampton-for-assignment.html",
-      "source": "MLB Trade Rumors",
-      "published_at": "2026-09-26T15:30:17+00:00",
-      "image_url": "https://cdn.mlbtraderumors.com/files/2025/02/Chase_Hampton_Yankees-1024x683.jpg"
-    },
-    {
-      "title": "Game #161 Nats will finish ahead of the Mets in 2026!",
-      "url": "https://nats.talkdcsports.com/2026/09/26/game-161-nats-will-finish-ahead-of-the-mets-in-2026/",
-      "source": "Talk Nats",
-      "published_at": "2026-09-26T13:59:00+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/IMG-20260912-WA0022.jpg?fit=1200%2C800&ssl=1"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "win",
       "text": "Curly W! The Nats beat the Mets 6-4."
+    },
+    "storyline": {
+      "text": "The 2026 Washington Nationals finished their season with a 77-85 record, marking an 11-win improvement from the previous year. While the season is described as a step forward, there is still room for growth.",
+      "ai_generated": true
     }
   },
   "videos": [
@@ -173,11 +180,87 @@
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "positive",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "Progressive Growth",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/09/27/postgamer-nats-finish-2026-with-their-77th-win/",
+          "https://www.federalbaseball.com/washington-nationals-analysis/94504/2026-washington-nationals-had-season-be-proud-of"
+        ]
+      },
+      {
+        "label": "Leadership & Future Outlook",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/09/27/game-162-thank-you-fans/",
+          "https://nats.talkdcsports.com/2026/09/28/building-blocks-for-the-future-from-77-wins/"
+        ]
+      },
+      {
+        "label": "Late Season Momentum",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/09/27/postgamer-nats-finish-2026-with-their-77th-win/"
+        ]
+      }
+    ]
   },
-  "trending": [],
+  "trending": [
+    {
+      "label": "2026 season",
+      "sentiment": "",
+      "context": "The 2026 Washington Nationals had a season to be proud of",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/27/postgamer-nats-finish-2026-with-their-77th-win/",
+        "https://www.federalbaseball.com/washington-nationals-analysis/94504/2026-washington-nationals-had-season-be-proud-of"
+      ]
+    },
+    {
+      "label": "Paul Toboni",
+      "sentiment": "",
+      "context": "Building blocks for the future from 77 wins!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/28/building-blocks-for-the-future-from-77-wins/"
+      ]
+    },
+    {
+      "label": "Management",
+      "sentiment": "",
+      "context": "Building blocks for the future from 77 wins!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/27/game-162-thank-you-fans/",
+        "https://nats.talkdcsports.com/2026/09/28/building-blocks-for-the-future-from-77-wins/"
+      ]
+    },
+    {
+      "label": "Sports Leadership",
+      "sentiment": "",
+      "context": "Building blocks for the future from 77 wins!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/27/game-162-thank-you-fans/",
+        "https://nats.talkdcsports.com/2026/09/28/building-blocks-for-the-future-from-77-wins/"
+      ]
+    },
+    {
+      "label": "win streak",
+      "sentiment": "",
+      "context": "Postgamer: Nats finish 2026 with their 77th win!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/27/postgamer-nats-finish-2026-with-their-77th-win/"
+      ]
+    },
+    {
+      "label": "hiring",
+      "sentiment": "",
+      "context": "Game #162: “THANK YOU FANS”",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/27/game-162-thank-you-fans/"
+      ]
+    }
+  ],
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
