@@ -1,96 +1,79 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-27T21:35:12+00:00",
+  "generated_at": "2026-09-28T01:37:16+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-27T21:34:31+00:00",
+    "news": "2026-09-28T01:36:02+00:00",
     "videos": "2026-09-27T21:34:31+00:00",
-    "vibes": "2026-09-27T21:35:12+00:00"
+    "vibes": "2026-09-28T01:37:16+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-27T21:34:29+00:00",
+      "last_updated_at": "2026-09-28T01:35:37+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-27T21:34:29+00:00",
+      "last_updated_at": "2026-09-28T01:35:38+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-27T21:34:30+00:00",
+      "last_updated_at": "2026-09-28T01:35:39+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-27T21:34:30+00:00",
+      "last_updated_at": "2026-09-28T01:35:39+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-27T21:34:30+00:00",
+      "last_updated_at": "2026-09-28T01:35:51+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-27T21:34:31+00:00",
+      "last_updated_at": "2026-09-28T01:35:52+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-09-27T21:34:31+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-09-27T21:34:31+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    }
+  ],
   "top_stories": [
-    {
-      "title": "Mets' Lindor third primary shortstop to reach 300-HR milestone",
-      "url": "https://www.espn.com/mlb/story/_/id/50044380/francisco-lindor-hits-300th-career-home-run-mets-finale",
-      "source": "ESPN MLB",
-      "published_at": "2026-09-27T22:25:22+00:00",
-      "why_it_matters": {
-        "text": "Francisco Lindor hit his 300th home run during the New York Mets' season finale against the Washington Nationals, becoming the third primary shortstop to reach the milestone.",
-        "ai_generated": true
-      },
-      "image_url": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0927%2Fr1722550_1296x729_16%2D9.jpg"
-    },
-    {
-      "title": "Ronny Mauricio, Francisco Lindor hit back-to-back home runs, but Mets lose season finale to Nationals, 6-4",
-      "url": "https://sports.yahoo.com/articles/ronny-mauricio-francisco-lindor-hit-210338835.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-09-27T21:03:38+00:00",
-      "why_it_matters": {
-        "text": "The Mets lost their season finale to the Washington Nationals 6-4. Despite Ronny Mauricio and Francisco Lindor hitting back-to-back home runs, the Mets finished the season with a 74-88 record.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/d43956833db1a510b05af7a9f059a743aac327f6bcc76454fff417359f643252/lightyear_networkapi/resizefill_w444_h250%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsny_articles_235%2F68d51d59144f4ef0b284484fd1e37b2e.jpg"
-    },
     {
       "title": "Postgamer: Nats finish 2026 with their 77th win!",
       "url": "https://nats.talkdcsports.com/2026/09/27/postgamer-nats-finish-2026-with-their-77th-win/",
       "source": "Talk Nats",
       "published_at": "2026-09-27T21:00:21+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals finished the 2026 season with their 77th win, ending on a hot streak of winning 10 of their final 14 games.",
+        "text": "The Washington Nationals finished the 2026 season with their 77th win, ending on a hot streak of winning 10 of their final 14 games. The team moved from 67 wins to 77 wins in just over two weeks.",
         "ai_generated": true
       },
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/Blake-Butera-coaches-2026-Feb-by-Jake-Stephens.jpg?fit=1200%2C974&ssl=1"
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/nats.talk-dc-sports-6ab99ef944e1b.png?fit=1087%2C992&ssl=1"
     },
     {
       "title": "Game #162: “THANK YOU FANS”",
@@ -98,7 +81,7 @@
       "source": "Talk Nats",
       "published_at": "2026-09-27T16:42:00+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals have hired Paul Toboni and Jason Sinnarajah as division presidents for the baseball operations and business sides, respectively, as part of a new organizational structure.",
+        "text": "The Washington Nationals have hired Paul Toboni and Jason Sinnarajah as division presidents for the baseball operations and business sides, respectively, to create a new sense of what could be great for the team's future.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/Final-game-of-2026.jpg?fit=1200%2C554&ssl=1"
@@ -109,7 +92,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-09-27T16:00:18+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals face the New York Mets in their final game of the 2026 season. The team is entering a potentially long offseason following a season described as a step forward.",
+        "text": "The Washington Nationals face the New York Mets in their final game of the 2026 season, leading into a potentially long offseason.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2296763693.jpg?quality=90&strip=all&crop=0%2C10.753388042587%2C100%2C78.493223914827&w=1200"
@@ -130,6 +113,10 @@
       "url": "https://nats.talkdcsports.com/2026/09/27/great-season-rochester-hold-your-heads-high/",
       "source": "Talk Nats",
       "published_at": "2026-09-27T12:24:53+00:00",
+      "why_it_matters": {
+        "text": "Triple-A Rochester lost the championship game due to a blown-save in the bullpen. The loss involved familiar names Eddy Yean and Clayton Beeter.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/Matt-LeCroy-championship-game-Las-Vegas-Marideth-Sandler.jpg?fit=1200%2C905&ssl=1"
     },
     {
@@ -137,7 +124,25 @@
       "url": "https://nats.talkdcsports.com/2026/09/26/rochester-goes-for-the-triple-a-championship-early-gets-promoted-from-triple-a/",
       "source": "Talk Nats",
       "published_at": "2026-09-26T20:09:05+00:00",
+      "why_it_matters": {
+        "text": "LHP Connelly Early was promoted from Triple-A Rochester to the Washington Nationals. Although he could have started for Rochester in the Triple-A championship, the team chose to have him debut for the Nats, where he threw 3.0 scoreless innings with only one hit.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-26-at-7.26.21-PM-1.jpeg?fit=986%2C1120&ssl=1"
+    },
+    {
+      "title": "Nationals Designate Chase Hampton For Assignment",
+      "url": "https://www.mlbtraderumors.com/2026/09/nationals-designate-chase-hampton-for-assignment.html",
+      "source": "MLB Trade Rumors",
+      "published_at": "2026-09-26T15:30:17+00:00",
+      "image_url": "https://cdn.mlbtraderumors.com/files/2025/02/Chase_Hampton_Yankees-1024x683.jpg"
+    },
+    {
+      "title": "Game #161 Nats will finish ahead of the Mets in 2026!",
+      "url": "https://nats.talkdcsports.com/2026/09/26/game-161-nats-will-finish-ahead-of-the-mets-in-2026/",
+      "source": "Talk Nats",
+      "published_at": "2026-09-26T13:59:00+00:00",
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/IMG-20260912-WA0022.jpg?fit=1200%2C800&ssl=1"
     }
   ],
   "team_pulse": {
@@ -146,7 +151,7 @@
       "text": "Curly W! The Nats beat the Mets 6-4."
     },
     "storyline": {
-      "text": "Francisco Lindor hit his 300th home run during the New York Mets' season finale against the Washington Nationals, becoming the third primary shortstop to reach the milestone.",
+      "text": "The Washington Nationals finished the 2026 season with their 77th win, ending on a hot streak of winning 10 of their final 14 games. The team moved from 67 wins to 77 wins in just over two weeks.",
       "ai_generated": true
     }
   },
@@ -199,47 +204,37 @@
     "ai_generated": true,
     "themes": [
       {
-        "label": "Strong Season Finish",
+        "label": "Late Season Momentum",
         "sentiment": "positive",
         "source_urls": [
-          "https://nats.talkdcsports.com/2026/09/27/postgamer-nats-finish-2026-with-their-77th-win/",
-          "https://www.federalbaseball.com/washington-nationals-discussions/94497/washington-nationals-vs-new-york-mets-game-thread"
+          "https://nats.talkdcsports.com/2026/09/27/postgamer-nats-finish-2026-with-their-77th-win/"
         ]
       },
       {
-        "label": "Organizational Growth",
+        "label": "Front Office Changes",
         "sentiment": "positive",
         "source_urls": [
           "https://nats.talkdcsports.com/2026/09/27/game-162-thank-you-fans/"
         ]
       },
       {
-        "label": "Player Resilience",
+        "label": "Player Development",
         "sentiment": "positive",
         "source_urls": [
+          "https://nats.talkdcsports.com/2026/09/26/rochester-goes-for-the-triple-a-championship-early-gets-promoted-from-triple-a/",
           "https://www.federalbaseball.com/washington-nationals-analysis/94488/connelly-early-back-his-place-peace-on-big-league-mound"
         ]
       },
       {
-        "label": "Victory over Mets",
-        "sentiment": "positive",
+        "label": "Triple-A Performance",
+        "sentiment": "mixed",
         "source_urls": [
-          "https://sports.yahoo.com/articles/ronny-mauricio-francisco-lindor-hit-210338835.html"
+          "https://nats.talkdcsports.com/2026/09/27/great-season-rochester-hold-your-heads-high/"
         ]
       }
     ]
   },
   "trending": [
-    {
-      "label": "Mets",
-      "sentiment": "",
-      "context": "Mets' Lindor third primary shortstop to reach 300-HR milestone",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/ronny-mauricio-francisco-lindor-hit-210338835.html",
-        "https://www.espn.com/mlb/story/_/id/50044380/francisco-lindor-hits-300th-career-home-run-mets-finale",
-        "https://www.federalbaseball.com/washington-nationals-discussions/94497/washington-nationals-vs-new-york-mets-game-thread"
-      ]
-    },
     {
       "label": "2026 season",
       "sentiment": "",
@@ -250,28 +245,38 @@
       ]
     },
     {
-      "label": "Lindor",
+      "label": "Connelly Early",
       "sentiment": "",
-      "context": "Mets' Lindor third primary shortstop to reach 300-HR milestone",
+      "context": "Connelly Early is back in his place of peace on a big league mound",
       "source_urls": [
-        "https://sports.yahoo.com/articles/ronny-mauricio-francisco-lindor-hit-210338835.html",
-        "https://www.espn.com/mlb/story/_/id/50044380/francisco-lindor-hits-300th-career-home-run-mets-finale"
+        "https://nats.talkdcsports.com/2026/09/26/rochester-goes-for-the-triple-a-championship-early-gets-promoted-from-triple-a/",
+        "https://www.federalbaseball.com/washington-nationals-analysis/94488/connelly-early-back-his-place-peace-on-big-league-mound"
       ]
     },
     {
-      "label": "Home Run",
+      "label": "Rochester",
       "sentiment": "",
-      "context": "Mets' Lindor third primary shortstop to reach 300-HR milestone",
+      "context": "Great season Rochester! Hold your heads high!",
       "source_urls": [
-        "https://www.espn.com/mlb/story/_/id/50044380/francisco-lindor-hits-300th-career-home-run-mets-finale"
+        "https://nats.talkdcsports.com/2026/09/26/rochester-goes-for-the-triple-a-championship-early-gets-promoted-from-triple-a/",
+        "https://nats.talkdcsports.com/2026/09/27/great-season-rochester-hold-your-heads-high/"
       ]
     },
     {
-      "label": "Ronny Mauricio",
+      "label": "Triple-A",
       "sentiment": "",
-      "context": "Ronny Mauricio, Francisco Lindor hit back-to-back home runs, but Mets lose season finale to Nationals, 6-4",
+      "context": "Great season Rochester! Hold your heads high!",
       "source_urls": [
-        "https://sports.yahoo.com/articles/ronny-mauricio-francisco-lindor-hit-210338835.html"
+        "https://nats.talkdcsports.com/2026/09/26/rochester-goes-for-the-triple-a-championship-early-gets-promoted-from-triple-a/",
+        "https://nats.talkdcsports.com/2026/09/27/great-season-rochester-hold-your-heads-high/"
+      ]
+    },
+    {
+      "label": "win streak",
+      "sentiment": "",
+      "context": "Postgamer: Nats finish 2026 with their 77th win!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/27/postgamer-nats-finish-2026-with-their-77th-win/"
       ]
     },
     {
@@ -302,9 +307,9 @@
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "MacKenzie Gore",
-    "text": "The hard-throwing left-handed starter and another key piece of the return in the Juan Soto trade.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/669022/spots/120",
+    "name": "Dylan Crews",
+    "text": "The No. 2 overall pick in the 2023 MLB Draft out of LSU, headlining the next wave of Nationals talent.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/686611/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
