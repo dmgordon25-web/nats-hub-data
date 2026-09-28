@@ -1,12 +1,12 @@
 {
   "data_version": 1,
-  "fetched_at": "2026-09-27T22:52:35+00:00",
+  "fetched_at": "2026-09-28T01:27:30+00:00",
   "freshness": {
-    "schedule": "2026-09-27T22:52:35+00:00",
-    "standings": "2026-09-27T22:52:35+00:00",
+    "schedule": "2026-09-28T01:27:29+00:00",
+    "standings": "2026-09-28T01:27:30+00:00",
     "injuries": "2026-07-15T00:03:36+00:00",
     "former_nats": "2026-09-27T21:22:36+00:00",
-    "weather": "2026-09-27T22:52:35+00:00"
+    "weather": "2026-09-28T01:27:30+00:00"
   },
   "stale_sources": [
     "injuries"
@@ -137,10 +137,10 @@
   },
   "focus_weather": null,
   "tonight_tidbit": {
-    "id": "did_you_know_2014_no_hitter",
-    "category": "did_you_know",
-    "weight": 4,
-    "text": "Jordan Zimmermann threw a no-hitter on the last day of the 2014 regular season — the first in Nationals/Expos history."
+    "id": "nostalgia_2019_game7",
+    "category": "nostalgia",
+    "weight": 9,
+    "text": "October 30, 2019: Howie Kendrick rang the foul pole in the seventh inning of Game 7. The Nationals won the World Series. Still the only one."
   },
   "next_three": [],
   "last_result": {
@@ -268,130 +268,6 @@
     "watch_label": "Game Final"
   },
   "all_games": [
-    {
-      "game_pk": 822681,
-      "date": "2026-09-25",
-      "start_time_utc": "2026-09-25T22:45:00Z",
-      "status": "Final",
-      "detailed_status": "Final",
-      "is_nats_home": true,
-      "home": {
-        "id": 120,
-        "abbrev": "WSH",
-        "name": "Washington Nationals",
-        "short_name": "Nationals",
-        "record": "76-84",
-        "score": 7
-      },
-      "away": {
-        "id": 121,
-        "abbrev": "NYM",
-        "name": "New York Mets",
-        "short_name": "Mets",
-        "record": "73-87",
-        "score": 6
-      },
-      "venue": {
-        "id": 3309,
-        "name": "Nationals Park",
-        "city": "Washington",
-        "state": "DC",
-        "lat": 38.872861,
-        "lon": -77.007501
-      },
-      "probable_pitchers": {
-        "home": {
-          "id": 674841,
-          "name": "Andrew Alvarez",
-          "hand": null
-        },
-        "away": {
-          "id": 642376,
-          "name": "Jefry Yan",
-          "hand": null
-        }
-      },
-      "broadcasts": [
-        {
-          "name": "WPIX",
-          "call_sign": "WPIX",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Nationals.TV",
-          "call_sign": "NATS",
-          "type": "TV",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Audacy Mets Radio WHSQ 880AM",
-          "call_sign": "WHSQ 880AM",
-          "type": "AM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "WJFK 106.7 The Fan",
-          "call_sign": "106.7 FM",
-          "type": "FM",
-          "language": "en",
-          "is_national": false,
-          "home_away": "home",
-          "media_state": "MEDIA_ARCHIVE"
-        },
-        {
-          "name": "Audacy App 92.3 HD2",
-          "call_sign": "Audacy",
-          "type": "FM",
-          "language": "es",
-          "is_national": false,
-          "home_away": "away",
-          "media_state": "MEDIA_ARCHIVE"
-        }
-      ],
-      "linescore": {
-        "current_inning": 9,
-        "inning_half": "Top",
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "balls": 1,
-        "strikes": 2,
-        "outs": 3,
-        "home_runs": 7,
-        "away_runs": 6,
-        "home_hits": 11,
-        "away_hits": 9,
-        "home_errors": 0,
-        "away_errors": 1
-      },
-      "series": {
-        "game_number": 1,
-        "games_in_series": 3,
-        "description": "Regular Season"
-      },
-      "double_header": "N",
-      "_source": "mlb_statsapi",
-      "classification": "previous",
-      "provider": {
-        "broadcast_name": "Nationals.TV",
-        "is_national": false,
-        "rule_id": "masn_natstv",
-        "label": "MASN+ / Nationals.TV via MLB app",
-        "package": "com.bamnetworks.mobile.android.gameday.atbat",
-        "intent_uri": "mlbatbat://game/{game_pk}",
-        "fallback_uri": "https://www.mlb.com/nationals/tv"
-      },
-      "watch_label": "Game Final"
-    },
     {
       "game_pk": 822678,
       "date": "2026-09-26",
