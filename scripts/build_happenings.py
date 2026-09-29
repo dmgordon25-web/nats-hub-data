@@ -87,7 +87,8 @@ GLOBAL_CHAT_MODEL_ENDPOINT = "/api/falkor/global-chat-model"
 # options are operator data; a missing one makes the call refuse (Fan Vibes disclosed as
 # unavailable), never a coded value. FAN_VIBES_CONFIG overrides the path for tests.
 FAN_VIBES_CONFIG_DEFAULT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "config", "fan_vibes.json")
-OLLAMA_CHAT_URL = os.environ.get("OLLAMA_CHAT_URL", "http://127.0.0.1:11434/api/chat")
+# The Ollama chat endpoint is config/fan_vibes.json#ollama_chat_url (OLLAMA_CHAT_URL overrides it); a missing
+# one is refused like any other Fan Vibes value, never a coded address (ruling 2).
 FAN_VIBES_TIMEOUT_S = 120  # generous: a cold/contended 9B first-cycle call can
 # exceed 30s (model load + prompt eval + JSON gen). This runs in a windowless
 # background agent with no user waiting, so a long ceiling just prevents the
@@ -410,7 +411,8 @@ def _selected_model() -> str | None:
 
 
 def _fan_vibes_params() -> dict[str, Any]:
-    """keep_alive, think and options for the Fan Vibes call, from config/fan_vibes.json."""
+    """keep_alive, think, options and the Ollama chat endpoint for the Fan Vibes call, from config/fan_vibes.json
+    (OLLAMA_CHAT_URL overrides the endpoint)."""
     path = os.environ.get("FAN_VIBES_CONFIG") or FAN_VIBES_CONFIG_DEFAULT
     try:
         with open(path, encoding="utf-8-sig") as fh:
@@ -418,14 +420,18 @@ def _fan_vibes_params() -> dict[str, Any]:
     except (OSError, ValueError) as e:
         raise RuntimeError(f"fan_vibes config unreadable: {path}: {e}") from e
     missing = [k for k in ("keep_alive", "think", "options") if data.get(k) is None]
+    url = (os.environ.get("OLLAMA_CHAT_URL") or "").strip() or (data.get("ollama_chat_url") or "").strip()
+    if not url:
+        missing.append("ollama_chat_url")
     if missing or not isinstance(data.get("options"), dict):
         raise RuntimeError(f"fan_vibes config {path} does not set: {', '.join(missing) or 'options'}")
-    return {"keep_alive": data["keep_alive"], "think": data["think"], "options": dict(data["options"])}
+    return {"keep_alive": data["keep_alive"], "think": data["think"], "options": dict(data["options"]), "url": url}
 
 
 def _ollama_chat(model: str, system: str, user: str) -> str:
     """One bounded local model call. Raises on failure."""
     params = _fan_vibes_params()
+    url = params.pop("url")
     body = {
         "model": model,
         "stream": False,
@@ -435,7 +441,7 @@ def _ollama_chat(model: str, system: str, user: str) -> str:
             {"role": "user", "content": user},
         ],
     }
-    resp = requests.post(OLLAMA_CHAT_URL, json=body, timeout=FAN_VIBES_TIMEOUT_S)
+    resp = requests.post(url, json=body, timeout=FAN_VIBES_TIMEOUT_S)
     if resp.status_code != 200:
         raise RuntimeError(f"ollama_http_{resp.status_code}")
     return ((resp.json() or {}).get("message") or {}).get("content") or ""

@@ -456,7 +456,9 @@ class FanVibesParamsDataTests(unittest.TestCase):
             self.seed = json.load(fh)
         self._write(self.seed)
         os.environ["FAN_VIBES_CONFIG"] = self.path
+        self._orig_env_url = os.environ.pop("OLLAMA_CHAT_URL", None)
         self.sent = []
+        self.urls = []
         self._orig_post = bh.requests.post
 
         class _Resp:
@@ -466,6 +468,7 @@ class FanVibesParamsDataTests(unittest.TestCase):
                 return {"message": {"content": '{"overall":"positive","themes":[]}'}}
 
         def fake_post(url, json=None, timeout=None):
+            self.urls.append(url)
             self.sent.append(json)
             return _Resp()
 
@@ -475,6 +478,9 @@ class FanVibesParamsDataTests(unittest.TestCase):
         import shutil
         bh.requests.post = self._orig_post
         os.environ.pop("FAN_VIBES_CONFIG", None)
+        os.environ.pop("OLLAMA_CHAT_URL", None)
+        if self._orig_env_url is not None:
+            os.environ["OLLAMA_CHAT_URL"] = self._orig_env_url
         shutil.rmtree(self.tmp, ignore_errors=True)
 
     def _write(self, data):
@@ -497,8 +503,20 @@ class FanVibesParamsDataTests(unittest.TestCase):
         for key in ("keep_alive", "think", "options"):
             self.assertEqual(body[key], swapped[key])
 
+    def test_the_endpoint_comes_from_config_and_the_environment_overrides_it(self):
+        bh._ollama_chat("fixture-model:test", "s", "u")
+        self.assertEqual(self.urls[-1], self.seed["ollama_chat_url"])
+        self.assertNotIn("url", self.sent[-1])
+        moved = self.seed["ollama_chat_url"] + "?moved"
+        self._write(dict(self.seed, ollama_chat_url=moved))
+        bh._ollama_chat("fixture-model:test", "s", "u")
+        self.assertEqual(self.urls[-1], moved)
+        os.environ["OLLAMA_CHAT_URL"] = moved + "-env"
+        bh._ollama_chat("fixture-model:test", "s", "u")
+        self.assertEqual(self.urls[-1], moved + "-env")
+
     def test_a_missing_value_is_refused_and_nothing_is_sent(self):
-        for key in ("keep_alive", "think", "options"):
+        for key in ("keep_alive", "think", "options", "ollama_chat_url"):
             self._write({k: v for k, v in self.seed.items() if k != key})
             with self.assertRaises(RuntimeError) as cm:
                 bh._ollama_chat("fixture-model:test", "s", "u")
@@ -523,6 +541,7 @@ class FanVibesParamsDataTests(unittest.TestCase):
         self.assertNotRegex(src, r'"keep_alive"\s*:\s*"', "a coded keep_alive is back")
         self.assertNotRegex(src, r'"think"\s*:\s*(True|False)', "a coded thinking flag is back")
         self.assertNotRegex(src, r'"(temperature|num_predict)"\s*:\s*\d', "a coded option is back")
+        self.assertNotRegex(src, r'https?://[^"\s]*:\d+/api/chat', "a coded Ollama address is back")
 
 
 if __name__ == "__main__":
