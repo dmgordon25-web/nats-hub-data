@@ -486,8 +486,11 @@ class FanVibesParamsDataTests(unittest.TestCase):
         body = self.sent[-1]
         for key in ("keep_alive", "think", "options"):
             self.assertEqual(body[key], self.seed[key])
-        swapped = dict(self.seed, keep_alive="7m", think=not self.seed["think"],
-                       options={"temperature": 0.55, "num_predict": 17})
+        # every swapped value is derived from the seed, so the test names no value of its own
+        opts = self.seed["options"]
+        swapped = dict(self.seed, keep_alive=self.seed["keep_alive"] + "-swapped",
+                       think=not self.seed["think"],
+                       options={**opts, "temperature": opts["temperature"] / 2, "num_predict": opts["num_predict"] + 1})
         self._write(swapped)
         bh._ollama_chat("fixture-model:test", "s", "u")
         body = self.sent[-1]
