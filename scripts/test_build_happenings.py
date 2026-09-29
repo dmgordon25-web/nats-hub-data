@@ -108,7 +108,7 @@ NATIONALS_JSON = {
 
 ENRICHED = {
     "state": "enriched", "ai_generated": True,
-    "disclaimer": "ai_generated_commentary_not_source_fact", "model": "qwen3.5:9b",
+    "disclaimer": "ai_generated_commentary_not_source_fact", "model": "fixture-model:test",
     "summary": "The Nationals won a close game behind CJ Abrams.",
     "tags": ["CJ Abrams", "Nationals", "baseball"], "why_relevant": "Fans care about the win.",
     "classification": "sports",
@@ -415,7 +415,7 @@ class PayloadTests(unittest.TestCase):
         bh.falkor_fan_vibes = self._orig_vibes  # exercise the real function
         orig_model, orig_chat = bh._selected_model, bh._ollama_chat
         try:
-            bh._selected_model = lambda: "qwen3.5:9b"
+            bh._selected_model = lambda: "fixture-model:test"
             bh._ollama_chat = lambda m, s, u: (
                 '{"overall":"mixed","themes":['
                 '{"label":"offense clicking","sentiment":"positive","stories":[0]},'
@@ -441,6 +441,85 @@ class PayloadTests(unittest.TestCase):
         self.assertNotIn("nationals", labels)  # generic dropped
         orioles = [t for t in p["trending"] if "orioles" in t["label"].lower()]
         self.assertEqual(len(orioles), 1, "Orioles variants should merge to one cluster")
+
+
+class FanVibesParamsDataTests(unittest.TestCase):
+    """FALKOR_NO_HARDCODED_SELECTABLES_DGO_20260929_01: the Fan Vibes call's keep_alive,
+    thinking flag and options come from config/fan_vibes.json; a missing one is refused
+    (Fan Vibes disclosed as unavailable) and no model call is made. Names no model."""
+
+    def setUp(self):
+        import tempfile
+        self.tmp = tempfile.mkdtemp(prefix="fan-vibes-")
+        self.path = os.path.join(self.tmp, "fan_vibes.json")
+        with open(bh.FAN_VIBES_CONFIG_DEFAULT, encoding="utf-8-sig") as fh:
+            self.seed = json.load(fh)
+        self._write(self.seed)
+        os.environ["FAN_VIBES_CONFIG"] = self.path
+        self.sent = []
+        self._orig_post = bh.requests.post
+
+        class _Resp:
+            status_code = 200
+
+            def json(self_inner):
+                return {"message": {"content": '{"overall":"positive","themes":[]}'}}
+
+        def fake_post(url, json=None, timeout=None):
+            self.sent.append(json)
+            return _Resp()
+
+        bh.requests.post = fake_post
+
+    def tearDown(self):
+        import shutil
+        bh.requests.post = self._orig_post
+        os.environ.pop("FAN_VIBES_CONFIG", None)
+        shutil.rmtree(self.tmp, ignore_errors=True)
+
+    def _write(self, data):
+        with open(self.path, "w", encoding="utf-8") as fh:
+            json.dump(data, fh)
+
+    def test_params_come_from_config_and_follow_a_swap(self):
+        bh._ollama_chat("fixture-model:test", "s", "u")
+        body = self.sent[-1]
+        for key in ("keep_alive", "think", "options"):
+            self.assertEqual(body[key], self.seed[key])
+        swapped = dict(self.seed, keep_alive="7m", think=not self.seed["think"],
+                       options={"temperature": 0.55, "num_predict": 17})
+        self._write(swapped)
+        bh._ollama_chat("fixture-model:test", "s", "u")
+        body = self.sent[-1]
+        for key in ("keep_alive", "think", "options"):
+            self.assertEqual(body[key], swapped[key])
+
+    def test_a_missing_value_is_refused_and_nothing_is_sent(self):
+        for key in ("keep_alive", "think", "options"):
+            self._write({k: v for k, v in self.seed.items() if k != key})
+            with self.assertRaises(RuntimeError) as cm:
+                bh._ollama_chat("fixture-model:test", "s", "u")
+            self.assertIn(key, str(cm.exception))
+        self.assertEqual(self.sent, [])
+
+    def test_fan_vibes_is_disclosed_unavailable_when_unconfigured(self):
+        self._write({})
+        orig_model = bh._selected_model
+        try:
+            bh._selected_model = lambda: "fixture-model:test"
+            fv = bh.falkor_fan_vibes([{"title": "a", "url": "https://a/1"}, {"title": "b", "url": "https://a/2"}])
+        finally:
+            bh._selected_model = orig_model
+        self.assertIsNone(fv)
+        self.assertEqual(self.sent, [])
+
+    def test_source_names_no_call_parameter(self):
+        with open(bh.__file__, encoding="utf-8") as fh:
+            src = fh.read()
+        import re
+        self.assertNotRegex(src, r'"keep_alive"\s*:\s*"', "a coded keep_alive is back")
+        self.assertNotRegex(src, r'"think"\s*:\s*(True|False)', "a coded thinking flag is back")
+        self.assertNotRegex(src, r'"(temperature|num_predict)"\s*:\s*\d', "a coded option is back")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,10 @@
+{
+  "schema": "nats_fan_vibes_model_params.v1",
+  "note": "FALKOR_NO_HARDCODED_SELECTABLES_DGO_20260929_01: the request parameters of the Fan Vibes model call. The model itself is the operator's global chat pick, read from Falkor per run. A missing value is refused (Fan Vibes is then disclosed as unavailable), never filled in from code.",
+  "keep_alive": "30m",
+  "think": false,
+  "options": {
+    "temperature": 0.2,
+    "num_predict": 400
+  }
+}

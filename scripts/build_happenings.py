@@ -83,6 +83,10 @@ ENRICH_MAX_STORIES = 6  # bound the local model spend per run
 # local model (Ollama). Only available where the model is reachable (the local
 # falkor_enriched run) — omitted+disclosed otherwise, never fabricated.
 GLOBAL_CHAT_MODEL_ENDPOINT = "/api/falkor/global-chat-model"
+# FALKOR_NO_HARDCODED_SELECTABLES_DGO_20260929_01: the call's keep_alive, thinking flag and
+# options are operator data; a missing one makes the call refuse (Fan Vibes disclosed as
+# unavailable), never a coded value. FAN_VIBES_CONFIG overrides the path for tests.
+FAN_VIBES_CONFIG_DEFAULT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "config", "fan_vibes.json")
 OLLAMA_CHAT_URL = os.environ.get("OLLAMA_CHAT_URL", "http://127.0.0.1:11434/api/chat")
 FAN_VIBES_TIMEOUT_S = 120  # generous: a cold/contended 9B first-cycle call can
 # exceed 30s (model load + prompt eval + JSON gen). This runs in a windowless
@@ -405,14 +409,27 @@ def _selected_model() -> str | None:
     return model or None
 
 
+def _fan_vibes_params() -> dict[str, Any]:
+    """keep_alive, think and options for the Fan Vibes call, from config/fan_vibes.json."""
+    path = os.environ.get("FAN_VIBES_CONFIG") or FAN_VIBES_CONFIG_DEFAULT
+    try:
+        with open(path, encoding="utf-8-sig") as fh:
+            data = json.load(fh)
+    except (OSError, ValueError) as e:
+        raise RuntimeError(f"fan_vibes config unreadable: {path}: {e}") from e
+    missing = [k for k in ("keep_alive", "think", "options") if data.get(k) is None]
+    if missing or not isinstance(data.get("options"), dict):
+        raise RuntimeError(f"fan_vibes config {path} does not set: {', '.join(missing) or 'options'}")
+    return {"keep_alive": data["keep_alive"], "think": data["think"], "options": dict(data["options"])}
+
+
 def _ollama_chat(model: str, system: str, user: str) -> str:
     """One bounded local model call. Raises on failure."""
+    params = _fan_vibes_params()
     body = {
         "model": model,
         "stream": False,
-        "keep_alive": "30m",
-        "think": False,  # qwen3-family emit empty content unless thinking is off
-        "options": {"temperature": 0.2, "num_predict": 400},
+        **params,
         "messages": [
             {"role": "system", "content": system},
             {"role": "user", "content": user},
