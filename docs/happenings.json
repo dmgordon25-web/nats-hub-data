@@ -1,69 +1,78 @@
 {
   "data_version": 1,
-  "generated_at": "2026-09-30T00:43:12+00:00",
+  "generated_at": "2026-09-30T01:21:35+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-09-30T00:41:48+00:00",
+    "news": "2026-09-30T01:20:54+00:00",
     "videos": "2026-09-30T00:41:48+00:00",
-    "vibes": "2026-09-30T00:43:12+00:00"
+    "vibes": "2026-09-30T01:21:35+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-09-30T00:41:46+00:00",
+      "last_updated_at": "2026-09-30T01:20:42+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-09-30T00:41:46+00:00",
+      "last_updated_at": "2026-09-30T01:20:43+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-09-30T00:41:47+00:00",
+      "last_updated_at": "2026-09-30T01:20:43+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-09-30T00:41:47+00:00",
+      "last_updated_at": "2026-09-30T01:20:43+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-09-30T00:41:47+00:00",
+      "last_updated_at": "2026-09-30T01:20:44+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-09-30T00:41:48+00:00",
+      "last_updated_at": "2026-09-30T01:20:44+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-09-30T00:41:48+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-09-30T00:41:48+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    }
+  ],
   "top_stories": [
     {
       "title": "The Washington Nationals offense blasted past all expectations this season",
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94522/washington-nationals-offense-blasted-past-expectations-this-season",
       "source": "Federal Baseball",
       "published_at": "2026-09-29T17:56:00+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals' offense exceeded expectations this season, serving as a major storyline and the primary driver of the team's excitement. The analysis explores the specific factors and numbers that made the unit unique.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2293880549.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -71,6 +80,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94513/cj-abrams-had-career-year-for-washington-nationals-2026",
       "source": "Federal Baseball",
       "published_at": "2026-09-29T14:16:33+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals' shortstop CJ Abrams had a standout offensive year in 2026. He is the first player in a new series to be graded and profiled to recap his performance and look toward the future.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2296096001.jpg?quality=90&strip=all&crop=0%2C10.73923202839%2C100%2C78.521535943221&w=1200"
     },
     {
@@ -78,6 +91,10 @@
       "url": "https://nats.talkdcsports.com/2026/09/29/grading-the-2026-nationals-part-1-pitchers/",
       "source": "Talk Nats",
       "published_at": "2026-09-29T09:00:00+00:00",
+      "why_it_matters": {
+        "text": "The 2026 regular season has concluded, and the Washington Nationals' pitching staff is being graded. The report highlights rookie Andrew Alvarez, who performed well for the team despite some early wobbles.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/IMG-20260912-WA0010.jpg?fit=1200%2C800&ssl=1"
     },
     {
@@ -85,6 +102,10 @@
       "url": "https://nats.talkdcsports.com/2026/09/28/revenues-spending/",
       "source": "Talk Nats",
       "published_at": "2026-09-29T00:05:57+00:00",
+      "why_it_matters": {
+        "text": "There is a circular co-dependency between revenues and spending in sports. Teams spend with the hope that increased spending leads to more wins and higher revenues, while spending is curtailed when results do not justify the costs.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/03/Jason-Sinnarajah-with-Mark-Lerner-by-Intrepid-2-23-2026-scaled-1.jpg?fit=1200%2C775&ssl=1"
     },
     {
@@ -104,7 +125,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-09-28T15:50:26+00:00",
       "why_it_matters": {
-        "text": "The 2026 Washington Nationals finished their season with a 77-85 record, marking an 11-win improvement from the previous year. While the team showed significant progress, there is still room for growth.",
+        "text": "The 2026 Washington Nationals finished their season with a 77-85 record, marking an 11-win improvement from the previous year. While the season was described as a step forward, there is still room for growth.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2296934665.jpg?quality=90&strip=all&crop=0%2C10.727477770167%2C100%2C78.545044459667&w=1200"
@@ -126,8 +147,12 @@
   ],
   "team_pulse": {
     "result_banner": {
-      "type": "win",
-      "text": "Curly W! The Nats beat the Mets 6-4."
+      "type": "none",
+      "text": ""
+    },
+    "storyline": {
+      "text": "The Washington Nationals' offense exceeded expectations this season, serving as a major storyline and the primary driver of the team's excitement. The analysis explores the specific factors and numbers that made the unit unique.",
+      "ai_generated": true
     }
   },
   "videos": [
@@ -175,14 +200,8 @@
         "label": "Offensive Success",
         "sentiment": "positive",
         "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/94513/cj-abrams-had-career-year-for-washington-nationals-2026",
           "https://www.federalbaseball.com/washington-nationals-analysis/94522/washington-nationals-offense-blasted-past-expectations-this-season"
-        ]
-      },
-      {
-        "label": "Individual Player Growth",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/94513/cj-abrams-had-career-year-for-washington-nationals-2026"
         ]
       },
       {
@@ -193,8 +212,15 @@
         ]
       },
       {
-        "label": "Roster Management",
+        "label": "Pitching Performance",
         "sentiment": "mixed",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/09/29/grading-the-2026-nationals-part-1-pitchers/"
+        ]
+      },
+      {
+        "label": "Roster Management",
+        "sentiment": "negative",
         "source_urls": [
           "https://www.mlbtraderumors.com/2026/09/cardinals-claim-chase-hampton-waivers-nationals.html"
         ]
@@ -203,43 +229,69 @@
   },
   "trending": [
     {
-      "label": "Cardinals",
+      "label": "offense",
       "sentiment": "",
-      "context": "Cardinals Claim Chase Hampton",
+      "context": "The Washington Nationals offense blasted past all expectations this season",
       "source_urls": [
-        "https://www.mlbtraderumors.com/2026/09/cardinals-claim-chase-hampton-waivers-nationals.html"
-      ]
-    },
-    {
-      "label": "Chase Hampton",
-      "sentiment": "",
-      "context": "Cardinals Claim Chase Hampton",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/09/cardinals-claim-chase-hampton-waivers-nationals.html"
-      ]
-    },
-    {
-      "label": "waivers",
-      "sentiment": "",
-      "context": "Cardinals Claim Chase Hampton",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/09/cardinals-claim-chase-hampton-waivers-nationals.html"
-      ]
-    },
-    {
-      "label": "roster",
-      "sentiment": "",
-      "context": "Cardinals Claim Chase Hampton",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/09/cardinals-claim-chase-hampton-waivers-nationals.html"
+        "https://www.federalbaseball.com/washington-nationals-analysis/94513/cj-abrams-had-career-year-for-washington-nationals-2026",
+        "https://www.federalbaseball.com/washington-nationals-analysis/94522/washington-nationals-offense-blasted-past-expectations-this-season"
       ]
     },
     {
       "label": "2026 season",
       "sentiment": "",
-      "context": "The 2026 Washington Nationals had a season to be proud of",
+      "context": "Grading the 2026 Nationals, part 1: pitchers",
       "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/29/grading-the-2026-nationals-part-1-pitchers/",
         "https://www.federalbaseball.com/washington-nationals-analysis/94504/2026-washington-nationals-had-season-be-proud-of"
+      ]
+    },
+    {
+      "label": "sports analysis",
+      "sentiment": "",
+      "context": "The Washington Nationals offense blasted past all expectations this season",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94522/washington-nationals-offense-blasted-past-expectations-this-season"
+      ]
+    },
+    {
+      "label": "CJ Abrams",
+      "sentiment": "",
+      "context": "CJ Abrams had a career year for the Washington Nationals in 2026",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94513/cj-abrams-had-career-year-for-washington-nationals-2026"
+      ]
+    },
+    {
+      "label": "player profile",
+      "sentiment": "",
+      "context": "CJ Abrams had a career year for the Washington Nationals in 2026",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94513/cj-abrams-had-career-year-for-washington-nationals-2026"
+      ]
+    },
+    {
+      "label": "pitching",
+      "sentiment": "",
+      "context": "Grading the 2026 Nationals, part 1: pitchers",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/29/grading-the-2026-nationals-part-1-pitchers/"
+      ]
+    },
+    {
+      "label": "rookie",
+      "sentiment": "",
+      "context": "Grading the 2026 Nationals, part 1: pitchers",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/29/grading-the-2026-nationals-part-1-pitchers/"
+      ]
+    },
+    {
+      "label": "revenue",
+      "sentiment": "",
+      "context": "Revenues <–> Spending",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/09/28/revenues-spending/"
       ]
     }
   ],
