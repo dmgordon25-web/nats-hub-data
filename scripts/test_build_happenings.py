@@ -14,11 +14,15 @@ import json
 import os
 import sys
 import unittest
+import uuid
 from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import build_happenings as bh  # noqa: E402
+
+# The model id the fixtures use is generated per run, so this file names no model.
+FIXTURE_MODEL = f"fixture-{uuid.uuid4().hex[:8]}"
 
 
 # ---------------------------------------------------------------------------
@@ -108,7 +112,7 @@ NATIONALS_JSON = {
 
 ENRICHED = {
     "state": "enriched", "ai_generated": True,
-    "disclaimer": "ai_generated_commentary_not_source_fact", "model": "fixture-model:test",
+    "disclaimer": "ai_generated_commentary_not_source_fact", "model": FIXTURE_MODEL,
     "summary": "The Nationals won a close game behind CJ Abrams.",
     "tags": ["CJ Abrams", "Nationals", "baseball"], "why_relevant": "Fans care about the win.",
     "classification": "sports",
@@ -415,7 +419,7 @@ class PayloadTests(unittest.TestCase):
         bh.falkor_fan_vibes = self._orig_vibes  # exercise the real function
         orig_model, orig_chat = bh._selected_model, bh._ollama_chat
         try:
-            bh._selected_model = lambda: "fixture-model:test"
+            bh._selected_model = lambda: FIXTURE_MODEL
             bh._ollama_chat = lambda m, s, u: (
                 '{"overall":"mixed","themes":['
                 '{"label":"offense clicking","sentiment":"positive","stories":[0]},'
@@ -488,7 +492,7 @@ class FanVibesParamsDataTests(unittest.TestCase):
             json.dump(data, fh)
 
     def test_params_come_from_config_and_follow_a_swap(self):
-        bh._ollama_chat("fixture-model:test", "s", "u")
+        bh._ollama_chat(FIXTURE_MODEL, "s", "u")
         body = self.sent[-1]
         for key in ("keep_alive", "think", "options"):
             self.assertEqual(body[key], self.seed[key])
@@ -498,28 +502,28 @@ class FanVibesParamsDataTests(unittest.TestCase):
                        think=not self.seed["think"],
                        options={**opts, "temperature": opts["temperature"] / 2, "num_predict": opts["num_predict"] + 1})
         self._write(swapped)
-        bh._ollama_chat("fixture-model:test", "s", "u")
+        bh._ollama_chat(FIXTURE_MODEL, "s", "u")
         body = self.sent[-1]
         for key in ("keep_alive", "think", "options"):
             self.assertEqual(body[key], swapped[key])
 
     def test_the_endpoint_comes_from_config_and_the_environment_overrides_it(self):
-        bh._ollama_chat("fixture-model:test", "s", "u")
+        bh._ollama_chat(FIXTURE_MODEL, "s", "u")
         self.assertEqual(self.urls[-1], self.seed["ollama_chat_url"])
         self.assertNotIn("url", self.sent[-1])
         moved = self.seed["ollama_chat_url"] + "?moved"
         self._write(dict(self.seed, ollama_chat_url=moved))
-        bh._ollama_chat("fixture-model:test", "s", "u")
+        bh._ollama_chat(FIXTURE_MODEL, "s", "u")
         self.assertEqual(self.urls[-1], moved)
         os.environ["OLLAMA_CHAT_URL"] = moved + "-env"
-        bh._ollama_chat("fixture-model:test", "s", "u")
+        bh._ollama_chat(FIXTURE_MODEL, "s", "u")
         self.assertEqual(self.urls[-1], moved + "-env")
 
     def test_a_missing_value_is_refused_and_nothing_is_sent(self):
         for key in ("keep_alive", "think", "options", "ollama_chat_url"):
             self._write({k: v for k, v in self.seed.items() if k != key})
             with self.assertRaises(RuntimeError) as cm:
-                bh._ollama_chat("fixture-model:test", "s", "u")
+                bh._ollama_chat(FIXTURE_MODEL, "s", "u")
             self.assertIn(key, str(cm.exception))
         self.assertEqual(self.sent, [])
 
@@ -527,7 +531,7 @@ class FanVibesParamsDataTests(unittest.TestCase):
         self._write({})
         orig_model = bh._selected_model
         try:
-            bh._selected_model = lambda: "fixture-model:test"
+            bh._selected_model = lambda: FIXTURE_MODEL
             fv = bh.falkor_fan_vibes([{"title": "a", "url": "https://a/1"}, {"title": "b", "url": "https://a/2"}])
         finally:
             bh._selected_model = orig_model
