@@ -1,89 +1,80 @@
 {
   "data_version": 1,
-  "generated_at": "2026-10-02T22:28:59+00:00",
-  "mode": "rss_fallback",
+  "generated_at": "2026-10-02T23:45:16+00:00",
+  "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-10-02T22:28:57+00:00",
-    "videos": "2026-10-02T22:28:57+00:00",
-    "vibes": null
+    "news": "2026-10-02T23:44:38+00:00",
+    "videos": "2026-10-02T23:44:38+00:00",
+    "vibes": "2026-10-02T23:45:16+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-10-02T22:28:53+00:00",
+      "last_updated_at": "2026-10-02T23:44:35+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-10-02T22:28:54+00:00",
+      "last_updated_at": "2026-10-02T23:44:35+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-10-02T22:28:54+00:00",
+      "last_updated_at": "2026-10-02T23:44:36+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-10-02T23:44:36+00:00",
+      "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-10-02T22:28:56+00:00",
+      "last_updated_at": "2026-10-02T23:44:36+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-10-02T22:28:57+00:00",
+      "last_updated_at": "2026-10-02T23:44:37+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-10-02T22:28:57+00:00",
+      "last_updated_at": "2026-10-02T23:44:37+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-10-02T22:28:57+00:00",
+      "last_updated_at": "2026-10-02T23:44:38+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "why_it_matters",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "trending",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
-      "title": "What’s Next For Dylan Crews?",
-      "url": "https://sports.yahoo.com/articles/next-dylan-crews-160000709.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-10-02T16:00:00+00:00",
-      "image_url": "https://s.yimg.com/lo/mysterio/api/742e47a34c50d4dde3168dfbd9a2029b695af030ebd266f563dd7001a2887052/lightyear_networkapi/resizefill_w1200_h630%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fcdceca14b98052074e0d486fdbbb2acd.jpg"
+      "title": "Arbitration salary projections are in, how does that affect the payroll?",
+      "url": "https://nats.talkdcsports.com/2026/10/02/arbitration-salary-projections-are-in-how-does-that-affect-the-payroll/",
+      "source": "Talk Nats",
+      "published_at": "2026-10-02T23:35:09+00:00",
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2025/09/tetmwj-edited-scaled-1.jpg?fit=1200%2C799&ssl=1"
     },
     {
       "title": "Building Bullpens for April & October",
       "url": "https://nats.talkdcsports.com/2026/10/01/building-bullpens-for-april-october/",
       "source": "Talk Nats",
       "published_at": "2026-10-01T23:40:00+00:00",
+      "why_it_matters": {
+        "text": "The Atlanta Braves and Philadelphia Phillies have combined for three blown saves in two Wild Card round playoff games. Despite the Braves having one of the best bullpens in April, the team has struggled in recent playoff appearances.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/20260909_144150-rotated.jpg?fit=676%2C1200&ssl=1"
     },
     {
@@ -91,13 +82,32 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94570/taking-look-how-washington-nationals-fared-using-abs-challenge-system",
       "source": "Federal Baseball",
       "published_at": "2026-10-01T20:05:10+00:00",
+      "why_it_matters": {
+        "text": "The article examines how the Washington Nationals performed under the new ABS challenge system, which allows players to challenge umpire rulings. This rule change resulted in 5,686 overturned calls across the league this season.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2295375048.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+    },
+    {
+      "title": "What’s Next For Dylan Crews?",
+      "url": "https://www.federalbaseball.com/washington-nationals-analysis/94567/whats-next-for-dylan-crews",
+      "source": "Federal Baseball",
+      "published_at": "2026-10-01T18:29:29+00:00",
+      "why_it_matters": {
+        "text": "Dylan Crews' first two seasons with the Nationals fell short of expectations. After a 2024 debut where he hit .218 with three home runs, his 2025 season saw him hit .208 with 10 home runs over 85 games, despite flashes of power and speed.",
+        "ai_generated": true
+      },
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2296931040.jpg?quality=90&strip=all&crop=0%2C10.738677640404%2C100%2C78.522644719193&w=1200"
     },
     {
       "title": "Former Washington Nationals are already making a big impact in the postseason",
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94557/former-washington-nationals-making-big-impact-in-postseason",
       "source": "Federal Baseball",
       "published_at": "2026-10-01T13:35:35+00:00",
+      "why_it_matters": {
+        "text": "Former Washington Nationals players are making a significant impact in the early stages of the postseason, despite the team missing the playoffs for the seventh consecutive year.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2297436689.jpg?quality=90&strip=all&crop=0%2C10.726191867021%2C100%2C78.547616265959&w=1200"
     },
     {
@@ -105,6 +115,10 @@
       "url": "https://nats.talkdcsports.com/2026/10/01/grading-the-2026-nationals-part-3-coaches-and-front-office/",
       "source": "Talk Nats",
       "published_at": "2026-10-01T09:00:00+00:00",
+      "why_it_matters": {
+        "text": "The author concludes a report card series on the 2026 Washington Nationals by grading the coaching staff and front office as units rather than individuals.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/10/nats.talk-dc-sports-6abec64dc4ca7.png?fit=1104%2C974&ssl=1"
     },
     {
@@ -120,13 +134,6 @@
       "source": "Federal Baseball",
       "published_at": "2026-09-30T15:07:58+00:00",
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2296164558.jpg?quality=90&strip=all&crop=0%2C10.881803518937%2C100%2C78.236392962126&w=1200"
-    },
-    {
-      "title": "Grading the 2026 Nationals, part 2: position players",
-      "url": "https://nats.talkdcsports.com/2026/09/30/grading-the-2026-nationals-part-2-position-players/",
-      "source": "Talk Nats",
-      "published_at": "2026-09-30T09:00:00+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/IMG-20260912-WA0022.jpg?fit=1200%2C800&ssl=1"
     }
   ],
   "team_pulse": {
@@ -180,11 +187,105 @@
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "mixed",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "Player Performance",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/94567/whats-next-for-dylan-crews"
+        ]
+      },
+      {
+        "label": "Former Players Success",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/94557/former-washington-nationals-making-big-impact-in-postseason"
+        ]
+      },
+      {
+        "label": "Front Office/Coaching",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/10/01/grading-the-2026-nationals-part-3-coaches-and-front-office/"
+        ]
+      },
+      {
+        "label": "Rule System Impact",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/94570/taking-look-how-washington-nationals-fared-using-abs-challenge-system"
+        ]
+      }
+    ]
   },
-  "trending": [],
+  "trending": [
+    {
+      "label": "Atlanta Braves",
+      "sentiment": "",
+      "context": "Building Bullpens for April & October",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/01/building-bullpens-for-april-october/"
+      ]
+    },
+    {
+      "label": "Philadelphia Phillies",
+      "sentiment": "",
+      "context": "Building Bullpens for April & October",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/01/building-bullpens-for-april-october/"
+      ]
+    },
+    {
+      "label": "Wild Card",
+      "sentiment": "",
+      "context": "Building Bullpens for April & October",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/01/building-bullpens-for-april-october/"
+      ]
+    },
+    {
+      "label": "Playoffs",
+      "sentiment": "",
+      "context": "Building Bullpens for April & October",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/01/building-bullpens-for-april-october/"
+      ]
+    },
+    {
+      "label": "Bullpens",
+      "sentiment": "",
+      "context": "Building Bullpens for April & October",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/01/building-bullpens-for-april-october/"
+      ]
+    },
+    {
+      "label": "ABS challenge",
+      "sentiment": "",
+      "context": "Taking a look at how the Washington Nationals fared using the ABS challenge system",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94570/taking-look-how-washington-nationals-fared-using-abs-challenge-system"
+      ]
+    },
+    {
+      "label": "rule changes",
+      "sentiment": "",
+      "context": "Taking a look at how the Washington Nationals fared using the ABS challenge system",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94570/taking-look-how-washington-nationals-fared-using-abs-challenge-system"
+      ]
+    },
+    {
+      "label": "umpire rulings",
+      "sentiment": "",
+      "context": "Taking a look at how the Washington Nationals fared using the ABS challenge system",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94570/taking-look-how-washington-nationals-fared-using-abs-challenge-system"
+      ]
+    }
+  ],
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
