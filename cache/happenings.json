@@ -1,54 +1,54 @@
 {
   "data_version": 1,
-  "generated_at": "2026-10-02T01:38:34+00:00",
+  "generated_at": "2026-10-02T04:24:59+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-10-02T01:37:23+00:00",
+    "news": "2026-10-02T04:24:29+00:00",
     "videos": "2026-10-02T01:37:23+00:00",
-    "vibes": "2026-10-02T01:38:34+00:00"
+    "vibes": "2026-10-02T04:24:59+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-10-02T01:37:12+00:00",
+      "last_updated_at": "2026-10-02T04:24:16+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-10-02T01:37:14+00:00",
+      "last_updated_at": "2026-10-02T04:24:17+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-10-02T01:37:14+00:00",
+      "last_updated_at": "2026-10-02T04:24:18+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-10-02T01:37:15+00:00",
+      "last_updated_at": "2026-10-02T04:24:18+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-10-02T01:37:15+00:00",
+      "last_updated_at": "2026-10-02T04:24:18+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-10-02T01:37:16+00:00",
+      "last_updated_at": "2026-10-02T04:24:19+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-10-02T01:37:18+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
@@ -57,7 +57,12 @@
       "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    }
+  ],
   "top_stories": [
     {
       "title": "Building Bullpens for April & October",
@@ -65,7 +70,7 @@
       "source": "Talk Nats",
       "published_at": "2026-10-01T23:40:00+00:00",
       "why_it_matters": {
-        "text": "The Atlanta Braves and Philadelphia Phillies have combined for three blown saves in two Wild Card round playoff games, including two that led to losses. Despite having a top bullpen in April, the Braves' performance is being scrutinized.",
+        "text": "The Atlanta Braves and Philadelphia Phillies have combined for three blown saves in two Wild Card round games, with two leading to losses for each team. Despite having a top bullpen in April, the Braves' performance is being scrutinized.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/20260909_144150-rotated.jpg?fit=676%2C1200&ssl=1"
@@ -109,7 +114,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-09-30T18:42:27+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals are seeking an elite reliever to lead their bullpen after a difficult season. While the team saw success in offense and starting pitching, the bullpen was described as a nightmare and required constant rotation.",
+        "text": "The Washington Nationals are seeking an elite reliever to lead their bullpen after a difficult season. While the team saw offensive growth and strong performances from starters like Cade Cavalli and Andrew Alvarez, the bullpen struggled and cycled through multiple arms.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2280968860.jpg?quality=90&strip=all&crop=0%2C11.217762264883%2C100%2C77.564475470235&w=1200"
@@ -120,7 +125,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-09-30T15:07:58+00:00",
       "why_it_matters": {
-        "text": "Brady House showed significant improvement and took a substantial leap forward for the Nationals in 2026, though he did not have a full-scale breakout.",
+        "text": "Brady House showed significant improvement and took a substantial leap forward for the Nationals in 2026, despite not having a full-scale breakout.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/09/gettyimages-2296164558.jpg?quality=90&strip=all&crop=0%2C10.881803518937%2C100%2C78.236392962126&w=1200"
@@ -146,7 +151,7 @@
       "text": ""
     },
     "storyline": {
-      "text": "The Atlanta Braves and Philadelphia Phillies have combined for three blown saves in two Wild Card round playoff games, including two that led to losses. Despite having a top bullpen in April, the Braves' performance is being scrutinized.",
+      "text": "The Atlanta Braves and Philadelphia Phillies have combined for three blown saves in two Wild Card round games, with two leading to losses for each team. Despite having a top bullpen in April, the Braves' performance is being scrutinized.",
       "ai_generated": true
     }
   },
@@ -199,54 +204,36 @@
     "ai_generated": true,
     "themes": [
       {
-        "label": "Bullpen struggles",
+        "label": "Bullpen Struggles",
         "sentiment": "negative",
         "source_urls": [
           "https://www.federalbaseball.com/washington-nationals-analysis/94542/paul-toboni-washington-nationals-need-find-elite-reliever-spearhead-bullpen"
         ]
       },
       {
-        "label": "Player development",
+        "label": "Player Development",
         "sentiment": "positive",
         "source_urls": [
           "https://www.federalbaseball.com/washington-nationals-analysis/94535/brady-house-took-step-forward-2026-for-nationals-best-yet-come"
         ]
       },
       {
-        "label": "Organizational evaluation",
+        "label": "Organizational Evaluation",
         "sentiment": "mixed",
         "source_urls": [
           "https://nats.talkdcsports.com/2026/10/01/grading-the-2026-nationals-part-3-coaches-and-front-office/"
         ]
       },
       {
-        "label": "Former player impact",
-        "sentiment": "positive",
+        "label": "Rule System Performance",
+        "sentiment": "mixed",
         "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/94557/former-washington-nationals-making-big-impact-in-postseason"
+          "https://www.federalbaseball.com/washington-nationals-analysis/94570/taking-look-how-washington-nationals-fared-using-abs-challenge-system"
         ]
       }
     ]
   },
   "trending": [
-    {
-      "label": "Playoffs",
-      "sentiment": "",
-      "context": "Building Bullpens for April & October",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/10/01/building-bullpens-for-april-october/",
-        "https://www.federalbaseball.com/washington-nationals-analysis/94557/former-washington-nationals-making-big-impact-in-postseason"
-      ]
-    },
-    {
-      "label": "Bullpen",
-      "sentiment": "",
-      "context": "Building Bullpens for April & October",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/10/01/building-bullpens-for-april-october/",
-        "https://www.federalbaseball.com/washington-nationals-analysis/94542/paul-toboni-washington-nationals-need-find-elite-reliever-spearhead-bullpen"
-      ]
-    },
     {
       "label": "Atlanta Braves",
       "sentiment": "",
@@ -265,6 +252,23 @@
     },
     {
       "label": "Wild Card",
+      "sentiment": "",
+      "context": "Building Bullpens for April & October",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/01/building-bullpens-for-april-october/"
+      ]
+    },
+    {
+      "label": "bullpens",
+      "sentiment": "",
+      "context": "Building Bullpens for April & October",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/01/building-bullpens-for-april-october/",
+        "https://www.federalbaseball.com/washington-nationals-analysis/94542/paul-toboni-washington-nationals-need-find-elite-reliever-spearhead-bullpen"
+      ]
+    },
+    {
+      "label": "playoffs",
       "sentiment": "",
       "context": "Building Bullpens for April & October",
       "source_urls": [
