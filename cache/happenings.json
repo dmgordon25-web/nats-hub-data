@@ -1,95 +1,95 @@
 {
   "data_version": 1,
-  "generated_at": "2026-10-07T23:25:13+00:00",
+  "generated_at": "2026-10-08T03:26:35+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-10-07T23:24:49+00:00",
+    "news": "2026-10-08T03:25:27+00:00",
     "videos": "2026-10-07T23:24:49+00:00",
-    "vibes": "2026-10-07T23:25:13+00:00"
+    "vibes": "2026-10-08T03:26:35+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-10-07T23:24:46+00:00",
+      "last_updated_at": "2026-10-08T03:25:16+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-10-07T23:24:47+00:00",
+      "last_updated_at": "2026-10-08T03:25:16+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-10-07T23:24:47+00:00",
+      "last_updated_at": "2026-10-08T03:25:17+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-10-07T23:24:47+00:00",
+      "last_updated_at": "2026-10-08T03:25:17+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-10-07T23:24:47+00:00",
+      "last_updated_at": "2026-10-08T03:25:17+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-10-07T23:24:48+00:00",
+      "last_updated_at": "2026-10-08T03:25:18+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-10-07T23:24:48+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-10-07T23:24:49+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    }
+  ],
   "top_stories": [
     {
       "title": "Seaver King had an electrifying bounce back year in 2026",
-      "url": "https://sports.yahoo.com/articles/seaver-king-had-electrifying-bounce-203500236.html",
-      "source": "Yahoo Sports MLB",
-      "published_at": "2026-10-07T20:35:00+00:00",
-      "why_it_matters": {
-        "text": "Seaver King experienced an electrifying bounce back year in 2026, appearing to fulfill the potential that led to his top 10 selection by the Washington Nationals after a difficult first professional season.",
-        "ai_generated": true
-      },
-      "image_url": "https://s.yimg.com/lo/mysterio/api/037141ba9892618f942ca4943fac9334e6b18ffd299037fcf8ef5092e8ce4849/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fd5360f28dbc2a852bb06bf67f6ba2823.jpg"
+      "url": "https://www.federalbaseball.com/washington-nationals-prospects/94628/seaver-king-electrifying-bounce-back-year-2026",
+      "source": "Federal Baseball",
+      "published_at": "2026-10-07T20:30:19+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2296267879.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
       "title": "Critical Defensive Metrics That Decide Baseball Games",
       "url": "https://nats.talkdcsports.com/2026/10/07/critical-defensive-metrics-that-decide-baseball-games/",
       "source": "Talk Nats",
       "published_at": "2026-10-07T20:27:00+00:00",
-      "why_it_matters": {
-        "text": "The article discusses how critical defensive metrics can decide baseball games, noting that even a strong lineup can lose if the defense fails to handle ground balls or support the pitcher.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/IMG-20260812-WA0054.jpg?fit=1200%2C800&ssl=1"
+    },
+    {
+      "title": "The Washington Nationals finally found their next ace with Cade Cavalli",
+      "url": "https://www.federalbaseball.com/washington-nationals-analysis/94621/washington-nationals-finally-found-next-ace-cade-cavalli",
+      "source": "Federal Baseball",
+      "published_at": "2026-10-07T14:54:46+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2292616816.jpg?quality=90&strip=all&crop=0%2C10.474520329898%2C100%2C79.050959340205&w=1200"
     },
     {
       "title": "Are the Nats really trying to be the Milwaukee Brewers?",
       "url": "https://nats.talkdcsports.com/2026/10/07/are-the-nats-really-trying-to-be-the-milwaukee-brewers/",
       "source": "Talk Nats",
       "published_at": "2026-10-07T04:03:00+00:00",
-      "why_it_matters": {
-        "text": "The article discusses whether the Nationals are adopting the 'Moneyball' formula used by the Brewers and Royals, which focuses on second-tier pitchers, above-average bullpens, and high on-base percentages to create a top run-scoring offense.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/10/nats.talk-dc-sports-6ac516fe30c90-e1791301961708.png?fit=1062%2C757&ssl=1"
     },
     {
@@ -98,7 +98,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-10-06T17:28:43+00:00",
       "why_it_matters": {
-        "text": "Kevin Gausman is identified as a potential rotation anchor for the Nationals. While the top of the rotation is solidified by Cade Cavalli's extension, the rest of the pitching staff faces uncertainty heading into the 2027 offseason.",
+        "text": "Kevin Gausman is identified as a potential rotation anchor for the Nationals. While the rotation was solidified by Cade Cavalli's extension, the pitching staff faces uncertainty heading into the 2027 offseason, with Andrew Alvarez emerging as a high-floor option.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2298073927.jpg?quality=90&strip=all&crop=0%2C10.728341155473%2C100%2C78.543317689055&w=1200"
@@ -109,7 +109,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-10-06T14:31:23+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals' trade of Luis Perales for Jake Bennett has not aged well since Paul Toboni took over as the active general manager.",
+        "text": "The Washington Nationals' trade of Luis Perales for Jake Bennett has not aged well for the team, despite GM Paul Toboni's active approach to making moves to improve the roster.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2293264055.jpg?quality=90&strip=all&crop=0%2C10.754319265053%2C100%2C78.491361469894&w=1200"
@@ -119,10 +119,6 @@
       "url": "https://nats.talkdcsports.com/2026/10/06/situational-hitting-and-awareness-for-the-nats/",
       "source": "Talk Nats",
       "published_at": "2026-10-06T13:37:13+00:00",
-      "why_it_matters": {
-        "text": "The Nationals need to improve situational hitting and awareness. While regular season stakes are lower than October baseball, developing these skills is necessary to navigate high-pressure situations and maximize chances of getting on-base against quality pitching.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/10/nats.talk-dc-sports-6ac4e40e097c4-edited.png?fit=843%2C823&ssl=1"
     },
     {
@@ -131,23 +127,12 @@
       "source": "Federal Baseball",
       "published_at": "2026-10-05T17:55:27+00:00",
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2293613946.jpg?quality=90&strip=all&crop=0%2C10.748760514852%2C100%2C78.502478970297&w=1200"
-    },
-    {
-      "title": "The Washington Nationals had funky home/road splits in 2026",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/94589/washington-nationals-funky-home-road-splits-2026",
-      "source": "Federal Baseball",
-      "published_at": "2026-10-05T14:42:44+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2296935020.jpg?quality=90&strip=all&crop=0%2C10.738657897544%2C100%2C78.522684204912&w=1200"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "none",
       "text": ""
-    },
-    "storyline": {
-      "text": "Seaver King experienced an electrifying bounce back year in 2026, appearing to fulfill the potential that led to his top 10 selection by the Washington Nationals after a difficult first professional season.",
-      "ai_generated": true
     }
   },
   "videos": [
@@ -192,31 +177,31 @@
     "ai_generated": true,
     "themes": [
       {
-        "label": "Player Development Success",
+        "label": "Pitching Prospect Optimism",
         "sentiment": "positive",
         "source_urls": [
-          "https://sports.yahoo.com/articles/seaver-king-had-electrifying-bounce-203500236.html"
+          "https://www.federalbaseball.com/washington-nationals-analysis/94621/washington-nationals-finally-found-next-ace-cade-cavalli",
+          "https://www.federalbaseball.com/washington-nationals-prospects/94628/seaver-king-electrifying-bounce-back-year-2026"
         ]
       },
       {
-        "label": "Pitching Staff Outlook",
+        "label": "Rotation Stability Concerns",
         "sentiment": "mixed",
         "source_urls": [
           "https://www.federalbaseball.com/washington-nationals-analysis/94615/kevin-gausman-could-be-rotation-anchor-nats-are-looking-for"
         ]
       },
       {
-        "label": "Front Office Decisions",
+        "label": "Regretted Trade Decisions",
         "sentiment": "negative",
         "source_urls": [
           "https://www.federalbaseball.com/washington-nationals-analysis/94604/luis-perales-jake-bennett-trade-not-aged-well-for-washington-nationals-so-far"
         ]
       },
       {
-        "label": "Team Strategy & Skills",
+        "label": "Organizational Identity",
         "sentiment": "mixed",
         "source_urls": [
-          "https://nats.talkdcsports.com/2026/10/06/situational-hitting-and-awareness-for-the-nats/",
           "https://nats.talkdcsports.com/2026/10/07/are-the-nats-really-trying-to-be-the-milwaukee-brewers/"
         ]
       }
@@ -224,77 +209,76 @@
   },
   "trending": [
     {
-      "label": "strategy",
-      "sentiment": "",
-      "context": "Are the Nats really trying to be the Milwaukee Brewers?",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/10/06/situational-hitting-and-awareness-for-the-nats/",
-        "https://nats.talkdcsports.com/2026/10/07/are-the-nats-really-trying-to-be-the-milwaukee-brewers/"
-      ]
-    },
-    {
-      "label": "Seaver King",
-      "sentiment": "",
-      "context": "Seaver King had an electrifying bounce back year in 2026",
-      "source_urls": [
-        "https://sports.yahoo.com/articles/seaver-king-had-electrifying-bounce-203500236.html"
-      ]
-    },
-    {
-      "label": "defense",
-      "sentiment": "",
-      "context": "Critical Defensive Metrics That Decide Baseball Games",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/10/07/critical-defensive-metrics-that-decide-baseball-games/"
-      ]
-    },
-    {
-      "label": "metrics",
-      "sentiment": "",
-      "context": "Critical Defensive Metrics That Decide Baseball Games",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/10/07/critical-defensive-metrics-that-decide-baseball-games/"
-      ]
-    },
-    {
-      "label": "Brewers",
-      "sentiment": "",
-      "context": "Are the Nats really trying to be the Milwaukee Brewers?",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/10/07/are-the-nats-really-trying-to-be-the-milwaukee-brewers/"
-      ]
-    },
-    {
-      "label": "Royals",
-      "sentiment": "",
-      "context": "Are the Nats really trying to be the Milwaukee Brewers?",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/10/07/are-the-nats-really-trying-to-be-the-milwaukee-brewers/"
-      ]
-    },
-    {
-      "label": "Moneyball",
-      "sentiment": "",
-      "context": "Are the Nats really trying to be the Milwaukee Brewers?",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/10/07/are-the-nats-really-trying-to-be-the-milwaukee-brewers/"
-      ]
-    },
-    {
       "label": "Kevin Gausman",
       "sentiment": "",
       "context": "Kevin Gausman could be the rotation anchor the Nats are looking for",
       "source_urls": [
         "https://www.federalbaseball.com/washington-nationals-analysis/94615/kevin-gausman-could-be-rotation-anchor-nats-are-looking-for"
       ]
+    },
+    {
+      "label": "Cade Cavalli",
+      "sentiment": "",
+      "context": "Kevin Gausman could be the rotation anchor the Nats are looking for",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94615/kevin-gausman-could-be-rotation-anchor-nats-are-looking-for"
+      ]
+    },
+    {
+      "label": "Andrew Alvarez",
+      "sentiment": "",
+      "context": "Kevin Gausman could be the rotation anchor the Nats are looking for",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94615/kevin-gausman-could-be-rotation-anchor-nats-are-looking-for"
+      ]
+    },
+    {
+      "label": "pitching rotation",
+      "sentiment": "",
+      "context": "Kevin Gausman could be the rotation anchor the Nats are looking for",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94615/kevin-gausman-could-be-rotation-anchor-nats-are-looking-for"
+      ]
+    },
+    {
+      "label": "Luis Perales",
+      "sentiment": "",
+      "context": "The Luis Perales for Jake Bennett Trade has not aged well for the Washington Nationals so far",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94604/luis-perales-jake-bennett-trade-not-aged-well-for-washington-nationals-so-far"
+      ]
+    },
+    {
+      "label": "Jake Bennett",
+      "sentiment": "",
+      "context": "The Luis Perales for Jake Bennett Trade has not aged well for the Washington Nationals so far",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94604/luis-perales-jake-bennett-trade-not-aged-well-for-washington-nationals-so-far"
+      ]
+    },
+    {
+      "label": "Paul Toboni",
+      "sentiment": "",
+      "context": "The Luis Perales for Jake Bennett Trade has not aged well for the Washington Nationals so far",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94604/luis-perales-jake-bennett-trade-not-aged-well-for-washington-nationals-so-far"
+      ]
+    },
+    {
+      "label": "trade",
+      "sentiment": "",
+      "context": "The Luis Perales for Jake Bennett Trade has not aged well for the Washington Nationals so far",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94604/luis-perales-jake-bennett-trade-not-aged-well-for-washington-nationals-so-far"
+      ]
     }
   ],
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "CJ Abrams",
-    "text": "The Nationals' dynamic young shortstop, acquired in the 2022 Juan Soto trade and now a cornerstone of the rebuild.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/682928/spots/120",
+    "name": "James Wood",
+    "text": "A towering, high-ceiling outfielder who also came to Washington in the Juan Soto trade.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/695578/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
