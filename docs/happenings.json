@@ -1,63 +1,68 @@
 {
   "data_version": 1,
-  "generated_at": "2026-10-11T21:24:07+00:00",
+  "generated_at": "2026-10-12T01:24:45+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-10-11T21:23:45+00:00",
+    "news": "2026-10-12T01:24:23+00:00",
     "videos": "2026-10-11T21:23:45+00:00",
-    "vibes": "2026-10-11T21:24:07+00:00"
+    "vibes": "2026-10-12T01:24:45+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-10-11T21:23:42+00:00",
+      "last_updated_at": "2026-10-12T01:24:10+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-10-11T21:23:43+00:00",
+      "last_updated_at": "2026-10-12T01:24:11+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-10-11T21:23:44+00:00",
+      "last_updated_at": "2026-10-12T01:24:12+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-10-11T21:23:44+00:00",
+      "last_updated_at": "2026-10-12T01:24:12+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-10-11T21:23:44+00:00",
+      "last_updated_at": "2026-10-12T01:24:12+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-10-11T21:23:45+00:00",
+      "last_updated_at": "2026-10-12T01:24:13+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-10-11T21:23:45+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-10-11T21:23:45+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    }
+  ],
   "top_stories": [
     {
       "title": "The Championship Series matchups prove the Washington Nationals do not need a monster payroll to win",
@@ -65,7 +70,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-10-11T19:47:49+00:00",
       "why_it_matters": {
-        "text": "The Championship Series matchups suggest that a large payroll is not necessary for success, as three of the four remaining teams rank in the bottom half of payroll rankings.",
+        "text": "The Championship Series matchups suggest that a large payroll is not necessary for success, as three of the four remaining teams are in the bottom half of payroll rankings. Notably, the two cheapest teams in the American League are competing for a World Series spot.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2298603126.jpg?quality=90&strip=all&crop=0%2C12.38353163447%2C100%2C75.232936731059&w=1200"
@@ -76,7 +81,7 @@
       "source": "Talk Nats",
       "published_at": "2026-10-11T15:32:43+00:00",
       "why_it_matters": {
-        "text": "The inaugural Banana Bowl championship was held on Saturday night at Nationals Park in Washington, D.C., in front of a sold-out crowd of 41,000. The finale concluded the 2026 Banana Ball Championship League season.",
+        "text": "The inaugural Banana Bowl championship was held at Nationals Park in Washington, D.C., before a sold-out crowd of 41,000. The event concluded the 2026 Banana Ball Championship League season.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/10/nats.talk-dc-sports-6acb9d91008f7.png?fit=1200%2C622&ssl=1"
@@ -98,7 +103,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-10-10T15:21:02+00:00",
       "why_it_matters": {
-        "text": "Andres Chaparro emerged as a standout hitter for the Washington Nationals during the second half of the season, showing significant improvement after struggling as a part-time player in the first half.",
+        "text": "Andres Chaparro emerged as a standout hitter for the Washington Nationals during the second half of the season, overcoming early struggles as a part-time player to perform well down the stretch.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2296931143.jpg?quality=90&strip=all&crop=0%2C10.727532812463%2C100%2C78.544934375075&w=1200"
@@ -109,7 +114,7 @@
       "source": "Talk Nats",
       "published_at": "2026-10-10T13:29:43+00:00",
       "why_it_matters": {
-        "text": "The analysis of the Washington Nationals' 42 blown-saves reveals that 24 of those instances turned potential wins into losses, suggesting that not all blown-saves are equal and that moderate changes might be an option.",
+        "text": "The text discusses the distinction between different types of blown saves, noting that of the Washington Nationals' 42 blown-saves, 24 turned potential wins into losses. It questions the impact of making moderate changes to the roster.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/07/IMG-20260729-WA0022.jpg?fit=1129%2C1200&ssl=1"
@@ -146,7 +151,7 @@
       "text": ""
     },
     "storyline": {
-      "text": "The Championship Series matchups suggest that a large payroll is not necessary for success, as three of the four remaining teams rank in the bottom half of payroll rankings.",
+      "text": "The Championship Series matchups suggest that a large payroll is not necessary for success, as three of the four remaining teams are in the bottom half of payroll rankings. Notably, the two cheapest teams in the American League are competing for a World Series spot.",
       "ai_generated": true
     }
   },
@@ -192,32 +197,33 @@
     "ai_generated": true,
     "themes": [
       {
-        "label": "Roster Construction Success",
+        "label": "Roster and Strategy",
         "sentiment": "positive",
         "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/94654/who-are-potential-washington-nationals-trade-chips-offseason",
           "https://www.federalbaseball.com/washington-nationals-analysis/94660/andres-chaparro-rewarded-washington-nationals-faith-during-second-half",
+          "https://www.federalbaseball.com/washington-nationals-analysis/94668/tyler-mahle-might-be-a-perfect-free-agent-fit-for-the-nats"
+        ]
+      },
+      {
+        "label": "Financial Efficiency",
+        "sentiment": "positive",
+        "source_urls": [
           "https://www.federalbaseball.com/washington-nationals-analysis/94676/championship-series-prove-washington-nationals-do-not-need-monster-payroll-win"
         ]
       },
       {
-        "label": "Strategic Trade Management",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/94654/who-are-potential-washington-nationals-trade-chips-offseason"
-        ]
-      },
-      {
-        "label": "Bullpen Concerns",
+        "label": "Bullpen Performance",
         "sentiment": "negative",
         "source_urls": [
           "https://nats.talkdcsports.com/2026/10/10/what-if-toboni-just-makes-moderate-changes/"
         ]
       },
       {
-        "label": "Offseason Acquisition Potential",
+        "label": "Community Events",
         "sentiment": "positive",
         "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/94668/tyler-mahle-might-be-a-perfect-free-agent-fit-for-the-nats"
+          "https://nats.talkdcsports.com/2026/10/11/the-first-banana-bowl-championship/"
         ]
       }
     ]
@@ -233,7 +239,7 @@
       ]
     },
     {
-      "label": "payroll",
+      "label": "Payroll",
       "sentiment": "",
       "context": "The Championship Series matchups prove the Washington Nationals do not need a monster payroll to win",
       "source_urls": [
@@ -241,7 +247,7 @@
       ]
     },
     {
-      "label": "small market teams",
+      "label": "World Series",
       "sentiment": "",
       "context": "The Championship Series matchups prove the Washington Nationals do not need a monster payroll to win",
       "source_urls": [
@@ -292,9 +298,9 @@
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "CJ Abrams",
-    "text": "The Nationals' dynamic young shortstop, acquired in the 2022 Juan Soto trade and now a cornerstone of the rebuild.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/682928/spots/120",
+    "name": "James Wood",
+    "text": "A towering, high-ceiling outfielder who also came to Washington in the Juan Soto trade.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/695578/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
