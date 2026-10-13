@@ -1,47 +1,47 @@
 {
   "data_version": 1,
-  "generated_at": "2026-10-13T00:55:58+00:00",
-  "mode": "rss_fallback",
+  "generated_at": "2026-10-13T01:28:57+00:00",
+  "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-10-13T00:55:57+00:00",
+    "news": "2026-10-13T01:28:15+00:00",
     "videos": null,
-    "vibes": null
+    "vibes": "2026-10-13T01:28:57+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-10-13T00:55:50+00:00",
+      "last_updated_at": "2026-10-13T01:28:07+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-10-13T00:55:51+00:00",
+      "last_updated_at": "2026-10-13T01:28:08+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-10-13T00:55:51+00:00",
+      "last_updated_at": "2026-10-13T01:28:08+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-10-13T01:28:09+00:00",
+      "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-10-13T00:55:51+00:00",
+      "last_updated_at": "2026-10-13T01:28:09+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-10-13T00:55:51+00:00",
+      "last_updated_at": "2026-10-13T01:28:10+00:00",
       "status": "live"
     },
     {
@@ -53,30 +53,21 @@
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-10-13T00:55:57+00:00",
+      "last_updated_at": "2026-10-13T01:28:15+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "why_it_matters",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "trending",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "Nationals prospect Jarlin Susana is at the Arizona Fall League throwing heat in the desert",
       "url": "https://www.federalbaseball.com/washington-nationals-prospects/94685/nationals-jarlin-susana-at-arizona-fall-league-throwing-heat-in-desert",
       "source": "Federal Baseball",
       "published_at": "2026-10-12T17:54:41+00:00",
+      "why_it_matters": {
+        "text": "Nationals prospect Jarlin Susana is competing in the Arizona Fall League. The right-hander, known for triple-digit velocity, is using the league as an opportunity to compete after missing most of the season recovering from Lat Surgery.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2299073110.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -84,6 +75,10 @@
       "url": "https://nats.talkdcsports.com/2026/10/12/best-laid-plans-can-fail/",
       "source": "Talk Nats",
       "published_at": "2026-10-12T14:25:09+00:00",
+      "why_it_matters": {
+        "text": "The text discusses how the many variables involved in life can cause even well-laid plans to fail, noting that while buying quality can increase the odds of success, few things are certain.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/10/nats.talk-dc-sports-6acccfb9b2316-edited.png?fit=972%2C740&ssl=1"
     },
     {
@@ -91,6 +86,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94676/championship-series-prove-washington-nationals-do-not-need-monster-payroll-win",
       "source": "Federal Baseball",
       "published_at": "2026-10-11T19:47:49+00:00",
+      "why_it_matters": {
+        "text": "The Championship Series matchups suggest that teams like the Washington Nationals can succeed without a monster payroll. Three of the four remaining teams rank in the bottom half of payroll, with the two cheapest American League teams competing for a World Series spot.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2298603126.jpg?quality=90&strip=all&crop=0%2C12.38353163447%2C100%2C75.232936731059&w=1200"
     },
     {
@@ -98,6 +97,10 @@
       "url": "https://nats.talkdcsports.com/2026/10/11/the-first-banana-bowl-championship/",
       "source": "Talk Nats",
       "published_at": "2026-10-11T15:32:43+00:00",
+      "why_it_matters": {
+        "text": "The inaugural Banana Bowl championship was held at Nationals Park in Washington, D.C., before a sold-out crowd of 41,000. The finale concluded the 2026 Banana Ball Championship League season following 191 games.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/10/nats.talk-dc-sports-6acb9d91008f7.png?fit=1200%2C622&ssl=1"
     },
     {
@@ -105,6 +108,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94668/tyler-mahle-might-be-a-perfect-free-agent-fit-for-the-nats",
       "source": "Federal Baseball",
       "published_at": "2026-10-10T22:23:38+00:00",
+      "why_it_matters": {
+        "text": "Tyler Mahle is identified as a potential free agent fit for the Washington Nationals to bolster their pitching rotation as the team adds new offensive pieces.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2297413728.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -112,6 +119,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94660/andres-chaparro-rewarded-washington-nationals-faith-during-second-half",
       "source": "Federal Baseball",
       "published_at": "2026-10-10T15:21:02+00:00",
+      "why_it_matters": {
+        "text": "Andres Chaparro emerged as a standout hitter for the Washington Nationals during the second half of the season, overcoming early struggles as a part-time player to perform well down the stretch.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2296931143.jpg?quality=90&strip=all&crop=0%2C10.727532812463%2C100%2C78.544934375075&w=1200"
     },
     {
@@ -133,15 +144,114 @@
     "result_banner": {
       "type": "none",
       "text": ""
+    },
+    "storyline": {
+      "text": "Nationals prospect Jarlin Susana is competing in the Arizona Fall League. The right-hander, known for triple-digit velocity, is using the league as an opportunity to compete after missing most of the season recovering from Lat Surgery.",
+      "ai_generated": true
     }
   },
   "videos": [],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "positive",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "Prospect Development",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-prospects/94685/nationals-jarlin-susana-at-arizona-fall-league-throwing-heat-in-desert"
+        ]
+      },
+      {
+        "label": "Roster Success",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/94660/andres-chaparro-rewarded-washington-nationals-faith-during-second-half"
+        ]
+      },
+      {
+        "label": "Strategic Fit",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/94668/tyler-mahle-might-be-a-perfect-free-agent-fit-for-the-nats"
+        ]
+      },
+      {
+        "label": "Economic Viability",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/94676/championship-series-prove-washington-nationals-do-not-need-monster-payroll-win"
+        ]
+      }
+    ]
   },
-  "trending": [],
+  "trending": [
+    {
+      "label": "Jarlin Susana",
+      "sentiment": "",
+      "context": "Nationals prospect Jarlin Susana is at the Arizona Fall League throwing heat in the desert",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-prospects/94685/nationals-jarlin-susana-at-arizona-fall-league-throwing-heat-in-desert"
+      ]
+    },
+    {
+      "label": "Arizona Fall League",
+      "sentiment": "",
+      "context": "Nationals prospect Jarlin Susana is at the Arizona Fall League throwing heat in the desert",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-prospects/94685/nationals-jarlin-susana-at-arizona-fall-league-throwing-heat-in-desert"
+      ]
+    },
+    {
+      "label": "prospects",
+      "sentiment": "",
+      "context": "Nationals prospect Jarlin Susana is at the Arizona Fall League throwing heat in the desert",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-prospects/94685/nationals-jarlin-susana-at-arizona-fall-league-throwing-heat-in-desert"
+      ]
+    },
+    {
+      "label": "risk",
+      "sentiment": "",
+      "context": "Best Laid Plans Can Fail",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/12/best-laid-plans-can-fail/"
+      ]
+    },
+    {
+      "label": "planning",
+      "sentiment": "",
+      "context": "Best Laid Plans Can Fail",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/12/best-laid-plans-can-fail/"
+      ]
+    },
+    {
+      "label": "success",
+      "sentiment": "",
+      "context": "Best Laid Plans Can Fail",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/12/best-laid-plans-can-fail/"
+      ]
+    },
+    {
+      "label": "uncertainty",
+      "sentiment": "",
+      "context": "Best Laid Plans Can Fail",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/12/best-laid-plans-can-fail/"
+      ]
+    },
+    {
+      "label": "Championship Series",
+      "sentiment": "",
+      "context": "The Championship Series matchups prove the Washington Nationals do not need a monster payroll to win",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/11/the-first-banana-bowl-championship/",
+        "https://www.federalbaseball.com/washington-nationals-analysis/94676/championship-series-prove-washington-nationals-do-not-need-monster-payroll-win"
+      ]
+    }
+  ],
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
