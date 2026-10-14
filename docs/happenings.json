@@ -1,63 +1,68 @@
 {
   "data_version": 1,
-  "generated_at": "2026-10-13T21:22:41+00:00",
+  "generated_at": "2026-10-14T01:24:02+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-10-13T21:22:04+00:00",
+    "news": "2026-10-14T01:23:00+00:00",
     "videos": "2026-10-13T21:22:04+00:00",
-    "vibes": "2026-10-13T21:22:41+00:00"
+    "vibes": "2026-10-14T01:24:02+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-10-13T21:22:01+00:00",
+      "last_updated_at": "2026-10-14T01:22:48+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-10-13T21:22:02+00:00",
+      "last_updated_at": "2026-10-14T01:22:48+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-10-13T21:22:03+00:00",
+      "last_updated_at": "2026-10-14T01:22:49+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-10-13T21:22:03+00:00",
+      "last_updated_at": "2026-10-14T01:22:49+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-10-13T21:22:03+00:00",
+      "last_updated_at": "2026-10-14T01:22:49+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-10-13T21:22:04+00:00",
+      "last_updated_at": "2026-10-14T01:22:50+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-10-13T21:22:04+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-10-13T21:22:04+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    }
+  ],
   "top_stories": [
     {
       "title": "Poll: Should The Nationals Trade Keibert Ruiz?",
@@ -76,7 +81,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-10-13T19:54:29+00:00",
       "why_it_matters": {
-        "text": "Andrew Alvarez has secured a spot in the Washington Nationals' future plans as a potential second-best starter for the 2026 season following a challenging year for the team's pitching staff.",
+        "text": "Andrew Alvarez has established himself as a key member of the Washington Nationals' pitching staff, emerging as a significant rotation option for the 2026 season despite a challenging year for the team's overall pitching staff.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2296580022.jpg?quality=90&strip=all&crop=0%2C10.736763965511%2C100%2C78.526472068977&w=1200"
@@ -87,7 +92,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-10-13T14:57:53+00:00",
       "why_it_matters": {
-        "text": "Under Paul Toboni's leadership, the Washington Nationals have developed a deep farm system, resulting in significant growth at both the MLB and minor league levels.",
+        "text": "Under Paul Toboni's leadership, the Washington Nationals have developed a deep farm system and a robust scouting and player development program, showing significant results in the minor leagues.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2292704322.jpg?quality=90&strip=all&crop=0%2C10.752607989199%2C100%2C78.494784021602&w=1200"
@@ -98,7 +103,7 @@
       "source": "Talk Nats",
       "published_at": "2026-10-13T04:04:00+00:00",
       "why_it_matters": {
-        "text": "Toboni hints on the bullpen and the potential need for a Baker move, while the text notes the evolution of modern baseball compared to the era of starters pitching both ends of a doubleheader.",
+        "text": "Toboni hints on the bullpen and the potential need for a Baker move. The text notes how modern baseball differs from the past, citing Wilbur Wood and Jack Scott's historical pitching feats.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/10/20260602_163751-edited.jpg?fit=1200%2C993&ssl=1"
@@ -199,7 +204,7 @@
         ]
       },
       {
-        "label": "Pitching Development",
+        "label": "Promising Pitching Prospects",
         "sentiment": "positive",
         "source_urls": [
           "https://www.federalbaseball.com/washington-nationals-analysis/94704/andrew-alvarez-pitched-way-into-washington-nationals-future-plans",
@@ -207,7 +212,7 @@
         ]
       },
       {
-        "label": "Strategic Roster Moves",
+        "label": "Strategic Roster Management",
         "sentiment": "mixed",
         "source_urls": [
           "https://nats.talkdcsports.com/2026/10/13/toboni-hints-on-the-bullpen-could-need-a-baker-move/",
@@ -215,7 +220,7 @@
         ]
       },
       {
-        "label": "Risk Management",
+        "label": "Risk of Planning",
         "sentiment": "mixed",
         "source_urls": [
           "https://nats.talkdcsports.com/2026/10/12/best-laid-plans-can-fail/"
@@ -267,7 +272,15 @@
       ]
     },
     {
-      "label": "roster plans",
+      "label": "roster",
+      "sentiment": "",
+      "context": "Andrew Alvarez pitched his way into the Washington Nationals future plans this year",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94704/andrew-alvarez-pitched-way-into-washington-nationals-future-plans"
+      ]
+    },
+    {
+      "label": "2026 season",
       "sentiment": "",
       "context": "Andrew Alvarez pitched his way into the Washington Nationals future plans this year",
       "source_urls": [
@@ -281,22 +294,14 @@
       "source_urls": [
         "https://www.federalbaseball.com/washington-nationals-prospects/94693/washington-nationals-built-up-deep-farm-system-under-paul-toboni"
       ]
-    },
-    {
-      "label": "farm system",
-      "sentiment": "",
-      "context": "The Washington Nationals have built up a very deep farm system under Paul Toboni",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-prospects/94693/washington-nationals-built-up-deep-farm-system-under-paul-toboni"
-      ]
     }
   ],
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "MacKenzie Gore",
-    "text": "The hard-throwing left-handed starter and another key piece of the return in the Juan Soto trade.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/669022/spots/120",
+    "name": "Dylan Crews",
+    "text": "The No. 2 overall pick in the 2023 MLB Draft out of LSU, headlining the next wave of Nationals talent.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/686611/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
