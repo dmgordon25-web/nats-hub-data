@@ -1,63 +1,68 @@
 {
   "data_version": 1,
-  "generated_at": "2026-10-14T21:27:47+00:00",
+  "generated_at": "2026-10-15T01:28:46+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-10-14T21:27:13+00:00",
+    "news": "2026-10-15T01:28:03+00:00",
     "videos": "2026-10-14T21:27:13+00:00",
-    "vibes": "2026-10-14T21:27:47+00:00"
+    "vibes": "2026-10-15T01:28:46+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-10-14T21:27:10+00:00",
+      "last_updated_at": "2026-10-15T01:27:51+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-10-14T21:27:11+00:00",
+      "last_updated_at": "2026-10-15T01:27:51+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-10-14T21:27:12+00:00",
+      "last_updated_at": "2026-10-15T01:27:52+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-10-14T21:27:12+00:00",
+      "last_updated_at": "2026-10-15T01:27:52+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-10-14T21:27:12+00:00",
+      "last_updated_at": "2026-10-15T01:27:52+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-10-14T21:27:13+00:00",
+      "last_updated_at": "2026-10-15T01:27:53+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-10-14T21:27:13+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-10-14T21:27:13+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    }
+  ],
   "top_stories": [
     {
       "title": "Daylen Lile’s impressive defensive season rewarded with an NL Gold Glove nomination",
@@ -76,7 +81,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-10-14T14:11:44+00:00",
       "why_it_matters": {
-        "text": "Erik Tolman and Jack Sinclair emerged as homegrown relief options for the Washington Nationals, despite the team's bullpen setting records for ineptitude and blown saves in 2026.",
+        "text": "Erik Tolman and Jack Sinclair emerged as homegrown relief options for the Washington Nationals, who experienced a historically poor bullpen performance in 2026.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2295103522.jpg?quality=90&strip=all&crop=0%2C10.47335049455%2C100%2C79.053299010899&w=1200"
@@ -87,7 +92,7 @@
       "source": "Talk Nats",
       "published_at": "2026-10-14T13:39:25+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals have struggled to find a consistent first baseman since Ryan Zimmerman's retirement. For the 2026 season, the team utilized internal candidates, specifically Luis Garcia Jr., who switched from second base to first base and recorded positive defensive numbers.",
+        "text": "The Washington Nationals have faced a revolving door at first base since Ryan Zimmerman's retirement. For the 2026 season, the team utilized internal candidates, specifically Luis Garcia Jr., who switched from second base to first base and recorded good defensive numbers.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/nats.talk-dc-sports-6aa40d018b87b.png?fit=992%2C1056&ssl=1"
@@ -98,7 +103,7 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-10-13T20:05:11+00:00",
       "why_it_matters": {
-        "text": "A poll asks if the Nationals should trade Keibert Ruiz, a catcher acquired from the Dodgers in 2021 as part of a trade for Max Scherzer and Trea Turner during the team's rebuild.",
+        "text": "A poll asks if the Nationals should trade Keibert Ruiz, a catcher acquired in a 2021 trade for Max Scherzer and Trea Turner as the team entered rebuild mode.",
         "ai_generated": true
       },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/10/Keibert_Ruiz_Nationals-copy-1024x683.jpg"
@@ -120,7 +125,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-10-13T14:57:53+00:00",
       "why_it_matters": {
-        "text": "Under Paul Toboni's leadership, the Washington Nationals have developed a deep farm system, with significant growth and results visible in the minor leagues as part of his goal to create a scouting and player development monster.",
+        "text": "Under Paul Toboni's leadership, the Washington Nationals have developed a deep farm system and a robust scouting and player development program that has shown significant results in the minor leagues.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2292704322.jpg?quality=90&strip=all&crop=0%2C10.752607989199%2C100%2C78.494784021602&w=1200"
@@ -188,26 +193,25 @@
     }
   ],
   "fan_vibes": {
-    "overall": "mixed",
+    "overall": "positive",
     "ai_generated": true,
     "themes": [
       {
         "label": "Defensive Improvement",
         "sentiment": "positive",
         "source_urls": [
-          "https://nats.talkdcsports.com/2026/10/14/first-base-is-once-again-a-need/",
           "https://www.federalbaseball.com/washington-nationals-news/94715/daylen-lile-impressive-defensive-season-rewarded-nl-gold-glove-nomination"
         ]
       },
       {
-        "label": "Bullpen Struggles",
-        "sentiment": "negative",
+        "label": "Bullpen Development",
+        "sentiment": "positive",
         "source_urls": [
           "https://www.federalbaseball.com/washington-nationals-analysis/94710/erik-tolman-jack-sinclair-emerged-relief-options-for-washington-nationals"
         ]
       },
       {
-        "label": "Prospect Development",
+        "label": "Prospect & Farm Growth",
         "sentiment": "positive",
         "source_urls": [
           "https://www.federalbaseball.com/washington-nationals-analysis/94704/andrew-alvarez-pitched-way-into-washington-nationals-future-plans",
@@ -215,9 +219,10 @@
         ]
       },
       {
-        "label": "Roster Decisions",
+        "label": "Roster Management",
         "sentiment": "mixed",
         "source_urls": [
+          "https://nats.talkdcsports.com/2026/10/14/first-base-is-once-again-a-need/",
           "https://www.mlbtraderumors.com/2026/10/poll-should-the-nationals-trade-keibert-ruiz.html"
         ]
       }
@@ -281,7 +286,7 @@
       ]
     },
     {
-      "label": "roster changes",
+      "label": "Ryan Zimmerman",
       "sentiment": "",
       "context": "First Base is Once Again a Need",
       "source_urls": [
@@ -292,9 +297,9 @@
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "Dylan Crews",
-    "text": "The No. 2 overall pick in the 2023 MLB Draft out of LSU, headlining the next wave of Nationals talent.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/686611/spots/120",
+    "name": "CJ Abrams",
+    "text": "The Nationals' dynamic young shortstop, acquired in the 2022 Juan Soto trade and now a cornerstone of the rebuild.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/682928/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
