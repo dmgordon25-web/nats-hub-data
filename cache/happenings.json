@@ -1,66 +1,74 @@
 {
   "data_version": 1,
-  "generated_at": "2026-10-16T05:01:51+00:00",
-  "mode": "falkor_enriched",
+  "generated_at": "2026-10-16T09:04:02+00:00",
+  "mode": "rss_fallback",
   "freshness": {
-    "news": "2026-10-16T05:00:22+00:00",
-    "videos": "2026-10-16T01:37:01+00:00",
-    "vibes": "2026-10-16T05:01:51+00:00"
+    "news": "2026-10-16T09:01:59+00:00",
+    "videos": "2026-10-16T09:01:59+00:00",
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-10-16T05:00:10+00:00",
+      "last_updated_at": "2026-10-16T09:01:56+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-10-16T05:00:11+00:00",
+      "last_updated_at": "2026-10-16T09:01:57+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-10-16T05:00:11+00:00",
+      "last_updated_at": "2026-10-16T09:01:58+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-10-16T05:00:11+00:00",
+      "last_updated_at": "2026-10-16T09:01:58+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-10-16T05:00:12+00:00",
+      "last_updated_at": "2026-10-16T09:01:58+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-10-16T05:00:12+00:00",
+      "last_updated_at": "2026-10-16T09:01:59+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-10-16T09:01:59+00:00",
+      "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-10-16T09:01:59+00:00",
+      "status": "live"
     }
   ],
   "limited_sources": [
     {
-      "id": "videos",
-      "reason": "last_check_too_old"
+      "id": "why_it_matters",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "trending",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
     }
   ],
   "top_stories": [
@@ -104,10 +112,6 @@
       "url": "https://www.mlbtraderumors.com/2026/10/poll-should-the-nationals-trade-keibert-ruiz.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-10-13T20:05:11+00:00",
-      "why_it_matters": {
-        "text": "A poll asks if the Nationals should trade Keibert Ruiz, a catcher acquired from the Dodgers in 2021 as part of a trade for Max Scherzer and Trea Turner during the team's rebuild.",
-        "ai_generated": true
-      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/10/Keibert_Ruiz_Nationals-copy-1024x683.jpg"
     },
     {
@@ -169,67 +173,11 @@
     }
   ],
   "fan_vibes": {
-    "overall": "mixed",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "Underperforming Talent",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/94723/harry-ford-did-not-live-up-expectations-first-year-with-washington-nationals"
-        ]
-      },
-      {
-        "label": "Defensive Success",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-news/94715/daylen-lile-impressive-defensive-season-rewarded-nl-gold-glove-nomination"
-        ]
-      },
-      {
-        "label": "Homegrown Relief Growth",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/94710/erik-tolman-jack-sinclair-emerged-relief-options-for-washington-nationals"
-        ]
-      },
-      {
-        "label": "Roster & Strategy Concerns",
-        "sentiment": "mixed",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/10/14/first-base-is-once-again-a-need/",
-          "https://nats.talkdcsports.com/2026/10/15/the-payroll-isnt-really-the-issue-its-just-the-commitment-to-winning/",
-          "https://www.mlbtraderumors.com/2026/10/poll-should-the-nationals-trade-keibert-ruiz.html"
-        ]
-      }
-    ]
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
   },
-  "trending": [
-    {
-      "label": "Keibert Ruiz",
-      "sentiment": "",
-      "context": "Poll: Should The Nationals Trade Keibert Ruiz?",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/10/poll-should-the-nationals-trade-keibert-ruiz.html"
-      ]
-    },
-    {
-      "label": "Trade",
-      "sentiment": "",
-      "context": "Poll: Should The Nationals Trade Keibert Ruiz?",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/10/poll-should-the-nationals-trade-keibert-ruiz.html"
-      ]
-    },
-    {
-      "label": "Prospects",
-      "sentiment": "",
-      "context": "Poll: Should The Nationals Trade Keibert Ruiz?",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/10/poll-should-the-nationals-trade-keibert-ruiz.html"
-      ]
-    }
-  ],
+  "trending": [],
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
