@@ -1,77 +1,71 @@
 {
   "data_version": 1,
-  "generated_at": "2026-10-16T17:40:15+00:00",
-  "mode": "rss_fallback",
+  "generated_at": "2026-10-16T21:05:43+00:00",
+  "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-10-16T17:40:13+00:00",
-    "videos": "2026-10-16T17:40:13+00:00",
-    "vibes": null
+    "news": "2026-10-16T21:04:50+00:00",
+    "videos": "2026-10-16T21:04:50+00:00",
+    "vibes": "2026-10-16T21:05:43+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-10-16T17:40:11+00:00",
+      "last_updated_at": "2026-10-16T21:04:47+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-10-16T17:40:12+00:00",
+      "last_updated_at": "2026-10-16T21:04:48+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-10-16T17:40:12+00:00",
+      "last_updated_at": "2026-10-16T21:04:48+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-10-16T21:04:48+00:00",
+      "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-10-16T17:40:12+00:00",
+      "last_updated_at": "2026-10-16T21:04:48+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-10-16T17:40:13+00:00",
+      "last_updated_at": "2026-10-16T21:04:49+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-10-16T17:40:13+00:00",
+      "last_updated_at": "2026-10-16T21:04:50+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-10-16T17:40:13+00:00",
+      "last_updated_at": "2026-10-16T21:04:50+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "why_it_matters",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "trending",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
+    {
+      "title": "The Washington Nationals Were Dangerous On The Base Paths In 2026",
+      "url": "https://www.federalbaseball.com/washington-nationals-analysis/94731/washington-nationals-dangerous-on-base-paths-in-2026",
+      "source": "Federal Baseball",
+      "published_at": "2026-10-16T18:59:19+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2278833596.jpg?quality=90&strip=all&crop=0%2C10.735952994767%2C100%2C78.528094010466&w=1200"
+    },
     {
       "title": "NL East Should be Opening Up!",
       "url": "https://nats.talkdcsports.com/2026/10/16/nl-east-should-be-opening-up/",
@@ -84,6 +78,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94723/harry-ford-did-not-live-up-expectations-first-year-with-washington-nationals",
       "source": "Federal Baseball",
       "published_at": "2026-10-15T18:06:28+00:00",
+      "why_it_matters": {
+        "text": "Harry Ford failed to meet expectations during his first year with the Washington Nationals. Acquired in a trade by Paul Toboni, Ford was expected to become the team's future catcher but did not perform as planned during the season.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2296249230.jpg?quality=90&strip=all&crop=0%2C12.911909603961%2C100%2C74.176180792078&w=1200"
     },
     {
@@ -91,6 +89,10 @@
       "url": "https://nats.talkdcsports.com/2026/10/15/the-payroll-isnt-really-the-issue-its-just-the-commitment-to-winning/",
       "source": "Talk Nats",
       "published_at": "2026-10-15T04:05:00+00:00",
+      "why_it_matters": {
+        "text": "The text discusses Nathaniel Lowe's comments regarding a commitment to winning and mentions his past criticism of the Washington Nationals' home run celebration hat.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2025/02/Nathaniel-Lowe-by-Bailey-Accorto-3-scaled-1.jpg?fit=1200%2C868&ssl=1"
     },
     {
@@ -98,6 +100,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-news/94715/daylen-lile-impressive-defensive-season-rewarded-nl-gold-glove-nomination",
       "source": "Federal Baseball",
       "published_at": "2026-10-14T17:03:33+00:00",
+      "why_it_matters": {
+        "text": "Daylen Lile, who struggled defensively during his 2025 rookie season, has been named one of three finalists for the NL Gold Glove at the left field position following a significant offseason effort to improve his defense.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2293485751.jpg?quality=90&strip=all&crop=0%2C10.728987650374%2C100%2C78.542024699253&w=1200"
     },
     {
@@ -105,6 +111,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94710/erik-tolman-jack-sinclair-emerged-relief-options-for-washington-nationals",
       "source": "Federal Baseball",
       "published_at": "2026-10-14T14:11:44+00:00",
+      "why_it_matters": {
+        "text": "Erik Tolman and Jack Sinclair emerged as homegrown relief options for the Washington Nationals, despite the team's bullpen setting records for ineptitude and blown saves in 2026.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2295103522.jpg?quality=90&strip=all&crop=0%2C10.47335049455%2C100%2C79.053299010899&w=1200"
     },
     {
@@ -120,13 +130,6 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-10-13T20:05:11+00:00",
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/10/Keibert_Ruiz_Nationals-copy-1024x683.jpg"
-    },
-    {
-      "title": "Andrew Alvarez pitched his way into the Washington Nationals future plans this year",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/94704/andrew-alvarez-pitched-way-into-washington-nationals-future-plans",
-      "source": "Federal Baseball",
-      "published_at": "2026-10-13T19:54:29+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2296580022.jpg?quality=90&strip=all&crop=0%2C10.736763965511%2C100%2C78.526472068977&w=1200"
     }
   ],
   "team_pulse": {
@@ -173,11 +176,105 @@
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "mixed",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "Base Path Threat",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/94731/washington-nationals-dangerous-on-base-paths-in-2026"
+        ]
+      },
+      {
+        "label": "Defensive Improvement",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-news/94715/daylen-lile-impressive-defensive-season-rewarded-nl-gold-glove-nomination"
+        ]
+      },
+      {
+        "label": "Underperforming Talent",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/94723/harry-ford-did-not-live-up-expectations-first-year-with-washington-nationals"
+        ]
+      },
+      {
+        "label": "Bullpen Struggles",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/94710/erik-tolman-jack-sinclair-emerged-relief-options-for-washington-nationals"
+        ]
+      }
+    ]
   },
-  "trending": [],
+  "trending": [
+    {
+      "label": "Harry Ford",
+      "sentiment": "",
+      "context": "Harry Ford did not live up to expectations in his first year with the Washington Nationals",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94723/harry-ford-did-not-live-up-expectations-first-year-with-washington-nationals"
+      ]
+    },
+    {
+      "label": "trade",
+      "sentiment": "",
+      "context": "Harry Ford did not live up to expectations in his first year with the Washington Nationals",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94723/harry-ford-did-not-live-up-expectations-first-year-with-washington-nationals"
+      ]
+    },
+    {
+      "label": "catcher",
+      "sentiment": "",
+      "context": "Harry Ford did not live up to expectations in his first year with the Washington Nationals",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94723/harry-ford-did-not-live-up-expectations-first-year-with-washington-nationals"
+      ]
+    },
+    {
+      "label": "Paul Toboni",
+      "sentiment": "",
+      "context": "Harry Ford did not live up to expectations in his first year with the Washington Nationals",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94723/harry-ford-did-not-live-up-expectations-first-year-with-washington-nationals"
+      ]
+    },
+    {
+      "label": "Nathaniel Lowe",
+      "sentiment": "",
+      "context": "“The payroll isn’t really the issue. … It’s just the commitment to winning.”",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/15/the-payroll-isnt-really-the-issue-its-just-the-commitment-to-winning/"
+      ]
+    },
+    {
+      "label": "team culture",
+      "sentiment": "",
+      "context": "“The payroll isn’t really the issue. … It’s just the commitment to winning.”",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/15/the-payroll-isnt-really-the-issue-its-just-the-commitment-to-winning/"
+      ]
+    },
+    {
+      "label": "Daylen Lile",
+      "sentiment": "",
+      "context": "Daylen Lile’s impressive defensive season rewarded with an NL Gold Glove nomination",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-news/94715/daylen-lile-impressive-defensive-season-rewarded-nl-gold-glove-nomination"
+      ]
+    },
+    {
+      "label": "NL Gold Glove",
+      "sentiment": "",
+      "context": "Daylen Lile’s impressive defensive season rewarded with an NL Gold Glove nomination",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-news/94715/daylen-lile-impressive-defensive-season-rewarded-nl-gold-glove-nomination"
+      ]
+    }
+  ],
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
