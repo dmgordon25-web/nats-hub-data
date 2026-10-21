@@ -1,9 +1,9 @@
 {
   "data_version": 1,
-  "generated_at": "2026-10-20T22:49:50+00:00",
+  "generated_at": "2026-10-21T01:58:07+00:00",
   "mode": "rss_fallback",
   "freshness": {
-    "news": "2026-10-20T22:49:36+00:00",
+    "news": "2026-10-21T01:58:03+00:00",
     "videos": "2026-10-20T22:49:36+00:00",
     "vibes": null
   },
@@ -11,53 +11,57 @@
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-10-20T22:49:33+00:00",
+      "last_updated_at": "2026-10-21T01:57:52+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-10-20T22:49:34+00:00",
+      "last_updated_at": "2026-10-21T01:57:53+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-10-20T22:49:34+00:00",
+      "last_updated_at": "2026-10-21T01:57:53+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-10-20T22:49:34+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-10-20T22:49:35+00:00",
+      "last_updated_at": "2026-10-21T01:57:53+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-10-20T22:49:35+00:00",
+      "last_updated_at": "2026-10-21T01:57:54+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-10-20T22:49:36+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-10-20T22:49:36+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
   "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    },
     {
       "id": "why_it_matters",
       "reason": "ai_enrichment_unavailable"
@@ -74,10 +78,10 @@
   "top_stories": [
     {
       "title": "What will Yohandy Morales’ role be for the Washington Nationals in 2027?",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/94776/what-yohandy-morales-role-be-for-washington-nationals-2027",
-      "source": "Federal Baseball",
-      "published_at": "2026-10-20T20:13:27+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2292575841.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      "url": "https://sports.yahoo.com/articles/yohandy-morales-role-washington-nationals-201500983.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-10-20T20:15:00+00:00",
+      "image_url": "https://s.yimg.com/lo/mysterio/api/139d95f7028cb57943f7abed75c96cd79d3dce463a5a077379cab651fdf5fe22/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Ff51caffdd10b9778c3a5910efea78750.jpg"
     },
     {
       "title": "Five 2026 Washington Nationals pitchers you might have forgotten about",
@@ -174,9 +178,9 @@
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "James Wood",
-    "text": "A towering, high-ceiling outfielder who also came to Washington in the Juan Soto trade.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/695578/spots/120",
+    "name": "MacKenzie Gore",
+    "text": "The hard-throwing left-handed starter and another key piece of the return in the Juan Soto trade.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/669022/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
