@@ -1,68 +1,63 @@
 {
   "data_version": 1,
-  "generated_at": "2026-10-23T05:23:57+00:00",
+  "generated_at": "2026-10-23T09:24:37+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-10-23T05:23:26+00:00",
-    "videos": "2026-10-23T01:22:32+00:00",
-    "vibes": "2026-10-23T05:23:57+00:00"
+    "news": "2026-10-23T09:24:08+00:00",
+    "videos": "2026-10-23T09:24:08+00:00",
+    "vibes": "2026-10-23T09:24:37+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-10-23T05:23:14+00:00",
+      "last_updated_at": "2026-10-23T09:24:04+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-10-23T05:23:14+00:00",
+      "last_updated_at": "2026-10-23T09:24:05+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-10-23T05:23:15+00:00",
+      "last_updated_at": "2026-10-23T09:24:05+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-10-23T05:23:15+00:00",
+      "last_updated_at": "2026-10-23T09:24:06+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-10-23T05:23:15+00:00",
+      "last_updated_at": "2026-10-23T09:24:06+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-10-23T05:23:16+00:00",
+      "last_updated_at": "2026-10-23T09:24:07+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-10-23T09:24:08+00:00",
+      "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-10-23T09:24:08+00:00",
+      "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "videos",
-      "reason": "last_check_too_old"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "Stabilizing the Future: Free Agent Starting Pitcher Fits",
@@ -70,7 +65,7 @@
       "source": "Talk Nats",
       "published_at": "2026-10-23T04:41:00+00:00",
       "why_it_matters": {
-        "text": "The article reflects on the 2015 Washington Nationals starting rotation featuring Max Scherzer, Stephen Strasburg, Jordan Zimmermann, and Gio Gonzalez, noting how the strength of the rotation led to roster adjustments.",
+        "text": "The article reflects on the 2015 Washington Nationals starting rotation featuring Max Scherzer, Stephen Strasburg, Jordan Zimmermann, and Gio Gonzalez, noting how the rotation's strength led to roster adjustments.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/nats.talk-dc-sports-6a9aabceee37c.png?fit=1200%2C894&ssl=1"
@@ -103,7 +98,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-10-22T14:01:30+00:00",
       "why_it_matters": {
-        "text": "Washington Nationals manager Blake Butera will retain his entire coaching staff for his second season. Following an 11-game improvement from 2025, the hitting coaches enter 2027 without pressure after an exceptional offensive season.",
+        "text": "Washington Nationals manager Blake Butera will retain his entire coaching staff for his second season. The decision follows an 11-game improvement from 2025, with hitting coaches entering 2027 after an exceptional offensive season.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/07/gettyimages-2277589772.jpg?quality=90&strip=all&crop=0%2C10.741380063069%2C100%2C78.517239873862&w=1200"
@@ -114,7 +109,7 @@
       "source": "Talk Nats",
       "published_at": "2026-10-22T04:17:00+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals modernized their hitting department by hiring a data-driven staff including Matt Borgschulte, Andrew Aydt, and Shawn O'Malley. The team utilizes a combination of strategic approaches, advanced biomechanical technology, and major league experience to optimize their offense.",
+        "text": "The Washington Nationals modernized their hitting department by hiring a data-driven staff including Matt Borgschulte, Andrew Aydt, and Shawn O'Malley. The team combines strategic approaches, advanced biomechanical expertise, and major league experience to optimize their offense.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/10/nats.talk-dc-sports-6ac4e40e097c4-edited.png?fit=843%2C823&ssl=1"
@@ -125,7 +120,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-10-21T20:16:46+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals may target Brandon Lowe in free agency to bolster an offense currently led by James Wood and CJ Abrams following the trade deadline departures of Luis Garcia Jr. and Curtis Mead.",
+        "text": "The Washington Nationals are considering Brandon Lowe as a primary free agency target to bolster an offense currently led by James Wood and CJ Abrams following recent trade deadline departures.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2295080936.jpg?quality=90&strip=all&crop=0%2C13.249285936781%2C100%2C73.054912942895&w=1200"
@@ -151,7 +146,7 @@
       "text": ""
     },
     "storyline": {
-      "text": "The article reflects on the 2015 Washington Nationals starting rotation featuring Max Scherzer, Stephen Strasburg, Jordan Zimmermann, and Gio Gonzalez, noting how the strength of the rotation led to roster adjustments.",
+      "text": "The article reflects on the 2015 Washington Nationals starting rotation featuring Max Scherzer, Stephen Strasburg, Jordan Zimmermann, and Gio Gonzalez, noting how the rotation's strength led to roster adjustments.",
       "ai_generated": true
     }
   },
@@ -198,7 +193,7 @@
         ]
       },
       {
-        "label": "Modernized Hitting Strategy",
+        "label": "Offensive Modernization",
         "sentiment": "positive",
         "source_urls": [
           "https://nats.talkdcsports.com/2026/10/22/hitters-meetings-with-the-nats/"
@@ -213,7 +208,7 @@
         ]
       },
       {
-        "label": "Historical Rotation Strength",
+        "label": "Historical Rotation Success",
         "sentiment": "positive",
         "source_urls": [
           "https://nats.talkdcsports.com/2026/10/23/stabilizing-the-future-free-agent-starting-pitcher-fits/"
@@ -273,15 +268,15 @@
       ]
     },
     {
-      "label": "hitting department",
+      "label": "management",
       "sentiment": "",
-      "context": "Hitter’s Meetings with the Nats and How to Get Better!",
+      "context": "Nationals To Keep Coaching Staff",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/10/22/hitters-meetings-with-the-nats/"
+        "https://www.mlbtraderumors.com/2026/10/nationals-to-keep-coaching-staff.html"
       ]
     },
     {
-      "label": "data-driven",
+      "label": "hitting department",
       "sentiment": "",
       "context": "Hitter’s Meetings with the Nats and How to Get Better!",
       "source_urls": [
