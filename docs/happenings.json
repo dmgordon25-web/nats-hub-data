@@ -1,60 +1,60 @@
 {
   "data_version": 1,
-  "generated_at": "2026-10-25T05:23:38+00:00",
+  "generated_at": "2026-10-25T09:24:17+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-10-25T05:23:00+00:00",
-    "videos": null,
-    "vibes": "2026-10-25T05:23:38+00:00"
+    "news": "2026-10-25T09:23:45+00:00",
+    "videos": "2026-10-25T09:23:45+00:00",
+    "vibes": "2026-10-25T09:24:17+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-10-25T05:22:45+00:00",
+      "last_updated_at": "2026-10-25T09:23:42+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-10-25T05:22:46+00:00",
+      "last_updated_at": "2026-10-25T09:23:43+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-10-25T05:22:47+00:00",
+      "last_updated_at": "2026-10-25T09:23:43+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-10-25T05:22:47+00:00",
+      "last_updated_at": "2026-10-25T09:23:43+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-10-25T05:22:48+00:00",
+      "last_updated_at": "2026-10-25T09:23:44+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-10-25T05:22:49+00:00",
+      "last_updated_at": "2026-10-25T09:23:45+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-10-25T09:23:45+00:00",
+      "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-10-25T09:23:45+00:00",
+      "status": "live"
     }
   ],
   "limited_sources": [],
@@ -76,7 +76,7 @@
       "source": "Talk Nats",
       "published_at": "2026-10-24T04:45:00+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals are expanding their front office R&D staff. The analytics department is credited as a positive factor in the team's 16.67 percent increase in wins over the previous year.",
+        "text": "The Washington Nationals are expanding their front office R&D staff. While the impact of analytics is hard to measure, the team saw a 16.67 percent increase in wins over last year.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/10/nats.talk-dc-sports-6adb740fdd4cc.png?fit=1200%2C747&ssl=1"
@@ -87,7 +87,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-10-23T19:33:23+00:00",
       "why_it_matters": {
-        "text": "Miguel Sime exceeded expectations during his first season in the Washington Nationals system. Drafted in 2025, Sime was initially viewed as a raw prospect with a powerful fastball.",
+        "text": "Miguel Sime exceeded expectations during his first season in the Washington Nationals system. Drafted in 2025 as a raw prospect with a powerful fastball, he is noted as one of several prospects making significant strides in 2026.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2285194344.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
@@ -109,7 +109,7 @@
       "source": "Talk Nats",
       "published_at": "2026-10-23T04:41:00+00:00",
       "why_it_matters": {
-        "text": "The article reflects on the 2015 Washington Nationals starting rotation, which featured Max Scherzer, Stephen Strasburg, Jordan Zimmermann, and Gio Gonzalez, and notes the roster moves made to accommodate that rotation.",
+        "text": "The article reflects on the 2015 Washington Nationals starting rotation featuring Max Scherzer, Stephen Strasburg, Jordan Zimmermann, and Gio Gonzalez, noting how the rotation's strength led to roster adjustments.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/nats.talk-dc-sports-6a9aabceee37c.png?fit=1200%2C894&ssl=1"
@@ -120,7 +120,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-10-22T20:10:48+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals may make significant moves before the December 2nd lockout deadline, as a CBA agreement is unlikely to be reached. Once the lockout begins, no further moves can be made.",
+        "text": "The Washington Nationals may make significant moves before the December 2nd lockout deadline, as indications suggest no CBA agreement will be reached by that date. Once the lockout begins, no moves can be made.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2025/10/gettyimages-2238287479.jpg?quality=90&strip=all&crop=0%2C10.254260640509%2C100%2C79.491478718982&w=1200"
@@ -150,18 +150,53 @@
       "ai_generated": true
     }
   },
-  "videos": [],
+  "videos": [
+    {
+      "title": "The Longest Nationals Home Runs Of 2026",
+      "url": "https://www.youtube.com/watch?v=YGA5rnrSTnc",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i2.ytimg.com/vi/YGA5rnrSTnc/hqdefault.jpg",
+      "duration_s": 0
+    },
+    {
+      "title": "Righting Our Wrongs and Taking Accountability #mlb",
+      "url": "https://www.youtube.com/shorts/D4h0mi2tPKs",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i1.ytimg.com/vi/D4h0mi2tPKs/hqdefault.jpg",
+      "duration_s": 0
+    },
+    {
+      "title": "Thanking Fans With IRL Cameos At The Ballpark",
+      "url": "https://www.youtube.com/shorts/Cek3ekrTqGo",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i4.ytimg.com/vi/Cek3ekrTqGo/hqdefault.jpg",
+      "duration_s": 0
+    },
+    {
+      "title": "There Was Never A Password",
+      "url": "https://www.youtube.com/shorts/BUEKUMhexXk",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i3.ytimg.com/vi/BUEKUMhexXk/hqdefault.jpg",
+      "duration_s": 0
+    }
+  ],
   "fan_vibes": {
-    "overall": "positive",
+    "overall": "mixed",
     "ai_generated": true,
     "themes": [
       {
         "label": "Prospect Potential",
         "sentiment": "positive",
         "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/94826/these-washington-nationals-relievers-could-break-out-2027",
           "https://www.federalbaseball.com/washington-nationals-prospects/94813/top-prospect-travis-sykora-wild-card-for-washington-nationals-2027",
           "https://www.federalbaseball.com/washington-nationals-prospects/94819/miguel-sime-jr-exceeded-expectations-first-season-washington-nationals-system"
+        ]
+      },
+      {
+        "label": "Reliever Development",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/94826/these-washington-nationals-relievers-could-break-out-2027"
         ]
       },
       {
@@ -203,7 +238,6 @@
       "sentiment": "",
       "context": "These three Washington Nationals relievers could break out in 2027",
       "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/94804/will-washington-nationals-make-big-moves-before-lockout",
         "https://www.federalbaseball.com/washington-nationals-analysis/94826/these-washington-nationals-relievers-could-break-out-2027"
       ]
     },
