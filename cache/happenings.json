@@ -1,54 +1,54 @@
 {
   "data_version": 1,
-  "generated_at": "2026-10-26T01:27:18+00:00",
+  "generated_at": "2026-10-26T03:27:34+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-10-26T01:26:31+00:00",
+    "news": "2026-10-26T03:27:00+00:00",
     "videos": "2026-10-26T01:26:31+00:00",
-    "vibes": "2026-10-26T01:27:18+00:00"
+    "vibes": "2026-10-26T03:27:34+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-10-26T01:26:23+00:00",
+      "last_updated_at": "2026-10-26T03:26:48+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-10-26T01:26:23+00:00",
+      "last_updated_at": "2026-10-26T03:26:49+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-10-26T01:26:24+00:00",
+      "last_updated_at": "2026-10-26T03:26:49+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-10-26T01:26:24+00:00",
+      "last_updated_at": "2026-10-26T03:26:49+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-10-26T01:26:24+00:00",
+      "last_updated_at": "2026-10-26T03:26:49+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-10-26T01:26:25+00:00",
+      "last_updated_at": "2026-10-26T03:26:50+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-10-26T01:26:26+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
@@ -57,7 +57,12 @@
       "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    }
+  ],
   "top_stories": [
     {
       "title": "What To Make Of The Washington Nationals Catching Unit",
@@ -65,7 +70,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-10-25T18:29:14+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals are seeking better production from their catching unit after ranking last in fWAR in 2025. The team is evaluating the declining performance of Keibert Ruiz alongside the potential of Drew Millas and Riley Adams.",
+        "text": "The Washington Nationals are looking for more production from their catching unit heading into 2026. After ranking last in fWAR in 2025, the team faces declining performance from Keibert Ruiz, while Drew Millas and Riley Adams provide potential options.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2292431129.jpg?quality=90&strip=all&crop=0%2C10.625989699987%2C100%2C78.748020600026&w=1200"
@@ -76,7 +81,7 @@
       "source": "Talk Nats",
       "published_at": "2026-10-25T17:20:05+00:00",
       "why_it_matters": {
-        "text": "The text explores the consequences of errors in sports, noting that players live and die with every play and that the fallout from a mistake can be significant.",
+        "text": "The text explores the concept of errors in sports, comparing a shortstop's E6 to potential mistakes made by a front office. It discusses how athletes face intense judgment and life-altering fallout from their performance.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/10/nats.talk-dc-sports-6ade2a7fbc054-edited.png?fit=979%2C1049&ssl=1"
@@ -87,7 +92,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-10-24T15:22:20+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals' bullpen struggled in 2026, setting a record for blown saves. While the team needs outside help, there are three internal relief options with significant upside for 2027.",
+        "text": "Following a 2026 season where the Washington Nationals bullpen set a record for blown saves, there is discussion regarding three internal relief pitchers who possess breakout potential for the 2027 season.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2296177374.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
@@ -98,7 +103,7 @@
       "source": "Talk Nats",
       "published_at": "2026-10-24T04:45:00+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals are expanding their front office R&D staff. While the impact of analytics is hard to measure, the team saw a 16.67 percent increase in wins over last year.",
+        "text": "The Washington Nationals are expanding their front office R&D staff. The team's analytics department is credited as a positive factor in their recent success, helping increase their win total by 16.67 percent over the previous year.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/10/nats.talk-dc-sports-6adb740fdd4cc.png?fit=1200%2C747&ssl=1"
@@ -109,7 +114,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-10-23T19:33:23+00:00",
       "why_it_matters": {
-        "text": "Miguel Sime exceeded expectations during his first season in the Washington Nationals system. Drafted in 2025 as a raw prospect with a powerful fastball, he is noted as one of several prospects making significant strides in 2026.",
+        "text": "Miguel Sime Jr. has exceeded expectations during his first season within the Washington Nationals system. After being selected in the 4th round of the 2025 draft, the prospect has shown development beyond his initial profile as a raw player with a massive fastball.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2285194344.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
@@ -120,7 +125,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-10-23T16:35:58+00:00",
       "why_it_matters": {
-        "text": "Travis Sykora is considered the Washington Nationals' best pitching prospect despite a long absence from the mound. Following Tommy John surgery in July 2025, the right-hander is expected to return in 2027.",
+        "text": "Top pitching prospect Travis Sykora is considered a key figure for the Washington Nationals in 2027. After undergoing Tommy John surgery in July 2025, the right-handed pitcher is expected to return to action in 2027.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2228346604.jpg?quality=90&strip=all&crop=0%2C10.739416236798%2C100%2C78.521167526403&w=1200"
@@ -146,7 +151,7 @@
       "text": ""
     },
     "storyline": {
-      "text": "The Washington Nationals are seeking better production from their catching unit after ranking last in fWAR in 2025. The team is evaluating the declining performance of Keibert Ruiz alongside the potential of Drew Millas and Riley Adams.",
+      "text": "The Washington Nationals are looking for more production from their catching unit heading into 2026. After ranking last in fWAR in 2025, the team faces declining performance from Keibert Ruiz, while Drew Millas and Riley Adams provide potential options.",
       "ai_generated": true
     }
   },
@@ -185,20 +190,6 @@
     "ai_generated": true,
     "themes": [
       {
-        "label": "Catching Unit Concerns",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/94832/what-make-of-washington-nationals-catching-unit"
-        ]
-      },
-      {
-        "label": "Bullpen Development",
-        "sentiment": "mixed",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/94826/these-washington-nationals-relievers-could-break-out-2027"
-        ]
-      },
-      {
         "label": "Front Office Growth",
         "sentiment": "positive",
         "source_urls": [
@@ -212,46 +203,55 @@
           "https://www.federalbaseball.com/washington-nationals-prospects/94813/top-prospect-travis-sykora-wild-card-for-washington-nationals-2027",
           "https://www.federalbaseball.com/washington-nationals-prospects/94819/miguel-sime-jr-exceeded-expectations-first-season-washington-nationals-system"
         ]
+      },
+      {
+        "label": "On-Field Struggles",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/94826/these-washington-nationals-relievers-could-break-out-2027",
+          "https://www.federalbaseball.com/washington-nationals-analysis/94832/what-make-of-washington-nationals-catching-unit"
+        ]
+      },
+      {
+        "label": "Performance Concerns",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/10/25/a-shortstop-error-is-an-e6-what-is-a-front-office-error-called/",
+          "https://www.federalbaseball.com/washington-nationals-analysis/94826/these-washington-nationals-relievers-could-break-out-2027",
+          "https://www.federalbaseball.com/washington-nationals-analysis/94832/what-make-of-washington-nationals-catching-unit"
+        ]
       }
     ]
   },
   "trending": [
     {
-      "label": "roster",
+      "label": "front office",
+      "sentiment": "",
+      "context": "A shortstop error is an E6. What is a front office error called?",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/24/adding-to-the-front-office-rd-staff-for-the-nats/",
+        "https://nats.talkdcsports.com/2026/10/25/a-shortstop-error-is-an-e6-what-is-a-front-office-error-called/"
+      ]
+    },
+    {
+      "label": "catchers",
       "sentiment": "",
       "context": "What To Make Of The Washington Nationals Catching Unit",
       "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/94826/these-washington-nationals-relievers-could-break-out-2027",
         "https://www.federalbaseball.com/washington-nationals-analysis/94832/what-make-of-washington-nationals-catching-unit"
       ]
     },
     {
-      "label": "prospects",
-      "sentiment": "",
-      "context": "These three Washington Nationals relievers could break out in 2027",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/94826/these-washington-nationals-relievers-could-break-out-2027",
-        "https://www.federalbaseball.com/washington-nationals-prospects/94819/miguel-sime-jr-exceeded-expectations-first-season-washington-nationals-system"
-      ]
-    },
-    {
-      "label": "catching",
+      "label": "player performance",
       "sentiment": "",
       "context": "What To Make Of The Washington Nationals Catching Unit",
       "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/25/a-shortstop-error-is-an-e6-what-is-a-front-office-error-called/",
         "https://www.federalbaseball.com/washington-nationals-analysis/94832/what-make-of-washington-nationals-catching-unit"
       ]
     },
     {
       "label": "errors",
-      "sentiment": "",
-      "context": "A shortstop error is an E6. What is a front office error called?",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/10/25/a-shortstop-error-is-an-e6-what-is-a-front-office-error-called/"
-      ]
-    },
-    {
-      "label": "performance",
       "sentiment": "",
       "context": "A shortstop error is an E6. What is a front office error called?",
       "source_urls": [
@@ -267,7 +267,15 @@
       ]
     },
     {
-      "label": "analytics",
+      "label": "relief pitchers",
+      "sentiment": "",
+      "context": "These three Washington Nationals relievers could break out in 2027",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94826/these-washington-nationals-relievers-could-break-out-2027"
+      ]
+    },
+    {
+      "label": "R&D",
       "sentiment": "",
       "context": "Adding to the front office R&D staff for the Nats!",
       "source_urls": [
@@ -275,7 +283,7 @@
       ]
     },
     {
-      "label": "front office",
+      "label": "analytics",
       "sentiment": "",
       "context": "Adding to the front office R&D staff for the Nats!",
       "source_urls": [
