@@ -1,82 +1,84 @@
 {
   "data_version": 1,
-  "generated_at": "2026-10-27T07:39:56+00:00",
-  "mode": "rss_fallback",
+  "generated_at": "2026-10-27T11:41:23+00:00",
+  "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-10-27T07:38:36+00:00",
-    "videos": "2026-10-27T07:38:36+00:00",
-    "vibes": null
+    "news": "2026-10-27T11:40:52+00:00",
+    "videos": "2026-10-27T11:40:52+00:00",
+    "vibes": "2026-10-27T11:41:23+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-10-27T07:38:29+00:00",
+      "last_updated_at": "2026-10-27T11:40:49+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-10-27T07:38:31+00:00",
+      "last_updated_at": "2026-10-27T11:40:50+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-10-27T07:38:31+00:00",
+      "last_updated_at": "2026-10-27T11:40:50+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-10-27T07:38:32+00:00",
+      "last_updated_at": "2026-10-27T11:40:50+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-10-27T07:38:33+00:00",
+      "last_updated_at": "2026-10-27T11:40:50+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-10-27T07:38:34+00:00",
+      "last_updated_at": "2026-10-27T11:40:51+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-10-27T07:38:36+00:00",
+      "last_updated_at": "2026-10-27T11:40:52+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-10-27T07:38:36+00:00",
+      "last_updated_at": "2026-10-27T11:40:52+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "why_it_matters",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "trending",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
+    {
+      "title": "The Myth-Buster World Series",
+      "url": "https://nats.talkdcsports.com/2026/10/27/the-myth-buster-world-series/",
+      "source": "Talk Nats",
+      "published_at": "2026-10-27T09:59:00+00:00",
+      "why_it_matters": {
+        "text": "The article challenges the notion that high spending guarantees success, citing the Washington Nationals' bullpen struggles under Lerner ownership as a counterexample to the trend of top-tier spending leading to wins between 2016 and 2025.",
+        "ai_generated": true
+      },
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/10/nats.talk-dc-sports-6adb88345e767.png?fit=976%2C1074&ssl=1"
+    },
     {
       "title": "Adrian Morejon is the bullpen addition the Washington Nationals desperately need",
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94840/adrian-morejon-bullpen-addition-washington-nationals-desperately-need",
       "source": "Federal Baseball",
       "published_at": "2026-10-26T18:43:44+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals have added Adrian Morejon to their bullpen, marking a shift in pitching philosophy from past approaches. The team's farm system now features pitchers with high-velocity fastballs, indicating a strategic focus on power pitching.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2296182651.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -84,6 +86,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-history/94836/where-are-starters-washington-nationals-world-series-winning-team-now",
       "source": "Federal Baseball",
       "published_at": "2026-10-26T14:51:12+00:00",
+      "why_it_matters": {
+        "text": "Nearly seven years after the Washington Nationals won their first World Series title on October 30, 2019, none of the original roster members remain with the team in a playing capacity. The article examines the current status of the starters from that championship squad.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-1186409131.jpg?quality=90&strip=all&crop=0%2C9.9423732386943%2C100%2C80.115253522611&w=1200"
     },
     {
@@ -91,6 +97,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94832/what-make-of-washington-nationals-catching-unit",
       "source": "Federal Baseball",
       "published_at": "2026-10-25T18:29:14+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals' catching unit ranked last in fWAR (-1.3) in 2025, prompting a need for improved production entering 2026. Keibert Ruiz has declined since his 2023 extension, while Drew Millas and Riley Adams offer potential contributions.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2292431129.jpg?quality=90&strip=all&crop=0%2C10.625989699987%2C100%2C78.748020600026&w=1200"
     },
     {
@@ -98,6 +108,10 @@
       "url": "https://nats.talkdcsports.com/2026/10/25/a-shortstop-error-is-an-e6-what-is-a-front-office-error-called/",
       "source": "Talk Nats",
       "published_at": "2026-10-25T17:20:05+00:00",
+      "why_it_matters": {
+        "text": "The text questions what term should be used for front office errors in sports, drawing a parallel to how player mistakes like shortstop errors are labeled. It suggests that while players face intense judgment for their performance, the accountability for organizational decisions remains undefined.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/10/nats.talk-dc-sports-6ade2a7fbc054-edited.png?fit=979%2C1049&ssl=1"
     },
     {
@@ -105,6 +119,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94826/these-washington-nationals-relievers-could-break-out-2027",
       "source": "Federal Baseball",
       "published_at": "2026-10-24T15:22:20+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals' 2026 bullpen set an all-time record for blown saves, indicating a need for external help. However, the article suggests that three internal relievers possess significant upside and could emerge as breakout performers in 2027.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2296177374.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -120,19 +138,16 @@
       "source": "Federal Baseball",
       "published_at": "2026-10-23T19:33:23+00:00",
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2285194344.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "Top prospect Travis Sykora is a wild card for the Washington Nationals in 2027",
-      "url": "https://www.federalbaseball.com/washington-nationals-prospects/94813/top-prospect-travis-sykora-wild-card-for-washington-nationals-2027",
-      "source": "Federal Baseball",
-      "published_at": "2026-10-23T16:35:58+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2228346604.jpg?quality=90&strip=all&crop=0%2C10.739416236798%2C100%2C78.521167526403&w=1200"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "none",
       "text": ""
+    },
+    "storyline": {
+      "text": "The article challenges the notion that high spending guarantees success, citing the Washington Nationals' bullpen struggles under Lerner ownership as a counterexample to the trend of top-tier spending leading to wins between 2016 and 2025.",
+      "ai_generated": true
     }
   },
   "videos": [
@@ -166,11 +181,109 @@
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "negative",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "Bullpen struggles",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/10/27/the-myth-buster-world-series/",
+          "https://www.federalbaseball.com/washington-nationals-analysis/94826/these-washington-nationals-relievers-could-break-out-2027",
+          "https://www.federalbaseball.com/washington-nationals-analysis/94840/adrian-morejon-bullpen-addition-washington-nationals-desperately-need"
+        ]
+      },
+      {
+        "label": "Roster turnover",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-history/94836/where-are-starters-washington-nationals-world-series-winning-team-now"
+        ]
+      },
+      {
+        "label": "Catching decline",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/94832/what-make-of-washington-nationals-catching-unit"
+        ]
+      },
+      {
+        "label": "Front office accountability",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/10/25/a-shortstop-error-is-an-e6-what-is-a-front-office-error-called/"
+        ]
+      }
+    ]
   },
-  "trending": [],
+  "trending": [
+    {
+      "label": "Bullpen",
+      "sentiment": "",
+      "context": "The Myth-Buster World Series",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/27/the-myth-buster-world-series/",
+        "https://www.federalbaseball.com/washington-nationals-analysis/94826/these-washington-nationals-relievers-could-break-out-2027",
+        "https://www.federalbaseball.com/washington-nationals-analysis/94840/adrian-morejon-bullpen-addition-washington-nationals-desperately-need"
+      ]
+    },
+    {
+      "label": "Spending",
+      "sentiment": "",
+      "context": "The Myth-Buster World Series",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/27/the-myth-buster-world-series/"
+      ]
+    },
+    {
+      "label": "Ownership",
+      "sentiment": "",
+      "context": "The Myth-Buster World Series",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/27/the-myth-buster-world-series/"
+      ]
+    },
+    {
+      "label": "Adrian Morejon",
+      "sentiment": "",
+      "context": "Adrian Morejon is the bullpen addition the Washington Nationals desperately need",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94840/adrian-morejon-bullpen-addition-washington-nationals-desperately-need"
+      ]
+    },
+    {
+      "label": "Pitching",
+      "sentiment": "",
+      "context": "Adrian Morejon is the bullpen addition the Washington Nationals desperately need",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94840/adrian-morejon-bullpen-addition-washington-nationals-desperately-need"
+      ]
+    },
+    {
+      "label": "World Series",
+      "sentiment": "",
+      "context": "Where are the starters from the Washington Nationals World Series winning team now?",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-history/94836/where-are-starters-washington-nationals-world-series-winning-team-now"
+      ]
+    },
+    {
+      "label": "Roster Changes",
+      "sentiment": "",
+      "context": "Where are the starters from the Washington Nationals World Series winning team now?",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-history/94836/where-are-starters-washington-nationals-world-series-winning-team-now"
+      ]
+    },
+    {
+      "label": "Baseball History",
+      "sentiment": "",
+      "context": "Where are the starters from the Washington Nationals World Series winning team now?",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-history/94836/where-are-starters-washington-nationals-world-series-winning-team-now"
+      ]
+    }
+  ],
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
