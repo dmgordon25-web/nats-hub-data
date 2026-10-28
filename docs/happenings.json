@@ -1,76 +1,63 @@
 {
   "data_version": 1,
-  "generated_at": "2026-10-28T08:29:48+00:00",
-  "mode": "rss_fallback",
+  "generated_at": "2026-10-28T12:30:55+00:00",
+  "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-10-28T08:28:36+00:00",
-    "videos": "2026-10-28T08:28:36+00:00",
-    "vibes": null
+    "news": "2026-10-28T12:30:04+00:00",
+    "videos": "2026-10-28T12:30:04+00:00",
+    "vibes": "2026-10-28T12:30:55+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-10-28T08:28:33+00:00",
+      "last_updated_at": "2026-10-28T12:30:00+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-10-28T08:28:34+00:00",
+      "last_updated_at": "2026-10-28T12:30:01+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-10-28T08:28:34+00:00",
+      "last_updated_at": "2026-10-28T12:30:02+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-10-28T08:28:34+00:00",
+      "last_updated_at": "2026-10-28T12:30:02+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-10-28T08:28:35+00:00",
+      "last_updated_at": "2026-10-28T12:30:03+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-10-28T08:28:35+00:00",
+      "last_updated_at": "2026-10-28T12:30:03+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-10-28T08:28:35+00:00",
+      "last_updated_at": "2026-10-28T12:30:03+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-10-28T08:28:36+00:00",
+      "last_updated_at": "2026-10-28T12:30:04+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "why_it_matters",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "trending",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "Higher expectations for the 2027 Nats",
@@ -91,6 +78,10 @@
       "url": "https://www.mlbtraderumors.com/2026/10/offseason-outlook-washington-nationals-15.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-10-27T17:58:51+00:00",
+      "why_it_matters": {
+        "text": "Following organizational changes in the front office and coaching staff, the Washington Nationals achieved their best season since their 2019 World Series win, remaining in playoff contention through July. Despite selling players at the trade deadline, the club faces upcoming opportunities.",
+        "ai_generated": true
+      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/10/BlakeButera-1024x683.jpg"
     },
     {
@@ -98,6 +89,10 @@
       "url": "https://www.mlbtraderumors.com/2026/10/nationals-to-hire-david-besky-as-pitching-strategist.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-10-27T15:26:22+00:00",
+      "why_it_matters": {
+        "text": "The Nationals are expected to hire David Besky as a pitching strategist. Besky previously served as the director of baseball sciences for the Red Sox.",
+        "ai_generated": true
+      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/10/NationalsLogo-1024x683.jpg"
     },
     {
@@ -105,6 +100,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94847/three-under-radar-free-agent-pitchers-like-for-washington-nationals",
       "source": "Federal Baseball",
       "published_at": "2026-10-27T15:18:47+00:00",
+      "why_it_matters": {
+        "text": "Following discussions on major free agent names like Michael King, Adrian Morejon, and Brandon Lowe, this piece explores three under-the-radar pitching targets for the Washington Nationals: David Peterson, Kris Bubic, and Kyle Hart.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2298073945.jpg?quality=90&strip=all&crop=0%2C10.730555455703%2C100%2C78.538889088593&w=1200"
     },
     {
@@ -112,6 +111,10 @@
       "url": "https://nats.talkdcsports.com/2026/10/27/the-myth-buster-world-series/",
       "source": "Talk Nats",
       "published_at": "2026-10-27T09:59:00+00:00",
+      "why_it_matters": {
+        "text": "The text discusses the debate over whether high spending is necessary for success, specifically addressing the Washington Nationals' bullpen performance and the Lerner ownership's spending habits compared to a ten-year winning formula.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/10/nats.talk-dc-sports-6adb88345e767.png?fit=976%2C1074&ssl=1"
     },
     {
@@ -166,11 +169,101 @@
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "positive",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "Optimism for future",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/10/28/higher-expectations-for-the-2027-nats/",
+          "https://www.mlbtraderumors.com/2026/10/offseason-outlook-washington-nationals-15.html"
+        ]
+      },
+      {
+        "label": "Strategic personnel moves",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/94847/three-under-radar-free-agent-pitchers-like-for-washington-nationals",
+          "https://www.mlbtraderumors.com/2026/10/nationals-to-hire-david-besky-as-pitching-strategist.html"
+        ]
+      },
+      {
+        "label": "Organizational performance",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/10/27/the-myth-buster-world-series/",
+          "https://www.mlbtraderumors.com/2026/10/offseason-outlook-washington-nationals-15.html"
+        ]
+      }
+    ]
   },
-  "trending": [],
+  "trending": [
+    {
+      "label": "offseason",
+      "sentiment": "",
+      "context": "Offseason Outlook: Washington Nationals",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/10/offseason-outlook-washington-nationals-15.html"
+      ]
+    },
+    {
+      "label": "front office",
+      "sentiment": "",
+      "context": "Offseason Outlook: Washington Nationals",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/10/offseason-outlook-washington-nationals-15.html"
+      ]
+    },
+    {
+      "label": "coaching staff",
+      "sentiment": "",
+      "context": "Offseason Outlook: Washington Nationals",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/10/offseason-outlook-washington-nationals-15.html"
+      ]
+    },
+    {
+      "label": "David Besky",
+      "sentiment": "",
+      "context": "Nationals To Hire David Besky As Pitching Strategist",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/10/nationals-to-hire-david-besky-as-pitching-strategist.html"
+      ]
+    },
+    {
+      "label": "pitching strategist",
+      "sentiment": "",
+      "context": "Nationals To Hire David Besky As Pitching Strategist",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/10/nationals-to-hire-david-besky-as-pitching-strategist.html"
+      ]
+    },
+    {
+      "label": "free agents",
+      "sentiment": "",
+      "context": "Three under the radar free agent pitchers I like for the Washington Nationals",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94847/three-under-radar-free-agent-pitchers-like-for-washington-nationals"
+      ]
+    },
+    {
+      "label": "pitchers",
+      "sentiment": "",
+      "context": "Three under the radar free agent pitchers I like for the Washington Nationals",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94847/three-under-radar-free-agent-pitchers-like-for-washington-nationals"
+      ]
+    },
+    {
+      "label": "ownership",
+      "sentiment": "",
+      "context": "The Myth-Buster World Series",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/27/the-myth-buster-world-series/"
+      ]
+    }
+  ],
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
