@@ -1,76 +1,63 @@
 {
   "data_version": 1,
-  "generated_at": "2026-10-31T08:48:57+00:00",
-  "mode": "rss_fallback",
+  "generated_at": "2026-10-31T12:49:56+00:00",
+  "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-10-31T08:47:40+00:00",
-    "videos": "2026-10-31T08:47:40+00:00",
-    "vibes": null
+    "news": "2026-10-31T12:49:07+00:00",
+    "videos": "2026-10-31T12:49:07+00:00",
+    "vibes": "2026-10-31T12:49:56+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-10-31T08:47:37+00:00",
+      "last_updated_at": "2026-10-31T12:49:04+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-10-31T08:47:38+00:00",
+      "last_updated_at": "2026-10-31T12:49:05+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-10-31T08:47:38+00:00",
+      "last_updated_at": "2026-10-31T12:49:06+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-10-31T08:47:38+00:00",
+      "last_updated_at": "2026-10-31T12:49:06+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-10-31T08:47:39+00:00",
+      "last_updated_at": "2026-10-31T12:49:06+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-10-31T08:47:39+00:00",
+      "last_updated_at": "2026-10-31T12:49:07+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-10-31T08:47:40+00:00",
+      "last_updated_at": "2026-10-31T12:49:07+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-10-31T08:47:40+00:00",
+      "last_updated_at": "2026-10-31T12:49:07+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "why_it_matters",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "trending",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "“Who would complain about the World Series parade route?”",
@@ -91,6 +78,10 @@
       "url": "https://www.mlbtraderumors.com/2026/10/mariners-to-hire-cj-gillman-as-hitting-coach.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-10-30T18:39:39+00:00",
+      "why_it_matters": {
+        "text": "The Mariners are set to hire CJ Gillman as their new hitting coach. Gillman previously served as Seattle's minor league hitting coordinator from 2022-25 and most recently worked as the Nationals' director of hitting.",
+        "ai_generated": true
+      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2019/02/Mariners-hat-2-1024x683.jpg"
     },
     {
@@ -98,6 +89,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-history/94888/remembering-washington-nationals-2019-world-series-seven-years-later",
       "source": "Federal Baseball",
       "published_at": "2026-10-30T16:58:18+00:00",
+      "why_it_matters": {
+        "text": "Seven years after their 2019 World Series victory, the Washington Nationals are being remembered following a parade for the Milwaukee Brewers. The 2019 title was secured when Daniel Hudson struck out Michael Brantley on October 30th.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-1179422834.jpg?quality=90&strip=all&crop=0%2C10.387129346898%2C100%2C79.225741306205&w=1200"
     },
     {
@@ -105,6 +100,10 @@
       "url": "https://nats.talkdcsports.com/2026/10/30/old-school-bat-control-showed-on-the-big-stage/",
       "source": "Talk Nats",
       "published_at": "2026-10-30T04:38:00+00:00",
+      "why_it_matters": {
+        "text": "The text highlights the unique discipline of baseball player Rod Carew, noting that from age 27 to 39, he never had more strikeouts than walks. Carew was known for his ability to get on-base and steal bases.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2025/12/Nasim-Nunez-by-Andrew-Lang-scaled-1.jpeg?fit=1200%2C801&ssl=1"
     },
     {
@@ -112,6 +111,10 @@
       "url": "https://www.mlbtraderumors.com/2026/10/nationals-claim-braxton-roxby-waivers-giants-dfa-zak-kent.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-10-29T19:38:13+00:00",
+      "why_it_matters": {
+        "text": "The Nationals have claimed right-handed pitcher Braxton Roxby off waivers from the Giants. In conjunction with this move, the club has designated right-hander Zak Kent for assignment.",
+        "ai_generated": true
+      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/10/braxton-roxby-giants-1024x702.jpg"
     },
     {
@@ -166,11 +169,92 @@
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "mixed",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "Roster Moves",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.mlbtraderumors.com/2026/10/nationals-claim-braxton-roxby-waivers-giants-dfa-zak-kent.html"
+        ]
+      },
+      {
+        "label": "2019 World Series Nostalgia",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/10/31/who-would-complain-about-the-world-series-parade-route/",
+          "https://www.federalbaseball.com/washington-nationals-history/94888/remembering-washington-nationals-2019-world-series-seven-years-later"
+        ]
+      }
+    ]
   },
-  "trending": [],
+  "trending": [
+    {
+      "label": "Mariners",
+      "sentiment": "",
+      "context": "Mariners To Hire CJ Gillman As Hitting Coach",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/10/mariners-to-hire-cj-gillman-as-hitting-coach.html"
+      ]
+    },
+    {
+      "label": "CJ Gillman",
+      "sentiment": "",
+      "context": "Mariners To Hire CJ Gillman As Hitting Coach",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/10/mariners-to-hire-cj-gillman-as-hitting-coach.html"
+      ]
+    },
+    {
+      "label": "hitting coach",
+      "sentiment": "",
+      "context": "Mariners To Hire CJ Gillman As Hitting Coach",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/10/mariners-to-hire-cj-gillman-as-hitting-coach.html"
+      ]
+    },
+    {
+      "label": "World Series",
+      "sentiment": "",
+      "context": "Remembering the Washington Nationals 2019 World Series title seven years later",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-history/94888/remembering-washington-nationals-2019-world-series-seven-years-later"
+      ]
+    },
+    {
+      "label": "Daniel Hudson",
+      "sentiment": "",
+      "context": "Remembering the Washington Nationals 2019 World Series title seven years later",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-history/94888/remembering-washington-nationals-2019-world-series-seven-years-later"
+      ]
+    },
+    {
+      "label": "Rod Carew",
+      "sentiment": "",
+      "context": "Old-School Bat Discipline Showed on the Big Stage!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/30/old-school-bat-control-showed-on-the-big-stage/"
+      ]
+    },
+    {
+      "label": "batting discipline",
+      "sentiment": "",
+      "context": "Old-School Bat Discipline Showed on the Big Stage!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/30/old-school-bat-control-showed-on-the-big-stage/"
+      ]
+    },
+    {
+      "label": "player stats",
+      "sentiment": "",
+      "context": "Old-School Bat Discipline Showed on the Big Stage!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/30/old-school-bat-control-showed-on-the-big-stage/"
+      ]
+    }
+  ],
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
