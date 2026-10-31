@@ -1,73 +1,89 @@
 {
   "data_version": 1,
-  "generated_at": "2026-10-31T04:47:27+00:00",
-  "mode": "falkor_enriched",
+  "generated_at": "2026-10-31T08:48:57+00:00",
+  "mode": "rss_fallback",
   "freshness": {
-    "news": "2026-10-31T04:47:02+00:00",
-    "videos": null,
-    "vibes": "2026-10-31T04:47:27+00:00"
+    "news": "2026-10-31T08:47:40+00:00",
+    "videos": "2026-10-31T08:47:40+00:00",
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-10-31T04:46:50+00:00",
+      "last_updated_at": "2026-10-31T08:47:37+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-10-31T04:46:51+00:00",
+      "last_updated_at": "2026-10-31T08:47:38+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-10-31T04:46:51+00:00",
+      "last_updated_at": "2026-10-31T08:47:38+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-10-31T04:46:51+00:00",
+      "last_updated_at": "2026-10-31T08:47:38+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-10-31T04:46:52+00:00",
+      "last_updated_at": "2026-10-31T08:47:39+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-10-31T04:46:52+00:00",
+      "last_updated_at": "2026-10-31T08:47:39+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-10-31T08:47:40+00:00",
+      "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-10-31T08:47:40+00:00",
+      "status": "live"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "why_it_matters",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "trending",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
+    }
+  ],
   "top_stories": [
+    {
+      "title": "“Who would complain about the World Series parade route?”",
+      "url": "https://nats.talkdcsports.com/2026/10/31/who-would-complain-about-the-world-series-parade-route/",
+      "source": "Talk Nats",
+      "published_at": "2026-10-31T05:19:00+00:00",
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2020/02/Parade2-1.jpg?fit=1200%2C867&ssl=1"
+    },
     {
       "title": "Mariners reportedly hire CJ Gillman as hitting coach before settling on new manager",
       "url": "https://sports.yahoo.com/mlb/article/mariners-reportedly-hire-cj-gillman-as-hitting-coach-before-settling-on-new-manager-002425131.html",
       "source": "Yahoo Sports MLB",
       "published_at": "2026-10-31T00:24:25+00:00",
-      "why_it_matters": {
-        "text": "The Mariners have reportedly hired CJ Gillman as hitting coach. This move comes before the team settles on a new manager. Seattle was one of the worst hitting teams in MLB last season, whereas Gillman previously oversaw a Nationals minor league system ranked among the best.",
-        "ai_generated": true
-      },
       "image_url": "https://s.yimg.com/lo/mysterio/api/19724d682172b724e3c999f80f343d95cf22cea1c43615162ba74215ee4f9353/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-10%2F28d199fc-ba1f-40b7-a83f-1b3eb5100c6b"
     },
     {
@@ -75,10 +91,6 @@
       "url": "https://www.mlbtraderumors.com/2026/10/mariners-to-hire-cj-gillman-as-hitting-coach.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-10-30T18:39:39+00:00",
-      "why_it_matters": {
-        "text": "The Mariners are set to hire CJ Gillman as their new hitting coach. Gillman previously served as Seattle's minor league hitting coordinator from 2022-25 and most recently worked as the Nationals' director of hitting.",
-        "ai_generated": true
-      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2019/02/Mariners-hat-2-1024x683.jpg"
     },
     {
@@ -86,10 +98,6 @@
       "url": "https://www.federalbaseball.com/washington-nationals-history/94888/remembering-washington-nationals-2019-world-series-seven-years-later",
       "source": "Federal Baseball",
       "published_at": "2026-10-30T16:58:18+00:00",
-      "why_it_matters": {
-        "text": "Seven years after their 2019 World Series victory, the Washington Nationals are being remembered following a parade for the Milwaukee Brewers. The 2019 title was secured when Daniel Hudson struck out Michael Brantley on October 30th.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-1179422834.jpg?quality=90&strip=all&crop=0%2C10.387129346898%2C100%2C79.225741306205&w=1200"
     },
     {
@@ -97,10 +105,6 @@
       "url": "https://nats.talkdcsports.com/2026/10/30/old-school-bat-control-showed-on-the-big-stage/",
       "source": "Talk Nats",
       "published_at": "2026-10-30T04:38:00+00:00",
-      "why_it_matters": {
-        "text": "The text discusses Rod Carew's unique baseball discipline, noting that from age 27 to 39, he never recorded more strikeouts than walks. It highlights his ability to get on-base and steal bases as his primary strengths.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2025/12/Nasim-Nunez-by-Andrew-Lang-scaled-1.jpeg?fit=1200%2C801&ssl=1"
     },
     {
@@ -108,10 +112,6 @@
       "url": "https://www.mlbtraderumors.com/2026/10/nationals-claim-braxton-roxby-waivers-giants-dfa-zak-kent.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-10-29T19:38:13+00:00",
-      "why_it_matters": {
-        "text": "The Nationals have claimed right-handed pitcher Braxton Roxby off waivers from the Giants. In conjunction with this move, the club has designated right-hander Zak Kent for assignment.",
-        "ai_generated": true
-      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/10/braxton-roxby-giants-1024x702.jpg"
     },
     {
@@ -119,10 +119,6 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94883/brad-lord-orlando-ribalta-were-washington-nationals-steadiest-relievers-2026",
       "source": "Federal Baseball",
       "published_at": "2026-10-29T18:33:37+00:00",
-      "why_it_matters": {
-        "text": "Despite a Washington Nationals bullpen that set records for blown saves and lacked consistency, Orlando Ribalta and Brad Lord were identified as the team's most reliable relievers during the 2026 season.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2295375285.jpg?quality=90&strip=all&crop=0%2C29.057591623037%2C100%2C41.884816753927&w=1200"
     },
     {
@@ -131,130 +127,50 @@
       "source": "Federal Baseball",
       "published_at": "2026-10-29T14:20:39+00:00",
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2292617087.jpg?quality=90&strip=all&crop=0%2C10.475649069616%2C100%2C79.048701860768&w=1200"
-    },
-    {
-      "title": "Building Towards the Future",
-      "url": "https://nats.talkdcsports.com/2026/10/29/building-towards-the-future/",
-      "source": "Talk Nats",
-      "published_at": "2026-10-29T04:41:00+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/03/Paul-Toboni-and-Mark-Lerner-by-Intrepid-3-23-2026-scaled-1.jpg?fit=1200%2C804&ssl=1"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "none",
       "text": ""
-    },
-    "storyline": {
-      "text": "The Mariners have reportedly hired CJ Gillman as hitting coach. This move comes before the team settles on a new manager. Seattle was one of the worst hitting teams in MLB last season, whereas Gillman previously oversaw a Nationals minor league system ranked among the best.",
-      "ai_generated": true
     }
   },
-  "videos": [],
-  "fan_vibes": {
-    "overall": "mixed",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "Staffing Changes",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://sports.yahoo.com/mlb/article/mariners-reportedly-hire-cj-gillman-as-hitting-coach-before-settling-on-new-manager-002425131.html",
-          "https://www.mlbtraderumors.com/2026/10/mariners-to-hire-cj-gillman-as-hitting-coach.html"
-        ]
-      },
-      {
-        "label": "Roster Moves",
-        "sentiment": "",
-        "source_urls": [
-          "https://www.mlbtraderumors.com/2026/10/nationals-claim-braxton-roxby-waivers-giants-dfa-zak-kent.html"
-        ]
-      },
-      {
-        "label": "Historical Reflection",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-history/94888/remembering-washington-nationals-2019-world-series-seven-years-later"
-        ]
-      },
-      {
-        "label": "Bullpen Performance",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/94883/brad-lord-orlando-ribalta-were-washington-nationals-steadiest-relievers-2026"
-        ]
-      }
-    ]
-  },
-  "trending": [
+  "videos": [
     {
-      "label": "Mariners",
-      "sentiment": "",
-      "context": "Mariners reportedly hire CJ Gillman as hitting coach before settling on new manager",
-      "source_urls": [
-        "https://sports.yahoo.com/mlb/article/mariners-reportedly-hire-cj-gillman-as-hitting-coach-before-settling-on-new-manager-002425131.html",
-        "https://www.mlbtraderumors.com/2026/10/mariners-to-hire-cj-gillman-as-hitting-coach.html"
-      ]
+      "title": "The Longest Nationals Home Runs Of 2026",
+      "url": "https://www.youtube.com/watch?v=YGA5rnrSTnc",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i2.ytimg.com/vi/YGA5rnrSTnc/hqdefault.jpg",
+      "duration_s": 0
     },
     {
-      "label": "CJ Gillman",
-      "sentiment": "",
-      "context": "Mariners reportedly hire CJ Gillman as hitting coach before settling on new manager",
-      "source_urls": [
-        "https://sports.yahoo.com/mlb/article/mariners-reportedly-hire-cj-gillman-as-hitting-coach-before-settling-on-new-manager-002425131.html",
-        "https://www.mlbtraderumors.com/2026/10/mariners-to-hire-cj-gillman-as-hitting-coach.html"
-      ]
+      "title": "Righting Our Wrongs and Taking Accountability #mlb",
+      "url": "https://www.youtube.com/shorts/D4h0mi2tPKs",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i1.ytimg.com/vi/D4h0mi2tPKs/hqdefault.jpg",
+      "duration_s": 0
     },
     {
-      "label": "hitting coach",
-      "sentiment": "",
-      "context": "Mariners reportedly hire CJ Gillman as hitting coach before settling on new manager",
-      "source_urls": [
-        "https://sports.yahoo.com/mlb/article/mariners-reportedly-hire-cj-gillman-as-hitting-coach-before-settling-on-new-manager-002425131.html",
-        "https://www.mlbtraderumors.com/2026/10/mariners-to-hire-cj-gillman-as-hitting-coach.html"
-      ]
+      "title": "Thanking Fans With IRL Cameos At The Ballpark",
+      "url": "https://www.youtube.com/shorts/Cek3ekrTqGo",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i4.ytimg.com/vi/Cek3ekrTqGo/hqdefault.jpg",
+      "duration_s": 0
     },
     {
-      "label": "Seattle",
-      "sentiment": "",
-      "context": "Mariners reportedly hire CJ Gillman as hitting coach before settling on new manager",
-      "source_urls": [
-        "https://sports.yahoo.com/mlb/article/mariners-reportedly-hire-cj-gillman-as-hitting-coach-before-settling-on-new-manager-002425131.html"
-      ]
-    },
-    {
-      "label": "World Series",
-      "sentiment": "",
-      "context": "Remembering the Washington Nationals 2019 World Series title seven years later",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-history/94888/remembering-washington-nationals-2019-world-series-seven-years-later"
-      ]
-    },
-    {
-      "label": "Daniel Hudson",
-      "sentiment": "",
-      "context": "Remembering the Washington Nationals 2019 World Series title seven years later",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-history/94888/remembering-washington-nationals-2019-world-series-seven-years-later"
-      ]
-    },
-    {
-      "label": "Rod Carew",
-      "sentiment": "",
-      "context": "Old-School Bat Discipline Showed on the Big Stage!",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/10/30/old-school-bat-control-showed-on-the-big-stage/"
-      ]
-    },
-    {
-      "label": "batting discipline",
-      "sentiment": "",
-      "context": "Old-School Bat Discipline Showed on the Big Stage!",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/10/30/old-school-bat-control-showed-on-the-big-stage/"
-      ]
+      "title": "There Was Never A Password",
+      "url": "https://www.youtube.com/shorts/BUEKUMhexXk",
+      "source": "Nationals on YouTube",
+      "thumbnail_url": "https://i3.ytimg.com/vi/BUEKUMhexXk/hqdefault.jpg",
+      "duration_s": 0
     }
   ],
+  "fan_vibes": {
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
+  },
+  "trending": [],
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
