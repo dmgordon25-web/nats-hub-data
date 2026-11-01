@@ -1,76 +1,82 @@
 {
   "data_version": 1,
-  "generated_at": "2026-11-01T03:19:26+00:00",
+  "generated_at": "2026-11-01T07:20:30+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-11-01T03:19:05+00:00",
-    "videos": "2026-10-31T23:18:46+00:00",
-    "vibes": "2026-11-01T03:19:26+00:00"
+    "news": "2026-11-01T07:19:33+00:00",
+    "videos": "2026-11-01T07:19:33+00:00",
+    "vibes": "2026-11-01T07:20:30+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-11-01T03:18:53+00:00",
+      "last_updated_at": "2026-11-01T07:19:30+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-11-01T03:18:53+00:00",
+      "last_updated_at": "2026-11-01T07:19:31+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-11-01T03:18:54+00:00",
+      "last_updated_at": "2026-11-01T07:19:31+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-11-01T03:18:54+00:00",
+      "last_updated_at": "2026-11-01T07:19:31+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-11-01T03:18:54+00:00",
+      "last_updated_at": "2026-11-01T07:19:32+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-11-01T03:18:55+00:00",
+      "last_updated_at": "2026-11-01T07:19:32+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-11-01T07:19:33+00:00",
+      "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-11-01T07:19:33+00:00",
+      "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "videos",
-      "reason": "last_check_too_old"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
+    {
+      "title": "The Free Agent Floodgates are About to Open Up!",
+      "url": "https://nats.talkdcsports.com/2026/11/01/the-free-agent-floodgates-are-about-to-open-up/",
+      "source": "Talk Nats",
+      "published_at": "2026-11-01T05:52:00+00:00",
+      "why_it_matters": {
+        "text": "Free agency is set to begin on November 2nd at 5pm ET. While top-ranked free agent Tarik Skubal may not sign immediately, recent collective bargaining agreement trends suggest a high volume of signings will occur before the lockout.",
+        "ai_generated": true
+      },
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/10/nats.talk-dc-sports-6ae4ef1139a84.png?fit=922%2C1152&ssl=1"
+    },
     {
       "title": "Connelly Early will be an integral part of the Washington Nationals rotation in 2027",
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94894/connelly-early-integral-part-of-washington-nationals-rotation-2027",
       "source": "Federal Baseball",
       "published_at": "2026-10-31T20:00:09+00:00",
       "why_it_matters": {
-        "text": "Paul Toboni acquired 24-year-old left-handed pitcher Connelly Early by trading Curtis Mead. Early is expected to be an integral part of the Washington Nationals' rotation in 2027.",
+        "text": "Paul Toboni acquired 24-year-old left-handed pitcher Connelly Early by trading Curtis Mead. Early is expected to be an integral part of the Washington Nationals rotation in 2027.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2298034805.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
@@ -103,7 +109,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-10-30T16:58:18+00:00",
       "why_it_matters": {
-        "text": "Seven years after their 2019 World Series victory, the Washington Nationals are being remembered following a parade for the Milwaukee Brewers. The 2019 title was secured on October 30th when Daniel Hudson struck out Michael Brantley.",
+        "text": "Seven years after their 2019 World Series victory, the Washington Nationals are being remembered following a parade for the Milwaukee Brewers. The 2019 title was secured when Daniel Hudson struck out Michael Brantley on October 30th.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-1179422834.jpg?quality=90&strip=all&crop=0%2C10.387129346898%2C100%2C79.225741306205&w=1200"
@@ -114,7 +120,7 @@
       "source": "Talk Nats",
       "published_at": "2026-10-30T04:38:00+00:00",
       "why_it_matters": {
-        "text": "The text discusses Rod Carew's unique baseball discipline, noting that from age 27 to 39, he never struck out more often than he walked. It highlights his ability to get on-base and steal bases as his primary strengths.",
+        "text": "The text discusses Rod Carew's unique baseball discipline, noting that from age 27 to 39, he never had more strikeouts than walks. It highlights his ability to get on-base and steal bases as his primary strengths.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2025/12/Nasim-Nunez-by-Andrew-Lang-scaled-1.jpeg?fit=1200%2C801&ssl=1"
@@ -124,10 +130,6 @@
       "url": "https://www.mlbtraderumors.com/2026/10/nationals-claim-braxton-roxby-waivers-giants-dfa-zak-kent.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-10-29T19:38:13+00:00",
-      "why_it_matters": {
-        "text": "The Nationals have claimed right-handed pitcher Braxton Roxby off waivers from the Giants. In conjunction with this move, the club has designated right-hander Zak Kent for assignment.",
-        "ai_generated": true
-      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/10/braxton-roxby-giants-1024x702.jpg"
     },
     {
@@ -136,13 +138,6 @@
       "source": "Federal Baseball",
       "published_at": "2026-10-29T18:33:37+00:00",
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2295375285.jpg?quality=90&strip=all&crop=0%2C29.057591623037%2C100%2C41.884816753927&w=1200"
-    },
-    {
-      "title": "Examining the state of the Washington Nationals 40-man roster entering the offseason",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/94876/examining-state-washington-nationals-40-man-roster-entering-offseason",
-      "source": "Federal Baseball",
-      "published_at": "2026-10-29T14:20:39+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/10/gettyimages-2292617087.jpg?quality=90&strip=all&crop=0%2C10.475649069616%2C100%2C79.048701860768&w=1200"
     }
   ],
   "team_pulse": {
@@ -151,7 +146,7 @@
       "text": ""
     },
     "storyline": {
-      "text": "Paul Toboni acquired 24-year-old left-handed pitcher Connelly Early by trading Curtis Mead. Early is expected to be an integral part of the Washington Nationals' rotation in 2027.",
+      "text": "Free agency is set to begin on November 2nd at 5pm ET. While top-ranked free agent Tarik Skubal may not sign immediately, recent collective bargaining agreement trends suggest a high volume of signings will occur before the lockout.",
       "ai_generated": true
     }
   },
@@ -190,31 +185,39 @@
     "ai_generated": true,
     "themes": [
       {
-        "label": "Future Rotation Outlook",
+        "label": "nostalgia for 2019 title",
         "sentiment": "positive",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/94894/connelly-early-integral-part-of-washington-nationals-rotation-2027"
-        ]
-      },
-      {
-        "label": "Historical Reflection",
-        "sentiment": "mixed",
         "source_urls": [
           "https://nats.talkdcsports.com/2026/10/31/who-would-complain-about-the-world-series-parade-route/",
           "https://www.federalbaseball.com/washington-nationals-history/94888/remembering-washington-nationals-2019-world-series-seven-years-later"
         ]
       },
       {
-        "label": "Roster Transactions",
-        "sentiment": "",
+        "label": "bitterness over departures",
+        "sentiment": "negative",
         "source_urls": [
-          "https://www.mlbtraderumors.com/2026/10/mariners-to-hire-cj-gillman-as-hitting-coach.html",
-          "https://www.mlbtraderumors.com/2026/10/nationals-claim-braxton-roxby-waivers-giants-dfa-zak-kent.html"
+          "https://nats.talkdcsports.com/2026/10/31/who-would-complain-about-the-world-series-parade-route/"
+        ]
+      },
+      {
+        "label": "future rotation outlook",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/94894/connelly-early-integral-part-of-washington-nationals-rotation-2027"
         ]
       }
     ]
   },
   "trending": [
+    {
+      "label": "free agency",
+      "sentiment": "",
+      "context": "The Free Agent Floodgates are About to Open Up!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/10/31/who-would-complain-about-the-world-series-parade-route/",
+        "https://nats.talkdcsports.com/2026/11/01/the-free-agent-floodgates-are-about-to-open-up/"
+      ]
+    },
     {
       "label": "World Series",
       "sentiment": "",
@@ -222,6 +225,22 @@
       "source_urls": [
         "https://nats.talkdcsports.com/2026/10/31/who-would-complain-about-the-world-series-parade-route/",
         "https://www.federalbaseball.com/washington-nationals-history/94888/remembering-washington-nationals-2019-world-series-seven-years-later"
+      ]
+    },
+    {
+      "label": "signings",
+      "sentiment": "",
+      "context": "The Free Agent Floodgates are About to Open Up!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/11/01/the-free-agent-floodgates-are-about-to-open-up/"
+      ]
+    },
+    {
+      "label": "CBA",
+      "sentiment": "",
+      "context": "The Free Agent Floodgates are About to Open Up!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/11/01/the-free-agent-floodgates-are-about-to-open-up/"
       ]
     },
     {
@@ -233,7 +252,7 @@
       ]
     },
     {
-      "label": "trade",
+      "label": "MLB trade",
       "sentiment": "",
       "context": "Connelly Early will be an integral part of the Washington Nationals rotation in 2027",
       "source_urls": [
@@ -241,11 +260,11 @@
       ]
     },
     {
-      "label": "free agency",
+      "label": "baseball rotation",
       "sentiment": "",
-      "context": "“Who would complain about the World Series parade route?”",
+      "context": "Connelly Early will be an integral part of the Washington Nationals rotation in 2027",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/10/31/who-would-complain-about-the-world-series-parade-route/"
+        "https://www.federalbaseball.com/washington-nationals-analysis/94894/connelly-early-integral-part-of-washington-nationals-rotation-2027"
       ]
     },
     {
@@ -254,30 +273,6 @@
       "context": "“Who would complain about the World Series parade route?”",
       "source_urls": [
         "https://nats.talkdcsports.com/2026/10/31/who-would-complain-about-the-world-series-parade-route/"
-      ]
-    },
-    {
-      "label": "Anthony Rendon",
-      "sentiment": "",
-      "context": "“Who would complain about the World Series parade route?”",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/10/31/who-would-complain-about-the-world-series-parade-route/"
-      ]
-    },
-    {
-      "label": "Mariners",
-      "sentiment": "",
-      "context": "Mariners To Hire CJ Gillman As Hitting Coach",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/10/mariners-to-hire-cj-gillman-as-hitting-coach.html"
-      ]
-    },
-    {
-      "label": "CJ Gillman",
-      "sentiment": "",
-      "context": "Mariners To Hire CJ Gillman As Hitting Coach",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/10/mariners-to-hire-cj-gillman-as-hitting-coach.html"
       ]
     }
   ],
