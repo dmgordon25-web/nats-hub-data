@@ -1,73 +1,74 @@
 {
   "data_version": 1,
-  "generated_at": "2026-11-04T08:37:53+00:00",
+  "generated_at": "2026-11-04T12:41:40+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-11-04T08:37:13+00:00",
-    "videos": "2026-11-04T08:37:13+00:00",
-    "vibes": "2026-11-04T08:37:53+00:00"
+    "news": "2026-11-04T12:38:42+00:00",
+    "videos": "2026-11-04T12:38:42+00:00",
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-11-04T08:37:10+00:00",
+      "last_updated_at": "2026-11-04T12:38:39+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-11-04T08:37:11+00:00",
+      "last_updated_at": "2026-11-04T12:38:40+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-11-04T08:37:12+00:00",
+      "last_updated_at": "2026-11-04T12:38:40+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-11-04T08:37:12+00:00",
+      "last_updated_at": "2026-11-04T12:38:41+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-11-04T08:37:12+00:00",
+      "last_updated_at": "2026-11-04T12:38:41+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-11-04T08:37:13+00:00",
+      "last_updated_at": "2026-11-04T12:38:41+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-11-04T08:37:13+00:00",
+      "last_updated_at": "2026-11-04T12:38:42+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-11-04T08:37:13+00:00",
+      "last_updated_at": "2026-11-04T12:38:42+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
+    }
+  ],
   "top_stories": [
     {
       "title": "What a Difference a Year Has Made on the Nats’ Roster!",
       "url": "https://nats.talkdcsports.com/2026/11/04/what-a-difference-a-year-has-made-on-the-nats-roster/",
       "source": "Talk Nats",
       "published_at": "2026-11-04T05:17:00+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals' 40-man roster has undergone significant turnover, with nearly 50 percent of the roster changing from one year to the next. This roster purging results in players becoming trivia answers in the future.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/10/20260602_163751-edited.jpg?fit=1200%2C993&ssl=1"
     },
     {
@@ -76,7 +77,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-11-03T19:11:24+00:00",
       "why_it_matters": {
-        "text": "Chris Hacopian, a 2026 first-round draft pick for the Washington Nationals, may reach the major leagues faster than typical prospects, potentially serving as an exception to the usual multi-year development timeline.",
+        "text": "Chris Hacopian, a 2026 first-round pick, may reach the Major Leagues faster than typical prospects. While most first-rounders take several years to establish themselves, Hacopian is noted as a potential exception to this rule.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2277601095.jpg?quality=90&strip=all&crop=0%2C10.737188920638%2C100%2C78.525622158723&w=1200"
@@ -87,7 +88,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-11-03T15:42:52+00:00",
       "why_it_matters": {
-        "text": "The Washington Nationals are expected to seek relief pitching help this offseason. While signing a big-name reliever like Adrian Morejon is a possibility, there is skepticism regarding the team's ability to outbid competitors, making Evan Phillips a potential target.",
+        "text": "The Washington Nationals are expected to seek relief pitching help this offseason. While signing a big-name reliever like Adrian Morejon is a possibility, there are concerns about outbidding other teams, making Evan Phillips a potential target for the team.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2299750830.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
@@ -97,10 +98,6 @@
       "url": "https://nats.talkdcsports.com/2026/11/03/hot-stove-blueprint-how-the-nationals-fit-into-mlbtrs-top-50-free-agent-class/",
       "source": "Talk Nats",
       "published_at": "2026-11-03T12:11:23+00:00",
-      "why_it_matters": {
-        "text": "The MLB offseason has begun, featuring MLB Trade Rumors' 21st annual Top 50 Free Agent list. Despite uncertainty regarding the December collective bargaining agreement expiration, the period leading up to the winter freeze is expected to be active.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/06/162A1270.jpg?fit=1200%2C758&ssl=1"
     },
     {
@@ -120,7 +117,7 @@
       "source": "Talk Nats",
       "published_at": "2026-11-02T20:51:43+00:00",
       "why_it_matters": {
-        "text": "MLB teams were required to decide the status of players on the 60-day injured list by 5 pm ET, resulting in players being reinstated, traded, or released. The Washington Nationals faced roster constraints due to having a full 40-man roster.",
+        "text": "MLB teams were required to make decisions regarding players on their 60-day injured list by 5 pm ET, involving reinstating, trading, or releasing them. Due to a full 40-man roster, the Washington Nationals faced specific roster management challenges during this period.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2024/10/Jose-Tena-batting-Sol-Tucker-Sept-2024-scaled-1.jpg?fit=1200%2C708&ssl=1"
@@ -144,10 +141,6 @@
     "result_banner": {
       "type": "none",
       "text": ""
-    },
-    "storyline": {
-      "text": "The Washington Nationals' 40-man roster has undergone significant turnover, with nearly 50 percent of the roster changing from one year to the next. This roster purging results in players becoming trivia answers in the future.",
-      "ai_generated": true
     }
   },
   "videos": [
@@ -181,34 +174,9 @@
     }
   ],
   "fan_vibes": {
-    "overall": "mixed",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "Roster Turnover",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/11/02/black-monday-in-baseball-several-nats-were-released/",
-          "https://nats.talkdcsports.com/2026/11/04/what-a-difference-a-year-has-made-on-the-nats-roster/",
-          "https://www.mlbtraderumors.com/2026/11/nationals-to-designate-jose-tena-for-assignment.html"
-        ]
-      },
-      {
-        "label": "Prospect Potential",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-prospects/94938/chris-hacopian-could-be-fast-mover-washington-nationals-system"
-        ]
-      },
-      {
-        "label": "Offseason Strategy",
-        "sentiment": "mixed",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/11/03/hot-stove-blueprint-how-the-nationals-fit-into-mlbtrs-top-50-free-agent-class/",
-          "https://www.federalbaseball.com/washington-nationals-analysis/94931/evan-phillips-should-be-top-free-agent-target-for-washington-nationals"
-        ]
-      }
-    ]
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
   },
   "trending": [
     {
@@ -217,7 +185,6 @@
       "context": "Evan Phillips should be a top free agent target for the Washington Nationals",
       "source_urls": [
         "https://nats.talkdcsports.com/2026/11/02/black-monday-in-baseball-several-nats-were-released/",
-        "https://nats.talkdcsports.com/2026/11/03/hot-stove-blueprint-how-the-nationals-fit-into-mlbtrs-top-50-free-agent-class/",
         "https://www.federalbaseball.com/washington-nationals-analysis/94931/evan-phillips-should-be-top-free-agent-target-for-washington-nationals"
       ]
     },
@@ -228,14 +195,6 @@
       "source_urls": [
         "https://nats.talkdcsports.com/2026/11/02/black-monday-in-baseball-several-nats-were-released/",
         "https://www.mlbtraderumors.com/2026/11/nationals-to-designate-jose-tena-for-assignment.html"
-      ]
-    },
-    {
-      "label": "roster turnover",
-      "sentiment": "",
-      "context": "What a Difference a Year Has Made on the Nats’ Roster!",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/11/04/what-a-difference-a-year-has-made-on-the-nats-roster/"
       ]
     },
     {
@@ -255,6 +214,14 @@
       ]
     },
     {
+      "label": "prospects",
+      "sentiment": "",
+      "context": "Chris Hacopian could be a fast mover in the Washington Nationals system",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-prospects/94938/chris-hacopian-could-be-fast-mover-washington-nationals-system"
+      ]
+    },
+    {
       "label": "relief pitching",
       "sentiment": "",
       "context": "Evan Phillips should be a top free agent target for the Washington Nationals",
@@ -263,15 +230,15 @@
       ]
     },
     {
-      "label": "offseason",
+      "label": "José Tena",
       "sentiment": "",
-      "context": "Hot Stove Blueprint: How the Nationals Fit Into MLBTR’s Top-50 Free Agent Class",
+      "context": "Nationals Designate José Tena For Assignment",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/11/03/hot-stove-blueprint-how-the-nationals-fit-into-mlbtrs-top-50-free-agent-class/"
+        "https://www.mlbtraderumors.com/2026/11/nationals-to-designate-jose-tena-for-assignment.html"
       ]
     },
     {
-      "label": "José Tena",
+      "label": "waivers",
       "sentiment": "",
       "context": "Nationals Designate José Tena For Assignment",
       "source_urls": [
