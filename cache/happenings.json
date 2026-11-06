@@ -1,59 +1,59 @@
 {
   "data_version": 1,
-  "generated_at": "2026-11-05T20:48:50+00:00",
+  "generated_at": "2026-11-06T00:49:55+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-11-05T20:48:07+00:00",
-    "videos": "2026-11-05T20:48:07+00:00",
-    "vibes": "2026-11-05T20:48:50+00:00"
+    "news": "2026-11-06T00:49:04+00:00",
+    "videos": null,
+    "vibes": "2026-11-06T00:49:55+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-11-05T20:48:02+00:00",
+      "last_updated_at": "2026-11-06T00:48:54+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-11-05T20:48:03+00:00",
+      "last_updated_at": "2026-11-06T00:48:55+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-11-05T20:48:03+00:00",
+      "last_updated_at": "2026-11-06T00:48:56+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-11-05T20:48:04+00:00",
+      "last_updated_at": "2026-11-06T00:48:56+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-11-05T20:48:04+00:00",
+      "last_updated_at": "2026-11-06T00:48:56+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-11-05T20:48:05+00:00",
+      "last_updated_at": "2026-11-06T00:48:57+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-11-05T20:48:06+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-11-05T20:48:07+00:00",
+      "last_updated_at": "2026-11-06T00:49:04+00:00",
       "status": "live"
     }
   ],
@@ -64,6 +64,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-news/94959/cj-abrams-james-wood-deserved-silver-slugger-nominations",
       "source": "Federal Baseball",
       "published_at": "2026-11-05T17:45:16+00:00",
+      "why_it_matters": {
+        "text": "Following a strong offensive season for the Washington Nationals, stars CJ Abrams and James Wood have received Silver Slugger nominations. The team's high production included rankings in OPS, home runs, runs, doubles, batting average, and slugging percentage.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2284696425.jpg?quality=90&strip=all&crop=0%2C10.473796070707%2C100%2C79.052407858587&w=1200"
     },
     {
@@ -72,7 +76,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-11-05T14:33:16+00:00",
       "why_it_matters": {
-        "text": "Baseball America has released an updated top 10 prospect list for the Washington Nationals. The update includes familiar names alongside some surprises, notably featuring Samil Serrano as a significant riser in the rankings.",
+        "text": "Baseball America has released an updated top 10 prospect list for the Washington Nationals. The update includes familiar names and some surprises, with Samil Serrano noted as a significant riser in the rankings.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2297274151.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
@@ -105,7 +109,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-11-04T18:14:18+00:00",
       "why_it_matters": {
-        "text": "The Arizona Fall League provides a platform for prospects to prove themselves or recover lost time. Washington Nationals prospect Jarlin Susana is currently participating in the league.",
+        "text": "The Arizona Fall League provides a platform for prospects to prove themselves or recover lost time. Washington Nationals prospect Jarlin Susana is currently participating in the league to further his development.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2301182500.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
@@ -116,7 +120,7 @@
       "source": "Talk Nats",
       "published_at": "2026-11-04T17:34:00+00:00",
       "why_it_matters": {
-        "text": "Washington Nationals President of Baseball Operations Paul Toboni sent a message to season plan holders regarding the team's ongoing efforts to build the organization.",
+        "text": "Washington Nationals President of Baseball Operations Paul Toboni sent a message to season plan holders regarding the organization's ongoing efforts to build the team.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/10/nats.talk-dc-sports-6adb88345e767.png?fit=976%2C1074&ssl=1"
@@ -140,42 +144,24 @@
     "result_banner": {
       "type": "none",
       "text": ""
+    },
+    "storyline": {
+      "text": "Following a strong offensive season for the Washington Nationals, stars CJ Abrams and James Wood have received Silver Slugger nominations. The team's high production included rankings in OPS, home runs, runs, doubles, batting average, and slugging percentage.",
+      "ai_generated": true
     }
   },
-  "videos": [
-    {
-      "title": "The Longest Nationals Home Runs Of 2026",
-      "url": "https://www.youtube.com/watch?v=YGA5rnrSTnc",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i2.ytimg.com/vi/YGA5rnrSTnc/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "Righting Our Wrongs and Taking Accountability #mlb",
-      "url": "https://www.youtube.com/shorts/D4h0mi2tPKs",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i1.ytimg.com/vi/D4h0mi2tPKs/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "Thanking Fans With IRL Cameos At The Ballpark",
-      "url": "https://www.youtube.com/shorts/Cek3ekrTqGo",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i4.ytimg.com/vi/Cek3ekrTqGo/hqdefault.jpg",
-      "duration_s": 0
-    },
-    {
-      "title": "There Was Never A Password",
-      "url": "https://www.youtube.com/shorts/BUEKUMhexXk",
-      "source": "Nationals on YouTube",
-      "thumbnail_url": "https://i3.ytimg.com/vi/BUEKUMhexXk/hqdefault.jpg",
-      "duration_s": 0
-    }
-  ],
+  "videos": [],
   "fan_vibes": {
     "overall": "positive",
     "ai_generated": true,
     "themes": [
+      {
+        "label": "Offensive Performance",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-news/94959/cj-abrams-james-wood-deserved-silver-slugger-nominations"
+        ]
+      },
       {
         "label": "Prospect Development",
         "sentiment": "positive",
@@ -193,14 +179,7 @@
         ]
       },
       {
-        "label": "Player Accolades",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-news/94959/cj-abrams-james-wood-deserved-silver-slugger-nominations"
-        ]
-      },
-      {
-        "label": "Roster Moves",
+        "label": "Roster Changes",
         "sentiment": "mixed",
         "source_urls": [
           "https://www.mlbtraderumors.com/2026/11/nationals-release-zak-kent.html"
@@ -228,6 +207,30 @@
       ]
     },
     {
+      "label": "CJ Abrams",
+      "sentiment": "",
+      "context": "CJ Abrams and James Wood get deserved Silver Slugger nominations",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-news/94959/cj-abrams-james-wood-deserved-silver-slugger-nominations"
+      ]
+    },
+    {
+      "label": "James Wood",
+      "sentiment": "",
+      "context": "CJ Abrams and James Wood get deserved Silver Slugger nominations",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-news/94959/cj-abrams-james-wood-deserved-silver-slugger-nominations"
+      ]
+    },
+    {
+      "label": "Silver Slugger",
+      "sentiment": "",
+      "context": "CJ Abrams and James Wood get deserved Silver Slugger nominations",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-news/94959/cj-abrams-james-wood-deserved-silver-slugger-nominations"
+      ]
+    },
+    {
       "label": "Baseball America",
       "sentiment": "",
       "context": "Samil Serrano is a notable riser on Baseball America’s Washington Nationals prospect update",
@@ -250,38 +253,14 @@
       "source_urls": [
         "https://nats.talkdcsports.com/2026/11/05/fangraphs-is-bullish-on-the-nats/"
       ]
-    },
-    {
-      "label": "Zak Kent",
-      "sentiment": "",
-      "context": "Nationals Release Zak Kent",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/11/nationals-release-zak-kent.html"
-      ]
-    },
-    {
-      "label": "transactions",
-      "sentiment": "",
-      "context": "Nationals Release Zak Kent",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/11/nationals-release-zak-kent.html"
-      ]
-    },
-    {
-      "label": "waivers",
-      "sentiment": "",
-      "context": "Nationals Release Zak Kent",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/11/nationals-release-zak-kent.html"
-      ]
     }
   ],
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "James Wood",
-    "text": "A towering, high-ceiling outfielder who also came to Washington in the Juan Soto trade.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/695578/spots/120",
+    "name": "MacKenzie Gore",
+    "text": "The hard-throwing left-handed starter and another key piece of the return in the Juan Soto trade.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/669022/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
