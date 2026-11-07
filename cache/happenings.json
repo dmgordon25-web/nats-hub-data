@@ -1,69 +1,78 @@
 {
   "data_version": 1,
-  "generated_at": "2026-11-06T22:39:55+00:00",
+  "generated_at": "2026-11-07T02:41:01+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-11-06T22:38:03+00:00",
+    "news": "2026-11-07T02:40:14+00:00",
     "videos": "2026-11-06T22:38:03+00:00",
-    "vibes": "2026-11-06T22:39:55+00:00"
+    "vibes": "2026-11-07T02:41:01+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-11-06T22:37:59+00:00",
+      "last_updated_at": "2026-11-07T02:40:00+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-11-06T22:38:00+00:00",
+      "last_updated_at": "2026-11-07T02:40:01+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-11-06T22:38:00+00:00",
+      "last_updated_at": "2026-11-07T02:40:01+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-11-06T22:38:01+00:00",
+      "last_updated_at": "2026-11-07T02:40:02+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-11-06T22:38:01+00:00",
+      "last_updated_at": "2026-11-07T02:40:02+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-11-06T22:38:02+00:00",
+      "last_updated_at": "2026-11-07T02:40:03+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-11-06T22:38:03+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-11-06T22:38:03+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    }
+  ],
   "top_stories": [
     {
       "title": "Guardians Claim José Tena",
       "url": "https://www.mlbtraderumors.com/2026/11/guardians-claim-jose-tena.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-11-06T19:55:04+00:00",
+      "why_it_matters": {
+        "text": "The Guardians have claimed infielder José Tena off waivers from the Nationals following his designation for assignment earlier in the week.",
+        "ai_generated": true
+      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/11/jose-tena-nationals-1024x683.jpg"
     },
     {
@@ -71,6 +80,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-news/94966/washington-nationals-extend-elite-defensive-outfielder-jacob-young",
       "source": "Federal Baseball",
       "published_at": "2026-11-06T19:43:10+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals have signed outfielder Jacob Young to a four-year, $23 million extension that includes an option for a fifth year. This follows a previous extension for Cade Cavalli and comes after Young showed offensive improvement.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2302911332.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -78,6 +91,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-news/94972/washington-nationals-acquire-low-slot-lefty-reiver-sanmartin",
       "source": "Federal Baseball",
       "published_at": "2026-11-06T19:28:30+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals have acquired left-handed reliever Reiver Sanmartin from the Giants in exchange for minor league right-handed reliever Robert Cranz. This follows the recent extension of Jacob Young.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2295970155.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -85,6 +102,10 @@
       "url": "https://www.mlbtraderumors.com/2026/11/nationals-dfa-kyle-nicolas-reliever.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-11-06T19:09:37+00:00",
+      "why_it_matters": {
+        "text": "The Nationals have designated right-handed pitcher Kyle Nicolas for assignment. His roster spot will be filled by left-handed reliever Reiver Sanmartin, who was recently acquired in a trade with the Giants.",
+        "ai_generated": true
+      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/11/kyle-nicolas-reliever-1024x683.jpg"
     },
     {
@@ -103,6 +124,10 @@
       "url": "https://nats.talkdcsports.com/2026/11/06/nats-extend-jacob-young-and-their-window-through-2030-except-for-cj-abrams/",
       "source": "Talk Nats",
       "published_at": "2026-11-06T18:11:20+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals have extended Jacob Young, a Gold Glove candidate, with a contract that guarantees him a spot through at least the 2030 season, extending the team's competitive window beyond 2029.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/20260907_140258.jpg?fit=1200%2C1053&ssl=1"
     },
     {
@@ -124,6 +149,10 @@
     "result_banner": {
       "type": "none",
       "text": ""
+    },
+    "storyline": {
+      "text": "The Guardians have claimed infielder José Tena off waivers from the Nationals following his designation for assignment earlier in the week.",
+      "ai_generated": true
     }
   },
   "videos": [
@@ -169,17 +198,12 @@
         ]
       },
       {
-        "label": "Acquiring Reiver Sanmartin",
+        "label": "Roster transactions",
         "sentiment": "mixed",
         "source_urls": [
           "https://www.federalbaseball.com/washington-nationals-news/94972/washington-nationals-acquire-low-slot-lefty-reiver-sanmartin",
-          "https://www.mlbtraderumors.com/2026/11/giants-trade-reiver-sanmartin-nationals.html"
-        ]
-      },
-      {
-        "label": "Roster moves",
-        "sentiment": "negative",
-        "source_urls": [
+          "https://www.mlbtraderumors.com/2026/11/giants-trade-reiver-sanmartin-nationals.html",
+          "https://www.mlbtraderumors.com/2026/11/guardians-claim-jose-tena.html",
           "https://www.mlbtraderumors.com/2026/11/nationals-dfa-kyle-nicolas-reliever.html"
         ]
       }
@@ -187,28 +211,79 @@
   },
   "trending": [
     {
-      "label": "trade",
+      "label": "Jacob Young",
       "sentiment": "",
-      "context": "Giants Trade Reiver Sanmartin To Nationals",
+      "context": "Washington Nationals extend elite defensive outfielder Jacob Young",
       "source_urls": [
-        "https://www.mlbtraderumors.com/2026/11/giants-trade-reiver-sanmartin-nationals.html"
+        "https://nats.talkdcsports.com/2026/11/06/nats-extend-jacob-young-and-their-window-through-2030-except-for-cj-abrams/",
+        "https://www.federalbaseball.com/washington-nationals-news/94966/washington-nationals-extend-elite-defensive-outfielder-jacob-young"
+      ]
+    },
+    {
+      "label": "Reiver Sanmartin",
+      "sentiment": "",
+      "context": "Washington Nationals acquire another low slot lefty in Reiver Sanmartin",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-news/94972/washington-nationals-acquire-low-slot-lefty-reiver-sanmartin",
+        "https://www.mlbtraderumors.com/2026/11/nationals-dfa-kyle-nicolas-reliever.html"
       ]
     },
     {
       "label": "Giants",
       "sentiment": "",
-      "context": "Giants Trade Reiver Sanmartin To Nationals",
+      "context": "Washington Nationals acquire another low slot lefty in Reiver Sanmartin",
       "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-news/94972/washington-nationals-acquire-low-slot-lefty-reiver-sanmartin",
         "https://www.mlbtraderumors.com/2026/11/giants-trade-reiver-sanmartin-nationals.html"
+      ]
+    },
+    {
+      "label": "Guardians",
+      "sentiment": "",
+      "context": "Guardians Claim José Tena",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/11/guardians-claim-jose-tena.html"
+      ]
+    },
+    {
+      "label": "José Tena",
+      "sentiment": "",
+      "context": "Guardians Claim José Tena",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/11/guardians-claim-jose-tena.html"
+      ]
+    },
+    {
+      "label": "waivers",
+      "sentiment": "",
+      "context": "Guardians Claim José Tena",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/11/guardians-claim-jose-tena.html"
+      ]
+    },
+    {
+      "label": "infielder",
+      "sentiment": "",
+      "context": "Guardians Claim José Tena",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/11/guardians-claim-jose-tena.html"
+      ]
+    },
+    {
+      "label": "player extension",
+      "sentiment": "",
+      "context": "Washington Nationals extend elite defensive outfielder Jacob Young",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-news/94966/washington-nationals-extend-elite-defensive-outfielder-jacob-young"
       ]
     }
   ],
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "MacKenzie Gore",
-    "text": "The hard-throwing left-handed starter and another key piece of the return in the Juan Soto trade.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/669022/spots/120",
+    "name": "Dylan Crews",
+    "text": "The No. 2 overall pick in the 2023 MLB Draft out of LSU, headlining the next wave of Nationals talent.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/686611/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
