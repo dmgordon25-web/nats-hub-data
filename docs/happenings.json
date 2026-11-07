@@ -1,63 +1,68 @@
 {
   "data_version": 1,
-  "generated_at": "2026-11-07T06:41:47+00:00",
+  "generated_at": "2026-11-07T10:44:08+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-11-07T06:41:18+00:00",
-    "videos": "2026-11-07T06:41:18+00:00",
-    "vibes": "2026-11-07T06:41:47+00:00"
+    "news": "2026-11-07T10:41:54+00:00",
+    "videos": "2026-11-07T10:41:54+00:00",
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-11-07T06:41:05+00:00",
+      "last_updated_at": "2026-11-07T10:41:51+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-11-07T06:41:06+00:00",
+      "last_updated_at": "2026-11-07T10:41:52+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-11-07T06:41:07+00:00",
+      "last_updated_at": "2026-11-07T10:41:52+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-11-07T06:41:07+00:00",
+      "last_updated_at": "2026-11-07T10:41:53+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-11-07T06:41:07+00:00",
+      "last_updated_at": "2026-11-07T10:41:53+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-11-07T06:41:08+00:00",
+      "last_updated_at": "2026-11-07T10:41:53+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-11-07T06:41:13+00:00",
+      "last_updated_at": "2026-11-07T10:41:54+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-11-07T06:41:18+00:00",
+      "last_updated_at": "2026-11-07T10:41:54+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
+    }
+  ],
   "top_stories": [
     {
       "title": "Nationals, Jacob Young Agree To Extension",
@@ -76,7 +81,7 @@
       "source": "Talk Nats",
       "published_at": "2026-11-07T05:34:00+00:00",
       "why_it_matters": {
-        "text": "Washington Nationals manager Blake Butera addressed uncertainty regarding the team's shortstop position for the 2027 season. Butera indicated that a decision will depend on CJ Abrams' performance during Spring Training.",
+        "text": "Washington Nationals manager Blake Butera addressed uncertainty regarding the team's shortstop position for the 2027 season. Butera indicated that a decision will depend on CJ Abrams' performance during Spring Training rather than making a firm commitment now.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/nats.talk-dc-sports-6a9442417b69b.png?fit=1184%2C912&ssl=1"
@@ -181,34 +186,9 @@
     }
   ],
   "fan_vibes": {
-    "overall": "mixed",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "Jacob Young extension",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-news/94966/washington-nationals-extend-elite-defensive-outfielder-jacob-young",
-          "https://www.mlbtraderumors.com/2026/11/nationals-extend-jacob-young-center-fielder.html"
-        ]
-      },
-      {
-        "label": "Roster transactions",
-        "sentiment": "mixed",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-news/94972/washington-nationals-acquire-low-slot-lefty-reiver-sanmartin",
-          "https://www.mlbtraderumors.com/2026/11/guardians-claim-jose-tena.html",
-          "https://www.mlbtraderumors.com/2026/11/nationals-dfa-kyle-nicolas-reliever.html"
-        ]
-      },
-      {
-        "label": "Shortstop uncertainty",
-        "sentiment": "mixed",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/11/07/who-will-play-shortstop-on-opening-day-2027-for-the-nats/"
-        ]
-      }
-    ]
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
   },
   "trending": [
     {
