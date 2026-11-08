@@ -1,74 +1,73 @@
 {
   "data_version": 1,
-  "generated_at": "2026-11-08T04:10:40+00:00",
+  "generated_at": "2026-11-08T08:12:11+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-11-08T04:08:21+00:00",
-    "videos": "2026-11-07T22:45:40+00:00",
-    "vibes": "2026-11-08T04:10:40+00:00"
+    "news": "2026-11-08T08:11:23+00:00",
+    "videos": "2026-11-08T08:11:23+00:00",
+    "vibes": "2026-11-08T08:12:11+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-11-08T04:08:09+00:00",
+      "last_updated_at": "2026-11-08T08:11:19+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-11-08T04:08:10+00:00",
+      "last_updated_at": "2026-11-08T08:11:20+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-11-08T04:08:10+00:00",
+      "last_updated_at": "2026-11-08T08:11:21+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-11-08T04:08:10+00:00",
+      "last_updated_at": "2026-11-08T08:11:21+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-11-08T04:08:11+00:00",
+      "last_updated_at": "2026-11-08T08:11:21+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-11-08T04:08:11+00:00",
+      "last_updated_at": "2026-11-08T08:11:22+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-11-08T08:11:22+00:00",
+      "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-11-08T08:11:23+00:00",
+      "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "videos",
-      "reason": "last_check_too_old"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "What does the Washington Nationals extension of Jacob Young mean for Dylan Crews?",
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/94984/what-does-washington-nationals-extension-jacob-young-mean-dylan-crews",
       "source": "Federal Baseball",
       "published_at": "2026-11-07T16:11:17+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals have extended center fielder Jacob Young to a four-year, $23 million contract that includes an option for a fifth year. This move raises questions regarding the implications for Dylan Crews.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2237762592.jpg?quality=90&strip=all&crop=0%2C10.756674800407%2C100%2C78.486650399185&w=1200"
     },
     {
@@ -99,7 +98,7 @@
       "source": "Talk Nats",
       "published_at": "2026-11-07T05:34:00+00:00",
       "why_it_matters": {
-        "text": "Washington Nationals manager Blake Butera addressed uncertainty regarding the team's shortstop position for the 2027 season. Butera indicated that a decision will depend on CJ Abrams' performance during Spring Training.",
+        "text": "Washington Nationals manager Blake Butera addressed uncertainty regarding the team's shortstop position for the 2027 season. He indicated that a decision will depend on CJ Abrams' performance during Spring Training.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/08/nats.talk-dc-sports-6a9442417b69b.png?fit=1184%2C912&ssl=1"
@@ -110,7 +109,7 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-11-06T19:55:04+00:00",
       "why_it_matters": {
-        "text": "The Guardians have claimed infielder José Tena off waivers from the Nationals following his designation for assignment earlier in the week.",
+        "text": "The Guardians have claimed infielder José Tena off waivers from the Nationals following his designation for assignment earlier this week. Tena was previously a Cleveland amateur signee before being traded to the Nationals in a 2024 deadline deal.",
         "ai_generated": true
       },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/11/jose-tena-nationals-1024x683.jpg"
@@ -145,6 +144,10 @@
     "result_banner": {
       "type": "none",
       "text": ""
+    },
+    "storyline": {
+      "text": "The Washington Nationals have extended center fielder Jacob Young to a four-year, $23 million contract that includes an option for a fifth year. This move raises questions regarding the implications for Dylan Crews.",
+      "ai_generated": true
     }
   },
   "videos": [
@@ -186,6 +189,7 @@
         "sentiment": "positive",
         "source_urls": [
           "https://sports.yahoo.com/articles/mariners-news-tanner-swanson-jacob-150000556.html",
+          "https://www.federalbaseball.com/washington-nationals-analysis/94984/what-does-washington-nationals-extension-jacob-young-mean-dylan-crews",
           "https://www.federalbaseball.com/washington-nationals-news/94966/washington-nationals-extend-elite-defensive-outfielder-jacob-young",
           "https://www.mlbtraderumors.com/2026/11/nationals-extend-jacob-young-center-fielder.html"
         ]
@@ -195,7 +199,13 @@
         "sentiment": "mixed",
         "source_urls": [
           "https://nats.talkdcsports.com/2026/11/07/who-will-play-shortstop-on-opening-day-2027-for-the-nats/",
-          "https://www.federalbaseball.com/washington-nationals-analysis/94984/what-does-washington-nationals-extension-jacob-young-mean-dylan-crews",
+          "https://www.federalbaseball.com/washington-nationals-analysis/94984/what-does-washington-nationals-extension-jacob-young-mean-dylan-crews"
+        ]
+      },
+      {
+        "label": "Player departures",
+        "sentiment": "negative",
+        "source_urls": [
           "https://www.mlbtraderumors.com/2026/11/guardians-claim-jose-tena.html"
         ]
       }
@@ -205,10 +215,28 @@
     {
       "label": "Jacob Young",
       "sentiment": "",
-      "context": "Nationals, Jacob Young Agree To Extension",
+      "context": "What does the Washington Nationals extension of Jacob Young mean for Dylan Crews?",
       "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94984/what-does-washington-nationals-extension-jacob-young-mean-dylan-crews",
         "https://www.federalbaseball.com/washington-nationals-news/94966/washington-nationals-extend-elite-defensive-outfielder-jacob-young",
         "https://www.mlbtraderumors.com/2026/11/nationals-extend-jacob-young-center-fielder.html"
+      ]
+    },
+    {
+      "label": "contract extension",
+      "sentiment": "",
+      "context": "What does the Washington Nationals extension of Jacob Young mean for Dylan Crews?",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94984/what-does-washington-nationals-extension-jacob-young-mean-dylan-crews",
+        "https://www.mlbtraderumors.com/2026/11/nationals-extend-jacob-young-center-fielder.html"
+      ]
+    },
+    {
+      "label": "Dylan Crews",
+      "sentiment": "",
+      "context": "What does the Washington Nationals extension of Jacob Young mean for Dylan Crews?",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/94984/what-does-washington-nationals-extension-jacob-young-mean-dylan-crews"
       ]
     },
     {
@@ -228,7 +256,7 @@
       ]
     },
     {
-      "label": "contract extension",
+      "label": "center fielder",
       "sentiment": "",
       "context": "Nationals, Jacob Young Agree To Extension",
       "source_urls": [
@@ -249,22 +277,6 @@
       "context": "Who Will Play Shortstop on Opening Day 2027 for the Nats?",
       "source_urls": [
         "https://nats.talkdcsports.com/2026/11/07/who-will-play-shortstop-on-opening-day-2027-for-the-nats/"
-      ]
-    },
-    {
-      "label": "CJ Abrams",
-      "sentiment": "",
-      "context": "Who Will Play Shortstop on Opening Day 2027 for the Nats?",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/11/07/who-will-play-shortstop-on-opening-day-2027-for-the-nats/"
-      ]
-    },
-    {
-      "label": "Guardians",
-      "sentiment": "",
-      "context": "Guardians Claim José Tena",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/11/guardians-claim-jose-tena.html"
       ]
     }
   ],
