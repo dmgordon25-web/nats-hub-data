@@ -1,59 +1,59 @@
 {
   "data_version": 1,
-  "generated_at": "2026-11-11T08:41:50+00:00",
+  "generated_at": "2026-11-11T12:43:08+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-11-11T08:39:29+00:00",
-    "videos": "2026-11-11T08:39:29+00:00",
-    "vibes": "2026-11-11T08:41:50+00:00"
+    "news": "2026-11-11T12:42:28+00:00",
+    "videos": "2026-11-11T12:42:28+00:00",
+    "vibes": "2026-11-11T12:43:08+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-11-11T08:39:17+00:00",
+      "last_updated_at": "2026-11-11T12:42:25+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-11-11T08:39:21+00:00",
+      "last_updated_at": "2026-11-11T12:42:26+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-11-11T08:39:22+00:00",
+      "last_updated_at": "2026-11-11T12:42:26+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-11-11T08:39:24+00:00",
+      "last_updated_at": "2026-11-11T12:42:26+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-11-11T08:39:25+00:00",
+      "last_updated_at": "2026-11-11T12:42:27+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-11-11T08:39:28+00:00",
+      "last_updated_at": "2026-11-11T12:42:27+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-11-11T08:39:28+00:00",
+      "last_updated_at": "2026-11-11T12:42:27+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-11-11T08:39:29+00:00",
+      "last_updated_at": "2026-11-11T12:42:28+00:00",
       "status": "live"
     }
   ],
@@ -75,6 +75,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/95024/what-does-future-hold-washington-nationals-jackson-kent",
       "source": "Federal Baseball",
       "published_at": "2026-11-10T19:07:08+00:00",
+      "why_it_matters": {
+        "text": "Jackson Kent's 2026 season included a Major League debut and quality minor league numbers, though he struggled against MLB competition and in AAA. He is projected to have the ceiling of a solid number four starter.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2296104720.jpg?quality=90&strip=all&crop=0%2C10.729057198914%2C100%2C78.541885602173&w=1200"
     },
     {
@@ -82,6 +86,10 @@
       "url": "https://nats.talkdcsports.com/2026/11/10/the-gm-meetings-are-on-the-clock-in-las-vegas/",
       "source": "Talk Nats",
       "published_at": "2026-11-10T05:41:00+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals face significant roster challenges, including a record 42 blown saves and instability in the back of their starting rotation due to high ERAs and recent player designations.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/07/Paul-Toboni-Devin-Pearson-Mike-DeBartolo-Desmond-McGowan-Justin-Horowitz.jpg?fit=493%2C256&ssl=1"
     },
     {
@@ -177,31 +185,48 @@
     "ai_generated": true,
     "themes": [
       {
-        "label": "Trade Speculation",
+        "label": "roster instability",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/11/10/the-gm-meetings-are-on-the-clock-in-las-vegas/"
+        ]
+      },
+      {
+        "label": "trade speculation",
         "sentiment": "mixed",
         "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/95012/will-washington-nationals-make-major-offensive-additions-offseason",
+          "https://www.federalbaseball.com/washington-nationals-analysis/95018/will-paul-toboni-washington-nationals-make-noise-at-gm-meetings",
           "https://www.mlbtraderumors.com/2026/11/nationals-fielding-trade-interest-in-dylan-crews.html"
         ]
       },
       {
-        "label": "Offseason Strategy",
-        "sentiment": "mixed",
+        "label": "pitching concerns",
+        "sentiment": "negative",
         "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/95012/will-washington-nationals-make-major-offensive-additions-offseason",
-          "https://www.federalbaseball.com/washington-nationals-analysis/95018/will-paul-toboni-washington-nationals-make-noise-at-gm-meetings"
+          "https://nats.talkdcsports.com/2026/11/10/the-gm-meetings-are-on-the-clock-in-las-vegas/",
+          "https://www.federalbaseball.com/washington-nationals-analysis/95012/will-washington-nationals-make-major-offensive-additions-offseason"
         ]
       },
       {
-        "label": "GM Meetings",
-        "sentiment": "",
+        "label": "prospect outlook",
+        "sentiment": "positive",
         "source_urls": [
-          "https://nats.talkdcsports.com/2026/11/10/the-gm-meetings-are-on-the-clock-in-las-vegas/",
-          "https://www.federalbaseball.com/washington-nationals-analysis/95018/will-paul-toboni-washington-nationals-make-noise-at-gm-meetings"
+          "https://www.federalbaseball.com/washington-nationals-analysis/95024/what-does-future-hold-washington-nationals-jackson-kent"
         ]
       }
     ]
   },
   "trending": [
+    {
+      "label": "GM Meetings",
+      "sentiment": "",
+      "context": "The GM Meetings are on the Clock in Las Vegas",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/11/10/the-gm-meetings-are-on-the-clock-in-las-vegas/",
+        "https://www.federalbaseball.com/washington-nationals-analysis/95018/will-paul-toboni-washington-nationals-make-noise-at-gm-meetings"
+      ]
+    },
     {
       "label": "offseason",
       "sentiment": "",
@@ -228,19 +253,27 @@
       ]
     },
     {
-      "label": "trade interest",
+      "label": "Jackson Kent",
       "sentiment": "",
-      "context": "Nationals Receiving Trade Interest In Dylan Crews",
+      "context": "What does the future hold for Washington Nationals left hander Jackson Kent",
       "source_urls": [
-        "https://www.mlbtraderumors.com/2026/11/nationals-fielding-trade-interest-in-dylan-crews.html"
+        "https://www.federalbaseball.com/washington-nationals-analysis/95024/what-does-future-hold-washington-nationals-jackson-kent"
       ]
     },
     {
-      "label": "GM Meetings",
+      "label": "minor leagues",
       "sentiment": "",
-      "context": "Will Paul Toboni and the Washington Nationals make any noise at the GM Meetings?",
+      "context": "What does the future hold for Washington Nationals left hander Jackson Kent",
       "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/95018/will-paul-toboni-washington-nationals-make-noise-at-gm-meetings"
+        "https://www.federalbaseball.com/washington-nationals-analysis/95024/what-does-future-hold-washington-nationals-jackson-kent"
+      ]
+    },
+    {
+      "label": "roster",
+      "sentiment": "",
+      "context": "The GM Meetings are on the Clock in Las Vegas",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/11/10/the-gm-meetings-are-on-the-clock-in-las-vegas/"
       ]
     },
     {
@@ -249,22 +282,6 @@
       "context": "Will Paul Toboni and the Washington Nationals make any noise at the GM Meetings?",
       "source_urls": [
         "https://www.federalbaseball.com/washington-nationals-analysis/95018/will-paul-toboni-washington-nationals-make-noise-at-gm-meetings"
-      ]
-    },
-    {
-      "label": "Las Vegas",
-      "sentiment": "",
-      "context": "Will Paul Toboni and the Washington Nationals make any noise at the GM Meetings?",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/95018/will-paul-toboni-washington-nationals-make-noise-at-gm-meetings"
-      ]
-    },
-    {
-      "label": "offense",
-      "sentiment": "",
-      "context": "Will the Washington Nationals make major offensive additions this offseason?",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/95012/will-washington-nationals-make-major-offensive-additions-offseason"
       ]
     }
   ],
