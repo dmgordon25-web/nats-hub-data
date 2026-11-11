@@ -1,59 +1,59 @@
 {
   "data_version": 1,
-  "generated_at": "2026-11-10T20:34:56+00:00",
+  "generated_at": "2026-11-11T00:35:38+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-11-10T20:33:53+00:00",
-    "videos": "2026-11-10T20:33:53+00:00",
-    "vibes": "2026-11-10T20:34:56+00:00"
+    "news": "2026-11-11T00:35:08+00:00",
+    "videos": "2026-11-11T00:35:08+00:00",
+    "vibes": "2026-11-11T00:35:38+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-11-10T20:33:49+00:00",
+      "last_updated_at": "2026-11-11T00:35:01+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-11-10T20:33:50+00:00",
+      "last_updated_at": "2026-11-11T00:35:02+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-11-10T20:33:51+00:00",
+      "last_updated_at": "2026-11-11T00:35:02+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-11-10T20:33:51+00:00",
+      "last_updated_at": "2026-11-11T00:35:02+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-11-10T20:33:52+00:00",
+      "last_updated_at": "2026-11-11T00:35:03+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-11-10T20:33:52+00:00",
+      "last_updated_at": "2026-11-11T00:35:03+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-11-10T20:33:53+00:00",
+      "last_updated_at": "2026-11-11T00:35:08+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-11-10T20:33:53+00:00",
+      "last_updated_at": "2026-11-11T00:35:08+00:00",
       "status": "live"
     }
   ],
@@ -87,7 +87,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-11-09T20:24:43+00:00",
       "why_it_matters": {
-        "text": "The GM Meetings have begun in Las Vegas. While these meetings typically set the stage for later offseason moves rather than immediate changes, a potential lockout could lead to increased team activity this year.",
+        "text": "The GM Meetings have begun in Las Vegas. While these meetings typically set the stage for later offseason moves rather than immediate major changes, the potential for a lockout could lead to increased team activity this year.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2025/10/gettyimages-2239647443.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
@@ -98,7 +98,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-11-09T15:35:26+00:00",
       "why_it_matters": {
-        "text": "While offseason discussions regarding the Washington Nationals have primarily focused on improving the pitching staff due to last year's weaknesses, there is speculation regarding whether the team intends to make major offensive additions as well.",
+        "text": "While offseason discussions regarding the Washington Nationals have primarily focused on addressing the pitching staff, there is speculation regarding whether the team will also make major offensive additions.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2302237065.jpg?quality=90&strip=all&crop=0%2C10.471323125376%2C100%2C79.057353749248&w=1200"
@@ -208,10 +208,9 @@
         ]
       },
       {
-        "label": "GM meeting speculation",
+        "label": "GM meeting anticipation",
         "sentiment": "mixed",
         "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/95012/will-washington-nationals-make-major-offensive-additions-offseason",
           "https://www.federalbaseball.com/washington-nationals-analysis/95018/will-paul-toboni-washington-nationals-make-noise-at-gm-meetings"
         ]
       }
@@ -245,14 +244,6 @@
       ]
     },
     {
-      "label": "minor leagues",
-      "sentiment": "",
-      "context": "What does the future hold for Washington Nationals left hander Jackson Kent",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/95024/what-does-future-hold-washington-nationals-jackson-kent"
-      ]
-    },
-    {
       "label": "roster",
       "sentiment": "",
       "context": "The GM Meetings are on the Clock in Las Vegas",
@@ -269,7 +260,15 @@
       ]
     },
     {
-      "label": "offensive additions",
+      "label": "Las Vegas",
+      "sentiment": "",
+      "context": "Will Paul Toboni and the Washington Nationals make any noise at the GM Meetings?",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/95018/will-paul-toboni-washington-nationals-make-noise-at-gm-meetings"
+      ]
+    },
+    {
+      "label": "offense",
       "sentiment": "",
       "context": "Will the Washington Nationals make major offensive additions this offseason?",
       "source_urls": [
@@ -277,20 +276,20 @@
       ]
     },
     {
-      "label": "SB Nation",
+      "label": "pitching",
       "sentiment": "",
-      "context": "How to play in-5 Trivia on the SB Nation app",
+      "context": "Will the Washington Nationals make major offensive additions this offseason?",
       "source_urls": [
-        "https://www.federalbaseball.com/general/95003/how-to-play-in-5-trivia-on-the-sb-nation-app"
+        "https://www.federalbaseball.com/washington-nationals-analysis/95012/will-washington-nationals-make-major-offensive-additions-offseason"
       ]
     }
   ],
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "MacKenzie Gore",
-    "text": "The hard-throwing left-handed starter and another key piece of the return in the Juan Soto trade.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/669022/spots/120",
+    "name": "Dylan Crews",
+    "text": "The No. 2 overall pick in the 2023 MLB Draft out of LSU, headlining the next wave of Nationals talent.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/686611/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
