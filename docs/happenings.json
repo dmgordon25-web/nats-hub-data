@@ -1,82 +1,95 @@
 {
   "data_version": 1,
-  "generated_at": "2026-11-11T20:46:56+00:00",
-  "mode": "rss_fallback",
+  "generated_at": "2026-11-12T00:49:14+00:00",
+  "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-11-11T20:44:05+00:00",
-    "videos": "2026-11-11T20:44:05+00:00",
-    "vibes": null
+    "news": "2026-11-12T00:48:16+00:00",
+    "videos": "2026-11-12T00:48:16+00:00",
+    "vibes": "2026-11-12T00:49:14+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-11-11T20:43:58+00:00",
+      "last_updated_at": "2026-11-12T00:48:13+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-11-11T20:44:01+00:00",
+      "last_updated_at": "2026-11-12T00:48:14+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-11-11T20:44:02+00:00",
+      "last_updated_at": "2026-11-12T00:48:14+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-11-11T20:44:02+00:00",
+      "last_updated_at": "2026-11-12T00:48:14+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-11-11T20:44:03+00:00",
+      "last_updated_at": "2026-11-12T00:48:15+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-11-11T20:44:04+00:00",
+      "last_updated_at": "2026-11-12T00:48:15+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-11-11T20:44:04+00:00",
+      "last_updated_at": "2026-11-12T00:48:15+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-11-11T20:44:05+00:00",
+      "last_updated_at": "2026-11-12T00:48:16+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "why_it_matters",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "trending",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
-      "title": "MLB rumors: Yankees eye Alec Bohm, Tarik Skubal books more meetings, plus Nationals, Orioles, Mariners, more",
+      "title": "Nationals, OF Young agree on 4-year deal with '31 option",
+      "url": "https://www.espn.com/mlb/story/_/id/50455463/nationals-jacob-young-agree-4-year-deal-31-option",
+      "source": "ESPN MLB",
+      "published_at": "2026-11-11T22:19:32+00:00",
+      "why_it_matters": {
+        "text": "Outfielder Jacob Young has agreed to a four-year contract with the Nationals, which includes a team option for the 2031 season.",
+        "ai_generated": true
+      },
+      "image_url": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1111%2Fr1744569_1296x729_16%2D9.jpg"
+    },
+    {
+      "title": "Nationals agree to terms with Jacob Young on a deal through 2030 with a ’31 club option",
+      "url": "https://sports.yahoo.com/articles/nationals-agree-terms-jacob-young-213445566.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-11-11T21:34:45+00:00",
+      "why_it_matters": {
+        "text": "The Nationals have reached an agreement with Jacob Young on a contract extension running through 2030, which includes a club option for 2031. This season, Young recorded a career high of 10 home runs and 50 RBIs while maintaining a .252 batting average.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/lo/mysterio/api/c8e64672d75937dc1a2729ba22a275d4b4402408a82322a7de577ef4892eef35/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2F07ff18a21bf8e01f5cfc79c8ff932193.jpg"
+    },
+    {
+      "title": "MLB rumors: Yankees eye Alec Bohm, Tarik Skubal books more meetings, plus Nationals, Red Sox, Mariners, more",
       "url": "https://www.cbssports.com/mlb/news/mlb-rumors-yankees-alec-bohm-tarik-skubal-dodgers-blue-jays-nationals-padres-mariners-orioles/",
       "source": "CBS Sports MLB",
-      "published_at": "2026-11-11T17:41:00+00:00",
+      "published_at": "2026-11-11T21:13:43+00:00",
+      "why_it_matters": {
+        "text": "MLB hot stove rumors for Wednesday, November 11, include the Yankees eyeing Alec Bohm and Tarik Skubal booking more meetings, alongside updates involving the Nationals, Red Sox, and Mariners.",
+        "ai_generated": true
+      },
       "image_url": "https://sportshub.cbsistatic.com/i/r/2026/11/11/6c9ca226-9c9e-4493-a4a9-dcfbc98b12bb/thumbnail/1200x675/61f68e6ebe417f621611cd2482e52cb1/bohm-getty.png"
     },
     {
@@ -84,6 +97,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/95030/three-trade-proposals-washington-nationals-dylan-crews",
       "source": "Federal Baseball",
       "published_at": "2026-11-11T15:11:47+00:00",
+      "why_it_matters": {
+        "text": "Dylan Crews has emerged as a popular trade target among league teams according to reports from the GM Meetings. The Washington Nationals appear open to trade discussions involving the outfielder following the extension of Jacob Young.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2296931289.jpg?quality=90&strip=all&crop=0%2C10.739013314491%2C100%2C78.521973371019&w=1200"
     },
     {
@@ -91,6 +108,10 @@
       "url": "https://www.mlbtraderumors.com/2026/11/mlbtr-podcast-the-nats-extend-jacob-young-drew-rasmussens-future-the-angels-gm-limbo-and-more.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-11-11T14:38:31+00:00",
+      "why_it_matters": {
+        "text": "The latest MLB Trade Rumors podcast episode features host Darragh McDonald and guest Anthony Franco. Topics discussed include the Nationals extending Jacob Young, Drew Rasmussen's future, and the Angels' GM situation.",
+        "ai_generated": true
+      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/11/jacob-young-nationals-center-fielder-1024x683.jpg"
     },
     {
@@ -98,6 +119,10 @@
       "url": "https://nats.talkdcsports.com/2026/11/11/toboni-finally-said-it-out-loud/",
       "source": "Talk Nats",
       "published_at": "2026-11-11T14:17:20+00:00",
+      "why_it_matters": {
+        "text": "Following a letter to fans published on November 4, Paul Toboni has released a second version of his message within four days. The initial letter addressed his first year with the Nationals.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/10/nats.talk-dc-sports-6adb88345e767.png?fit=976%2C1074&ssl=1"
     },
     {
@@ -113,26 +138,16 @@
       "source": "Federal Baseball",
       "published_at": "2026-11-10T19:07:08+00:00",
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2296104720.jpg?quality=90&strip=all&crop=0%2C10.729057198914%2C100%2C78.541885602173&w=1200"
-    },
-    {
-      "title": "The GM Meetings are on the Clock in Las Vegas",
-      "url": "https://nats.talkdcsports.com/2026/11/10/the-gm-meetings-are-on-the-clock-in-las-vegas/",
-      "source": "Talk Nats",
-      "published_at": "2026-11-10T05:41:00+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/07/Paul-Toboni-Devin-Pearson-Mike-DeBartolo-Desmond-McGowan-Justin-Horowitz.jpg?fit=493%2C256&ssl=1"
-    },
-    {
-      "title": "Will Paul Toboni and the Washington Nationals make any noise at the GM Meetings?",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/95018/will-paul-toboni-washington-nationals-make-noise-at-gm-meetings",
-      "source": "Federal Baseball",
-      "published_at": "2026-11-09T20:24:43+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2025/10/gettyimages-2239647443.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "none",
       "text": ""
+    },
+    "storyline": {
+      "text": "Outfielder Jacob Young has agreed to a four-year contract with the Nationals, which includes a team option for the 2031 season.",
+      "ai_generated": true
     }
   },
   "videos": [
@@ -166,17 +181,108 @@
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "positive",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "Jacob Young extension",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://sports.yahoo.com/articles/nationals-agree-terms-jacob-young-213445566.html",
+          "https://www.espn.com/mlb/story/_/id/50455463/nationals-jacob-young-agree-4-year-deal-31-option",
+          "https://www.mlbtraderumors.com/2026/11/mlbtr-podcast-the-nats-extend-jacob-young-drew-rasmussens-future-the-angels-gm-limbo-and-more.html"
+        ]
+      },
+      {
+        "label": "Dylan Crews trade rumors",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/95030/three-trade-proposals-washington-nationals-dylan-crews"
+        ]
+      },
+      {
+        "label": "General MLB rumors",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.cbssports.com/mlb/news/mlb-rumors-yankees-alec-bohm-tarik-skubal-dodgers-blue-jays-nationals-padres-mariners-orioles/"
+        ]
+      }
+    ]
   },
-  "trending": [],
+  "trending": [
+    {
+      "label": "Jacob Young",
+      "sentiment": "",
+      "context": "Nationals, OF Young agree on 4-year deal with '31 option",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/nationals-agree-terms-jacob-young-213445566.html",
+        "https://www.espn.com/mlb/story/_/id/50455463/nationals-jacob-young-agree-4-year-deal-31-option"
+      ]
+    },
+    {
+      "label": "contract",
+      "sentiment": "",
+      "context": "Nationals, OF Young agree on 4-year deal with '31 option",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/nationals-agree-terms-jacob-young-213445566.html",
+        "https://www.espn.com/mlb/story/_/id/50455463/nationals-jacob-young-agree-4-year-deal-31-option"
+      ]
+    },
+    {
+      "label": "rumors",
+      "sentiment": "",
+      "context": "MLB rumors: Yankees eye Alec Bohm, Tarik Skubal books more meetings, plus Nationals, Red Sox, Mariners, more",
+      "source_urls": [
+        "https://www.cbssports.com/mlb/news/mlb-rumors-yankees-alec-bohm-tarik-skubal-dodgers-blue-jays-nationals-padres-mariners-orioles/"
+      ]
+    },
+    {
+      "label": "Yankees",
+      "sentiment": "",
+      "context": "MLB rumors: Yankees eye Alec Bohm, Tarik Skubal books more meetings, plus Nationals, Red Sox, Mariners, more",
+      "source_urls": [
+        "https://www.cbssports.com/mlb/news/mlb-rumors-yankees-alec-bohm-tarik-skubal-dodgers-blue-jays-nationals-padres-mariners-orioles/"
+      ]
+    },
+    {
+      "label": "Red Sox",
+      "sentiment": "",
+      "context": "MLB rumors: Yankees eye Alec Bohm, Tarik Skubal books more meetings, plus Nationals, Red Sox, Mariners, more",
+      "source_urls": [
+        "https://www.cbssports.com/mlb/news/mlb-rumors-yankees-alec-bohm-tarik-skubal-dodgers-blue-jays-nationals-padres-mariners-orioles/"
+      ]
+    },
+    {
+      "label": "Mariners",
+      "sentiment": "",
+      "context": "MLB rumors: Yankees eye Alec Bohm, Tarik Skubal books more meetings, plus Nationals, Red Sox, Mariners, more",
+      "source_urls": [
+        "https://www.cbssports.com/mlb/news/mlb-rumors-yankees-alec-bohm-tarik-skubal-dodgers-blue-jays-nationals-padres-mariners-orioles/"
+      ]
+    },
+    {
+      "label": "Dylan Crews",
+      "sentiment": "",
+      "context": "Three trade proposals for Washington Nationals outfielder Dylan Crews",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/95030/three-trade-proposals-washington-nationals-dylan-crews"
+      ]
+    },
+    {
+      "label": "trade proposals",
+      "sentiment": "",
+      "context": "Three trade proposals for Washington Nationals outfielder Dylan Crews",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/95030/three-trade-proposals-washington-nationals-dylan-crews"
+      ]
+    }
+  ],
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "Dylan Crews",
-    "text": "The No. 2 overall pick in the 2023 MLB Draft out of LSU, headlining the next wave of Nationals talent.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/686611/spots/120",
+    "name": "CJ Abrams",
+    "text": "The Nationals' dynamic young shortstop, acquired in the 2022 Juan Soto trade and now a cornerstone of the rebuild.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/682928/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
