@@ -1,71 +1,63 @@
 {
   "data_version": 1,
-  "generated_at": "2026-11-14T15:01:43+00:00",
-  "mode": "rss_fallback",
+  "generated_at": "2026-11-14T16:27:39+00:00",
+  "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-11-14T15:01:40+00:00",
-    "videos": "2026-11-14T15:01:40+00:00",
+    "news": "2026-11-14T16:23:43+00:00",
+    "videos": "2026-11-14T16:23:43+00:00",
     "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-11-14T15:01:37+00:00",
+      "last_updated_at": "2026-11-14T16:23:40+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-11-14T15:01:38+00:00",
+      "last_updated_at": "2026-11-14T16:23:41+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-11-14T15:01:38+00:00",
+      "last_updated_at": "2026-11-14T16:23:41+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-11-14T15:01:39+00:00",
+      "last_updated_at": "2026-11-14T16:23:41+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-11-14T15:01:39+00:00",
+      "last_updated_at": "2026-11-14T16:23:41+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-11-14T15:01:40+00:00",
+      "last_updated_at": "2026-11-14T16:23:42+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-11-14T15:01:40+00:00",
+      "last_updated_at": "2026-11-14T16:23:42+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-11-14T15:01:40+00:00",
+      "last_updated_at": "2026-11-14T16:23:43+00:00",
       "status": "live"
     }
   ],
   "limited_sources": [
-    {
-      "id": "why_it_matters",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "trending",
-      "reason": "ai_enrichment_unavailable"
-    },
     {
       "id": "fan_vibes",
       "reason": "ai_sentiment_unavailable"
@@ -73,10 +65,32 @@
   ],
   "top_stories": [
     {
+      "title": "Mariners trade winds: what if Dylan Crews the ship?",
+      "url": "https://sports.yahoo.com/articles/mariners-trade-winds-dylan-crews-153000078.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-11-14T15:30:00+00:00",
+      "why_it_matters": {
+        "text": "A discussion regarding potential Seattle Mariners outfield moves, specifically considering Dylan Crews as a possible fit.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/lo/mysterio/api/b92625e8ee428ef7fcca766529e6cf21c5e8a98ee2d9c9976edb5bea971f848b/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fd8c4fc3a3591ee04c975232821f44c7d.jpg"
+    },
+    {
+      "title": "Does it make sense for the Washington Nationals to avoid giving relievers multi-year deals?",
+      "url": "https://www.federalbaseball.com/washington-nationals-analysis/95056/does-it-make-sense-washington-nationals-avoid-giving-relievers-multi-year-deals",
+      "source": "Federal Baseball",
+      "published_at": "2026-11-14T15:22:48+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2299927108.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+    },
+    {
       "title": "Hometown Heroes or Local Bias? Inside the Debate Over Baseball Awards Voting",
       "url": "https://nats.talkdcsports.com/2026/11/14/hometown-heroes-or-local-bias-inside-the-debate-over-bbwaa-baseball-awards-voting/",
       "source": "Talk Nats",
       "published_at": "2026-11-14T07:00:00+00:00",
+      "why_it_matters": {
+        "text": "A look into the ongoing debate regarding Major League Baseball awards voting, such as the Gold Glove, Silver Slugger, and Manager of the Year. The discussion explores whether voting results are influenced by local bias or fan complaints during the annual November selection process.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/11/max-scherzer-cy-young-6af7371cbee39.png?fit=1200%2C864&ssl=1"
     },
     {
@@ -113,26 +127,16 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-11-12T18:07:27+00:00",
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/11/cj-abrams-nationals-1024x683.jpg"
-    },
-    {
-      "title": "Blue Jays Notes: Infield, Outfield, Rotation, Bullpen, Barger",
-      "url": "https://www.mlbtraderumors.com/2026/11/blue-jays-notes-infield-outfield-rotation-bullpen-barger.html",
-      "source": "MLB Trade Rumors",
-      "published_at": "2026-11-12T16:50:31+00:00",
-      "image_url": "https://cdn.mlbtraderumors.com/files/2026/11/Willy_Adames_Ketel_Marte_Diamondbacks_Giants-1024x735.jpg"
-    },
-    {
-      "title": "GM Meetings wrap-up today in Las Vegas",
-      "url": "https://nats.talkdcsports.com/2026/11/12/gm-meetings-wrap-up-today-in-las-vegas/",
-      "source": "Talk Nats",
-      "published_at": "2026-11-12T15:29:47+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/11/scott-boras-winter-meetings-2018-las-vegas-edited-1-6af5e61116cd3.png?fit=1200%2C800&ssl=1"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "none",
       "text": ""
+    },
+    "storyline": {
+      "text": "A discussion regarding potential Seattle Mariners outfield moves, specifically considering Dylan Crews as a possible fit.",
+      "ai_generated": true
     }
   },
   "videos": [
@@ -170,7 +174,48 @@
     "ai_generated": false,
     "themes": []
   },
-  "trending": [],
+  "trending": [
+    {
+      "label": "Mariners",
+      "sentiment": "",
+      "context": "Mariners trade winds: what if Dylan Crews the ship?",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/mariners-trade-winds-dylan-crews-153000078.html"
+      ]
+    },
+    {
+      "label": "Dylan Crews",
+      "sentiment": "",
+      "context": "Mariners trade winds: what if Dylan Crews the ship?",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/mariners-trade-winds-dylan-crews-153000078.html"
+      ]
+    },
+    {
+      "label": "outfield",
+      "sentiment": "",
+      "context": "Mariners trade winds: what if Dylan Crews the ship?",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/mariners-trade-winds-dylan-crews-153000078.html"
+      ]
+    },
+    {
+      "label": "baseball awards",
+      "sentiment": "",
+      "context": "Hometown Heroes or Local Bias? Inside the Debate Over Baseball Awards Voting",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/11/14/hometown-heroes-or-local-bias-inside-the-debate-over-bbwaa-baseball-awards-voting/"
+      ]
+    },
+    {
+      "label": "voting debate",
+      "sentiment": "",
+      "context": "Hometown Heroes or Local Bias? Inside the Debate Over Baseball Awards Voting",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/11/14/hometown-heroes-or-local-bias-inside-the-debate-over-bbwaa-baseball-awards-voting/"
+      ]
+    }
+  ],
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
