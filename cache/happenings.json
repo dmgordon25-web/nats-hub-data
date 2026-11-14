@@ -1,68 +1,63 @@
 {
   "data_version": 1,
-  "generated_at": "2026-11-14T16:27:39+00:00",
+  "generated_at": "2026-11-14T20:28:22+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-11-14T16:23:43+00:00",
-    "videos": "2026-11-14T16:23:43+00:00",
-    "vibes": null
+    "news": "2026-11-14T20:27:48+00:00",
+    "videos": "2026-11-14T20:27:48+00:00",
+    "vibes": "2026-11-14T20:28:22+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-11-14T16:23:40+00:00",
+      "last_updated_at": "2026-11-14T20:27:45+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-11-14T16:23:41+00:00",
+      "last_updated_at": "2026-11-14T20:27:46+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-11-14T16:23:41+00:00",
+      "last_updated_at": "2026-11-14T20:27:47+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-11-14T16:23:41+00:00",
+      "last_updated_at": "2026-11-14T20:27:47+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-11-14T16:23:41+00:00",
+      "last_updated_at": "2026-11-14T20:27:47+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-11-14T16:23:42+00:00",
+      "last_updated_at": "2026-11-14T20:27:48+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-11-14T16:23:42+00:00",
+      "last_updated_at": "2026-11-14T20:27:48+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-11-14T16:23:43+00:00",
+      "last_updated_at": "2026-11-14T20:27:48+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "Mariners trade winds: what if Dylan Crews the ship?",
@@ -70,7 +65,7 @@
       "source": "Yahoo Sports MLB",
       "published_at": "2026-11-14T15:30:00+00:00",
       "why_it_matters": {
-        "text": "A discussion regarding potential Seattle Mariners outfield moves, specifically considering Dylan Crews as a possible fit.",
+        "text": "Speculation regarding the Seattle Mariners' outfield needs and whether Dylan Crews could be a potential fit for the team.",
         "ai_generated": true
       },
       "image_url": "https://s.yimg.com/lo/mysterio/api/b92625e8ee428ef7fcca766529e6cf21c5e8a98ee2d9c9976edb5bea971f848b/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fd8c4fc3a3591ee04c975232821f44c7d.jpg"
@@ -80,6 +75,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/95056/does-it-make-sense-washington-nationals-avoid-giving-relievers-multi-year-deals",
       "source": "Federal Baseball",
       "published_at": "2026-11-14T15:22:48+00:00",
+      "why_it_matters": {
+        "text": "Reporting suggests the Washington Nationals are unlikely to offer multi-year contracts to relief pitchers. This follows a difficult season for the team's bullpen, which was described as painful to watch.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2299927108.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -88,7 +87,7 @@
       "source": "Talk Nats",
       "published_at": "2026-11-14T07:00:00+00:00",
       "why_it_matters": {
-        "text": "A look into the ongoing debate regarding Major League Baseball awards voting, such as the Gold Glove, Silver Slugger, and Manager of the Year. The discussion explores whether voting results are influenced by local bias or fan complaints during the annual November selection process.",
+        "text": "A discussion regarding the debate over Major League Baseball awards voting, including the Gold Glove, Silver Slugger, and Manager of the Year. The text notes frequent fan complaints concerning the ballot process conducted by members of the Baseball Writers' Association.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/11/max-scherzer-cy-young-6af7371cbee39.png?fit=1200%2C864&ssl=1"
@@ -98,6 +97,10 @@
       "url": "https://www.mlbtraderumors.com/2026/11/nationals-release-kyle-nicolas.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-11-14T02:33:57+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals have released reliever Kyle Nicolas. Nicolas, a right-handed pitcher acquired from the Orioles in July, was designated for assignment last week following the acquisition of Reiver Sanmartin. He did not appear in any major league games for the Nationals.",
+        "ai_generated": true
+      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/03/USATSI_27178909-1024x683.jpg"
     },
     {
@@ -105,6 +108,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/95050/raisel-iglesias-makes-sense-washington-nationals-9th-inning-stabilizer",
       "source": "Federal Baseball",
       "published_at": "2026-11-13T16:08:32+00:00",
+      "why_it_matters": {
+        "text": "The author discusses Raisel Iglesias as a potential 9th inning stabilizer for the Washington Nationals following Evan Phillips' signing with the Braves on a 3-year, $35 million deal.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2298974037.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -112,6 +119,10 @@
       "url": "https://nats.talkdcsports.com/2026/11/13/2027-draft-lottery-odds/",
       "source": "Talk Nats",
       "published_at": "2026-11-13T05:56:00+00:00",
+      "why_it_matters": {
+        "text": "A simulation of the 2027 draft lottery odds has been conducted, involving one million simulations for every draft year since 2023, excluding the year the Washington Nationals were slotted at 10 and unable to move in the order.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/11/mlb-draft-lottery-2027-6af5fee100fef.png?fit=1200%2C652&ssl=1"
     },
     {
@@ -135,7 +146,7 @@
       "text": ""
     },
     "storyline": {
-      "text": "A discussion regarding potential Seattle Mariners outfield moves, specifically considering Dylan Crews as a possible fit.",
+      "text": "Speculation regarding the Seattle Mariners' outfield needs and whether Dylan Crews could be a potential fit for the team.",
       "ai_generated": true
     }
   },
@@ -170,9 +181,39 @@
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "mixed",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "Bullpen Strategy",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/95050/raisel-iglesias-makes-sense-washington-nationals-9th-inning-stabilizer",
+          "https://www.federalbaseball.com/washington-nationals-analysis/95056/does-it-make-sense-washington-nationals-avoid-giving-relievers-multi-year-deals"
+        ]
+      },
+      {
+        "label": "Roster Moves",
+        "sentiment": "",
+        "source_urls": [
+          "https://www.mlbtraderumors.com/2026/11/nationals-release-kyle-nicolas.html"
+        ]
+      },
+      {
+        "label": "Prospect Speculation",
+        "sentiment": "",
+        "source_urls": [
+          "https://sports.yahoo.com/articles/mariners-trade-winds-dylan-crews-153000078.html"
+        ]
+      },
+      {
+        "label": "Draft Outlook",
+        "sentiment": "",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/11/13/2027-draft-lottery-odds/"
+        ]
+      }
+    ]
   },
   "trending": [
     {
@@ -200,15 +241,39 @@
       ]
     },
     {
-      "label": "baseball awards",
+      "label": "trade",
       "sentiment": "",
-      "context": "Hometown Heroes or Local Bias? Inside the Debate Over Baseball Awards Voting",
+      "context": "Mariners trade winds: what if Dylan Crews the ship?",
       "source_urls": [
-        "https://nats.talkdcsports.com/2026/11/14/hometown-heroes-or-local-bias-inside-the-debate-over-bbwaa-baseball-awards-voting/"
+        "https://sports.yahoo.com/articles/mariners-trade-winds-dylan-crews-153000078.html"
       ]
     },
     {
-      "label": "voting debate",
+      "label": "bullpen",
+      "sentiment": "",
+      "context": "Does it make sense for the Washington Nationals to avoid giving relievers multi-year deals?",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/95056/does-it-make-sense-washington-nationals-avoid-giving-relievers-multi-year-deals"
+      ]
+    },
+    {
+      "label": "relief pitchers",
+      "sentiment": "",
+      "context": "Does it make sense for the Washington Nationals to avoid giving relievers multi-year deals?",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/95056/does-it-make-sense-washington-nationals-avoid-giving-relievers-multi-year-deals"
+      ]
+    },
+    {
+      "label": "contracts",
+      "sentiment": "",
+      "context": "Does it make sense for the Washington Nationals to avoid giving relievers multi-year deals?",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/95056/does-it-make-sense-washington-nationals-avoid-giving-relievers-multi-year-deals"
+      ]
+    },
+    {
+      "label": "baseball awards",
       "sentiment": "",
       "context": "Hometown Heroes or Local Bias? Inside the Debate Over Baseball Awards Voting",
       "source_urls": [
