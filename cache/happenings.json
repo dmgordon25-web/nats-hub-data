@@ -1,47 +1,47 @@
 {
   "data_version": 1,
-  "generated_at": "2026-11-15T03:42:09+00:00",
-  "mode": "rss_fallback",
+  "generated_at": "2026-11-15T07:42:58+00:00",
+  "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-11-15T03:42:06+00:00",
+    "news": "2026-11-15T07:42:26+00:00",
     "videos": "2026-11-15T00:28:36+00:00",
-    "vibes": null
+    "vibes": "2026-11-15T07:42:58+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-11-15T03:41:54+00:00",
+      "last_updated_at": "2026-11-15T07:42:14+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-11-15T03:41:55+00:00",
+      "last_updated_at": "2026-11-15T07:42:15+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-11-15T03:41:55+00:00",
+      "last_updated_at": "2026-11-15T07:42:15+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-11-15T03:41:55+00:00",
+      "last_updated_at": "2026-11-15T07:42:15+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-11-15T03:41:56+00:00",
+      "last_updated_at": "2026-11-15T07:42:16+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-11-15T03:41:56+00:00",
+      "last_updated_at": "2026-11-15T07:42:17+00:00",
       "status": "live"
     },
     {
@@ -61,18 +61,6 @@
     {
       "id": "videos",
       "reason": "last_check_too_old"
-    },
-    {
-      "id": "why_it_matters",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "trending",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
     }
   ],
   "top_stories": [
@@ -81,6 +69,10 @@
       "url": "https://www.mlbtraderumors.com/2026/11/nl-east-notes-braves-iglesias-nationals-thompson-marlins.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-11-14T20:33:38+00:00",
+      "why_it_matters": {
+        "text": "The Braves signed Evan Phillips to bolster their bullpen. Despite this addition, both Atlanta and Detroit remain interested in veteran closer Raisel Iglesias, following similar moves by the Tigers to add reliever Emilio Pagan.",
+        "ai_generated": true
+      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/04/raisel-iglesias-braves-closer-1024x685.jpg"
     },
     {
@@ -88,6 +80,10 @@
       "url": "https://sports.yahoo.com/articles/mariners-trade-winds-dylan-crews-153000078.html",
       "source": "Yahoo Sports MLB",
       "published_at": "2026-11-14T15:30:00+00:00",
+      "why_it_matters": {
+        "text": "A discussion regarding potential Seattle Mariners outfield additions, specifically considering Dylan Crews as a possible fit.",
+        "ai_generated": true
+      },
       "image_url": "https://s.yimg.com/lo/mysterio/api/b92625e8ee428ef7fcca766529e6cf21c5e8a98ee2d9c9976edb5bea971f848b/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fd8c4fc3a3591ee04c975232821f44c7d.jpg"
     },
     {
@@ -95,6 +91,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/95056/does-it-make-sense-washington-nationals-avoid-giving-relievers-multi-year-deals",
       "source": "Federal Baseball",
       "published_at": "2026-11-14T15:22:48+00:00",
+      "why_it_matters": {
+        "text": "Reporting suggests the Washington Nationals are unlikely to offer multi-year contracts to relief pitchers. This follows a season where the team's bullpen performance was described as painful to watch.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2299927108.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -102,6 +102,10 @@
       "url": "https://nats.talkdcsports.com/2026/11/14/hometown-heroes-or-local-bias-inside-the-debate-over-bbwaa-baseball-awards-voting/",
       "source": "Talk Nats",
       "published_at": "2026-11-14T07:00:00+00:00",
+      "why_it_matters": {
+        "text": "A discussion regarding the debate over baseball awards voting, including the Gold Glove, Silver Slugger, and Manager of the Year. The text notes frequent fan complaints concerning the ballot process used by members of the Baseball Writers' group.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/11/max-scherzer-cy-young-6af7371cbee39.png?fit=1200%2C864&ssl=1"
     },
     {
@@ -109,6 +113,10 @@
       "url": "https://www.mlbtraderumors.com/2026/11/nationals-release-kyle-nicolas.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-11-14T02:33:57+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals have released reliever Kyle Nicolas. Nicolas, a right-handed pitcher acquired from the Orioles in July, was designated for assignment last week following the acquisition of Reiver Sanmartin. He did not appear in any major league games for the Nationals.",
+        "ai_generated": true
+      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/03/USATSI_27178909-1024x683.jpg"
     },
     {
@@ -116,6 +124,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/95050/raisel-iglesias-makes-sense-washington-nationals-9th-inning-stabilizer",
       "source": "Federal Baseball",
       "published_at": "2026-11-13T16:08:32+00:00",
+      "why_it_matters": {
+        "text": "The author discusses Raisel Iglesias as a potential 9th inning stabilizer for the Washington Nationals following Evan Phillips' decision to sign a 3-year, $35 million deal with the Braves.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2298974037.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -137,6 +149,10 @@
     "result_banner": {
       "type": "none",
       "text": ""
+    },
+    "storyline": {
+      "text": "The Braves signed Evan Phillips to bolster their bullpen. Despite this addition, both Atlanta and Detroit remain interested in veteran closer Raisel Iglesias, following similar moves by the Tigers to add reliever Emilio Pagan.",
+      "ai_generated": true
     }
   },
   "videos": [
@@ -170,11 +186,99 @@
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "mixed",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "bullpen strategy",
+        "sentiment": "negative",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/95056/does-it-make-sense-washington-nationals-avoid-giving-relievers-multi-year-deals"
+        ]
+      },
+      {
+        "label": "potential roster moves",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/95050/raisel-iglesias-makes-sense-washington-nationals-9th-inning-stabilizer",
+          "https://www.mlbtraderumors.com/2026/11/nl-east-notes-braves-iglesias-nationals-thompson-marlins.html"
+        ]
+      },
+      {
+        "label": "player transactions",
+        "sentiment": "",
+        "source_urls": [
+          "https://www.mlbtraderumors.com/2026/11/nationals-release-kyle-nicolas.html"
+        ]
+      }
+    ]
   },
-  "trending": [],
+  "trending": [
+    {
+      "label": "Braves",
+      "sentiment": "",
+      "context": "NL East Notes: Braves, Iglesias, Nationals, Thompson, Marlins",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/11/nl-east-notes-braves-iglesias-nationals-thompson-marlins.html"
+      ]
+    },
+    {
+      "label": "Tigers",
+      "sentiment": "",
+      "context": "NL East Notes: Braves, Iglesias, Nationals, Thompson, Marlins",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/11/nl-east-notes-braves-iglesias-nationals-thompson-marlins.html"
+      ]
+    },
+    {
+      "label": "trade rumors",
+      "sentiment": "",
+      "context": "NL East Notes: Braves, Iglesias, Nationals, Thompson, Marlins",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/11/nl-east-notes-braves-iglesias-nationals-thompson-marlins.html"
+      ]
+    },
+    {
+      "label": "Mariners",
+      "sentiment": "",
+      "context": "Mariners trade winds: what if Dylan Crews the ship?",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/mariners-trade-winds-dylan-crews-153000078.html"
+      ]
+    },
+    {
+      "label": "Dylan Crews",
+      "sentiment": "",
+      "context": "Mariners trade winds: what if Dylan Crews the ship?",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/mariners-trade-winds-dylan-crews-153000078.html"
+      ]
+    },
+    {
+      "label": "outfield",
+      "sentiment": "",
+      "context": "Mariners trade winds: what if Dylan Crews the ship?",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/mariners-trade-winds-dylan-crews-153000078.html"
+      ]
+    },
+    {
+      "label": "bullpen",
+      "sentiment": "",
+      "context": "Does it make sense for the Washington Nationals to avoid giving relievers multi-year deals?",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/95056/does-it-make-sense-washington-nationals-avoid-giving-relievers-multi-year-deals"
+      ]
+    },
+    {
+      "label": "relief pitchers",
+      "sentiment": "",
+      "context": "Does it make sense for the Washington Nationals to avoid giving relievers multi-year deals?",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/95056/does-it-make-sense-washington-nationals-avoid-giving-relievers-multi-year-deals"
+      ]
+    }
+  ],
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
