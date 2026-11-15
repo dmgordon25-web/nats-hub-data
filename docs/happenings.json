@@ -1,9 +1,9 @@
 {
   "data_version": 1,
-  "generated_at": "2026-11-15T00:28:39+00:00",
+  "generated_at": "2026-11-15T00:54:20+00:00",
   "mode": "rss_fallback",
   "freshness": {
-    "news": "2026-11-15T00:28:36+00:00",
+    "news": "2026-11-15T00:54:17+00:00",
     "videos": "2026-11-15T00:28:36+00:00",
     "vibes": null
   },
@@ -11,44 +11,44 @@
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-11-15T00:28:27+00:00",
+      "last_updated_at": "2026-11-15T00:54:04+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-11-15T00:28:28+00:00",
+      "last_updated_at": "2026-11-15T00:54:05+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-11-15T00:28:29+00:00",
+      "last_updated_at": "2026-11-15T00:54:06+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-11-15T00:28:29+00:00",
+      "last_updated_at": "2026-11-15T00:54:06+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-11-15T00:28:29+00:00",
+      "last_updated_at": "2026-11-15T00:54:06+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-11-15T00:28:30+00:00",
+      "last_updated_at": "2026-11-15T00:54:07+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-11-15T00:28:31+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
@@ -58,6 +58,10 @@
     }
   ],
   "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    },
     {
       "id": "why_it_matters",
       "reason": "ai_enrichment_unavailable"
