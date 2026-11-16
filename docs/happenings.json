@@ -1,64 +1,80 @@
 {
   "data_version": 1,
-  "generated_at": "2026-11-16T02:13:27+00:00",
+  "generated_at": "2026-11-16T06:14:20+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-11-16T02:12:58+00:00",
+    "news": "2026-11-16T06:13:44+00:00",
     "videos": "2026-11-16T02:12:58+00:00",
-    "vibes": "2026-11-16T02:13:27+00:00"
+    "vibes": "2026-11-16T06:14:20+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-11-16T02:12:54+00:00",
+      "last_updated_at": "2026-11-16T06:13:31+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-11-16T02:12:55+00:00",
+      "last_updated_at": "2026-11-16T06:13:32+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-11-16T02:12:55+00:00",
+      "last_updated_at": "2026-11-16T06:13:32+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-11-16T02:12:55+00:00",
+      "last_updated_at": "2026-11-16T06:13:33+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-11-16T02:12:55+00:00",
+      "last_updated_at": "2026-11-16T06:13:33+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-11-16T02:12:56+00:00",
+      "last_updated_at": "2026-11-16T06:13:33+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-11-16T02:12:58+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-11-16T02:12:58+00:00",
-      "status": "live"
+      "last_updated_at": null,
+      "status": "timed_out"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "videos",
+      "reason": "last_check_too_old"
+    }
+  ],
   "top_stories": [
+    {
+      "title": "Five Teams Interested In A.J. Minter",
+      "url": "https://www.mlbtraderumors.com/2026/11/five-teams-interested-in-a-j-minter.html",
+      "source": "MLB Trade Rumors",
+      "published_at": "2026-11-16T03:44:40+00:00",
+      "why_it_matters": {
+        "text": "According to MLB Network's Jon Morosi, five teams—the Royals, Rangers, Phillies, Nationals, and Blue Jays—are interested in veteran left-hander A.J. Minter. Minter is a free agent following the expiration of his two-year, $22MM contract with the Mets.",
+        "ai_generated": true
+      },
+      "image_url": "https://cdn.mlbtraderumors.com/files/2026/11/AJMinter-Twins-1024x683.jpg"
+    },
     {
       "title": "Arizona Fall League Wraps Up!",
       "url": "https://nats.talkdcsports.com/2026/11/15/arizona-fall-league-wraps-up/",
@@ -76,7 +92,7 @@
       "source": "Federal Baseball",
       "published_at": "2026-11-15T02:22:48+00:00",
       "why_it_matters": {
-        "text": "Nationals pitching prospect Jarlin Susana has earned AFL Pitcher of the Year honors. After entering the 2026 Arizona Fall League season healthy, the right-handed pitcher utilized his high fastball velocity during his performances.",
+        "text": "Nationals pitching prospect Jarlin Susana has earned AFL Pitcher of the Year honors. After maintaining his health heading into the 2026 Arizona Fall League season, the right-handed pitcher utilized his high fastball velocity during his performances.",
         "ai_generated": true
       },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2301182481.jpg?quality=90&strip=all&crop=15.039999389648%2C6.4128691243031%2C84.960000610352%2C66.724179229307&w=1200"
@@ -87,7 +103,7 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-11-14T20:33:38+00:00",
       "why_it_matters": {
-        "text": "The Braves signed Evan Phillips to bolster their bullpen. Despite this addition, both Atlanta and Detroit remain interested in veteran closer Raisel Iglesias, following similar moves by the Tigers to add reliever Emilio Pagan.",
+        "text": "The Braves signed Evan Phillips to bolster their bullpen. Despite this, both Atlanta and Detroit remain interested in veteran closer Raisel Iglesias, following recent moves by the Tigers to add Emilio Pagan.",
         "ai_generated": true
       },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/04/raisel-iglesias-braves-closer-1024x685.jpg"
@@ -109,7 +125,7 @@
       "source": "Talk Nats",
       "published_at": "2026-11-14T07:00:00+00:00",
       "why_it_matters": {
-        "text": "A discussion regarding the debate over Major League Baseball award voting, including the Gold Glove, Silver Slugger, and Manager of the Year. The text notes frequent fan complaints regarding the ballot process conducted by members of the Baseball Writers' Association.",
+        "text": "A discussion regarding the debate over Major League Baseball award voting, including the Gold Glove, Silver Slugger, and Manager of the Year. The text notes frequent fan complaints concerning how members of the Baseball Writers' group cast their ballots.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/11/max-scherzer-cy-young-6af7371cbee39.png?fit=1200%2C864&ssl=1"
@@ -119,10 +135,6 @@
       "url": "https://www.mlbtraderumors.com/2026/11/nationals-release-kyle-nicolas.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-11-14T02:33:57+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals have released reliever Kyle Nicolas. Nicolas, a right-handed pitcher acquired from the Orioles in July, was designated for assignment last week following the acquisition of Reiver Sanmartin and never appeared in a major league game for the Nationals.",
-        "ai_generated": true
-      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/03/USATSI_27178909-1024x683.jpg"
     },
     {
@@ -131,13 +143,6 @@
       "source": "Federal Baseball",
       "published_at": "2026-11-13T16:08:32+00:00",
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2298974037.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "2027 Draft Lottery Odds",
-      "url": "https://nats.talkdcsports.com/2026/11/13/2027-draft-lottery-odds/",
-      "source": "Talk Nats",
-      "published_at": "2026-11-13T05:56:00+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/11/mlb-draft-lottery-2027-6af5fee100fef.png?fit=1200%2C652&ssl=1"
     }
   ],
   "team_pulse": {
@@ -146,7 +151,7 @@
       "text": ""
     },
     "storyline": {
-      "text": "The Arizona Fall League has concluded. The league, often described as a hitter's league, has historically served as a development ground for top prospects, such as the 2011 Scottsdale Scorpions team featuring Bryce Harper.",
+      "text": "According to MLB Network's Jon Morosi, five teams—the Royals, Rangers, Phillies, Nationals, and Blue Jays—are interested in veteran left-hander A.J. Minter. Minter is a free agent following the expiration of his two-year, $22MM contract with the Mets.",
       "ai_generated": true
     }
   },
@@ -192,11 +197,17 @@
         ]
       },
       {
-        "label": "Bullpen Concerns",
+        "label": "Bullpen Strategy",
         "sentiment": "negative",
         "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/95056/does-it-make-sense-washington-nationals-avoid-giving-relievers-multi-year-deals",
-          "https://www.mlbtraderumors.com/2026/11/nationals-release-kyle-nicolas.html"
+          "https://www.federalbaseball.com/washington-nationals-analysis/95056/does-it-make-sense-washington-nationals-avoid-giving-relievers-multi-year-deals"
+        ]
+      },
+      {
+        "label": "Trade Interest",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://www.mlbtraderumors.com/2026/11/five-teams-interested-in-a-j-minter.html"
         ]
       }
     ]
@@ -209,6 +220,22 @@
       "source_urls": [
         "https://nats.talkdcsports.com/2026/11/15/arizona-fall-league-wraps-up/",
         "https://www.federalbaseball.com/washington-nationals-prospects/95062/jarlin-susana-continues-to-shine-with-afl-pitcher-of-the-year-honors"
+      ]
+    },
+    {
+      "label": "A.J. Minter",
+      "sentiment": "",
+      "context": "Five Teams Interested In A.J. Minter",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/11/five-teams-interested-in-a-j-minter.html"
+      ]
+    },
+    {
+      "label": "free agency",
+      "sentiment": "",
+      "context": "Five Teams Interested In A.J. Minter",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/11/five-teams-interested-in-a-j-minter.html"
       ]
     },
     {
@@ -228,14 +255,6 @@
       ]
     },
     {
-      "label": "AFL",
-      "sentiment": "",
-      "context": "Jarlin Susana continues to shine with AFL Pitcher of the Year honors",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-prospects/95062/jarlin-susana-continues-to-shine-with-afl-pitcher-of-the-year-honors"
-      ]
-    },
-    {
       "label": "pitching",
       "sentiment": "",
       "context": "Jarlin Susana continues to shine with AFL Pitcher of the Year honors",
@@ -244,23 +263,15 @@
       ]
     },
     {
+      "label": "AFL Pitcher of the Year",
+      "sentiment": "",
+      "context": "Jarlin Susana continues to shine with AFL Pitcher of the Year honors",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-prospects/95062/jarlin-susana-continues-to-shine-with-afl-pitcher-of-the-year-honors"
+      ]
+    },
+    {
       "label": "Braves",
-      "sentiment": "",
-      "context": "NL East Notes: Braves, Iglesias, Nationals, Thompson, Marlins",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/11/nl-east-notes-braves-iglesias-nationals-thompson-marlins.html"
-      ]
-    },
-    {
-      "label": "Tigers",
-      "sentiment": "",
-      "context": "NL East Notes: Braves, Iglesias, Nationals, Thompson, Marlins",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/11/nl-east-notes-braves-iglesias-nationals-thompson-marlins.html"
-      ]
-    },
-    {
-      "label": "trades",
       "sentiment": "",
       "context": "NL East Notes: Braves, Iglesias, Nationals, Thompson, Marlins",
       "source_urls": [
