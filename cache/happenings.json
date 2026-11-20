@@ -1,89 +1,91 @@
 {
   "data_version": 1,
-  "generated_at": "2026-11-20T19:02:51+00:00",
-  "mode": "rss_fallback",
+  "generated_at": "2026-11-20T21:14:15+00:00",
+  "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-11-20T19:01:39+00:00",
-    "videos": "2026-11-20T19:01:39+00:00",
-    "vibes": null
+    "news": "2026-11-20T21:11:31+00:00",
+    "videos": "2026-11-20T21:11:31+00:00",
+    "vibes": "2026-11-20T21:14:15+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-11-20T19:01:25+00:00",
+      "last_updated_at": "2026-11-20T21:11:24+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-11-20T19:01:27+00:00",
+      "last_updated_at": "2026-11-20T21:11:26+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-11-20T19:01:35+00:00",
+      "last_updated_at": "2026-11-20T21:11:26+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-11-20T19:01:36+00:00",
+      "last_updated_at": "2026-11-20T21:11:28+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-11-20T19:01:37+00:00",
+      "last_updated_at": "2026-11-20T21:11:29+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-11-20T19:01:38+00:00",
+      "last_updated_at": "2026-11-20T21:11:30+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-11-20T19:01:38+00:00",
+      "last_updated_at": "2026-11-20T21:11:30+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-11-20T19:01:39+00:00",
+      "last_updated_at": "2026-11-20T21:11:31+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "why_it_matters",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "trending",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
+      "title": "Nationals Sign Omar Cruz To Minor League Deal",
+      "url": "https://www.mlbtraderumors.com/2026/11/nationals-sign-omar-cruz-to-minor-league-deal.html",
+      "source": "MLB Trade Rumors",
+      "published_at": "2026-11-20T19:08:33+00:00",
+      "image_url": "https://cdn.mlbtraderumors.com/files/2026/11/Omar_Cruz_Padres-1024x683.jpg"
+    },
+    {
       "title": "The Washington Nationals will have a competition for the backup catcher spot",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/95117/washington-nationals-have-competition-backup-catcher-spot",
-      "source": "Federal Baseball",
-      "published_at": "2026-11-20T14:33:07+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2297800627.jpg?quality=90&strip=all&crop=0%2C10.740798624678%2C100%2C78.518402750645&w=1200"
+      "url": "https://sports.yahoo.com/articles/washington-nationals-competition-backup-catcher-143500942.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-11-20T14:35:00+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals are expected to hold an open competition to determine who will fill the backup catcher position, despite Harry Ford's pedigree.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/lo/mysterio/api/757adea6797e28667ce0f78b1f5bd45202a85468747088b6312f3f62aba1e414/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F5540549c9c622f3abb587e0a001bbea4.jpg"
     },
     {
       "title": "Non-Tender/Tender Decisions",
       "url": "https://nats.talkdcsports.com/2026/11/20/non-tender-tender-decisions/",
       "source": "Talk Nats",
       "published_at": "2026-11-20T08:41:00+00:00",
+      "why_it_matters": {
+        "text": "Baseball teams are currently making decisions regarding whether to tender arbitration-eligible players. The Washington Nationals began the offseason with eight eligible players and have three decisions remaining, following the departure of four players.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/11/josiah-gray-6aff5f21b31df.png?fit=919%2C1152&ssl=1"
     },
     {
@@ -91,6 +93,10 @@
       "url": "https://www.cbssports.com/mlb/news/mlb-rumors-mets-kaima-taira-cubs-mariners-nationals-white-sox/",
       "source": "CBS Sports MLB",
       "published_at": "2026-11-19T21:06:40+00:00",
+      "why_it_matters": {
+        "text": "The latest MLB offseason news and rumors include the Mets planning to meet with an NPB star, alongside updates regarding Ketel Marte, the Cubs, Mariners, and Nationals.",
+        "ai_generated": true
+      },
       "image_url": "https://sportshub.cbsistatic.com/i/r/2026/11/19/8d5718a6-4505-4845-afa3-5b139a05f5fe/thumbnail/1200x675/719f492466453a9d0877f1ad9fd7303f/marte-getty.png"
     },
     {
@@ -98,14 +104,11 @@
       "url": "https://www.mlbtraderumors.com/2026/11/astros-to-hire-bobby-wilson-as-bench-coach.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-11-19T19:29:02+00:00",
+      "why_it_matters": {
+        "text": "The Astros plan to hire Bobby Wilson as bench coach to work under new manager Brad Ausmus. Wilson previously served as the Nationals' catching coordinator and played in the major leagues as a catcher.",
+        "ai_generated": true
+      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/11/Bobby_Wilson_Nationals-scaled-e1795115070761-1024x624.jpg"
-    },
-    {
-      "title": "Washington Nationals lose a key member of their coaching staff",
-      "url": "https://www.federalbaseball.com/washington-nationals-news/95109/washington-nationals-lose-key-member-of-coaching-staff",
-      "source": "Federal Baseball",
-      "published_at": "2026-11-19T18:59:52+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-1621110581.jpg?quality=90&strip=all&crop=0%2C10.735324540867%2C100%2C78.529350918266&w=1200"
     },
     {
       "title": "Nationals Prefer Short-Term Deals In Search For Rotation Help",
@@ -115,18 +118,18 @@
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/11/brady-singer-1024x683.jpg"
     },
     {
-      "title": "The Washington Nationals seem unlikely to spend big yet again",
-      "url": "https://www.federalbaseball.com/washington-nationals-analysis/95103/washington-nationals-unlikely-spend-big-again",
-      "source": "Federal Baseball",
-      "published_at": "2026-11-19T15:26:24+00:00",
-      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2295940076.jpg?quality=90&strip=all&crop=0%2C10.751406538423%2C100%2C78.497186923153&w=1200"
-    },
-    {
       "title": "Baseball’s Elite Lab is Not Run by Nerds",
       "url": "https://nats.talkdcsports.com/2026/11/19/baseballs-hitting-labs-are-not-all-run-by-nerds/",
       "source": "Talk Nats",
       "published_at": "2026-11-19T05:28:00+00:00",
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/11/babip-1-6aff0675870c4.png?fit=1200%2C660&ssl=1"
+    },
+    {
+      "title": "Talented Washington Nationals prospect Gavin Fien will look to bounce back from a down season",
+      "url": "https://www.federalbaseball.com/washington-nationals-prospects/95099/washington-nationals-prospect-gavin-fien-look-bounce-back-down-season",
+      "source": "Federal Baseball",
+      "published_at": "2026-11-18T20:40:52+00:00",
+      "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/06/gettyimages-2268581138.jpg?quality=90&strip=all&crop=0%2C10.736959089803%2C100%2C78.526081820393&w=1200"
     }
   ],
   "team_pulse": {
@@ -159,11 +162,95 @@
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "mixed",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "Roster Management",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/11/20/non-tender-tender-decisions/",
+          "https://sports.yahoo.com/articles/washington-nationals-competition-backup-catcher-143500942.html",
+          "https://www.mlbtraderumors.com/2026/11/nationals-rumors-kris-bubic-brady-singer-kona-takahashi.html",
+          "https://www.mlbtraderumors.com/2026/11/nationals-sign-omar-cruz-to-minor-league-deal.html"
+        ]
+      },
+      {
+        "label": "Offseason Rumors",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.cbssports.com/mlb/news/mlb-rumors-mets-kaima-taira-cubs-mariners-nationals-white-sox/"
+        ]
+      }
+    ]
   },
-  "trending": [],
+  "trending": [
+    {
+      "label": "offseason",
+      "sentiment": "",
+      "context": "Non-Tender/Tender Decisions",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/11/20/non-tender-tender-decisions/",
+        "https://www.cbssports.com/mlb/news/mlb-rumors-mets-kaima-taira-cubs-mariners-nationals-white-sox/"
+      ]
+    },
+    {
+      "label": "catcher",
+      "sentiment": "",
+      "context": "The Washington Nationals will have a competition for the backup catcher spot",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/washington-nationals-competition-backup-catcher-143500942.html"
+      ]
+    },
+    {
+      "label": "arbitration",
+      "sentiment": "",
+      "context": "Non-Tender/Tender Decisions",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/11/20/non-tender-tender-decisions/"
+      ]
+    },
+    {
+      "label": "Mets",
+      "sentiment": "",
+      "context": "MLB rumors: Mets to meet with NPB star, plus latest on Ketel Marte, Cubs, Mariners, Nationals, more",
+      "source_urls": [
+        "https://www.cbssports.com/mlb/news/mlb-rumors-mets-kaima-taira-cubs-mariners-nationals-white-sox/"
+      ]
+    },
+    {
+      "label": "rumors",
+      "sentiment": "",
+      "context": "MLB rumors: Mets to meet with NPB star, plus latest on Ketel Marte, Cubs, Mariners, Nationals, more",
+      "source_urls": [
+        "https://www.cbssports.com/mlb/news/mlb-rumors-mets-kaima-taira-cubs-mariners-nationals-white-sox/"
+      ]
+    },
+    {
+      "label": "Astros",
+      "sentiment": "",
+      "context": "Astros To Hire Bobby Wilson As Bench Coach",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/11/astros-to-hire-bobby-wilson-as-bench-coach.html"
+      ]
+    },
+    {
+      "label": "Bobby Wilson",
+      "sentiment": "",
+      "context": "Astros To Hire Bobby Wilson As Bench Coach",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/11/astros-to-hire-bobby-wilson-as-bench-coach.html"
+      ]
+    },
+    {
+      "label": "Brad Ausmus",
+      "sentiment": "",
+      "context": "Astros To Hire Bobby Wilson As Bench Coach",
+      "source_urls": [
+        "https://www.mlbtraderumors.com/2026/11/astros-to-hire-bobby-wilson-as-bench-coach.html"
+      ]
+    }
+  ],
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
