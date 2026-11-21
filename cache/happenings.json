@@ -1,64 +1,80 @@
 {
   "data_version": 1,
-  "generated_at": "2026-11-21T17:24:22+00:00",
+  "generated_at": "2026-11-21T21:26:50+00:00",
   "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-11-21T17:23:22+00:00",
-    "videos": "2026-11-21T17:23:22+00:00",
-    "vibes": "2026-11-21T17:24:22+00:00"
+    "news": "2026-11-21T21:24:30+00:00",
+    "videos": "2026-11-21T21:24:30+00:00",
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-11-21T17:23:19+00:00",
+      "last_updated_at": "2026-11-21T21:24:27+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-11-21T17:23:20+00:00",
+      "last_updated_at": "2026-11-21T21:24:28+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-11-21T17:23:20+00:00",
+      "last_updated_at": "2026-11-21T21:24:28+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-11-21T17:23:21+00:00",
+      "last_updated_at": "2026-11-21T21:24:29+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-11-21T17:23:21+00:00",
+      "last_updated_at": "2026-11-21T21:24:29+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-11-21T17:23:22+00:00",
+      "last_updated_at": "2026-11-21T21:24:29+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-11-21T17:23:22+00:00",
+      "last_updated_at": "2026-11-21T21:24:30+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-11-21T17:23:22+00:00",
+      "last_updated_at": "2026-11-21T21:24:30+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
+    }
+  ],
   "top_stories": [
+    {
+      "title": "Former Rookie of the Year Luis Gil and 2023 All-Star Josiah Gray among 44 non-tender free agents",
+      "url": "https://sports.yahoo.com/articles/former-rookie-luis-gil-2023-183525913.html",
+      "source": "Yahoo Sports MLB",
+      "published_at": "2026-11-21T18:35:25+00:00",
+      "why_it_matters": {
+        "text": "The New York Yankees have declined to offer a 2027 contract to former AL Rookie of the Year Luis Gil. Gil is among 44 players who became non-tender free agents after teams declined to offer contracts by the deadline, a group that also includes 2023 All-Star Josiah Gray.",
+        "ai_generated": true
+      },
+      "image_url": "https://s.yimg.com/lo/mysterio/api/cb3214f994f37aaeedcbb9ee71eb2f147a1908ac11764350d5a123e070e68abf/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2F875bb7f162441cb7ac484d5c61082706.jpg"
+    },
     {
       "title": "Three non-tendered players the Washington Nationals should consider signing",
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/95123/three-non-tendered-players-washington-nationals-consider-signing",
@@ -76,7 +92,7 @@
       "source": "Talk Nats",
       "published_at": "2026-11-21T15:24:39+00:00",
       "why_it_matters": {
-        "text": "Major League Baseball faces an inevitable lockout on December 2nd. With less than 11 days of work remaining for teams, the Washington Nationals currently have a 39-player roster and have not yet made significant moves.",
+        "text": "With a potential Major League Baseball lockout approaching on December 2nd, teams have less than 11 days to make progress. The Washington Nationals currently have a 39-player roster and have not yet made significant moves.",
         "ai_generated": true
       },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/11/nats-centerfield-gates-3-16-2021-6b01ab13d707b-edited.png?fit=1200%2C673&ssl=1"
@@ -109,7 +125,7 @@
       "source": "MLB Trade Rumors",
       "published_at": "2026-11-20T22:17:08+00:00",
       "why_it_matters": {
-        "text": "Major League Baseball clubs had a deadline to decide whether to tender contracts to players without guaranteed deals for the 2027 season. This process allows teams to send players directly to free agency without waivers.",
+        "text": "MLB clubs had a deadline to decide whether to tender contracts to players without guaranteed deals for the 2027 season. This process allows teams to send players directly to free agency without waivers.",
         "ai_generated": true
       },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/11/Nolan_Gorman_Cardinals-copy-1024x676.jpg"
@@ -119,10 +135,6 @@
       "url": "https://www.mlbtraderumors.com/2026/11/nationals-sign-omar-cruz-to-minor-league-deal.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-11-20T19:08:33+00:00",
-      "why_it_matters": {
-        "text": "The Nationals have signed left-hander Omar Cruz to a minor league deal. Cruz, who is 28, will also receive an invite to major league spring training camp following limited appearances with the Padres in 2025.",
-        "ai_generated": true
-      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/11/Omar_Cruz_Padres-1024x683.jpg"
     },
     {
@@ -131,13 +143,6 @@
       "source": "Federal Baseball",
       "published_at": "2026-11-20T14:33:07+00:00",
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2297800627.jpg?quality=90&strip=all&crop=0%2C10.740798624678%2C100%2C78.518402750645&w=1200"
-    },
-    {
-      "title": "Non-Tender/Tender Decisions",
-      "url": "https://nats.talkdcsports.com/2026/11/20/non-tender-tender-decisions/",
-      "source": "Talk Nats",
-      "published_at": "2026-11-20T08:41:00+00:00",
-      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/11/josiah-gray-6aff5f21b31df.png?fit=919%2C1152&ssl=1"
     }
   ],
   "team_pulse": {
@@ -146,7 +151,7 @@
       "text": ""
     },
     "storyline": {
-      "text": "Following the non-tender deadline, the Washington Nationals have decided not to offer contracts to Josiah Gray, Carson Palmquist, and Jared Simpson. Conversely, the team chose to tender contracts to Jake Irvin and Jake Bird.",
+      "text": "The New York Yankees have declined to offer a 2027 contract to former AL Rookie of the Year Luis Gil. Gil is among 44 players who became non-tender free agents after teams declined to offer contracts by the deadline, a group that also includes 2023 All-Star Josiah Gray.",
       "ai_generated": true
     }
   },
@@ -174,29 +179,44 @@
     }
   ],
   "fan_vibes": {
-    "overall": "mixed",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "Roster Management",
-        "sentiment": "mixed",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/11/21/day-by-day-the-countdown-to-december-2%e2%81%bf%e1%b5%88/",
-          "https://www.federalbaseball.com/washington-nationals-analysis/95123/three-non-tendered-players-washington-nationals-consider-signing",
-          "https://www.mlbtraderumors.com/2026/11/nationals-sign-omar-cruz-to-minor-league-deal.html"
-        ]
-      },
-      {
-        "label": "Player Departures",
-        "sentiment": "negative",
-        "source_urls": [
-          "https://www.mlbtraderumors.com/2026/11/mets-claim-gus-varland.html",
-          "https://www.mlbtraderumors.com/2026/11/nationals-trade-braxton-roxby-to-cubs.html"
-        ]
-      }
-    ]
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
   },
   "trending": [
+    {
+      "label": "free agency",
+      "sentiment": "",
+      "context": "Former Rookie of the Year Luis Gil and 2023 All-Star Josiah Gray among 44 non-tender free agents",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/former-rookie-luis-gil-2023-183525913.html",
+        "https://www.mlbtraderumors.com/2026/11/2026-non-tenders-national-league.html"
+      ]
+    },
+    {
+      "label": "New York Yankees",
+      "sentiment": "",
+      "context": "Former Rookie of the Year Luis Gil and 2023 All-Star Josiah Gray among 44 non-tender free agents",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/former-rookie-luis-gil-2023-183525913.html"
+      ]
+    },
+    {
+      "label": "Luis Gil",
+      "sentiment": "",
+      "context": "Former Rookie of the Year Luis Gil and 2023 All-Star Josiah Gray among 44 non-tender free agents",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/former-rookie-luis-gil-2023-183525913.html"
+      ]
+    },
+    {
+      "label": "Josiah Gray",
+      "sentiment": "",
+      "context": "Former Rookie of the Year Luis Gil and 2023 All-Star Josiah Gray among 44 non-tender free agents",
+      "source_urls": [
+        "https://sports.yahoo.com/articles/former-rookie-luis-gil-2023-183525913.html"
+      ]
+    },
     {
       "label": "non-tender",
       "sentiment": "",
@@ -228,38 +248,6 @@
       "context": "Nationals Trade Braxton Roxby To Cubs",
       "source_urls": [
         "https://www.mlbtraderumors.com/2026/11/nationals-trade-braxton-roxby-to-cubs.html"
-      ]
-    },
-    {
-      "label": "Chicago Cubs",
-      "sentiment": "",
-      "context": "Nationals Trade Braxton Roxby To Cubs",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/11/nationals-trade-braxton-roxby-to-cubs.html"
-      ]
-    },
-    {
-      "label": "Braxton Roxby",
-      "sentiment": "",
-      "context": "Nationals Trade Braxton Roxby To Cubs",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/11/nationals-trade-braxton-roxby-to-cubs.html"
-      ]
-    },
-    {
-      "label": "Mets",
-      "sentiment": "",
-      "context": "Mets Claim Gus Varland",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/11/mets-claim-gus-varland.html"
-      ]
-    },
-    {
-      "label": "Gus Varland",
-      "sentiment": "",
-      "context": "Mets Claim Gus Varland",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/11/mets-claim-gus-varland.html"
       ]
     }
   ],
