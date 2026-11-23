@@ -1,73 +1,82 @@
 {
   "data_version": 1,
-  "generated_at": "2026-11-23T04:36:36+00:00",
-  "mode": "falkor_enriched",
+  "generated_at": "2026-11-23T04:59:40+00:00",
+  "mode": "rss_fallback",
   "freshness": {
-    "news": "2026-11-23T04:33:51+00:00",
-    "videos": "2026-11-23T04:33:51+00:00",
-    "vibes": "2026-11-23T04:36:36+00:00"
+    "news": "2026-11-23T04:59:38+00:00",
+    "videos": "2026-11-23T04:59:38+00:00",
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-11-23T04:33:48+00:00",
+      "last_updated_at": "2026-11-23T04:59:33+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-11-23T04:33:49+00:00",
+      "last_updated_at": "2026-11-23T04:59:34+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-11-23T04:33:49+00:00",
+      "last_updated_at": "2026-11-23T04:59:35+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-11-23T04:33:50+00:00",
+      "last_updated_at": "2026-11-23T04:59:35+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-11-23T04:33:50+00:00",
+      "last_updated_at": "2026-11-23T04:59:35+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-11-23T04:33:51+00:00",
+      "last_updated_at": "2026-11-23T04:59:37+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-11-23T04:33:51+00:00",
+      "last_updated_at": "2026-11-23T04:59:38+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-11-23T04:33:51+00:00",
+      "last_updated_at": "2026-11-23T04:59:38+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "why_it_matters",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "trending",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
+    }
+  ],
   "top_stories": [
     {
       "title": "The Washington Nationals Want A $380 Million Makeover for Nats Park",
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/95131/nationals-want-a-380-million-makeover-for-nats-park",
       "source": "Federal Baseball",
       "published_at": "2026-11-22T19:08:16+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals are requesting $380 million in financing from D.C. to renovate Nationals Park, which has been in use for over 18 years.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gxlruajjm6bdln26ywb0.png?quality=90&strip=all&crop=0%2C3.4987553335327%2C100%2C93.002489332935&w=1200"
     },
     {
@@ -82,10 +91,6 @@
       "url": "https://www.mlbtraderumors.com/2026/11/red-sox-had-interest-in-corey-seager-cj-abrams-at-trade-deadline.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-11-21T21:53:53+00:00",
-      "why_it_matters": {
-        "text": "Reports indicate the Red Sox showed interest in high-profile shortstops Corey Seager and CJ Abrams during the last trade deadline. The team was also previously linked to Elly De La Cruz, Zach Neto, and Otto Lopez.",
-        "ai_generated": true
-      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/07/corey-seager-texas-rangers-1024x683.jpg"
     },
     {
@@ -128,10 +133,6 @@
     "result_banner": {
       "type": "none",
       "text": ""
-    },
-    "storyline": {
-      "text": "The Washington Nationals are requesting $380 million in financing from D.C. to renovate Nationals Park, which has been in use for over 18 years.",
-      "ai_generated": true
     }
   },
   "videos": [
@@ -158,94 +159,11 @@
     }
   ],
   "fan_vibes": {
-    "overall": "mixed",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "Stadium Renovation Request",
-        "sentiment": "mixed",
-        "source_urls": [
-          "https://www.federalbaseball.com/washington-nationals-analysis/95131/nationals-want-a-380-million-makeover-for-nats-park"
-        ]
-      },
-      {
-        "label": "Roster and Trade Activity",
-        "sentiment": "mixed",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/11/22/free-agency-a-slow-start/",
-          "https://www.federalbaseball.com/washington-nationals-analysis/95123/three-non-tendered-players-washington-nationals-consider-signing",
-          "https://www.mlbtraderumors.com/2026/11/nationals-trade-braxton-roxby-to-cubs.html",
-          "https://www.mlbtraderumors.com/2026/11/red-sox-had-interest-in-corey-seager-cj-abrams-at-trade-deadline.html"
-        ]
-      }
-    ]
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
   },
-  "trending": [
-    {
-      "label": "Nationals Park",
-      "sentiment": "",
-      "context": "The Washington Nationals Want A $380 Million Makeover for Nats Park",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/95131/nationals-want-a-380-million-makeover-for-nats-park"
-      ]
-    },
-    {
-      "label": "stadium renovation",
-      "sentiment": "",
-      "context": "The Washington Nationals Want A $380 Million Makeover for Nats Park",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/95131/nationals-want-a-380-million-makeover-for-nats-park"
-      ]
-    },
-    {
-      "label": "financing",
-      "sentiment": "",
-      "context": "The Washington Nationals Want A $380 Million Makeover for Nats Park",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/95131/nationals-want-a-380-million-makeover-for-nats-park"
-      ]
-    },
-    {
-      "label": "Red Sox",
-      "sentiment": "",
-      "context": "Red Sox Had Interest In Corey Seager, CJ Abrams At Trade Deadline",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/11/red-sox-had-interest-in-corey-seager-cj-abrams-at-trade-deadline.html"
-      ]
-    },
-    {
-      "label": "trade deadline",
-      "sentiment": "",
-      "context": "Red Sox Had Interest In Corey Seager, CJ Abrams At Trade Deadline",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/11/red-sox-had-interest-in-corey-seager-cj-abrams-at-trade-deadline.html"
-      ]
-    },
-    {
-      "label": "shortstops",
-      "sentiment": "",
-      "context": "Red Sox Had Interest In Corey Seager, CJ Abrams At Trade Deadline",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/11/red-sox-had-interest-in-corey-seager-cj-abrams-at-trade-deadline.html"
-      ]
-    },
-    {
-      "label": "Corey Seager",
-      "sentiment": "",
-      "context": "Red Sox Had Interest In Corey Seager, CJ Abrams At Trade Deadline",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/11/red-sox-had-interest-in-corey-seager-cj-abrams-at-trade-deadline.html"
-      ]
-    },
-    {
-      "label": "CJ Abrams",
-      "sentiment": "",
-      "context": "Red Sox Had Interest In Corey Seager, CJ Abrams At Trade Deadline",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/11/red-sox-had-interest-in-corey-seager-cj-abrams-at-trade-deadline.html"
-      ]
-    }
-  ],
+  "trending": [],
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
