@@ -1,73 +1,89 @@
 {
   "data_version": 1,
-  "generated_at": "2026-11-24T22:19:35+00:00",
-  "mode": "falkor_enriched",
+  "generated_at": "2026-11-25T02:19:48+00:00",
+  "mode": "rss_fallback",
   "freshness": {
-    "news": "2026-11-24T22:17:52+00:00",
-    "videos": "2026-11-24T22:17:52+00:00",
-    "vibes": "2026-11-24T22:19:35+00:00"
+    "news": "2026-11-25T02:19:45+00:00",
+    "videos": "2026-11-25T02:19:45+00:00",
+    "vibes": null
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-11-24T22:17:49+00:00",
+      "last_updated_at": "2026-11-25T02:19:41+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-11-24T22:17:50+00:00",
+      "last_updated_at": "2026-11-25T02:19:42+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-11-24T22:17:50+00:00",
+      "last_updated_at": "2026-11-25T02:19:43+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": "2026-11-24T22:17:50+00:00",
+      "last_updated_at": "2026-11-25T02:19:43+00:00",
       "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-11-24T22:17:51+00:00",
+      "last_updated_at": "2026-11-25T02:19:43+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-11-24T22:17:52+00:00",
+      "last_updated_at": "2026-11-25T02:19:44+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-11-24T22:17:52+00:00",
+      "last_updated_at": "2026-11-25T02:19:44+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-11-24T22:17:52+00:00",
+      "last_updated_at": "2026-11-25T02:19:45+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [],
+  "limited_sources": [
+    {
+      "id": "why_it_matters",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "trending",
+      "reason": "ai_enrichment_unavailable"
+    },
+    {
+      "id": "fan_vibes",
+      "reason": "ai_sentiment_unavailable"
+    }
+  ],
   "top_stories": [
+    {
+      "title": "All That Jazz Rumors to the Nats!",
+      "url": "https://nats.talkdcsports.com/2026/11/24/the-rumors-on-jazz-chisholm-to-the-nats/",
+      "source": "Talk Nats",
+      "published_at": "2026-11-25T01:17:23+00:00",
+      "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/11/jazz-chisholm-batting-during-a-baseball-game-6b0625a1520cf.png?fit=1024%2C1024&ssl=1"
+    },
     {
       "title": "Nationals Among Teams Interested In Jazz Chisholm Jr.",
       "url": "https://www.mlbtraderumors.com/2026/11/nationals-rumors-jazz-chisholm-free-agent.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-11-24T20:39:13+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals are reportedly among the teams interested in free agent infielder Jazz Chisholm Jr., according to Robert Murray of FanSided. There is currently no indication that a deal is close, and the market for hitters has moved slower than the market for pitchers recently.",
-        "ai_generated": true
-      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/11/jazz-chisholm-jr-1024x683.jpg"
     },
     {
@@ -75,10 +91,6 @@
       "url": "https://www.federalbaseball.com/nationals-trade-rumors/95158/washington-nationals-interested-big-name-infielder-jazz-chisholm",
       "source": "Federal Baseball",
       "published_at": "2026-11-24T20:21:29+00:00",
-      "why_it_matters": {
-        "text": "Reports indicate the Washington Nationals are among several teams interested in second baseman Jazz Chisholm Jr., a former Yankee. This interest comes as a surprise given the team's primary need is pitching.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2298221221.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -86,10 +98,6 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/95150/what-washington-nationals-do-in-fast-moving-starting-pitcher-market",
       "source": "Federal Baseball",
       "published_at": "2026-11-24T16:26:05+00:00",
-      "why_it_matters": {
-        "text": "The free agent starting pitching market is moving rapidly following Tarik Skubal's signing with the Mets. Recent signings include Trevor Rogers, Kris Bubic, and Freddy Peralta, leading to speculation regarding the Washington Nationals' upcoming moves.",
-        "ai_generated": true
-      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2299388722.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -97,10 +105,6 @@
       "url": "https://nats.talkdcsports.com/2026/11/24/tolman-exemplified-the-meaning-of-what-tony-conigliaro-was-all-about/",
       "source": "Talk Nats",
       "published_at": "2026-11-24T05:36:00+00:00",
-      "why_it_matters": {
-        "text": "Nationals relief pitcher Erik Tolman received the Tony Conigliaro Award on Monday. The honor recognizes his determination and courage in overcoming adversity and injuries during his journey to making his MLB debut this season.",
-        "ai_generated": true
-      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/09/Erik-Tolman-9-11-2026-Sol-Tucker-a.jpg?fit=1200%2C823&ssl=1"
     },
     {
@@ -108,10 +112,6 @@
       "url": "https://www.mlbtraderumors.com/2026/11/nationals-to-sign-luis-curvelo-to-minor-league-deal.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-11-23T23:33:49+00:00",
-      "why_it_matters": {
-        "text": "The Washington Nationals have agreed to a minor league deal with right-hander Luis Curvelo. The 26-year-old, who previously pitched for the Rangers in the last two big league seasons, will receive an invite to the major league spring training camp.",
-        "ai_generated": true
-      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/08/2026-06-07T213528Z_651108936_MT1USATODAY29146995_RTRMADP_3_MLB-CLEVELAND-GUARDIANS-AT-TEXAS-RANGERS-1024x683.jpg"
     },
     {
@@ -119,10 +119,6 @@
       "url": "https://www.cbssports.com/mlb/news/predicting-mlb-next-mega-contracts-paul-skenes-junior-caminero-james-wood-elly-de-la-cruz/",
       "source": "CBS Sports MLB",
       "published_at": "2026-11-23T18:15:42+00:00",
-      "why_it_matters": {
-        "text": "Following Tarik Skubal's nine-year, $450 million contract, the discussion turns to which players, including Paul Skenes, Junior Caminero, and James Wood, are positioned to receive massive upcoming deals.",
-        "ai_generated": true
-      },
       "image_url": "https://sportshub.cbsistatic.com/i/r/2026/11/23/7e3d6595-af00-470f-a0ec-c24f11d0d8ff/thumbnail/1200x675/9cb4a197433dadba4602ec4fc4b9146c/skenes-getty.png"
     },
     {
@@ -131,23 +127,12 @@
       "source": "Federal Baseball",
       "published_at": "2026-11-23T17:50:33+00:00",
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2297102566.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
-    },
-    {
-      "title": "Nationals Sign Jared Simpson, Marc Church To Minor League Deals",
-      "url": "https://www.mlbtraderumors.com/2026/11/nationals-sign-jared-simpson-marc-church-to-minor-league-deals.html",
-      "source": "MLB Trade Rumors",
-      "published_at": "2026-11-23T17:20:39+00:00",
-      "image_url": "https://cdn.mlbtraderumors.com/files/2026/11/JaredSimpson-1024x683.jpg"
     }
   ],
   "team_pulse": {
     "result_banner": {
       "type": "none",
       "text": ""
-    },
-    "storyline": {
-      "text": "The Washington Nationals are reportedly among the teams interested in free agent infielder Jazz Chisholm Jr., according to Robert Murray of FanSided. There is currently no indication that a deal is close, and the market for hitters has moved slower than the market for pitchers recently.",
-      "ai_generated": true
     }
   },
   "videos": [
@@ -174,116 +159,17 @@
     }
   ],
   "fan_vibes": {
-    "overall": "mixed",
-    "ai_generated": true,
-    "themes": [
-      {
-        "label": "Roster Construction Speculation",
-        "sentiment": "mixed",
-        "source_urls": [
-          "https://www.federalbaseball.com/nationals-trade-rumors/95158/washington-nationals-interested-big-name-infielder-jazz-chisholm",
-          "https://www.federalbaseball.com/washington-nationals-analysis/95150/what-washington-nationals-do-in-fast-moving-starting-pitcher-market",
-          "https://www.mlbtraderumors.com/2026/11/nationals-rumors-jazz-chisholm-free-agent.html"
-        ]
-      },
-      {
-        "label": "Player Recognition",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://nats.talkdcsports.com/2026/11/24/tolman-exemplified-the-meaning-of-what-tony-conigliaro-was-all-about/"
-        ]
-      },
-      {
-        "label": "Prospect Value",
-        "sentiment": "positive",
-        "source_urls": [
-          "https://www.cbssports.com/mlb/news/predicting-mlb-next-mega-contracts-paul-skenes-junior-caminero-james-wood-elly-de-la-cruz/"
-        ]
-      },
-      {
-        "label": "Minor League Depth",
-        "sentiment": "",
-        "source_urls": [
-          "https://www.mlbtraderumors.com/2026/11/nationals-to-sign-luis-curvelo-to-minor-league-deal.html"
-        ]
-      }
-    ]
+    "overall": "",
+    "ai_generated": false,
+    "themes": []
   },
-  "trending": [
-    {
-      "label": "Jazz Chisholm Jr.",
-      "sentiment": "",
-      "context": "Nationals Among Teams Interested In Jazz Chisholm Jr.",
-      "source_urls": [
-        "https://www.federalbaseball.com/nationals-trade-rumors/95158/washington-nationals-interested-big-name-infielder-jazz-chisholm",
-        "https://www.mlbtraderumors.com/2026/11/nationals-rumors-jazz-chisholm-free-agent.html"
-      ]
-    },
-    {
-      "label": "free agents",
-      "sentiment": "",
-      "context": "Nationals Among Teams Interested In Jazz Chisholm Jr.",
-      "source_urls": [
-        "https://www.federalbaseball.com/nationals-trade-rumors/95158/washington-nationals-interested-big-name-infielder-jazz-chisholm",
-        "https://www.mlbtraderumors.com/2026/11/nationals-rumors-jazz-chisholm-free-agent.html"
-      ]
-    },
-    {
-      "label": "infielder",
-      "sentiment": "",
-      "context": "Nationals Among Teams Interested In Jazz Chisholm Jr.",
-      "source_urls": [
-        "https://www.federalbaseball.com/nationals-trade-rumors/95158/washington-nationals-interested-big-name-infielder-jazz-chisholm",
-        "https://www.mlbtraderumors.com/2026/11/nationals-rumors-jazz-chisholm-free-agent.html"
-      ]
-    },
-    {
-      "label": "free agency",
-      "sentiment": "",
-      "context": "What will the Washington Nationals do in a fast moving starting pitcher market?",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/95150/what-washington-nationals-do-in-fast-moving-starting-pitcher-market"
-      ]
-    },
-    {
-      "label": "starting pitching",
-      "sentiment": "",
-      "context": "What will the Washington Nationals do in a fast moving starting pitcher market?",
-      "source_urls": [
-        "https://www.federalbaseball.com/washington-nationals-analysis/95150/what-washington-nationals-do-in-fast-moving-starting-pitcher-market"
-      ]
-    },
-    {
-      "label": "Erik Tolman",
-      "sentiment": "",
-      "context": "Tolman Exemplified the Meaning of What Tony Conigliaro was All About!",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/11/24/tolman-exemplified-the-meaning-of-what-tony-conigliaro-was-all-about/"
-      ]
-    },
-    {
-      "label": "Tony Conigliaro Award",
-      "sentiment": "",
-      "context": "Tolman Exemplified the Meaning of What Tony Conigliaro was All About!",
-      "source_urls": [
-        "https://nats.talkdcsports.com/2026/11/24/tolman-exemplified-the-meaning-of-what-tony-conigliaro-was-all-about/"
-      ]
-    },
-    {
-      "label": "Luis Curvelo",
-      "sentiment": "",
-      "context": "Nationals To Sign Luis Curvelo To Minor League Deal",
-      "source_urls": [
-        "https://www.mlbtraderumors.com/2026/11/nationals-to-sign-luis-curvelo-to-minor-league-deal.html"
-      ]
-    }
-  ],
+  "trending": [],
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "CJ Abrams",
-    "text": "The Nationals' dynamic young shortstop, acquired in the 2022 Juan Soto trade and now a cornerstone of the rebuild.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/682928/spots/120",
+    "name": "James Wood",
+    "text": "A towering, high-ceiling outfielder who also came to Washington in the Juan Soto trade.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/695578/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
