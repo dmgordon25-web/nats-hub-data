@@ -1,82 +1,73 @@
 {
   "data_version": 1,
-  "generated_at": "2026-11-25T22:42:15+00:00",
-  "mode": "rss_fallback",
+  "generated_at": "2026-11-26T00:02:16+00:00",
+  "mode": "falkor_enriched",
   "freshness": {
-    "news": "2026-11-25T22:42:13+00:00",
-    "videos": "2026-11-25T22:42:13+00:00",
-    "vibes": null
+    "news": "2026-11-26T00:01:14+00:00",
+    "videos": "2026-11-26T00:01:14+00:00",
+    "vibes": "2026-11-26T00:02:16+00:00"
   },
   "sources": [
     {
       "id": "federal_baseball",
       "name": "Federal Baseball",
-      "last_updated_at": "2026-11-25T22:42:11+00:00",
+      "last_updated_at": "2026-11-26T00:01:10+00:00",
       "status": "live"
     },
     {
       "id": "talknats",
       "name": "Talk Nats",
-      "last_updated_at": "2026-11-25T22:42:12+00:00",
+      "last_updated_at": "2026-11-26T00:01:11+00:00",
       "status": "live"
     },
     {
       "id": "mlbtr_nationals",
       "name": "MLB Trade Rumors",
-      "last_updated_at": "2026-11-25T22:42:12+00:00",
+      "last_updated_at": "2026-11-26T00:01:12+00:00",
       "status": "live"
     },
     {
       "id": "espn_mlb",
       "name": "ESPN MLB",
-      "last_updated_at": null,
-      "status": "timed_out"
+      "last_updated_at": "2026-11-26T00:01:12+00:00",
+      "status": "live"
     },
     {
       "id": "cbs_mlb",
       "name": "CBS Sports MLB",
-      "last_updated_at": "2026-11-25T22:42:12+00:00",
+      "last_updated_at": "2026-11-26T00:01:13+00:00",
       "status": "live"
     },
     {
       "id": "yahoo_mlb",
       "name": "Yahoo Sports MLB",
-      "last_updated_at": "2026-11-25T22:42:13+00:00",
+      "last_updated_at": "2026-11-26T00:01:13+00:00",
       "status": "live"
     },
     {
       "id": "yt_nationals",
       "name": "Nationals on YouTube",
-      "last_updated_at": "2026-11-25T22:42:13+00:00",
+      "last_updated_at": "2026-11-26T00:01:14+00:00",
       "status": "live"
     },
     {
       "id": "yt_mlb",
       "name": "MLB on YouTube",
-      "last_updated_at": "2026-11-25T22:42:13+00:00",
+      "last_updated_at": "2026-11-26T00:01:14+00:00",
       "status": "live"
     }
   ],
-  "limited_sources": [
-    {
-      "id": "why_it_matters",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "trending",
-      "reason": "ai_enrichment_unavailable"
-    },
-    {
-      "id": "fan_vibes",
-      "reason": "ai_sentiment_unavailable"
-    }
-  ],
+  "limited_sources": [],
   "top_stories": [
     {
       "title": "Should the Washington Nationals reunite with Foster Griffin?",
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/95165/should-washington-nationals-reunite-foster-griffin",
       "source": "Federal Baseball",
       "published_at": "2026-11-25T15:41:21+00:00",
+      "why_it_matters": {
+        "text": "The starting pitching market in free agency is moving rapidly following Tarik Skubal's historic deal with the Mets. With several other pitchers signing recently, the Washington Nationals may need to act quickly regarding potential interest in Foster Griffin.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2289391047.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -84,6 +75,10 @@
       "url": "https://www.cbssports.com/mlb/news/mlb-rumors-mets-cubs-twins-guardians-kris-bubic/",
       "source": "CBS Sports MLB",
       "published_at": "2026-11-25T02:04:37+00:00",
+      "why_it_matters": {
+        "text": "MLB offseason rumors include Corey Seager potentially being willing to waive his No-Trade Clause to join the Phillies, along with updates regarding the Mets, Nationals, and Yankees.",
+        "ai_generated": true
+      },
       "image_url": "https://sportshub.cbsistatic.com/i/r/2026/11/24/80f1da11-7bea-420f-bb93-a7b345a3254f/thumbnail/1200x675/683eb9d8a1e32ea8bd03d1211a4f6c66/seager-getty.png"
     },
     {
@@ -91,6 +86,10 @@
       "url": "https://nats.talkdcsports.com/2026/11/24/the-rumors-on-jazz-chisholm-to-the-nats/",
       "source": "Talk Nats",
       "published_at": "2026-11-25T01:17:23+00:00",
+      "why_it_matters": {
+        "text": "During the baseball offseason, reports have emerged that the Washington Nationals are in discussions to acquire free agent Jazz Chisholm Jr.",
+        "ai_generated": true
+      },
       "image_url": "https://i0.wp.com/nats.talkdcsports.com/wp-content/uploads/2026/11/jazz-chisholm-batting-during-a-baseball-game-6b0625a1520cf.png?fit=1024%2C1024&ssl=1"
     },
     {
@@ -98,6 +97,10 @@
       "url": "https://www.mlbtraderumors.com/2026/11/nationals-rumors-jazz-chisholm-free-agent.html",
       "source": "MLB Trade Rumors",
       "published_at": "2026-11-24T20:39:13+00:00",
+      "why_it_matters": {
+        "text": "The Washington Nationals are reportedly among the teams interested in free agent infielder Jazz Chisholm Jr., according to Robert Murray of FanSided. There is currently no indication that a deal is close, and the market for hitters has moved more slowly than the market for pitchers recently.",
+        "ai_generated": true
+      },
       "image_url": "https://cdn.mlbtraderumors.com/files/2026/11/jazz-chisholm-jr-1024x683.jpg"
     },
     {
@@ -105,6 +108,10 @@
       "url": "https://www.federalbaseball.com/nationals-trade-rumors/95158/washington-nationals-interested-big-name-infielder-jazz-chisholm",
       "source": "Federal Baseball",
       "published_at": "2026-11-24T20:21:29+00:00",
+      "why_it_matters": {
+        "text": "Reports indicate the Washington Nationals are among several teams interested in second baseman Jazz Chisholm Jr., a former Yankee. This interest comes as a surprise given the team's primary need is pitching.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2298221221.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -112,6 +119,10 @@
       "url": "https://www.federalbaseball.com/washington-nationals-analysis/95150/what-washington-nationals-do-in-fast-moving-starting-pitcher-market",
       "source": "Federal Baseball",
       "published_at": "2026-11-24T16:26:05+00:00",
+      "why_it_matters": {
+        "text": "The free agent starting pitching market is moving rapidly following Tarik Skubal's signing with the Mets. Recent signings include Trevor Rogers, Kris Bubic, and Freddy Peralta, leading to questions regarding the Washington Nationals' upcoming moves in the market.",
+        "ai_generated": true
+      },
       "image_url": "https://platform.federalbaseball.com/wp-content/uploads/sites/80/2026/11/gettyimages-2299388722.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
     },
     {
@@ -133,6 +144,10 @@
     "result_banner": {
       "type": "none",
       "text": ""
+    },
+    "storyline": {
+      "text": "The starting pitching market in free agency is moving rapidly following Tarik Skubal's historic deal with the Mets. With several other pitchers signing recently, the Washington Nationals may need to act quickly regarding potential interest in Foster Griffin.",
+      "ai_generated": true
     }
   },
   "videos": [
@@ -159,17 +174,115 @@
     }
   ],
   "fan_vibes": {
-    "overall": "",
-    "ai_generated": false,
-    "themes": []
+    "overall": "mixed",
+    "ai_generated": true,
+    "themes": [
+      {
+        "label": "Jazz Chisholm Jr. interest",
+        "sentiment": "positive",
+        "source_urls": [
+          "https://nats.talkdcsports.com/2026/11/24/the-rumors-on-jazz-chisholm-to-the-nats/",
+          "https://www.federalbaseball.com/nationals-trade-rumors/95158/washington-nationals-interested-big-name-infielder-jazz-chisholm",
+          "https://www.mlbtraderumors.com/2026/11/nationals-rumors-jazz-chisholm-free-agent.html"
+        ]
+      },
+      {
+        "label": "Starting pitching market urgency",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.federalbaseball.com/washington-nationals-analysis/95150/what-washington-nationals-do-in-fast-moving-starting-pitcher-market",
+          "https://www.federalbaseball.com/washington-nationals-analysis/95165/should-washington-nationals-reunite-foster-griffin"
+        ]
+      },
+      {
+        "label": "General offseason rumors",
+        "sentiment": "mixed",
+        "source_urls": [
+          "https://www.cbssports.com/mlb/news/mlb-rumors-mets-cubs-twins-guardians-kris-bubic/"
+        ]
+      }
+    ]
   },
-  "trending": [],
+  "trending": [
+    {
+      "label": "free agency",
+      "sentiment": "",
+      "context": "Should the Washington Nationals reunite with Foster Griffin?",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/11/24/the-rumors-on-jazz-chisholm-to-the-nats/",
+        "https://www.federalbaseball.com/nationals-trade-rumors/95158/washington-nationals-interested-big-name-infielder-jazz-chisholm",
+        "https://www.federalbaseball.com/washington-nationals-analysis/95150/what-washington-nationals-do-in-fast-moving-starting-pitcher-market",
+        "https://www.federalbaseball.com/washington-nationals-analysis/95165/should-washington-nationals-reunite-foster-griffin",
+        "https://www.mlbtraderumors.com/2026/11/nationals-rumors-jazz-chisholm-free-agent.html"
+      ]
+    },
+    {
+      "label": "Jazz Chisholm Jr.",
+      "sentiment": "",
+      "context": "All That Jazz Rumors to the Nats!",
+      "source_urls": [
+        "https://nats.talkdcsports.com/2026/11/24/the-rumors-on-jazz-chisholm-to-the-nats/",
+        "https://www.federalbaseball.com/nationals-trade-rumors/95158/washington-nationals-interested-big-name-infielder-jazz-chisholm",
+        "https://www.mlbtraderumors.com/2026/11/nationals-rumors-jazz-chisholm-free-agent.html"
+      ]
+    },
+    {
+      "label": "starting pitching",
+      "sentiment": "",
+      "context": "Should the Washington Nationals reunite with Foster Griffin?",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/95150/what-washington-nationals-do-in-fast-moving-starting-pitcher-market",
+        "https://www.federalbaseball.com/washington-nationals-analysis/95165/should-washington-nationals-reunite-foster-griffin"
+      ]
+    },
+    {
+      "label": "infielder",
+      "sentiment": "",
+      "context": "Nationals Among Teams Interested In Jazz Chisholm Jr.",
+      "source_urls": [
+        "https://www.federalbaseball.com/nationals-trade-rumors/95158/washington-nationals-interested-big-name-infielder-jazz-chisholm",
+        "https://www.mlbtraderumors.com/2026/11/nationals-rumors-jazz-chisholm-free-agent.html"
+      ]
+    },
+    {
+      "label": "Foster Griffin",
+      "sentiment": "",
+      "context": "Should the Washington Nationals reunite with Foster Griffin?",
+      "source_urls": [
+        "https://www.federalbaseball.com/washington-nationals-analysis/95165/should-washington-nationals-reunite-foster-griffin"
+      ]
+    },
+    {
+      "label": "Corey Seager",
+      "sentiment": "",
+      "context": "MLB rumors: Corey Seager willing to waive his NTC for Phillies, plus news on Mets, Nationals, Yankees, more",
+      "source_urls": [
+        "https://www.cbssports.com/mlb/news/mlb-rumors-mets-cubs-twins-guardians-kris-bubic/"
+      ]
+    },
+    {
+      "label": "Phillies",
+      "sentiment": "",
+      "context": "MLB rumors: Corey Seager willing to waive his NTC for Phillies, plus news on Mets, Nationals, Yankees, more",
+      "source_urls": [
+        "https://www.cbssports.com/mlb/news/mlb-rumors-mets-cubs-twins-guardians-kris-bubic/"
+      ]
+    },
+    {
+      "label": "Mets",
+      "sentiment": "",
+      "context": "MLB rumors: Corey Seager willing to waive his NTC for Phillies, plus news on Mets, Nationals, Yankees, more",
+      "source_urls": [
+        "https://www.cbssports.com/mlb/news/mlb-rumors-mets-cubs-twins-guardians-kris-bubic/"
+      ]
+    }
+  ],
   "what_to_watch": [],
   "on_this_day": {},
   "player_spotlight": {
-    "name": "James Wood",
-    "text": "A towering, high-ceiling outfielder who also came to Washington in the Juan Soto trade.",
-    "image_url": "https://midfield.mlbstatic.com/v1/people/695578/spots/120",
+    "name": "MacKenzie Gore",
+    "text": "The hard-throwing left-handed starter and another key piece of the return in the Juan Soto trade.",
+    "image_url": "https://midfield.mlbstatic.com/v1/people/669022/spots/120",
     "source_urls": [
       "https://www.mlb.com/nationals/roster"
     ],
